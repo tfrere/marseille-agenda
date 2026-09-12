@@ -1,0 +1,114 @@
+name: Update agenda
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # daily, 07:17 Paris (UTC+2) / 06:17 in winter
+  workflow_dispatch:
+    inputs:
+      rediscover:
+        description: "Venue id(s) to re-discover (space separated)"
+        required: false
+        default: ""
+      regenerate:
+        description: "Venue id(s) whose schema must be regenerated (space separated)"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths: ["venues.json", "site/**", "src/**", ".github/workflows/agenda.yml"]
+
+concurrency:
+  group: agenda
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Offline tests
+        run: uv run pytest -q
+
+      - name: Run pipeline
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          ARGS=""
+          for v in ${{ github.event.inputs.rediscover }}; do ARGS="$ARGS --rediscover $v"; done
+          for v in ${{ github.event.inputs.regenerate }}; do ARGS="$ARGS --regenerate $v"; done
+          uv run marseille-agenda $ARGS 2>&1 | tee run.log
+          echo "## Run summary" >> "$GITHUB_STEP_SUMMARY"
+          uv run python -c "import json;r=json.load(open('data/report.json'));print(f\"{r['sources_ok']}/{r['sources_total']} venues ok, {r['events_published']} events ({r['events_new']} new), LLM calls: {r['llm_calls']}, rejected: checks={r['events_rejected_grounding']} verifier={r['events_rejected_verifier']} uncertain={r['events_uncertain']}\");[print('- **'+a['level']+'** '+a['venue_id']+': '+a['message']) for a in r['alerts']]" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit data
+        run: |
+          git config user.name "agenda-bot"
+          git config user.email "agenda-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "no data changes"; else
+            git commit -m "chore(data): agenda update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Open issue on errors
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          uv run python - <<'EOF'
+          import json, os, subprocess, pathlib
+          p = pathlib.Path("data/report.json")
+          if not p.exists():
+              raise SystemExit(0)
+          r = json.loads(p.read_text())
+          errors = [a for a in r["alerts"] if a["level"] == "error"]
+          if not errors:
+              raise SystemExit(0)
+          title = f"Agenda run {r['run_date']}: {len(errors)} venue(s) failed"
+          body = "\n".join(f"- **{a['venue_id']}** ({a['source_url']}): {a['message']}" for a in errors)
+          body += f"\n\nRun: {os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+          existing = subprocess.run(["gh", "issue", "list", "--label", "agenda-run", "--state", "open", "--json", "number", "-q", ".[0].number"], capture_output=True, text=True).stdout.strip()
+          if existing:
+              subprocess.run(["gh", "issue", "comment", existing, "--body", f"### {title}\n{body}"], check=False)
+          else:
+              subprocess.run(["gh", "label", "create", "agenda-run", "--force", "--color", "D93F0B"], check=False)
+              subprocess.run(["gh", "issue", "create", "--title", title, "--body", body, "--label", "agenda-run"], check=False)
+          EOF
+
+      - name: Build site
+        run: |
+          mkdir -p _site
+          cp -r site/* _site/
+          cp data/events.json data/events.ics _site/ 2>/dev/null || true
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

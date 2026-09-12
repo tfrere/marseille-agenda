@@ -1,0 +1,17 @@
+{
+  "_comment": "Add a venue = add an object with at least a name. The agent finds its agenda, writes an extraction schema (data/sources.json) and the daily run keeps data/events.json up to date. Optional: website (hint), category, map_name (PLACES.n in marseille-tes-lieux), lat/lng, enabled.",
+  "venues": [
+    {
+      "name": "Amis du Monde diplomatique",
+      "category": "milite",
+      "lat": 43.2994164,
+      "lng": 5.3858632
+    },
+    {
+      "name": "Mucem",
+      "category": "culture",
+      "lat": 43.2966941,
+      "lng": 5.3610825
+    }
+  ]
+}

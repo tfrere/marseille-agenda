@@ -1,0 +1,241 @@
+{
+ "sources": {
+  "amis-du-monde-diplomatique": {
+   "venue_id": "amis-du-monde-diplomatique",
+   "source": {
+    "url": "https://www.amis.monde-diplomatique.fr/-Marseille-.html",
+    "kind": "html",
+    "confidence": 0.9,
+    "reasoning": "seed",
+    "sample_titles": [],
+    "fallback_url": null
+   },
+   "discovered": "2026-09-12",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": "div.menu.rendezvous",
+       "exclude_selectors": [],
+       "item_selector": "li.hentry",
+       "fields": {
+        "title": {
+         "selector": "h3.entry-title a",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "div.introduction",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "h3.entry-title a",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": "div.introduction",
+         "attr": null,
+         "regex": "\\b(?:au|à la|à l'|au bar|à)\\s+((?:Grand Bar|librairie|Théâtre|Brasserie)[^,]+)",
+         "constant": null,
+         "join": null
+        },
+        "summary": {
+         "selector": "div.introduction",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Upcoming events live under 'Prochain(s) rendez-vous'; past ones are in a different block."
+      }
+     ],
+     "notes": "SPIP site of Les Amis du Monde diplomatique, Marseille group page."
+    },
+    "created": "2026-09-12",
+    "validated_against_llm": false,
+    "agreement": 0.0,
+    "generator_model": "seed",
+    "version": 1
+   },
+   "last_ok": "2026-09-12",
+   "last_error": null,
+   "last_event_count": 3,
+   "content_hash": "84c957d8f76e5d88",
+   "consecutive_failures": 0,
+   "regenerations": 0
+  },
+  "mucem": {
+   "venue_id": "mucem",
+   "source": {
+    "url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
+    "kind": "json",
+    "confidence": 0.9,
+    "reasoning": "seed",
+    "sample_titles": [],
+    "fallback_url": null
+   },
+   "discovered": "2026-09-12",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "json",
+       "items_path": "list",
+       "expand_path": "meta.sessions.event__unique",
+       "fields": {
+        "title": {
+         "selector": "item.post_title",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "date",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "time": {
+         "selector": "start_time",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "end_time": {
+         "selector": "end_time",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "item.link",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": "item.meta.practical_info.location.post_title",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": " / "
+        },
+        "event_type": {
+         "selector": "item.taxonomies.event_type.name",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": ", "
+        },
+        "free": {
+         "selector": "item.meta.free_event",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": "%Y%m%d",
+       "time_format": "%H:%M",
+       "notes": "One event per dated session. Recurring events (event__recurrent) handled by a second rule."
+      },
+      {
+       "kind": "json",
+       "items_path": "list",
+       "expand_path": null,
+       "fields": {
+        "title": {
+         "selector": "post_title",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "meta.sessions.event__recurrent.start_date",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "end_date": {
+         "selector": "meta.sessions.event__recurrent.end_date",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "time": {
+         "selector": "meta.sessions.event__recurrent.start_time",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "end_time": {
+         "selector": "meta.sessions.event__recurrent.end_time",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "link",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": "meta.practical_info.location.post_title",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": " / "
+        },
+        "free": {
+         "selector": "meta.free_event",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": "%Y%m%d",
+       "time_format": "%H:%M",
+       "notes": "Recurring events: items without event__recurrent simply fail the date field and are skipped."
+      }
+     ],
+     "notes": "Mucem WordPress API behind the Nuxt front."
+    },
+    "created": "2026-09-12",
+    "validated_against_llm": false,
+    "agreement": 0.0,
+    "generator_model": "seed",
+    "version": 1
+   },
+   "last_ok": "2026-09-12",
+   "last_error": null,
+   "last_event_count": 153,
+   "content_hash": "c08662fdf8358244",
+   "consecutive_failures": 0,
+   "regenerations": 0
+  }
+ }
+}

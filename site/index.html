@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marseille - agenda des lieux</title>
+<link rel="alternate" type="text/calendar" href="./events.ics">
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #1d1d1b; --muted: #6b6a66; --line: #e4e2dc; --cell: #ffffff; --today: #fff3c4;
+    --panel: #ffffff; --shadow: 0 10px 30px rgba(0,0,0,.12);
+    --c-culture: #c2410c; --c-milite: #b91c1c; --c-cinema: #6d28d9; --c-ateliers: #0f766e; --c-ceramique: #a16207;
+    --c-bars: #be185d; --c-mer: #0369a1; --c-sport: #15803d; --c-coop: #4d7c0f; --c-amap: #65a30d; --c-macon: #57534e; --c-autre: #475569;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151515; --fg: #ececea; --muted: #9a9993; --line: #2a2a2a; --cell: #1c1c1c; --today: #3a3410; --panel: #1f1f1f; --shadow: 0 10px 30px rgba(0,0,0,.6); }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--fg); display: flex; flex-direction: column; }
+  header { display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  header h1 { font-size: 18px; margin: 0 8px 0 0; font-weight: 650; letter-spacing: -.01em; }
+  header .month { font-size: 18px; font-weight: 600; min-width: 190px; text-transform: capitalize; }
+  button, .chip { font: inherit; border: 1px solid var(--line); background: var(--cell); color: var(--fg); border-radius: 8px; padding: 5px 10px; cursor: pointer; }
+  button:hover, .chip:hover { border-color: var(--muted); }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; }
+  .chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
+  .chip.off { opacity: .4; text-decoration: line-through; }
+  .meta { color: var(--muted); font-size: 12px; }
+  .meta a { color: inherit; }
+  main { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .ongoing { padding: 6px 16px; border-bottom: 1px solid var(--line); display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .ongoing:empty { display: none; }
+  .ongoing .label { color: var(--muted); font-size: 12px; margin-right: 4px; }
+  .grid { flex: 1; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); grid-auto-rows: minmax(0, 1fr); min-height: 0; }
+  .dow { grid-row: auto; padding: 6px 8px; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid var(--line); }
+  .grid .dow { height: 28px; }
+  .grid { grid-template-rows: 28px; }
+  .cell { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--cell); padding: 4px 6px; overflow: hidden; display: flex; flex-direction: column; min-height: 0; }
+  .cell.out { background: transparent; opacity: .5; }
+  .cell.today { background: var(--today); }
+  .cell .d { font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+  .cell.today .d { font-weight: 700; color: var(--fg); }
+  .cell .list { overflow: auto; min-height: 0; flex: 1; }
+  .ev { display: flex; gap: 5px; align-items: baseline; padding: 2px 4px; border-radius: 5px; border-left: 3px solid var(--c); background: color-mix(in srgb, var(--c) 9%, transparent); margin-bottom: 3px; cursor: pointer; font-size: 12.5px; line-height: 1.25; }
+  .ev:hover { background: color-mix(in srgb, var(--c) 20%, transparent); }
+  .ev .t { color: var(--muted); font-variant-numeric: tabular-nums; flex: none; font-size: 11.5px; }
+  .ev .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .cell { min-width: 0; }
+  .ev.cancelled .n { text-decoration: line-through; }
+  .ev.pill { display: inline-flex; margin: 0; white-space: nowrap; }
+  /* panel */
+  .panel { position: fixed; top: 0; right: 0; height: 100%; width: min(440px, 100%); background: var(--panel); box-shadow: var(--shadow); transform: translateX(105%); transition: transform .2s ease; padding: 18px 20px; overflow: auto; z-index: 10; }
+  .panel.open { transform: none; }
+  .panel h2 { margin: 26px 0 6px; font-size: 20px; line-height: 1.25; }
+  .panel .venue { color: var(--c); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+  .panel dl { display: grid; grid-template-columns: 90px 1fr; gap: 6px 10px; margin: 14px 0; }
+  .panel dt { color: var(--muted); }
+  .panel dd { margin: 0; }
+  .panel .close { position: absolute; top: 12px; right: 12px; }
+  .panel .src { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+  .panel blockquote { margin: 6px 0; padding: 6px 10px; border-left: 3px solid var(--line); font-style: italic; }
+  .panel .badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); margin-left: 6px; vertical-align: middle; }
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+  /* list view (mobile) */
+  .agenda { display: none; padding: 8px 16px 40px; overflow: auto; }
+  .agenda h3 { font-size: 13px; color: var(--muted); margin: 16px 0 6px; text-transform: capitalize; position: sticky; top: 0; background: var(--bg); padding: 4px 0; }
+  .agenda .ev { font-size: 14px; padding: 6px 8px; }
+  .agenda .ev .n { white-space: normal; }
+  @media (max-width: 760px) {
+    .grid, .ongoing { display: none; }
+    .agenda { display: block; }
+    header .month { min-width: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Marseille, agenda des lieux</h1>
+  <button id="prev" aria-label="Mois précédent">&larr;</button>
+  <div class="month" id="month"></div>
+  <button id="next" aria-label="Mois suivant">&rarr;</button>
+  <button id="today">Aujourd'hui</button>
+  <div class="chips" id="chips"></div>
+  <div class="meta" id="meta"></div>
+</header>
+<main>
+  <div class="ongoing" id="ongoing"></div>
+  <div class="grid" id="grid"></div>
+  <div class="agenda" id="agenda"></div>
+</main>
+<aside class="panel" id="panel" aria-live="polite">
+  <button class="close" id="close" aria-label="Fermer">&times;</button>
+  <div id="panelBody"></div>
+</aside>
+<script>
+(async function () {
+  const DATA_URLS = ['./events.json', '../data/events.json'];
+  const $ = (id) => document.getElementById(id);
+  const fmtMonth = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' });
+  const fmtDay = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' });
+  const fmtShort = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short' });
+  const DOW = ['lun', 'mar', 'mer', 'jeu', 'ven', 'sam', 'dim'];
+
+  let data;
+  for (const u of DATA_URLS) {
+    try { const r = await fetch(u, { cache: 'no-store' }); if (r.ok) { data = await r.json(); break; } } catch (e) { /* try next */ }
+  }
+  if (!data) { $('grid').innerHTML = '<div class="empty">events.json introuvable</div>'; return; }
+
+  const events = data.events;
+  const venues = data.venues;
+  const venueById = Object.fromEntries(venues.map(v => [v.id, v]));
+  const hidden = new Set(JSON.parse(localStorage.getItem('hiddenVenues') || '[]'));
+  const color = (e) => `var(--c-${e.category || 'autre'}, var(--c-autre))`;
+  const todayStr = data.today || new Date().toISOString().slice(0, 10);
+  let cursor = new Date(todayStr + 'T00:00:00');
+  cursor.setDate(1);
+
+  $('meta').innerHTML = `${events.length} événements, ${venues.length} lieux. Mis à jour ${new Date(data.generated_at).toLocaleString('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })}. <a href="./events.ics">ICS</a> · <a href="./events.json">JSON</a>`;
+
+  // Venue filter chips
+  for (const v of venues) {
+    const c = document.createElement('button');
+    c.className = 'chip' + (hidden.has(v.id) ? ' off' : '');
+    c.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+    c.innerHTML = `<span class="dot"></span>${v.name} <span class="meta">${v.event_count}</span>`;
+    c.onclick = () => { hidden.has(v.id) ? hidden.delete(v.id) : hidden.add(v.id); c.classList.toggle('off'); localStorage.setItem('hiddenVenues', JSON.stringify([...hidden])); render(); };
+    $('chips').appendChild(c);
+  }
+
+  const visible = () => events.filter(e => !hidden.has(e.venue_id));
+  const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
+  const timeLabel = (e) => e.start_time ? e.start_time.slice(0, 5).replace(':', 'h') : '';
+
+  function evNode(e, pill) {
+    const n = document.createElement('div');
+    n.className = 'ev' + (e.status === 'cancelled' ? ' cancelled' : '') + (pill ? ' pill' : '');
+    n.style.setProperty('--c', color(e));
+    n.title = `${e.venue_name} - ${e.title}`;
+    n.innerHTML = `${timeLabel(e) && !pill ? `<span class="t">${timeLabel(e)}</span>` : ''}<span class="n">${esc(e.title)}</span>`;
+    n.onclick = () => openPanel(e);
+    return n;
+  }
+
+  function render() {
+    const y = cursor.getFullYear(), m = cursor.getMonth();
+    $('month').textContent = fmtMonth.format(cursor);
+    const first = new Date(y, m, 1);
+    const start = addDays(first, -((first.getDay() + 6) % 7));
+    const grid = $('grid');
+    grid.innerHTML = DOW.map(d => `<div class="dow">${d}</div>`).join('');
+    const evs = visible();
+    const single = evs.filter(e => !e.recurring);
+    const multi = evs.filter(e => e.recurring);
+    const byDay = {};
+    for (const e of single) (byDay[e.start_date] ||= []).push(e);
+    const weeks = Math.ceil((((first.getDay() + 6) % 7) + new Date(y, m + 1, 0).getDate()) / 7);
+    grid.style.gridTemplateRows = `28px repeat(${weeks}, minmax(0, 1fr))`;
+    for (let i = 0; i < weeks * 7; i++) {
+      const d = addDays(start, i), k = iso(d);
+      const cell = document.createElement('div');
+      cell.className = 'cell' + (d.getMonth() !== m ? ' out' : '') + (k === todayStr ? ' today' : '');
+      cell.innerHTML = `<div class="d">${d.getDate()}</div><div class="list"></div>`;
+      const list = cell.lastChild;
+      for (const e of (byDay[k] || [])) list.appendChild(evNode(e));
+      grid.appendChild(cell);
+    }
+    // Multi-day events overlapping this month
+    const monthStart = iso(first), monthEnd = iso(new Date(y, m + 1, 0));
+    const ongoing = $('ongoing');
+    ongoing.innerHTML = '';
+    const inMonth = multi.filter(e => e.start_date <= monthEnd && (e.end_date || e.start_date) >= monthStart);
+    if (inMonth.length) {
+      ongoing.innerHTML = '<span class="label">En cours ce mois :</span>';
+      for (const e of inMonth) ongoing.appendChild(evNode(e, true));
+    }
+    // Mobile list
+    const ag = $('agenda');
+    ag.innerHTML = '';
+    const days = Object.keys(byDay).filter(k => k >= monthStart && k <= monthEnd).sort();
+    if (!days.length && !inMonth.length) ag.innerHTML = '<div class="empty">Rien ce mois-ci</div>';
+    for (const e of inMonth) ag.appendChild(evNode(e));
+    for (const k of days) {
+      const h = document.createElement('h3'); h.textContent = fmtDay.format(new Date(k + 'T00:00:00')); ag.appendChild(h);
+      for (const e of byDay[k].sort((a, b) => (a.start_time || '').localeCompare(b.start_time || ''))) ag.appendChild(evNode(e));
+    }
+  }
+
+  function openPanel(e) {
+    const v = venueById[e.venue_id] || {};
+    const when = e.recurring
+      ? `du ${fmtShort.format(new Date(e.start_date + 'T00:00:00'))} au ${fmtShort.format(new Date(e.end_date + 'T00:00:00'))}${e.start_time ? `, ${timeLabel(e)}${e.end_time ? ' - ' + e.end_time.slice(0, 5).replace(':', 'h') : ''}` : ''}`
+      : `${fmtDay.format(new Date(e.start_date + 'T00:00:00'))}${e.start_time ? ` à ${timeLabel(e)}` : ''}${e.end_time ? ` (jusqu'à ${e.end_time.slice(0, 5).replace(':', 'h')})` : ''}`;
+    const rows = [
+      ['Quand', when],
+      ['Où', [e.location_name, v.map_name && v.map_name !== e.location_name ? v.map_name : null].filter(Boolean).join(' - ') || e.venue_name],
+      e.event_type ? ['Type', e.event_type] : null,
+      e.price ? ['Prix', e.price] : null,
+      e.status !== 'scheduled' ? ['Statut', { cancelled: 'Annulé', postponed: 'Reporté', sold_out: 'Complet' }[e.status]] : null,
+      e.url ? ['Lien', `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(new URL(e.url).hostname)}</a>`] : null,
+    ].filter(Boolean);
+    const map = v.lat ? `<a href="https://tfrere.github.io/marseille-tes-lieux/#${encodeURIComponent(v.map_name || v.name)}" target="_blank" rel="noopener">voir sur la carte</a>` : '';
+    $('panelBody').innerHTML = `
+      <div class="venue" style="--c:${color(e)}">${esc(e.venue_name)}</div>
+      <h2>${esc(e.title)}</h2>
+      ${e.summary ? `<p>${esc(e.summary)}</p>` : ''}
+      <dl>${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join('')}</dl>
+      ${map}
+      <div class="src">Source : <a href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(new URL(e.source_url).hostname)}</a>
+        ${e.verifier ? `<span class="badge">vérifié</span>` : `<span class="badge">données structurées</span>`}
+        <br>Vu pour la première fois le ${new Date(e.first_seen).toLocaleDateString('fr-FR')}.
+        ${e.evidence && e.evidence.length ? `<blockquote>${esc(e.evidence[0])}</blockquote>` : ''}
+        ${e.verifier_reason ? `<div>${esc(e.verifier_reason)}</div>` : ''}
+      </div>`;
+    $('panel').classList.add('open');
+  }
+  function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+
+  $('close').onclick = () => $('panel').classList.remove('open');
+  document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape') $('panel').classList.remove('open'); if (ev.key === 'ArrowLeft') $('prev').click(); if (ev.key === 'ArrowRight') $('next').click(); });
+  $('prev').onclick = () => { cursor.setMonth(cursor.getMonth() - 1); render(); };
+  $('next').onclick = () => { cursor.setMonth(cursor.getMonth() + 1); render(); };
+  $('today').onclick = () => { cursor = new Date(todayStr + 'T00:00:00'); cursor.setDate(1); render(); };
+  render();
+})();
+</script>
+</body>
+</html>

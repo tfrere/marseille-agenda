@@ -49,6 +49,20 @@ URL:https://mucem.org/evenement/visite-multisensorielle-de-lexposition-mos
  si-la-mode-aussi/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:« LE POULET » par l’Âne Solo
+DTSTART;TZID=Europe/Paris:20260912T200000
+DTEND;TZID=Europe/Paris:20260912T220000
+UID:fb9541e6d8d2@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:Performance comico/rap « LE POULET » par l’Âne Solo à Ma
+ nifesten\, samedi 12 septembre à 20h\, entrée libre avec chapeau.\nPrix 
+ : entrée libre / chapeau\nhttps://www.facebook.com/manifesten/posts/pfbid
+ 0i5bhefrxGMgdMHjDAR2pC754JWXxf9GwGgRmFfNPjUmWpLR7AsxkANRESKaUea8pl
+LOCATION:Manifesten - MANIFESTEN
+URL:https://www.facebook.com/manifesten/posts/pfbid0i5bhefrxGMgdMHjDAR2pC7
+ 54JWXxf9GwGgRmFfNPjUmWpLR7AsxkANRESKaUea8pl
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Café-Diplo à Marseille
 DTSTART;TZID=Europe/Paris:20260915T183000
 DTEND;TZID=Europe/Paris:20260915T203000

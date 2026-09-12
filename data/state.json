@@ -4679,6 +4679,38 @@
    "last_seen": "2026-09-12",
    "lat": 43.2966941,
    "lng": 5.3610825
+  },
+  "fb9541e6d8d2": {
+   "uid": "fb9541e6d8d2",
+   "venue_id": "manifesten",
+   "venue_name": "Manifesten",
+   "category": "milite",
+   "title": "« LE POULET » par l’Âne Solo",
+   "start_date": "2026-09-12",
+   "start_time": "20:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": "MANIFESTEN",
+   "url": "https://www.facebook.com/manifesten/posts/pfbid0i5bhefrxGMgdMHjDAR2pC754JWXxf9GwGgRmFfNPjUmWpLR7AsxkANRESKaUea8pl",
+   "price": "entrée libre / chapeau",
+   "summary": "Performance comico/rap « LE POULET » par l’Âne Solo à Manifesten, samedi 12 septembre à 20h, entrée libre avec chapeau.",
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "source_url": "https://www.facebook.com/manifesten/",
+   "source_kind": "facebook",
+   "evidence": [
+    "« LE POULET » par l’Âne Solo",
+    "cours comico/rap",
+    "à MANIFESTEN -20h SAMEDI 12/09"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The flyer announces « LE POULET » par l’Âne Solo at MANIFESTEN, with « -20h SAMEDI 12/09 » and « entrée libre / chapeau »; the caption confirms « Samedi 12 septembre ». 2026-09-12 is indeed a samedi, after the 2026-09-09 publication, and nothing indicates cancellation.",
+   "first_seen": "2026-09-12",
+   "last_seen": "2026-09-12",
+   "lat": 43.2968254,
+   "lng": 5.3855235
   }
  },
  "sources": {
@@ -4893,6 +4925,28 @@
   "https://mucem.org/agenda/": {
    "url": "https://mucem.org/agenda/",
    "content_hash": "dec783fecf65eb22",
+   "last_fetched": "2026-09-12",
+   "last_ok": "2026-09-12",
+   "last_error": null,
+   "event_count": 0,
+   "uids": [],
+   "missing_runs": {}
+  },
+  "https://www.facebook.com/manifesten/": {
+   "url": "https://www.facebook.com/manifesten/",
+   "content_hash": null,
+   "last_fetched": "2026-09-12",
+   "last_ok": "2026-09-12",
+   "last_error": null,
+   "event_count": 1,
+   "uids": [
+    "fb9541e6d8d2"
+   ],
+   "missing_runs": {}
+  },
+  "https://www.facebook.com/manifesten/upcoming_hosted_events": {
+   "url": "https://www.facebook.com/manifesten/upcoming_hosted_events",
+   "content_hash": null,
    "last_fetched": "2026-09-12",
    "last_ok": "2026-09-12",
    "last_error": null,

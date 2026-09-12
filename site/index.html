@@ -231,6 +231,7 @@
       <dl>${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join('')}</dl>
       ${map}
       <div class="src">Source : <a href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(new URL(e.source_url).hostname)}</a>
+        ${{ instagram: '<span class="badge">Instagram</span>', facebook: '<span class="badge">Facebook</span>' }[e.source_kind] || ''}
         ${e.verifier ? `<span class="badge">vérifié</span>` : `<span class="badge">données structurées</span>`}
         <br>Vu pour la première fois le ${new Date(e.first_seen).toLocaleDateString('fr-FR')}.
         ${e.evidence && e.evidence.length ? `<blockquote>${esc(e.evidence[0])}</blockquote>` : ''}

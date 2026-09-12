@@ -1,5 +1,5 @@
 {
-  "_comment": "Add a venue = add an object with at least a name. The agent finds its agenda, writes an extraction schema (data/sources.json) and the daily run keeps data/events.json up to date. Optional: website (hint), category, map_name (PLACES.n in marseille-tes-lieux), lat/lng, enabled.",
+  "_comment": "Add a venue = add an object with at least a name. The agent finds its agenda, writes an extraction schema (data/sources.json) and the daily run keeps data/events.json up to date. Optional: website (hint), instagram (handle), facebook (page slug), web=false (no web agenda, social only), category, map_name (PLACES.n in marseille-tes-lieux), lat/lng, enabled.",
   "venues": [
     {
       "name": "Amis du Monde diplomatique",
@@ -17,7 +17,8 @@
       "name": "Manifesten",
       "category": "milite",
       "lat": 43.2968254,
-      "lng": 5.3855235
+      "lng": 5.3855235,
+      "facebook": "manifesten"
     }
   ]
 }

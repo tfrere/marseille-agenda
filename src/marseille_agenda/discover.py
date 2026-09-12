@@ -60,6 +60,9 @@ Rules:
    several upcoming events (dates on or after today) with titles. Put up to 5 titles in `sample_titles`.
 4. Budget: at most 6 tool calls, one at a time (no parallel batches). If a tool answers "BUDGET
    EXHAUSTED", stop and answer immediately with your best candidate and a lower confidence.
+5. Social accounts: fill `instagram` (handle) and `facebook` (page slug) when the scan's SOCIAL LINKS
+   or a search result shows the venue's own accounts. Never spend a tool call just for them; leave
+   them null when unsure. They feed a separate flyer-reading pipeline, not the source URL.
 """
 
 _AGENDA_WORDS = re.compile(r"agenda|program|event|évén|evene|calend|spectacle|concert|saison|billet|rendez|rencontre|soir|expo", re.I)
@@ -361,6 +364,27 @@ async def _probe(client: httpx.AsyncClient, base_url: str) -> tuple[str, list[st
     return "\n".join(out), html_ok
 
 
+_SOCIAL_RE = re.compile(
+    r"https?://(?:www\.)?(instagram\.com|facebook\.com)/([A-Za-z0-9_.\-]+)/?(?:\?[^\"'\s]*)?$", re.I
+)
+_SOCIAL_SKIP = {"sharer", "sharer.php", "share", "p", "reel", "explore", "events", "hashtag", "groups", "pages", "profile.php", "intent"}
+
+
+def _social_links(soup: BeautifulSoup) -> dict[str, str]:
+    """Instagram handle / Facebook page slug linked from a page (typically the footer)."""
+    out: dict[str, str] = {}
+    for a in soup.find_all("a", href=True):
+        m = _SOCIAL_RE.match(a["href"].strip())
+        if not m:
+            continue
+        site, slug = m.group(1).lower(), m.group(2)
+        if slug.lower() in _SOCIAL_SKIP:
+            continue
+        key = "instagram" if site.startswith("instagram") else "facebook"
+        out.setdefault(key, slug)
+    return out
+
+
 async def scan_site(client: httpx.AsyncClient, url: str, today: date) -> str:
     """One-shot deterministic crawl of a venue site, rendered as a compact digest."""
     try:
@@ -373,9 +397,11 @@ async def scan_site(client: httpx.AsyncClient, url: str, today: date) -> str:
     home_sig = _signals(r.text, home_text, str(r.url))
     soup = BeautifulSoup(r.text, "lxml")
     links = _agenda_links(soup, str(r.url), same_origin=True, limit=5)
+    social = _social_links(soup)
 
     parts = [
         f"HOME {r.url}\nSIGNALS: {json.dumps(home_sig, ensure_ascii=False)}\n"
+        f"SOCIAL LINKS: {json.dumps(social, ensure_ascii=False) if social else 'none'}\n"
         f"DATE SNIPPETS:\n{_date_snippets(home_text, today, limit=6)}\nEXCERPT: {home_text[:800]}"
     ]
     js_pages: list[str] = [str(r.url)] if home_sig["js_payload"] else []

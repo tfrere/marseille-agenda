@@ -1,0 +1,44 @@
+[
+  {
+    "inputUrl": "https://www.facebook.com/manifesten/upcoming_hosted_events",
+    "url": "https://www.facebook.com/events/1269179411830316/",
+    "id": "1269179411830316",
+    "name": "Assemblée générale de rentrée",
+    "eventFrequency": "SINGLE",
+    "imageUrl": "https://cdn.example.test/ag.jpg",
+    "dateTimeSentence": "Jeudi 1 octobre 2026 de 19:00 à 21:30 UTC+02",
+    "utcStartDate": "2026-10-01T17:00:00.000Z",
+    "startTime": "Thu, Oct 1 at 7:00 PM",
+    "isCanceled": false,
+    "address": "59 Rue Adolphe Thiers, 13001 Marseille",
+    "hasChildEvents": false,
+    "childEvents": [],
+    "duration": null,
+    "description": "On fait le point sur la rentrée et le programme de l'automne.\n\nOuvert à toutes et tous.",
+    "location": {"name": "Manifesten", "city": "Marseille", "placeType": "PLACE"},
+    "ticketsInfo": null,
+    "organizedBy": "Event by Manifesten",
+    "isPast": false,
+    "isOnline": false
+  },
+  {
+    "url": "https://www.facebook.com/events/1559468378412380/",
+    "id": "1559468378412380",
+    "name": "Festival des luttes",
+    "dateTimeSentence": "Nov 6 at 6:00 PM - Nov 8 at 11:59 PM UTC+01",
+    "utcStartDate": "2026-11-06T17:00:00.000Z",
+    "isCanceled": true,
+    "duration": "3 days",
+    "description": "Trois jours de tables rondes, concerts et cantine.",
+    "location": {"name": "Manifesten"},
+    "ticketsInfo": {"buyUrl": "https://example.test/billetterie", "price": "5 EUR", "title": "Tickets"},
+    "isPast": false
+  },
+  {
+    "url": "https://www.facebook.com/events/1111/",
+    "id": "1111",
+    "name": "Soirée passée",
+    "utcStartDate": "2026-08-01T18:00:00.000Z",
+    "isPast": true
+  }
+]

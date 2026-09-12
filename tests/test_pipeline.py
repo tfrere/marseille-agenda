@@ -19,6 +19,7 @@ FIXTURES = Path(__file__).parent / "fixtures"
 def _settings(tmp_path: Path) -> Settings:
     return Settings(
         openrouter_api_key=None, extractor_model="x", verifier_model="x", discover_model="x", search_model="x",
+        vision_model="x", vision_verifier_model="x", apify_token=None,
         data_dir=tmp_path, venues_file=tmp_path / "venues.json",
     )
 

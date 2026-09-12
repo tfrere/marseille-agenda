@@ -37,12 +37,22 @@ class Settings:
     """Tool-using discovery agent."""
     search_model: str
     """Cheap model used only as a carrier for OpenRouter's web-search plugin."""
+    vision_model: str
+    """Cheap vision model reading social posts (caption + flyer images)."""
+    vision_verifier_model: str
+    """Adversarial verifier for social posts: vision-capable, different family from vision_model."""
+    apify_token: str | None
+    """Apify API token; enables Instagram / Facebook sources."""
     data_dir: Path
     venues_file: Path
 
     @property
     def has_llm(self) -> bool:
         return bool(self.openrouter_api_key)
+
+    @property
+    def has_social(self) -> bool:
+        return bool(self.apify_token)
 
 
 def load_settings() -> Settings:
@@ -52,6 +62,12 @@ def load_settings() -> Settings:
         verifier_model=os.environ.get("VERIFIER_MODEL", "google/gemini-3.8-flash"),
         discover_model=os.environ.get("DISCOVER_MODEL", "anthropic/claude-sonnet-5"),
         search_model=os.environ.get("SEARCH_MODEL", "openai/gpt-5.4-mini"),
+        # Benchmarked on tests/test_live.py: Qwen3-VL reads flyers deterministically and returns the
+        # nested structure; DeepSeek V4.1 Flash drops nested lists as an extractor but is a perfect
+        # verifier (flat output). Both are ~20x cheaper than Sonnet.
+        vision_model=os.environ.get("VISION_MODEL", "qwen/qwen3-vl-32b-instruct"),
+        vision_verifier_model=os.environ.get("VISION_VERIFIER_MODEL", "deepseek/deepseek-v4.1-flash"),
+        apify_token=os.environ.get("APIFY_API_KEY") or os.environ.get("APIFY_TOKEN") or None,
         data_dir=Path(os.environ.get("DATA_DIR", ROOT / "data")),
         venues_file=Path(os.environ.get("VENUES_FILE", ROOT / "venues.json")),
     )

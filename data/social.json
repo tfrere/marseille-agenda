@@ -1,0 +1,82 @@
+{
+ "sources": {
+  "facebook:manifesten": {
+   "kind": "facebook",
+   "handle": "manifesten",
+   "url": "https://www.facebook.com/manifesten/",
+   "last_fetched": "2026-09-12",
+   "last_ok": "2026-09-12",
+   "last_error": null,
+   "consecutive_failures": 0,
+   "posts": {
+    "1660677512734544": {
+     "id": "1660677512734544",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid0i5bhefrxGMgdMHjDAR2pC754JWXxf9GwGgRmFfNPjUmWpLR7AsxkANRESKaUea8pl",
+     "published": "2026-09-09",
+     "analyzed": "2026-09-12",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "« LE POULET » par l’Âne Solo",
+       "start_date": "2026-09-12",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "MANIFESTEN",
+       "url": null,
+       "price": "entrée libre / chapeau",
+       "summary": "Performance comico/rap « LE POULET » par l’Âne Solo à Manifesten, samedi 12 septembre à 20h, entrée libre avec chapeau.",
+       "status": "scheduled",
+       "evidence": [
+        "« LE POULET » par l’Âne Solo",
+        "cours comico/rap",
+        "à MANIFESTEN -20h SAMEDI 12/09"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces « LE POULET » par l’Âne Solo at MANIFESTEN, with « -20h SAMEDI 12/09 » and « entrée libre / chapeau »; the caption confirms « Samedi 12 septembre ». 2026-09-12 is indeed a samedi, after the 2026-09-09 publication, and nothing indicates cancellation."
+      }
+     ],
+     "notes": null
+    },
+    "1660657569403205": {
+     "id": "1660657569403205",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid0HLuUJzGaSBUWX5CKdHZAT67UJpn9FKXKjo4LpWi7mEPWKP743fBBT1J6Wg622rual",
+     "published": "2026-09-09",
+     "analyzed": "2026-09-12",
+     "is_announcement": false,
+     "events": [],
+     "notes": "no caption and no readable image"
+    },
+    "1660464039422558": {
+     "id": "1660464039422558",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid0ZezXYhYAuAquPibAZQpnvV8UnsnDdv4AiPFsjPeautMwaUPShsAp9DzbfMGJG1uTl",
+     "published": "2026-09-09",
+     "analyzed": "2026-09-12",
+     "is_announcement": false,
+     "events": [],
+     "notes": "no caption and no readable image"
+    },
+    "1660374196098209": {
+     "id": "1660374196098209",
+     "url": "https://www.facebook.com/manifesten/posts/1388751939416115:1388751939416115",
+     "published": "2026-09-09",
+     "analyzed": "2026-09-12",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The event 'JAM SESSION AVEC LA PLAINE KONNEXION' is scheduled for vendredi 11/09, which is Friday, September 11, 2026. Today is samedi 2026-09-12, so the event has already occurred. Since no other events are announced in the post, there are no upcoming events to list."
+    },
+    "1660275982774697": {
+     "id": "1660275982774697",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid02Nu5G7dqZh2kdfvujtv5KBYPota6qCQ8qeQ6R2rXwbQUNQFQ1sbDj9GjdkgmjbgSxl",
+     "published": "2026-09-09",
+     "analyzed": "2026-09-12",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The event 'JAM SESSION AVEC LA PLAINE KONNEXION' is scheduled for vendredi 11/09, which is Friday, 2026-09-11. Since today is samedi 2026-09-12, the event has already occurred and is not an upcoming event. Therefore, no upcoming events are announced in this post."
+    }
+   },
+   "fb_events": []
+  }
+ }
+}

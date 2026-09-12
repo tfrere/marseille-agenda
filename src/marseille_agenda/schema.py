@@ -5,7 +5,7 @@ from __future__ import annotations
 from datetime import date, time
 from typing import Literal
 
-from pydantic import BaseModel, Field, HttpUrl
+from pydantic import BaseModel, Field, HttpUrl, field_validator
 
 EventStatus = Literal["scheduled", "cancelled", "postponed", "sold_out"]
 Verdict = Literal["accept", "reject", "uncertain"]
@@ -41,6 +41,12 @@ class ExtractedEvent(BaseModel):
         description="1 to 3 verbatim excerpts (20-300 chars each) of the source text proving title, date and time.",
     )
 
+    @field_validator("start_time", "end_time")
+    @classmethod
+    def _local_naive_time(cls, v: time | None) -> time | None:
+        # Some models answer "19:00Z"; times are local (Europe/Paris) wall-clock values.
+        return v.replace(tzinfo=None) if v is not None and v.tzinfo is not None else v
+
 
 class ExtractionResult(BaseModel):
     events: list[ExtractedEvent] = Field(default_factory=list)
@@ -59,7 +65,7 @@ class VerifierVerdict(BaseModel):
     url_ok: bool
 
 
-SourceKind = Literal["html", "json"]
+SourceKind = Literal["html", "json", "instagram", "facebook"]
 
 
 class Venue(BaseModel):
@@ -71,6 +77,9 @@ class Venue(BaseModel):
     category: str = "autre"
     map_name: str | None = Field(default=None, description="Name as used in the marseille-tes-lieux map (PLACES.n).")
     website: str | None = Field(default=None, description="Optional hint for the discovery agent.")
+    instagram: str | None = Field(default=None, description="Instagram handle or profile URL. Found by discovery when omitted.")
+    facebook: str | None = Field(default=None, description="Facebook page slug or URL. Found by discovery when omitted.")
+    web: bool = Field(default=True, description="Set to false when the venue has no web agenda at all: social sources only.")
     lat: float | None = None
     lng: float | None = None
     enabled: bool = True
@@ -166,5 +175,7 @@ class RunReport(BaseModel):
     events_uncertain: int
     alerts: list[Alert] = Field(default_factory=list)
     llm_calls: int = 0
+    posts_analyzed: int = Field(default=0, description="Social posts read by the vision model this run.")
+    apify_runs: int = Field(default=0, description="Apify actor runs this run.")
     credits_remaining_usd: float | None = Field(default=None, description="OpenRouter balance after the run.")
     run_cost_usd: float | None = Field(default=None, description="Balance delta during the run.")

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "3456789012345678901",
+    "type": "Sidecar",
+    "shortCode": "DAbCdEfGhIj",
+    "caption": "Vendredi 25 septembre à 19h : concert de soutien avec Les Fauves Sonores + DJ set. Entrée à prix libre. Infos : https://manifesten.fr/concert",
+    "url": "https://www.instagram.com/p/DAbCdEfGhIj/",
+    "displayUrl": "https://cdn.example.test/flyer-concert.jpg",
+    "images": ["https://cdn.example.test/flyer-concert.jpg"],
+    "timestamp": "2026-09-05T17:12:00.000Z",
+    "ownerUsername": "manifesten",
+    "childPosts": [
+      {"type": "Image", "displayUrl": "https://cdn.example.test/flyer-concert.jpg", "timestamp": null},
+      {"type": "Image", "displayUrl": "https://cdn.example.test/flyer-concert-2.jpg", "timestamp": null}
+    ]
+  },
+  {
+    "id": "3456789012345678902",
+    "type": "Image",
+    "shortCode": "DAbCdEfGhIk",
+    "caption": "Merci à toutes et tous pour cette belle soirée d'hier !",
+    "url": "https://www.instagram.com/p/DAbCdEfGhIk/",
+    "displayUrl": "https://cdn.example.test/recap.jpg",
+    "images": [],
+    "timestamp": "2026-09-06T09:00:00.000Z",
+    "ownerUsername": "manifesten",
+    "childPosts": []
+  },
+  {
+    "error": "not_found",
+    "errorDescription": "Page not found for one of the inputs"
+  }
+]

@@ -34,6 +34,8 @@ from .merge import expire_past, make_uid, merge_source
 from .output import load_state, save_state, write_events_json, write_ics, write_report
 from .schema import Alert, Event, RunReport, State, Venue, VenuesFile
 from .schema_gen import build_generator, generate_schema
+from .social import SocialFile, SocialRunner, load_social, save_social, venue_social_sources
+from .social_extract import build_post_extractor, build_post_verifier
 from .validate import check_event
 from .verify import build_verifier, verify_event
 
@@ -96,6 +98,7 @@ class Runner:
         self.verify = verify
         self.allow_llm = allow_llm and settings.has_llm
         self._agents: dict[str, object] = {}
+        self._social: SocialRunner | None = None
 
     def agent(self, name: str):
         if name not in self._agents:
@@ -108,7 +111,20 @@ class Runner:
                 self._agents[name] = build_verifier(make_model(s, s.verifier_model))
             elif name == "discoverer":
                 self._agents[name] = build_discoverer(make_model(s, s.discover_model))
+            elif name == "post_extractor":
+                self._agents[name] = build_post_extractor(make_model(s, s.vision_model))
+            elif name == "post_verifier":
+                self._agents[name] = build_post_verifier(make_model(s, s.vision_verifier_model))
         return self._agents[name]
+
+    @property
+    def social(self) -> SocialRunner:
+        if self._social is None:
+            llm = self.allow_llm
+            self._social = SocialRunner(self.settings, self.today, allow_llm=llm, verify=self.verify,
+                                        extractor=self.agent("post_extractor") if llm else None,
+                                        verifier=self.agent("post_verifier") if llm and self.verify else None)
+        return self._social
 
     # ------------------------------------------------------------------ LLM steps
 
@@ -280,6 +296,37 @@ class Runner:
         out.events = events
         return out
 
+    # ------------------------------------------------------------------ social sources
+
+    async def process_social(self, venue: Venue, sources: SourcesFile, social: SocialFile, state: State,
+                             client: httpx.Client, report: RunReport) -> None:
+        for src in venue_social_sources(venue, sources.sources.get(venue.id), social):
+            report.sources_total += 1
+            out = await self.social.process(venue, src, client)
+            report.llm_calls += out.llm_calls
+            report.posts_analyzed += out.posts_analyzed
+            report.apify_runs += int(out.fetched)
+            report.events_rejected_grounding += out.rejected_checks
+            report.events_rejected_verifier += out.rejected_verifier
+            report.events_uncertain += out.uncertain
+            kind = "facebook" if src.kind.startswith("facebook") else "instagram"
+            events: list[Event] = []
+            for ev, verdict, reason in out.events:
+                e = to_event(ev, venue, src.url, kind, self.today, verdict, reason)
+                prev = state.events.get(e.uid)
+                if prev is not None and prev.source_url != src.url and prev.last_seen == self.today:
+                    continue  # already published from another source this run (the website is canonical)
+                events.append(e)
+            if out.error is None:
+                report.sources_ok += 1
+            alerts = merge_source(state, src.url, venue.id, events, self.today, None, None)
+            if out.error:
+                alerts.append(Alert(level="error", venue_id=venue.id, source_url=src.url, message=out.error))
+            report.alerts.extend(alerts)
+            for n in out.notes:
+                report.alerts.append(Alert(level="warning", venue_id=venue.id, source_url=src.url, message=n))
+            log.info("[%s] %s: %d event(s), %d post(s) analysed", venue.id, src.key, len(events), out.posts_analyzed)
+
     def _empty_ok(self, record: SourceRecord, doc: SourceDocument, out: VenueOutcome) -> VenueOutcome:
         """Successful run with zero events (source confirmed empty)."""
         record.consecutive_failures = 0
@@ -302,7 +349,8 @@ class Runner:
 
     # ------------------------------------------------------------------ run
 
-    async def run(self, venues: list[Venue], sources: SourcesFile, state: State) -> RunReport:
+    async def run(self, venues: list[Venue], sources: SourcesFile, state: State,
+                  social: SocialFile | None = None) -> RunReport:
         report = RunReport(run_date=self.today, sources_total=0, sources_ok=0, sources_skipped_unchanged=0,
                            events_published=0, events_new=0, events_rejected_grounding=0,
                            events_rejected_verifier=0, events_uncertain=0)
@@ -312,21 +360,24 @@ class Runner:
             for venue in venues:
                 if not venue.enabled:
                     continue
-                report.sources_total += 1
                 log.info("[%s] %s", venue.id, venue.name)
-                outcome = await self.process_venue(venue, sources, state, client)
-                report.llm_calls += outcome.llm_calls
-                report.events_rejected_grounding += outcome.rejected_checks
-                report.events_rejected_verifier += outcome.rejected_verifier
-                report.events_uncertain += outcome.uncertain
-                record = sources.sources.get(venue.id)
-                source_url = record.source.url if record else f"venue:{venue.id}"
-                if outcome.events is not None:
-                    report.sources_ok += 1
-                report.alerts.extend(merge_source(state, source_url, venue.id, outcome.events, self.today,
-                                                  outcome.content_hash, outcome.error))
-                for n in outcome.notes:
-                    report.alerts.append(Alert(level="warning", venue_id=venue.id, source_url=source_url, message=n))
+                if venue.web:
+                    report.sources_total += 1
+                    outcome = await self.process_venue(venue, sources, state, client)
+                    report.llm_calls += outcome.llm_calls
+                    report.events_rejected_grounding += outcome.rejected_checks
+                    report.events_rejected_verifier += outcome.rejected_verifier
+                    report.events_uncertain += outcome.uncertain
+                    record = sources.sources.get(venue.id)
+                    source_url = record.source.url if record else f"venue:{venue.id}"
+                    if outcome.events is not None:
+                        report.sources_ok += 1
+                    report.alerts.extend(merge_source(state, source_url, venue.id, outcome.events, self.today,
+                                                      outcome.content_hash, outcome.error))
+                    for n in outcome.notes:
+                        report.alerts.append(Alert(level="warning", venue_id=venue.id, source_url=source_url, message=n))
+                if social is not None and self.settings.has_social:
+                    await self.process_social(venue, sources, social, state, client, report)
         state.last_run = self.today
         report.events_published = len(state.events)
         report.events_new = len(set(state.events) - before)
@@ -361,13 +412,17 @@ def main(argv: list[str] | None = None) -> int:
         if vid in sources.sources:
             sources.sources[vid].schema_record = None
     state = load_state(settings.data_dir / "state.json")
+    social = load_social(settings.data_dir / "social.json")
+    if not settings.has_social:
+        log.info("APIFY_API_KEY not set: Instagram / Facebook sources skipped")
 
     runner = Runner(settings, today, verify=not args.no_verify, allow_llm=not args.no_llm)
     credits_before = fetch_credits(settings)
     try:
-        report = asyncio.run(runner.run(venues, sources, state))
+        report = asyncio.run(runner.run(venues, sources, state, social))
     finally:
         save_sources(settings, sources)  # never lose a paid-for discovery/schema
+        save_social(settings.data_dir / "social.json", social)  # nor a paid-for post analysis
         save_state(settings.data_dir / "state.json", state)
     report.credits_remaining_usd = fetch_credits(settings)
     if credits_before is not None and report.credits_remaining_usd is not None:
@@ -377,11 +432,11 @@ def main(argv: list[str] | None = None) -> int:
     write_ics(settings.data_dir / "events.ics", state)
     write_report(settings.data_dir / "report.json", report)
 
-    log.info("done: %d/%d venues ok, %d events published (%d new), rejected checks=%d verifier=%d uncertain=%d, "
-             "llm calls=%d, run cost=%s USD, credits left=%s USD",
+    log.info("done: %d/%d sources ok, %d events published (%d new), rejected checks=%d verifier=%d uncertain=%d, "
+             "llm calls=%d, posts analysed=%d, apify runs=%d, run cost=%s USD, credits left=%s USD",
              report.sources_ok, report.sources_total, report.events_published, report.events_new,
              report.events_rejected_grounding, report.events_rejected_verifier, report.events_uncertain, report.llm_calls,
-             report.run_cost_usd, report.credits_remaining_usd)
+             report.posts_analyzed, report.apify_runs, report.run_cost_usd, report.credits_remaining_usd)
     for a in report.alerts:
         log.log(logging.ERROR if a.level == "error" else logging.WARNING, "%s: %s", a.venue_id, a.message)
     return 1 if report.sources_total and report.sources_ok == 0 else 0

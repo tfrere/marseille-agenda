@@ -88,6 +88,8 @@ class DiscoveredSource(BaseModel):
     reasoning: str = Field(description="How the source was found and why it is the best one (2-4 sentences).")
     sample_titles: list[str] = Field(default_factory=list, description="Up to 5 event titles seen in the source, for sanity checking.")
     fallback_url: str | None = Field(default=None, description="Second-best source, if any.")
+    instagram: str | None = Field(default=None, description="Instagram handle of the venue if seen during discovery (no '@', no URL).")
+    facebook: str | None = Field(default=None, description="Facebook page slug of the venue if seen during discovery (the part after facebook.com/).")
 
 
 class SourceRecord(BaseModel):

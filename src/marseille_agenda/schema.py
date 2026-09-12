@@ -166,3 +166,5 @@ class RunReport(BaseModel):
     events_uncertain: int
     alerts: list[Alert] = Field(default_factory=list)
     llm_calls: int = 0
+    credits_remaining_usd: float | None = Field(default=None, description="OpenRouter balance after the run.")
+    run_cost_usd: float | None = Field(default=None, description="Balance delta during the run.")

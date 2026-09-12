@@ -22,5 +22,7 @@
    "message": "discovery needed but LLM disabled"
   }
  ],
- "llm_calls": 0
+ "llm_calls": 0,
+ "credits_remaining_usd": null,
+ "run_cost_usd": null
 }

@@ -55,7 +55,7 @@ jobs:
           for v in ${{ github.event.inputs.regenerate }}; do ARGS="$ARGS --regenerate $v"; done
           uv run marseille-agenda $ARGS 2>&1 | tee run.log
           echo "## Run summary" >> "$GITHUB_STEP_SUMMARY"
-          uv run python -c "import json;r=json.load(open('data/report.json'));print(f\"{r['sources_ok']}/{r['sources_total']} venues ok, {r['events_published']} events ({r['events_new']} new), LLM calls: {r['llm_calls']}, rejected: checks={r['events_rejected_grounding']} verifier={r['events_rejected_verifier']} uncertain={r['events_uncertain']}\");[print('- **'+a['level']+'** '+a['venue_id']+': '+a['message']) for a in r['alerts']]" >> "$GITHUB_STEP_SUMMARY"
+          uv run python -c "import json;r=json.load(open('data/report.json'));print(f\"{r['sources_ok']}/{r['sources_total']} venues ok, {r['events_published']} events ({r['events_new']} new), LLM calls: {r['llm_calls']}, run cost: {r.get('run_cost_usd')} USD, credits left: {r.get('credits_remaining_usd')} USD, rejected: checks={r['events_rejected_grounding']} verifier={r['events_rejected_verifier']} uncertain={r['events_uncertain']}\");[print('- **'+a['level']+'** '+a['venue_id']+': '+a['message']) for a in r['alerts']]" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit data
         run: |
@@ -96,7 +96,7 @@ jobs:
         run: |
           mkdir -p _site
           cp -r site/* _site/
-          cp data/events.json data/events.ics _site/ 2>/dev/null || true
+          cp data/events.json data/events.ics data/report.json _site/ 2>/dev/null || true
           touch _site/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3

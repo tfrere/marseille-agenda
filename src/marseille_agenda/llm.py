@@ -11,6 +11,25 @@ from .config import Settings
 DETERMINISTIC = ModelSettings(temperature=0.0, max_tokens=8000)
 
 
+def fetch_credits(settings: Settings) -> float | None:
+    """Remaining OpenRouter balance in USD, or None when unavailable."""
+    if not settings.openrouter_api_key:
+        return None
+    try:
+        import httpx
+
+        r = httpx.get(
+            "https://openrouter.ai/api/v1/credits",
+            headers={"Authorization": f"Bearer {settings.openrouter_api_key}"},
+            timeout=15,
+        )
+        r.raise_for_status()
+        d = r.json()["data"]
+        return round(float(d["total_credits"]) - float(d["total_usage"]), 4)
+    except Exception:  # noqa: BLE001 - purely informational
+        return None
+
+
 def make_model(settings: Settings, name: str) -> OpenRouterModel:
     if not settings.openrouter_api_key:
         raise RuntimeError("OPENROUTER_API_KEY is not set")

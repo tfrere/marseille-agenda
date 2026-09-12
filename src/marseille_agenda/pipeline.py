@@ -29,7 +29,7 @@ from .discover import build_discoverer, discover_source
 from .extract import build_extractor
 from .extraction_schema import SchemaRecord, SourceRecord, SourcesFile
 from .fetch import SourceDocument, fetch_document, make_client
-from .llm import make_model
+from .llm import fetch_credits, make_model
 from .merge import expire_past, make_uid, merge_source
 from .output import load_state, save_state, write_events_json, write_ics, write_report
 from .schema import Alert, Event, RunReport, State, Venue, VenuesFile
@@ -328,19 +328,25 @@ def main(argv: list[str] | None = None) -> int:
     state = load_state(settings.data_dir / "state.json")
 
     runner = Runner(settings, today, verify=not args.no_verify, allow_llm=not args.no_llm)
+    credits_before = fetch_credits(settings)
     try:
         report = asyncio.run(runner.run(venues, sources, state))
     finally:
         save_sources(settings, sources)  # never lose a paid-for discovery/schema
         save_state(settings.data_dir / "state.json", state)
+    report.credits_remaining_usd = fetch_credits(settings)
+    if credits_before is not None and report.credits_remaining_usd is not None:
+        report.run_cost_usd = round(max(0.0, credits_before - report.credits_remaining_usd), 4)
 
     write_events_json(settings.data_dir / "events.json", state, load_venues(settings), today)
     write_ics(settings.data_dir / "events.ics", state)
     write_report(settings.data_dir / "report.json", report)
 
-    log.info("done: %d/%d venues ok, %d events published (%d new), rejected checks=%d verifier=%d uncertain=%d, llm calls=%d",
+    log.info("done: %d/%d venues ok, %d events published (%d new), rejected checks=%d verifier=%d uncertain=%d, "
+             "llm calls=%d, run cost=%s USD, credits left=%s USD",
              report.sources_ok, report.sources_total, report.events_published, report.events_new,
-             report.events_rejected_grounding, report.events_rejected_verifier, report.events_uncertain, report.llm_calls)
+             report.events_rejected_grounding, report.events_rejected_verifier, report.events_uncertain, report.llm_calls,
+             report.run_cost_usd, report.credits_remaining_usd)
     for a in report.alerts:
         log.log(logging.ERROR if a.level == "error" else logging.WARNING, "%s: %s", a.venue_id, a.message)
     return 1 if report.sources_total and report.sources_ok == 0 else 0

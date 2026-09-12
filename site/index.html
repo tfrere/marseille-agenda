@@ -29,6 +29,8 @@
   .chip.off { opacity: .4; text-decoration: line-through; }
   .meta { color: var(--muted); font-size: 12px; }
   .meta a { color: inherit; }
+  .credits { border-bottom: 1px dotted var(--muted); cursor: help; }
+  .credits.low { color: #b91c1c; font-weight: 600; }
   main { flex: 1; display: flex; flex-direction: column; min-height: 0; }
   .ongoing { padding: 6px 16px; border-bottom: 1px solid var(--line); display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
   .ongoing:empty { display: none; }
@@ -118,7 +120,26 @@
   let cursor = new Date(todayStr + 'T00:00:00');
   cursor.setDate(1);
 
-  $('meta').innerHTML = `${events.length} événements, ${venues.length} lieux. Mis à jour ${new Date(data.generated_at).toLocaleString('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })}. <a href="./events.ics">ICS</a> · <a href="./events.json">JSON</a>`;
+  $('meta').innerHTML = `${events.length} événements, ${venues.length} lieux. Mis à jour ${new Date(data.generated_at).toLocaleString('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })}. <a href="./events.ics">ICS</a> · <a href="./events.json">JSON</a><span id="credits"></span>`;
+
+  // Last run report: LLM credits left, cost of the run (informational tooltip).
+  for (const u of ['./report.json', '../data/report.json']) {
+    try {
+      const r = await fetch(u, { cache: 'no-store' });
+      if (!r.ok) continue;
+      const rep = await r.json();
+      if (rep.credits_remaining_usd == null) break;
+      const usd = (x) => x.toLocaleString('fr-FR', { style: 'currency', currency: 'USD', maximumFractionDigits: 2 });
+      const tip = [
+        `Crédits OpenRouter restants après le run du ${new Date(rep.run_date).toLocaleDateString('fr-FR')}`,
+        rep.run_cost_usd != null ? `Coût de ce run : ${usd(rep.run_cost_usd)} (${rep.llm_calls} appel${rep.llm_calls > 1 ? 's' : ''} LLM)` : null,
+        `${rep.sources_ok}/${rep.sources_total} lieux OK, ${rep.alerts.length} alerte${rep.alerts.length > 1 ? 's' : ''}`,
+      ].filter(Boolean).join('\n');
+      const low = rep.credits_remaining_usd < 2;
+      $('credits').innerHTML = ` · <span class="credits${low ? ' low' : ''}" title="${esc(tip)}" tabindex="0">${low ? '⚠ ' : ''}crédits LLM : ${usd(rep.credits_remaining_usd)}</span>`;
+      break;
+    } catch (e) { /* try next */ }
+  }
 
   // Venue filter chips
   for (const v of venues) {

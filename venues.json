@@ -19,6 +19,89 @@
       "lat": 43.2968254,
       "lng": 5.3855235,
       "facebook": "manifesten"
+    },
+    {
+      "name": "Friche la Belle de Mai",
+      "category": "culture",
+      "lat": 43.3105,
+      "lng": 5.3906,
+      "website": "https://www.lafriche.org/agenda/"
+    },
+    {
+      "name": "[mac] Musée d'art contemporain",
+      "category": "culture",
+      "lat": 43.2569,
+      "lng": 5.3966,
+      "website": "https://musees.marseille.fr/lagenda-des-musees?museum=musee-dart-contemporain-mac-0"
+    },
+    {
+      "name": "Le Molotov",
+      "category": "bars",
+      "lat": 43.2938,
+      "lng": 5.3835,
+      "website": "https://lemolotov.com/agenda/"
+    },
+    {
+      "name": "Mille Bâbords",
+      "category": "milite",
+      "lat": 43.3006,
+      "lng": 5.3865,
+      "website": "https://www.millebabords.org/spip.php?rubrique2"
+    },
+    {
+      "name": "CIRA Marseille",
+      "category": "milite",
+      "lat": 43.3003,
+      "lng": 5.3852,
+      "website": "https://www.cira-marseille.info/"
+    },
+    {
+      "name": "Transit librairie",
+      "category": "milite",
+      "lat": 43.3025,
+      "lng": 5.39,
+      "website": "https://transit-librairie.org/-Evenements-"
+    },
+    {
+      "name": "L'Intermédiaire",
+      "category": "bars",
+      "lat": 43.2942,
+      "lng": 5.3855,
+      "web": false,
+      "instagram": "l_intermediaire",
+      "facebook": "Intermediaire.live"
+    },
+    {
+      "name": "La Baleine",
+      "category": "cinema",
+      "lat": 43.2938,
+      "lng": 5.383,
+      "website": "https://labaleinemarseille.com/les-evenements/",
+      "instagram": "labaleinemarseille",
+      "facebook": "labaleinemarseille"
+    },
+    {
+      "name": "Les Variétés",
+      "category": "cinema",
+      "lat": 43.2965,
+      "lng": 5.378,
+      "website": "https://lesvarietes-marseille.com/FR/87/evenements-cinema-varietes-marseille.html",
+      "instagram": "cinemalesvarietes.marseille",
+      "facebook": "lesvarietesmarseille"
+    },
+    {
+      "name": "Le Gyptis",
+      "category": "cinema",
+      "lat": 43.311,
+      "lng": 5.386,
+      "website": "https://cinemalegyptis.org/seances-et-evenements/"
+    },
+    {
+      "name": "La Fabulerie",
+      "category": "culture",
+      "lat": 43.2953,
+      "lng": 5.3815,
+      "website": "https://lafabulerie.com/agenda/?type-projet=tout&localisation=marseille"
     }
   ]
 }

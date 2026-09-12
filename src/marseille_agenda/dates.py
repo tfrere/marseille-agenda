@@ -99,6 +99,8 @@ def _infer_year(month: int, day: int, today: date, weekday: str | None) -> tuple
     """Pick the year for a day/month with no year written."""
     candidates = [today.year - 1, today.year, today.year + 1]
     dated = [d for y in candidates if (d := _safe_date(y, month, day))]
+    if not dated:
+        raise DateParseError(f"{day:02d}/{month:02d} is not a valid date in {candidates}")
     if weekday:
         dated = [d for d in dated if FRENCH_WEEKDAYS[d.weekday()] == weekday]
         if not dated:

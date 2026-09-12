@@ -52,36 +52,37 @@ def html_to_text(html: str, base_url: str) -> tuple[str, list[str]]:
     links: list[str] = []
     parts: list[str] = []
 
-    def walk(node: Tag | NavigableString) -> None:
+    # Explicit stack: real-world pages nest deeper than Python's recursion limit.
+    stack: list[tuple[object, str | None]] = [(soup.body or soup, None)]
+    while stack:
+        node, closing = stack.pop()
+        if closing is not None:
+            parts.append(closing)
+            continue
         if isinstance(node, NavigableString):
             if node.parent and node.parent.name in ("[document]", "html", "head"):
-                return
+                continue
             if type(node).__name__ in ("Comment", "Doctype", "Declaration", "ProcessingInstruction"):
-                return
+                continue
             parts.append(str(node))
-            return
+            continue
         if not isinstance(node, Tag):
-            return
+            continue
         name = node.name.lower()
+        after: str | None = None
         if name in _BLOCK_TAGS:
             parts.append("\n")
+            after = "\n"
         if name == "a" and node.get("href"):
             href = urljoin(base_url, str(node["href"]).strip())
             if href.startswith("http"):
                 links.append(href)
-                for child in node.children:
-                    walk(child)
-                parts.append(f" ({href})")
-                return
-        if name in ("time",) and node.get("datetime"):
+                after = f" ({href})"
+        elif name == "time" and node.get("datetime"):
             parts.append(f" [{node['datetime']}] ")
-        for child in node.children:
-            walk(child)
-        if name in _BLOCK_TAGS:
-            parts.append("\n")
-
-    root = soup.body or soup
-    walk(root)
+        if after is not None:
+            stack.append((node, after))
+        stack.extend((child, None) for child in reversed(list(node.children)))
     text = "".join(parts)
     text = text.replace("\xa0", " ")
     text = re.sub(r"[ \t\r\f\v]+", " ", text)

@@ -19,7 +19,7 @@ import json
 import logging
 import sys
 from dataclasses import dataclass, field
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 import httpx
 
@@ -40,6 +40,8 @@ from .verify import build_verifier, verify_event
 log = logging.getLogger("marseille_agenda")
 
 FAILURES_BEFORE_REDISCOVER = 3
+EMPTY_SOURCE_RETRY_DAYS = 7
+MIN_HTML_TEXT_CHARS = 300
 
 
 def load_venues(settings: Settings) -> list[Venue]:
@@ -116,23 +118,29 @@ class Runner:
             return None
         log.info("[%s] discovering source...", venue.id)
         run = await discover_source(self.agent("discoverer"), self.settings, venue.name, venue.website, self.today)
-        out.llm_calls += run.usage().requests
+        out.llm_calls += run.usage.requests
         src = run.output
         log.info("[%s] source: %s (%s, confidence %.2f) - %s", venue.id, src.url, src.kind, src.confidence, src.reasoning)
         return SourceRecord(venue_id=venue.id, source=src, discovered=self.today)
 
-    async def generate(self, venue: Venue, record: SourceRecord, doc: SourceDocument, out: VenueOutcome) -> bool:
+    async def generate(self, venue: Venue, record: SourceRecord, doc: SourceDocument, out: VenueOutcome) -> str:
+        """Returns "ok" (schema validated and stored), "empty" (the independent reader found no
+        upcoming event on the source, so nothing can be validated) or "failed"."""
         if not self.allow_llm:
             out.notes.append("schema generation needed but LLM disabled")
-            return False
+            return "failed"
         log.info("[%s] generating extraction schema...", venue.id)
         gen = await generate_schema(self.agent("generator"), self.agent("extractor"), doc, venue.name, self.today)
         out.llm_calls += gen.llm_calls
         log.info("[%s] schema agreement %.2f (validated=%s) after %d attempt(s); reader saw %d events",
                  venue.id, gen.agreement, gen.validated, len(gen.attempts), len(gen.reference.events))
+        if not gen.validated and not gen.reference.events:
+            record.next_generation = self.today + timedelta(days=EMPTY_SOURCE_RETRY_DAYS)
+            out.notes.append(f"source lists no upcoming event yet; schema generation postponed to {record.next_generation}")
+            return "empty"
         if not gen.validated:
             out.notes.append(f"schema not validated (agreement {gen.agreement:.2f}); attempts={gen.attempts}")
-            return False
+            return "failed"
         prev = record.schema_record
         record.schema_record = SchemaRecord(
             schema=gen.schema, created=self.today, validated_against_llm=True, agreement=round(gen.agreement, 3),
@@ -140,7 +148,8 @@ class Runner:
         )
         if prev:
             record.regenerations += 1
-        return True
+        record.next_generation = None
+        return "ok"
 
     # ------------------------------------------------------------------ per venue
 
@@ -173,14 +182,26 @@ class Runner:
             return VenueOutcome(events=None, error=record.last_error, llm_calls=out.llm_calls, notes=out.notes)
         out.content_hash = doc.content_hash
 
+        # A freshly discovered HTML source with (almost) no server-rendered text is a client-side
+        # app shell: nothing can be extracted from it, and "no events" would be a false conclusion.
+        if record.schema_record is None and doc.kind == "html" and len(doc.text.strip()) < MIN_HTML_TEXT_CHARS:
+            record.consecutive_failures = FAILURES_BEFORE_REDISCOVER  # re-discover next run
+            record.last_error = f"source is a client-rendered shell ({len(doc.text.strip())} chars of text)"
+            return VenueOutcome(events=None, error=record.last_error, llm_calls=out.llm_calls, notes=out.notes)
+
         # Schema: generate if missing.
         if record.schema_record is None:
+            if record.next_generation and self.today < record.next_generation:
+                out.notes.append(f"no upcoming event on source at last check; next generation attempt {record.next_generation}")
+                return self._empty_ok(record, doc, out)
             try:
-                ok = await self.generate(venue, record, doc, out)
+                status = await self.generate(venue, record, doc, out)
             except Exception as exc:  # noqa: BLE001
                 log.exception("[%s] schema generation failed", venue.id)
-                ok, out.notes = False, out.notes + [f"generation error: {type(exc).__name__}: {exc}"]
-            if not ok:
+                status, out.notes = "failed", out.notes + [f"generation error: {type(exc).__name__}: {exc}"]
+            if status == "empty":
+                return self._empty_ok(record, doc, out)
+            if status != "ok":
                 record.consecutive_failures += 1
                 record.last_error = "schema generation failed"
                 return VenueOutcome(events=None, error=record.last_error, llm_calls=out.llm_calls, notes=out.notes)
@@ -191,15 +212,19 @@ class Runner:
         if unhealthy:
             log.warning("[%s] schema unhealthy (%s), regenerating", venue.id, unhealthy)
             out.notes.append(f"schema unhealthy: {unhealthy}")
-            regenerated = False
+            status = "failed"
             try:
-                regenerated = await self.generate(venue, record, doc, out)
+                status = await self.generate(venue, record, doc, out)
             except Exception as exc:  # noqa: BLE001
                 log.exception("[%s] regeneration failed", venue.id)
                 out.notes.append(f"regeneration error: {type(exc).__name__}: {exc}")
-            if regenerated:
+            if status == "ok":
                 res = apply_schema(record.schema_record.schema_, doc, self.today)
                 unhealthy = self._unhealthy(res, record)
+            elif status == "empty":
+                # The independent reader confirms the source currently lists nothing upcoming:
+                # the schema is fine, the agenda is just empty for now.
+                return self._empty_ok(record, doc, out)
             if unhealthy:
                 record.consecutive_failures += 1
                 record.last_error = f"unhealthy schema: {unhealthy}"
@@ -236,7 +261,7 @@ class Runner:
                     return ev, await verify_event(self.agent("verifier"), ev, doc, venue.name, self.today)
 
             for ev, vres in await asyncio.gather(*[check(ev) for ev in to_verify]):
-                out.llm_calls += vres.usage().requests
+                out.llm_calls += vres.usage.requests
                 verdict = vres.output
                 if verdict.verdict == "accept":
                     events.append(to_event(ev, venue, record.source.url, record.source.kind, self.today, "accept", verdict.reason))
@@ -253,6 +278,16 @@ class Runner:
         record.last_event_count = len(events)
         record.content_hash = doc.content_hash
         out.events = events
+        return out
+
+    def _empty_ok(self, record: SourceRecord, doc: SourceDocument, out: VenueOutcome) -> VenueOutcome:
+        """Successful run with zero events (source confirmed empty)."""
+        record.consecutive_failures = 0
+        record.last_error = None
+        record.last_ok = self.today
+        record.last_event_count = 0
+        record.content_hash = doc.content_hash
+        out.events = []
         return out
 
     @staticmethod

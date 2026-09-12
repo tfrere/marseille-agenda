@@ -17,8 +17,8 @@ from pydantic_ai.models import Model
 
 from .apply import ApplyResult, apply_schema
 from .extract import ExtractDeps, ExtractionResult, build_extractor, extract_events
-from .extraction_schema import ExtractionSchema, JsonRule
-from .fetch import SourceDocument, condense_html, document_from_body, summarize_json
+from .extraction_schema import ExtractionSchema
+from .fetch import SourceDocument, condense_html, document_from_body, summarize_json, trim_json
 from .validate import check_event, normalize, strip_accents
 
 log = logging.getLogger(__name__)
@@ -36,8 +36,10 @@ HTML sources (you receive a condensed skeleton of the page: tags, classes, ids, 
   past events, archives or news. Use `exclude_selectors` to remove such blocks otherwise.
 - `fields.title`: selector of the title node (text). `fields.date`: node whose text contains the
   date words (French wording is parsed automatically: "mardi 15 septembre à 18 h 30", "du 6 au 7
-  juin", "12 Sep 2026", ISO dates). If the date is spread over the item, use selector "" (the item).
-  If a `datetime`/`content` attribute holds a machine date, use `attr` plus `date_format`.
+  juin", "12 Sep 2026", ISO dates). Prefer the node that also carries the START TIME ("à 18 h 30",
+  "19h"): a bare "15 septembre" label loses the time. If the date is spread over the item, use
+  selector "" (the item). If a `datetime`/`content` attribute holds a machine date, use `attr`
+  plus `date_format`.
 - `fields.url`: the event link with attr "href". Add `location`, `price`, `summary` when present.
 - Use `regex` (capture group 1) to isolate a value from surrounding text.
 
@@ -71,10 +73,34 @@ def _key(title: str, d: date) -> tuple[str, date]:
     return (strip_accents(normalize(title)), d)
 
 
-def _agreement(a: set, b: set) -> float:
-    if not a and not b:
+def _agreement(got: set[tuple[str, date]], ref: set[tuple[str, date]]) -> float:
+    """How much the schema output agrees with the independent reader.
+
+    Two components, the weaker one wins:
+    - titles: Jaccard between the sets of normalized titles (did both find the same events?);
+    - dates: fraction of the reader's (title, date) pairs that the schema also produced.
+    Extra dates for a known title are not penalized: the deterministic schema expands every
+    session of a multi-date event, while the reader often lists only some of them.
+    """
+    if not got and not ref:
         return 1.0
-    return len(a & b) / len(a | b)
+    if not got or not ref:
+        return 0.0
+    got_titles, ref_titles = {t for t, _ in got}, {t for t, _ in ref}
+    titles = len(got_titles & ref_titles) / len(got_titles | ref_titles)
+    dates = len(got & ref) / len(ref)
+    return min(titles, dates)
+
+
+def _time_gaps(schema_events, reference: ExtractionResult) -> list[tuple[str, date, str]]:
+    """Matched events where the reader found a start time and the schema did not."""
+    ref_times = {_key(e.title, e.start_date): e.start_time for e in reference.events if e.start_time}
+    gaps = []
+    for ev in schema_events:
+        k = _key(ev.title, ev.start_date)
+        if k in ref_times and ev.start_time is None:
+            gaps.append((ev.title, ev.start_date, ref_times[k].strftime("%H:%M")))
+    return gaps
 
 
 def build_generator(model: Model | str) -> Agent[GenDeps, ExtractionSchema]:
@@ -98,27 +124,37 @@ def build_generator(model: Model | str) -> Agent[GenDeps, ExtractionSchema]:
         valid = [ev for ev in res_ref.events if not check_event(ev, deps.ref_doc, deps.today, check_text=ev.grounded_text)]
         got = {_key(ev.title, ev.start_date) for ev in valid}
         agreement = _agreement(got, deps.reference)
+        time_gaps = _time_gaps(valid, deps.reference_events)
         deps.attempts.append({"items": res.items_seen, "events": len(res.events), "valid": len(valid),
-                              "failures": len(res.failures), "agreement": round(agreement, 3)})
-        if deps.best is None or agreement > deps.best[0]:
-            deps.best = (agreement, schema, res)
+                              "failures": len(res.failures), "agreement": round(agreement, 3), "time_gaps": len(time_gaps)})
+        score = agreement - 0.1 * (len(time_gaps) / max(len(valid), 1))
+        if deps.best is None or score > deps.best[0]:
+            deps.best = (score, schema, res)
 
         problems: list[str] = []
+        if agreement >= MIN_AGREEMENT and len(time_gaps) > max(1, len(valid) // 2):
+            problems.append(
+                "titles and dates agree, but the schema loses the start TIME on these events while the "
+                "independent reader found one: " + "; ".join(f"{t!r} {d} at {tm}" for t, d, tm in time_gaps[:8])
+                + ". Point the `date` field at text that contains the time too (often the description "
+                "paragraph), or add a `time` field."
+            )
         if res.items_seen == 0:
             problems.append("item_selector/items_path matched nothing")
         if res.items_seen and res.failure_ratio > 0.5 and deps.reference:
             problems.append(f"{len(res.failures)}/{res.items_seen} items failed: " + " | ".join(res.failures[:6]))
         if agreement < MIN_AGREEMENT:
-            missing = deps.reference - got
-            extra = got - deps.reference
+            got_titles, ref_titles = {t for t, _ in got}, {t for t, _ in deps.reference}
+            missing = [k for k in deps.reference if k not in got]
+            extra_titles = got_titles - ref_titles
             if missing:
-                problems.append("events read by the independent reader but missed by the schema: "
+                problems.append("events read by the independent reader but missed by the schema (title + date): "
                                 + "; ".join(f"{t!r} {d}" for t, d in sorted(missing, key=lambda x: x[1])[:12]))
-            if extra:
-                problems.append("events produced by the schema but NOT seen by the independent reader "
-                                "(often past events or non-events): "
-                                + "; ".join(f"{t!r} {d}" for t, d in sorted(extra, key=lambda x: x[1])[:12]))
-            if not missing and not extra:
+            if extra_titles:
+                problems.append("titles produced by the schema but NOT seen by the independent reader "
+                                "(often past events, non-events or wrongly built titles): "
+                                + "; ".join(repr(t) for t in sorted(extra_titles)[:12]))
+            if not missing and not extra_titles:
                 problems.append("no valid upcoming events produced")
 
         if problems and ctx.retry < ctx.max_retries:
@@ -134,31 +170,16 @@ def render_source(doc: SourceDocument) -> str:
     return summarize_json(doc.raw)
 
 
-def reference_document(doc: SourceDocument, schema_hint: ExtractionSchema | None = None) -> SourceDocument:
+def reference_document(doc: SourceDocument) -> SourceDocument:
     """Document handed to the independent LLM reader.
 
-    HTML: the page itself (as text). JSON: the same payload, so both readers see identical data;
-    large payloads are trimmed to the first items of the list when a schema tells us where it is.
+    HTML: the page itself (as text). JSON: the same payload, trimmed to a smaller but still
+    valid JSON (fewer list items, clipped strings) so that the LLM reader and the schema engine
+    are compared on exactly the same data.
     """
-    if doc.kind == "html" or len(doc.raw) < 120_000:
+    if doc.kind == "html" or len(doc.raw) < 140_000:
         return doc
-    if schema_hint:
-        first = schema_hint.rules[0]
-        if isinstance(first, JsonRule):
-            try:
-                data = json.loads(doc.raw)
-                cur = data
-                parts = [p for p in first.items_path.split(".") if p]
-                for p in parts[:-1]:
-                    cur = cur[p]
-                if parts:
-                    cur[parts[-1]] = cur[parts[-1]][:8]
-                else:
-                    data = data[:8]
-                return document_from_body(doc.url, "json", json.dumps(data, ensure_ascii=False))
-            except (KeyError, TypeError, IndexError):
-                pass
-    return document_from_body(doc.url, "json", summarize_json(doc.raw, max_chars=120_000, sample_items=8))
+    return document_from_body(doc.url, "json", trim_json(doc.raw, max_chars=140_000, sample_items=8))
 
 
 @dataclass
@@ -195,10 +216,10 @@ async def generate_schema(
         + "; ".join(f"{t!r} on {d}" for t, d in sorted(reference, key=lambda x: x[1])[:6])
         + f"\n\n=== SOURCE ({doc.kind}) ===\n{render_source(doc)}\n=== END ==="
     )
-    calls = ref_run.usage().requests
+    calls = ref_run.usage.requests
     try:
         run = await generator.run(prompt, deps=deps)
-        calls += run.usage().requests
+        calls += run.usage.requests
         schema = run.output
     except Exception as exc:  # noqa: BLE001 - retries exhausted etc.
         log.warning("generator did not converge: %s", exc)

@@ -119,30 +119,49 @@ def condense_html(html: str, max_chars: int = 70_000) -> str:
     return out
 
 
+def _clip_json(data, sample_items: int, deep_items: int, markers: bool, max_str: int = 160):
+    def clip(v, depth: int):
+        if isinstance(v, dict):
+            return {k: clip(x, depth + 1) for k, x in list(v.items())[:60]}
+        if isinstance(v, list):
+            n = sample_items if depth <= 2 else deep_items
+            out = [clip(x, depth + 1) for x in v[:n]]
+            if markers and len(v) > n:
+                out.append(f"... ({len(v) - n} more items)")
+            return out
+        if isinstance(v, str) and len(v) > max_str:
+            return v[:max_str] + (f"... [{len(v)} chars]" if markers else "")
+        return v
+
+    return clip(data, 0)
+
+
 def summarize_json(raw: str, max_chars: int = 40_000, sample_items: int = 2) -> str:
-    """Compact, structure-revealing rendering of a JSON document for the LLM."""
+    """Compact, structure-revealing rendering of a JSON document for the LLM (not valid JSON if truncated)."""
     import json
 
     try:
         data = json.loads(raw)
     except json.JSONDecodeError:
         return raw[:max_chars]
-
-    def clip(v, depth: int):
-        if isinstance(v, dict):
-            return {k: clip(x, depth + 1) for k, x in list(v.items())[:60]}
-        if isinstance(v, list):
-            n = sample_items if depth <= 2 else 3
-            out = [clip(x, depth + 1) for x in v[:n]]
-            if len(v) > n:
-                out.append(f"... ({len(v) - n} more items)")
-            return out
-        if isinstance(v, str) and len(v) > 160:
-            return v[:160] + f"... [{len(v)} chars]"
-        return v
-
-    text = json.dumps(clip(data, 0), ensure_ascii=False, indent=1)
+    text = json.dumps(_clip_json(data, sample_items, 3, markers=True), ensure_ascii=False, indent=1)
     return text[:max_chars] + ("\n... [truncated]" if len(text) > max_chars else "")
+
+
+def trim_json(raw: str, max_chars: int = 100_000, sample_items: int = 8) -> str:
+    """Valid, smaller JSON with the same structure: lists shortened, long strings clipped.
+
+    Shrinks the number of kept items until the result fits `max_chars`, so both the LLM
+    reader and the schema engine can consume exactly the same document.
+    """
+    import json
+
+    data = json.loads(raw)
+    for n in (sample_items, 6, 4, 3, 2, 1):
+        text = json.dumps(_clip_json(data, n, max(3, n), markers=False, max_str=200), ensure_ascii=False)
+        if len(text) <= max_chars:
+            return text
+    return text
 
 
 def make_client() -> httpx.Client:

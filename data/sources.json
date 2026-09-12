@@ -5,10 +5,14 @@
    "source": {
     "url": "https://www.amis.monde-diplomatique.fr/-Marseille-.html",
     "kind": "html",
-    "confidence": 0.9,
-    "reasoning": "seed",
-    "sample_titles": [],
-    "fallback_url": null
+    "confidence": 0.85,
+    "reasoning": "The venue's national site has a dedicated Marseille page listing the local group's upcoming events (Café-Diplo meetings, rencontres) with dates, all after today's date 2026-09-12. This is server-rendered HTML directly showing Marseille-specific events, confirmed by scan showing dated entries for 15 Sept, 20 Oct, and 28 Oct 2026. The broader 'rencontres' page lists all cities nationally, so the Marseille-specific page is the better targeted source.",
+    "sample_titles": [
+     "Café-Diplo à Marseille (15 septembre)",
+     "Café-Diplo à Marseille (20 octobre)",
+     "Iran. Guerres, révoltes, espérances (28 octobre)"
+    ],
+    "fallback_url": "https://www.amis.monde-diplomatique.fr/spip.php?page=rencontres"
    },
    "discovered": "2026-09-12",
    "schema_record": {
@@ -16,19 +20,12 @@
      "rules": [
       {
        "kind": "html",
-       "container_selector": "div.menu.rendezvous",
+       "container_selector": ".menu.menu_articles.rendezvous",
        "exclude_selectors": [],
-       "item_selector": "li.hentry",
+       "item_selector": "ul > li.hentry",
        "fields": {
         "title": {
          "selector": "h3.entry-title a",
-         "attr": null,
-         "regex": null,
-         "constant": null,
-         "join": null
-        },
-        "date": {
-         "selector": "div.introduction",
          "attr": null,
          "regex": null,
          "constant": null,
@@ -41,15 +38,22 @@
          "constant": null,
          "join": null
         },
-        "location": {
-         "selector": "div.introduction",
+        "date": {
+         "selector": ".crayon.introduction",
          "attr": null,
-         "regex": "\\b(?:au|à la|à l'|au bar|à)\\s+((?:Grand Bar|librairie|Théâtre|Brasserie)[^,]+)",
+         "regex": "Le\\s+\\S+\\s+(\\d{1,2}\\s+\\S+(?:\\s+à\\s+\\d{1,2}\\s*h(?:\\s*\\d{2})?)?)",
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": ".rdv",
+         "attr": null,
+         "regex": null,
          "constant": null,
          "join": null
         },
         "summary": {
-         "selector": "div.introduction",
+         "selector": ".crayon.introduction",
          "attr": null,
          "regex": null,
          "constant": null,
@@ -57,15 +61,15 @@
         }
        },
        "date_format": null,
-       "notes": "Upcoming events live under 'Prochain(s) rendez-vous'; past ones are in a different block."
+       "notes": ""
       }
      ],
-     "notes": "SPIP site of Les Amis du Monde diplomatique, Marseille group page."
+     "notes": ""
     },
     "created": "2026-09-12",
-    "validated_against_llm": false,
-    "agreement": 0.0,
-    "generator_model": "seed",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
    "last_ok": "2026-09-12",
@@ -73,7 +77,34 @@
    "last_event_count": 3,
    "content_hash": "84c957d8f76e5d88",
    "consecutive_failures": 0,
-   "regenerations": 0
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "manifesten": {
+   "venue_id": "manifesten",
+   "source": {
+    "url": "https://mars-infos.org/%2B-manifesten-827-%2B",
+    "kind": "html",
+    "confidence": 0.35,
+    "reasoning": "Manifesten (an anarchist/associative space at 59 rue Thiers, Marseille) has no official website found via search; the best available independent listing is its dedicated tag page on mars-infos.org (Marseille Infos Autonomes), a local independent agenda site explicitly allowed for venues without their own site. This page lists past and upcoming events tagged 'Manifesten' (e.g. soirées de soutien, rencontres), though most visible entries on the tag page are already past (from spring/summer 2026); no future-dated event specifically tagged Manifesten was confirmed at time of check, only nearby dates like 'jeudi 16 avril' and 'samedi 28 juin'. Confidence is moderate-low because the listing mixes past/future without a clear upcoming filter, and no strictly future Manifesten-specific event title could be verified as of 2026-09-12.",
+    "sample_titles": [
+     "Rencontre avec les autrices de \"L'usine du pire\" et l'Observatoire",
+     "Soirée de soutien à la communauté squattée de Prosfygika",
+     "Soirée de soutien pour des collectifs luttant à la frontière",
+     "Soirée de lectures avec Olivia Tapieiro, Nina Cardon + scène",
+     "Rencontre avec l'auteur Victor Collet à Manifesten"
+    ],
+    "fallback_url": "https://tarpin-bien.com/lieu/manifesten/"
+   },
+   "discovered": "2026-09-12",
+   "schema_record": null,
+   "last_ok": "2026-09-12",
+   "last_error": null,
+   "last_event_count": 0,
+   "content_hash": "2b0622e3d3cf34da",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": "2026-09-19"
   },
   "mucem": {
    "venue_id": "mucem",
@@ -81,8 +112,10 @@
     "url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
     "kind": "json",
     "confidence": 0.9,
-    "reasoning": "seed",
-    "sample_titles": [],
+    "reasoning": "Web search found mucem.org as the official site. A scan revealed the Nuxt front-end fetches events client-side from /wp-json/wpnuxt/v1/posts/evenement, proxied via /api/mainApi/posts/evenement. Fetching this endpoint with upcoming=1&perPage=100 (largest page size, no page param) returned 200 JSON with a 'list' of 42 upcoming events, including full titles, dates and images, confirming it covers the whole upcoming agenda in one call.",
+    "sample_titles": [
+     "Visite libre de la statue de la Bonne Mère"
+    ],
     "fallback_url": null
    },
    "discovered": "2026-09-12",
@@ -96,6 +129,13 @@
        "fields": {
         "title": {
          "selector": "item.post_title",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "item.link",
          "attr": null,
          "regex": null,
          "constant": null,
@@ -122,26 +162,12 @@
          "constant": null,
          "join": null
         },
-        "url": {
-         "selector": "item.link",
+        "location": {
+         "selector": "item.meta.practical_info.location.0.post_title",
          "attr": null,
          "regex": null,
          "constant": null,
          "join": null
-        },
-        "location": {
-         "selector": "item.meta.practical_info.location.post_title",
-         "attr": null,
-         "regex": null,
-         "constant": null,
-         "join": " / "
-        },
-        "event_type": {
-         "selector": "item.taxonomies.event_type.name",
-         "attr": null,
-         "regex": null,
-         "constant": null,
-         "join": ", "
         },
         "free": {
          "selector": "item.meta.free_event",
@@ -153,7 +179,7 @@
        },
        "date_format": "%Y%m%d",
        "time_format": "%H:%M",
-       "notes": "One event per dated session. Recurring events (event__recurrent) handled by a second rule."
+       "notes": "Covers events whose sessions are listed as discrete unique dated occurrences."
       },
       {
        "kind": "json",
@@ -162,6 +188,13 @@
        "fields": {
         "title": {
          "selector": "post_title",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "link",
          "attr": null,
          "regex": null,
          "constant": null,
@@ -195,19 +228,12 @@
          "constant": null,
          "join": null
         },
-        "url": {
-         "selector": "link",
+        "location": {
+         "selector": "meta.practical_info.location.0.post_title",
          "attr": null,
          "regex": null,
          "constant": null,
          "join": null
-        },
-        "location": {
-         "selector": "meta.practical_info.location.post_title",
-         "attr": null,
-         "regex": null,
-         "constant": null,
-         "join": " / "
         },
         "free": {
          "selector": "meta.free_event",
@@ -219,15 +245,15 @@
        },
        "date_format": "%Y%m%d",
        "time_format": "%H:%M",
-       "notes": "Recurring events: items without event__recurrent simply fail the date field and are skipped."
+       "notes": "Covers events that only define a recurrence range (has_recurrence true) without individual unique session dates; represented as a single range event from start_date to end_date."
       }
      ],
-     "notes": "Mucem WordPress API behind the Nuxt front."
+     "notes": "Mucem events API. Root list at \"list\". Each item has meta.sessions with either event__unique (list of single dated sessions {date,start_time,end_time}) or has_recurrence true with event__recurrent {start_date,end_date,start_time,end_time,recurrence[]}. We expand event__unique to get one event per session (covers dated occurrences like the 6 upcoming events seen, e.g. visite multisensorielle recurring on several unique dates). Title, url, location, price and free come from the parent item, referenced via \"item.\" prefix. Dates in event__unique use %Y%m%d format, times %H:%M. Location is nested list at meta.practical_info.location, take first entry's post_title. Price from meta.practical_info.rates first rate value if present; free flag from meta.free_event boolean."
     },
     "created": "2026-09-12",
-    "validated_against_llm": false,
-    "agreement": 0.0,
-    "generator_model": "seed",
+    "validated_against_llm": true,
+    "agreement": 0.833,
+    "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
    "last_ok": "2026-09-12",
@@ -235,7 +261,8 @@
    "last_event_count": 153,
    "content_hash": "c08662fdf8358244",
    "consecutive_failures": 0,
-   "regenerations": 0
+   "regenerations": 0,
+   "next_generation": null
   }
  }
 }

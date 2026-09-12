@@ -102,6 +102,8 @@ class SourceRecord(BaseModel):
     content_hash: str | None = None
     consecutive_failures: int = 0
     regenerations: int = 0
+    next_generation: date | None = None
+    """When the source listed no upcoming events, schema generation is postponed until this date."""
 
 
 class SourcesFile(BaseModel):

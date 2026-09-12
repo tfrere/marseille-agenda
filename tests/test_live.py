@@ -102,7 +102,7 @@ async def test_discovery_finds_a_working_source(venue, must_contain, today):
     agent = build_discoverer(make_model(settings, settings.discover_model))
     run = await discover_source(agent, settings, venue, None, today)
     src = run.output
-    print(f"\n{venue}: {src.url} ({src.kind}, {src.confidence:.2f}) {src.reasoning}\n  samples: {src.sample_titles}\n  requests: {run.usage().requests}")
+    print(f"\n{venue}: {src.url} ({src.kind}, {src.confidence:.2f}) {src.reasoning}\n  samples: {src.sample_titles}\n  requests: {run.usage.requests}")
     assert must_contain in src.url
     doc = fetch_document(src.url, src.kind)
     assert len(doc.text) > 500

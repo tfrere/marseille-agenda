@@ -129,6 +129,37 @@ async def test_broken_schema_without_llm_keeps_state(tmp_path, offline_fetch, to
     assert any("unhealthy" in a.message for a in report.alerts)
 
 
+async def test_empty_source_is_not_an_error_and_is_retried_later(tmp_path, offline_fetch, today, monkeypatch):
+    """A discovered source that lists nothing upcoming (reader agrees) yields 0 events without
+    alerts, and generation is postponed instead of retried (and billed) every day."""
+    settings = _settings(tmp_path)
+    venue = Venue(name="Manifesten", category="milite")
+    url = "https://www.amis.monde-diplomatique.fr/-Marseille-.html"  # any fetchable body will do
+    sources = SourcesFile(sources={venue.id: SourceRecord(
+        venue_id=venue.id, source=DiscoveredSource(url=url, kind="html", confidence=0.4, reasoning="test"), discovered=today,
+    )})
+    state = State()
+    calls = []
+
+    async def fake_generate(self, v, record, doc, out):
+        calls.append(self.today)
+        record.next_generation = self.today + timedelta(days=pipeline.EMPTY_SOURCE_RETRY_DAYS)
+        return "empty"
+
+    monkeypatch.setattr(pipeline.Runner, "generate", fake_generate)
+    report = await pipeline.Runner(settings, today, allow_llm=True).run([venue], sources, state)
+    assert report.sources_ok == 1 and not report.alerts and not state.events
+    rec = sources.sources[venue.id]
+    assert rec.schema_record is None and rec.last_error is None and rec.consecutive_failures == 0
+
+    # Next day: no generation attempt at all.
+    report = await pipeline.Runner(settings, today + timedelta(days=1), allow_llm=True).run([venue], sources, state)
+    assert report.sources_ok == 1 and len(calls) == 1
+    # After the retry delay: generation is attempted again.
+    await pipeline.Runner(settings, today + timedelta(days=pipeline.EMPTY_SOURCE_RETRY_DAYS), allow_llm=True).run([venue], sources, state)
+    assert len(calls) == 2
+
+
 def test_state_roundtrip(tmp_path, offline_fetch, today):
     import asyncio
 

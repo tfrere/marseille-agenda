@@ -1,6 +1,6 @@
 {
  "run_date": "2026-09-12",
- "sources_total": 2,
+ "sources_total": 3,
  "sources_ok": 2,
  "sources_skipped_unchanged": 0,
  "events_published": 156,
@@ -8,6 +8,19 @@
  "events_rejected_grounding": 77,
  "events_rejected_verifier": 0,
  "events_uncertain": 0,
- "alerts": [],
+ "alerts": [
+  {
+   "level": "error",
+   "venue_id": "manifesten",
+   "source_url": "venue:manifesten",
+   "message": "source failed, last verified state kept: no source and discovery unavailable"
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "venue:manifesten",
+   "message": "discovery needed but LLM disabled"
+  }
+ ],
  "llm_calls": 0
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T19:30:36+02:00",
+ "generated_at": "2026-09-12T19:38:36+02:00",
  "today": "2026-09-12",
  "venues": [
   {
@@ -21,6 +21,16 @@
    "lng": 5.3610825,
    "website": null,
    "event_count": 153
+  },
+  {
+   "id": "manifesten",
+   "name": "Manifesten",
+   "map_name": "Manifesten",
+   "category": "milite",
+   "lat": 43.2968254,
+   "lng": 5.3855235,
+   "website": null,
+   "event_count": 0
   }
  ],
  "events": [

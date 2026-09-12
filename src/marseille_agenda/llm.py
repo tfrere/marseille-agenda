@@ -2,11 +2,15 @@
 
 from __future__ import annotations
 
+import logging
+
 from pydantic_ai.models.openrouter import OpenRouterModel
 from pydantic_ai.providers.openrouter import OpenRouterProvider
 from pydantic_ai.settings import ModelSettings
 
 from .config import Settings
+
+log = logging.getLogger(__name__)
 
 DETERMINISTIC = ModelSettings(temperature=0.0, max_tokens=8000)
 
@@ -26,7 +30,8 @@ def fetch_credits(settings: Settings) -> float | None:
         r.raise_for_status()
         d = r.json()["data"]
         return round(float(d["total_credits"]) - float(d["total_usage"]), 4)
-    except Exception:  # noqa: BLE001 - purely informational
+    except Exception as exc:  # noqa: BLE001 - purely informational
+        log.warning("could not fetch OpenRouter credits: %s", exc)
         return None
 
 

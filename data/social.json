@@ -77,6 +77,17 @@
     }
    },
    "fb_events": []
+  },
+  "facebook-events:manifesten": {
+   "kind": "facebook-events",
+   "handle": "manifesten",
+   "url": "https://www.facebook.com/manifesten/upcoming_hosted_events",
+   "last_fetched": "2026-09-12",
+   "last_ok": "2026-09-12",
+   "last_error": null,
+   "consecutive_failures": 0,
+   "posts": {},
+   "fb_events": []
   }
  }
 }

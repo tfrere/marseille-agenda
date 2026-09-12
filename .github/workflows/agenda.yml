@@ -65,6 +65,9 @@ jobs:
           git add data/
           if git diff --cached --quiet; then echo "no data changes"; else
             git commit -m "chore(data): agenda update $(date -u +%Y-%m-%d)"
+            # Another run (or a developer) may have pushed meanwhile: replay our data commit on top,
+            # keeping our freshly computed data on conflict.
+            git pull --rebase -X theirs origin main
             git push
           fi
 

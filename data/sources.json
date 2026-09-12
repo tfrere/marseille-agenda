@@ -75,10 +75,10 @@
     "version": 1
    },
    "last_ok": "2026-09-12",
-   "last_error": null,
+   "last_error": "fetch: [Errno 101] Network is unreachable",
    "last_event_count": 3,
    "content_hash": "84c957d8f76e5d88",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "regenerations": 0,
    "next_generation": null
   },
@@ -265,7 +265,7 @@
    "last_ok": "2026-09-12",
    "last_error": null,
    "last_event_count": 153,
-   "content_hash": "62eb2e38120edcf8",
+   "content_hash": "c08662fdf8358244",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

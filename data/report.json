@@ -1,7 +1,7 @@
 {
  "run_date": "2026-09-12",
  "sources_total": 5,
- "sources_ok": 5,
+ "sources_ok": 4,
  "sources_skipped_unchanged": 0,
  "events_published": 157,
  "events_new": 0,
@@ -9,6 +9,12 @@
  "events_rejected_verifier": 0,
  "events_uncertain": 0,
  "alerts": [
+  {
+   "level": "error",
+   "venue_id": "amis-du-monde-diplomatique",
+   "source_url": "https://www.amis.monde-diplomatique.fr/-Marseille-.html",
+   "message": "source failed, last verified state kept: fetch: [Errno 101] Network is unreachable"
+  },
   {
    "level": "warning",
    "venue_id": "manifesten",
@@ -18,7 +24,7 @@
  ],
  "llm_calls": 0,
  "posts_analyzed": 0,
- "apify_runs": 1,
+ "apify_runs": 0,
  "credits_remaining_usd": 1.0068,
  "run_cost_usd": 0.0
 }

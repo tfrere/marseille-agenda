@@ -4719,7 +4719,7 @@
    "content_hash": "84c957d8f76e5d88",
    "last_fetched": "2026-09-12",
    "last_ok": "2026-09-12",
-   "last_error": null,
+   "last_error": "fetch: [Errno 101] Network is unreachable",
    "event_count": 3,
    "uids": [
     "77c2213a5237",
@@ -4730,7 +4730,7 @@
   },
   "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100": {
    "url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
-   "content_hash": "62eb2e38120edcf8",
+   "content_hash": "c08662fdf8358244",
    "last_fetched": "2026-09-12",
    "last_ok": "2026-09-12",
    "last_error": null,

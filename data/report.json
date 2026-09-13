@@ -1,18 +1,25 @@
 {
  "run_date": "2026-09-13",
- "sources_total": 4,
- "sources_ok": 4,
+ "sources_total": 34,
+ "sources_ok": 34,
  "sources_skipped_unchanged": 0,
  "events_published": 284,
  "events_new": 0,
- "events_rejected_grounding": 0,
+ "events_rejected_grounding": 79,
  "events_rejected_verifier": 0,
  "events_uncertain": 0,
- "alerts": [],
- "llm_calls": 0,
+ "alerts": [
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
+   "message": "no upcoming event on source at last check; next generation attempt 2026-09-19"
+  }
+ ],
+ "llm_calls": 1,
  "posts_analyzed": 0,
  "apify_runs": 0,
- "images_published": 171,
+ "images_published": 186,
  "images_failed": 0,
  "credits_remaining_usd": 1.3925,
  "run_cost_usd": 0.0

@@ -8930,8 +8930,8 @@
    "evidence": [
     "[2026-09-20] (https://www.lafriche.org/evenements/journees-du-patrimoine-7/) Rencontre (https://www.lafriche.org/agenda/?categorie=rencontre) Visite (https://www.lafriche.org/agenda/?categorie=visite) Journées du Patrimoine (https://www.lafriche.org/evenements/journees-du-patrimoine-7/) Visite des c"
    ],
-   "verifier": null,
-   "verifier_reason": null,
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Journées du Patrimoine' on 'dimanche 20 septembre' [2026-09-20] with tour departure times starting at '10h / 10h30 / 14h / 14h30' at the given URL.",
    "first_seen": "2026-09-13",
    "last_seen": "2026-09-13",
    "lat": 43.3105,
@@ -9954,7 +9954,7 @@
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
    "last_error": null,
-   "event_count": 24,
+   "event_count": 25,
    "uids": [
     "101cc439dba5",
     "10a171f25df3",
@@ -9982,9 +9982,7 @@
     "de14c670a343",
     "e38f91d87ba8"
    ],
-   "missing_runs": {
-    "101cc439dba5": 1
-   }
+   "missing_runs": {}
   },
   "https://www.instagram.com/frichelabelledemai/": {
    "url": "https://www.instagram.com/frichelabelledemai/",
@@ -10040,7 +10038,7 @@
   },
   "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0": {
    "url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
-   "content_hash": "105434b59ce03265",
+   "content_hash": "95f690aa0f75e443",
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
    "last_error": null,
@@ -10095,7 +10093,7 @@
   },
   "https://www.millebabords.org/spip.php?rubrique2": {
    "url": "https://www.millebabords.org/spip.php?rubrique2",
-   "content_hash": "9034a82308cd82fd",
+   "content_hash": "0072293e6e5dc05e",
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
    "last_error": null,
@@ -10260,7 +10258,7 @@
   },
   "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html": {
    "url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
-   "content_hash": "bc7c0bfd25a215d7",
+   "content_hash": "bfff5722402a472b",
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
    "last_error": null,

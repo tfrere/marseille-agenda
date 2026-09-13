@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T13:22:59+02:00",
+ "generated_at": "2026-09-13T13:26:32+02:00",
  "today": "2026-09-13",
  "venues": [
   {
@@ -2237,8 +2237,8 @@
    "evidence": [
     "[2026-09-20] (https://www.lafriche.org/evenements/journees-du-patrimoine-7/) Rencontre (https://www.lafriche.org/agenda/?categorie=rencontre) Visite (https://www.lafriche.org/agenda/?categorie=visite) Journées du Patrimoine (https://www.lafriche.org/evenements/journees-du-patrimoine-7/) Visite des c"
    ],
-   "verifier": null,
-   "verifier_reason": null,
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Journées du Patrimoine' on 'dimanche 20 septembre' [2026-09-20] with tour departure times starting at '10h / 10h30 / 14h / 14h30' at the given URL.",
    "first_seen": "2026-09-13",
    "last_seen": "2026-09-13",
    "lat": 43.3105,

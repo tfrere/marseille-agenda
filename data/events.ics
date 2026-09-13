@@ -312,6 +312,18 @@ URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MAGR7T/rebecca.
  html
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le Grand Voyage aux Fertiles
+DTSTART;TZID=Europe/Paris:20260916T083000
+DTEND;TZID=Europe/Paris:20260916T103000
+UID:58dec5323a1e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/le-grand-voyage-aux-fertiles-re
+ ncontres/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/le-grand-voyage-aux-fertiles-rencontres
+ /
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:« Sur un fil » – Séance d’écoute avec Mediapart
 DTSTART;TZID=Europe/Paris:20260916T183000
 DTEND;TZID=Europe/Paris:20260916T203000
@@ -396,6 +408,18 @@ DESCRIPTION:Un nouveau format de sessions d'accompagnement individuel mens
  ES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/openlab/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/openlab/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rencontres partenaires :  La
+DTSTART;TZID=Europe/Paris:20260917T183000
+DTEND;TZID=Europe/Paris:20260917T203000
+UID:36053110121a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/rencontres-partenaires-la-pedag
+ ogie-en-folie/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/rencontres-partenaires-la-pedagogie-en-
+ folie/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier de préparation du bal
@@ -774,6 +798,30 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le Pop-up La Fabulerie au
+DTSTART;TZID=Europe/Paris:20260921T090000
+DTEND;TZID=Europe/Paris:20260921T110000
+UID:cd63cf5b1850@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-aux-t
+ emps-de-lenfant/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-aux-temps-de-
+ lenfant/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:L’Appart du Futur
+DTSTART;TZID=Europe/Paris:20260921T090000
+DTEND;TZID=Europe/Paris:20260921T110000
+UID:161efb022d3c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/lappart-du-futur-sinstalle-au-p
+ op-up-de-la-fabulerie/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/lappart-du-futur-sinstalle-au-pop-up-de
+ -la-fabulerie/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Marché paysan
 DTSTART;TZID=Europe/Paris:20260921T160000
 DTEND;TZID=Europe/Paris:20260921T200000
@@ -784,6 +832,18 @@ DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
   libre\nhttps://www.lafriche.org/evenements/marche-paysan/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/marche-paysan/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visites apprenantes pour les
+DTSTART;TZID=Europe/Paris:20260921T180000
+DTEND;TZID=Europe/Paris:20260921T200000
+UID:740b18e308a5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visit
+ es-apprenantes-pour-les-professionnel%c2%b7les/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visites-appre
+ nantes-pour-les-professionnel%c2%b7les/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BROWER
@@ -1146,6 +1206,16 @@ LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/lornement-dans-les-arts-de-lislam/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:VIVANT.E.S en itinérance
+DTSTART;TZID=Europe/Paris:20260930T100000
+DTEND;TZID=Europe/Paris:20260930T120000
+UID:9f66c53628b4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/vivant-e-s-en-itinerance/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/vivant-e-s-en-itinerance/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:REPRISES ACID CANNES 2026
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
@@ -1168,6 +1238,18 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/lute-guest/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:L'exposition " Bouches à
+DTSTART;TZID=Europe/Paris:20261003T000000
+DTEND;TZID=Europe/Paris:20261003T020000
+UID:a42cc86613bc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-
+ sinvite-a-la-fete-de-la-science/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-sinvite-
+ a-la-fete-de-la-science/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Le sens de la mode
 DTSTART;TZID=Europe/Paris:20261003T160000
 DTEND;TZID=Europe/Paris:20261003T173000
@@ -1187,6 +1269,18 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
  bre/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:L'exposition
+DTSTART;TZID=Europe/Paris:20261005T110000
+DTEND;TZID=Europe/Paris:20261005T130000
+UID:aadb2e51302b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-
+ sinvite-a-la-martinerie/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-sinvite-
+ a-la-martinerie/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[actoral] Avant-première de LES RECOMMENCEMENTS d'I. Ingold & V. 
@@ -1235,6 +1329,30 @@ DESCRIPTION:Prix : 13€\nhttps://lemolotov.com/events/hippie-death-cult-g
  uest/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/hippie-death-cult-guest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nadin Nadine – Toponymie\,
+DTSTART;TZID=Europe/Paris:20261007T100000
+DTEND;TZID=Europe/Paris:20261007T120000
+UID:66bf94d43bd7@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/nadin-nadine-toponymie-itineran
+ ces-cartographie-sensible/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/nadin-nadine-toponymie-itinerances-cart
+ ographie-sensible/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ateliers : Cartographier nos
+DTSTART;TZID=Europe/Paris:20261007T140000
+DTEND;TZID=Europe/Paris:20261007T160000
+UID:48ced9a87615@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/cartographier-nos-territoires-a
+ vec-nadin-nadine/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
+ n-nadine/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[happy hours] FINI DE RIRE ! L'humour politique au garde-à-vous |
@@ -1386,6 +1504,30 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/forever-nu/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:L’exposition ” Bouches à
+DTSTART;TZID=Europe/Paris:20261012T100000
+DTEND;TZID=Europe/Paris:20261012T120000
+UID:7e1480d2e413@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-
+ sinstalle-a-maison-du-parc-et-du-tourisme-des-cevennes-au-mont-lozere/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-sinstall
+ e-a-maison-du-parc-et-du-tourisme-des-cevennes-au-mont-lozere/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ateliers : Cartographier nos
+DTSTART;TZID=Europe/Paris:20261014T140000
+DTEND;TZID=Europe/Paris:20261014T160000
+UID:3bb62835e64b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/cartographier-nos-territoires-a
+ vec-nadin-nadine/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
+ n-nadine/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:REBATO
 DTSTART;TZID=Europe/Paris:20261014T180000
 DTEND;TZID=Europe/Paris:20261014T200000
@@ -1481,6 +1623,18 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire-en-ribambelle-2/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tout Petit Voyage dans le
+DTSTART;TZID=Europe/Paris:20261019T100000
+DTEND;TZID=Europe/Paris:20261019T120000
+UID:547a61298555@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/tout-petit-voyage-dans-le-monde
+ -du-vivant/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/tout-petit-voyage-dans-le-monde-du-viva
+ nt/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Les petites Variations #1 & #2
 DTSTART;TZID=Europe/Paris:20261019T153000
 DTEND;TZID=Europe/Paris:20261019T161500
@@ -1502,6 +1656,18 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/raoul-lala-operation-ccr/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visites apprenantes pour les
+DTSTART;TZID=Europe/Paris:20261020T140000
+DTEND;TZID=Europe/Paris:20261020T160000
+UID:a5601f1908de@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visit
+ es-apprenantes-pour-les-professionnel%c2%b7les/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visites-appre
+ nantes-pour-les-professionnel%c2%b7les/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Café-Diplo à Marseille
 DTSTART;TZID=Europe/Paris:20261020T183000
 DTEND;TZID=Europe/Paris:20261020T203000
@@ -1515,6 +1681,18 @@ DESCRIPTION:Le mardi 20 octobre à 18 h 30\, au Grand Bar du Chapitre\, 4
 LOCATION:Amis du Monde diplomatique - Marseille
 URL:https://www.amis.monde-diplomatique.fr/Cafe-Diplo-a-Marseille-9799.htm
  l
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exposition Allo\, à l'eau?!
+DTSTART;TZID=Europe/Paris:20261021T100000
+DTEND;TZID=Europe/Paris:20261021T120000
+UID:3e41b7d8656c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/exposition-allo-a-leau-a-la-mic
+ ro-folie-le-beausset/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/exposition-allo-a-leau-a-la-micro-folie
+ -le-beausset/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les petites Variations #1 & #2
@@ -1620,6 +1798,18 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:#ARBORESCENCE-Dav Guedin &
+DTSTART;TZID=Europe/Paris:20261026T090000
+DTEND;TZID=Europe/Paris:20261026T110000
+UID:321b2eea9f9f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/residence-artistique-emma-pujar
+ -dav-guedin/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/residence-artistique-emma-pujar-dav-gue
+ din/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Raoul Lala : Opération CCR
 DTSTART;TZID=Europe/Paris:20261027T100000
 DTEND;TZID=Europe/Paris:20261027T110000
@@ -1649,6 +1839,18 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire-en-rimbabelle/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire-en-rimbabelle/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ateliers : Cartographier nos
+DTSTART;TZID=Europe/Paris:20261028T140000
+DTEND;TZID=Europe/Paris:20261028T160000
+UID:710c5c7a625f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/cartographier-nos-territoires-a
+ vec-nadin-nadine/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
+ n-nadine/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Iran. Guerres\, révoltes\, espérances
@@ -1684,6 +1886,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/une-education-orientale/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/une-education-orientale/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Martinerie fait sa
+DTSTART;TZID=Europe/Paris:20261030T160000
+DTEND;TZID=Europe/Paris:20261030T180000
+UID:988da3266216@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/la-martinerie-fait-sa-cremaille
+ re/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/la-martinerie-fait-sa-cremaillere/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Portes ouvertes de l’exposition « Manger les images »
@@ -1741,6 +1954,18 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/visite-des-reserves-du-mucem/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Ateliers : Cartographier nos
+DTSTART;TZID=Europe/Paris:20261104T140000
+DTEND;TZID=Europe/Paris:20261104T160000
+UID:37f477895458@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/cartographier-nos-territoires-a
+ vec-nadin-nadine/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
+ n-nadine/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:THE LET’S GO’S + Guest
 DTSTART;TZID=Europe/Paris:20261105T203000
 DTEND;TZID=Europe/Paris:20261105T223000
@@ -1780,6 +2005,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/le-sens-de-la-mode/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-sens-de-la-mode/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vernissage itinérant –
+DTSTART;TZID=Europe/Paris:20261108T140000
+DTEND;TZID=Europe/Paris:20261108T160000
+UID:1fd6c6233141@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadi
+ ne/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadine/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FLY ANAKIN & QUELLE CHRIS
@@ -1875,6 +2111,18 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/gvllow-guest/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Allo\, à l’eau ?! -
+DTSTART;TZID=Europe/Paris:20261127T100000
+DTEND;TZID=Europe/Paris:20261127T120000
+UID:387b25c54250@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/allo-a-leau-exposition-sonore-a
+ -saint-germain-de-calberte/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/allo-a-leau-exposition-sonore-a-saint-g
+ ermain-de-calberte/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261128T103000
 DTEND;TZID=Europe/Paris:20261128T110000
@@ -1893,6 +2141,18 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:#Faire Famille - Machines  à
+DTSTART;TZID=Europe/Paris:20261130T090000
+DTEND;TZID=Europe/Paris:20261130T110000
+UID:4a9aff7b8a01@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://lafabulerie.com/agenda/faire-famille-machines-a-histoi
+ res-et-zelie-les-residences-de-la-martinerie/
+LOCATION:La Fabulerie
+URL:https://lafabulerie.com/agenda/faire-famille-machines-a-histoires-et-z
+ elie-les-residences-de-la-martinerie/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite de l'appartement témoin

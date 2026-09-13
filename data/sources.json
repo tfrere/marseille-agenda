@@ -915,7 +915,7 @@
   "la-fabulerie": {
    "venue_id": "la-fabulerie",
    "source": {
-    "url": "https://lafabulerie.com/agenda/?type-projet=tout&localisation=marseille",
+    "url": "https://lafabulerie.com/",
     "kind": "html",
     "confidence": 0.72,
     "reasoning": "The agenda page is server-rendered WordPress content listing upcoming events as linked cards with dates (e.g. 13/09/2026, 17/09/2026, 21/09/2026, 03/10/2026, 05/10/2026), each linking to a dedicated event page with full date/time details. No JSON API for events exists (tribe/events endpoint 404s), so this HTML listing filtered to Marseille is the best available source. No custom REST API for events was found despite probing common endpoints.",
@@ -931,14 +931,63 @@
     "facebook": "Fabulerie"
    },
    "discovered": "2026-09-13",
-   "schema_record": null,
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "a.box-evenement",
+       "fields": {
+        "title": {
+         "selector": "h3",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "div.date",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "image": {
+         "selector": "img",
+         "attr": "src",
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Induced deterministically from the repeated dated cards of the page."
+      }
+     ],
+     "notes": "Deterministic induction (no model)."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": false,
+    "agreement": 1.0,
+    "generator_model": "induction",
+    "version": 1
+   },
    "last_ok": "2026-09-13",
    "last_error": null,
-   "last_event_count": 0,
-   "content_hash": "eb0fa41905279b15",
+   "last_event_count": 22,
+   "content_hash": "eb668d41db7855d8",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": "2026-09-20"
+   "next_generation": null
   }
  }
 }

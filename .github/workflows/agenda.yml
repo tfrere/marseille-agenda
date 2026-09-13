@@ -56,13 +56,13 @@ jobs:
           for v in ${{ github.event.inputs.regenerate }}; do ARGS="$ARGS --regenerate $v"; done
           uv run marseille-agenda $ARGS 2>&1 | tee run.log
           echo "## Run summary" >> "$GITHUB_STEP_SUMMARY"
-          uv run python -c "import json;r=json.load(open('data/report.json'));print(f\"{r['sources_ok']}/{r['sources_total']} sources ok, {r['events_published']} events ({r['events_new']} new), LLM calls: {r['llm_calls']}, posts analysed: {r.get('posts_analyzed', 0)}, Apify runs: {r.get('apify_runs', 0)}, run cost: {r.get('run_cost_usd')} USD, credits left: {r.get('credits_remaining_usd')} USD, rejected: checks={r['events_rejected_grounding']} verifier={r['events_rejected_verifier']} uncertain={r['events_uncertain']}\");[print('- **'+a['level']+'** '+a['venue_id']+': '+a['message']) for a in r['alerts']]" >> "$GITHUB_STEP_SUMMARY"
+          uv run python -c "import json;r=json.load(open('data/report.json'));print(f\"{r['sources_ok']}/{r['sources_total']} sources ok, {r['events_published']} events ({r['events_new']} new), LLM calls: {r['llm_calls']}, posts analysed: {r.get('posts_analyzed', 0)}, Apify runs: {r.get('apify_runs', 0)}, images: {r.get('images_published', 0)} ({r.get('images_failed', 0)} failed), run cost: {r.get('run_cost_usd')} USD, credits left: {r.get('credits_remaining_usd')} USD, rejected: checks={r['events_rejected_grounding']} verifier={r['events_rejected_verifier']} uncertain={r['events_uncertain']}\");[print('- **'+a['level']+'** '+a['venue_id']+': '+a['message']) for a in r['alerts']]" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit data
         run: |
           git config user.name "agenda-bot"
           git config user.email "agenda-bot@users.noreply.github.com"
-          git add data/
+          git add data/ site/img/
           if git diff --cached --quiet; then echo "no data changes"; else
             git commit -m "chore(data): agenda update $(date -u +%Y-%m-%d)"
             # Another run (or a developer) may have pushed meanwhile: replay our data commit on top,

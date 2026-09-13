@@ -7,6 +7,7 @@ For each venue in venues.json:
   4. schema unhealthy     -> regenerate (LLM), then re-discover after repeated failures
   5. deterministic checks -> adversarial verifier on NEW html events only (LLM, cheap)
   6. merge into data/state.json, publish data/events.json + events.ics + report.json
+  7. cache each published event's visual as site/img/<uid>.webp (no LLM, skip with --no-images)
 
 Every LLM call is therefore conditional: an unchanged venue costs zero tokens.
 """
@@ -33,7 +34,8 @@ from .induce import induce_schema
 from .llm import fetch_credits, make_model
 from .filters import publishable
 from .merge import collapse_daily_runs, expire_past, make_uid, merge_source
-from .output import load_state, save_state, write_events_json, write_ics, write_report
+from .images import sync_images
+from .output import load_state, published_events, save_state, write_events_json, write_ics, write_report
 from .schema import Alert, Event, RunReport, State, Venue, VenuesFile
 from .schema_gen import build_generator, generate_schema
 from .social import SocialFile, SocialRunner, load_social, save_social, venue_social_sources
@@ -419,6 +421,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--rediscover", action="append", default=[], help="forget the source of these venue ids")
     parser.add_argument("--regenerate", action="append", default=[], help="forget the schema of these venue ids")
     parser.add_argument("--today", help="override today's date (YYYY-MM-DD)")
+    parser.add_argument("--no-images", action="store_true", help="skip downloading event visuals into site/img/")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -448,6 +451,14 @@ def main(argv: list[str] | None = None) -> int:
     credits_before = fetch_credits(settings)
     try:
         report = asyncio.run(runner.run(venues, sources, state, social))
+        if not args.no_images:
+            # Publication-time step, deterministic: cache each published event's visual as a WebP.
+            stats = sync_images(published_events(state), state, settings.site_dir, today)
+            report.images_published = stats.cached + stats.downloaded
+            report.images_failed = stats.failed
+            log.info("images: %s", stats.describe())
+            for (host, reason), n in stats.failures.most_common():
+                log.info("image failures: %s x%d (%s)", host, n, reason)
     finally:
         save_sources(settings, sources)  # never lose a paid-for discovery/schema
         save_social(settings.data_dir / "social.json", social)  # nor a paid-for post analysis

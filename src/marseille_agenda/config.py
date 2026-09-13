@@ -45,6 +45,8 @@ class Settings:
     """Apify API token; enables Instagram / Facebook sources."""
     data_dir: Path
     venues_file: Path
+    site_dir: Path = ROOT / "site"
+    """Static site root; event visuals are cached under `site/img/`."""
 
     @property
     def has_llm(self) -> bool:
@@ -70,4 +72,5 @@ def load_settings() -> Settings:
         apify_token=os.environ.get("APIFY_API_KEY") or os.environ.get("APIFY_TOKEN") or None,
         data_dir=Path(os.environ.get("DATA_DIR", ROOT / "data")),
         venues_file=Path(os.environ.get("VENUES_FILE", ROOT / "venues.json")),
+        site_dir=Path(os.environ.get("SITE_DIR", ROOT / "site")),
     )

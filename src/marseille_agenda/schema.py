@@ -159,6 +159,9 @@ class State(BaseModel):
     events: dict[str, Event] = Field(default_factory=dict)
     sources: dict[str, SourceState] = Field(default_factory=dict)
     last_run: date | None = None
+    image_failures: dict[str, date] = Field(default_factory=dict)
+    """Image URLs that could not be downloaded, with the day of the failure: a dead URL is
+    retried after a delay instead of every run."""
 
 
 class Alert(BaseModel):
@@ -182,5 +185,7 @@ class RunReport(BaseModel):
     llm_calls: int = 0
     posts_analyzed: int = Field(default=0, description="Social posts read by the vision model this run.")
     apify_runs: int = Field(default=0, description="Apify actor runs this run.")
+    images_published: int = Field(default=0, description="Published events with a cached visual after this run.")
+    images_failed: int = Field(default=0, description="Visuals that could not be downloaded this run.")
     credits_remaining_usd: float | None = Field(default=None, description="OpenRouter balance after the run.")
     run_cost_usd: float | None = Field(default=None, description="Balance delta during the run.")

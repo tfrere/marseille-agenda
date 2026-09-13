@@ -141,6 +141,11 @@ def parse_date_text(text: str, today: date, fmt: str | None = None) -> ParsedDat
         if d:
             if m.group(4):
                 st = time(int(m.group(4)), int(m.group(5)))
+                if st == time(0, 0):
+                    # "T00:00:00" is the all-day convention of machine dates, not a midnight start.
+                    others = [x for x in (start_time, end_time) if x and x != st]
+                    return ParsedDate(d, None, others[0] if others else None,
+                                      others[1] if len(others) > 1 else None, False, weekday)
                 others = [x for x in (start_time, end_time) if x and x != st]
                 return ParsedDate(d, None, st, others[0] if others else None, False, weekday)
             return ParsedDate(d, None, start_time, end_time, False, weekday)

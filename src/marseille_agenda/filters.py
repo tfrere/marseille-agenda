@@ -43,7 +43,7 @@ def is_special_screening(ev: _Eventish) -> bool:
 
 def publishable(venue: Venue, events: list) -> tuple[list, int]:
     """Apply the venue's category rule. Returns (kept events, number dropped)."""
-    if venue.category != "cinema":
+    if venue.category != "cinema" or venue.all_screenings:
         return events, 0
     kept = [e for e in events if is_special_screening(e)]
     return kept, len(events) - len(kept)

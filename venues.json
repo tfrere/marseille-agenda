@@ -47,7 +47,8 @@
       "category": "milite",
       "lat": 43.3006,
       "lng": 5.3865,
-      "website": "https://www.millebabords.org/spip.php?rubrique2"
+      "website": "https://www.millebabords.org/spip.php?rubrique2",
+      "location_filter": "mille b.bords|61 rue consolat"
     },
     {
       "name": "CIRA Marseille",
@@ -104,6 +105,35 @@
       "lat": 43.2953,
       "lng": 5.3815,
       "website": "https://lafabulerie.com/agenda/?type-projet=tout&localisation=marseille"
+    },
+    {
+      "name": "Vidéodrome 2",
+      "category": "cinema",
+      "lat": 43.2937,
+      "lng": 5.3826,
+      "website": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+      "instagram": "videodrome2",
+      "facebook": "videodromedeux",
+      "social": false,
+      "all_screenings": true
+    },
+    {
+      "name": "Alcazar",
+      "category": "culture",
+      "lat": 43.299,
+      "lng": 5.3767,
+      "website": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
+      "location_filter": "alcazar",
+      "social": false
+    },
+    {
+      "name": "La Colorada",
+      "category": "bars",
+      "lat": 43.3005,
+      "lng": 5.387,
+      "web": false,
+      "instagram": "lacoloradamarsella",
+      "facebook": "lacoloradamarsella"
     }
   ]
 }

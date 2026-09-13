@@ -37,6 +37,9 @@ def test_rule_only_applies_to_cinemas():
     assert (kept, dropped) == ([], 1)
     kept, dropped = publishable(Venue(name="Bar", category="bars"), [regular])
     assert (kept, dropped) == ([regular], 0)
+    # A cine-club whose whole programme is curated opts out of the rule.
+    kept, dropped = publishable(Venue(name="Ciné-club", category="cinema", all_screenings=True), [regular])
+    assert (kept, dropped) == ([regular], 0)
 
 
 def test_location_filter_keeps_events_at_the_venue_and_those_without_location():

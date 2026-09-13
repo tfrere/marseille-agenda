@@ -171,3 +171,24 @@ def test_published_events_folds_daily_copies_into_the_matching_range():
         ("Visite flash", "mucem", date(2026, 10, 26), None),
         ("Un objet, une histoire - En Ribambelle !", "mucem", date(2026, 11, 2), None),
     ]
+
+
+def test_forget_events_drops_a_venue_by_source_kind_and_cleans_source_bookkeeping():
+    from marseille_agenda.merge import forget_events
+    from marseille_agenda.schema import SourceState, State
+
+    web = _event("Concert", date(2026, 9, 19))
+    insta = _event("Concert", date(2026, 9, 20))
+    insta.source_kind = "instagram"
+    insta.source_url = "instagram:friche"
+    other = _event("Autre", date(2026, 9, 19))
+    other.venue_id = "other"
+    state = State(events={e.uid: e for e in (web, insta, other)})
+    state.sources["https://x.test/agenda/"] = SourceState(url="https://x.test/agenda/", uids=[web.uid, other.uid],
+                                                          missing_runs={web.uid: 2})
+    assert forget_events(state, "friche", {"instagram", "facebook"}) == 1
+    assert set(state.events) == {web.uid, other.uid}
+    assert forget_events(state, "friche") == 1
+    assert set(state.events) == {other.uid}
+    src = state.sources["https://x.test/agenda/"]
+    assert src.uids == [other.uid] and src.missing_runs == {}

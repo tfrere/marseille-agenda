@@ -87,6 +87,8 @@ class Venue(BaseModel):
     location_filter: str | None = Field(default=None, description="Regex (case- and accent-insensitive) an event's location must "
                                                                   "match to be published, for aggregators listing events held "
                                                                   "elsewhere. Events without a location are kept.")
+    all_screenings: bool = Field(default=False, description="Cinema venues only: publish every session instead of the special "
+                                                             "ones (cine-clubs whose whole programme is curated).")
     enabled: bool = True
 
     def model_post_init(self, __context) -> None:

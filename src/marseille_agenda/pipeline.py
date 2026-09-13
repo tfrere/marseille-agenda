@@ -38,7 +38,7 @@ from .fetch import SourceDocument, fetch_document, make_client
 from .induce import induce_schema, upcoming_date_count
 from .llm import fetch_credits, make_model
 from .filters import held_here, publishable
-from .merge import collapse_daily_runs, expire_past, make_uid, merge_source
+from .merge import collapse_daily_runs, expire_past, forget_events, make_uid, merge_source
 from .images import sync_images
 from .output import load_state, published_events, save_state, write_events_json, write_ics, write_report
 from .schema import Alert, Event, RunReport, State, Venue, VenuesFile
@@ -462,6 +462,10 @@ class Runner:
                         report.alerts.append(Alert(level="warning", venue_id=venue.id, source_url=source_url, message=n))
                 if social is not None and self.settings.has_social and venue.social:
                     await self.process_social(venue, sources, social, state, client, report)
+                elif not venue.social:
+                    gone = forget_events(state, venue.id, {"instagram", "facebook"})
+                    if gone:
+                        log.info("[%s] social disabled: %d social event(s) forgotten", venue.id, gone)
         state.last_run = self.today
         report.events_published = len(state.events)
         report.events_new = len(set(state.events) - before)
@@ -492,13 +496,18 @@ def main(argv: list[str] | None = None) -> int:
     if args.venue:
         venues = [v for v in venues if v.id in set(args.venue)]
     sources = load_sources(settings)
+    state = load_state(settings.data_dir / "state.json")
     for vid in args.rediscover:
         sources.sources.pop(vid, None)
     for vid in args.regenerate:
         if vid in sources.sources:
             sources.sources[vid].schema_record = None
             sources.sources[vid].next_generation = None
-    state = load_state(settings.data_dir / "state.json")
+    for vid in {*args.rediscover, *args.regenerate}:
+        # Events produced by the old rules are not comparable with the new ones.
+        gone = forget_events(state, vid, {"html", "json"})
+        if gone:
+            log.info("[%s] %d web event(s) forgotten before re-extraction", vid, gone)
     social = load_social(settings.data_dir / "social.json")
     if not settings.has_social:
         log.info("APIFY_API_KEY not set: Instagram / Facebook sources skipped")

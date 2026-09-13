@@ -59,3 +59,16 @@ def test_strptime_format():
 def test_no_date():
     with pytest.raises(DateParseError):
         parse_date_text("Horaires : tous les jours", TODAY)
+
+
+def test_iso_midnight_means_no_start_time():
+    from datetime import date, time
+    from marseille_agenda.dates import parse_date_text
+
+    p = parse_date_text("2026-09-18T00:00:00+00:00 vendredi 18 septembre 2026", date(2026, 9, 13))
+    assert (p.start, p.start_time) == (date(2026, 9, 18), None)
+    p = parse_date_text("2026-09-18T20:30:00+02:00", date(2026, 9, 13))
+    assert (p.start, p.start_time) == (date(2026, 9, 18), time(20, 30))
+    # A midnight machine date next to a human time keeps the human time.
+    p = parse_date_text("2026-09-18T00:00:00 de 16h00 à 17h15", date(2026, 9, 13))
+    assert p.start_time == time(16, 0)

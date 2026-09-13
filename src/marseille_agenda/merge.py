@@ -144,5 +144,23 @@ def expire_past(state: State, today: date) -> int:
     return len(gone)
 
 
+def forget_events(state: State, venue_id: str, kinds: set[str] | None = None) -> int:
+    """Drop a venue's events (optionally only those of some source kinds) from the state.
+
+    Used when the extraction rules of a venue change (schema regenerated, source rediscovered,
+    social disabled): events produced by the old rules are not comparable with the new ones,
+    so they must not linger for MISSING_RUNS_BEFORE_DROP runs.
+    """
+    gone = [uid for uid, e in state.events.items()
+            if e.venue_id == venue_id and (kinds is None or e.source_kind in kinds)]
+    for uid in gone:
+        del state.events[uid]
+        for src in state.sources.values():
+            src.missing_runs.pop(uid, None)
+            if uid in src.uids:
+                src.uids.remove(uid)
+    return len(gone)
+
+
 def _still_upcoming(e: Event, today: date) -> bool:
     return (e.end_date or e.start_date) >= today

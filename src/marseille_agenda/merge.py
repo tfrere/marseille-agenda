@@ -3,7 +3,10 @@
 from __future__ import annotations
 
 import hashlib
-from datetime import date
+from datetime import date, time, timedelta
+from typing import TypeVar
+
+from pydantic import BaseModel
 
 from .config import MISSING_RUNS_BEFORE_DROP, VOLUME_DROP_RATIO, VOLUME_GUARD_MIN_EVENTS
 from .schema import Alert, Event, SourceState, State
@@ -77,6 +80,51 @@ def merge_source(
     src.uids = sorted(uid for uid, e in state.events.items() if e.source_url == source_url)
     src.event_count = len(new_uids)
     return alerts
+
+
+MIN_DAILY_RUN = 3
+MAX_CLOSED_DAYS = 2  # weekly closing days (Monday/Tuesday) do not break a run
+E = TypeVar("E", bound=BaseModel)
+
+
+def collapse_daily_runs(events: list[E]) -> list[E]:
+    """Fold the same event repeated on consecutive days into one entry with a date range.
+
+    Agendas listed day by day (Friche la Belle de Mai, cinemas) repeat every running exhibition
+    under each date; the calendar wants one entry "from ... to ...", not one per day. Runs shorter
+    than MIN_DAILY_RUN days are left alone (a two-night concert stays two entries); gaps of up to
+    MAX_CLOSED_DAYS days (weekly closing) do not break a run. Works on the
+    events of ONE source (schema events or published events: title, dates, url, evidence).
+    """
+    groups: dict[tuple[str, str], list[E]] = {}
+    for e in events:
+        groups.setdefault((strip_accents(normalize(e.title)), e.url or ""), []).append(e)
+    out: list[E] = []
+    for group in groups.values():
+        group.sort(key=lambda e: (e.start_date, e.start_time or _MIDNIGHT))
+        run: list[E] = []
+        for e in group:
+            if run and e.start_date <= (run[-1].end_date or run[-1].start_date) + timedelta(days=MAX_CLOSED_DAYS + 1):
+                run.append(e)
+                continue
+            out.extend(_fold(run))
+            run = [e]
+        out.extend(_fold(run))
+    out.sort(key=lambda e: (e.start_date, e.start_time or _MIDNIGHT, e.title))
+    return out
+
+
+def _fold(run: list[E]) -> list[E]:
+    if len(run) < MIN_DAILY_RUN:
+        return run
+    first = run[0].model_copy(deep=True)
+    first.end_date = max((e.end_date or e.start_date) for e in run)
+    # Not a page quote: tells the verifier (and readers of events.json) where the range comes from.
+    first.evidence = [*first.evidence, f"same entry listed on every day from {first.start_date} to {first.end_date}"]
+    return [first]
+
+
+_MIDNIGHT = time(0, 0)
 
 
 def expire_past(state: State, today: date) -> int:

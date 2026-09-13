@@ -33,6 +33,12 @@ Reject when any of these holds:
 - The excerpt says the event is cancelled/postponed but the extracted status says scheduled.
 - The extracted URL is not shown next to this event in the excerpt.
 
+Do not reject for these:
+- An evidence line "same entry listed on every day from X to Y": the pipeline folded an item that
+  the page repeats under each day (running exhibition) into one range. Judge the start date and
+  the times against the excerpt; the end date needs no support there.
+- A `[YYYY-MM-DD]` marker in the excerpt: it is the machine date the page attaches to that item.
+
 Return "uncertain" when the excerpt is genuinely ambiguous (e.g. no year and no weekday to
 confirm it, or the heading context is cut off). Return "accept" only when every check passes.
 `reason` must quote the decisive words from the excerpt.

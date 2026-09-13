@@ -80,6 +80,8 @@ class Venue(BaseModel):
     instagram: str | None = Field(default=None, description="Instagram handle or profile URL. Found by discovery when omitted.")
     facebook: str | None = Field(default=None, description="Facebook page slug or URL. Found by discovery when omitted.")
     web: bool = Field(default=True, description="Set to false when the venue has no web agenda at all: social sources only.")
+    social: bool = Field(default=True, description="Set to false to ignore Instagram/Facebook for this venue, even when discovery "
+                                                   "finds handles (e.g. an account shared by several venues).")
     lat: float | None = None
     lng: float | None = None
     enabled: bool = True

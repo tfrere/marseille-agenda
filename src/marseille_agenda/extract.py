@@ -26,7 +26,9 @@ organisation in Marseille, France. The text is in French. Output structured data
 Hard rules (violations are detected automatically and the whole answer is sent back to you):
 1. COPY, never paraphrase: `title`, `evidence` and `url` must be verbatim substrings of the page.
    Keep the original casing and punctuation. Evidence quotes are 20 to 300 characters each and
-   must contain the date/time wording you relied on.
+   must contain the date/time wording you relied on. When the page groups entries under a day
+   heading ("Aujourd'hui, dimanche 13 septembre", "Mardi 15 septembre") and the entry itself
+   only shows a time ("14h-19h"), give two quotes: the day heading and the entry's own line.
 2. Only UPCOMING events: start date >= today, or multi-day events still running today.
    Ignore sections titled "passés", "archives", "précédents", "retour sur", "revoir", "vidéo",
    and anything clearly reporting on something that already happened.
@@ -86,7 +88,9 @@ def build_extractor(model: Model | str) -> Agent[ExtractDeps, ExtractionResult]:
             ]
             raise ModelRetry(
                 "Some events failed verification against the page text. Fix them (copy text verbatim, "
-                "re-check the year/weekday) or drop them, then return the full corrected list:\n" + "\n".join(lines)
+                "re-check the year/weekday) or drop them, then return the full corrected list. "
+                "For 'evidence too short': quote a longer span, e.g. the day heading that carries the date "
+                "as one quote and the entry's title/time line as another.\n" + "\n".join(lines)
             )
         deps.rejected = bad
         return ExtractionResult(events=good, notes=output.notes)

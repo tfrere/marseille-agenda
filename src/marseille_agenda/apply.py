@@ -11,7 +11,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup, Tag
 
-from .dates import DateParseError, parse_date_text
+from .dates import DateParseError, parse_date_text, parse_times
 from .extraction_schema import ExtractionSchema, FieldSpec, HtmlRule, JsonRule
 from .fetch import SourceDocument, html_to_text
 from .schema import EventStatus, ExtractedEvent
@@ -82,6 +82,52 @@ def _html_values(item: Tag, spec: FieldSpec, base_url: str) -> list[str]:
     return values
 
 
+_DATE_ATTRS = ("data-date", "datetime", "data-start", "data-start-date", "data-day", "content")
+_ISO_DAY = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
+def _iso_attribute_dates(item: Tag) -> list[str]:
+    """ISO dates carried by attributes of the item, its descendants, then its close ancestors.
+
+    Agenda pages often group events under a day and put the machine date on the group or the
+    card (`data-date="2026-09-13"`) while the card text only shows the time.
+    """
+    out: list[str] = []
+
+    def scan(node: Tag) -> None:
+        for a in _DATE_ATTRS:
+            v = node.get(a)
+            if isinstance(v, str) and (m := _ISO_DAY.search(v)):
+                out.append(m.group(0))
+
+    for node in [item, *item.find_all(True)]:
+        scan(node)
+    parent, depth = item.parent, 0
+    while isinstance(parent, Tag) and depth < 4 and not out:
+        scan(parent)
+        parent, depth = parent.parent, depth + 1
+    return out
+
+
+def _date_fallback(item: Tag, field_text: str, today: date, date_format: str | None):
+    """The selected date text has no date in it (typically just a time): look further.
+
+    A selector that only catches part of the date line is a very common generator mistake.
+    The whole item text is the next best evidence, then ISO attributes around the item; the
+    agreement check at generation time still judges the outcome.
+    """
+    try:
+        return parse_date_text(item.get_text(" ", strip=True), today, date_format)
+    except DateParseError:
+        pass
+    for iso in _iso_attribute_dates(item):
+        try:
+            return parse_date_text(f"{iso} {field_text}", today)
+        except DateParseError:
+            continue
+    raise DateParseError(f"no date in the selected text {field_text!r}, the item text or data-date/datetime attributes")
+
+
 def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyResult) -> None:
     soup = BeautifulSoup(doc.raw, "lxml")
     for sel in rule.exclude_selectors:
@@ -107,21 +153,29 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
                 raise ValueError("empty title")
             title = titles[0]
             date_values = _html_values(item, rule.fields["date"], doc.url) if "date" in rule.fields else [item.get_text(" ", strip=True)]
-            if not date_values:
-                raise ValueError("empty date")
             evidence_text, _ = html_to_text(str(item), doc.url)
             # Plain truncation (no ellipsis) so the quote stays a verbatim substring of the page.
             evidence = [re.sub(r"\s+", " ", evidence_text).strip()[:300]]
             time_text = _first(_html_values(item, rule.fields["time"], doc.url)) if "time" in rule.fields else None
             end_date_text = _first(_html_values(item, rule.fields["end_date"], doc.url)) if "end_date" in rule.fields else None
             common = _common_fields(rule, item, doc.url, lambda spec: _html_values(item, spec, doc.url))
+            parsed_dates = []
             for dv in date_values:
-                parsed = parse_date_text(dv, today, rule.date_format)
+                try:
+                    parsed_dates.append(parse_date_text(dv, today, rule.date_format))
+                except DateParseError:
+                    continue
+            if not parsed_dates:
+                # Prefer the value that looks like a time ("14h-19h") as the companion of the fallback date.
+                time_like = next((dv for dv in date_values if re.search(r"\d{1,2}\s*[h:]\s*\d{0,2}", dv)), time_text or "")
+                parsed_dates = [_date_fallback(item, time_like, today, rule.date_format)]
+            for parsed in parsed_dates:
                 start_time, end_time = parsed.start_time, parsed.end_time
                 if time_text:
-                    t2 = parse_date_text(time_text, today) if re.search(r"\d", time_text) else None
-                    if t2 and t2.start_time:
-                        start_time, end_time = t2.start_time, t2.end_time
+                    # A time field holds no date ("11h", "20:30 - 22:00"): read the times only.
+                    t_start, t_end = parse_times(time_text)
+                    if t_start:
+                        start_time, end_time = t_start, t_end
                 end_date = parsed.end
                 if end_date_text:
                     try:

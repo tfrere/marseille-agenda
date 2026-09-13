@@ -99,6 +99,62 @@ def test_amis_diplo_without_container_catches_past_events(amis_diplo_doc, today)
         assert any("past" in p for p in check_event(e, amis_diplo_doc, today))
 
 
+def test_html_date_selector_catching_only_the_time_falls_back_to_item_text(today):
+    """Seen on lemolotov.com: the generator pointed `date` at the `.time` span ('19:30')."""
+    from marseille_agenda.fetch import document_from_body
+
+    html = """<ul class="events">
+      <li class="event"><span class="date">13 Sep 2026</span> @ Le Molotov / <span class="time">19:30</span>
+        <h3><a href="https://x.test/e/1">AFTER MARY + BRIGHT SHOP</a></h3></li>
+      <li class="event"><span class="date">17 Sep 2026</span> @ Le Molotov / <span class="time">20:30</span>
+        <h3><a href="https://x.test/e/2">THEN COMES SILENCE</a></h3></li>
+    </ul>"""
+    doc = document_from_body("https://x.test/agenda/", "html", html)
+    schema = ExtractionSchema(rules=[HtmlRule(
+        item_selector="li.event",
+        fields={"title": FieldSpec(selector="h3 a"), "date": FieldSpec(selector="span.time")},
+    )])
+    res = apply_schema(schema, doc, today)
+    assert not res.failures
+    assert {(e.title, e.start_date, e.start_time) for e in res.events} == {
+        ("AFTER MARY + BRIGHT SHOP", date(2026, 9, 13), time(19, 30)),
+        ("THEN COMES SILENCE", date(2026, 9, 17), time(20, 30)),
+    }
+
+
+def test_html_date_falls_back_to_data_date_attribute_when_card_shows_only_the_time(today):
+    """Seen on lafriche.org: cards grouped by day carry data-date, their text only has '14h-19h'."""
+    from marseille_agenda.fetch import document_from_body
+
+    html = """<div class="events" data-date="2026-09-13">
+      <h2>Aujourd'hui, dimanche 13 septembre</h2>
+      <div class="event"><h3><a href="https://x.test/e/1">Expo-pause</a></h3><span class="hours">14h-19h</span></div>
+      <div class="event" data-date="2026-09-14"><h3><a href="https://x.test/e/2">Marché paysan</a></h3><span class="hours">11h</span></div>
+    </div>"""
+    doc = document_from_body("https://x.test/agenda/", "html", html)
+    schema = ExtractionSchema(rules=[HtmlRule(
+        item_selector="div.event",
+        fields={"title": FieldSpec(selector="h3 a"), "date": FieldSpec(selector="span.hours")},
+    )])
+    res = apply_schema(schema, doc, today)
+    assert not res.failures
+    expected = {
+        ("Expo-pause", date(2026, 9, 13), time(14, 0), time(19, 0)),
+        ("Marché paysan", date(2026, 9, 14), time(11, 0), None),
+    }
+    assert {(e.title, e.start_date, e.start_time, e.end_time) for e in res.events} == expected
+
+    # Same page, generator variant seen on cinemalegyptis.org: a `time` field on the hours span
+    # and a `date` selector matching nothing.
+    schema = ExtractionSchema(rules=[HtmlRule(
+        item_selector="div.event",
+        fields={"title": FieldSpec(selector="h3 a"), "date": FieldSpec(selector=".nope"), "time": FieldSpec(selector="span.hours")},
+    )])
+    res = apply_schema(schema, doc, today)
+    assert not res.failures
+    assert {(e.title, e.start_date, e.start_time, e.end_time) for e in res.events} == expected
+
+
 def test_mucem_schema(mucem_doc, today):
     res = apply_schema(MUCEM_SCHEMA, mucem_doc, today)
     titles = {e.title for e in res.events}

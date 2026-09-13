@@ -143,6 +143,12 @@ def build_generator(model: Model | str) -> Agent[GenDeps, ExtractionSchema]:
             problems.append("item_selector/items_path matched nothing")
         if res.items_seen and res.failure_ratio > 0.5 and deps.reference:
             problems.append(f"{len(res.failures)}/{res.items_seen} items failed: " + " | ".join(res.failures[:6]))
+            if sum("no date found" in f for f in res.failures) > len(res.failures) / 2:
+                problems.append(
+                    "the `date` selector points at text that holds no calendar date (usually just the time). "
+                    "Point it at the element that carries the day (or at the whole card: selector ''), or at a "
+                    "machine attribute such as data-date / datetime (selector '' + attr) when cards are grouped by day."
+                )
         if agreement < MIN_AGREEMENT:
             got_titles, ref_titles = {t for t, _ in got}, {t for t, _ in deps.reference}
             missing = [k for k in deps.reference if k not in got]
@@ -157,6 +163,8 @@ def build_generator(model: Model | str) -> Agent[GenDeps, ExtractionSchema]:
             if not missing and not extra_titles:
                 problems.append("no valid upcoming events produced")
 
+        if problems:
+            log.info("schema attempt %d: %s", len(deps.attempts), " | ".join(problems)[:1500])
         if problems and ctx.retry < ctx.max_retries:
             raise ModelRetry("Schema executed but failed validation. Fix and return the full schema.\n- " + "\n- ".join(problems))
         return schema
@@ -206,6 +214,8 @@ async def generate_schema(
     ref_run = await extract_events(extractor, ref_deps)
     reference = {_key(e.title, e.start_date) for e in ref_run.output.events}
     log.info("reference extraction: %d events (%d rejected by grounding)", len(reference), len(ref_deps.rejected))
+    for ev, problems in ref_deps.rejected[:5]:
+        log.info("reference reader rejected %r %s: %s", ev.title, ev.start_date, "; ".join(problems)[:300])
 
     # 2. Generate + validate.
     deps = GenDeps(doc=doc, ref_doc=ref_doc, today=today, venue_name=venue_name, reference=reference,

@@ -1,5 +1,5 @@
 {
-  "_comment": "Add a venue = add an object with at least a name. The agent finds its agenda, writes an extraction schema (data/sources.json) and the daily run keeps data/events.json up to date. Optional: website (hint), instagram (handle), facebook (page slug), web=false (no web agenda, social only), category, map_name (PLACES.n in marseille-tes-lieux), lat/lng, enabled.",
+  "_comment": "Add a venue = add an object with at least a name. The agent finds its agenda, writes an extraction schema (data/sources.json) and the daily run keeps data/events.json up to date. Optional: website (hint), instagram (handle), facebook (page slug), web=false (no web agenda, social only), social=false (ignore Instagram/Facebook even if discovered), category, map_name (PLACES.n in marseille-tes-lieux), lat/lng, enabled.",
   "venues": [
     {
       "name": "Amis du Monde diplomatique",
@@ -32,7 +32,8 @@
       "category": "culture",
       "lat": 43.2569,
       "lng": 5.3966,
-      "website": "https://musees.marseille.fr/lagenda-des-musees?museum=musee-dart-contemporain-mac-0"
+      "website": "https://musees.marseille.fr/lagenda-des-musees?museum=musee-dart-contemporain-mac-0",
+      "social": false
     },
     {
       "name": "Le Molotov",
@@ -78,7 +79,8 @@
       "lng": 5.383,
       "website": "https://labaleinemarseille.com/les-evenements/",
       "instagram": "labaleinemarseille",
-      "facebook": "labaleinemarseille"
+      "facebook": "labaleinemarseille",
+      "web": false
     },
     {
       "name": "Les Variétés",

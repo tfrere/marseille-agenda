@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 USER_AGENT = "Mozilla/5.0 (compatible; marseille-agenda/0.1; +https://github.com/tfrere/marseille-agenda)"
 
 # Elements whose text never describes an event and only adds noise for the model.
+_ISO_DAY = re.compile(r"\d{4}-\d{2}-\d{2}")
 _DROP_TAGS = {"script", "style", "noscript", "svg", "iframe", "select", "option", "form", "button", "template"}
 _BLOCK_TAGS = {
     "p", "div", "section", "article", "header", "footer", "nav", "aside", "main",
@@ -80,6 +81,10 @@ def html_to_text(html: str, base_url: str) -> tuple[str, list[str]]:
                 after = f" ({href})"
         elif name == "time" and node.get("datetime"):
             parts.append(f" [{node['datetime']}] ")
+        elif isinstance(dd := node.get("data-date"), str) and _ISO_DAY.search(dd):
+            # Agenda cards grouped by day often carry the machine date here while their text
+            # only shows a time: surface it so readers, schemas and the verifier all see it.
+            parts.append(f" [{dd.strip()}] ")
         if after is not None:
             stack.append((node, after))
         stack.extend((child, None) for child in reversed(list(node.children)))

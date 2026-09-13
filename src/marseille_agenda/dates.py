@@ -84,7 +84,8 @@ def _safe_date(y: int, m: int, d: int) -> date | None:
         return None
 
 
-def _times(text: str) -> tuple[time | None, time | None]:
+def parse_times(text: str) -> tuple[time | None, time | None]:
+    """Start and end times written in `text` ("14h-19h", "20:30"), without any date."""
     found: list[time] = []
     for m in _TIME.finditer(text):
         h, mi = int(m.group(1)), int(m.group(2) or 0)
@@ -132,7 +133,7 @@ def parse_date_text(text: str, today: date, fmt: str | None = None) -> ParsedDat
     t = _norm(raw)
     wd_match = _WEEKDAY_WORD.search(t)
     weekday = wd_match.group(1) if wd_match else None
-    start_time, end_time = _times(t)
+    start_time, end_time = parse_times(t)
 
     m = _ISO.search(t)
     if m:

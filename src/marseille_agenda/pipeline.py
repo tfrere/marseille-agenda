@@ -30,7 +30,7 @@ from .extract import build_extractor
 from .extraction_schema import SchemaRecord, SourceRecord, SourcesFile
 from .fetch import SourceDocument, fetch_document, make_client
 from .llm import fetch_credits, make_model
-from .merge import expire_past, make_uid, merge_source
+from .merge import collapse_daily_runs, expire_past, make_uid, merge_source
 from .output import load_state, save_state, write_events_json, write_ics, write_report
 from .schema import Alert, Event, RunReport, State, Venue, VenuesFile
 from .schema_gen import build_generator, generate_schema
@@ -257,6 +257,9 @@ class Runner:
             else:
                 kept.append(ev)
 
+        # Day-by-day agendas repeat running exhibitions under every date: one range entry each.
+        kept = collapse_daily_runs(kept)
+
         # Adversarial verification of NEW events from free-form HTML.
         events: list[Event] = []
         to_verify: list[SchemaEvent] = []
@@ -376,7 +379,7 @@ class Runner:
                                                       outcome.content_hash, outcome.error))
                     for n in outcome.notes:
                         report.alerts.append(Alert(level="warning", venue_id=venue.id, source_url=source_url, message=n))
-                if social is not None and self.settings.has_social:
+                if social is not None and self.settings.has_social and venue.social:
                     await self.process_social(venue, sources, social, state, client, report)
         state.last_run = self.today
         report.events_published = len(state.events)
@@ -411,6 +414,7 @@ def main(argv: list[str] | None = None) -> int:
     for vid in args.regenerate:
         if vid in sources.sources:
             sources.sources[vid].schema_record = None
+            sources.sources[vid].next_generation = None
     state = load_state(settings.data_dir / "state.json")
     social = load_social(settings.data_dir / "social.json")
     if not settings.has_social:

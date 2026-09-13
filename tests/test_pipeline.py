@@ -117,16 +117,34 @@ async def test_fetch_failure_keeps_previous_state(tmp_path, offline_fetch, today
     assert sources.sources["mucem"].consecutive_failures == 1
 
 
-async def test_broken_schema_without_llm_keeps_state(tmp_path, offline_fetch, today):
+async def test_broken_html_schema_self_heals_without_llm(tmp_path, offline_fetch, today):
+    """A listing page whose schema broke is re-induced deterministically: same events, no model."""
     settings = _settings(tmp_path)
     sources, state = _sources(today), State()
     await pipeline.Runner(settings, today, allow_llm=False).run(VENUES, sources, state)
     n_amis = sum(1 for e in state.events.values() if e.venue_id == "amis-du-monde-diplomatique")
     # Simulate a site redesign: the container selector no longer matches.
-    sources.sources["amis-du-monde-diplomatique"].schema_record.schema_.rules[0].container_selector = "div.does-not-exist"
+    record = sources.sources["amis-du-monde-diplomatique"]
+    record.schema_record.schema_.rules[0].container_selector = "div.does-not-exist"
     report = await pipeline.Runner(settings, today + timedelta(days=1), allow_llm=False).run(VENUES, sources, state)
+    assert report.llm_calls == 0
     assert sum(1 for e in state.events.values() if e.venue_id == "amis-du-monde-diplomatique") == n_amis
-    assert sources.sources["amis-du-monde-diplomatique"].consecutive_failures == 1
+    assert record.consecutive_failures == 0 and record.regenerations == 1
+    assert record.schema_record.generator_model == "induction" and record.schema_record.version == 2
+
+
+async def test_broken_schema_without_llm_or_induction_keeps_state(tmp_path, offline_fetch, today):
+    """JSON sources cannot be induced: a broken schema is reported and the state is kept."""
+    settings = _settings(tmp_path)
+    sources, state = _sources(today), State()
+    await pipeline.Runner(settings, today, allow_llm=False).run(VENUES, sources, state)
+    tomorrow = today + timedelta(days=1)
+    still_valid = {e.uid for e in state.events.values() if e.venue_id == "mucem" and (e.end_date or e.start_date) >= tomorrow}
+    for rule in sources.sources["mucem"].schema_record.schema_.rules:
+        rule.items_path = "does.not.exist"  # simulate an API redesign
+    report = await pipeline.Runner(settings, tomorrow, allow_llm=False).run(VENUES, sources, state)
+    assert {e.uid for e in state.events.values() if e.venue_id == "mucem"} == still_valid
+    assert sources.sources["mucem"].consecutive_failures == 1
     assert any("unhealthy" in a.message for a in report.alerts)
 
 

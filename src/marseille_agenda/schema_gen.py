@@ -141,6 +141,8 @@ def build_generator(model: Model | str) -> Agent[GenDeps, ExtractionSchema]:
             )
         if res.items_seen == 0:
             problems.append("item_selector/items_path matched nothing")
+        if res.items_seen and res.undated == res.items_seen:
+            problems.append(f"the date selector matches nothing in any of the {res.items_seen} items")
         if res.items_seen and res.failure_ratio > 0.5 and deps.reference:
             problems.append(f"{len(res.failures)}/{res.items_seen} items failed: " + " | ".join(res.failures[:6]))
             if sum("no date found" in f for f in res.failures) > len(res.failures) / 2:

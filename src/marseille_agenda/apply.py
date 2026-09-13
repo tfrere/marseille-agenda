@@ -29,6 +29,9 @@ class ApplyResult:
     events: list[SchemaEvent] = field(default_factory=list)
     items_seen: int = 0
     failures: list[str] = field(default_factory=list)
+    undated: int = 0
+    """Items where the date selector matched nothing: on a page mixing events with plain
+    articles these are the articles, not parse failures."""
 
     @property
     def failure_ratio(self) -> float:
@@ -141,10 +144,12 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
             return
         container = found
     items = container.select(rule.item_selector)
-    result.items_seen += len(items)
     if not items:
         result.failures.append(f"no items for selector: {rule.item_selector}")
         return
+    # Empty placeholder cards (grid fillers) are not failed events, just layout.
+    items = [i for i in items if i.get_text(strip=True)]
+    result.items_seen += len(items)
 
     for item in items:
         try:
@@ -165,6 +170,9 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
                     parsed_dates.append(parse_date_text(dv, today, rule.date_format))
                 except DateParseError:
                     continue
+            if not parsed_dates and not date_values and rule.fields["date"].selector and not _iso_attribute_dates(item):
+                result.undated += 1  # the card has no date element at all: not an event
+                continue
             if not parsed_dates:
                 # Prefer the value that looks like a time ("14h-19h") as the companion of the fallback date.
                 time_like = next((dv for dv in date_values if re.search(r"\d{1,2}\s*[h:]\s*\d{0,2}", dv)), time_text or "")

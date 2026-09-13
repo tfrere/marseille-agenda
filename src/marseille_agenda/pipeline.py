@@ -27,8 +27,9 @@ from .apply import SchemaEvent, apply_schema
 from .config import TZ, Settings, load_settings
 from .discover import build_discoverer, discover_source
 from .extract import build_extractor
-from .extraction_schema import SchemaRecord, SourceRecord, SourcesFile
+from .extraction_schema import ExtractionSchema, SchemaRecord, SourceRecord, SourcesFile
 from .fetch import SourceDocument, fetch_document, make_client
+from .induce import induce_schema
 from .llm import fetch_credits, make_model
 from .filters import publishable
 from .merge import collapse_daily_runs, expire_past, make_uid, merge_source
@@ -44,6 +45,7 @@ log = logging.getLogger("marseille_agenda")
 
 FAILURES_BEFORE_REDISCOVER = 3
 EMPTY_SOURCE_RETRY_DAYS = 7
+INDUCTION_MIN_QUALITY = 0.8  # below this the induced schema is discarded and the generator agent takes over
 MIN_HTML_TEXT_CHARS = 300
 
 
@@ -143,6 +145,15 @@ class Runner:
     async def generate(self, venue: Venue, record: SourceRecord, doc: SourceDocument, out: VenueOutcome) -> str:
         """Returns "ok" (schema validated and stored), "empty" (the independent reader found no
         upcoming event on the source, so nothing can be validated) or "failed"."""
+        # Deterministic first: a listing of repeated dated cards needs no model to be read.
+        induced = induce_schema(doc, self.today)
+        if induced is not None and induced.quality >= INDUCTION_MIN_QUALITY:
+            log.info("[%s] schema induced deterministically: %s", venue.id, induced.describe())
+            out.notes.append(f"schema induced without a model: {induced.describe()}")
+            self._store_schema(record, induced.schema, validated=False, agreement=induced.quality, model="induction")
+            return "ok"
+        if induced is not None:
+            log.info("[%s] induction too weak (%s); asking the generator", venue.id, induced.describe())
         if not self.allow_llm:
             out.notes.append("schema generation needed but LLM disabled")
             return "failed"
@@ -158,15 +169,18 @@ class Runner:
         if not gen.validated:
             out.notes.append(f"schema not validated (agreement {gen.agreement:.2f}); attempts={gen.attempts}")
             return "failed"
+        self._store_schema(record, gen.schema, validated=True, agreement=gen.agreement, model=self.settings.extractor_model)
+        return "ok"
+
+    def _store_schema(self, record: SourceRecord, schema: ExtractionSchema, *, validated: bool, agreement: float, model: str) -> None:
         prev = record.schema_record
         record.schema_record = SchemaRecord(
-            schema=gen.schema, created=self.today, validated_against_llm=True, agreement=round(gen.agreement, 3),
-            generator_model=self.settings.extractor_model, version=(prev.version + 1) if prev else 1,
+            schema=schema, created=self.today, validated_against_llm=validated, agreement=round(agreement, 3),
+            generator_model=model, version=(prev.version + 1) if prev else 1,
         )
         if prev:
             record.regenerations += 1
         record.next_generation = None
-        return "ok"
 
     # ------------------------------------------------------------------ per venue
 
@@ -352,6 +366,8 @@ class Runner:
     def _unhealthy(res, record: SourceRecord) -> str | None:
         if res.items_seen == 0:
             return "no items matched"
+        if res.items_seen and not res.events and res.undated == res.items_seen:
+            return "date selector matches nothing in any item"
         if res.failure_ratio > 0.5 and record.source.kind == "html":
             return f"{len(res.failures)}/{res.items_seen} items failed to parse"
         if not res.events and record.last_event_count >= 3:

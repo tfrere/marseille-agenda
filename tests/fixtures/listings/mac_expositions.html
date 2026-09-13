@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+    <head>
+
+    <script type="text/javascript">
+      window.lazySizesConfig = window.lazySizesConfig || {};
+
+// use .lazy instead of .lazyload
+window.lazySizesConfig.lazyClass = 'lazy';
+    </script>
+        <meta charset="utf-8" />
+<link rel="canonical" href="http://musees.marseille.fr/liste-des-expositions" />
+<meta property="og:title" content="Liste des expositions" />
+<meta property="og:image" content="http://musees.marseille.fr/sites/default/files/logo_musees_0.png" />
+<meta property="og:image:url" content="http://musees.marseille.fr/sites/default/files/logo_musees_0.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/musees-marseille-icon.png" type="image/png" />
+
+        <title>Liste des expositions | Musées de Marseille | Ville de Marseille</title>
+        <link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/resizable.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/button.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/dialog.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/misc/components/progress.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/misc/components/ajax-progress.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?tlam81" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?tlam81" />
+<link rel="stylesheet" media="all" href="/sites/default/modules/custom/museum/css/theming-museum.css?tlam81" />
+<link rel="stylesheet" media="all" href="/sites/default/modules/contrib/tacjs/assets/vendor/tarteaucitron.js/css/tarteaucitron.css?tlam81" />
+<link rel="stylesheet" media="all" href="/sites/default/themes/custom/musees_marseille/media/css/critical.css?tlam81" />
+<link rel="stylesheet" media="all" href="/sites/default/themes/custom/musees_marseille/media/css/specifics/daterangepicker.css?tlam81" />
+<link rel="stylesheet" media="print" href="/sites/default/themes/custom/musees_marseille/media/css/print.css?tlam81" />
+<link rel="stylesheet" media="all" href="/sites/default/themes/custom/musees_marseille/media/css/main.css?tlam81" />
+
+        <script src="/sites/default/themes/custom/musees_marseille/media/js/specifics/fallbacks/jquery-3.3.1.min.js?v=3.3.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+        <div class="browsehappy">
+            <div class="site-content">
+                <p>Vous utilisez un <strong>ancien</strong> navigateur. Ce site risque de ne pas s'afficher correctement. <a
+                        href="http://browsehappy.com/">Mettez à jour votre navigateur</a> pour améliorer votre expérience.</p>
+            </div>
+        </div>
+        <![endif]-->
+        <ul class="skip-links">
+            <li><a href="#main-content" class="visually-hidden focusable">Aller au contenu principal</a></li>
+        </ul>
+        
+          <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div class="headers-wrapper">
+    
+    
+          <div class="bk-back-to-museum">
+        <div class="site-content">
+            <a href="/"class="btn-back-to-museum">Retour aux musées de Marseille</a>
+        </div>
+    </div>
+
+  
+
+  <header role="banner" class="page-header-wrapper mb-l" xmlns="http://www.w3.org/1999/html">
+    <div class="site-content">
+      <div class="wrapper-flex -v-center -full-w -no-flex-standard">
+        <a href="/musee-dart-contemporain-mac" id="logo">
+          <img src="/sites/default/files/2020-06/logo-MAC.png" alt="">
+        </a>
+          <div>
+      <nav class="main-nav" role="navigation">
+    <div class="head-nav-mob">
+        <button class="js-close-nav-mob btn-close-nav-mob icon-close-button">FERMER<span class="out">Fermer</span></button>
+    </div>
+    <div class="ul-wrapper">
+        <ul>
+                      <li class="li-level-1">
+                <div class="lk-level-1">
+                    <a href="/liste-des-expositions?museum=musee-dart-contemporain-mac-0">Expositions</a>
+                </div>
+            </li>
+            <!-- -->
+                      <li class="li-level-1">
+                <div class="lk-level-1">
+                    <a href="/visite?museum=musee-dart-contemporain-mac-0">Infos pratiques</a>
+                </div>
+            </li>
+            <!-- -->
+                      <li class="li-level-1">
+                <div class="lk-level-1">
+                    <a href="/lagenda-des-musees?museum=musee-dart-contemporain-mac-0">Agenda</a>
+                </div>
+            </li>
+            <!-- -->
+                      <li class="li-level-1">
+                <div class="lk-level-1">
+                    <a href="/lactualite-des-musees?museum=musee-dart-contemporain-mac-0">Actualités</a>
+                </div>
+            </li>
+            <!-- -->
+                      <li class="li-level-1">
+                <div class="lk-level-1">
+                    <a href="/centre-de-ressources?museum=musee-dart-contemporain-mac-0">Ressources</a>
+                </div>
+            </li>
+            <!-- -->
+                  </ul>
+    </div>
+</nav>
+
+  
+    
+      <nav class="main-nav-mobile" role="navigation">
+    <ul class="wrapper-flex -full-w -v-bottom">
+        <li>
+            <a href="/musee-dart-contemporain-mac"><span class="icon-home"></span>Accueil</a>
+        </li>
+              <li>
+            <a href="/liste-des-expositions?museum=musee-dart-contemporain-mac-0">
+                <span class="icon-expo"></span>Expositions
+            </a>
+        </li>
+                    <li>
+            <a href="/lagenda-des-musees?museum=musee-dart-contemporain-mac-0">
+                <span class="icon-agenda"></span>Agenda
+            </a>
+        </li>
+              <li>
+            <a href="/visite?museum=musee-dart-contemporain-mac-0">
+                <span class="icon-alert"></span>Infos pratiques
+            </a>
+        </li>
+        <li>
+            <a href="#wrapper-menu-more" class="js-show-panel js-no-scrolling" aria-controls="#wrapper-menu-more" aria-expanded="false"><span class="icon-more"></span>Plus</a>
+            <div class="panel-menu" id="wrapper-menu-more">
+                <div class="panel-content">
+                    <ul>
+                                              <li>
+                            <a href="/lactualite-des-musees?museum=musee-dart-contemporain-mac-0">Actualités</a>
+                        </li>
+                                              <li>
+                            <a href="http://google.fr" target="_blank" class="lk-external">Catalogue de collections</a>
+                        </li>
+                                              <li>
+                            <a href="/centre-de-ressources?museum=musee-dart-contemporain-mac-0">Ressources</a>
+                        </li>
+                                                                    <li>
+                            <a href="/ressources/les-chefs-doeuvre-des-musees?museum=musee-dart-contemporain-mac-0">Chefs d'oeuvre</a>
+                        </li>
+                                          </ul>
+                </div>
+                <button class="close"><span class="icon-cross"></span>Fermer</button>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+  
+  </div>
+
+      </div>
+    </div>
+  </header>
+</div>
+
+<main class="page-content-wrapper" role="main">
+  <a id="main-content" tabindex="-1"></a>
+
+  <div class="site-content">
+    
+
+      <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+  </div>
+
+    <div>
+      
+    
+      
+<div class="site-content">
+  <div class="bk-heading-xl museum-36">
+      </div>
+  <h1 class="like-h1 mb-l">
+<span>Liste des expositions</span>
+<span class="slash-h1"></span></h1>
+
+  <form class="views-exposed-form" data-drupal-selector="views-exposed-form-expositions-list-block-exhibitions" action="/liste-des-expositions" method="get" id="views-exposed-form-expositions-list-block-exhibitions" accept-charset="UTF-8">
+  
+<div class="bk-event-filters">
+  <div class="event-filters-content">
+    <div class="btn-back-wrapper">
+      <button type="button" class="btn-back js-toggle-filters"><span class="icon-chevron-xs-l"></span> Retour</button>
+    </div>
+
+    <div class="left-col">
+      <form action="#" method="get">
+        <div class="select-filters">
+          <span class="label-like">Filtrer :</span>
+          <div class="fake-styled-select -grey">
+            <button class="button-select" type="button">
+              <span class="label-button"><span class="museum-36"><span class="color">•</span>Musée d&#039;art contemporain [mac]</span></span>
+            </button>
+            <div class="list-select">
+              <ul>
+                <li>
+                  <input type="checkbox" name="field_museums_target_id" id="museum-choice-all" value="All" >
+                  <label for="museum-choice-all">
+                    <span class="museum-36">
+                      <span class="color">•</span> Musée d&#039;art contemporain [mac]
+                    </span>
+                  </label>
+                </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-18" value="18">
+                    <label for="museum-choice-18">
+                      <span class="theme-color museum-18">
+                        <span class="color">•</span> Musée des Beaux-Arts - (MBA)
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-16" value="16">
+                    <label for="museum-choice-16">
+                      <span class="theme-color museum-16">
+                        <span class="color">•</span> Musée d&#039;Histoire de Marseille - (MHM)
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-28" value="28">
+                    <label for="museum-choice-28">
+                      <span class="theme-color museum-28">
+                        <span class="color">•</span> Centre de la Vieille Charité - (CVC)
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-27" value="27">
+                    <label for="museum-choice-27">
+                      <span class="theme-color museum-27">
+                        <span class="color">•</span> Musée d&#039;Archéologie Méditerranéenne - (MAM)
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-43" value="43">
+                    <label for="museum-choice-43">
+                      <span class="theme-color museum-43">
+                        <span class="color">•</span> Musée d&#039;Arts Africains, Océaniens, Amérindiens - MAAOA
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-17" value="17">
+                    <label for="museum-choice-17">
+                      <span class="theme-color museum-17">
+                        <span class="color">•</span> Château Borély - Musée des Arts décoratifs, de la Faïence et de la Mode
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-29" value="29">
+                    <label for="museum-choice-29">
+                      <span class="theme-color museum-29">
+                        <span class="color">•</span> Mémorial de la Marseillaise
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-38" value="38">
+                    <label for="museum-choice-38">
+                      <span class="theme-color museum-38">
+                        <span class="color">•</span> Musée Grobet-Labadié - (MGL)
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-31" value="31">
+                    <label for="museum-choice-31">
+                      <span class="theme-color museum-31">
+                        <span class="color">•</span> Mémorial des déportations
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-32" value="32">
+                    <label for="museum-choice-32">
+                      <span class="theme-color museum-32">
+                        <span class="color">•</span> Musée Cantini
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-42" value="42">
+                    <label for="museum-choice-42">
+                      <span class="theme-color museum-42">
+                        <span class="color">•</span> Musée des enfants - Préau des Accoules
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-35" value="35">
+                    <label for="museum-choice-35">
+                      <span class="theme-color museum-35">
+                        <span class="color">•</span> Cabinet des Monnaies et Médailles
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-56" value="56">
+                    <label for="museum-choice-56">
+                      <span class="theme-color museum-56">
+                        <span class="color">•</span> Musée de la Moto
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]" checked class="default-checked" id="museum-choice-36" value="36">
+                    <label for="museum-choice-36">
+                      <span class="theme-color museum-36">
+                        <span class="color">•</span> Musée d&#039;art contemporain [mac]
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-41" value="41">
+                    <label for="museum-choice-41">
+                      <span class="theme-color museum-41">
+                        <span class="color">•</span> Musée des Docks romains
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-40" value="40">
+                    <label for="museum-choice-40">
+                      <span class="theme-color museum-40">
+                        <span class="color">•</span> Muséum d&#039;histoire naturelle de Marseille - (MHNM)
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-177" value="177">
+                    <label for="museum-choice-177">
+                      <span class="theme-color museum-177">
+                        <span class="color">•</span> Musée Provençal
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-33" value="33">
+                    <label for="museum-choice-33">
+                      <span class="theme-color museum-33">
+                        <span class="color">•</span> Frac Sud - Cité de l’art contemporain
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-34" value="34">
+                    <label for="museum-choice-34">
+                      <span class="theme-color museum-34">
+                        <span class="color">•</span> Musée Regards de Provence
+                      </span>
+                    </label>
+                  </li>
+                                  <li>
+                    <input type="checkbox" name="field_museums_target_id[]"  id="museum-choice-30" value="30">
+                    <label for="museum-choice-30">
+                      <span class="theme-color museum-30">
+                        <span class="color">•</span> Mucem
+                      </span>
+                    </label>
+                  </li>
+                              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="cat-filters">
+          <input type="checkbox" name="field_exhibition_date_value_today" id="cat-filter-1" data-radio-group="date" data-default-value="+0 days" value="+0 days"><label for="cat-filter-1">Aujourd'hui</label>
+          <input type="checkbox" name="" id="cat-filter-2" data-radio-group="date" value="-1 days"><label for="cat-filter-2">Ce week-end</label>
+          <input type="checkbox" name="" id="chuipala-tumevoipa" value="0 days" style="display: none;"><label for="chuipala-tumevoipa" style="display: none;"></label>
+          <input type="checkbox" name="field_free_value" id="cat-filter-3" value="1"><label for="cat-filter-3">Gratuit</label>
+          <input type="checkbox" name="field_young_value" id="cat-filter-4" value="1"><label for="cat-filter-4">Jeune public</label>
+        </div>
+      </form>
+    </div>
+
+    <div class="right-col">
+      <span class="label-like">Choisir une période : </span>
+      <div class="date-wrapper">
+        <div class="range-wrapper">
+          <div class="input-wrapper">
+            <div>
+              <label for="date-1">du</label>
+              <input class="js-datepicker" type="text" name="" id="date-1" placeholder="jj/mm/aaaa" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])/(0[1-9]|1[012])/[0-9]{4}" autocomplete="off">
+            </div>
+            <div>
+              <label for="date-2">au</label>
+              <input class="js-datepicker" type="text" name="" id="date-2" placeholder="jj/mm/aaaa" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])/(0[1-9]|1[012])/[0-9]{4}" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="hidden-input">
+            <input class="input-mob" type="text" id="date-global-mob" autocomplete="off">
+            <input class="js-datepicker" type="hidden" id="date-global" autocomplete="off">
+            <div class="date-global-container" id="date-global-container"></div>
+          </div>
+        </div>
+
+        <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">  <button data-drupal-selector="edit-submit-expositions-list" type="submit" id="edit-submit-expositions-list" class="button js-form-submit form-submit btn-simple -bg-black" ><span>Valider</span></button>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="btn-mob-filters js-toggle-filters">
+    <span class="icon-filter"></span> Filtrer
+  </button>
+
+  <div class="search-results">
+    <span class="results"><span class="num">4</span> résultats</span> / <a href="/liste-des-expositions?museum=musee-dart-contemporain-mac-0" class="js-reset-form" data-target="#block-musees-marseille-content form">Réinitialiser les filtres</a>
+  </div>
+</div>
+
+</form>
+
+
+  <div class="mb-xl">
+    <div class="grid">
+            <div class="views-element-container"><div class="view view-expositions-list view-id-expositions_list view-display-id-block_exhibitions js-view-dom-id-45880564a7f692af7c31fd887ba6fa80d8aed4f067a87cdcf073097dfb2f17b2">
+  
+  
+  
+
+  
+  <div id="exhibitions-results-number" style="display: none;" data-results-number="4"></div>
+  
+
+  <div data-drupal-views-infinite-scroll-content-wrapper class="views-infinite-scroll-content-wrapper clearfix">
+    <div class="grid__cell 1/3 1/2--standard 1/1--tablet">
+<div class="bk-card bg-lightgrey js-hover-effect-wrapper theme-color-2">
+  <div class="ratio-event hover-scale-img">
+    <a href="/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contemporain-mac-0">
+      
+    
+      
+      <img class="of-img lazy" data-src="http://musees.marseille.fr/sites/default/files/styles/listing/public/2026-03/vie-climatique-MUSEES.webp?itok=NyrJbV14" src="/sites/default/files/styles/lazy_loading/public/2026-03/vie-climatique-MUSEES.webp?itok=14cPHvbe" width="590" height="330" alt="Pano Vie Climatique [mac]" loading="lazy" typeof="foaf:Image" />
+
+
+
+
+  
+
+
+      <div class="tag-wrapper">
+        
+              </div>
+    </a>
+  </div>
+  <div class="content" data-mh="content-event">
+    <div class="theme">
+    </div>
+    <a href="/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contemporain-mac-0" class="js-link-hover">
+      <h3 class="title">La vie climatique. Histoires sensibles des collections privées - Triennale De leur temps #8</h3>
+    </a>
+    <ul class="no-styled-list">
+      
+    <li>
+  <div class="place museum-36">
+    <span class="bg-color"></span>
+    
+    Musée d&#039;art contemporain [mac]
+
+  </div>
+</li>
+
+
+    </ul>
+  </div>
+  <div class="content" data-mh="content-event2">
+    <div class="date">
+              
+  Du <time datetime="2026-04-04T07:00:00Z">04 avril 2026</time>
+ au <time datetime="2026-09-20T16:00:00Z">20 septembre 2026</time>
+
+
+          </div>
+  </div>
+</div>
+</div>
+    <div class="grid__cell 1/3 1/2--standard 1/1--tablet">
+<div class="bk-card bg-lightgrey js-hover-effect-wrapper theme-color-2">
+  <div class="ratio-event hover-scale-img">
+    <a href="/voix-publiques-louisa-babari?museum=musee-dart-contemporain-mac-0">
+      
+    
+      
+      <img class="of-img lazy" data-src="http://musees.marseille.fr/sites/default/files/styles/listing/public/2026-06/voix-publiques-MUSEES.webp?itok=hzeWcqz_" src="/sites/default/files/styles/lazy_loading/public/2026-06/voix-publiques-MUSEES.webp?itok=OfyISa3T" width="590" height="330" alt="&quot;&quot;" loading="lazy" typeof="foaf:Image" />
+
+
+
+
+  
+
+
+      <div class="tag-wrapper">
+        
+                  <div class="tag second wrapper-flex -v-center ta-c uppercase">Gratuit</div>
+              </div>
+    </a>
+  </div>
+  <div class="content" data-mh="content-event">
+    <div class="theme">
+    </div>
+    <a href="/voix-publiques-louisa-babari?museum=musee-dart-contemporain-mac-0" class="js-link-hover">
+      <h3 class="title">Voix Publiques - Louisa Babari</h3>
+    </a>
+    <ul class="no-styled-list">
+      
+    <li>
+  <div class="place museum-36">
+    <span class="bg-color"></span>
+    
+    Musée d&#039;art contemporain [mac]
+
+  </div>
+</li>
+
+
+    </ul>
+  </div>
+  <div class="content" data-mh="content-event2">
+    <div class="date">
+              
+  Du <time datetime="2026-09-19T07:00:00Z">19 septembre 2026</time>
+ au <time datetime="2027-01-03T17:00:00Z">03 janvier 2027</time>
+
+
+          </div>
+  </div>
+</div>
+</div>
+    <div class="grid__cell 1/3 1/2--standard 1/1--tablet">
+<div class="bk-card bg-lightgrey js-hover-effect-wrapper theme-color-2">
+  <div class="ratio-event hover-scale-img">
+    <a href="/africa-louisa-babari?museum=musee-dart-contemporain-mac-0">
+      
+    
+      
+      <img class="of-img lazy" data-src="http://musees.marseille.fr/sites/default/files/styles/listing/public/2026-02/africa2-MUSEES.webp?itok=tT5fyjpT" src="/sites/default/files/styles/lazy_loading/public/2026-02/africa2-MUSEES.webp?itok=5EMk1Ijg" width="590" height="330" alt="Louisa Babari Africa mac" loading="lazy" typeof="foaf:Image" />
+
+
+
+
+  
+
+
+      <div class="tag-wrapper">
+        
+                  <div class="tag second wrapper-flex -v-center ta-c uppercase">Gratuit</div>
+              </div>
+    </a>
+  </div>
+  <div class="content" data-mh="content-event">
+    <div class="theme">
+    </div>
+    <a href="/africa-louisa-babari?museum=musee-dart-contemporain-mac-0" class="js-link-hover">
+      <h3 class="title">AFRICA - Louisa Babari</h3>
+    </a>
+    <ul class="no-styled-list">
+      
+    <li>
+  <div class="place museum-36">
+    <span class="bg-color"></span>
+    
+    Musée d&#039;art contemporain [mac]
+
+  </div>
+</li>
+
+
+    </ul>
+  </div>
+  <div class="content" data-mh="content-event2">
+    <div class="date">
+              
+  Du <time datetime="2026-05-15T07:00:00Z">15 mai 2026</time>
+ au <time datetime="2027-01-03T17:00:00Z">03 janvier 2027</time>
+
+
+          </div>
+  </div>
+</div>
+</div>
+    <div class="grid__cell 1/3 1/2--standard 1/1--tablet">
+<div class="bk-card bg-lightgrey js-hover-effect-wrapper theme-color-2">
+  <div class="ratio-event hover-scale-img">
+    <a href="/30-ans-de-collection-la-collection-et-ses-invites-collection-permanente?museum=musee-dart-contemporain-mac-0">
+      
+    
+      
+      <img class="of-img lazy" data-src="http://musees.marseille.fr/sites/default/files/styles/listing/public/2023-11/M1094_EXPO-COLLPARADE-2023_4_C-pano.jpg?itok=exKEkkeB" src="/sites/default/files/styles/lazy_loading/public/2023-11/M1094_EXPO-COLLPARADE-2023_4_C-pano.jpg?itok=RBOy837y" width="590" height="330" alt="Parade - [mac]" loading="lazy" typeof="foaf:Image" />
+
+
+
+
+  
+
+
+      <div class="tag-wrapper">
+        
+                  <div class="tag second wrapper-flex -v-center ta-c uppercase">Gratuit</div>
+              </div>
+    </a>
+  </div>
+  <div class="content" data-mh="content-event">
+    <div class="theme">
+    </div>
+    <a href="/30-ans-de-collection-la-collection-et-ses-invites-collection-permanente?museum=musee-dart-contemporain-mac-0" class="js-link-hover">
+      <h3 class="title">Collection permanente - 30 ans de collection - La collection et ses invités </h3>
+    </a>
+    <ul class="no-styled-list">
+      
+    <li>
+  <div class="place museum-36">
+    <span class="bg-color"></span>
+    
+    Musée d&#039;art contemporain [mac]
+
+  </div>
+</li>
+
+
+    </ul>
+  </div>
+  <div class="content" data-mh="content-event2">
+    <div class="date">
+              Exposition permanente
+          </div>
+  </div>
+</div>
+</div>
+</div>
+
+    
+
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+          </div>
+  </div>
+
+  <div class="bottom-consult mb-xl">
+          <span class="icon-archive-more icon c-grey"></span>
+      <div class="title c-grey">Vous pouvez consulter les expositions archivées</div>
+      <a href="/archives?museum=musee-dart-contemporain-mac-0" class="btn -bg-black"><span>Consulter</span></a>
+      </div>
+
+</div>
+
+  
+  </div>
+
+
+  </main>
+
+
+  <footer role="contentinfo" class="page-footer-wrapper">
+    <div class="site-content">
+      <div class="grid">
+        <div class="grid__cell 1/4 1/1--tablet">
+          <a href="https://www.marseille.fr" target="_blank">
+
+    <img src="http://musees.marseille.fr/sites/default/files/2022-06/logo-ville-marseille.png" alt="">
+
+</a>
+
+<a href="https://www.framemuseums.org/fr/" target="_blank">
+
+    <img src="http://musees.marseille.fr/sites/default/files/2022-06/logo-nous-sommes-marseille.png" alt="">
+
+</a>
+        </div>
+        <div class="grid__cell 1/4 1/1--tablet">
+            <div>
+      
+    
+      
+    <p style="text-align:center;"><a href="https://www.navigart.fr/fcac/artworks" target="_blank"><img alt="Fonds Communal d'art contemporain" data-entity-type="file" data-entity-uuid="675e7b97-2544-4361-8e3d-d37bbbe57144" src="/sites/default/files/inline-images/logo_fcac.png" style="margin-bottom:0!important;" class="align-left" width="237" height="57" loading="lazy"></a><br>
+<br>
+<a href="https://app.acce-o.fr/client/marseille" target="_blank"><img alt="Acceo Marseille" src="/sites/default/files/2025-10/acceo_blanc_footer-1.png" style="width:100%;margin-bottom:0!important;" class="align-left"><br>
+Accessibilité</a></p>
+
+
+    
+    
+      
+    <p><span style="font-family: Lyon-bold;font-weight: 400;color:black;">Les réseaux des Musées :</span><br>
+<a href="https://www.instagram.com/museesmarseille" target="_blank"><img src="https://musees.marseille.fr/sites/default/files/2025-09/icons8-instagram-50.png" style="margin-bottom:0!important;width:40px;"></a>&nbsp;<a href="https://www.facebook.com/museesmarseille" target="_blank"><img src="https://musees.marseille.fr/sites/default/files/2025-09/icons8-facebook-50.png" style="margin-bottom:0!important;width:40px;"></a>&nbsp;<a href="https://www.tiktok.com/@museesmarseille" target="_blank"><img src="https://musees.marseille.fr/sites/default/files/2025-09/icons8-tiktok-50.png" style="margin-bottom:0!important;width:40px;"></a>&nbsp;<a href="https://www.linkedin.com/company/musées-de-marseille/" target="_blank"><img src="https://musees.marseille.fr/sites/default/files/2025-09/icons8-linkedin-50.png" style="margin-bottom:0!important;width:40px;"></a>&nbsp;<a href="https://www.youtube.com/channel/UC0gXp4QfTaD1zQUaPd8Zt6A" target="_blank"><img src="https://musees.marseille.fr/sites/default/files/2025-09/icons8-youtube-encadr%C3%A9-50.png" style="margin-bottom:0!important;width:40px;"></a><br>
+<a href="https://www.marseille.fr/inscription-newsletter-ville-de-marseille" target="_blank">S'inscrire à la newsletter Culture de la Ville de Marseille</a></p>
+
+
+    
+    
+      
+    <script>
+var _paq = window._paq = window._paq || [];
+/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+var u="https://analytics.e-mrs.fr/";
+_paq.push(['setTrackerUrl', u+'matomo.php']);
+_paq.push(['setSiteId', '23']);
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+  
+  </div>
+
+        </div>
+        <div class="grid__cell 1/2 1/1--tablet">
+          <div class="title">Musées :</div>
+<ul class="two-col">
+            <li>
+                            <a href="/musee-des-beaux-arts-mba">Musée des Beaux-Arts - (MBA)</a>
+                    </li>
+            <li>
+                            <a href="/musee-dhistoire-de-marseille-mhm">Musée d&#039;Histoire de Marseille - (MHM)</a>
+                    </li>
+            <li>
+                            <a href="/centre-de-la-vieille-charite-cvc">Centre de la Vieille Charité - (CVC)</a>
+                    </li>
+            <li>
+                            <a href="/musee-darcheologie-mediterraneenne-mam">Musée d&#039;Archéologie Méditerranéenne - (MAM)</a>
+                    </li>
+            <li>
+                            <a href="/musee-darts-africains-oceaniens-amerindiens-maaoa">Musée d&#039;Arts Africains, Océaniens, Amérindiens - MAAOA</a>
+                    </li>
+            <li>
+                            <a href="/chateau-borely-musee-des-arts-decoratifs-de-la-faience-et-de-la-mode">Château Borély - Musée des Arts décoratifs, de la Faïence et de la Mode</a>
+                    </li>
+            <li>
+                            <a href="/memorial-de-la-marseillaise-0">Mémorial de la Marseillaise</a>
+                    </li>
+            <li>
+                            <a href="/musee-grobet-labadie-mgl-0">Musée Grobet-Labadié - (MGL)</a>
+                    </li>
+            <li>
+                            <a href="/memorial-des-deportations-0">Mémorial des déportations</a>
+                    </li>
+            <li>
+                            <a href="/musee-cantini-0">Musée Cantini</a>
+                    </li>
+            <li>
+                            <a href="/preau-des-accoules-musee-des-enfants">Musée des enfants - Préau des Accoules</a>
+                    </li>
+            <li>
+                            <a href="/cabinet-des-monnaies-et-medailles">Cabinet des Monnaies et Médailles</a>
+                    </li>
+            <li>
+                            <a href="/musee-de-la-moto-0">Musée de la Moto</a>
+                    </li>
+            <li>
+                            <a href="/musee-dart-contemporain-mac">Musée d&#039;art contemporain [mac]</a>
+                    </li>
+            <li>
+                            <a href="/musee-des-docks-romains-0">Musée des Docks romains</a>
+                    </li>
+            <li>
+                            <a href="/museum-dhistoire-naturelle-de-marseille-mhnm-0">Muséum d&#039;histoire naturelle de Marseille - (MHNM)</a>
+                    </li>
+            <li>
+                            <a href="https://www.museeprovencal.com/" class="lk-external">Musée Provençal</a>
+                    </li>
+            <li>
+                            <a href="https://www.fracpaca.org/" class="lk-external">Frac Sud - Cité de l’art contemporain</a>
+                    </li>
+            <li>
+                            <a href="https://www.museeregardsdeprovence.com/" class="lk-external">Musée Regards de Provence</a>
+                    </li>
+            <li>
+                            <a href="">Tous les musées</a>
+                    </li>
+    </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+
+        
+        <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/24","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"fr","currentQuery":{"museum":"musee-dart-contemporain-mac-0"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1T0EOwjAM-9C6PqnqRjqM0mZqUmC_Z-rEJARcHMeOLYWeV0wwSPF0Ug0MtZDARnXITYk05FiVwEx-YZkiO50rVtP_vm2Msnz7N3VJ5Gf1WlHsI9myP0ZXadBNjbKfotJgcb6p73jyahTbDKtSxlTH3bmDHuo7jlkubS_pS0BJKDAK-yfCfJy4t-oO9QU903KX","theme":"musees_marseille","theme_token":null},"ajaxTrustedUrl":{"\/liste-des-expositions":true},"tacjs":{"dialog":{"privacyUrl":"","bodyPosition":null,"hashtag":"#tarteaucitron","cookieName":"tarteaucitron","orientation":"bottom","showAlertSmall":false,"cookieslist":true,"showIcon":false,"iconPosition":"BottomRight","adblocker":false,"DenyAllCta":true,"AcceptAllCta":true,"highPrivacy":true,"handleBrowserDNTRequest":false,"removeCredit":false,"moreInfoLink":true,"useExternalCss":false,"useExternalJs":false,"cookieDomain":"","readmoreLink":"\/cookies\/","mandatory":false,"privacyurl":""},"services":{"activecampaign":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adform":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsense":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsensesearchform":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsensesearchresult":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"aduptech_ads":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"aduptech_conversion":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"aduptech_retargeting":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"amazon":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"bingads":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"clicmanager":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"criteo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"datingaffiliation":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"datingaffiliationpopup":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ferankpub":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googleadwordsconversion":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googleadwordsremarketing":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googlepartners":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"prelinker":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pubdirecte":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"shareasale":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twenga":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"vshop":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"alexa":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"amplitude":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"analytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"atinternet":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"clicky":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"crazyegg":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"etracker":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ferank":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gajs":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"getplus":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"getquanty":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gtag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"hotjar":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"hubspot":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"koban":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"matomo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"mautic":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"metrica":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"microsoftcampaignanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"multiplegtag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"statcounter":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"visualrevenue":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"webmecanik":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"wysistat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"xiti":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"abtasty":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"contentsquare":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googlefonts":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googlemaps":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googlemapssearch":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googletagmanager":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"jsapi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"recaptcha":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"tagcommander":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"timelinejs":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twitterwidgetsapi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"typekit":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"disqus":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebookcomment":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"addthis":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"addtoanyfeed":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"addtoanyshare":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ekomi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebook":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebooklikebox":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebookpixel":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gplus":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gplusbadge":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"linkedin":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pinterest":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"shareaholic":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"sharethis":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twitter":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twitterembed":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twittertimeline":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"purechat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"tawkto":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"uservoice":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"zopim":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"calameo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"dailymotion":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"issuu":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"prezi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"slideshare":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"vimeo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"youtube":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"youtubeapi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adobeanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"atinternethightrack":false,"matomohightrack":false,"woopra":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"faciliti":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"userlike":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsenseauto":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"adsensesearch":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"affilae":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"antvoice":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"criteoonetag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"doubleclick":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"googleads":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"klaviyo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"kwanko":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"leadforensics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"linkedininsighttag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"outbrain":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pinterestpixel":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"twitteruwt":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"xandr":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"xandrconversion":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"xandrsegment":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"clarity":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"compteur":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"firebase":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"kameleoon":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"matomocloud":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"microanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"openwebanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pardot":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"piwikpro":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"plausible":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"plezi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"sharpspring":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"simpleanalytics":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"snapchat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"tiktok":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"userpilot":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"verizondottag":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"visiblee":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"weborama":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"wysistathightrack":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"arcio":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"genially":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"geoportail":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"helloasso":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"m6meteo":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"marketomunchkin":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"matomotm":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"meteofrance":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"mtcaptcha":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"multiplegoogletagmanager":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"myfeelback":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"onesignal":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"openstreetmap":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"pingdom":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"stonly":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"crisp":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gagenda":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gallica":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gdocs":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gforms":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"goptimize":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gsheets":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"gslides":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"hcaptcha":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"maps_noapi":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"robofabrica":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"serviceperso":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"studizz":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"trustpilot":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ubib":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"discord":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebookcustomerchat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"facebookpost":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"instagram":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"elfsight":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"intercomChat":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"smartsupp":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"acast":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"archive":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"artetv":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"ausha":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"bandcamp":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"canalu":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"deezer":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"fculture":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"mixcloud":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"podcloud":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"soundcloud":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"spotify":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"videas":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false},"webtvnu":{"status":false,"languages":[],"readMore":"","readmoreLink":"","needConsent":false}},"user":{"analyticsUa":" UA-167955532-1"},"texts":{"middleBarHead":"\u261d \ud83c\udf6a","adblock":"Hello! This site is transparent and lets you chose the 3rd party services you want to allow.","adblock_call":"Please disable your adblocker to start customizing.","reload":"Refresh the page","alertBigScroll":"By continuing to scroll,","alertBigClick":"If you continue to browse this website,","alertBig":"you are allowing all third-party services","alertBigPrivacy":"Ce site utilise des cookies et vous permet de contr\u00f4ler ce que vous souhaitez activer","alertSmall":"Manage services","personalize":"Personnaliser","acceptAll":"OK, tout accepter","close":"Fermer","privacyUrl":"Mentions l\u00e9gales","all":"Pr\u00e9f\u00e9rence pour tous les services","info":"Protecting your privacy","disclaimer":"En poursuivant votre navigation, vous acceptez le d\u00e9p\u00f4t de cookies tiers, afin d\u0027assurer le bon fonctionnement de notre site Internet.","allow":"Autoriser","deny":"D\u00e9cliner","noCookie":"Pas de cookie pour ce service","useCookie":"Ce service peut installer","useCookieCurrent":"Ce service a install\u00e9","useNoCookie":"Ce service n\u0022a install\u00e9 aucun cookie","more":"Lire +","source":"Voir le site officiel","credit":"Cookies manager by tarteaucitron.js","noServices":"This website does not use any cookie requiring your consent.","toggleInfoBox":"Show\/hide informations about cookie storage","title":"Panneau de gestion des cookies","cookieDetail":"Cookie detail for","ourSite":"on our site","newWindow":"(new window)","allowAll":"Accepter tout","denyAll":"D\u00e9cliner tout","fallback":"is disabled.","ads":{"title":"","details":""},"analytic":{"title":"","details":""},"social":{"title":"","details":""},"video":{"title":"","details":""},"comment":{"title":"","details":""},"support":{"title":"","details":""},"api":{"title":"","details":""},"other":{"title":"","details":""}},"expire":null},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:45880564a7f692af7c31fd887ba6fa80d8aed4f067a87cdcf073097dfb2f17b2":{"view_name":"expositions_list","view_display_id":"block_exhibitions","view_args":"36","view_path":"\/node\/24","view_base_path":null,"view_dom_id":"45880564a7f692af7c31fd887ba6fa80d8aed4f067a87cdcf073097dfb2f17b2","pager_element":0}}},"user":{"uid":0,"permissionsHash":"cee8d75a62c9f2bba362ccb768c8d35f43faca19786efbf0160edcb2240dfbe5"}}</script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/sites/default/files/languages/fr_tUJzcs2NhZQOiN7M_aY3RSHsLtnYWlVeapF5yowRCXQ.js?tlam81"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.4.10"></script>
+<script src="/core/misc/drupal.js?v=10.4.10"></script>
+<script src="/core/misc/drupal.init.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.2.0"></script>
+<script src="/core/assets/vendor/tua-body-scroll-lock/tua-bsl.umd.min.js?v=10.4.10"></script>
+<script src="/sites/default/themes/custom/musees_marseille/media/js/specifics/moment.min.js?tlam81"></script>
+<script src="/sites/default/themes/custom/musees_marseille/media/js/specifics/jquery.daterangepicker.js?tlam81"></script>
+<script src="/sites/default/modules/custom/exhibition/js/exhibitions-list-filter.js?tlam81"></script>
+<script src="/sites/default/themes/custom/musees_marseille/media/js/specifics/fallbacks/IE8.js?v=10.4.10"></script>
+<script src="/sites/default/themes/custom/musees_marseille/media/js/specifics/fallbacks/IE9.js?v=10.4.10"></script>
+<script src="/core/misc/progress.js?v=10.4.10"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/debounce.js?v=10.4.10"></script>
+<script src="/core/misc/announce.js?v=10.4.10"></script>
+<script src="/core/misc/message.js?v=10.4.10"></script>
+<script src="/core/misc/ajax.js?v=10.4.10"></script>
+<script src="/core/misc/displace.js?v=10.4.10"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.4.10"></script>
+<script src="/core/misc/position.js?v=10.4.10"></script>
+<script src="/core/misc/dialog/dialog-deprecation.js?v=10.4.10"></script>
+<script src="/core/misc/dialog/dialog.js?v=10.4.10"></script>
+<script src="/core/misc/dialog/dialog.position.js?v=10.4.10"></script>
+<script src="/core/misc/dialog/dialog.jquery-ui.js?v=10.4.10"></script>
+<script src="/core/misc/dialog/dialog.ajax.js?v=10.4.10"></script>
+<script src="/sites/default/themes/custom/musees_marseille/media/js/scripts.min.js?tlam81"></script>
+<script src="/sites/default/modules/contrib/tacjs/assets/vendor/tarteaucitron.js/tarteaucitron.js?v=1.9.9"></script>
+<script src="/sites/default/modules/contrib/tacjs/assets/vendor/tarteaucitron.js/tarteaucitron.services.js?v=1.9.9"></script>
+<script src="/sites/default/modules/contrib/tacjs/assets/vendor/tarteaucitron.js/lang/tarteaucitron.en.js?tlam81"></script>
+<script src="/sites/default/modules/contrib/tacjs/js/main.js?tlam81"></script>
+<script src="/sites/default/modules/contrib/tacjs/assets/vendor/tarteaucitron.js/lang/tarteaucitron.fr.js?tlam81"></script>
+<script src="/core/misc/jquery.form.js?v=4.3.0"></script>
+<script src="/core/modules/views/js/base.js?v=10.4.10"></script>
+<script src="/core/modules/views/js/ajax_view.js?v=10.4.10"></script>
+<script src="/sites/default/modules/contrib/views_infinite_scroll/js/infinite-scroll.js?v=10.4.10"></script>
+
+    </body>
+</html>

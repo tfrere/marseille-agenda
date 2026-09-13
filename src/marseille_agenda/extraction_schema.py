@@ -44,7 +44,14 @@ class HtmlRule(BaseModel):
     exclude_selectors: list[str] = Field(
         default_factory=list, description="CSS selectors removed before extraction (past-events sections, navigation, sidebars)."
     )
-    item_selector: str = Field(description="CSS selector matching exactly one node per event.")
+    item_selector: str = Field(description="CSS selector matching exactly one node per event (in 'run' mode: the node that STARTS each event).")
+    item_mode: Literal["wrapper", "run"] = Field(
+        default="wrapper",
+        description="'wrapper': each item is the matched node with its descendants. 'run': flat listings without a per-event "
+                    "wrapper (SPIP, old sites: `<h3>date</h3><p>title</p><h3>date</h3>...`): each item is the matched start node "
+                    "plus its following siblings up to the next start node or the end of the parent; field selectors then "
+                    "apply to that run as if it were one card.",
+    )
     fields: dict[FieldName, FieldSpec]
     date_format: str | None = Field(default=None, description="strptime format if the date field is machine-formatted (e.g. from a datetime attribute); null = French natural-language parsing.")
     notes: str = ""

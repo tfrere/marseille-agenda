@@ -84,6 +84,9 @@ class Venue(BaseModel):
                                                    "finds handles (e.g. an account shared by several venues).")
     lat: float | None = None
     lng: float | None = None
+    location_filter: str | None = Field(default=None, description="Regex (case- and accent-insensitive) an event's location must "
+                                                                  "match to be published, for aggregators listing events held "
+                                                                  "elsewhere. Events without a location are kept.")
     enabled: bool = True
 
     def model_post_init(self, __context) -> None:

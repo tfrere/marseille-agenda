@@ -47,3 +47,22 @@ def publishable(venue: Venue, events: list) -> tuple[list, int]:
         return events, 0
     kept = [e for e in events if is_special_screening(e)]
     return kept, len(events) - len(kept)
+
+
+def at_venue(venue: Venue, location: str | None) -> bool:
+    """`Venue.location_filter` test: an aggregator (Mille Bâbords lists the whole militant
+    scene) may be restricted to the events held at its own address. The regex is matched
+    case- and accent-insensitively; an event without a location is kept."""
+    if not venue.location_filter or not location:
+        return True
+    # Only accents are stripped from the pattern: lowercasing it would turn \S into \s.
+    pattern = strip_accents(venue.location_filter)
+    return re.search(pattern, strip_accents(normalize(location)), re.IGNORECASE) is not None
+
+
+def held_here(venue: Venue, events: list) -> tuple[list, int]:
+    """Apply `Venue.location_filter`. Returns (kept events, number dropped)."""
+    if not venue.location_filter:
+        return events, 0
+    kept = [e for e in events if at_venue(venue, e.location_name)]
+    return kept, len(events) - len(kept)

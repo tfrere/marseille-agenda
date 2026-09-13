@@ -23,7 +23,7 @@ from datetime import date, timedelta
 
 from bs4 import BeautifulSoup, Tag
 
-from .apply import ApplyResult, first_item_image, apply_schema
+from .apply import ApplyResult, apply_schema, first_item_image, group_runs
 from .dates import DateParseError, parse_date_text
 from .extraction_schema import ExtractionSchema, FieldSpec, HtmlRule
 from .fetch import SourceDocument
@@ -39,6 +39,7 @@ _CLASS_OK = re.compile(r"^[A-Za-z_][A-Za-z0-9_-]*$")
 _ISO_DAY = re.compile(r"\d{4}-\d{2}-\d{2}")
 _TIME_RE = re.compile(r"\b\d{1,2}\s*(?:h|:)\s*\d{0,2}\b", re.I)
 _TITLE_CLASS = re.compile(r"title|titre|name|nom|heading|headline", re.I)
+_LOCATION_CLASS = re.compile(r"lieu|location|place|adresse|address|venue", re.I)
 _DROP = {"script", "style", "noscript", "svg", "template", "iframe", "select", "option", "form", "button", "head"}
 _DATE_ATTRS = ("data-date", "datetime", "data-start", "data-start-date")
 
@@ -103,7 +104,70 @@ def induce_schema(doc: SourceDocument, today: date) -> Induction | None:
         log.debug("induction candidate %r: %s", sel, ind.describe())
         if best is None or (ind.quality, ind.events) > (best.quality, best.events):
             best = ind
+    if best is None:
+        best = _induce_runs(soup, doc, today, date_nodes, class_count)
     return best
+
+
+# --------------------------------------------------------------------------- flat listings
+
+
+def _induce_runs(soup: BeautifulSoup, doc: SourceDocument, today: date, date_nodes: list[Tag], class_count: Counter) -> Induction | None:
+    """Flat listings without a per-event wrapper (SPIP, old sites): `<div class="date">` then
+    the title block, then the next date. Upcoming date nodes sharing a parent and a selector
+    start the items; each item runs until the next start. Fields are derived from the synthetic
+    run wrappers exactly like from cards, so the schema is an ordinary one in `run` mode.
+    """
+    groups: dict[tuple[int, str], list[Tag]] = defaultdict(list)
+    for dn in date_nodes:
+        parent = dn.parent
+        if not isinstance(parent, Tag):
+            continue
+        sel = _rel_selector(dn, class_count)
+        if sel and sel not in ("div", "span", "p", "li"):  # a bare tag would start a run at every paragraph
+            groups[(id(parent), sel)].append(dn)
+        elif sel in ("h1", "h2", "h3", "h4", "h5", "h6", "dt"):
+            groups[(id(parent), sel)].append(dn)
+    best: Induction | None = None
+    for (_, sel), starts in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+        if len(starts) < MIN_ITEMS:
+            break
+        if sum(1 for s in starts if _titled_before_next_start(s)) < 0.8 * len(starts):
+            continue
+        # Runs are built on a private copy: `group_runs` restructures the tree it works on.
+        work = BeautifulSoup(str(soup), "lxml")
+        try:
+            items = group_runs(work, sel)
+        except Exception:  # noqa: BLE001 - selector the parser dislikes
+            continue
+        work_dates = _date_nodes(work, today)[0]
+        schema = _build_schema(sel, items, work_dates, class_count, item_mode="run")
+        if schema is None:
+            continue
+        ind = _evaluate(schema, sel, doc, today, len(date_nodes), len(items))
+        if ind is None:
+            continue
+        log.debug("induction run candidate %r: %s", sel, ind.describe())
+        if best is None or (ind.quality, ind.events) > (best.quality, best.events):
+            best = ind
+    return best
+
+
+def _titled_before_next_start(start: Tag) -> bool:
+    """A heading, link or title-classed element among the siblings following the date node,
+    before the next date node: the run has something to call a title."""
+    for sib in start.next_siblings:
+        if not isinstance(sib, Tag):
+            continue
+        if sib.name == start.name and sib.get("class") == start.get("class"):
+            return False  # next start: no title in this run
+        for node in [sib, *sib.find_all(True)]:
+            text = node.get_text(" ", strip=True)
+            if not (3 <= len(text) <= 160) or _is_dated(text) or _looks_like_time(text):
+                continue
+            if node.name in _HEADINGS or node.name == "a" or any(_TITLE_CLASS.search(c) for c in node.get("class", [])):
+                return True
+    return False
 
 
 # --------------------------------------------------------------------------- date nodes
@@ -232,7 +296,8 @@ def _item_candidates(soup: BeautifulSoup, upcoming: list[Tag], dated: list[Tag],
 # --------------------------------------------------------------------------- fields
 
 
-def _build_schema(sel: str, items: list[Tag], date_nodes: list[Tag], class_count: Counter) -> ExtractionSchema | None:
+def _build_schema(sel: str, items: list[Tag], date_nodes: list[Tag], class_count: Counter,
+                  item_mode: str = "wrapper") -> ExtractionSchema | None:
     # Grid fillers and empty placeholder cards tell nothing about the layout.
     sample = [i for i in items if i.get_text(strip=True)][:40]
     if len(sample) < MIN_ITEMS:
@@ -255,7 +320,12 @@ def _build_schema(sel: str, items: list[Tag], date_nodes: list[Tag], class_count
     image = _image_field(sample, title)
     if image:
         fields["image"] = image
-    rule = HtmlRule(item_selector=sel, fields=fields, notes="Induced deterministically from the repeated dated cards of the page.")
+    location = _location_field(sample, class_count)
+    if location:
+        fields["location"] = location
+    notes = ("Induced deterministically from the repeated dated cards of the page." if item_mode == "wrapper"
+             else "Induced deterministically from a flat listing: each item runs from a date node to the next.")
+    rule = HtmlRule(item_selector=sel, item_mode=item_mode, fields=fields, notes=notes)
     return ExtractionSchema(rules=[rule], notes="Deterministic induction (no model).")
 
 
@@ -375,6 +445,28 @@ def _image_field(items: list[Tag], title: FieldSpec) -> FieldSpec | None:
     if len(set(urls)) < 0.5 * max(1, len(titles)):
         return None
     return FieldSpec(selector="img", attr="src")
+
+
+def _location_field(items: list[Tag], class_count: Counter) -> FieldSpec | None:
+    """An element whose class names a place (`lieu`, `location`, `venue`, `adresse`...) with a
+    short text in at least 60% of the cards. Aggregators list where each event happens."""
+    counts: Counter = Counter()
+    for item in items:
+        seen: set[str] = set()
+        for node in item.find_all(True):
+            if not any(_LOCATION_CLASS.search(c) for c in node.get("class", [])):
+                continue
+            text = node.get_text(" ", strip=True)
+            if not (2 <= len(text) <= 160) or _is_dated(text) or _looks_like_time(text):
+                continue
+            sel = _rel_selector(node, class_count)
+            if sel not in seen and len(item.select(sel)) == 1:
+                seen.add(sel)
+                counts[sel] += 1
+    for sel, c in counts.most_common(1):
+        if c >= 0.6 * len(items):
+            return FieldSpec(selector=sel)
+    return None
 
 
 def _time_field(items: list[Tag], class_count: Counter, date_field: FieldSpec) -> FieldSpec | None:

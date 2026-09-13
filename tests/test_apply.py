@@ -307,3 +307,55 @@ def test_json_image_walk_takes_image_keys_and_extensions_and_skips_shared_ones(t
     shared = [{"name": f"E{i}", "when": f"2026-09-2{i}", "thumbnail": "https://x.test/default.jpg"} for i in range(3)]
     res = apply_schema(schema, document_from_body("https://x.test/api", "json", json.dumps(shared)), today)
     assert [e.image for e in res.events] == [None, None, None]
+
+
+# ------------------------------------------------------------------ run mode (flat listings)
+
+
+def test_run_mode_groups_flat_siblings_from_one_date_to_the_next(today):
+    from marseille_agenda.fetch import document_from_body
+
+    body = """<html><body><div class="agenda">
+      <h2>Agenda</h2>
+      <h3>Mardi 15 septembre 2026</h3><p><a href="/a">Assemblée de rentrée</a></p><p class="lieu">Salle B</p><hr>
+      <h3>Jeudi 17 septembre 2026 à 19h</h3><p><a href="/b">Projection</a></p><p>Entrée libre</p><img src="/b.jpg" width="300">
+      <h3>Sans date</h3><p><a href="/c">Pas un événement</a></p>
+    </div></body></html>"""
+    doc = document_from_body("https://x.test/agenda/", "html", body)
+    schema = ExtractionSchema(rules=[HtmlRule(item_mode="run", item_selector="div.agenda > h3", fields={
+        "title": FieldSpec(selector="p a"), "date": FieldSpec(selector="h3"), "url": FieldSpec(selector="p a", attr="href"),
+        "location": FieldSpec(selector="p.lieu"),
+    })])
+    res = apply_schema(schema, doc, today)
+    assert res.items_seen == 3 and len(res.events) == 2 and len(res.failures) == 1, res.failures
+    a, b = res.events
+    assert (a.title, a.start_date, a.url, a.location_name) == ("Assemblée de rentrée", date(2026, 9, 15), "https://x.test/a", "Salle B")
+    assert (b.title, b.start_date, b.start_time, b.location_name) == ("Projection", date(2026, 9, 17), time(19, 0), None)
+    # The run item owns its picture and its evidence, but not the next run's nodes.
+    assert a.image is None and b.image == "https://x.test/b.jpg"
+    assert "Assemblée de rentrée" in a.evidence[0] and "Projection" not in a.evidence[0] and "Entrée libre" in b.evidence[0]
+    for e in res.events:
+        assert check_event(e, doc, today) == [], e.title
+    # Wrapper mode on the same selector sees only the headings: no title.
+    wrapper = schema.model_copy(deep=True)
+    wrapper.rules[0].item_mode = "wrapper"
+    assert apply_schema(wrapper, doc, today).events == []
+
+
+def test_run_mode_reads_the_flat_spip_agenda_of_mille_babords(today):
+    doc = _listing("millebabords_agenda.html", "https://www.millebabords.org/spip.php?rubrique2")
+    schema = ExtractionSchema(rules=[HtmlRule(
+        item_mode="run", item_selector="div.evenement-date", container_selector="div.texte.evenements",
+        fields={"title": FieldSpec(selector="div.donnee-titre a"), "date": FieldSpec(selector="div.evenement-date"),
+                "url": FieldSpec(selector="div.donnee-titre a", attr="href"), "location": FieldSpec(selector="div.donnee-lieu p")},
+    )])
+    res = apply_schema(schema, doc, today)
+    assert res.items_seen == 23 and len(res.events) == 23 and res.failures == []
+    first = res.events[0]
+    assert first.title.startswith("Cycle mensuel de conférences de René Naba")
+    # "13" and "septembre" sit in two spans, "14:00" in a third block: the run text parses as one date.
+    assert (first.start_date, first.start_time) == (date(2026, 9, 13), time(14, 0))
+    assert first.url == "https://www.millebabords.org/spip.php?article42144"
+    assert first.location_name == "Le Rallumeur d’Étoiles, Quai BRESCON, 13500 Martigues"
+    assert all(e.location_name for e in res.events) and all(check_event(e, doc, today) == [] for e in res.events)
+    assert sum(1 for e in res.events if "Consolat" in e.location_name) >= 5

@@ -37,7 +37,7 @@ from .extraction_schema import ExtractionSchema, SchemaRecord, SourceRecord, Sou
 from .fetch import SourceDocument, fetch_document, make_client
 from .induce import induce_schema, upcoming_date_count
 from .llm import fetch_credits, make_model
-from .filters import publishable
+from .filters import held_here, publishable
 from .merge import collapse_daily_runs, expire_past, make_uid, merge_source
 from .images import sync_images
 from .output import load_state, published_events, save_state, write_events_json, write_ics, write_report
@@ -328,6 +328,10 @@ class Runner:
         kept, dropped = publishable(venue, kept)
         if dropped:
             log.info("[%s] %d regular screening(s) left out by the %s rule", venue.id, dropped, venue.category)
+        # Aggregators: only the events held at the venue itself when a location_filter is set.
+        kept, dropped = held_here(venue, kept)
+        if dropped:
+            log.info("[%s] %d event(s) held elsewhere left out by location_filter %r", venue.id, dropped, venue.location_filter)
 
         # Adversarial verification of NEW events from free-form HTML.
         events: list[Event] = []

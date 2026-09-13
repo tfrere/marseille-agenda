@@ -10,7 +10,7 @@ from datetime import date, datetime, time
 from typing import Any
 from urllib.parse import urljoin
 
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 from .dates import DateParseError, parse_date_text, parse_times
 from .extraction_schema import ExtractionSchema, FieldSpec, HtmlRule, JsonRule
@@ -92,6 +92,32 @@ def _html_values(item: Tag, spec: FieldSpec, base_url: str) -> list[str]:
     if spec.join is not None and values:
         return [spec.join.join(values)]
     return values
+
+
+def group_runs(container: Tag, start_selector: str) -> list[Tag]:
+    """Items of a flat listing: each node matched by `start_selector` plus its following siblings
+    up to the next start node or the end of the parent, wrapped in a synthetic `<div>`.
+
+    The wrapper is inserted in place of the run in the parsed tree (the run nodes move into it),
+    so field selectors, the image fallback, evidence text and the ancestor scan for machine dates
+    all work on a run exactly as on a card. Whitespace-only text between the nodes is dropped.
+    """
+    starts = container.select(start_selector)
+    start_ids = {id(s) for s in starts}
+    items: list[Tag] = []
+    for start in starts:
+        run: list = [start]
+        for sib in start.next_siblings:
+            if isinstance(sib, Tag) and id(sib) in start_ids:
+                break
+            if isinstance(sib, Tag) or (isinstance(sib, NavigableString) and sib.strip()):
+                run.append(sib)
+        wrapper = Tag(name="div")
+        start.insert_before(wrapper)
+        for node in run:
+            wrapper.append(node.extract())
+        items.append(wrapper)
+    return items
 
 
 _URL_ATTRS = ("href", "src", "data-src", "data-lazy-src", "data-original")
@@ -289,7 +315,7 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
             result.failures.append(f"container not found: {rule.container_selector}")
             return
         container = found
-    items = container.select(rule.item_selector)
+    items = group_runs(container, rule.item_selector) if rule.item_mode == "run" else container.select(rule.item_selector)
     if not items:
         result.failures.append(f"no items for selector: {rule.item_selector}")
         return

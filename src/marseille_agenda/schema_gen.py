@@ -32,6 +32,11 @@ you must describe the page structure precisely.
 
 HTML sources (you receive a condensed skeleton of the page: tags, classes, ids, hrefs, text):
 - `item_selector` must match exactly one node per event and nothing else.
+- When the events are flat siblings with no wrapper around each one (SPIP and old sites:
+  `<div class="date">...</div><div class="infos">title</div><hr><div class="date">...`), set
+  `item_mode: "run"` and make `item_selector` match the DATE block that starts each event: the
+  item is then that block plus its following siblings up to the next date block, and field
+  selectors apply to that run.
 - Use `container_selector` to restrict to the block of UPCOMING events when the page also lists
   past events, archives or news. Use `exclude_selectors` to remove such blocks otherwise.
 - `fields.title`: selector of the title node (text). `fields.date`: node whose text contains the

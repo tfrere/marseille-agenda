@@ -1,6 +1,6 @@
 from datetime import date, time
 
-from marseille_agenda.filters import is_special_screening, publishable
+from marseille_agenda.filters import at_venue, held_here, is_special_screening, publishable
 from marseille_agenda.schema import Event, Venue
 
 
@@ -37,3 +37,20 @@ def test_rule_only_applies_to_cinemas():
     assert (kept, dropped) == ([], 1)
     kept, dropped = publishable(Venue(name="Bar", category="bars"), [regular])
     assert (kept, dropped) == ([regular], 0)
+
+
+def test_location_filter_keeps_events_at_the_venue_and_those_without_location():
+    venue = Venue(name="Mille Bâbords", location_filter=r"mille b.bords|rue consolat")
+    here = _ev("Permanence")
+    here.location_name = "Mille Bâbords, 61 rue Consolat, 13001 Marseille"
+    here_caps = _ev("Cagnard")
+    here_caps.location_name = "MILLE BABORDS - 61 RUE CONSOLAT"
+    elsewhere = _ev("Conférence")
+    elsewhere.location_name = "Le Rallumeur d’Étoiles, Quai BRESCON, 13500 Martigues"
+    unknown = _ev("Sans lieu")
+    assert at_venue(venue, here.location_name) and at_venue(venue, here_caps.location_name)
+    assert not at_venue(venue, elsewhere.location_name)
+    kept, dropped = held_here(venue, [here, here_caps, elsewhere, unknown])
+    assert kept == [here, here_caps, unknown] and dropped == 1
+    # No filter: nothing is dropped.
+    assert held_here(Venue(name="Mille Bâbords"), [elsewhere]) == ([elsewhere], 0)

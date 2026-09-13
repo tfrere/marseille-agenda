@@ -27,31 +27,47 @@
   .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; }
   .chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
   .chip.off { opacity: .4; text-decoration: line-through; }
+  .nav { display: flex; align-items: center; gap: 12px; }
+  /* view tabs: month grid vs long-running exhibitions */
+  .tabs { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .tabs button { border: 0; border-radius: 0; background: transparent; color: var(--muted); padding: 5px 12px; }
+  .tabs button + button { border-left: 1px solid var(--line); }
+  .tabs button.on { background: var(--cell); color: var(--fg); font-weight: 600; }
+  .tabs .count { display: inline-block; min-width: 18px; padding: 0 5px; margin-left: 4px; border-radius: 999px; background: color-mix(in srgb, var(--fg) 8%, transparent); font-size: 11px; font-weight: 600; text-align: center; }
+  body[data-view="expos"] .nav, body[data-view="expos"] .grid, body[data-view="expos"] .agenda { display: none; }
   .meta { color: var(--muted); font-size: 12px; }
   .meta a { color: inherit; }
   .credits { border-bottom: 1px dotted var(--muted); cursor: help; }
   .credits.low { color: #b91c1c; font-weight: 600; }
   main { flex: 1; display: flex; flex-direction: column; min-height: 0; }
-  .ongoing { padding: 6px 16px; border-bottom: 1px solid var(--line); display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
-  .ongoing:empty { display: none; }
-  .ongoing .label { color: var(--muted); font-size: 12px; margin-right: 4px; }
-  .grid { flex: 1; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); grid-auto-rows: minmax(0, 1fr); min-height: 0; }
-  .dow { grid-row: auto; padding: 6px 8px; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid var(--line); }
-  .grid .dow { height: 28px; }
-  .grid { grid-template-rows: 28px; }
+  /* month grid: a header row of weekday names, then one .week row per week */
+  .grid { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .dows { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); height: 28px; flex: none; }
+  .dow { padding: 6px 8px; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid var(--line); }
+  .week { --bars: 0; position: relative; flex: 1 1 0; min-height: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
   .cell { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--cell); padding: 4px 6px; overflow: hidden; display: flex; flex-direction: column; min-height: 0; }
   .cell.out { background: transparent; opacity: .5; }
   .cell.today { background: var(--today); }
   .cell .d { font-size: 12px; color: var(--muted); margin-bottom: 2px; }
   .cell.today .d { font-weight: 700; color: var(--fg); }
-  .cell .list { overflow: auto; min-height: 0; flex: 1; }
+  /* single events start below the multi-day bars of the week */
+  .cell .list { overflow: auto; min-height: 0; flex: 1; margin-top: calc(var(--bars) * var(--bar-h)); }
+  /* multi-day bars (short runs), absolutely positioned over the week row, one bar per event */
+  .week { --bar-h: 20px; }
+  .bar { position: absolute; top: calc(23px + var(--row) * var(--bar-h)); left: calc(var(--c0) * 100% / 7); width: calc(var(--span) * 100% / 7); height: calc(var(--bar-h) - 3px); z-index: 1; display: flex; align-items: center; padding: 0 5px; background: color-mix(in srgb, var(--c) 18%, var(--cell)); cursor: pointer; font-size: 12px; line-height: 1; overflow: hidden; }
+  .bar.s { margin-left: 4px; width: calc(var(--span) * 100% / 7 - 4px); border-left: 3px solid var(--c); border-radius: 5px 0 0 5px; }
+  .bar.e { width: calc(var(--span) * 100% / 7 - 4px); border-radius: 0 5px 5px 0; }
+  .bar.s.e { width: calc(var(--span) * 100% / 7 - 8px); border-radius: 5px; }
+  .bar:not(.s) { border-left: 2px dashed color-mix(in srgb, var(--c) 45%, transparent); }
+  .bar:hover { background: color-mix(in srgb, var(--c) 32%, var(--cell)); }
+  .bar .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .bar.cancelled .n { text-decoration: line-through; }
   .ev { display: flex; gap: 5px; align-items: baseline; padding: 2px 4px; border-radius: 5px; border-left: 3px solid var(--c); background: color-mix(in srgb, var(--c) 9%, transparent); margin-bottom: 3px; cursor: pointer; font-size: 12.5px; line-height: 1.25; }
   .ev:hover { background: color-mix(in srgb, var(--c) 20%, transparent); }
   .ev .t { color: var(--muted); font-variant-numeric: tabular-nums; flex: none; font-size: 11.5px; }
   .ev .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
   .cell { min-width: 0; }
   .ev.cancelled .n { text-decoration: line-through; }
-  .ev.pill { display: inline-flex; margin: 0; white-space: nowrap; }
   /* panel */
   .panel { position: fixed; top: 0; right: 0; height: 100%; width: min(440px, 100%); background: var(--panel); box-shadow: var(--shadow); transform: translateX(105%); transition: transform .2s ease; padding: 18px 20px; overflow: auto; z-index: 10; }
   .panel.open { transform: none; }
@@ -64,33 +80,54 @@
   .panel .src { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
   .panel blockquote { margin: 6px 0; padding: 6px 10px; border-left: 3px solid var(--line); font-style: italic; }
   .panel .badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); margin-left: 6px; vertical-align: middle; }
-  .empty { padding: 40px; text-align: center; color: var(--muted); }
+  .empty { padding: 40px; text-align: center; color: var(--muted); grid-column: 1 / -1; }
   /* list view (mobile) */
   .agenda { display: none; padding: 8px 16px 40px; overflow: auto; }
   .agenda h3 { font-size: 13px; color: var(--muted); margin: 16px 0 6px; text-transform: capitalize; position: sticky; top: 0; background: var(--bg); padding: 4px 0; }
   .agenda .ev { font-size: 14px; padding: 6px 8px; }
   .agenda .ev .n { white-space: normal; }
+  /* long-running exhibitions view: cards sorted by end date */
+  .expos { display: none; flex: 1; min-height: 0; overflow: auto; padding: 14px 16px 40px; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 10px; align-content: start; }
+  body[data-view="expos"] .expos { display: grid; }
+  .card { display: flex; flex-direction: column; gap: 3px; background: var(--cell); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 8px; padding: 10px 12px; cursor: pointer; }
+  .card:hover { border-color: var(--muted); border-left-color: var(--c); }
+  .card .venue { color: var(--c); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; }
+  .card .title { font-weight: 600; font-size: 14.5px; line-height: 1.3; }
+  .card.cancelled .title { text-decoration: line-through; }
+  .card .dates { color: var(--muted); font-size: 12.5px; }
+  .card .hint { font-size: 12.5px; color: var(--muted); }
+  .card .hint.soon { color: #b91c1c; font-weight: 600; }
+  .card .hint.upcoming { color: var(--fg); }
+  .card a { margin-top: 4px; font-size: 12px; color: var(--muted); align-self: flex-start; }
   @media (max-width: 760px) {
-    .grid, .ongoing { display: none; }
-    .agenda { display: block; }
+    .grid { display: none; }
+    body:not([data-view="expos"]) .agenda { display: block; }
     header .month { min-width: 0; }
+    header h1 { font-size: 16px; }
+    .expos { grid-template-columns: 1fr; padding: 10px 12px 40px; }
   }
 </style>
 </head>
 <body>
 <header>
   <h1>Marseille, agenda des lieux</h1>
-  <button id="prev" aria-label="Mois précédent">&larr;</button>
-  <div class="month" id="month"></div>
-  <button id="next" aria-label="Mois suivant">&rarr;</button>
-  <button id="today">Aujourd'hui</button>
+  <div class="tabs" role="tablist" id="tabs">
+    <button class="tab on" role="tab" data-view="agenda" aria-selected="true">Agenda</button>
+    <button class="tab" role="tab" data-view="expos" aria-selected="false">Expos &amp; en cours<span class="count" id="exposCount">0</span></button>
+  </div>
+  <div class="nav">
+    <button id="prev" aria-label="Mois précédent">&larr;</button>
+    <div class="month" id="month"></div>
+    <button id="next" aria-label="Mois suivant">&rarr;</button>
+    <button id="today">Aujourd'hui</button>
+  </div>
   <div class="chips" id="chips"></div>
   <div class="meta" id="meta"></div>
 </header>
 <main>
-  <div class="ongoing" id="ongoing"></div>
   <div class="grid" id="grid"></div>
   <div class="agenda" id="agenda"></div>
+  <section class="expos" id="expos" aria-label="Expositions et événements au long cours"></section>
 </main>
 <aside class="panel" id="panel" aria-live="polite">
   <button class="close" id="close" aria-label="Fermer">&times;</button>
@@ -103,7 +140,11 @@
   const fmtMonth = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' });
   const fmtDay = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' });
   const fmtShort = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short' });
+  const fmtShortYear = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
   const DOW = ['lun', 'mar', 'mer', 'jeu', 'ven', 'sam', 'dim'];
+  // Multi-day ranges longer than this (end_date - start_date, in days) leave the month grid
+  // for the dedicated "Expos & en cours" view; shorter ranges are drawn as bars in the grid.
+  const LONG_RUN_DAYS = 7;
 
   let data;
   for (const u of DATA_URLS) {
@@ -154,16 +195,57 @@
   const visible = () => events.filter(e => !hidden.has(e.venue_id));
   const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
+  const dateOf = (k) => new Date(k + 'T00:00:00');
+  const dayDiff = (a, b) => Math.round((dateOf(b) - dateOf(a)) / 86400000);
   const timeLabel = (e) => e.start_time ? e.start_time.slice(0, 5).replace(':', 'h') : '';
+  // Client-side classification of date ranges: single day, short run (bars in the grid), long run (expos view).
+  const spanDays = (e) => e.end_date && e.end_date > e.start_date ? dayDiff(e.start_date, e.end_date) : 0;
+  const isRange = (e) => spanDays(e) > 0;
+  const isLongRun = (e) => spanDays(e) > LONG_RUN_DAYS;
+  const thisYear = dateOf(todayStr).getFullYear();
+  // Day + month, with the year appended only when it is not the current one.
+  const fmtDate = (k) => (dateOf(k).getFullYear() === thisYear ? fmtShort : fmtShortYear).format(dateOf(k));
+  const fmtRange = (e) => `du ${fmtDate(e.start_date)} au ${fmtDate(e.end_date)}`;
 
-  function evNode(e, pill) {
+  function evNode(e) {
     const n = document.createElement('div');
-    n.className = 'ev' + (e.status === 'cancelled' ? ' cancelled' : '') + (pill ? ' pill' : '');
+    n.className = 'ev' + (e.status === 'cancelled' ? ' cancelled' : '');
     n.style.setProperty('--c', color(e));
     n.title = `${e.venue_name} - ${e.title}`;
-    n.innerHTML = `${timeLabel(e) && !pill ? `<span class="t">${timeLabel(e)}</span>` : ''}<span class="n">${esc(e.title)}</span>`;
+    const label = isRange(e) ? `jusqu'au ${fmtDate(e.end_date)}` : timeLabel(e);
+    n.innerHTML = `${label ? `<span class="t">${esc(label)}</span>` : ''}<span class="n">${esc(e.title)}</span>`;
     n.onclick = () => openPanel(e);
     return n;
+  }
+
+  // One segment of a multi-day bar inside a week row: columns c0..c1 (0 = Monday), stacked at `row`.
+  function barNode(e, row, c0, c1, isStart, isEnd) {
+    const n = document.createElement('div');
+    n.className = 'bar' + (isStart ? ' s' : '') + (isEnd ? ' e' : '') + (e.status === 'cancelled' ? ' cancelled' : '');
+    n.style.setProperty('--c', color(e));
+    n.style.setProperty('--row', row);
+    n.style.setProperty('--c0', c0);
+    n.style.setProperty('--span', c1 - c0 + 1);
+    n.title = `${e.venue_name} - ${e.title} (${fmtRange(e)})`;
+    // The title is shown once, on the segment where the event starts; continuation segments stay bare.
+    if (isStart) n.innerHTML = `<span class="n">${esc(e.title)}</span>`;
+    n.onclick = () => openPanel(e);
+    return n;
+  }
+
+  // Greedy row assignment: first row whose columns are free, so bars never overlap within a week.
+  function layoutBars(week, bars, weekStartKey, weekEndKey) {
+    const rows = [];
+    const sorted = [...bars].sort((a, b) => a.start_date.localeCompare(b.start_date) || spanDays(b) - spanDays(a) || (a.start_time || '').localeCompare(b.start_time || ''));
+    for (const e of sorted) {
+      const c0 = e.start_date < weekStartKey ? 0 : dayDiff(weekStartKey, e.start_date);
+      const c1 = e.end_date > weekEndKey ? 6 : dayDiff(weekStartKey, e.end_date);
+      let r = rows.findIndex(row => !row.slice(c0, c1 + 1).some(Boolean));
+      if (r < 0) { r = rows.length; rows.push(Array(7).fill(false)); }
+      for (let c = c0; c <= c1; c++) rows[r][c] = true;
+      week.appendChild(barNode(e, r, c0, c1, e.start_date >= weekStartKey, e.end_date <= weekEndKey));
+    }
+    week.style.setProperty('--bars', rows.length);
   }
 
   function render() {
@@ -171,49 +253,104 @@
     $('month').textContent = fmtMonth.format(cursor);
     const first = new Date(y, m, 1);
     const start = addDays(first, -((first.getDay() + 6) % 7));
-    const grid = $('grid');
-    grid.innerHTML = DOW.map(d => `<div class="dow">${d}</div>`).join('');
+    const monthStart = iso(first), monthEnd = iso(new Date(y, m + 1, 0));
+    const weeks = Math.ceil((((first.getDay() + 6) % 7) + new Date(y, m + 1, 0).getDate()) / 7);
     const evs = visible();
-    const single = evs.filter(e => !e.recurring);
-    const multi = evs.filter(e => e.recurring);
+    const single = evs.filter(e => !isRange(e));
+    const shortRuns = evs.filter(e => isRange(e) && !isLongRun(e));
+    const longRuns = evs.filter(e => isLongRun(e) && e.end_date >= todayStr);
     const byDay = {};
     for (const e of single) (byDay[e.start_date] ||= []).push(e);
-    const weeks = Math.ceil((((first.getDay() + 6) % 7) + new Date(y, m + 1, 0).getDate()) / 7);
-    grid.style.gridTemplateRows = `28px repeat(${weeks}, minmax(0, 1fr))`;
-    for (let i = 0; i < weeks * 7; i++) {
-      const d = addDays(start, i), k = iso(d);
-      const cell = document.createElement('div');
-      cell.className = 'cell' + (d.getMonth() !== m ? ' out' : '') + (k === todayStr ? ' today' : '');
-      cell.innerHTML = `<div class="d">${d.getDate()}</div><div class="list"></div>`;
-      const list = cell.lastChild;
-      for (const e of (byDay[k] || [])) list.appendChild(evNode(e));
-      grid.appendChild(cell);
+
+    const grid = $('grid');
+    grid.innerHTML = `<div class="dows">${DOW.map(d => `<div class="dow">${d}</div>`).join('')}</div>`;
+    for (let w = 0; w < weeks; w++) {
+      const ws = addDays(start, w * 7), wsKey = iso(ws), weKey = iso(addDays(ws, 6));
+      const week = document.createElement('div');
+      week.className = 'week';
+      for (let i = 0; i < 7; i++) {
+        const d = addDays(ws, i), k = iso(d);
+        const cell = document.createElement('div');
+        cell.className = 'cell' + (d.getMonth() !== m ? ' out' : '') + (k === todayStr ? ' today' : '');
+        cell.innerHTML = `<div class="d">${d.getDate()}</div><div class="list"></div>`;
+        const list = cell.lastChild;
+        for (const e of (byDay[k] || []).sort((a, b) => (a.start_time || '').localeCompare(b.start_time || ''))) list.appendChild(evNode(e));
+        week.appendChild(cell);
+      }
+      layoutBars(week, shortRuns.filter(e => e.start_date <= weKey && e.end_date >= wsKey), wsKey, weKey);
+      grid.appendChild(week);
     }
-    // Multi-day events overlapping this month
-    const monthStart = iso(first), monthEnd = iso(new Date(y, m + 1, 0));
-    const ongoing = $('ongoing');
-    ongoing.innerHTML = '';
-    const inMonth = multi.filter(e => e.start_date <= monthEnd && (e.end_date || e.start_date) >= monthStart);
-    if (inMonth.length) {
-      ongoing.innerHTML = '<span class="label">En cours ce mois :</span>';
-      for (const e of inMonth) ongoing.appendChild(evNode(e, true));
-    }
-    // Mobile list
+
+    // Mobile list: short runs are listed once, on their first day within the month.
     const ag = $('agenda');
     ag.innerHTML = '';
-    const days = Object.keys(byDay).filter(k => k >= monthStart && k <= monthEnd).sort();
-    if (!days.length && !inMonth.length) ag.innerHTML = '<div class="empty">Rien ce mois-ci</div>';
-    for (const e of inMonth) ag.appendChild(evNode(e));
-    for (const k of days) {
-      const h = document.createElement('h3'); h.textContent = fmtDay.format(new Date(k + 'T00:00:00')); ag.appendChild(h);
-      for (const e of byDay[k].sort((a, b) => (a.start_time || '').localeCompare(b.start_time || ''))) ag.appendChild(evNode(e));
+    const agDays = {};
+    for (const k of Object.keys(byDay)) if (k >= monthStart && k <= monthEnd) agDays[k] = [...byDay[k]];
+    for (const e of shortRuns) {
+      if (e.start_date > monthEnd || e.end_date < monthStart) continue;
+      (agDays[e.start_date < monthStart ? monthStart : e.start_date] ||= []).push(e);
     }
+    const days = Object.keys(agDays).sort();
+    if (!days.length) ag.innerHTML = '<div class="empty">Rien ce mois-ci</div>';
+    for (const k of days) {
+      const h = document.createElement('h3'); h.textContent = fmtDay.format(dateOf(k)); ag.appendChild(h);
+      const sorted = agDays[k].sort((a, b) => (isRange(b) - isRange(a)) || (a.start_time || '').localeCompare(b.start_time || ''));
+      for (const e of sorted) ag.appendChild(evNode(e));
+    }
+
+    renderExpos(longRuns);
   }
+
+  // "termine dans N jours" / "commence le ..." hint for a long run, relative to today.
+  function runHint(e) {
+    const toStart = dayDiff(todayStr, e.start_date), toEnd = dayDiff(todayStr, e.end_date);
+    if (toStart > 0) return { text: toStart === 1 ? 'commence demain' : `commence le ${fmtDate(e.start_date)} (dans ${toStart} jours)`, cls: 'upcoming' };
+    if (toEnd === 0) return { text: "dernier jour aujourd'hui", cls: 'soon' };
+    if (toEnd === 1) return { text: 'termine demain', cls: 'soon' };
+    return { text: `termine dans ${toEnd} jours`, cls: toEnd <= LONG_RUN_DAYS ? 'soon' : '' };
+  }
+
+  function cardNode(e) {
+    const n = document.createElement('article');
+    n.className = 'card' + (e.status === 'cancelled' ? ' cancelled' : '');
+    n.style.setProperty('--c', color(e));
+    const hint = runHint(e);
+    n.innerHTML = `
+      <div class="venue">${esc(e.venue_name)}</div>
+      <div class="title">${esc(e.title)}</div>
+      <div class="dates">${esc(fmtRange(e))}</div>
+      <div class="hint ${hint.cls}">${esc(hint.text)}</div>
+      ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(new URL(e.url).hostname)}</a>` : ''}`;
+    n.onclick = (ev) => { if (ev.target.closest('a')) return; openPanel(e); };
+    return n;
+  }
+
+  function renderExpos(longRuns) {
+    const box = $('expos');
+    box.innerHTML = '';
+    $('exposCount').textContent = longRuns.length;
+    if (!longRuns.length) { box.innerHTML = '<div class="empty">Aucune exposition ni événement au long cours pour le moment</div>'; return; }
+    // Soonest ending first, so what is about to close surfaces at the top.
+    const sorted = [...longRuns].sort((a, b) => a.end_date.localeCompare(b.end_date) || a.start_date.localeCompare(b.start_date) || a.title.localeCompare(b.title));
+    for (const e of sorted) box.appendChild(cardNode(e));
+  }
+
+  function setView(view) {
+    document.body.dataset.view = view;
+    for (const t of document.querySelectorAll('#tabs .tab')) {
+      const on = t.dataset.view === view;
+      t.classList.toggle('on', on);
+      t.setAttribute('aria-selected', on);
+    }
+    history.replaceState(null, '', view === 'expos' ? '#expos' : location.pathname + location.search);
+  }
+  for (const t of document.querySelectorAll('#tabs .tab')) t.onclick = () => setView(t.dataset.view);
+  setView(location.hash === '#expos' ? 'expos' : 'agenda');
 
   function openPanel(e) {
     const v = venueById[e.venue_id] || {};
-    const when = e.recurring
-      ? `du ${fmtShort.format(new Date(e.start_date + 'T00:00:00'))} au ${fmtShort.format(new Date(e.end_date + 'T00:00:00'))}${e.start_time ? `, ${timeLabel(e)}${e.end_time ? ' - ' + e.end_time.slice(0, 5).replace(':', 'h') : ''}` : ''}`
+    const when = isRange(e)
+      ? `${fmtRange(e)}${e.start_time ? `, ${timeLabel(e)}${e.end_time ? ' - ' + e.end_time.slice(0, 5).replace(':', 'h') : ''}` : ''}`
       : `${fmtDay.format(new Date(e.start_date + 'T00:00:00'))}${e.start_time ? ` à ${timeLabel(e)}` : ''}${e.end_time ? ` (jusqu'à ${e.end_time.slice(0, 5).replace(':', 'h')})` : ''}`;
     const rows = [
       ['Quand', when],

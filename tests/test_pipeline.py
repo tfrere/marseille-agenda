@@ -25,18 +25,20 @@ def _settings(tmp_path: Path) -> Settings:
 
 
 def _sources(today: date) -> SourcesFile:
+    """Deep copies: some tests below break a schema on purpose (selector, items_path) and the
+    reference schemas are shared with tests/test_apply.py, which must pass in any order."""
     return SourcesFile(sources={
         "amis-du-monde-diplomatique": SourceRecord(
             venue_id="amis-du-monde-diplomatique",
             source=DiscoveredSource(url="https://www.amis.monde-diplomatique.fr/-Marseille-.html", kind="html", confidence=0.9, reasoning="test"),
             discovered=today,
-            schema_record=SchemaRecord(schema=AMIS_DIPLO_SCHEMA, created=today, validated_against_llm=True, agreement=1.0, generator_model="test"),
+            schema_record=SchemaRecord(schema=AMIS_DIPLO_SCHEMA.model_copy(deep=True), created=today, validated_against_llm=True, agreement=1.0, generator_model="test"),
         ),
         "mucem": SourceRecord(
             venue_id="mucem",
             source=DiscoveredSource(url="https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100", kind="json", confidence=0.9, reasoning="test"),
             discovered=today,
-            schema_record=SchemaRecord(schema=MUCEM_SCHEMA, created=today, validated_against_llm=True, agreement=1.0, generator_model="test"),
+            schema_record=SchemaRecord(schema=MUCEM_SCHEMA.model_copy(deep=True), created=today, validated_against_llm=True, agreement=1.0, generator_model="test"),
         ),
     })
 

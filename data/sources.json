@@ -25,6 +25,7 @@
        "container_selector": ".menu.menu_articles.rendezvous",
        "exclude_selectors": [],
        "item_selector": "ul > li.hentry",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "h3.entry-title a",
@@ -265,7 +266,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 108,
-   "content_hash": "bacb558c6db16ca0",
+   "content_hash": "7be54d15341881fc",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -297,6 +298,7 @@
        "container_selector": null,
        "exclude_selectors": [],
        "item_selector": "div.events > div.event",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "h3.title a",
@@ -363,7 +365,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 25,
-   "content_hash": "30648849ec147261",
+   "content_hash": "9c8ff9c7890c1a25",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -394,6 +396,7 @@
        "container_selector": ".views-infinite-scroll-content-wrapper",
        "exclude_selectors": [],
        "item_selector": ".grid__cell:has(.date time)",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "h3.title",
@@ -451,10 +454,10 @@
     "version": 1
    },
    "last_ok": "2026-09-13",
-   "last_error": "fetch: timed out",
+   "last_error": null,
    "last_event_count": 3,
-   "content_hash": "95f690aa0f75e443",
-   "consecutive_failures": 2,
+   "content_hash": "116e4e7012125e1e",
+   "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
   },
@@ -485,6 +488,7 @@
        "container_selector": null,
        "exclude_selectors": [],
        "item_selector": "#eveContent > a",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "#eveName h1",
@@ -569,6 +573,7 @@
        "container_selector": "div.liste-articles-rubrique",
        "exclude_selectors": [],
        "item_selector": "div.cadre-articles-rubrique",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": ".titre-articles-rubrique2",
@@ -643,6 +648,7 @@
        "container_selector": "div.entry-content",
        "exclude_selectors": [],
        "item_selector": "div.entry-content > div.wp-block-media-text",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "p.has-medium-font-size strong a, p.has-medium-font-size strong strong",
@@ -711,6 +717,7 @@
        "container_selector": null,
        "exclude_selectors": [],
        "item_selector": ".card-deck > .card.article.shadow",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "h2 a",
@@ -778,6 +785,7 @@
        "container_selector": null,
        "exclude_selectors": [],
        "item_selector": "#cnt5244 .content-texte, #cnt5250 .content-texte",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "",
@@ -823,7 +831,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 1,
-   "content_hash": "aab55e9693c34ae8",
+   "content_hash": "bc7c0bfd25a215d7",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -855,6 +863,7 @@
        "container_selector": null,
        "exclude_selectors": [],
        "item_selector": "div.events > div.event",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "h3.title a",
@@ -939,6 +948,7 @@
        "container_selector": null,
        "exclude_selectors": [],
        "item_selector": "a.box-evenement",
+       "item_mode": "wrapper",
        "fields": {
         "title": {
          "selector": "h3",

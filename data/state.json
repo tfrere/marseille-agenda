@@ -4503,7 +4503,7 @@
    "end_date": "2026-09-20",
    "end_time": "00:00:00",
    "location_name": "Musée d'art contemporain [mac]",
-   "url": "https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contemporain-mac-0",
+   "url": "https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -4515,7 +4515,7 @@
    "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
    "source_kind": "html",
    "evidence": [
-    "(https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contemporain-mac-0) La vie climatique. Histoires sensibles des collections privées - Triennale De leur temps #8 (https://musees.marseille.fr/la-vie-climatique-histoi"
+    "(https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8) La vie climatique. Histoires sensibles des collections privées - Triennale De leur temps #8 (https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees"
    ],
    "verifier": "accept",
    "verifier_reason": "Exhibition confirmed at Musée d'art contemporain [mac] from '04 avril 2026' to '20 septembre 2026'.",
@@ -4537,7 +4537,7 @@
    "end_date": "2027-01-03",
    "end_time": "00:00:00",
    "location_name": "Musée d'art contemporain [mac]",
-   "url": "https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-dart-contemporain-mac-0",
+   "url": "https://musees.marseille.fr/voix-publiques-louisa-babari",
    "price": "Gratuit",
    "summary": null,
    "status": "scheduled",
@@ -4549,7 +4549,7 @@
    "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
    "source_kind": "html",
    "evidence": [
-    "Gratuit (https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-dart-contemporain-mac-0) Voix Publiques - Louisa Babari (https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-dart-contemporain-mac-0) Musée d'art contemporain [mac] Du [2026-09-19T07:00:00Z] 19 septembre"
+    "Gratuit (https://musees.marseille.fr/voix-publiques-louisa-babari) Voix Publiques - Louisa Babari (https://musees.marseille.fr/voix-publiques-louisa-babari) Musée d'art contemporain [mac] Du [2026-09-19T07:00:00Z] 19 septembre 2026 au [2027-01-03T17:00:00Z] 03 janvier 2027"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Voix Publiques - Louisa Babari' at Musée d'art contemporain [mac] from 19 septembre 2026 to 03 janvier 2027.",
@@ -4571,7 +4571,7 @@
    "end_date": "2027-01-03",
    "end_time": "00:00:00",
    "location_name": "Musée d'art contemporain [mac]",
-   "url": "https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-contemporain-mac-0",
+   "url": "https://musees.marseille.fr/africa-louisa-babari",
    "price": "Gratuit",
    "summary": null,
    "status": "scheduled",
@@ -4583,7 +4583,7 @@
    "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
    "source_kind": "html",
    "evidence": [
-    "Gratuit (https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-contemporain-mac-0) AFRICA - Louisa Babari (https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-contemporain-mac-0) Musée d'art contemporain [mac] Du [2026-05-15T07:00:00Z] 15 mai 2026 au [2027-01-03T17:00:00Z"
+    "Gratuit (https://musees.marseille.fr/africa-louisa-babari) AFRICA - Louisa Babari (https://musees.marseille.fr/africa-louisa-babari) Musée d'art contemporain [mac] Du [2026-05-15T07:00:00Z] 15 mai 2026 au [2027-01-03T17:00:00Z] 03 janvier 2027"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition 'AFRICA - Louisa Babari' at Musée d'art contemporain [mac] runs 'Du [2026-05-15T07:00:00Z] 15 mai 2026 au [2027-01-03T17:00:00Z] 03 janvier 2027', matching the extracted details and URL.",
@@ -9771,7 +9771,7 @@
   },
   "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100": {
    "url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
-   "content_hash": "bacb558c6db16ca0",
+   "content_hash": "7be54d15341881fc",
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
    "last_error": null,
@@ -9950,7 +9950,7 @@
   },
   "https://www.lafriche.org/agenda/": {
    "url": "https://www.lafriche.org/agenda/",
-   "content_hash": "30648849ec147261",
+   "content_hash": "9c8ff9c7890c1a25",
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
    "last_error": null,
@@ -10038,10 +10038,10 @@
   },
   "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0": {
    "url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
-   "content_hash": "95f690aa0f75e443",
+   "content_hash": "116e4e7012125e1e",
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
-   "last_error": "fetch: timed out",
+   "last_error": null,
    "event_count": 3,
    "uids": [
     "3b62334d0fdf",
@@ -10258,7 +10258,7 @@
   },
   "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html": {
    "url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
-   "content_hash": "aab55e9693c34ae8",
+   "content_hash": "bc7c0bfd25a215d7",
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
    "last_error": null,

@@ -50,18 +50,6 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/visites-flash/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Soudain
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260914
-UID:12e7feca691b@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film 'Soudain' (de Ryūsuke Hamaguchi avec Virgi
- nie Efira) en salle toute la semaine du 9 au 13 septembre.\nhttps://www.in
- stagram.com/p/Dc_62yjgaQm/
-LOCATION:Le Gyptis
-URL:https://www.instagram.com/p/Dc_62yjgaQm/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:« Sur les ruines\, les pierres fleurissent » تزهر حجارة
   الأطلال d’Abdessamad El Montassir
 DTSTART;VALUE=DATE:20260909
@@ -75,58 +63,16 @@ LOCATION:Friche la Belle de Mai - Friche la Belle de Mai
 URL:https://www.instagram.com/p/DdEhWO1CEra/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MARIUS ET LE ROYAUME DES MERS d'Endre Skandfer
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260914
-UID:36f47f3ac60a@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film d'animation 'Marius et le Royaume des Mers'
-  d'Endre Skandfer\, adapté pour les enfants à partir de 6 ans\, avec des
-  séances prévues mercredi 9\, samedi 12 et dimanche 13 septembre 2026.\n
- https://www.instagram.com/p/Dc0uyuQEvX3/
-LOCATION:La Baleine - La Baleine
-URL:https://www.instagram.com/p/Dc0uyuQEvX3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:L’AVENTURE RÊVÉE de Valeska Grisebach
+SUMMARY:L’AVENTURE RÊVÉE de Valeska Grisebach – Séance en VOST
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260928
-UID:61b2e60bd5cc@marseille-agenda
+UID:2cfbb0b7f3cb@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Projection du film 'L’AVENTURE RÊVÉE' de Valeska Grisebach
- \, en VOST\, avec des séances programmées du 12 au 27 septembre.\nhttps:
- //www.facebook.com/cinemalegyptis/posts/pfbid02AkESvrRDqKLcfWF2EzkKmZA8Mxa
- qUZuTHNangfKqgRho4oAnFHn6vcN3BdXH9ixal
-LOCATION:Le Gyptis - Le Gyptis
-URL:https://www.facebook.com/cinemalegyptis/posts/pfbid02AkESvrRDqKLcfWF2E
- zkKmZA8MxaqUZuTHNangfKqgRho4oAnFHn6vcN3BdXH9ixal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MARIUS ET LE ROYAUME DES MERS d'Endre Skandfer
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260914
-UID:50840912adcc@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film pour enfants 'Marius et le Royaume des Mers
- ' d'Endre Skandfer\, à partir de 6 ans\, avec plusieurs séances durant l
- a semaine.\nhttps://www.facebook.com/labaleinemarseille/posts/pfbid02rq6c5
- FDUy3ubNjnctVdeYd4PzxncHMvrpuVcPW3a4LGwMsuma7pyBg8Sdb89axmbl
-LOCATION:La Baleine - La Baleine
-URL:https://www.facebook.com/labaleinemarseille/posts/pfbid02rq6c5FDUy3ubN
- jnctVdeYd4PzxncHMvrpuVcPW3a4LGwMsuma7pyBg8Sdb89axmbl
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:RETOUR DE CANNES 2026
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260926
-UID:d7d9905f93b5@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Le Gyptis accueille RETOUR DE CANNES : retrouvez les meilleurs
-  films des sélections cannoises : la Sélection Officielle dans son ensem
- ble\, mais aussi la Quinzaine des cinéastes\, la Semaine de la Criti\nhtt
- ps://www.facebook.com/events/4162287877249049/
-LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
-URL:https://www.facebook.com/events/4162287877249049/
+DESCRIPTION:Sélection de quatre films présentés au Festival de Cannes\,
+  avec des séances en version originale sous-titrée\, du 11 au 27 septemb
+ re.\nhttps://www.instagram.com/p/DdB0dUQjKdi/
+LOCATION:Le Gyptis
+URL:https://www.instagram.com/p/DdB0dUQjKdi/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -141,17 +87,6 @@ DESCRIPTION:Une exposition et une série de dialogues publics réunissant
  he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lydia et le vaisseau des tempêtes
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260921
-UID:92a156efffbd@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
- etes/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Expo-pause
@@ -254,30 +189,6 @@ LOCATION:La Baleine - La Baleine Marseille
 URL:https://www.facebook.com/events/1348218804116673/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:La Pat’Patrouille : Le Film Mission Dino
-DTSTART;TZID=Europe/Paris:20260913T140000
-DTEND;TZID=Europe/Paris:20260913T160000
-UID:e03f014c4c45@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/la-patpatrouille-le-film-miss
- ion-dino/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/la-patpatrouille-le-film-mission-dino
- /
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vaiana\, la légende du bout du monde (live action)
-DTSTART;TZID=Europe/Paris:20260913T154500
-DTEND;TZID=Europe/Paris:20260913T174500
-UID:2d7d0586aff8@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/vaiana-la-legende-du-bout-du-
- monde-live-action/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/vaiana-la-legende-du-bout-du-monde-li
- ve-action/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[rdv doc] HAIR\, PAPER\, WATER... de Nicolas Graux\, Minh Quý Tr
  ương | Avec le Labo Largent
 DTSTART;TZID=Europe/Paris:20260913T160000
@@ -290,16 +201,6 @@ DESCRIPTION:▉ En présence de Arnaud Alain et Alyzée Soudet du Labo Lar
  d\nhttps://marseillecinemalabaleine.cine.boutique/
 LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Soudain
-DTSTART;TZID=Europe/Paris:20260913T180000
-DTEND;TZID=Europe/Paris:20260913T200000
-UID:cf2b130c664b@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/soudain/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/soudain/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFTER MARY + BRIGHT SHOP + CASTAWAYS
@@ -408,41 +309,6 @@ URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MAGR7T/rebecca.
  html
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lydia et le vaisseau des tempêtes
-DTSTART;TZID=Europe/Paris:20260916T143000
-DTEND;TZID=Europe/Paris:20260916T163000
-UID:2e676b12b4d3@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
- etes/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LE CYGNE ET L'ENFANT de Miyoung Baek
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260921
-UID:edc30791ee97@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Programme de trois courts métrages d'animation de Miyoung Bae
- k\, poétiques et oniriques\, destinés aux enfants à partir de 5 ans.\nh
- ttps://www.instagram.com/p/DdMeP_EiF3P/
-LOCATION:La Baleine - La Baleine
-URL:https://www.instagram.com/p/DdMeP_EiF3P/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Chien Bleu et autres belles histoires de l’école des loisirs
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260924
-UID:3f14b70fe166@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-h
- istoires-de-lecole-des-loisirs/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-histoires
- -de-lecole-des-loisirs/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:« Sur un fil » – Séance d’écoute avec Mediapart
 DTSTART;TZID=Europe/Paris:20260916T183000
 DTEND;TZID=Europe/Paris:20260916T203000
@@ -479,19 +345,6 @@ CATEGORIES:cinema
 DESCRIPTION:https://cinemalegyptis.org/films/laventure-revee/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/laventure-revee/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA LIGNE BLEUE de Marie Dumora
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260923
-UID:e1626c5889f1@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film documentaire 'La Ligne bleue' de Marie Dumo
- ra\, explorant la mémoire et la résistance dans la vallée de la Bruche
- \, avec plusieurs séances du mercredi 16 au mardi 22 septembre 2026.\nhtt
- ps://www.instagram.com/p/DdJF9f4l08o/
-LOCATION:La Baleine - La Baleine
-URL:https://www.instagram.com/p/DdJF9f4l08o/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Grand Kosmi (Indie Folk - Marseille)
@@ -720,17 +573,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.instagram.com/p/DdE9lVzATfF/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GOUFFRES ET MERVEILLES DE JEAN BOYER
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
-UID:5f8456cb76e6@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film 'Gouffres et Merveilles de Jean Boyer' le s
- amedi 19 septembre.\nhttps://www.facebook.com/events/1717298379483404/
-LOCATION:La Baleine
-URL:https://www.facebook.com/events/1717298379483404/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Voix Publiques - Louisa Babari
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270104
@@ -765,18 +607,6 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS
-DTSTART;TZID=Europe/Paris:20260919T110000
-DTEND;TZID=Europe/Paris:20260919T130000
-UID:8f07c830aca8@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Une séance cinématographique pour enfants adaptant des histo
- ires de l'École des Loisirs avec des dessins fixes animés par voix\, cam
- éra et son.\nhttps://www.instagram.com/p/DdHAKxfiTfr/
-LOCATION:Le Gyptis
-URL:https://www.instagram.com/p/DdHAKxfiTfr/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:La Journée de l’engagement
 DTSTART;TZID=Europe/Paris:20260919T130000
 DTEND;TZID=Europe/Paris:20260919T170000
@@ -790,17 +620,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/la-journee-de-lengagement/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lydia et le vaisseau des tempêtes
-DTSTART;TZID=Europe/Paris:20260919T135000
-DTEND;TZID=Europe/Paris:20260919T155000
-UID:0cfe246d7a34@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
- etes/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Visite flash
 DTSTART;TZID=Europe/Paris:20260919T150000
 DTEND;TZID=Europe/Paris:20260919T160000
@@ -812,25 +631,18 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/visite-flash-15/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marius et le Royaume des mers
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260924
-UID:61ca4174968d@marseille-agenda
+SUMMARY:[rencontre] GOUFFRES ET MERVEILLES de Jean Boiron-Lajous | En pré
+ sence de l'équipe du film
+DTSTART;TZID=Europe/Paris:20260919T173000
+DTEND;TZID=Europe/Paris:20260919T193000
+UID:75488a4a9b87@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
- /
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:L’aventure rêvée
-DTSTART;TZID=Europe/Paris:20260919T170000
-DTEND;TZID=Europe/Paris:20260919T190000
-UID:462d3a1ba8e9@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/laventure-revee/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/laventure-revee/
+DESCRIPTION:▉ En présence de l'équipe du film\, autour de l'amitié ! 
+ ▉ Une table d'ouvrage sur l'amitié sera proposé à l'issue de la séan
+ ce\, en partenariat avec la librairie Histoire de l'œil ▉ En partenaria
+ t avec\nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Smala de Marseille
@@ -946,50 +758,6 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS
-DTSTART;TZID=Europe/Paris:20260920T110000
-DTEND;TZID=Europe/Paris:20260920T130000
-UID:e21c6a723973@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Une séance cinématographique pour enfants adaptant des histo
- ires de l'École des Loisirs avec des dessins fixes animés par voix\, cam
- éra et son.\nhttps://www.instagram.com/p/DdHAKxfiTfr/
-LOCATION:Le Gyptis
-URL:https://www.instagram.com/p/DdHAKxfiTfr/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lydia et le vaisseau des tempêtes
-DTSTART;TZID=Europe/Paris:20260920T140000
-DTEND;TZID=Europe/Paris:20260920T160000
-UID:a75550ba4528@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
- etes/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marius et le Royaume des mers
-DTSTART;TZID=Europe/Paris:20260920T153500
-DTEND;TZID=Europe/Paris:20260920T173500
-UID:139cb9a2d449@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
- /
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:L’aventure rêvée
-DTSTART;TZID=Europe/Paris:20260920T171500
-DTEND;TZID=Europe/Paris:20260920T191500
-UID:24aaa2f23fd9@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/laventure-revee/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/laventure-revee/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Marché paysan
 DTSTART;TZID=Europe/Paris:20260921T160000
 DTEND;TZID=Europe/Paris:20260921T200000
@@ -1026,17 +794,6 @@ URL:https://www.cfaprovence.com/wp-content/uploads/2026/08/KINOVISIONS_PRO
  GRAMME_2026.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marius et le Royaume des mers
-DTSTART;TZID=Europe/Paris:20260923T143000
-DTEND;TZID=Europe/Paris:20260923T163000
-UID:b3eb768d874c@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
- /
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[petite baleine] LE CYGNE ET L'ENFANT de Miyoung Baek | suivi d'un
   atelier peinture et aquarelle !
 DTSTART;TZID=Europe/Paris:20260923T160000
@@ -1049,41 +806,6 @@ DESCRIPTION:▉ La Petite Baleine : Atelier Aquarelles et coloriages à l
  𝗘 𝗖𝗬𝗚\nhttps://marseillecinemalabaleine.cine.boutique/
 LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un Amour d’Épouvantail
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260928
-UID:8995b8171a82@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/un-amour-depouvantail/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/un-amour-depouvantail/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS
-DTSTART;TZID=Europe/Paris:20260923T170000
-DTEND;TZID=Europe/Paris:20260923T190000
-UID:c8ee3ce05a7c@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Une séance cinématographique pour enfants adaptant des histo
- ires de l'École des Loisirs avec des dessins fixes animés par voix\, cam
- éra et son.\nhttps://www.instagram.com/p/DdHAKxfiTfr/
-LOCATION:Le Gyptis
-URL:https://www.instagram.com/p/DdHAKxfiTfr/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Écrire la vie : Annie Ernaux racontée par des lycéennes et des 
- lycéens
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260927
-UID:7c90a0187381@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-ra
- contee-par-des-lyceennes-et-des-lyceens/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-p
- ar-des-lyceennes-et-des-lyceens/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BLACK MILK + LUTE
@@ -1178,19 +900,6 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/mahmoud-darwich-poetry-day/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Écrire la vie : Annie Ernaux racontée par des lycéennes et des 
- lycéens
-DTSTART;TZID=Europe/Paris:20260925T190000
-DTEND;TZID=Europe/Paris:20260925T210000
-UID:c15730150414@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-ra
- contee-par-des-lyceennes-et-des-lyceens/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-p
- ar-des-lyceennes-et-des-lyceens/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BLOOMING DISCORD + Scarlean + Matw
 DTSTART;TZID=Europe/Paris:20260925T190000
 DTEND;TZID=Europe/Paris:20260925T210000
@@ -1240,16 +949,6 @@ DESCRIPTION:4 scènes\, 2 jours : le festival des cultures électroniques
  a-festival-5/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/utopia-festival-5/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un Amour d’Épouvantail
-DTSTART;TZID=Europe/Paris:20260926T110000
-DTEND;TZID=Europe/Paris:20260926T130000
-UID:5b2b9cc21c7c@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/un-amour-depouvantail/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/un-amour-depouvantail/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites guidées en LSF de «Mossi\, la mode aussi »
@@ -1322,19 +1021,6 @@ LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Écrire la vie : Annie Ernaux racontée par des lycéennes et des 
- lycéens
-DTSTART;TZID=Europe/Paris:20260926T180000
-DTEND;TZID=Europe/Paris:20260926T200000
-UID:ff88e8f1ba15@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-ra
- contee-par-des-lyceennes-et-des-lyceens/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-p
- ar-des-lyceennes-et-des-lyceens/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Roma Elastica
 DTSTART;TZID=Europe/Paris:20260926T200000
 DTEND;TZID=Europe/Paris:20260926T220000
@@ -1385,18 +1071,6 @@ LOCATION:L'Intermédiaire - L'Intermédiaire
 URL:https://www.instagram.com/p/Dc9GRp1Iqss/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chien Bleu et autres belles histoires de l’école des loisirs
-DTSTART;TZID=Europe/Paris:20260927T110000
-DTEND;TZID=Europe/Paris:20260927T130000
-UID:6adf47e1880d@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-h
- istoires-de-lecole-des-loisirs/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-histoires
- -de-lecole-des-loisirs/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:LE MAUVAIS OEIL 88 : Kikifruit
 DTSTART;TZID=Europe/Paris:20260927T140000
 DTEND;TZID=Europe/Paris:20260927T160000
@@ -1407,27 +1081,6 @@ DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
  -kikifruit/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marius et le Royaume des mers
-DTSTART;TZID=Europe/Paris:20260927T140000
-DTEND;TZID=Europe/Paris:20260927T160000
-UID:c457c1495b87@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
- /
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un Amour d’Épouvantail
-DTSTART;TZID=Europe/Paris:20260927T153000
-DTEND;TZID=Europe/Paris:20260927T173000
-UID:0a7da968a8a6@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://cinemalegyptis.org/films/un-amour-depouvantail/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/un-amour-depouvantail/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Gradiva
@@ -1466,19 +1119,6 @@ LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:La Défense: trilogie
-DTSTART;TZID=Europe/Paris:20260929T203000
-DTEND;TZID=Europe/Paris:20260929T223000
-UID:d89ffe9118e7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection of the 'La Défense' trilogy by Valentin Noujaïm\,
-  reinventing Dante's Divine Comedy in the hypermodern setting of La Défen
- se\, featuring three short films.\nhttps://www.instagram.com/p/Dc_fCkuJfVN
- /
-LOCATION:Les Variétés - Cinéma
-URL:https://www.instagram.com/p/Dc_fCkuJfVN/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:L’ornement dans les arts de l’Islam
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261003
@@ -1513,18 +1153,6 @@ LOCATION:La Baleine - La Baleine
 URL:https://www.instagram.com/p/DcxwqEqjcE4/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ACID
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261005
-UID:205c9c021099@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Comme chaque année\, c'est la reprise des films de la 34 e é
- dition de l’ACID ! Les séances seront présentées par les équipes de 
- film ou des membres de l'ACID.\nhttps://www.lacid.org/
-LOCATION:Les Variétés
-URL:https://www.lacid.org/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:L’ornement dans les arts de l’Islam
 DTSTART;TZID=Europe/Paris:20261002T090000
 DTEND;TZID=Europe/Paris:20261002T180000
@@ -1536,20 +1164,6 @@ LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/lornement-dans-les-arts-de-lislam/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Reprise ACID Cannes 2026 à Marseille aux Variétés\, à La Balei
- ne et au Gyptis
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261005
-UID:da2f3cc30ee7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:📆 AU PROGRAMME Vendredi 2 octobre Les Variétés - 20h : BA
- RÇA ZOU de Paul Nouhet Samedi 3 octobre Les Variétés – 16h : BLAISE d
- e Dimitri Planchon & Jean-Paul Guigue La Baleine – 18h : CŒUR SECRET de
-  To\nhttps://www.lacid.org/fr/cannes/reprises-acid-cannes-2026
-LOCATION:Le Gyptis - Marseille
-URL:https://www.lacid.org/fr/cannes/reprises-acid-cannes-2026
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:REPORT 23 / 09 – LUTE + Guest
 DTSTART;TZID=Europe/Paris:20261002T200000
 DTEND;TZID=Europe/Paris:20261002T220000
@@ -1558,30 +1172,6 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 18€\nhttps://lemolotov.com/events/lute-guest/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/lute-guest/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BARÇA ZOU de Paul Nouhet
-DTSTART;TZID=Europe/Paris:20261002T200000
-DTEND;TZID=Europe/Paris:20261002T220000
-UID:82a8be7bc894@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film BARÇA ZOU de Paul Nouhet à Les Variétés
-  à Marseille le vendredi 2 octobre 2026 à 20h.\nhttps://www.instagram.co
- m/p/DbBUcPaDNQ3/
-LOCATION:Les Variétés - LES VARIÉTÉS
-URL:https://www.instagram.com/p/DbBUcPaDNQ3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BLAISE de Dimitri Planchon & Jean-Paul Guigue
-DTSTART;TZID=Europe/Paris:20261003T160000
-DTEND;TZID=Europe/Paris:20261003T180000
-UID:7f2539f6d3dd@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film BLAISE de Dimitri Planchon & Jean-Paul Guig
- ue à Les Variétés à Marseille le samedi 3 octobre 2026 à 16h.\nhttps:
- //www.instagram.com/p/DbBUcPaDNQ3/
-LOCATION:Les Variétés - LES VARIÉTÉS
-URL:https://www.instagram.com/p/DbBUcPaDNQ3/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le sens de la mode
@@ -1806,16 +1396,18 @@ LOCATION:La Baleine - 59 Cours Julien\, 13006 Marseille\, France
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:LEER ME
+SUMMARY:[CineHorizontes] QUEER ME d'Irene B. Carramiñana |  avec l'équip
+ e du film & DJ-set de Fantasma Party
 DTSTART;TZID=Europe/Paris:20261014T204500
 DTEND;TZID=Europe/Paris:20261014T224500
-UID:ba428279d46e@marseille-agenda
+UID:bae382ea9dd9@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Screening of the film 'LEER ME' by Milo Carramiñana at La Bal
- eine on October 14\, 2026\, at 8:45 PM.\nhttps://www.facebook.com/events/2
- 282542679251048/
-LOCATION:La Baleine
-URL:https://www.facebook.com/events/2282542679251048/
+DESCRIPTION:▉ Séance en présence de l'équipe du film ▉ Suivi d'un D
+ J Set de Fantasma Party (DJ duo) sur la terrasse de La Baleine (22h-minuit
+ ) Mercredi 14 octobre | 20h45 𝗤𝗨𝗘𝗘𝗥 𝗠𝗘 d'Irene Bailo 
+ Carramiñana Docume\nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HÄLLAS + Earth Tongue

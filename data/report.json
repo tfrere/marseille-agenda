@@ -1,48 +1,17 @@
 {
  "run_date": "2026-09-13",
- "sources_total": 34,
- "sources_ok": 34,
+ "sources_total": 11,
+ "sources_ok": 11,
  "sources_skipped_unchanged": 0,
- "events_published": 340,
- "events_new": 0,
- "events_rejected_grounding": 79,
- "events_rejected_verifier": 2,
- "events_uncertain": 1,
- "alerts": [
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-09-19"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "message": "verifier rejected 'Journées du Patrimoine' 2026-09-20: The excerpt lists discrete visit slots '10h / 10h30 / 14h / 14h30', contradicting the extracted end time of 10:30:00 (10h30 is another start time, and visits continue in the afternoon)."
-  },
-  {
-   "level": "warning",
-   "venue_id": "mille-babords",
-   "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier uncertain 'Traversées libanaises' 2026-10-06: The date '6 octobre 2026' is only stated as 'Article mis en ligne le 6 octobre 2026' (publication date) rather than an explicit event date."
-  },
-  {
-   "level": "warning",
-   "venue_id": "mille-babords",
-   "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Conférence gesticulée\\xa0: «\\xa0Nous produisons, nous décidons\\xa0» Écrire la partition d’un monde post-capitaliste' 2026-10-10: The date 2026-10-10 was taken from the publication date (\"Article mis en ligne le 10 octobre 2026\") rather than an event start date, which is not stated in the excerpt."
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://lafabulerie.com/agenda/?type-projet=tout&localisation=marseille",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-09-20"
-  }
- ],
- "llm_calls": 3,
+ "events_published": 302,
+ "events_new": 49,
+ "events_rejected_grounding": 0,
+ "events_rejected_verifier": 0,
+ "events_uncertain": 0,
+ "alerts": [],
+ "llm_calls": 0,
  "posts_analyzed": 0,
  "apify_runs": 0,
- "credits_remaining_usd": 1.5556,
+ "credits_remaining_usd": 1.5275,
  "run_cost_usd": 0.0
 }

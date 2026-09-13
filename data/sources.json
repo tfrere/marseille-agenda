@@ -454,10 +454,10 @@
     "version": 1
    },
    "last_ok": "2026-09-13",
-   "last_error": null,
+   "last_error": "fetch: timed out",
    "last_event_count": 3,
    "content_hash": "116e4e7012125e1e",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "regenerations": 0,
    "next_generation": null
   },

@@ -14713,7 +14713,7 @@
    "content_hash": "116e4e7012125e1e",
    "last_fetched": "2026-09-13",
    "last_ok": "2026-09-13",
-   "last_error": null,
+   "last_error": "fetch: timed out",
    "event_count": 3,
    "uids": [
     "3b62334d0fdf",

@@ -59,6 +59,7 @@
   .bar.e { width: calc(var(--span) * 100% / 7 - 4px); border-radius: 0 5px 5px 0; }
   .bar.s.e { width: calc(var(--span) * 100% / 7 - 8px); border-radius: 5px; }
   .bar:not(.s) { border-left: 2px dashed color-mix(in srgb, var(--c) 45%, transparent); }
+  .bar:not(.s) .n { color: var(--muted); }
   .bar:hover { background: color-mix(in srgb, var(--c) 32%, var(--cell)); }
   .bar .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
   .bar.cancelled .n { text-decoration: line-through; }
@@ -227,8 +228,8 @@
     n.style.setProperty('--c0', c0);
     n.style.setProperty('--span', c1 - c0 + 1);
     n.title = `${e.venue_name} - ${e.title} (${fmtRange(e)})`;
-    // The title is shown once, on the segment where the event starts; continuation segments stay bare.
-    if (isStart) n.innerHTML = `<span class="n">${esc(e.title)}</span>`;
+    // The title is repeated on every segment; continuation segments (.bar:not(.s)) render it muted.
+    n.innerHTML = `<span class="n">${esc(e.title)}</span>`;
     n.onclick = () => openPanel(e);
     return n;
   }

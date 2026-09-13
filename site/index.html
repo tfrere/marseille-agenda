@@ -141,11 +141,23 @@
   .ev .v { color: var(--muted); font-size: 11.5px; flex: none; }
   .cell { min-width: 0; }
   .ev.cancelled .n { text-decoration: line-through; }
+  /* event visuals: a tinted box (category colour) holding the image, or the "pas de visuel" placeholder */
+  .vis { position: relative; overflow: hidden; flex: none; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--c) 12%, var(--cell)); }
+  .vis img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .vis.ph span { font-size: 11.5px; color: var(--muted); letter-spacing: .02em; }
+  /* list rows: small square thumbnail, only when the event has a visual */
+  .ev .th { width: 44px; height: 44px; flex: none; align-self: center; border-radius: 5px; }
+  .ev.thumbed { align-items: center; }
   /* panel */
   .panel { position: fixed; top: 0; right: 0; height: 100%; width: min(440px, 100%); background: var(--panel); box-shadow: var(--shadow); transform: translateX(105%); transition: transform .2s ease; padding: 18px 20px; overflow: auto; z-index: 30; }
   .panel.open { transform: none; }
-  .panel h2 { margin: 26px 0 6px; font-size: 20px; line-height: 1.25; }
+  .panel h2 { margin: 4px 0 6px; font-size: 20px; line-height: 1.25; }
   .panel .venue { color: var(--c); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+  /* panel visual: full width, never cropped (posters), capped at 40vh */
+  .panel .vis { width: 100%; aspect-ratio: 16 / 9; max-height: 40vh; margin-top: 30px; border-radius: 8px; }
+  .panel .vis img { object-fit: contain; }
+  .panel .orig { display: block; text-align: right; font-size: 11px; color: var(--muted); margin: 4px 0 10px; }
+  .panel .vis.ph { margin-bottom: 14px; }
   .panel dl { display: grid; grid-template-columns: 90px 1fr; gap: 6px 10px; margin: 14px 0; }
   .panel dt { color: var(--muted); }
   .panel dd { margin: 0; }
@@ -162,8 +174,11 @@
   /* long-running exhibitions view: cards sorted by end date */
   .expos { display: none; flex: 1; min-height: 0; overflow: auto; padding: 14px 16px 40px; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 10px; align-content: start; }
   body[data-view="expos"] .expos { display: grid; }
-  .card { display: flex; flex-direction: column; gap: 3px; background: var(--cell); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 8px; padding: 10px 12px; cursor: pointer; }
+  /* no overflow:hidden on the card: a scroll container would let the grid squeeze auto rows below content height */
+  .card { display: flex; flex-direction: column; background: var(--cell); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 8px; cursor: pointer; }
   .card:hover { border-color: var(--muted); border-left-color: var(--c); }
+  .card .vis { aspect-ratio: 3 / 2; width: 100%; border-radius: 4px 7px 0 0; }
+  .card .body { display: flex; flex-direction: column; gap: 3px; padding: 10px 12px; }
   .card .venue { color: var(--c); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; }
   .card .title { font-weight: 600; font-size: 14.5px; line-height: 1.3; }
   .card.cancelled .title { text-decoration: line-through; }
@@ -189,6 +204,7 @@
     #filtersBtn { white-space: nowrap; }
     .recap .clear { margin-left: 0; }
     .expos { grid-template-columns: 1fr; padding: 10px 12px 40px; }
+    .card .vis { aspect-ratio: 16 / 9; }
     /* level-2 facets become a bottom sheet */
     .pop { position: fixed; top: auto; right: 0; bottom: 0; left: 0; width: auto; max-width: none; max-height: 88vh; border-radius: 14px 14px 0 0; display: flex; flex-direction: column; animation: slide-up .25s ease; }
     .pop[hidden] { display: none; }
@@ -651,13 +667,46 @@
 
   // ---- Event nodes and views --------------------------------------------------------------
 
-  function evNode(e, withVenue = false) {
+  // Visuals are published as paths relative to the site directory (img/<uid>.webp), so resolve against the page URL.
+  const imageUrl = (e) => e.image ? new URL(e.image, location.href).href : null;
+  function placeholderNode(cls) {
+    const d = document.createElement('div');
+    d.className = `vis ph ${cls}`;
+    d.innerHTML = '<span>pas de visuel</span>';
+    return d;
+  }
+  // Lazy <img> in a tinted box. A missing file swaps to the placeholder (or removes the box when `optional`);
+  // events without a visual get the placeholder, or nothing when `optional`.
+  function visualNode(e, cls, optional = false) {
+    const url = imageUrl(e);
+    if (!url) return optional ? null : placeholderNode(cls);
+    const wrap = document.createElement('div');
+    wrap.className = `vis ${cls}`;
+    const img = document.createElement('img');
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.alt = e.title;
+    img.onerror = () => {
+      if (!optional) { wrap.replaceWith(placeholderNode(cls)); return; }
+      const row = wrap.parentElement;
+      wrap.remove();
+      if (row) row.classList.remove('thumbed');
+    };
+    img.src = url;
+    wrap.appendChild(img);
+    return wrap;
+  }
+
+  // `venue` appends the venue name; `thumb` prepends a square thumbnail when the event has a visual (lists only).
+  function evNode(e, { venue = false, thumb = false } = {}) {
     const n = document.createElement('div');
     n.className = 'ev' + (e.status === 'cancelled' ? ' cancelled' : '');
     n.style.setProperty('--c', color(e));
     n.title = `${e.venue_name} - ${e.title}`;
     const label = isRange(e) ? `jusqu'au ${fmtDate(e.end_date)}` : timeLabel(e);
-    n.innerHTML = `${label ? `<span class="t">${esc(label)}</span>` : ''}<span class="n">${esc(e.title)}</span>${withVenue ? `<span class="v">${esc(e.venue_name)}</span>` : ''}`;
+    n.innerHTML = `${label ? `<span class="t">${esc(label)}</span>` : ''}<span class="n">${esc(e.title)}</span>${venue ? `<span class="v">${esc(e.venue_name)}</span>` : ''}`;
+    const th = thumb ? visualNode(e, 'th', true) : null;
+    if (th) { n.prepend(th); n.classList.add('thumbed'); }
     n.onclick = () => openPanel(e);
     return n;
   }
@@ -741,7 +790,7 @@
     for (const k of days) {
       const h = document.createElement('h3'); h.textContent = fmtDay.format(dateOf(k)); ag.appendChild(h);
       const sorted = agDays[k].sort((a, b) => (isRange(b) - isRange(a)) || byTime(a, b));
-      for (const e of sorted) ag.appendChild(evNode(e));
+      for (const e of sorted) ag.appendChild(evNode(e, { thumb: true }));
     }
   }
 
@@ -760,11 +809,11 @@
     for (const k of days) {
       const h = document.createElement('h3'); h.textContent = fmtDay.format(dateOf(k)); ag.appendChild(h);
       const sorted = byDay[k].sort((a, b) => (isRange(b) - isRange(a)) || byTime(a, b));
-      for (const e of sorted) ag.appendChild(evNode(e, true));
+      for (const e of sorted) ag.appendChild(evNode(e, { venue: true, thumb: true }));
     }
     if (running.length) {
       const h = document.createElement('h3'); h.textContent = 'Expos & en cours'; h.style.textTransform = 'none'; ag.appendChild(h);
-      for (const e of running.sort((a, b) => a.end_date.localeCompare(b.end_date))) ag.appendChild(evNode(e, true));
+      for (const e of running.sort((a, b) => a.end_date.localeCompare(b.end_date))) ag.appendChild(evNode(e, { venue: true, thumb: true }));
     }
   }
 
@@ -782,12 +831,13 @@
     n.className = 'card' + (e.status === 'cancelled' ? ' cancelled' : '');
     n.style.setProperty('--c', color(e));
     const hint = runHint(e);
-    n.innerHTML = `
+    n.innerHTML = `<div class="body">
       <div class="venue">${esc(e.venue_name)}</div>
       <div class="title">${esc(e.title)}</div>
       <div class="dates">${esc(fmtRange(e))}</div>
       <div class="hint ${hint.cls}">${esc(hint.text)}</div>
-      ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(new URL(e.url).hostname)}</a>` : ''}`;
+      ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(new URL(e.url).hostname)}</a>` : ''}</div>`;
+    n.prepend(visualNode(e, 'banner'));
     n.onclick = (ev) => { if (ev.target.closest('a')) return; openPanel(e); };
     return n;
   }
@@ -861,7 +911,9 @@
       e.url ? ['Lien', `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(new URL(e.url).hostname)}</a>`] : null,
     ].filter(Boolean);
     const map = v.lat ? `<a href="https://tfrere.github.io/marseille-tes-lieux/#${encodeURIComponent(v.map_name || v.name)}" target="_blank" rel="noopener">voir sur la carte</a>` : '';
-    $('panelBody').innerHTML = `
+    const body = $('panelBody');
+    body.innerHTML = `
+      ${e.image_source ? `<a class="orig" href="${esc(e.image_source)}" target="_blank" rel="noopener">visuel d'origine</a>` : ''}
       <div class="venue" style="--c:${color(e)}">${esc(e.venue_name)}</div>
       <h2>${esc(e.title)}</h2>
       ${e.summary ? `<p>${esc(e.summary)}</p>` : ''}
@@ -874,7 +926,11 @@
         ${e.evidence && e.evidence.length ? `<blockquote>${esc(e.evidence[0])}</blockquote>` : ''}
         ${e.verifier_reason ? `<div>${esc(e.verifier_reason)}</div>` : ''}
       </div>`;
+    const vis = visualNode(e, 'poster');
+    vis.style.setProperty('--c', color(e));
+    body.prepend(vis);
     $('panel').classList.add('open');
+    $('panel').scrollTop = 0;
   }
   $('close').onclick = () => $('panel').classList.remove('open');
 

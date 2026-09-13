@@ -8,13 +8,13 @@
 <style>
   :root {
     --bg: #fbfaf7; --fg: #1d1d1b; --muted: #6b6a66; --line: #e4e2dc; --cell: #ffffff; --cell-past: #efede8; --accent: #c2410c;
-    --panel: #ffffff; --shadow: 0 10px 30px rgba(0,0,0,.12); --star: #d97706;
+    --panel: #ffffff; --shadow: 0 10px 30px rgba(0,0,0,.12);
     --c-culture: #c2410c; --c-milite: #b91c1c; --c-cinema: #6d28d9; --c-ateliers: #0f766e; --c-ceramique: #a16207;
     --c-bars: #be185d; --c-mer: #0369a1; --c-sport: #15803d; --c-coop: #4d7c0f; --c-amap: #65a30d; --c-macon: #57534e; --c-autre: #475569;
     --slot-h: 20px;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #151515; --fg: #ececea; --muted: #9a9993; --line: #2a2a2a; --cell: #1c1c1c; --cell-past: #171716; --accent: #f97316; --panel: #1f1f1f; --shadow: 0 10px 30px rgba(0,0,0,.6); --star: #fbbf24; }
+    :root { --bg: #151515; --fg: #ececea; --muted: #9a9993; --line: #2a2a2a; --cell: #1c1c1c; --cell-past: #171716; --accent: #f97316; --panel: #1f1f1f; --shadow: 0 10px 30px rgba(0,0,0,.6); }
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; margin: 0; }
@@ -48,9 +48,6 @@
   .chip.type.on { background: var(--c); border-color: var(--c); color: #fff; }
   .chip.type.on .dot { background: rgba(255,255,255,.85); }
   .chip.type.on .k { color: rgba(255,255,255,.8); }
-  .chip.fav.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
-  .chip.fav.on .k { color: inherit; opacity: .75; }
-  .chip.fav .star { color: var(--star); }
   #filtersBtn.on { border-color: var(--fg); font-weight: 600; }
   #filtersBtn .car { font-size: 10px; margin-left: 2px; color: var(--muted); }
   .recap { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; font-size: 12.5px; }
@@ -106,13 +103,8 @@
   .vopt[aria-selected="true"] .name::after { content: " \2713"; color: var(--muted); font-weight: 400; }
   .dot, .pin { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
   .vopt .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
-  .star { border: 0; background: none; padding: 0 3px; color: var(--muted); font-size: 16px; line-height: 1; cursor: pointer; flex: none; }
-  .star.on { color: var(--star); }
-  .star:hover { color: var(--star); }
   .sel { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
   .sel[hidden] { display: none; }
-  .sel .tag .star { font-size: 13px; padding: 0; }
-  .hint { color: var(--muted); font-size: 11.5px; margin-top: 6px; }
   .pop-foot { display: flex; justify-content: flex-end; margin-top: 14px; }
   .sheet-head, .sheet-foot, .backdrop { display: none; }
   /* ---- main ---- */
@@ -312,7 +304,6 @@
           <div class="search"><input type="text" id="venueQ" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="venueList" placeholder="Chercher un lieu..." aria-label="Chercher un lieu" autocomplete="off"></div>
           <ul class="vlist" id="venueList" role="listbox" aria-multiselectable="true" aria-label="Lieux"></ul>
           <div class="sel" id="venueSel" hidden></div>
-          <div class="hint">&#9733; = mes lieux, mémorisés sur cet appareil</div>
           <h4>Plus</h4>
           <div class="opts" id="moreOpts"></div>
           <div class="pop-foot"><button id="clearAll">Tout effacer</button></div>
@@ -376,7 +367,7 @@
   <h2>Lieux</h2>
   <div class="search"><input type="search" id="lieuxQ" placeholder="Chercher un lieu..." aria-label="Chercher un lieu" autocomplete="off"></div>
   <ul class="lrows" id="lieuxList"></ul>
-  <div class="foot">&#9733; = mes lieux, mémorisés sur cet appareil<br><a href="https://github.com/tfrere/marseille-agenda/issues/new?title=Ajouter%20un%20lieu" target="_blank" rel="noopener">Un lieu manque ?</a></div>
+  <div class="foot"><a href="https://github.com/tfrere/marseille-agenda/issues/new?title=Ajouter%20un%20lieu" target="_blank" rel="noopener">Un lieu manque ?</a></div>
 </aside>
 <script>
 (async function () {
@@ -411,7 +402,6 @@
   const LNG_SCALE = Math.cos(43.3 * Math.PI / 180); // one degree of longitude is shorter than one of latitude here
   // Ported from src/marseille_agenda/filters.py::_SPECIAL_SCREENING; applied to folded (lowercase, accent-free) text.
   const SPECIAL = /\b(?:debat|discussion|rencontre|echange|en presence|presente par|suivie? d|precedee? d|anime par|avant[- ]premiere|premiere|preview|cine[- ]?club|cine[- ]?concert|cine[- ]?bistro|cine[- ]?goute|cine[- ]?quiz|quiz|seance speciale|seance unique|soiree speciale|soiree|nuit du|marathon|festival|retrospective|cycle|carte blanche|hommage|masterclass|conference|lecon de cinema|atelier|workshop|braderie|anniversaire|fete|vernissage|exposition|projection[- ]debat|projection[- ]rencontre|ouverture|cloture|inauguration|invite|realisateur|realisatrice|equipe du film|interprete|gratuit|entree libre)/;
-  const FAV_KEY = 'agenda.favoriteVenues';
   const SEARCH_DEBOUNCE_MS = 150;
   const MOBILE = window.matchMedia('(max-width: 760px)');
 
@@ -496,15 +486,14 @@
   const typeOptions = Object.keys(CATEGORIES).filter(t => events.some(e => (e.category || 'autre') === t));
   const venueOptions = [...venues].sort((a, b) => a.name.localeCompare(b.name, 'fr'));
 
-  let favorites = new Set();
-  try { favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]').filter(id => venueById[id])); } catch (e) { /* ignore */ }
-  const saveFavorites = () => { try { localStorage.setItem(FAV_KEY, JSON.stringify([...favorites])); } catch (e) { /* ignore */ } };
+  // The favourites feature is gone; drop the value older versions of the page stored.
+  try { localStorage.removeItem('agenda.favoriteVenues'); } catch (e) { /* ignore */ }
 
   // ---- State <-> URL hash -----------------------------------------------------------------
 
   // Single source of truth. Routes: #liste/aujourdhui | #liste/semaine | #liste/expos | #liste/jour?day=YYYY-MM-DD | #agenda?m=YYYY-MM
-  // Query params: type, area, venue (incl. fav), free, special, q (Liste only), ev (open event), lieux=1 (venues panel).
-  const state = { view: 'liste', tab: 'aujourdhui', day: null, month: currentMonth, types: new Set(), areas: new Set(), venues: new Set(), favOnly: false, free: false, special: false, q: '', ev: null, lieux: false };
+  // Query params: type, area, venue, free, special, q (Liste only), ev (open event), lieux=1 (venues panel).
+  const state = { view: 'liste', tab: 'aujourdhui', day: null, month: currentMonth, types: new Set(), areas: new Set(), venues: new Set(), free: false, special: false, q: '', ev: null, lieux: false };
 
   function readHash() {
     const [path, qs = ''] = location.hash.replace(/^#/, '').split('?');
@@ -518,9 +507,7 @@
     if (state.day === todayStr) { state.tab = 'aujourdhui'; state.day = null; }
     state.types = new Set(list('type').filter(t => typeOptions.includes(t)));
     state.areas = new Set(list('area').filter(a => areaOptions.some(o => o.slug === a)));
-    const vs = list('venue');
-    state.favOnly = vs.includes('fav') && favorites.size > 0;
-    state.venues = new Set(vs.filter(id => venueById[id]));
+    state.venues = new Set(list('venue').filter(id => venueById[id])); // the legacy "fav" value is simply dropped
     state.free = p.get('free') === '1';
     state.special = p.get('special') === '1';
     state.q = state.view === 'liste' ? (p.get('q') || '') : '';
@@ -534,8 +521,7 @@
     const p = new URLSearchParams();
     if (state.types.size) p.set('type', [...state.types].join(','));
     if (state.areas.size) p.set('area', [...state.areas].join(','));
-    const vs = [...state.venues]; if (state.favOnly) vs.push('fav');
-    if (vs.length) p.set('venue', vs.join(','));
+    if (state.venues.size) p.set('venue', [...state.venues].join(','));
     if (state.free) p.set('free', '1');
     if (state.special) p.set('special', '1');
     if (state.view === 'liste' && state.q) p.set('q', state.q);
@@ -549,7 +535,7 @@
     if (push) history.pushState(null, '', url); else history.replaceState(null, '', url);
   }
 
-  const hasFilters = () => !!(state.types.size || state.areas.size || state.venues.size || state.favOnly || state.free || state.special || (state.view === 'liste' && state.q));
+  const hasFilters = () => !!(state.types.size || state.areas.size || state.venues.size || state.free || state.special || (state.view === 'liste' && state.q));
   const level2Count = () => state.areas.size + state.venues.size + (state.free ? 1 : 0) + (state.special ? 1 : 0);
   const toggle = (set, v) => { set.has(v) ? set.delete(v) : set.add(v); };
   const commit = (push = false) => { writeHash(push); render(); };
@@ -558,15 +544,13 @@
 
   // ---- Filtering --------------------------------------------------------------------------
 
-  // Venue facet: explicit venues, plus every favourite when "Mes lieux" is on.
-  function venueSet(s) { const set = new Set(s.venues); if (s.favOnly) for (const id of favorites) set.add(id); return set; }
   // AND between facets, OR inside a facet. Empty facet = no constraint. Search only exists in the Liste view.
   function applyFilters(list, s = state) {
-    const vset = venueSet(s), q = s.view === 'liste' ? fold(s.q) : '';
+    const q = s.view === 'liste' ? fold(s.q) : '';
     return list.filter(e =>
       (!s.types.size || s.types.has(e.category || 'autre')) &&
       (!s.areas.size || s.areas.has(venueArea[e.venue_id])) &&
-      (!vset.size || vset.has(e.venue_id)) &&
+      (!s.venues.size || s.venues.has(e.venue_id)) &&
       (!s.free || e.free === true) &&
       (!s.special || e._special) &&
       (!q || e._q.includes(q)));
@@ -637,17 +621,13 @@
   }
 
   function renderTypes() {
-    const keys = [...typeOptions, ...(favorites.size ? ['fav'] : [])];
-    syncNodes($('types'), keys,
+    syncNodes($('types'), typeOptions,
       (k) => {
-        if (k === 'fav') return chipNode('fav', '<span class="star">&#9733;</span>Mes lieux', () => { state.favOnly = !state.favOnly; commit(); });
         const b = chipNode('type', esc(CATEGORIES[k] || k), () => { toggle(state.types, k); commit(); }, true);
         b.style.setProperty('--c', `var(--c-${k}, var(--c-autre))`);
         return b;
       },
-      (b, k) => k === 'fav'
-        ? setChipState(b, state.favOnly, countWith({ venues: new Set(), favOnly: true }))
-        : setChipState(b, state.types.has(k), countWith({ types: new Set([k]) })));
+      (b, k) => setChipState(b, state.types.has(k), countWith({ types: new Set([k]) })));
   }
 
   function optNode(label, onChange) {
@@ -680,23 +660,9 @@
       (l, k) => setOptState(l, state[k], MORE[k][2]()));
   }
 
-  // Venue combobox: a text input narrowing the list below, arrow keys + Enter, stars for favourites.
+  // Venue combobox: a text input narrowing the list below, arrow keys + Enter.
   let venueQuery = '', venueActive = -1;
   const visibleVenueRows = () => [...$('venueList').children].filter(n => !n.hidden);
-  function toggleFavorite(id) {
-    toggle(favorites, id);
-    saveFavorites();
-    if (!favorites.size) state.favOnly = false;
-    commit();
-  }
-  const starLabel = (id) => favorites.has(id) ? `Retirer ${venueById[id].name} de mes lieux` : `Ajouter ${venueById[id].name} à mes lieux`;
-  function setStar(btn, id) {
-    const fav = favorites.has(id);
-    btn.textContent = fav ? '\u2605' : '\u2606';
-    btn.classList.toggle('on', fav);
-    btn.setAttribute('aria-pressed', fav);
-    btn.setAttribute('aria-label', starLabel(id));
-  }
   function venueRow(id) {
     const v = venueById[id];
     const li = document.createElement('li');
@@ -704,19 +670,17 @@
     li.id = `vopt-${id}`;
     li.setAttribute('role', 'option');
     li.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
-    li.innerHTML = `<button type="button" class="star" aria-pressed="false"></button><span class="dot"></span><span class="name">${esc(v.name)}</span><span class="k"></span>`;
-    li.firstChild.onclick = (ev) => { ev.stopPropagation(); toggleFavorite(id); };
+    li.innerHTML = `<span class="dot"></span><span class="name">${esc(v.name)}</span><span class="k"></span>`;
     li.onclick = () => { toggle(state.venues, id); commit(); if (!MOBILE.matches) $('venueQ').focus(); };
     return li;
   }
   function setVenueRowState(li, id) {
     const v = venueById[id], on = state.venues.has(id);
-    const count = countWith({ venues: new Set([id]), favOnly: false });
+    const count = countWith({ venues: new Set([id]) });
     li.hidden = !!venueQuery && !fold(v.name).includes(venueQuery);
     li.classList.toggle('muted', !count);
     li.setAttribute('aria-selected', on);
     li.querySelector('.k').textContent = count;
-    setStar(li.firstChild, id);
   }
   function highlightVenue() {
     const rows = visibleVenueRows();
@@ -735,12 +699,11 @@
       (id) => {
         const t = document.createElement('span');
         t.className = 'tag';
-        t.innerHTML = `<button type="button" class="star"></button><span>${esc(venueById[id].name)}</span><span class="k"></span><button type="button" class="x" aria-label="Retirer ${esc(venueById[id].name)}">&times;</button>`;
-        t.firstChild.onclick = () => toggleFavorite(id);
+        t.innerHTML = `<span>${esc(venueById[id].name)}</span><span class="k"></span><button type="button" class="x" aria-label="Retirer ${esc(venueById[id].name)}">&times;</button>`;
         t.lastChild.onclick = () => { state.venues.delete(id); commit(); };
         return t;
       },
-      (t, id) => { setStar(t.firstChild, id); t.querySelector('.k').textContent = countWith({ venues: new Set([id]), favOnly: false }); });
+      (t, id) => { t.querySelector('.k').textContent = countWith({ venues: new Set([id]) }); });
   }
   $('venueQ').oninput = (ev) => { venueQuery = fold(ev.target.value); venueActive = venueQuery ? 0 : -1; renderVenues(); };
   $('venueQ').onkeydown = (ev) => {
@@ -754,7 +717,6 @@
     const tags = [];
     for (const t of state.types) tags.push([CATEGORIES[t] || t, () => state.types.delete(t)]);
     for (const a of state.areas) tags.push([areaName(a), () => state.areas.delete(a)]);
-    if (state.favOnly) tags.push(['Mes lieux', () => { state.favOnly = false; }]);
     for (const id of state.venues) tags.push([venueById[id].name, () => state.venues.delete(id)]);
     if (state.free) tags.push(['Gratuit', () => { state.free = false; }]);
     if (state.special) tags.push(['Séances spéciales', () => { state.special = false; }]);
@@ -777,7 +739,7 @@
   }
 
   function clearAll() {
-    state.types.clear(); state.areas.clear(); state.venues.clear(); state.favOnly = false;
+    state.types.clear(); state.areas.clear(); state.venues.clear();
     state.free = state.special = false; state.q = '';
     $('q').value = ''; $('venueQ').value = ''; venueQuery = ''; venueActive = -1;
     commit();
@@ -1268,16 +1230,14 @@
         const li = document.createElement('li');
         li.className = 'lrow';
         li.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
-        li.innerHTML = `<button type="button" class="star"></button><span class="dot"></span>
+        li.innerHTML = `<span class="dot"></span>
           <div class="ltxt"><button type="button" class="lnk lname">${esc(v.name)}</button><div class="lsub"></div></div>
           ${v.website ? `<a class="lweb" href="${esc(v.website)}" target="_blank" rel="noopener">site</a>` : ''}`;
-        li.querySelector('.star').onclick = () => toggleFavorite(id);
         li.querySelector('.lname').onclick = () => { state.venues = new Set([id]); state.lieux = false; commit(true); };
         return li;
       },
       (li, id) => {
-        const v = venueById[id], n = countWith({ venues: new Set([id]), favOnly: false });
-        setStar(li.querySelector('.star'), id);
+        const v = venueById[id], n = countWith({ venues: new Set([id]) });
         li.classList.toggle('muted', !n);
         li.querySelector('.lsub').textContent = [CATEGORIES[v.category] || v.category, areaName(venueArea[id]), plural(n, 'événement')].filter(Boolean).join(' · ');
       });

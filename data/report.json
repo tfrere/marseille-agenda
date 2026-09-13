@@ -1,30 +1,17 @@
 {
- "run_date": "2026-09-12",
- "sources_total": 5,
- "sources_ok": 4,
+ "run_date": "2026-09-13",
+ "sources_total": 1,
+ "sources_ok": 1,
  "sources_skipped_unchanged": 0,
- "events_published": 157,
+ "events_published": 333,
  "events_new": 0,
- "events_rejected_grounding": 77,
+ "events_rejected_grounding": 0,
  "events_rejected_verifier": 0,
  "events_uncertain": 0,
- "alerts": [
-  {
-   "level": "error",
-   "venue_id": "amis-du-monde-diplomatique",
-   "source_url": "https://www.amis.monde-diplomatique.fr/-Marseille-.html",
-   "message": "source failed, last verified state kept: fetch: [Errno 101] Network is unreachable"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-09-19"
-  }
- ],
+ "alerts": [],
  "llm_calls": 0,
  "posts_analyzed": 0,
  "apify_runs": 0,
- "credits_remaining_usd": 1.0068,
+ "credits_remaining_usd": 1.5891,
  "run_cost_usd": 0.0
 }

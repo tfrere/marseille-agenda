@@ -4,6 +4,30 @@ PRODID:-//marseille-agenda//tfrere//FR
 X-WR-CALNAME:Marseille - agenda des lieux
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
+SUMMARY:La vie climatique. Histoires sensibles des collections privées - 
+ Triennale De leur temps #8
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260921
+UID:7cea19aa15d4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://musees.marseille.fr/la-vie-climatique-histoires-sensib
+ les-des-collections-privees-triennale-de-leur-temps-8
+LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
+URL:https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-
+ collections-privees-triennale-de-leur-temps-8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AFRICA - Louisa Babari
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20270104
+UID:3f00f5332384@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/africa-louisa-baba
+ ri
+LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
+URL:https://musees.marseille.fr/africa-louisa-babari
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visite libre de la statue de la Bonne Mère
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20261001
@@ -26,41 +50,293 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/visites-flash/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Baby populaire
-DTSTART;TZID=Europe/Paris:20260912T103000
-DTEND;TZID=Europe/Paris:20260912T110000
-UID:6d0a563f9a07@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/baby-populaire/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/baby-populaire/
+SUMMARY:Soudain
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260914
+UID:12e7feca691b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film 'Soudain' (de Ryūsuke Hamaguchi avec Virgi
+ nie Efira) en salle toute la semaine du 9 au 13 septembre.\nhttps://www.in
+ stagram.com/p/Dc_62yjgaQm/
+LOCATION:Le Gyptis
+URL:https://www.instagram.com/p/Dc_62yjgaQm/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Visite multisensorielle de l'exposition « Mossi\, la mode aussi 
- »
-DTSTART;TZID=Europe/Paris:20260912T110000
-DTEND;TZID=Europe/Paris:20260912T123000
-UID:5bb461faebd7@marseille-agenda
+SUMMARY:« Sur les ruines\, les pierres fleurissent » تزهر حجارة
+  الأطلال d’Abdessamad El Montassir
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260928
+UID:d37cacade1d9@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/visite-multisensorielle-de-lexposi
- tion-mossi-la-mode-aussi/
-LOCATION:Mucem - J4 / Hall
-URL:https://mucem.org/evenement/visite-multisensorielle-de-lexposition-mos
- si-la-mode-aussi/
+DESCRIPTION:Exposition monographique d'Abdessamad El Montassir présentant
+  une trilogie de films et des œuvres sur le Sahara\, les mémoires et l'o
+ ubli.\nhttps://www.instagram.com/p/DdEhWO1CEra/
+LOCATION:Friche la Belle de Mai - Friche la Belle de Mai
+URL:https://www.instagram.com/p/DdEhWO1CEra/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:« LE POULET » par l’Âne Solo
-DTSTART;TZID=Europe/Paris:20260912T200000
-DTEND;TZID=Europe/Paris:20260912T220000
-UID:fb9541e6d8d2@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:Performance comico/rap « LE POULET » par l’Âne Solo à Ma
- nifesten\, samedi 12 septembre à 20h\, entrée libre avec chapeau.\nPrix 
- : entrée libre / chapeau\nhttps://www.facebook.com/manifesten/posts/pfbid
- 0i5bhefrxGMgdMHjDAR2pC754JWXxf9GwGgRmFfNPjUmWpLR7AsxkANRESKaUea8pl
-LOCATION:Manifesten - MANIFESTEN
-URL:https://www.facebook.com/manifesten/posts/pfbid0i5bhefrxGMgdMHjDAR2pC7
- 54JWXxf9GwGgRmFfNPjUmWpLR7AsxkANRESKaUea8pl
+SUMMARY:MARIUS ET LE ROYAUME DES MERS d'Endre Skandfer
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260914
+UID:36f47f3ac60a@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film d'animation 'Marius et le Royaume des Mers'
+  d'Endre Skandfer\, adapté pour les enfants à partir de 6 ans\, avec des
+  séances prévues mercredi 9\, samedi 12 et dimanche 13 septembre 2026.\n
+ https://www.instagram.com/p/Dc0uyuQEvX3/
+LOCATION:La Baleine - La Baleine
+URL:https://www.instagram.com/p/Dc0uyuQEvX3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:L’AVENTURE RÊVÉE de Valeska Grisebach
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260928
+UID:61b2e60bd5cc@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film 'L’AVENTURE RÊVÉE' de Valeska Grisebach
+ \, en VOST\, avec des séances programmées du 12 au 27 septembre.\nhttps:
+ //www.facebook.com/cinemalegyptis/posts/pfbid02AkESvrRDqKLcfWF2EzkKmZA8Mxa
+ qUZuTHNangfKqgRho4oAnFHn6vcN3BdXH9ixal
+LOCATION:Le Gyptis - Le Gyptis
+URL:https://www.facebook.com/cinemalegyptis/posts/pfbid02AkESvrRDqKLcfWF2E
+ zkKmZA8MxaqUZuTHNangfKqgRho4oAnFHn6vcN3BdXH9ixal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARIUS ET LE ROYAUME DES MERS d'Endre Skandfer
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260914
+UID:50840912adcc@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film pour enfants 'Marius et le Royaume des Mers
+ ' d'Endre Skandfer\, à partir de 6 ans\, avec plusieurs séances durant l
+ a semaine.\nhttps://www.facebook.com/labaleinemarseille/posts/pfbid02rq6c5
+ FDUy3ubNjnctVdeYd4PzxncHMvrpuVcPW3a4LGwMsuma7pyBg8Sdb89axmbl
+LOCATION:La Baleine - La Baleine
+URL:https://www.facebook.com/labaleinemarseille/posts/pfbid02rq6c5FDUy3ubN
+ jnctVdeYd4PzxncHMvrpuVcPW3a4LGwMsuma7pyBg8Sdb89axmbl
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RETOUR DE CANNES 2026
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260926
+UID:d7d9905f93b5@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Le Gyptis accueille RETOUR DE CANNES : retrouvez les meilleurs
+  films des sélections cannoises : la Sélection Officielle dans son ensem
+ ble\, mais aussi la Quinzaine des cinéastes\, la Semaine de la Criti\nhtt
+ ps://www.facebook.com/events/4162287877249049/
+LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
+URL:https://www.facebook.com/events/4162287877249049/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260928
+UID:3360915339ba@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lydia et le vaisseau des tempêtes
+DTSTART;TZID=Europe/Paris:20260913T110000
+DTEND;TZID=Europe/Paris:20260913T130000
+UID:92a156efffbd@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
+ etes/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Expo-pause
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260928
+UID:1109f1f955a4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un espace aménagé au seuil de l’exposition pour s’asseoi
+ r et s’installer confortablement\, faire une pause.\nPrix : Gratuit !\nh
+ ttps://www.lafriche.org/evenements/expo-pause-4/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/expo-pause-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glaneuses et glaneurs
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260928
+UID:dc33055e057e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
+ Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
+ é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
+ /www.lafriche.org/evenements/glaneuses-et-glaneurs/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jouer la montre
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260928
+UID:2c38a620f4fc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Mona Benyamin mobilise l'humour et l'ironie comme outils polit
+ iques de résistance et de réflexion. Une proposition de Triangle-Astéri
+ des et B7L9\nhttps://www.lafriche.org/evenements/exposition-personnelle-de
+ -mona-benyamin/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/exposition-personnelle-de-mona-ben
+ yamin/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Mauvais Œil 87 : Thomas Perrodin
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260926
+UID:6ffc87b03a15@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des imaginaires graphiques singuliers où se croisent expérim
+ entation\, artisanat et nouvelles formes de narration visuelle. Une propos
+ ition de Le Dernier Cri\nPrix : Entrée libre\nhttps://www.lafriche.org/ev
+ enements/le-mauvais-oeil-87-thomas-perrodin/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-87-thomas-perrodin
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les rêves n’ont pas de titre الأحلام لا تحمل عن
+ اوين
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260928
+UID:86864a9bba08@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une compilation de films choisis\, excavation d’archives oub
+ liées ou retrouvées\, remakes d’images empruntées et témoins de l’
+ effervescence des luttes se mêlent dans une grande traversée des imagina
+ ires.\nhttps://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8
+ %a7%d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9
+ %84-%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8%a7
+ %d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9%84
+ -%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sur les ruines\, les pierres fleurissent تزهر حجارة ال
+ أطلال
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260928
+UID:7c262009d503@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une lecture renouvelée des territoires désertiques\, non com
+ me des espaces figés\, mais comme un ensemble de constellations d’entit
+ és animales\, végétales\, humaines et minérales dignes. Une propositio
+ n de Fræme\, Kulte et Le Cirva\nhttps://www.lafriche.org/evenements/sur-l
+ es-ruines-les-pierres-fleurissent/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
+ sent/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Braderie d'affiches et DVD à La Baleine !
+DTSTART;TZID=Europe/Paris:20260913T140000
+DTEND;TZID=Europe/Paris:20260913T160000
+UID:71cffcc40b45@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Le 13 septembre\, à l'occasion de l'anniversaire de La Balein
+ e\, pour chiner ou pour offrir\, on vide les stocks ! DVD et Affiches à p
+ etits prix. -------- Dimanche 13 septembre de 14h à 19h -------- Des \nht
+ tps://www.facebook.com/events/1348218804116673/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://www.facebook.com/events/1348218804116673/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Pat’Patrouille : Le Film Mission Dino
+DTSTART;TZID=Europe/Paris:20260913T140000
+DTEND;TZID=Europe/Paris:20260913T160000
+UID:e03f014c4c45@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/la-patpatrouille-le-film-miss
+ ion-dino/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/la-patpatrouille-le-film-mission-dino
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vaiana\, la légende du bout du monde (live action)
+DTSTART;TZID=Europe/Paris:20260913T154500
+DTEND;TZID=Europe/Paris:20260913T174500
+UID:2d7d0586aff8@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/vaiana-la-legende-du-bout-du-
+ monde-live-action/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/vaiana-la-legende-du-bout-du-monde-li
+ ve-action/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[rdv doc] HAIR\, PAPER\, WATER... de Nicolas Graux\, Minh Quý Tr
+ ương | Avec le Labo Largent
+DTSTART;TZID=Europe/Paris:20260913T160000
+DTEND;TZID=Europe/Paris:20260913T180000
+UID:549280656228@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ En présence de Arnaud Alain et Alyzée Soudet du Labo Lar
+ gent ▉ En partenariat avec le Labo Largent ▉ Dans le cadre du rendez-v
+ ous documentaire de La Baleine\, en partenariat avec La Cinémathèque du 
+ d\nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soudain
+DTSTART;TZID=Europe/Paris:20260913T180000
+DTEND;TZID=Europe/Paris:20260913T200000
+UID:cf2b130c664b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/soudain/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/soudain/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AFTER MARY + BRIGHT SHOP + CASTAWAYS
+DTSTART;TZID=Europe/Paris:20260913T193000
+DTEND;TZID=Europe/Paris:20260913T213000
+UID:77c7bbfac396@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/after-mary-bright-s
+ hop-castaways/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/after-mary-bright-shop-castaways/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20260914T160000
+DTEND;TZID=Europe/Paris:20260914T200000
+UID:e38f91d87ba8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Retour de Cannes] MERCI D'ÊTRE VENU d'Alain Cavalier | En prése
+ nce Clémence Arrivé\, critique
+DTSTART;TZID=Europe/Paris:20260914T200000
+DTEND;TZID=Europe/Paris:20260914T220000
+UID:e02d61f94fae@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ Avant-première spéciale Anniversaire de La Baleine ! ▉
+  En présence de la critique Clémence Arrivé. ▉ Dans le cadre du Retou
+ r de Cannes du GNCR (Groupement National des Cinémas de Recherche). Le Re
+ to\nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Café-Diplo à Marseille
@@ -78,6 +354,158 @@ URL:https://www.amis.monde-diplomatique.fr/Cafe-Diplo-a-Marseille-9765.htm
  l
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:October lab #7 : Sounds\, Tears and Skins
+DTSTART;TZID=Europe/Paris:20260915T190000
+DTEND;TZID=Europe/Paris:20260915T203000
+UID:7704c2eb38d0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Sounds\, Tears and Skins marque la première collaboration de 
+ l’Ensemble Télémaque avec des artistes américains. Une proposition de
+  GMEM\nhttps://www.lafriche.org/evenements/october-lab-7-sounds-tears-and-
+ skins/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/october-lab-7-sounds-tears-and-ski
+ ns/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Catherine Dorion en conversation avec Corinne Morel Darleux @corin
+ ne.moreldarleux Catherine Dorion
+DTSTART;TZID=Europe/Paris:20260915T190000
+DTEND;TZID=Europe/Paris:20260915T210000
+UID:eab0dfd152b1@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:Conversation avec Catherine Dorion et Corinne Morel Darleux à
+  Transit librairie.\nhttps://www.facebook.com/transit.librairie/posts/pfbi
+ d02oUhjFG9YdNSJS3HVrqspDDsPVgQXm2qwWM5QAesTuqLQcLf9unzxiDCZC2pJ7eF9l
+LOCATION:Transit librairie
+URL:https://www.facebook.com/transit.librairie/posts/pfbid02oUhjFG9YdNSJS3
+ HVrqspDDsPVgQXm2qwWM5QAesTuqLQcLf9unzxiDCZC2pJ7eF9l
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présentation de "Le courage et la joie"
+DTSTART;TZID=Europe/Paris:20260915T190000
+DTEND;TZID=Europe/Paris:20260915T210000
+UID:a5d74a6adbaf@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Le-courage-et-la
+ -joie
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Le-courage-et-la-joie
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HANTEES ciné-club : REBECCA d'Hitchcock
+DTSTART;TZID=Europe/Paris:20260915T194500
+DTEND;TZID=Europe/Paris:20260915T214500
+UID:de69d5f0b5c7@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Nouveau rendez-vous du Hantées Ciné-Club. Séance présenté
+ e et suivie d'un échange avec Sarah Yaacoub et Fiona Pages\, journalistes
+  à La septième obsession. REBECCA de Alfred Hitchcock - 1947 - 2h10 - U
+ \nhttps://lesvarietes-marseille.com/FR/fiche-film-cinema/MAGR7T/rebecca.ht
+ ml
+LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
+URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MAGR7T/rebecca.
+ html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lydia et le vaisseau des tempêtes
+DTSTART;TZID=Europe/Paris:20260916T143000
+DTEND;TZID=Europe/Paris:20260916T163000
+UID:2e676b12b4d3@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
+ etes/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LE CYGNE ET L'ENFANT de Miyoung Baek
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260921
+UID:edc30791ee97@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Programme de trois courts métrages d'animation de Miyoung Bae
+ k\, poétiques et oniriques\, destinés aux enfants à partir de 5 ans.\nh
+ ttps://www.instagram.com/p/DdMeP_EiF3P/
+LOCATION:La Baleine - La Baleine
+URL:https://www.instagram.com/p/DdMeP_EiF3P/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:« Sur un fil » – Séance d’écoute avec Mediapart
+DTSTART;TZID=Europe/Paris:20260916T183000
+DTEND;TZID=Europe/Paris:20260916T203000
+UID:b0cf0471f561@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Séance d'écoute collective et rencontres Une proposition de 
+ Médiapart et Radio Grenouille & Euphonia\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/sur-un-fil-seance-decoute-avec-mediapart/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/sur-un-fil-seance-decoute-avec-med
+ iapart/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Réunion de rentrée du Ciné-Club 15-25 ans
+DTSTART;TZID=Europe/Paris:20260916T183000
+DTEND;TZID=Europe/Paris:20260916T203000
+UID:b28e6d48d16b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Réunion de rentrée du Ciné-Club 15-25 ans. Réunion d'infor
+ mation ouvertes à toutes les personnes désireuses d'en savoir plus ! Et 
+ si c'était toi qui choisissais les films projetés à La Baleine ? Tu as
+ \nhttps://docs.google.com/forms/d/e/1FAIpQLSeyQGxyvFjJdeIuurRsQj8sN0vqEOG5
+ sbYDvhGqy2DKCUGtsA/viewform
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://docs.google.com/forms/d/e/1FAIpQLSeyQGxyvFjJdeIuurRsQj8sN0vqEO
+ G5sbYDvhGqy2DKCUGtsA/viewform
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:L’aventure rêvée
+DTSTART;TZID=Europe/Paris:20260916T190000
+DTEND;TZID=Europe/Paris:20260916T210000
+UID:c83611483f41@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/laventure-revee/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/laventure-revee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LA LIGNE BLEUE de Marie Dumora
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260923
+UID:e1626c5889f1@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film documentaire 'La Ligne bleue' de Marie Dumo
+ ra\, explorant la mémoire et la résistance dans la vallée de la Bruche
+ \, avec plusieurs séances du mercredi 16 au mardi 22 septembre 2026.\nhtt
+ ps://www.instagram.com/p/DdJF9f4l08o/
+LOCATION:La Baleine - La Baleine
+URL:https://www.instagram.com/p/DdJF9f4l08o/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Kosmi (Indie Folk - Marseille)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+UID:d6d3dfc414e4@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Solo performance by Grand Kosmi\, an indie folk artist from Ma
+ rseille\, blending electric folk and acoustic grunge.\nhttps://www.instagr
+ am.com/p/DdJQPbWCvlE/
+LOCATION:L'Intermédiaire - L'Intermédiaire
+URL:https://www.instagram.com/p/DdJQPbWCvlE/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PENNY ARCADE
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+UID:d0296dbb80dc@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Concert de Penny Arcade (Psych Pop - Londres) à L'Intermédia
+ ire\, le jeudi 17 septembre 2026.\nhttps://www.instagram.com/p/DcwXIzLiHPP
+ /
+LOCATION:L'Intermédiaire - L'Intermédiaire
+URL:https://www.instagram.com/p/DcwXIzLiHPP/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Festival des Sciences et des Arts 2026
 DTSTART;TZID=Europe/Paris:20260917T100000
 DTEND;TZID=Europe/Paris:20260917T180000
@@ -87,6 +515,110 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/festival-des-scien
  ces-et-des-arts-2026/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/festival-des-sciences-et-des-arts-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenLab
+DTSTART;TZID=Europe/Paris:20260917T150000
+DTEND;TZID=Europe/Paris:20260917T190000
+UID:1de7e4bfaf72@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un nouveau format de sessions d'accompagnement individuel mens
+ uel pour soutenir les projets créatifs en lien avec l'environnement numé
+ rique proposé par le Médialab de Chroniques. Une proposition de CHRONIQU
+ ES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/openlab/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/openlab/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Atelier de préparation du bal
+DTSTART;TZID=Europe/Paris:20260917T190000
+DTEND;TZID=Europe/Paris:20260917T210000
+UID:f9cfa942fb49@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Atelier gratuit pour se préparer au bal méditerranéen.\nPri
+ x : gratuit sur inscription\nhttps://www.helloasso.com/associations/accror
+ ap/evenements/restitution-des-labos-smala/widget-vignette
+LOCATION:Friche la Belle de Mai
+URL:https://www.helloasso.com/associations/accrorap/evenements/restitution
+ -des-labos-smala/widget-vignette
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SEANCE SPECIALE
+DTSTART;TZID=Europe/Paris:20260917T190000
+DTEND;TZID=Europe/Paris:20260917T210000
+UID:b9787db03bba@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Special screening event featuring a free quiz on 'cinema at th
+ e cinema' followed by a unique film projection at 19h45.\nhttps://www.inst
+ agram.com/p/DdHN15FEjMl/
+LOCATION:Les Variétés
+URL:https://www.instagram.com/p/DdHN15FEjMl/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présentation de "Sciences en résistance. Pour une recherche libr
+ e et émancipatrice"
+DTSTART;TZID=Europe/Paris:20260917T190000
+DTEND;TZID=Europe/Paris:20260917T210000
+UID:a97a58a39da9@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Sciences-en-resi
+ stance-Pour-une-recherche-libre-et
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Sciences-en-resistance-P
+ our-une-recherche-libre-et
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:présentation avec Hendrik Davi et Samy Johsua Hendrik Davi
+DTSTART;TZID=Europe/Paris:20260917T190000
+DTEND;TZID=Europe/Paris:20260917T210000
+UID:1fe4d11b759f@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:Présentation avec Hendrik Davi et Samy Johsua Hendrik Davi le
+  jeudi 17 septembre à 19h.\nhttps://www.facebook.com/transit.librairie/po
+ sts/pfbid02HHC5G7MBGyuNRAa8YvBkboPtonzF8mBwwJwKgEtN7X7GqGnH7LK5raeZ6hiZWTB
+ Ml
+LOCATION:Transit librairie
+URL:https://www.facebook.com/transit.librairie/posts/pfbid02HHC5G7MBGyuNRA
+ a8YvBkboPtonzF8mBwwJwKgEtN7X7GqGnH7LK5raeZ6hiZWTBMl
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Séance unique : Teenage Sex and Death at Camp Miasma
+DTSTART;TZID=Europe/Paris:20260917T194500
+DTEND;TZID=Europe/Paris:20260917T214500
+UID:5647493d5a93@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Découvrez en séance unique TEENAGE SEX AND DEATH AT CAMP MIA
+ SMA 🩸💜 Le film a reçu La Queer Palme au Festival de Cannes 2026. 19
+ h - Quiz sur le Cinéma au cinéma - lots à gagner ! 19h45 - Présentatio
+ n d\nhttps://lesvarietes-marseille.com/FR/fiche-film-cinema/MMA1WT/teenage
+ -sex-and-death-at-camp-miasma.html
+LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
+URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MMA1WT/teenage-
+ sex-and-death-at-camp-miasma.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:THEN COMES SILENCE + Cold Machine
+DTSTART;TZID=Europe/Paris:20260917T203000
+DTEND;TZID=Europe/Paris:20260917T223000
+UID:40807f3992c5@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 13€\nhttps://lemolotov.com/events/then-comes-silence-
+ guest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/then-comes-silence-guest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:COURSE POURSUITE
+DTSTART;TZID=Europe/Paris:20260917T210000
+DTEND;TZID=Europe/Paris:20260917T230000
+UID:11548b4a98e4@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Concert featuring Penny Arcade (Psych Pop - Londres)\, Fanny M
+ oïra (Indie Pop - Montpellier)\, and Grand Kosmi (Indie Folk - Marseille)
+  at L'Intermédiaire.\nPrix : 7€\nhttps://www.instagram.com/p/Dcl2TBTiMv
+ n/
+LOCATION:L'Intermédiaire - L’intermédiaire
+URL:https://www.instagram.com/p/Dcl2TBTiMvn/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival des Sciences et des Arts 2026
@@ -100,6 +632,117 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/festival-des-sciences-et-des-arts-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Faire corps en Méditerranée : conversation\, vidéos\, solos dan
+ sés.
+DTSTART;TZID=Europe/Paris:20260918T190000
+DTEND;TZID=Europe/Paris:20260918T210000
+UID:aa6072ac7e00@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Conversation\, vidéos et solos dansés autour de la Méditerr
+ anée\, gratuit sur réservation à la Place des Horizons.\nPrix : gratuit
+  sur réservation\nhttps://www.helloasso.com/associations/accrorap/eveneme
+ nts/restitution-des-labos-smala/widget-vignette
+LOCATION:Friche la Belle de Mai - Place des Horizons
+URL:https://www.helloasso.com/associations/accrorap/evenements/restitution
+ -des-labos-smala/widget-vignette
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rien plus qu’un peu de moelle
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260921
+UID:dc690e76ccc8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une farce impertinente pleine de malice et d’excès dans le 
+ monde toujours aussi actuel de Rabelais. Une proposition de La Criée\, Th
+ éâtre National à Marseille\nhttps://www.lafriche.org/evenements/rien-pl
+ us-quun-peu-de-moelle/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/rien-plus-quun-peu-de-moelle/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ciné-débat : FINI DE RIRE ! L'HUMOUR POLITIQUE AU GARDE-À-VOUS 
+ ? de M.Larroque\, C.Menais\, M.Branco
+DTSTART;TZID=Europe/Paris:20260918T190000
+DTEND;TZID=Europe/Paris:20260918T210000
+UID:9100f9dfcc14@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:📆 Vendredi 18 septembre à 19h // Projection suivie d'un d
+ ébat // En partenariat avec Cracs et Coudes à coudes. FINI DE RIRE ? L'H
+ UMOUR POLITIQUE AU GARDE-À-VOUS ? De Matéo Larroque\, Clara Menais\, Mil
+ a\nhttps://www.facebook.com/events/1051495490738132/
+LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
+URL:https://www.facebook.com/events/1051495490738132/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BLOCKHEAD + PROLETER + Arms and Sleepers
+DTSTART;TZID=Europe/Paris:20260918T203000
+DTEND;TZID=Europe/Paris:20260918T223000
+UID:1d336311d62d@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 21€\nhttps://lemolotov.com/events/blockhead-proleter-
+ arms-and-sleepers/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/blockhead-proleter-arms-and-sleepers/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dérapage
+DTSTART;TZID=Europe/Paris:20260918T233000
+DTEND;TZID=Europe/Paris:20260918T043000
+UID:112dc3d416a8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Dérapage revient sur la piste de danse du Petit Cab. Une prop
+ osition de Extra\nhttps://www.lafriche.org/evenements/derapage-3/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/derapage-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LIEU D’HISTOIRE(S)
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260921
+UID:3304dd835961@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Visite commentée de la Friche la Belle de Mai pendant les Jou
+ rnées du Patrimoine\, explorant son histoire industrielle et les luttes s
+ ociales qui y ont eu lieu.\nPrix : Gratuit sur réservation\nhttps://www.i
+ nstagram.com/p/DdE9lVzATfF/
+LOCATION:Friche la Belle de Mai
+URL:https://www.instagram.com/p/DdE9lVzATfF/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GOUFFRES ET MERVEILLES DE JEAN BOYER
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+UID:5f8456cb76e6@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film 'Gouffres et Merveilles de Jean Boyer' le s
+ amedi 19 septembre.\nhttps://www.facebook.com/events/1717298379483404/
+LOCATION:La Baleine
+URL:https://www.facebook.com/events/1717298379483404/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Voix Publiques - Louisa Babari
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20270104
+UID:3b62334d0fdf@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
+ isa-babari
+LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Journées du Patrimoine
+DTSTART;TZID=Europe/Paris:20260919T100000
+DTEND;TZID=Europe/Paris:20260919T103000
+UID:acfef8733d2e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Visite des coulisses\, des expos\, partez à la découverte de
+  la Friche ! Une proposition de la Friche la Belle de Mai\nPrix : Gratuit 
+ !\nhttps://www.lafriche.org/evenements/journees-du-patrimoine-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/journees-du-patrimoine-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Journées européennes du patrimoine 2026
 DTSTART;TZID=Europe/Paris:20260919T100000
 DTEND;TZID=Europe/Paris:20260919T190000
@@ -109,6 +752,165 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/journees-europeenn
  es-du-patrimoine-2026/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Journée de l’engagement
+DTSTART;TZID=Europe/Paris:20260919T130000
+DTEND;TZID=Europe/Paris:20260919T170000
+UID:12810fcb16ef@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un forum associatif mêlant village associatif\, ateliers thé
+ matiques et temps forts autour de l'engagement. Une proposition de La Ligu
+ e de l'enseignement\nPrix : Entrée libre\nhttps://www.lafriche.org/evenem
+ ents/la-journee-de-lengagement/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/la-journee-de-lengagement/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lydia et le vaisseau des tempêtes
+DTSTART;TZID=Europe/Paris:20260919T135000
+DTEND;TZID=Europe/Paris:20260919T155000
+UID:0cfe246d7a34@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
+ etes/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20260919T150000
+DTEND;TZID=Europe/Paris:20260919T160000
+UID:b572fe316a2b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-15/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-15/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marius et le Royaume des mers
+DTSTART;TZID=Europe/Paris:20260919T153000
+DTEND;TZID=Europe/Paris:20260919T173000
+UID:61ca4174968d@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
+ /
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:L’aventure rêvée
+DTSTART;TZID=Europe/Paris:20260919T170000
+DTEND;TZID=Europe/Paris:20260919T190000
+UID:462d3a1ba8e9@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/laventure-revee/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/laventure-revee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Smala de Marseille
+DTSTART;TZID=Europe/Paris:20260919T180000
+DTEND;TZID=Europe/Paris:20260919T200000
+UID:10a171f25df3@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Initiée par la compagnie Accrorap\, la Smala de Marseille est
+  l’aboutissement de trois années de rencontres et d’ateliers chorégr
+ aphiques avec des artistes de la Méditerranée Une proposition de Accrora
+ p - Cie Kader Attou\nhttps://www.lafriche.org/evenements/la-smala-de-marse
+ ille/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/la-smala-de-marseille/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Performance chorégraphique\, Kader Attou x Sophie Bulbulyan.
+DTSTART;TZID=Europe/Paris:20260919T180000
+DTEND;TZID=Europe/Paris:20260919T200000
+UID:4944bc5961b9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Performance chorégraphique par Kader Attou et Sophie Bulbulya
+ n au Petit Plateau\, 12€ sur réservation.\nPrix : 12€\, sur réservat
+ ion\nhttps://www.helloasso.com/associations/accrorap/evenements/restitutio
+ n-des-labos-smala/widget-vignette
+LOCATION:Friche la Belle de Mai - Petit Plateau
+URL:https://www.helloasso.com/associations/accrorap/evenements/restitution
+ -des-labos-smala/widget-vignette
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LINO (ÄRSENIK)
+DTSTART;TZID=Europe/Paris:20260919T193000
+DTEND;TZID=Europe/Paris:20260919T213000
+UID:f89ee5460856@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 28€\nhttps://lemolotov.com/events/lina-arsenik/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/lina-arsenik/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soirée La Society
+DTSTART;TZID=Europe/Paris:20260919T200000
+DTEND;TZID=Europe/Paris:20260919T013000
+UID:62770fd265e2@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un bal entre sons méditerranéens et rythmes hip-hop avec liv
+ e des dj sets. Une proposition de AMI\, Radio Grenouille & Euphonia et Roo
+ m95\nhttps://www.lafriche.org/evenements/soiree-la-society/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/soiree-la-society/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:lasociety#4
+DTSTART;TZID=Europe/Paris:20260919T200000
+DTEND;TZID=Europe/Paris:20260919T013000
+UID:1e453c540704@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:A hip-hop Mediterranean-focused event featuring Apollontheone
+ \, Hakis\, La Smala\, Radio Grenouille\, and Room95\, with live performanc
+ es and DJ sets.\nPrix : free entry / gratuit\nhttps://www.instagram.com/p/
+ Dc1H9VsjGLX/
+LOCATION:Friche la Belle de Mai - grandes tables
+URL:https://www.instagram.com/p/Dc1H9VsjGLX/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARIE MADELEINE de Géssica Généus
+DTSTART;TZID=Europe/Paris:20260919T200000
+DTEND;TZID=Europe/Paris:20260919T220000
+UID:5ea23b222b81@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Avant-première du film 'MARIE MADELEINE' de Géssica Généus
+ \, en VOST\, le samedi 19 septembre à 20h.\nhttps://www.facebook.com/cine
+ malegyptis/posts/pfbid02AkESvrRDqKLcfWF2EzkKmZA8MxaqUZuTHNangfKqgRho4oAnFH
+ n6vcN3BdXH9ixal
+LOCATION:Le Gyptis - Le Gyptis
+URL:https://www.facebook.com/cinemalegyptis/posts/pfbid02AkESvrRDqKLcfWF2E
+ zkKmZA8MxaqUZuTHNangfKqgRho4oAnFHn6vcN3BdXH9ixal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bal méditerranéen\, avec DJ Jikay et Pan-J
+DTSTART;TZID=Europe/Paris:20260919T210000
+DTEND;TZID=Europe/Paris:20260919T230000
+UID:39e6351c5f61@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Bal méditerranéen animé par DJ Jikay et Pan-J\, gratuit à 
+ la Friche la Belle de Mai.\nPrix : gratuit\nhttps://www.helloasso.com/asso
+ ciations/accrorap/evenements/restitution-des-labos-smala/widget-vignette
+LOCATION:Friche la Belle de Mai - Grandes Tables
+URL:https://www.helloasso.com/associations/accrorap/evenements/restitution
+ -des-labos-smala/widget-vignette
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:REST UP & Twinstar
+DTSTART;TZID=Europe/Paris:20260919T210000
+DTEND;TZID=Europe/Paris:20260919T230000
+UID:29d76b293ac9@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Concert featuring REST UP (Art Rock - Angers)\, ABSTRACT PUPPE
+ T (Emopunk Shoegaze - Marseille)\, and TWINSTAR (Alt Rock - Montpellier) a
+ t L'Intermédiaire.\nPrix : 5/7 EUROS\nhttps://www.instagram.com/p/Dcvt3Iy
+ CPWL/
+LOCATION:L'Intermédiaire - L'Intermédiaire
+URL:https://www.instagram.com/p/Dcvt3IyCPWL/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Journées européennes du patrimoine 2026
@@ -122,6 +924,204 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lydia et le vaisseau des tempêtes
+DTSTART;TZID=Europe/Paris:20260920T140000
+DTEND;TZID=Europe/Paris:20260920T160000
+UID:a75550ba4528@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
+ etes/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marius et le Royaume des mers
+DTSTART;TZID=Europe/Paris:20260920T153500
+DTEND;TZID=Europe/Paris:20260920T173500
+UID:139cb9a2d449@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
+ /
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:L’aventure rêvée
+DTSTART;TZID=Europe/Paris:20260920T171500
+DTEND;TZID=Europe/Paris:20260920T191500
+UID:24aaa2f23fd9@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/laventure-revee/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/laventure-revee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20260921T160000
+DTEND;TZID=Europe/Paris:20260921T200000
+UID:de14c670a343@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BROWER
+DTSTART;TZID=Europe/Paris:20260922T210000
+DTEND;TZID=Europe/Paris:20260922T230000
+UID:753937184cda@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Live performance by BROWER at L'Intermédiaire on September 22
+ \, 2026\, starting at 21:00\, with tickets priced at 5/7€.\nPrix : 5/7
+ €\nhttps://www.instagram.com/p/DdEru7riBKH/
+LOCATION:L'Intermédiaire - L'Intermédiaire
+URL:https://www.instagram.com/p/DdEru7riBKH/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KinoVisions
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260928
+UID:1c81ddd3c758@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:23 - 27 SEPTEMBRE 2026\nhttps://www.cfaprovence.com/wp-content
+ /uploads/2026/08/KINOVISIONS_PROGRAMME_2026.pdf
+LOCATION:Les Variétés
+URL:https://www.cfaprovence.com/wp-content/uploads/2026/08/KINOVISIONS_PRO
+ GRAMME_2026.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marius et le Royaume des mers
+DTSTART;TZID=Europe/Paris:20260923T143000
+DTEND;TZID=Europe/Paris:20260923T163000
+UID:b3eb768d874c@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
+ /
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[petite baleine] LE CYGNE ET L'ENFANT de Miyoung Baek | suivi d'un
+  atelier peinture et aquarelle !
+DTSTART;TZID=Europe/Paris:20260923T160000
+DTEND;TZID=Europe/Paris:20260923T180000
+UID:d2edfb545b2b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ La Petite Baleine : Atelier Aquarelles et coloriages à l
+ ’issue de la projection ! ▉ Atelier gratuit\, places limitées sur ré
+ servation à ylang@labaleinemarseille.com Mercredi 23 septembre | 16h 𝗟
+ 𝗘 𝗖𝗬𝗚\nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Un Amour d’Épouvantail
+DTSTART;TZID=Europe/Paris:20260923T160000
+DTEND;TZID=Europe/Paris:20260923T180000
+UID:8995b8171a82@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/un-amour-depouvantail/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/un-amour-depouvantail/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Écrire la vie : Annie Ernaux racontée par des lycéennes et des 
+ lycéens
+DTSTART;TZID=Europe/Paris:20260923T190000
+DTEND;TZID=Europe/Paris:20260923T210000
+UID:7c90a0187381@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-ra
+ contee-par-des-lyceennes-et-des-lyceens/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-p
+ ar-des-lyceennes-et-des-lyceens/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BLACK MILK + LUTE
+DTSTART;TZID=Europe/Paris:20260923T200000
+DTEND;TZID=Europe/Paris:20260923T220000
+UID:ac8e1178a66b@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 28€\nhttps://lemolotov.com/events/black-milk/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/black-milk/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FATHERLAND
+DTSTART;TZID=Europe/Paris:20260923T200000
+DTEND;TZID=Europe/Paris:20260923T220000
+UID:4dc996dca92f@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Opening night of the Kinovisions festival with the premiere of
+  Pawel Pawlikowski's 'Fatherland'\, winner of Best Director at Cannes 2026
+ .\nhttps://www.instagram.com/p/DdJyq9SAV_t/
+LOCATION:Les Variétés - Les Variétés
+URL:https://www.instagram.com/p/DdJyq9SAV_t/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DESIGNER (garage USA)
+DTSTART;TZID=Europe/Paris:20260923T203000
+DTEND;TZID=Europe/Paris:20260923T223000
+UID:794920a7ea25@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Concert de DESIGNER (garage USA) au L'Intermédiaire à Marsei
+ lle\, le mercredi 23 septembre à 20h30. Participation aux frais : 7€ en
+  espèces.\nPrix : 7€ (cash)\nhttps://www.instagram.com/p/DcySEOIOz8W/
+LOCATION:L'Intermédiaire - L'intermédiaire 63 la plaine
+URL:https://www.instagram.com/p/DcySEOIOz8W/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DJ YAKUZAK (rocksteady/ska Marseille)
+DTSTART;TZID=Europe/Paris:20260923T203000
+DTEND;TZID=Europe/Paris:20260923T223000
+UID:883c3359ef34@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Performance de DJ YAKUZAK (rocksteady/ska Marseille) au L'Inte
+ rmédiaire à Marseille\, le mercredi 23 septembre à 20h30. Participation
+  aux frais : 7€ en espèces.\nPrix : 7€ (cash)\nhttps://www.instagram.
+ com/p/DcySEOIOz8W/
+LOCATION:L'Intermédiaire - L'intermédiaire 63 la plaine
+URL:https://www.instagram.com/p/DcySEOIOz8W/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FLIPPEUR (eggpunk Paris)
+DTSTART;TZID=Europe/Paris:20260923T203000
+DTEND;TZID=Europe/Paris:20260923T223000
+UID:93db7864250d@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Concert de FLIPPEUR (eggpunk Paris) au L'Intermédiaire à Mar
+ seille\, le mercredi 23 septembre à 20h30. Participation aux frais : 7€
+  en espèces.\nPrix : 7€ (cash)\nhttps://www.instagram.com/p/DcySEOIOz8W
+ /
+LOCATION:L'Intermédiaire - L'intermédiaire 63 la plaine
+URL:https://www.instagram.com/p/DcySEOIOz8W/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ANITA G.
+DTSTART;TZID=Europe/Paris:20260924T180000
+DTEND;TZID=Europe/Paris:20260924T200000
+UID:0719dd215459@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Screening of 'ANITA G.' by Alexander Kluge\, presented by cine
+ ma programmer Nicolas Feodoroff.\nhttps://www.instagram.com/p/DdJyq9SAV_t/
+LOCATION:Les Variétés - Les Variétés
+URL:https://www.instagram.com/p/DdJyq9SAV_t/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EMBERSIGHT + Vulher + While Oceans Burn
+DTSTART;TZID=Europe/Paris:20260924T200000
+DTEND;TZID=Europe/Paris:20260924T220000
+UID:5f3ca9261251@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 12€\nhttps://lemolotov.com/events/embersight-vulher-w
+ hile-oceans-burn/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/embersight-vulher-while-oceans-burn/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mahmoud Darwich Poetry Day
 DTSTART;TZID=Europe/Paris:20260925T183000
 DTEND;TZID=Europe/Paris:20260925T213000
@@ -130,6 +1130,80 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/mahmoud-darwich-poetry-day/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/mahmoud-darwich-poetry-day/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Écrire la vie : Annie Ernaux racontée par des lycéennes et des 
+ lycéens
+DTSTART;TZID=Europe/Paris:20260925T190000
+DTEND;TZID=Europe/Paris:20260925T210000
+UID:c15730150414@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-ra
+ contee-par-des-lyceennes-et-des-lyceens/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-p
+ ar-des-lyceennes-et-des-lyceens/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BLOOMING DISCORD + Scarlean + Matw
+DTSTART;TZID=Europe/Paris:20260925T190000
+DTEND;TZID=Europe/Paris:20260925T210000
+UID:afb23e9e1620@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 17€\nhttps://lemolotov.com/events/blooming-discord-sc
+ arlean-matw/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/blooming-discord-scarlean-matw/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soirée avec Pierre Stambul autour de 2 livres
+DTSTART;TZID=Europe/Paris:20260925T190000
+DTEND;TZID=Europe/Paris:20260925T210000
+UID:65656301513e@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Soiree-avec-Pierre-Stambul-autou
+ r-de-2-livres
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Soiree-avec-Pierre-Stambul-autour-de-2-l
+ ivres
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Retour de Cannes] EVERYTIME de Sandra Wollner | en partenariat av
+ ec le festival Kino Visions
+DTSTART;TZID=Europe/Paris:20260925T203000
+DTEND;TZID=Europe/Paris:20260925T223000
+UID:9b6b9d8b79a0@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ Avant-première en partenariat avec le festival Kino Visio
+ ns. ▉ Dans le cadre du Retour de Cannes du GNCR (Groupement National des
+  Cinémas de Recherche). Le Retour de Cannes est un rendez-vous propos\nht
+ tps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Utopia festival
+DTSTART;TZID=Europe/Paris:20260925T213000
+DTEND;TZID=Europe/Paris:20260925T060000
+UID:c94970a63f10@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:4 scènes\, 2 jours : le festival des cultures électroniques 
+ revient pour une nouvelle édition\, avec une programmation plus inclusive
+  et exclusive avec des figures incontournables du mouvement techno. Une pr
+ oposition de Cabaret Aléatoire\nhttps://www.lafriche.org/evenements/utopi
+ a-festival-5/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/utopia-festival-5/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Un Amour d’Épouvantail
+DTSTART;TZID=Europe/Paris:20260926T110000
+DTEND;TZID=Europe/Paris:20260926T130000
+UID:5b2b9cc21c7c@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/un-amour-depouvantail/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/un-amour-depouvantail/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites guidées en LSF de «Mossi\, la mode aussi »
@@ -144,6 +1218,40 @@ URL:https://mucem.org/evenement/visites-guidees-en-lsf-de-mossi-la-mode-au
  ssi/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LE MAUVAIS OEIL 88 : Kikifruit
+DTSTART;TZID=Europe/Paris:20260926T140000
+DTEND;TZID=Europe/Paris:20260926T160000
+UID:ac42c3207e3c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20260926T150000
+DTEND;TZID=Europe/Paris:20260926T160000
+UID:6056c9cde17e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-15/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-15/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Bonheur
+DTSTART;TZID=Europe/Paris:20260926T150000
+DTEND;TZID=Europe/Paris:20260926T170000
+UID:22376bff4c32@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Ciné-concert de la compagnie Clameurs\, dans le cadre du Fest
+ ival Allez Savoir\nhttps://cinemalegyptis.org/films/le-bonheur/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/le-bonheur/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire
 DTSTART;TZID=Europe/Paris:20260926T163000
 DTEND;TZID=Europe/Paris:20260926T173000
@@ -152,6 +1260,165 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Allez Savoir#7] WELFARE (1973) de Frederick Wiseman | En présenc
+ e de Marie Vidal\, anthropologue
+DTSTART;TZID=Europe/Paris:20260926T170000
+DTEND;TZID=Europe/Paris:20260926T190000
+UID:0bdf8a1cb1a7@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ Séance présentée par Marie Vidal\, anthropologue\, memb
+ re du Centre d’Etudes Nord-Américaines de l’EHESS. L’argent fait-il
+  le bonheur ? Les réseaux sociaux sont-ils une machine à cash ? Le liqui
+ de est\nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Écrire la vie : Annie Ernaux racontée par des lycéennes et des 
+ lycéens
+DTSTART;TZID=Europe/Paris:20260926T180000
+DTEND;TZID=Europe/Paris:20260926T200000
+UID:ff88e8f1ba15@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-ra
+ contee-par-des-lyceennes-et-des-lyceens/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-p
+ ar-des-lyceennes-et-des-lyceens/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Roma Elastica
+DTSTART;TZID=Europe/Paris:20260926T200000
+DTEND;TZID=Europe/Paris:20260926T220000
+UID:80a1c2af318c@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Avant-première dans le cadre du Retour de Cannes\, manifestat
+ ion organisée par le GNCR.\nhttps://cinemalegyptis.org/films/roma-elastic
+ a/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/roma-elastica/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LES PHANTÔMES DE JUILLET
+DTSTART;TZID=Europe/Paris:20260926T203000
+DTEND;TZID=Europe/Paris:20260926T223000
+UID:147899532054@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Screening of 'LES PHANTÔMES DE JUILLET' by Julian Radlmaier\,
+  with a meeting with the director.\nhttps://www.instagram.com/p/DdJyq9SAV_
+ t/
+LOCATION:Les Variétés - Les Variétés
+URL:https://www.instagram.com/p/DdJyq9SAV_t/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Utopia festival
+DTSTART;TZID=Europe/Paris:20260926T213000
+DTEND;TZID=Europe/Paris:20260926T060000
+UID:653e55cb258e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:4 scènes\, 2 jours : le festival des cultures électroniques 
+ revient pour une nouvelle édition\, avec une programmation plus inclusive
+  et exclusive avec des figures incontournables du mouvement techno. Une pr
+ oposition de Cabaret Aléatoire\nhttps://www.lafriche.org/evenements/utopi
+ a-festival-5/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/utopia-festival-5/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LIVE CUMBIA! SAX + PSYCHEDELIQUE
+DTSTART;TZID=Europe/Paris:20260926T213000
+DTEND;TZID=Europe/Paris:20260926T233000
+UID:5af70df05d6e@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Live cumbia event with Atlanticos and DJ WandaWitt at L'Interm
+ édiaire in Marseille.\nPrix : 10€\nhttps://www.instagram.com/p/Dc9GRp1I
+ qss/
+LOCATION:L'Intermédiaire - L'Intermédiaire
+URL:https://www.instagram.com/p/Dc9GRp1Iqss/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LE MAUVAIS OEIL 88 : Kikifruit
+DTSTART;TZID=Europe/Paris:20260927T140000
+DTEND;TZID=Europe/Paris:20260927T160000
+UID:a56027bf71ed@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marius et le Royaume des mers
+DTSTART;TZID=Europe/Paris:20260927T140000
+DTEND;TZID=Europe/Paris:20260927T160000
+UID:c457c1495b87@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
+ /
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Un Amour d’Épouvantail
+DTSTART;TZID=Europe/Paris:20260927T153000
+DTEND;TZID=Europe/Paris:20260927T173000
+UID:0a7da968a8a6@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/un-amour-depouvantail/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/un-amour-depouvantail/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Gradiva
+DTSTART;TZID=Europe/Paris:20260927T170000
+DTEND;TZID=Europe/Paris:20260927T190000
+UID:39c4668c41bf@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Avant-première suivie d’une rencontre avec la co-scénarist
+ e du film\, Anne Brouillet · Dans le cadre du Retour de Cannes\, manifest
+ ation organisée par le GNCR\nhttps://cinemalegyptis.org/films/la-gradiva/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/la-gradiva/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HUBRIS. + Egersound
+DTSTART;TZID=Europe/Paris:20260927T200000
+DTEND;TZID=Europe/Paris:20260927T220000
+UID:cc048632c5e2@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/hubris-guest-2/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/hubris-guest-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[rdv doc] ÉCRIRE LA VIE : ANNIE ERNAUX RACONTÉE ... de Claire Si
+ mon | en présence de la réalisatrice
+DTSTART;TZID=Europe/Paris:20260928T200000
+DTEND;TZID=Europe/Paris:20260928T220000
+UID:66543f2db92e@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ Rencontre avec la réalisatrice Claire Simon. ▉ Dans le 
+ cadre du rendez-vous documentaire de La Baleine\, en partenariat avec La C
+ inémathèque du documentaire. ▉ Une table d'ouvrages d'Annie Ernaux ser
+ \nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Défense: trilogie
+DTSTART;TZID=Europe/Paris:20260929T203000
+DTEND;TZID=Europe/Paris:20260929T223000
+UID:d89ffe9118e7@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection of the 'La Défense' trilogy by Valentin Noujaïm\,
+  reinventing Dante's Divine Comedy in the hypermodern setting of La Défen
+ se\, featuring three short films.\nhttps://www.instagram.com/p/Dc_fCkuJfVN
+ /
+LOCATION:Les Variétés - Cinéma
+URL:https://www.instagram.com/p/Dc_fCkuJfVN/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L’ornement dans les arts de l’Islam
@@ -176,6 +1443,30 @@ LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/lornement-dans-les-arts-de-lislam/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:REPRISES ACID CANNES 2026
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261005
+UID:9081719abc1d@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection des films de l'ACID Cannes 2026 en avant-première 
+ à La Baleine à Marseille du 2 au 4 octobre.\nhttps://www.instagram.com/p
+ /DcxwqEqjcE4/
+LOCATION:La Baleine - La Baleine
+URL:https://www.instagram.com/p/DcxwqEqjcE4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ACID
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261005
+UID:205c9c021099@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Comme chaque année\, c'est la reprise des films de la 34 e é
+ dition de l’ACID ! Les séances seront présentées par les équipes de 
+ film ou des membres de l'ACID.\nhttps://www.lacid.org/
+LOCATION:Les Variétés
+URL:https://www.lacid.org/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:L’ornement dans les arts de l’Islam
 DTSTART;TZID=Europe/Paris:20261002T090000
 DTEND;TZID=Europe/Paris:20261002T180000
@@ -185,6 +1476,54 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/lornement-dans-les
  -arts-de-lislam/
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/lornement-dans-les-arts-de-lislam/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reprise ACID Cannes 2026 à Marseille aux Variétés\, à La Balei
+ ne et au Gyptis
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261005
+UID:da2f3cc30ee7@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:📆 AU PROGRAMME Vendredi 2 octobre Les Variétés - 20h : BA
+ RÇA ZOU de Paul Nouhet Samedi 3 octobre Les Variétés – 16h : BLAISE d
+ e Dimitri Planchon & Jean-Paul Guigue La Baleine – 18h : CŒUR SECRET de
+  To\nhttps://www.lacid.org/fr/cannes/reprises-acid-cannes-2026
+LOCATION:Le Gyptis - Marseille
+URL:https://www.lacid.org/fr/cannes/reprises-acid-cannes-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:REPORT 23 / 09 – LUTE + Guest
+DTSTART;TZID=Europe/Paris:20261002T200000
+DTEND;TZID=Europe/Paris:20261002T220000
+UID:2bf4d1cc1a05@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 18€\nhttps://lemolotov.com/events/lute-guest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/lute-guest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BARÇA ZOU de Paul Nouhet
+DTSTART;TZID=Europe/Paris:20261002T200000
+DTEND;TZID=Europe/Paris:20261002T220000
+UID:82a8be7bc894@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film BARÇA ZOU de Paul Nouhet à Les Variétés
+  à Marseille le vendredi 2 octobre 2026 à 20h.\nhttps://www.instagram.co
+ m/p/DbBUcPaDNQ3/
+LOCATION:Les Variétés - LES VARIÉTÉS
+URL:https://www.instagram.com/p/DbBUcPaDNQ3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BLAISE de Dimitri Planchon & Jean-Paul Guigue
+DTSTART;TZID=Europe/Paris:20261003T160000
+DTEND;TZID=Europe/Paris:20261003T180000
+UID:7f2539f6d3dd@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film BLAISE de Dimitri Planchon & Jean-Paul Guig
+ ue à Les Variétés à Marseille le samedi 3 octobre 2026 à 16h.\nhttps:
+ //www.instagram.com/p/DbBUcPaDNQ3/
+LOCATION:Les Variétés - LES VARIÉTÉS
+URL:https://www.instagram.com/p/DbBUcPaDNQ3/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le sens de la mode
@@ -208,6 +1547,21 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[actoral] Avant-première de LES RECOMMENCEMENTS d'I. Ingold & V. 
+ Perelmuter | en sa présence
+DTSTART;TZID=Europe/Paris:20261005T200000
+DTEND;TZID=Europe/Paris:20261005T220000
+UID:f0acf180a414@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ Avant-première en présence de Vivianne Perelmuter. ▉ P
+ roposée dans le cadre du festival Actoral. ▉ En partenariat avec la Ren
+ trée de Séances spéciales et le GNCR. Lundi 5 octobre | 20h 𝗟𝗘
+ 𝗦 𝗥𝗘𝗖𝗢𝗠𝗠𝗘𝗡𝗖\nhttps://marseillecinemalabalein
+ e.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visite de l'appartement témoin
 DTSTART;TZID=Europe/Paris:20261006T140000
 DTEND;TZID=Europe/Paris:20261006T153000
@@ -219,6 +1573,42 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/visite-des-reserves-du-mucem/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:HIPPIE DEATH CULT + The Yellow Stones
+DTSTART;TZID=Europe/Paris:20261006T200000
+DTEND;TZID=Europe/Paris:20261006T220000
+UID:b9c30559185c@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 13€\nhttps://lemolotov.com/events/hippie-death-cult-g
+ uest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/hippie-death-cult-guest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[happy hours] FINI DE RIRE ! L'humour politique au garde-à-vous |
+  avec M. Larroque et des humoristes
+DTSTART;TZID=Europe/Paris:20261008T200000
+DTEND;TZID=Europe/Paris:20261008T220000
+UID:416807febb15@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ Séance spéciale en présence de Matéo Larroque\, co-ré
+ alisateur du film\, et d'humoristes marseillais. ▉ Dans le cadre des Hap
+ py Hours de La Baleine. ▉ Tarif unique : 6\,5€ et happy hours au bar p
+ our to\nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:« Offensive fasciste\, résistances éditoriales ! »
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+UID:6526ebed4575@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42182
+LOCATION:Mille Bâbords - imprimerie - 60 rue Edmond Rostand - 13006 Marse
+ ille
+URL:https://www.millebabords.org/spip.php?article42182
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bruits Roses / الضوضاء الوردية / Ροζ Θόρυβο
  ι / Ruidos Rosas
 DTSTART;TZID=Europe/Paris:20261009T090000
@@ -228,6 +1618,17 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/bruits-roses/
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/bruits-roses/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:« Offensive fasciste\, résistances éditoriales ! »
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+UID:b6992bdc5909@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42183
+LOCATION:Mille Bâbords - Manifesten - 59 Rue Adolphe Thiers\, 13001 Marse
+ ille\, France
+URL:https://www.millebabords.org/spip.php?article42183
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival des sciences de Marseille
@@ -276,6 +1677,29 @@ URL:https://mucem.org/evenement/rencontres-inspirantes-femmes-des-suds-et-
  engagement-a-coeur-3/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:La tsigane sur la route avec Tamèrantong !
+DTSTART;TZID=Europe/Paris:20261010T200000
+DTEND;TZID=Europe/Paris:20261010T220000
+UID:9b2939978f74@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Séance suivie d’une rencontre avec le réalisateur Sébasti
+ en Lefebvre et le chorégraphe Aurélien Desclozeaux.\nhttps://cinemalegyp
+ tis.org/films/la-tsigane-sur-la-route-avec-tamerantong/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/la-tsigane-sur-la-route-avec-tamerant
+ ong/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:« Offensive fasciste\, résistances éditoriales ! »
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+UID:78caaf1163fc@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42184
+LOCATION:Mille Bâbords - Place Jean Jaurès - 13006 Marseille
+URL:https://www.millebabords.org/spip.php?article42184
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Destination Fiesta avec le Mucem
 DTSTART;TZID=Europe/Paris:20261011T120000
 DTEND;TZID=Europe/Paris:20261011T190000
@@ -287,6 +1711,88 @@ LOCATION:Mucem - J4 / Esplanade
 URL:https://mucem.org/evenement/destination-fiesta-avec-le-mucem/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FOREVER NU!
+DTSTART;TZID=Europe/Paris:20261011T203000
+DTEND;TZID=Europe/Paris:20261011T223000
+UID:e69896ce085c@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 27€\nhttps://lemolotov.com/events/forever-nu/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/forever-nu/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:REBATO
+DTSTART;TZID=Europe/Paris:20261014T180000
+DTEND;TZID=Europe/Paris:20261014T200000
+UID:2d3f79067736@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film 'Rebato' (1980) dans le cadre de la série 
+ Horizontes\, suivie d'une discussion avec Paul B. Preciado.\nhttps://www.f
+ acebook.com/events/1659673395553176/
+LOCATION:La Baleine
+URL:https://www.facebook.com/events/1659673395553176/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[CineHorizontes] ARREBATO d'Iván Zulueta (1980) | En présence de
+  Paul B. Preciado
+DTSTART;TZID=Europe/Paris:20261014T180000
+DTEND;TZID=Europe/Paris:20261014T200000
+UID:2f07da830ddf@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ En présence de Paul B. Preciado Mercredi 14 octobre | 18h
+  𝗔𝗥𝗥𝗘𝗕𝗔𝗧𝗢 d'Iván Zulueta Avec Eusebio Poncela\, C
+ ecilia Roth\, Will More 1h55 - 1980 - Espagne 💫 Film d'Or - Festival de
+  Málaga 2008 💫 Festival\nhttps://marseillecinemalabaleine.cine.boutiqu
+ e/
+LOCATION:La Baleine - 59 Cours Julien\, 13006 Marseille\, France
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LEER ME
+DTSTART;TZID=Europe/Paris:20261014T204500
+DTEND;TZID=Europe/Paris:20261014T224500
+UID:ba428279d46e@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Screening of the film 'LEER ME' by Milo Carramiñana at La Bal
+ eine on October 14\, 2026\, at 8:45 PM.\nhttps://www.facebook.com/events/2
+ 282542679251048/
+LOCATION:La Baleine
+URL:https://www.facebook.com/events/2282542679251048/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HÄLLAS + Earth Tongue
+DTSTART;TZID=Europe/Paris:20261015T190000
+DTEND;TZID=Europe/Paris:20261015T210000
+UID:838f41f658b1@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/hallas-earth-tongue
+ /
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/hallas-earth-tongue/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JIM YOUNGER’S SPIRIT * Release Party* + Claque + Krack Head
+DTSTART;TZID=Europe/Paris:20261015T200000
+DTEND;TZID=Europe/Paris:20261015T220000
+UID:a943d3c86b21@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/jim-youngers-spirit
+ -release-party-claque-krack-head/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/jim-youngers-spirit-release-party-claque-
+ krack-head/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A6EL
+DTSTART;TZID=Europe/Paris:20261016T193000
+DTEND;TZID=Europe/Paris:20261016T213000
+UID:7036444d224b@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 30€\nhttps://lemolotov.com/events/a6el/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/a6el/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261101
@@ -295,16 +1801,6 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Baby populaire - En Ribambelle !
-DTSTART;TZID=Europe/Paris:20261018T103000
-DTEND;TZID=Europe/Paris:20261018T110000
-UID:8759aabd03ae@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/baby-populaire-en-rimbabelle/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/baby-populaire-en-rimbabelle/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire - En Ribambelle !
@@ -384,6 +1880,17 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/les-petites-variations-1-2/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LEO MIDDEA (Full Band) – Deuxième date
+DTSTART;TZID=Europe/Paris:20261021T190000
+DTEND;TZID=Europe/Paris:20261021T210000
+UID:90650948b356@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 31€\nhttps://lemolotov.com/events/leo-middea-full-ban
+ d-deuxieme-date/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/leo-middea-full-band-deuxieme-date/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire - En Ribambelle !
 DTSTART;TZID=Europe/Paris:20261022T103000
 DTEND;TZID=Europe/Paris:20261022T110000
@@ -404,6 +1911,27 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-grand-kami/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LEO MIDDEA (Full Band)
+DTSTART;TZID=Europe/Paris:20261022T190000
+DTEND;TZID=Europe/Paris:20261022T210000
+UID:43b33856f9a1@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 31€\nhttps://lemolotov.com/events/leo-middea-full-ban
+ d/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/leo-middea-full-band/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SYNDROME 81 + Orgueil
+DTSTART;TZID=Europe/Paris:20261022T203000
+DTEND;TZID=Europe/Paris:20261022T223000
+UID:6ae802f5709c@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 13€\nhttps://lemolotov.com/events/syndrome-81-guest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/syndrome-81-guest/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire - En Ribambelle !
 DTSTART;TZID=Europe/Paris:20261023T103000
 DTEND;TZID=Europe/Paris:20261023T110000
@@ -422,6 +1950,16 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/le-grand-kami/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-grand-kami/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ELEINE + Rexoria + Serapis Project
+DTSTART;TZID=Europe/Paris:20261023T203000
+DTEND;TZID=Europe/Paris:20261023T223000
+UID:4fc536107fd3@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 22€\nhttps://lemolotov.com/events/eleine-guest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/eleine-guest/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Liteul Pipol
@@ -506,6 +2044,16 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/raoul-lala-operati
  on-ccr/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/raoul-lala-operation-ccr/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MESSA + The Night Eternal
+DTSTART;TZID=Europe/Paris:20261027T200000
+DTEND;TZID=Europe/Paris:20261027T220000
+UID:632d0653fdb5@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 22€\nhttps://lemolotov.com/events/messa-guest-2/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/messa-guest-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire - En Ribambelle !
@@ -628,6 +2176,16 @@ URL:https://mucem.org/evenement/portes-ouvertes-de-lexposition-manger-les-
  images/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:VIOFLESH + Beloog-A + Guest
+DTSTART;TZID=Europe/Paris:20261031T203000
+DTEND;TZID=Europe/Paris:20261031T223000
+UID:f349639b5215@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 14€\nhttps://lemolotov.com/events/vioflesh-guest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/vioflesh-guest/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
 DTSTART;TZID=Europe/Paris:20261101T100000
 DTEND;TZID=Europe/Paris:20261101T180000
@@ -639,6 +2197,17 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:EYEHATEGOD + Mezcal Wizard
+DTSTART;TZID=Europe/Paris:20261101T203000
+DTEND;TZID=Europe/Paris:20261101T223000
+UID:0b439d5691f7@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/eyehategod-mezcal-w
+ izard/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/eyehategod-mezcal-wizard/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visite de l'appartement témoin
 DTSTART;TZID=Europe/Paris:20261103T140000
 DTEND;TZID=Europe/Paris:20261103T153000
@@ -648,6 +2217,27 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visite-des-reserve
  s-du-mucem/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/visite-des-reserves-du-mucem/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:THE LET’S GO’S + Guest
+DTSTART;TZID=Europe/Paris:20261105T203000
+DTEND;TZID=Europe/Paris:20261105T223000
+UID:fabce25d5bb1@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 12€\nhttps://lemolotov.com/events/the-lets-gos-guest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/the-lets-gos-guest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MASTER BOOT RECORD + FULCI + Arottenbit
+DTSTART;TZID=Europe/Paris:20261106T200000
+DTEND;TZID=Europe/Paris:20261106T220000
+UID:c4f3637dced7@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 21€\nhttps://lemolotov.com/events/master-boot-record-
+ fulci-arottenbit/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/master-boot-record-fulci-arottenbit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Petite Casbah
@@ -670,6 +2260,27 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-sens-de-la-mode/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FLY ANAKIN & QUELLE CHRIS
+DTSTART;TZID=Europe/Paris:20261110T200000
+DTEND;TZID=Europe/Paris:20261110T220000
+UID:dd780a0ead63@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 18€\nhttps://lemolotov.com/events/fly-anakin-quelle-c
+ hris/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/fly-anakin-quelle-chris/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ASHEN + Guest
+DTSTART;TZID=Europe/Paris:20261113T190000
+DTEND;TZID=Europe/Paris:20261113T210000
+UID:298e4fac022a@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/ashen-guest/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/ashen-guest/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261114T103000
 DTEND;TZID=Europe/Paris:20261114T110000
@@ -680,6 +2291,38 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le rouge-gorge de Cempuis
+DTSTART;TZID=Europe/Paris:20261114T170000
+DTEND;TZID=Europe/Paris:20261114T190000
+UID:26c010995e1e@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.cira-marseille.info/wp-content/uploads/2026/08/7-C
+ auserie-novembre-2026-M-Agostini-Cempuis.pdf
+LOCATION:CIRA Marseille
+URL:https://www.cira-marseille.info/wp-content/uploads/2026/08/7-Causerie-
+ novembre-2026-M-Agostini-Cempuis.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:THE UPSESSIONS
+DTSTART;TZID=Europe/Paris:20261115T200000
+DTEND;TZID=Europe/Paris:20261115T220000
+UID:8902f9038c50@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 12€\nhttps://lemolotov.com/events/the-upsessions/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/the-upsessions/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARCUS GAD & Tribe
+DTSTART;TZID=Europe/Paris:20261120T190000
+DTEND;TZID=Europe/Paris:20261120T210000
+UID:54c445acbc14@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/marcus-gad-tribe-2/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/marcus-gad-tribe-2/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
 DTSTART;TZID=Europe/Paris:20261121T160000
 DTEND;TZID=Europe/Paris:20261121T173000
@@ -688,6 +2331,26 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/rever-la-mediterranee/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/rever-la-mediterranee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SPIDER ZED
+DTSTART;TZID=Europe/Paris:20261121T190000
+DTEND;TZID=Europe/Paris:20261121T210000
+UID:36b51964ef9b@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/spider-zed/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/spider-zed/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GVLLOW + Guest
+DTSTART;TZID=Europe/Paris:20261124T203000
+DTEND;TZID=Europe/Paris:20261124T223000
+UID:6148a92ac2b9@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 15€\nhttps://lemolotov.com/events/gvllow-guest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/gvllow-guest/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -721,6 +2384,17 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/visite-des-reserves-du-mucem/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:KRAV BOCA + Wake the Dead
+DTSTART;TZID=Europe/Paris:20261204T190000
+DTEND;TZID=Europe/Paris:20261204T210000
+UID:cb25e95b675b@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 23€\nhttps://lemolotov.com/events/krav-boca-wake-the-
+ dead/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/krav-boca-wake-the-dead/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire
 DTSTART;TZID=Europe/Paris:20261205T160000
 DTEND;TZID=Europe/Paris:20261205T170000
@@ -739,6 +2413,15 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/rever-la-mediterranee/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/rever-la-mediterranee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hiver 95-96 un mouvement social et étudiant à Toulouse
+DTSTART;TZID=Europe/Paris:20261212T170000
+DTEND;TZID=Europe/Paris:20261212T190000
+UID:3ffb90e7f437@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:
+LOCATION:CIRA Marseille
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le bal des gourmands

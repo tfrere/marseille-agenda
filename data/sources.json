@@ -269,6 +269,676 @@
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
+  },
+  "friche-la-belle-de-mai": {
+   "venue_id": "friche-la-belle-de-mai",
+   "source": {
+    "url": "https://www.lafriche.org/agenda/",
+    "kind": "html",
+    "confidence": 0.75,
+    "reasoning": "The agenda page is server-rendered (WordPress) with 15 date-like strings covering upcoming days from today (2026-09-13) onward, including event titles and links to detail pages. The WP-JSON Tribe Events API returned 401 (unauthorized), so it's not accessible; the HTML agenda page itself is the best available source, confirmed via the pre-scan showing multiple upcoming dated events with titles and links.",
+    "sample_titles": [
+     "Expo-pause",
+     "Marché paysan",
+     "October Lab #7: Sounds, Tears and Skins",
+     "Le Mauvais Œil #87 – Thomas Perrodin",
+     "Unworlding"
+    ],
+    "fallback_url": null,
+    "instagram": "frichelabelledemai",
+    "facebook": "friche.labelledemai"
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "div.events > div.event",
+       "fields": {
+        "title": {
+         "selector": "h3.title a",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "h3.title a",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "",
+         "attr": "data-date",
+         "regex": "(\\d{4}-\\d{2}-\\d{2})",
+         "constant": null,
+         "join": null
+        },
+        "time": {
+         "selector": ".thumb-info .thumb-left .icon-text p",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "event_type": {
+         "selector": ".thumb-categories .tag",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": ", "
+        },
+        "summary": {
+         "selector": ".content .excerpt",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "price": {
+         "selector": ".thumb-cta .icon-text p",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Agenda listed day by day: each card carries data-date, its text only shows the hours. Exhibitions repeat on every day they are open; the pipeline folds consecutive days into one range."
+      }
+     ],
+     "notes": "Friche la Belle de Mai agenda (same WordPress theme as cinemalegyptis.org). Hand-written after the generator locked on the hours span."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": false,
+    "agreement": 0.0,
+    "generator_model": "manual",
+    "version": 2
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 24,
+   "content_hash": "f32f5c2a493d20b4",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "mac-musee-d-art-contemporain": {
+   "venue_id": "mac-musee-d-art-contemporain",
+   "source": {
+    "url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
+    "kind": "html",
+    "confidence": 0.65,
+    "reasoning": "The dedicated Agenda page for the MAC returns no date-like content (empty/client-rendered with no events), while the Expositions listing page for the same museum filter shows server-rendered upcoming exhibitions with real dates (e.g. Voix publiques Louisa Babari starting 19 sept 2026, Africa Louisa Babari through Jan 2027, La vie climatique through 20 sept 2026). This page is the best available server-rendered source of upcoming public-facing events/exhibitions for the venue since no JSON API or working agenda endpoint was found.",
+    "sample_titles": [
+     "Voix publiques - Louisa Babari",
+     "Africa - Louisa Babari",
+     "30 ans de collection - La collection et ses invités",
+     "La vie climatique - Histoires sensibles des collections privées, triennale de leur temps"
+    ],
+    "fallback_url": null,
+    "instagram": "museesmarseille",
+    "facebook": "museesmarseille"
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": ".views-infinite-scroll-content-wrapper",
+       "exclude_selectors": [],
+       "item_selector": ".grid__cell:has(.date time)",
+       "fields": {
+        "title": {
+         "selector": "h3.title",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "a.js-link-hover",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": ".date time:nth-of-type(1)",
+         "attr": "datetime",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "end_date": {
+         "selector": ".date time:nth-of-type(2)",
+         "attr": "datetime",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": ".place",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "price": {
+         "selector": ".tag-wrapper .tag",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Cards without a <time> element (permanent collection) are excluded by the :has(.date time) requirement."
+      }
+     ],
+     "notes": "Page lists exhibitions as cards inside .views-infinite-scroll-content-wrapper. Each card is a .grid__cell containing a .bk-card. One card is \"Exposition permanente\" (no time tags) and must be excluded via item_selector requiring a time element. The 4th card (permanent collection) has no <time> so it's excluded by selecting only cards that contain .date time. Start date is first <time datetime> in .date div; end date is second one."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 3,
+   "content_hash": "bda5d011df418178",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "le-molotov": {
+   "venue_id": "le-molotov",
+   "source": {
+    "url": "https://lemolotov.com/agenda/",
+    "kind": "html",
+    "confidence": 0.85,
+    "reasoning": "The pre-scan of the agenda page shows a server-rendered HTML listing with numerous upcoming events (dates from 13 Sep 2026 through Oct 2026 and beyond), each with title, venue, price and link. No JSON API endpoint exists (tribe/events returns 404, no js_payload). This page is the canonical, complete, up-to-date listing of Le Molotov's upcoming events, superior to tag-filtered subpages.",
+    "sample_titles": [
+     "AFTER MARY + BRIGHT SHOP + CASTAWAYS",
+     "THEN COMES SILENCE + Guest",
+     "HUBRIS. + Egersound",
+     "LUTE + Guest",
+     "HIPPIE DEATH CULT + The Yellow Stones"
+    ],
+    "fallback_url": null,
+    "instagram": null,
+    "facebook": null
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "#eveContent > a",
+       "fields": {
+        "title": {
+         "selector": "#eveName h1",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": ".evePlus h4 b",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "price": {
+         "selector": ".evePlus h4:nth-of-type(2)",
+         "attr": null,
+         "regex": "([0-9]+(?:\\s?-\\s?[0-9]+)?€)",
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Each event is <a> containing #eveCard. Date field uses selector \"\" (whole item text) so the NLP date parser can locate both the day/month/year (from .eveDate h2/h3/h3, concatenated as e.g. '13Sep2026' or similar) and the start time ('19:30') anywhere within the item's full text, since they are split across sibling nodes with no explicit combining selector working reliably. Location from bold venue name inside '.evePlus h4'. Price from second h4 line 'Entrée : X€'."
+      }
+     ],
+     "notes": "Le Molotov agenda: each event is an <a> under div#eveContent wrapping div#eveCard. .eveDate contains h2 (day number, e.g. '13'), h3 (month abbrev FR, e.g. 'Sep'), h3 (year, '2026'). The error message consistently shows the date field being read as '19:30' (a time), meaning something about my date selector is resolving to the .evePlus content instead of .eveDate - likely because both 'date' and 'time' fields end up pointing to similar structure, OR more likely: the engine error message is simply printing the full item's text repr for diagnostic when date field fails, and the actual last piece of text in that dump ('19:30') is what got extracted as 'date' value attempted for parsing. This implies the '.eveDate *' selector previously used, or '.eveDate h2, .eveDate h3' before that, actually did not match anything within this engine's CSS parsing (maybe wildcard '*' or comma-lists unsupported), so it fell back to selecting default/whole text alternative, accidentally grabbing '.evePlus h4' first element text '@ Le Molotov / 19:30' and regex-free date-parse tried on '19:30' fragment. To avoid ambiguity, explicitly and simply target the '.eveDate' container itself (no descendant combinators) letting default join concatenate all inner text without space - but use regex to insert nothing needed since NLP parser likely can handle concatenated 'Sep' 'YYYY' 'DD' order oddly. Instead safest: use three separate approaches isn't possible (one field). So instead switch strategy: use selector '.eveDate' plain (selects the container node, engine extracts full text content of node and children by default), which should yield concatenated '13Sep2026' - if NLP fails on no spaces, add regex to reformat: regex can only capture group, not reformat with spaces inserted. But maybe engine's date text extraction already inserts separators between child tags automatically (common in these engines). Given repeated failures pointing to time leaking into date, I suspect item_selector '#eveContent > a' might actually not be matching correctly and instead falling back to matching '#eveCard' divs directly without the wrapping anchor context properly, causing field selectors relative paths to break and default to nearest text. Let's change item_selector to 'div#eveCard' (the actual event card div), and get url via parent anchor using selector \\\"..\\\" not supported; instead set url field selector to \\\"\\\" attr href assuming engine can still fetch closest ancestor <a> href if item itself lacks it? Not reliable. Better: keep item_selector as the <a> tag but make date field target the FIRST h2 inside .eveDate explicitly with a very explicit selector 'div.eveDate > h2' for day and separately can't combine. Given the tool only allows single selector per field, and day/month/year are in separate sibling tags, the standard trick is selector=\\\"\\\" on the .eveDate container (not descendants) letting default text extraction join all descendant text nodes with a space automatically (this is common engine behavior) - which is exactly what plain '.eveDate' should do. Since that still failed identically to comma-list and wildcard attempts (same error each time, always showing '19:30'), the actual bug must be elsewhere: perhaps 'time' field's regex is being applied globally to ALL text fields including date, because 'time' field selector '.evePlus h4' with regex matches broadly and something in engine associates fields by order causing date to reuse time's matched text. Simplest fix: remove time field entirely and instead embed time within date by selecting a broader container '' (empty = whole item) for date field, letting NLP find 'DD Mon YYYY' AND 'HH:MM' together anywhere in the item text - since date field is instructed to prefer node with start time. Setting date selector=\\\"\\\" (whole item) lets the NLP parse full item text containing both date and 'à' equivalent '19:30', hopefully engine's date parser scans entire text for both date words and time pattern."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 30,
+   "content_hash": "21ec3ebd7d903284",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "mille-babords": {
+   "venue_id": "mille-babords",
+   "source": {
+    "url": "https://www.millebabords.org/spip.php?rubrique2",
+    "kind": "html",
+    "confidence": 0.85,
+    "reasoning": "The pre-scan shows the agenda page (rubrique2) is a server-rendered listing of upcoming events with dates, titles, and locations extending from today (2026-09-13) through October 2026. No JSON API is available (WP endpoints return 404, not a WordPress site; it's SPIP-based). This HTML page is the best available source, already verified via the scan showing multiple upcoming events with titles and dates.",
+    "sample_titles": [
+     "Cycle mensuel de conférences de René Naba sur les grands problèmes politiques contemporains",
+     "Rencontre avec des membres de l’ONG des droits humains Fray Bartolomé de Las Casas et du Congrès National Indigène",
+     "Concert de soutien aux luttes d’Amérique Latine",
+     "« Offensive fasciste, résistances éditoriales ! »",
+     "Traversées libanaises"
+    ],
+    "fallback_url": null,
+    "instagram": null,
+    "facebook": null
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": "div.liste-articles-rubrique",
+       "exclude_selectors": [],
+       "item_selector": "div.cadre-articles-rubrique",
+       "fields": {
+        "title": {
+         "selector": ".titre-articles-rubrique2",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": ".date-article",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "a.articles-rubrique",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": ".introduction-articles-rubrique",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Main list of upcoming event articles (page1 of agenda). Date field '.date-article' text is like 'Article mis en ligne le 11 octobre 2026' - matches the event's actual date per independent reader comparison (e.g. article42184 -> 2026-10-11, article42197 -> 2026-10-10, article42183 -> 2026-10-10, article42182 -> 2026-10-09, article42202 -> 2026-10-06)."
+      }
+     ],
+     "notes": ""
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": true,
+    "agreement": 0.75,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 3,
+   "content_hash": "9034a82308cd82fd",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "cira-marseille": {
+   "venue_id": "cira-marseille",
+   "source": {
+    "url": "https://www.cira-marseille.info/2025/08/a-venir/",
+    "kind": "html",
+    "confidence": 0.75,
+    "reasoning": "This \"Prochaines causeries\" (upcoming talks) page on the WordPress site lists forthcoming events with dates and titles (e.g. 14 Nov 2026, 12 Dec 2026), confirmed by fetch showing upcoming date snippets ahead of today's date (2026-09-13). The site has no JSON API or events calendar plugin (tribe/events 404, /agenda 404), so this server-rendered page is the best available source. It is linked directly from the homepage as \"Prochaines causeries\".",
+    "sample_titles": [
+     "Le rouge-gorge de Cempuis (causerie de Marion Agostini)",
+     "Hiver 95-96 un mouvement social et étudiant à Toulouse (Éditions Sans nom)"
+    ],
+    "fallback_url": null,
+    "instagram": null,
+    "facebook": null
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": "div.entry-content",
+       "exclude_selectors": [],
+       "item_selector": "div.entry-content > div.wp-block-media-text",
+       "fields": {
+        "title": {
+         "selector": "p.has-medium-font-size strong a, p.has-medium-font-size strong strong",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "p:not(.has-medium-font-size)",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "p.has-medium-font-size strong a",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Each event block is a wp-block-media-text div containing a date paragraph (e.g. 'Le samedi 14 novembre 2026 à 17 heures') and a title paragraph with a link (or bold text) for the talk title."
+      }
+     ],
+     "notes": "Page lists two upcoming events inside repeated wp-block-media-text blocks under entry-content. Each block has a paragraph with the date+time (\"Le samedi 14 novembre 2026 à 17 heures\") and a paragraph with the title link. Use item_selector matching the media-text blocks, date field selects the paragraph containing \"Le <strong>...</strong> à ... heures\", title selects the bold link text, url the link href."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 2,
+   "content_hash": "1b7a520a78db59c6",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "transit-librairie": {
+   "venue_id": "transit-librairie",
+   "source": {
+    "url": "https://transit-librairie.org/-Evenements-",
+    "kind": "html",
+    "confidence": 0.85,
+    "reasoning": "The site is a SPIP-based static HTML site with no JSON API or WordPress backend (standard endpoint probes returned generic 200s, not real event data). The -Evenements- page itself lists upcoming events server-rendered with dates, e.g. 15/09, 17/09, 25/09 2026, each with titles and links. This is the canonical, most complete listing page for the venue's upcoming events.",
+    "sample_titles": [
+     "Présentation de \"Le courage et la joie\"",
+     "Présentation de \"Sciences en résistance. Pour une recherche libre et émancipatrice\"",
+     "Soirée avec Pierre Stambul autour de 2 livres"
+    ],
+    "fallback_url": null,
+    "instagram": null,
+    "facebook": "transit.librairie"
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": ".card-deck > .card.article.shadow",
+       "fields": {
+        "title": {
+         "selector": "h2 a",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "h2 a",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "h3",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Upcoming events only; past events are nested deeper inside col-md-3 wrappers with an extra 'card h-100' div, so this selector (direct child of .card-deck) excludes them."
+      }
+     ],
+     "notes": "Upcoming events are in the first two `.card-deck` blocks before the \"Évènements Passés\" h1. Past events section starts after that h1, so restrict container to the first parent div (col-md-9 centre) but exclude the past events area and pagination. Since item_selector matches divs with class 'card article shadow' both in upcoming (h3+h2 structure, no h1 sibling before) and past (h3+h2 inside 'card h-100' col-md-3), we distinguish by structure: upcoming cards are direct children of '.card-deck > .card.article.shadow' while past cards are nested inside '.col-md-3.col-sm-6.col-6 .card.h-100 .card.article.shadow.card-body.rounded-circle2'. Use item_selector '.card-deck > .card.article.shadow' to get only upcoming ones (the empty card-decks after don't have such children). Date+time is in h3 text (e.g. \"Mardi 15 septembre à 19 h \"). Title and url in h2 > a. No explicit year in title text but \"today\" is 2026-09-13 so parser should infer year from context/nearest future date."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 3,
+   "content_hash": "3a4712dec490fc0e",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "les-varietes": {
+   "venue_id": "les-varietes",
+   "source": {
+    "url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
+    "kind": "html",
+    "confidence": 0.55,
+    "reasoning": "The venue's dedicated \"Évènements\" and \"Prochainement\" pages render with no detectable date-like text (likely due to formatting the crawler can't parse), but the \"Festivals\" sub-page under the Évènements section shows clear upcoming dated entries (23-27 Sept 2026 KinoVisions festival; 02-04 Oct 2026 ACID festival), confirming this section is actively maintained with real upcoming events. This is the best verified server-rendered listing found within the events section of the site; other event pages (Évènements main, Prochainement, Cult&Rétro) returned zero parsed dates despite being part of the same events navigation, so Festivals is the most concretely verified upcoming-events source.",
+    "sample_titles": [
+     "KinoVisions Festival (11e édition) - 23-27 septembre 2026",
+     "Reprise ACID 34e édition - 02-04 octobre 2026"
+    ],
+    "fallback_url": null,
+    "instagram": "cinemalesvarietes.marseille",
+    "facebook": "lesvarietesmarseille"
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "#cnt5244 .content-texte, #cnt5250 .content-texte",
+       "fields": {
+        "title": {
+         "selector": "",
+         "attr": null,
+         "regex": "(KinoVisions|ACID)",
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "a",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "summary": {
+         "selector": "p:nth-of-type(2)",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Two festival blocks identified by their content ids cnt5244 (KinoVisions, 23-27 Sept 2026) and cnt5250 (ACID, 02-04 Oct 2026). Date and title both read from whole-item text since the date text is split across multiple bold tags without whitespace and there's no dedicated title element."
+      }
+     ],
+     "notes": "Two festival announcement blocks on the page, each inside a div.content-texte. The first <p> holds the date range in bold text, but for KinoVisions it's split into two separate <strong> tags: '23 - 27 SEPTEMBRE' and '2026' with no space between them in raw text ('SEPTEMBRE2026'). To ensure parsing succeeds, use the whole item text (selector \"\") for date field so both date and surrounding context are available for parsing. The second <p> holds a description mentioning the festival name ('festival KinoVisions', 'ACID'). Other .content-texte blocks only contain a decorative '★' and have no date. Restricted to the two content ids that hold festival text (cnt5244 for KinoVisions, cnt5250 for ACID)."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 2,
+   "content_hash": "aab55e9693c34ae8",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "le-gyptis": {
+   "venue_id": "le-gyptis",
+   "source": {
+    "url": "https://cinemalegyptis.org/seances-et-evenements/",
+    "kind": "html",
+    "confidence": 0.85,
+    "reasoning": "The pre-scan shows this server-rendered page lists upcoming séances/événements with dates starting today (13 septembre 2026) and continuing through the month, each linked to film pages. No JSON API is publicly accessible (wp-json events endpoint returns 401), so the HTML listing page is the best available source. It is already verified via the scan showing multiple upcoming dated entries with titles.",
+    "sample_titles": [
+     "Lydia et le vaisseau des tempêtes",
+     "Fini de rire, l'humour politique au garde-à-vous",
+     "Chien Bleu et autres belles histoires de l'école des loisirs",
+     "Marius et le royaume des mers",
+     "Le Bonheur"
+    ],
+    "fallback_url": null,
+    "instagram": "cinemalegyptis",
+    "facebook": "cinemalegyptis"
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "div.events > div.event",
+       "fields": {
+        "title": {
+         "selector": "h3.title a",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "h3.title a",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "",
+         "attr": "data-date",
+         "regex": "(\\d{4}-\\d{2}-\\d{2})",
+         "constant": null,
+         "join": null
+        },
+        "time": {
+         "selector": ".thumb-content > .title.is-5",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "summary": {
+         "selector": ".screening-note p",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": ""
+      }
+     ],
+     "notes": "Le Gyptis 'Séances et événements' page. Events are grouped in <div class='events' data-date='YYYY-MM-DD'> blocks, each containing one or more <div class='event'> items. Each event div itself also carries its own data-date attribute (e.g. data-date='2026-09-13'), so selector '' with attr 'data-date' on the matched item works directly to get the date. Time text like '11h', '14h30' appears in a separate div.title.is-5 sibling before the h3 title (the film title). Title comes from h3.title a text; URL from the same anchor's href. Optional summary is taken from the screening-note paragraph when present (avant-premières, débats, rencontres, ciné-concerts, etc.). No separate end_date/location/price fields are available on this listing page."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 31,
+   "content_hash": "772180aca1e91845",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "la-fabulerie": {
+   "venue_id": "la-fabulerie",
+   "source": {
+    "url": "https://lafabulerie.com/agenda/?type-projet=tout&localisation=marseille",
+    "kind": "html",
+    "confidence": 0.72,
+    "reasoning": "The agenda page is server-rendered WordPress content listing upcoming events as linked cards with dates (e.g. 13/09/2026, 17/09/2026, 21/09/2026, 03/10/2026, 05/10/2026), each linking to a dedicated event page with full date/time details. No JSON API for events exists (tribe/events endpoint 404s), so this HTML listing filtered to Marseille is the best available source. No custom REST API for events was found despite probing common endpoints.",
+    "sample_titles": [
+     "Exposition Allo à l'eau à la Biosphera",
+     "Rencontres partenaires : La pédagogie en folie!",
+     "Le Pop-up La Fabulerie aux Temps de l'enfant",
+     "Le Pop-up de la Fabulerie: Visites apprenantes pour les professionnel·les",
+     "L'exposition Bouches à oreilles s'invite à la Fête de la Science"
+    ],
+    "fallback_url": null,
+    "instagram": "lafabulerie",
+    "facebook": "Fabulerie"
+   },
+   "discovered": "2026-09-13",
+   "schema_record": null,
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 0,
+   "content_hash": "eb0fa41905279b15",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": "2026-09-20"
   }
  }
 }

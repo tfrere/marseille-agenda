@@ -23,6 +23,9 @@ class SchemaEvent(ExtractedEvent):
     free: bool | None = None
     image: str | None = None
     """Absolute URL of the event's own visual (poster, photo) when the source carries one."""
+    title_truncated: bool = False
+    """The page itself cut the title short ("Le Grand Voyage aux Fertiles..."): the trailing
+    marker is removed, the rest stays verbatim, and readers know the title is a prefix."""
     grounded_text: bool = True
     """False for JSON sources: evidence is a rendering of the item, not a page excerpt."""
 
@@ -300,7 +303,9 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
             titles = _html_values(item, rule.fields["title"], doc.url)
             if not titles:
                 raise ValueError("empty title")
-            title = titles[0]
+            title, truncated = strip_ellipsis(titles[0])
+            if not title:
+                raise ValueError("empty title")
             if "image" in rule.fields:
                 image = _usable_image_url(_first(_html_values(item, rule.fields["image"], doc.url)), doc.url)
             else:
@@ -340,7 +345,7 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
                         pass
                 result.events.append(
                     SchemaEvent(
-                        title=title, start_date=parsed.start, end_date=end_date,
+                        title=title, title_truncated=truncated, start_date=parsed.start, end_date=end_date,
                         start_time=start_time, end_time=end_time, evidence=evidence, image=image, **common,
                     )
                 )
@@ -432,7 +437,9 @@ def _apply_json(rule: JsonRule, doc: SourceDocument, today: date, result: ApplyR
                 title = _first(_json_values(ctx, rule.fields["title"]))
                 if not title:
                     raise ValueError("empty title")
-                title = _strip_html(title)
+                title, truncated = strip_ellipsis(_strip_html(title))
+                if not title:
+                    raise ValueError("empty title")
                 date_text = _first(_json_values(ctx, rule.fields["date"]))
                 if not date_text:
                     raise ValueError("empty date")
@@ -456,7 +463,7 @@ def _apply_json(rule: JsonRule, doc: SourceDocument, today: date, result: ApplyR
                 evidence = [_clip(f"{title} | {date_text}" + (f" | {start_time:%H:%M}" if start_time else ""), 300)]
                 result.events.append(
                     SchemaEvent(
-                        title=title, start_date=parsed.start, end_date=end_date,
+                        title=title, title_truncated=truncated, start_date=parsed.start, end_date=end_date,
                         start_time=start_time, end_time=end_time, evidence=evidence,
                         grounded_text=False, image=image, **common,
                     )
@@ -522,6 +529,20 @@ def _parse_time(v: str | None, fmt: str | None) -> time | None:
         return None
     h, mi = int(m.group(1)), int(m.group(2) or 0)
     return time(h, mi) if 0 <= h <= 23 and 0 <= mi <= 59 else None
+
+
+_ELLIPSIS_RE = re.compile(r"[\s\u00a0]*(?:\.{3}|\u2026)[\s\u00a0]*$")
+
+
+def strip_ellipsis(title: str) -> tuple[str, bool]:
+    """Remove a trailing "..." / "…" the page used to cut the title; report that it was cut.
+
+    The remainder is untouched (still a verbatim prefix of the page text), never completed.
+    """
+    stripped = _ELLIPSIS_RE.sub("", title)
+    if stripped == title:
+        return title, False
+    return stripped.rstrip(" \u00a0"), True
 
 
 def _apply_regex(v: str, pattern: str | None) -> str:

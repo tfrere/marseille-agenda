@@ -2,7 +2,9 @@
 
 For each venue in venues.json:
   1. no source known      -> discovery agent (LLM, once)            -> data/sources.json
-  2. no schema known      -> schema generator (LLM, once)           -> data/sources.json
+  2. no schema known      -> induction (no LLM) or generator (LLM), once -> data/sources.json
+     (a listing with no upcoming date in its HTML is a client-rendered shell: the discovered
+     fallback_url, then the site home, are tried first when they induce a schema)
   3. fetch source, execute schema (no LLM)
   4. schema unhealthy     -> regenerate (LLM), then re-discover after repeated failures
   5. deterministic checks -> adversarial verifier on NEW html events only (LLM, cheap)
@@ -21,6 +23,7 @@ import logging
 import sys
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
+from urllib.parse import urlsplit, urlunsplit
 
 import httpx
 
@@ -30,7 +33,7 @@ from .discover import build_discoverer, discover_source
 from .extract import build_extractor
 from .extraction_schema import ExtractionSchema, SchemaRecord, SourceRecord, SourcesFile
 from .fetch import SourceDocument, fetch_document, make_client
-from .induce import induce_schema
+from .induce import induce_schema, upcoming_date_count
 from .llm import fetch_credits, make_model
 from .filters import publishable
 from .merge import collapse_daily_runs, expire_past, make_uid, merge_source
@@ -85,7 +88,7 @@ def to_event(ex: SchemaEvent, venue: Venue, source_url: str, kind: str, today: d
     return Event(
         uid=make_uid(venue.id, ex.title, ex.start_date),
         venue_id=venue.id, venue_name=venue.name, category=venue.category,
-        title=ex.title, start_date=ex.start_date, start_time=ex.start_time,
+        title=ex.title, title_truncated=ex.title_truncated, start_date=ex.start_date, start_time=ex.start_time,
         end_date=ex.end_date, end_time=ex.end_time, location_name=ex.location_name,
         url=ex.url, price=ex.price, summary=ex.summary, status=ex.status,
         event_type=ex.event_type, free=ex.free, image_source=ex.image,
@@ -174,6 +177,43 @@ class Runner:
         self._store_schema(record, gen.schema, validated=True, agreement=gen.agreement, model=self.settings.extractor_model)
         return "ok"
 
+    async def client_rendered_fallback(self, venue: Venue, record: SourceRecord, doc: SourceDocument, client: httpx.Client,
+                                       out: VenueOutcome) -> SourceDocument:
+        """An HTML listing whose server-rendered text holds no upcoming date at all is most likely
+        a client-rendered shell (the cards are injected by JavaScript), not an empty agenda.
+
+        Before concluding "nothing announced" (which postpones generation for a week), try the
+        discovered `fallback_url` then the site home: when one of them induces a schema
+        deterministically, the source switches to it and the run goes on with that document.
+        Returns the document to work with (`doc` itself when nothing better was found).
+        """
+        if doc.kind != "html" or upcoming_date_count(doc, self.today) > 0:
+            return doc
+        parts = urlsplit(doc.url)
+        home = urlunsplit((parts.scheme, parts.netloc, "/", "", ""))
+        candidates = [u for u in dict.fromkeys([record.source.fallback_url, home]) if u and u.rstrip("/") != doc.url.rstrip("/")]
+        log.info("[%s] %s has no upcoming date in its server-rendered text (client-rendered listing?); trying %s",
+                 venue.id, doc.url, ", ".join(candidates) or "nothing")
+        for url in candidates:
+            try:
+                alt = await asyncio.to_thread(fetch_document, url, "html", client)
+            except Exception as exc:  # noqa: BLE001
+                log.info("[%s] fallback %s could not be fetched: %s", venue.id, url, exc)
+                continue
+            induced = induce_schema(alt, self.today)
+            if induced is None or induced.quality < INDUCTION_MIN_QUALITY:
+                log.info("[%s] fallback %s: %s", venue.id, url, induced.describe() if induced else "no repeated dated cards")
+                continue
+            note = (f"{doc.url} has no upcoming date in its server-rendered text (client-rendered listing); "
+                    f"source switched to {url}: {induced.describe()}")
+            log.info("[%s] %s", venue.id, note)
+            out.notes.append(note)
+            record.source.reasoning += f" [{self.today}] {note}"
+            record.source.url = url
+            record.source.kind = "html"
+            return alt
+        return doc
+
     def _store_schema(self, record: SourceRecord, schema: ExtractionSchema, *, validated: bool, agreement: float, model: str) -> None:
         prev = record.schema_record
         record.schema_record = SchemaRecord(
@@ -227,6 +267,8 @@ class Runner:
             if record.next_generation and self.today < record.next_generation:
                 out.notes.append(f"no upcoming event on source at last check; next generation attempt {record.next_generation}")
                 return self._empty_ok(record, doc, out)
+            doc = await self.client_rendered_fallback(venue, record, doc, client, out)
+            out.content_hash = doc.content_hash
             try:
                 status = await self.generate(venue, record, doc, out)
             except Exception as exc:  # noqa: BLE001
@@ -247,6 +289,8 @@ class Runner:
             out.notes.append(f"schema unhealthy: {unhealthy}")
             status = "failed"
             try:
+                doc = await self.client_rendered_fallback(venue, record, doc, client, out)
+                out.content_hash = doc.content_hash
                 status = await self.generate(venue, record, doc, out)
             except Exception as exc:  # noqa: BLE001
                 log.exception("[%s] regeneration failed", venue.id)

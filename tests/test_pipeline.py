@@ -179,6 +179,60 @@ async def test_empty_source_is_not_an_error_and_is_retried_later(tmp_path, offli
     assert len(calls) == 2
 
 
+async def test_client_rendered_listing_falls_back_to_the_home_page(tmp_path, today, monkeypatch):
+    """The discovered agenda is a JS shell (enough text, zero dates); the home lists the cards.
+    The source switches to the home and is induced there, with no model call."""
+    from marseille_agenda.fetch import document_from_body
+
+    agenda = "https://x.test/agenda/?ville=marseille"
+    home = "https://x.test/"
+    shell = ("<html><body><nav><a href='/agenda/'>Agenda</a><a href='/infos'>Infos pratiques</a></nav>"
+             "<main id='app'><h1>Agenda</h1><p>" + "Chargement des evenements en cours, merci de patienter. " * 12
+             + "</p></main><footer>Contact, mentions legales, newsletter</footer></body></html>")
+    bodies = {agenda: shell, home: (FIXTURES / "listings" / "molotov_agenda.html").read_text(encoding="utf-8")}
+    fetched: list[str] = []
+
+    def fake_fetch(url, kind, client=None):
+        fetched.append(url)
+        if url not in bodies:
+            raise ConnectionError(f"offline: {url}")
+        return document_from_body(url, kind, bodies[url])
+
+    monkeypatch.setattr(pipeline, "fetch_document", fake_fetch)
+    settings = _settings(tmp_path)
+    venue = Venue(name="Le Molotov", category="bars", social=False)
+    sources = SourcesFile(sources={venue.id: SourceRecord(
+        venue_id=venue.id, discovered=today,
+        source=DiscoveredSource(url=agenda, kind="html", confidence=0.7, reasoning="agent saw cards", fallback_url="https://x.test/dead/"),
+    )})
+    state = State()
+    report = await pipeline.Runner(settings, today, allow_llm=False).run([venue], sources, state)
+    record = sources.sources[venue.id]
+    assert fetched == [agenda, "https://x.test/dead/", home], "fallback_url first, then the site home"
+    assert record.source.url == home and record.next_generation is None and record.consecutive_failures == 0
+    assert "client-rendered" in record.source.reasoning and "agent saw cards" in record.source.reasoning
+    assert record.schema_record is not None and record.schema_record.generator_model == "induction"
+    assert report.llm_calls == 0 and report.sources_ok == 1
+    assert len([e for e in state.events.values() if e.venue_id == venue.id]) == 30
+    assert all(e.source_url == home for e in state.events.values())
+    assert any("source switched to https://x.test/" in a.message for a in report.alerts)
+
+    # A shell whose home is not a listing either keeps today's behaviour: postponed, no error.
+    bodies[home] = shell
+    sources2 = SourcesFile(sources={venue.id: SourceRecord(
+        venue_id=venue.id, discovered=today, source=DiscoveredSource(url=agenda, kind="html", confidence=0.7, reasoning="t"),
+    )})
+
+    async def fake_generate(self, v, record, doc, out):
+        record.next_generation = self.today + timedelta(days=pipeline.EMPTY_SOURCE_RETRY_DAYS)
+        return "empty"
+
+    monkeypatch.setattr(pipeline.Runner, "generate", fake_generate)
+    report2 = await pipeline.Runner(settings, today, allow_llm=True).run([venue], sources2, State())
+    assert sources2.sources[venue.id].source.url == agenda and sources2.sources[venue.id].next_generation is not None
+    assert report2.sources_ok == 1 and not [a for a in report2.alerts if a.level == "error"]
+
+
 def test_state_roundtrip(tmp_path, offline_fetch, today):
     import asyncio
 

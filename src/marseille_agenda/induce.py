@@ -62,12 +62,28 @@ class Induction:
                 + (", machine-readable dates" if self.machine_dates else ""))
 
 
-def induce_schema(doc: SourceDocument, today: date) -> Induction | None:
-    if doc.kind != "html":
-        return None
+def _clean_soup(doc: SourceDocument) -> BeautifulSoup:
     soup = BeautifulSoup(doc.raw, "lxml")
     for tag in soup.find_all(_DROP):
         tag.decompose()
+    return soup
+
+
+def upcoming_date_count(doc: SourceDocument, today: date) -> int:
+    """How many elements of the page carry an upcoming date (text or machine attribute).
+
+    Zero on a page that claims to be an agenda means the cards are injected by JavaScript
+    (a client-rendered shell), not that the venue has nothing announced.
+    """
+    if doc.kind != "html":
+        return 0
+    return len(_date_nodes(_clean_soup(doc), today)[0])
+
+
+def induce_schema(doc: SourceDocument, today: date) -> Induction | None:
+    if doc.kind != "html":
+        return None
+    soup = _clean_soup(doc)
     class_count = Counter(c for t in soup.find_all(True) for c in t.get("class", []) if _CLASS_OK.match(c))
 
     date_nodes, dated_nodes = _date_nodes(soup, today)
@@ -318,6 +334,9 @@ def _url_field(items: list[Tag], title: FieldSpec) -> FieldSpec | None:
             return FieldSpec(selector=sel if sel == "a" or sel.endswith(" a") else sel, attr="href") if sel == title.selector and all(
                 (item.select_one(sel) or item).name == "a" for item in items if item.select_one(sel)
             ) else FieldSpec(selector=sel if sel.endswith(" a") or sel == "a" else f"{sel} a", attr="href")
+    # The card itself is the link (`<a class="card" href=...>`): no descendant to select.
+    if sum(1 for i in items if i.name == "a" and i.has_attr("href")) >= 0.8 * len(items):
+        return FieldSpec(selector="", attr="href")
     return None
 
 

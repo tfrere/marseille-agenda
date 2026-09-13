@@ -115,6 +115,7 @@ class Event(BaseModel):
     venue_name: str
     category: str
     title: str
+    title_truncated: bool = Field(default=False, description="The source cut the title short; `title` is its verbatim prefix.")
     start_date: date
     start_time: time | None = None
     end_date: date | None = None

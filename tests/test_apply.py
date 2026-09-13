@@ -175,6 +175,31 @@ def test_mucem_schema(mucem_doc, today):
     assert all(e.start_date >= today or (e.end_date and e.end_date >= today) for e in upcoming)
 
 
+def test_truncated_titles_lose_their_marker_and_still_ground(today):
+    """Seen on lafabulerie.com: the home cuts titles ('Le Grand Voyage aux Fertiles...')."""
+    from marseille_agenda.fetch import document_from_body
+
+    html = """<div class="list">
+      <a class="card" href="/evenement/le-grand-voyage-aux-fertiles/"><div class="date">16/09/2026 - 08h30</div><h3>Le Grand Voyage aux Fertiles...</h3></a>
+      <a class="card" href="/evenement/rencontres/"><div class="date">21/09/2026 - 14h00</div><h3>Rencontres partenaires :&nbsp; La…</h3></a>
+      <a class="card" href="/evenement/atelier/"><div class="date">03/10/2026 - 10h00</div><h3>Atelier complet</h3></a>
+    </div>"""
+    doc = document_from_body("https://x.test/", "html", html)
+    schema = ExtractionSchema(rules=[HtmlRule(item_selector="a.card", fields={
+        "title": FieldSpec(selector="h3"), "date": FieldSpec(selector="div.date"), "url": FieldSpec(selector="", attr="href"),
+    })])
+    res = apply_schema(schema, doc, today)
+    assert not res.failures
+    assert [(e.title, e.title_truncated, e.start_date, e.start_time) for e in res.events] == [
+        ("Le Grand Voyage aux Fertiles", True, date(2026, 9, 16), time(8, 30)),
+        ("Rencontres partenaires :\xa0 La", True, date(2026, 9, 21), time(14, 0)),  # verbatim prefix, never completed
+        ("Atelier complet", False, date(2026, 10, 3), time(10, 0)),
+    ]
+    assert res.events[0].url == "https://x.test/evenement/le-grand-voyage-aux-fertiles/"
+    for e in res.events:
+        assert check_event(e, doc, today) == [], e.title
+
+
 # ------------------------------------------------------------------ images
 
 LISTINGS = Path(__file__).parent / "fixtures" / "listings"

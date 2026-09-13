@@ -1,7 +1,7 @@
 {
  "run_date": "2026-09-13",
  "sources_total": 34,
- "sources_ok": 34,
+ "sources_ok": 33,
  "sources_skipped_unchanged": 0,
  "events_published": 284,
  "events_new": 0,
@@ -14,13 +14,19 @@
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
    "message": "no upcoming event on source at last check; next generation attempt 2026-09-19"
+  },
+  {
+   "level": "error",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
+   "message": "source failed, last verified state kept: fetch: timed out"
   }
  ],
- "llm_calls": 1,
+ "llm_calls": 0,
  "posts_analyzed": 0,
  "apify_runs": 0,
  "images_published": 186,
  "images_failed": 0,
- "credits_remaining_usd": 1.3925,
+ "credits_remaining_usd": 1.3881,
  "run_cost_usd": 0.0
 }

@@ -265,7 +265,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 108,
-   "content_hash": "bacb558c6db16ca0",
+   "content_hash": "7be54d15341881fc",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -363,7 +363,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 25,
-   "content_hash": "0e8d7e077fbdc9fe",
+   "content_hash": "30648849ec147261",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -451,10 +451,10 @@
     "version": 1
    },
    "last_ok": "2026-09-13",
-   "last_error": null,
+   "last_error": "fetch: timed out",
    "last_event_count": 3,
    "content_hash": "95f690aa0f75e443",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "regenerations": 0,
    "next_generation": null
   },
@@ -614,7 +614,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 5,
-   "content_hash": "0072293e6e5dc05e",
+   "content_hash": "9034a82308cd82fd",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -823,7 +823,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 1,
-   "content_hash": "bfff5722402a472b",
+   "content_hash": "bc7c0bfd25a215d7",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

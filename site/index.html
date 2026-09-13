@@ -8,38 +8,109 @@
 <style>
   :root {
     --bg: #fbfaf7; --fg: #1d1d1b; --muted: #6b6a66; --line: #e4e2dc; --cell: #ffffff; --today: #fff3c4;
-    --panel: #ffffff; --shadow: 0 10px 30px rgba(0,0,0,.12);
+    --panel: #ffffff; --shadow: 0 10px 30px rgba(0,0,0,.12); --star: #d97706;
     --c-culture: #c2410c; --c-milite: #b91c1c; --c-cinema: #6d28d9; --c-ateliers: #0f766e; --c-ceramique: #a16207;
     --c-bars: #be185d; --c-mer: #0369a1; --c-sport: #15803d; --c-coop: #4d7c0f; --c-amap: #65a30d; --c-macon: #57534e; --c-autre: #475569;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #151515; --fg: #ececea; --muted: #9a9993; --line: #2a2a2a; --cell: #1c1c1c; --today: #3a3410; --panel: #1f1f1f; --shadow: 0 10px 30px rgba(0,0,0,.6); }
+    :root { --bg: #151515; --fg: #ececea; --muted: #9a9993; --line: #2a2a2a; --cell: #1c1c1c; --today: #3a3410; --panel: #1f1f1f; --shadow: 0 10px 30px rgba(0,0,0,.6); --star: #fbbf24; }
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; margin: 0; }
   body { font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--fg); display: flex; flex-direction: column; }
-  header { display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  header { display: flex; flex-direction: column; gap: 8px; padding: 10px 16px 8px; border-bottom: 1px solid var(--line); }
   header h1 { font-size: 18px; margin: 0 8px 0 0; font-weight: 650; letter-spacing: -.01em; }
-  header .month { font-size: 18px; font-weight: 600; min-width: 190px; text-transform: capitalize; }
-  button, .chip { font: inherit; border: 1px solid var(--line); background: var(--cell); color: var(--fg); border-radius: 8px; padding: 5px 10px; cursor: pointer; }
+  .top { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .top #today { margin-left: auto; }
+  button, .chip, input { font: inherit; border: 1px solid var(--line); background: var(--cell); color: var(--fg); border-radius: 8px; padding: 5px 10px; }
+  button, .chip { cursor: pointer; }
   button:hover, .chip:hover { border-color: var(--muted); }
-  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
-  .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; }
-  .chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
-  .chip.off { opacity: .4; text-decoration: line-through; }
-  .nav { display: flex; align-items: center; gap: 12px; }
+  button:focus-visible, .chip:focus-visible, input:focus-visible, .opt:has(input:focus-visible) { outline: 2px solid var(--fg); outline-offset: 1px; }
+  .pop:focus { outline: none; }
   /* view tabs: month grid vs long-running exhibitions */
   .tabs { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
   .tabs button { border: 0; border-radius: 0; background: transparent; color: var(--muted); padding: 5px 12px; }
   .tabs button + button { border-left: 1px solid var(--line); }
   .tabs button.on { background: var(--cell); color: var(--fg); font-weight: 600; }
   .tabs .count { display: inline-block; min-width: 18px; padding: 0 5px; margin-left: 4px; border-radius: 999px; background: color-mix(in srgb, var(--fg) 8%, transparent); font-size: 11px; font-weight: 600; text-align: center; }
-  body[data-view="expos"] .nav, body[data-view="expos"] .grid, body[data-view="expos"] .agenda { display: none; }
-  .meta { color: var(--muted); font-size: 12px; }
+  /* filters block: presets + search on the first row, type chips + "Filtres" button on the second, recap below */
+  .filters { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "presets search" "types filters" "recap recap"; gap: 8px 12px; align-items: center; }
+  .presets { grid-area: presets; }
+  .search { grid-area: search; }
+  .types { grid-area: types; }
+  .fwrap { grid-area: filters; position: relative; justify-self: end; }
+  .recap { grid-area: recap; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; min-width: 0; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; white-space: nowrap; }
+  .chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c); flex: none; }
+  .chip .k { color: var(--muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+  .chip.muted:not(.on) { opacity: .45; }
+  .chip.type.on { background: var(--c); border-color: var(--c); color: #fff; }
+  .chip.type.on .dot { background: rgba(255,255,255,.85); }
+  .chip.type.on .k { color: rgba(255,255,255,.8); }
+  .chip.preset.on, .chip.fav.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+  .chip.preset.on .k, .chip.fav.on .k { color: inherit; opacity: .75; }
+  .chip.fav .star { color: var(--star); }
+  .search input { width: 280px; max-width: 100%; padding: 6px 10px; }
+  .search input::placeholder { color: var(--muted); }
+  #filtersBtn.on { border-color: var(--fg); font-weight: 600; }
+  #filtersBtn .car { font-size: 10px; margin-left: 2px; color: var(--muted); }
+  /* active filter recap: one removable tag per filter */
+  .recap { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; font-size: 12.5px; }
+  .recap[hidden] { display: none; }
+  .recap .lbl { color: var(--muted); margin-right: 2px; }
+  .tag { display: inline-flex; align-items: center; gap: 5px; border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; font-size: 12.5px; background: var(--cell); }
+  .tag .x { color: var(--muted); font-size: 14px; line-height: 1; }
+  .tag:hover .x { color: var(--fg); }
+  .tag .k { color: var(--muted); font-size: 11.5px; }
+  .tag button.x { border: 0; background: none; padding: 0 2px; cursor: pointer; }
+  .recap .clear { margin-left: auto; border: 0; background: none; color: var(--muted); text-decoration: underline; padding: 2px 4px; }
+  .recap .clear:hover { color: var(--fg); }
+  /* counter + freshness line */
+  .meta { color: var(--muted); font-size: 12px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2px 12px; }
   .meta a { color: inherit; }
+  .meta #count.on { color: var(--fg); font-weight: 600; font-size: 13px; }
   .credits { border-bottom: 1px dotted var(--muted); cursor: help; }
   .credits.low { color: #b91c1c; font-weight: 600; }
+  /* popover (desktop) / bottom sheet (mobile) with level-2 facets */
+  .pop { position: absolute; top: calc(100% + 6px); right: 0; width: 420px; max-width: calc(100vw - 32px); background: var(--panel); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); z-index: 20; }
+  .pop[hidden] { display: none; }
+  .pop-body { padding: 4px 14px 12px; }
+  .pop h4 { margin: 12px 0 6px; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; }
+  .opts { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 10px; }
+  .opt { display: flex; align-items: center; gap: 7px; padding: 3px 4px; border-radius: 6px; cursor: pointer; min-width: 0; font-size: 13px; }
+  .opt .l { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .opt:hover { background: color-mix(in srgb, var(--fg) 6%, transparent); }
+  .opt.muted:not(.on) { opacity: .45; }
+  .opt.disabled { opacity: .4; cursor: not-allowed; }
+  .opt input { margin: 0; padding: 0; width: 15px; height: 15px; accent-color: var(--fg); }
+  .opt .k, .vopt .k { margin-left: auto; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .pop .search input { width: 100%; }
+  .vlist { list-style: none; margin: 6px 0 0; padding: 0; max-height: 176px; overflow: auto; border: 1px solid var(--line); border-radius: 8px; }
+  .vopt { display: flex; align-items: center; gap: 7px; padding: 4px 8px 4px 4px; cursor: pointer; }
+  .vopt[hidden] { display: none; }
+  .vopt.active { background: color-mix(in srgb, var(--fg) 8%, transparent); }
+  .vopt.muted:not([aria-selected="true"]) { opacity: .5; }
+  .vopt[aria-selected="true"] .name { font-weight: 600; }
+  .vopt[aria-selected="true"] .name::after { content: " \2713"; color: var(--muted); font-weight: 400; }
+  .vopt .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
+  .vopt .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .star { border: 0; background: none; padding: 0 3px; color: var(--muted); font-size: 16px; line-height: 1; cursor: pointer; flex: none; }
+  .star.on { color: var(--star); }
+  .star:hover { color: var(--star); }
+  .sel { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .sel[hidden] { display: none; }
+  .sel .tag .star { font-size: 13px; padding: 0; }
+  .hint { color: var(--muted); font-size: 11.5px; margin-top: 6px; }
+  .pop-foot { display: flex; justify-content: flex-end; margin-top: 14px; }
+  .sheet-head, .sheet-foot, .backdrop { display: none; }
   main { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .nav { display: flex; align-items: center; gap: 12px; padding: 8px 16px 4px; flex: none; }
+  .nav .month { font-size: 18px; font-weight: 600; min-width: 190px; text-transform: capitalize; }
+  body[data-view="expos"] .nav, body[data-view="expos"] .grid, body[data-view="expos"] .agenda { display: none; }
+  /* a time preset replaces the month grid by a compact day list (a near-empty grid says nothing) */
+  body[data-list] .nav, body[data-list] .grid { display: none; }
+  body[data-list]:not([data-view="expos"]) .agenda { display: block; }
   /* month grid: a header row of weekday names, then one .week row per week */
   .grid { flex: 1; display: flex; flex-direction: column; min-height: 0; }
   .dows { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); height: 28px; flex: none; }
@@ -67,10 +138,11 @@
   .ev:hover { background: color-mix(in srgb, var(--c) 20%, transparent); }
   .ev .t { color: var(--muted); font-variant-numeric: tabular-nums; flex: none; font-size: 11.5px; }
   .ev .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .ev .v { color: var(--muted); font-size: 11.5px; flex: none; }
   .cell { min-width: 0; }
   .ev.cancelled .n { text-decoration: line-through; }
   /* panel */
-  .panel { position: fixed; top: 0; right: 0; height: 100%; width: min(440px, 100%); background: var(--panel); box-shadow: var(--shadow); transform: translateX(105%); transition: transform .2s ease; padding: 18px 20px; overflow: auto; z-index: 10; }
+  .panel { position: fixed; top: 0; right: 0; height: 100%; width: min(440px, 100%); background: var(--panel); box-shadow: var(--shadow); transform: translateX(105%); transition: transform .2s ease; padding: 18px 20px; overflow: auto; z-index: 30; }
   .panel.open { transform: none; }
   .panel h2 { margin: 26px 0 6px; font-size: 20px; line-height: 1.25; }
   .panel .venue { color: var(--c); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
@@ -82,8 +154,8 @@
   .panel blockquote { margin: 6px 0; padding: 6px 10px; border-left: 3px solid var(--line); font-style: italic; }
   .panel .badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); margin-left: 6px; vertical-align: middle; }
   .empty { padding: 40px; text-align: center; color: var(--muted); grid-column: 1 / -1; }
-  /* list view (mobile) */
-  .agenda { display: none; padding: 8px 16px 40px; overflow: auto; }
+  /* list view (mobile, or desktop while a time preset is active) */
+  .agenda { display: none; padding: 8px 16px 40px; overflow: auto; min-height: 0; width: 100%; max-width: 860px; margin: 0 auto; }
   .agenda h3 { font-size: 13px; color: var(--muted); margin: 16px 0 6px; text-transform: capitalize; position: sticky; top: 0; background: var(--bg); padding: 4px 0; }
   .agenda .ev { font-size: 14px; padding: 6px 8px; }
   .agenda .ev .n { white-space: normal; }
@@ -103,29 +175,78 @@
   @media (max-width: 760px) {
     .grid { display: none; }
     body:not([data-view="expos"]) .agenda { display: block; }
-    header .month { min-width: 0; }
+    header { padding: 10px 12px 8px; }
     header h1 { font-size: 16px; }
+    .top { gap: 8px; }
+    .nav { padding: 8px 12px 0; }
+    .nav .month { min-width: 0; flex: 1; }
+    .filters { grid-template-areas: "presets presets" "types types" "search filters" "recap recap"; gap: 8px; }
+    /* chip rows scroll edge to edge, scrollbar hidden */
+    .presets, .types { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -12px; padding: 0 12px; }
+    .presets::-webkit-scrollbar, .types::-webkit-scrollbar { display: none; }
+    .search input { width: 100%; }
+    .fwrap { justify-self: stretch; }
+    #filtersBtn { white-space: nowrap; }
+    .recap .clear { margin-left: 0; }
     .expos { grid-template-columns: 1fr; padding: 10px 12px 40px; }
+    /* level-2 facets become a bottom sheet */
+    .pop { position: fixed; top: auto; right: 0; bottom: 0; left: 0; width: auto; max-width: none; max-height: 88vh; border-radius: 14px 14px 0 0; display: flex; flex-direction: column; animation: slide-up .25s ease; }
+    .pop[hidden] { display: none; }
+    @keyframes slide-up { from { transform: translateY(100%); } }
+    .sheet-head { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--line); font-weight: 600; font-size: 15px; }
+    .sheet-head button { padding: 3px 9px; }
+    .pop-body { overflow: auto; flex: 1; padding: 4px 16px 12px; }
+    .sheet-foot { display: block; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); border-top: 1px solid var(--line); }
+    .sheet-foot button { width: 100%; background: var(--fg); color: var(--bg); border-color: var(--fg); font-weight: 600; padding: 10px; }
+    .backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 19; }
+    .backdrop:not([hidden]) { display: block; }
   }
 </style>
 </head>
 <body>
 <header>
-  <h1>Marseille, agenda des lieux</h1>
-  <div class="tabs" role="tablist" id="tabs">
-    <button class="tab on" role="tab" data-view="agenda" aria-selected="true">Agenda</button>
-    <button class="tab" role="tab" data-view="expos" aria-selected="false">Expos &amp; en cours<span class="count" id="exposCount">0</span></button>
+  <div class="top">
+    <h1>Marseille, agenda des lieux</h1>
+    <div class="tabs" role="tablist" id="tabs">
+      <button class="tab on" role="tab" data-view="agenda" aria-selected="true">Agenda</button>
+      <button class="tab" role="tab" data-view="expos" aria-selected="false">Expos &amp; en cours<span class="count" id="exposCount">0</span></button>
+    </div>
+    <button id="today">Aujourd'hui</button>
   </div>
+  <div class="filters">
+    <div class="chips presets" id="presets" aria-label="Période"></div>
+    <div class="search"><input type="search" id="q" placeholder="Rechercher un event, un lieu..." aria-label="Rechercher un événement ou un lieu" autocomplete="off"></div>
+    <div class="chips types" id="types" aria-label="Type de lieu"></div>
+    <div class="fwrap">
+      <button id="filtersBtn" aria-haspopup="dialog" aria-expanded="false" aria-controls="pop">Filtres (<span id="fcount">0</span>)<span class="car">&#9662;</span></button>
+      <div class="pop" id="pop" role="dialog" aria-labelledby="popTitle" tabindex="-1" hidden>
+        <div class="sheet-head"><span id="popTitle">Filtres</span><button id="popClose" aria-label="Fermer les filtres">&times;</button></div>
+        <div class="pop-body">
+          <h4>Quartier</h4>
+          <div class="opts" id="areaOpts"></div>
+          <h4>Lieux</h4>
+          <div class="search"><input type="text" id="venueQ" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="venueList" placeholder="Chercher un lieu..." aria-label="Chercher un lieu" autocomplete="off"></div>
+          <ul class="vlist" id="venueList" role="listbox" aria-multiselectable="true" aria-label="Lieux"></ul>
+          <div class="sel" id="venueSel" hidden></div>
+          <div class="hint">&#9733; = mes lieux, mémorisés sur cet appareil</div>
+          <h4>Plus</h4>
+          <div class="opts" id="moreOpts"></div>
+          <div class="pop-foot"><button id="clearAll">Tout effacer</button></div>
+        </div>
+        <div class="sheet-foot"><button id="sheetApply">Voir les événements</button></div>
+      </div>
+    </div>
+    <div class="recap" id="recap" hidden></div>
+  </div>
+  <div class="meta" id="meta"><span id="count" aria-live="polite"></span><span id="updated"></span></div>
+</header>
+<div class="backdrop" id="backdrop" hidden></div>
+<main>
   <div class="nav">
     <button id="prev" aria-label="Mois précédent">&larr;</button>
     <div class="month" id="month"></div>
     <button id="next" aria-label="Mois suivant">&rarr;</button>
-    <button id="today">Aujourd'hui</button>
   </div>
-  <div class="chips" id="chips"></div>
-  <div class="meta" id="meta"></div>
-</header>
-<main>
   <div class="grid" id="grid"></div>
   <div class="agenda" id="agenda"></div>
   <section class="expos" id="expos" aria-label="Expositions et événements au long cours"></section>
@@ -146,6 +267,26 @@
   // Multi-day ranges longer than this (end_date - start_date, in days) leave the month grid
   // for the dedicated "Expos & en cours" view; shorter ranges are drawn as bars in the grid.
   const LONG_RUN_DAYS = 7;
+  const CATEGORIES = { culture: 'Culture', milite: 'Militant', cinema: 'Cinéma', bars: 'Bars', ateliers: 'Ateliers', ceramique: 'Céramique', mer: 'Mer', sport: 'Sport', coop: 'Coop', amap: 'AMAP', macon: 'Maçonnerie', autre: 'Autre' };
+  const PRESETS = { tonight: 'Ce soir', weekend: 'Ce week-end', week: 'Cette semaine' };
+  // Neighbourhood centroids; a venue belongs to the nearest one (client-side, from its lat/lng).
+  // `name` is the short label shown in chips, `full` the tooltip.
+  const AREAS = [
+    { slug: 'belle-de-mai', name: 'Belle de Mai', full: 'Belle de Mai', lat: 43.311, lng: 5.389 },
+    { slug: 'la-plaine', name: 'La Plaine', full: 'La Plaine / Cours Julien', lat: 43.294, lng: 5.383 },
+    { slug: 'noailles', name: 'Noailles', full: 'Noailles / Canebière', lat: 43.296, lng: 5.379 },
+    { slug: 'panier', name: 'Le Panier', full: 'Le Panier / Vieux-Port', lat: 43.298, lng: 5.368 },
+    { slug: 'joliette', name: 'Joliette', full: 'Joliette', lat: 43.305, lng: 5.366 },
+    { slug: 'reformes', name: 'Réformés', full: 'Réformés / Longchamp', lat: 43.302, lng: 5.389 },
+    { slug: 'prado', name: 'Prado', full: 'Prado / Bonneveine', lat: 43.257, lng: 5.394 },
+    { slug: 'endoume', name: 'Endoume', full: 'Endoume / Corniche', lat: 43.283, lng: 5.355 },
+  ];
+  const LNG_SCALE = Math.cos(43.3 * Math.PI / 180); // one degree of longitude is shorter than one of latitude here
+  // Ported from src/marseille_agenda/filters.py::_SPECIAL_SCREENING; applied to folded (lowercase, accent-free) text.
+  const SPECIAL = /\b(?:debat|discussion|rencontre|echange|en presence|presente par|suivie? d|precedee? d|anime par|avant[- ]premiere|premiere|preview|cine[- ]?club|cine[- ]?concert|cine[- ]?bistro|cine[- ]?goute|cine[- ]?quiz|quiz|seance speciale|seance unique|soiree speciale|soiree|nuit du|marathon|festival|retrospective|cycle|carte blanche|hommage|masterclass|conference|lecon de cinema|atelier|workshop|braderie|anniversaire|fete|vernissage|exposition|projection[- ]debat|projection[- ]rencontre|ouverture|cloture|inauguration|invite|realisateur|realisatrice|equipe du film|interprete|gratuit|entree libre)/;
+  const FAV_KEY = 'agenda.favoriteVenues';
+  const SEARCH_DEBOUNCE_MS = 150;
+  const MOBILE = window.matchMedia('(max-width: 760px)');
 
   let data;
   for (const u of DATA_URLS) {
@@ -156,13 +297,11 @@
   const events = data.events;
   const venues = data.venues;
   const venueById = Object.fromEntries(venues.map(v => [v.id, v]));
-  const hidden = new Set(JSON.parse(localStorage.getItem('hiddenVenues') || '[]'));
   const color = (e) => `var(--c-${e.category || 'autre'}, var(--c-autre))`;
   const todayStr = data.today || new Date().toISOString().slice(0, 10);
-  let cursor = new Date(todayStr + 'T00:00:00');
-  cursor.setDate(1);
+  const currentMonth = todayStr.slice(0, 7);
 
-  $('meta').innerHTML = `${events.length} événements, ${venues.length} lieux. Mis à jour ${new Date(data.generated_at).toLocaleString('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })}. <a href="./events.ics">ICS</a> · <a href="./events.json">JSON</a><span id="credits"></span>`;
+  $('updated').innerHTML = `Mis à jour ${new Date(data.generated_at).toLocaleString('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })}. <a href="./events.ics">ICS</a> · <a href="./events.json">JSON</a><span id="credits"></span>`;
 
   // Last run report: LLM credits left, cost of the run (informational tooltip).
   for (const u of ['./report.json', '../data/report.json']) {
@@ -183,17 +322,6 @@
     } catch (e) { /* try next */ }
   }
 
-  // Venue filter chips
-  for (const v of venues) {
-    const c = document.createElement('button');
-    c.className = 'chip' + (hidden.has(v.id) ? ' off' : '');
-    c.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
-    c.innerHTML = `<span class="dot"></span>${v.name} <span class="meta">${v.event_count}</span>`;
-    c.onclick = () => { hidden.has(v.id) ? hidden.delete(v.id) : hidden.add(v.id); c.classList.toggle('off'); localStorage.setItem('hiddenVenues', JSON.stringify([...hidden])); render(); };
-    $('chips').appendChild(c);
-  }
-
-  const visible = () => events.filter(e => !hidden.has(e.venue_id));
   const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
   const dateOf = (k) => new Date(k + 'T00:00:00');
@@ -207,14 +335,329 @@
   // Day + month, with the year appended only when it is not the current one.
   const fmtDate = (k) => (dateOf(k).getFullYear() === thisYear ? fmtShort : fmtShortYear).format(dateOf(k));
   const fmtRange = (e) => `du ${fmtDate(e.start_date)} au ${fmtDate(e.end_date)}`;
+  const plural = (n, w) => `${n} ${w}${n > 1 ? 's' : ''}`;
+  function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 
-  function evNode(e) {
+  // ---- Facet data -------------------------------------------------------------------------
+
+  // Lowercase, accent-free, whitespace-collapsed text (mirrors validate.normalize + strip_accents).
+  const fold = (s) => String(s ?? '').normalize('NFKC').replace(/[\u2018\u2019]/g, "'").replace(/[\u201c\u201d]/g, '"').replace(/[\u00a0\u202f]/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
+  for (const e of events) {
+    e._q = fold(`${e.title} ${e.venue_name} ${e.summary || ''}`);
+    e._special = SPECIAL.test(fold(`${e.title} ${e.summary || ''}`));
+  }
+  function areaOf(v) {
+    if (v.lat == null || v.lng == null) return null;
+    let best = null, bestD = Infinity;
+    for (const a of AREAS) {
+      const dy = a.lat - v.lat, dx = (a.lng - v.lng) * LNG_SCALE, d = dx * dx + dy * dy;
+      if (d < bestD) { bestD = d; best = a.slug; }
+    }
+    return best;
+  }
+  const venueArea = Object.fromEntries(venues.map(v => [v.id, areaOf(v)]));
+  const areaOptions = AREAS.filter(a => venues.some(v => venueArea[v.id] === a.slug));
+  const areaName = (slug) => (AREAS.find(a => a.slug === slug) || {}).name || slug;
+  const typeOptions = Object.keys(CATEGORIES).filter(t => events.some(e => (e.category || 'autre') === t));
+  const venueOptions = [...venues].sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+
+  let favorites = new Set();
+  try { favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]').filter(id => venueById[id])); } catch (e) { /* ignore */ }
+  const saveFavorites = () => { try { localStorage.setItem(FAV_KEY, JSON.stringify([...favorites])); } catch (e) { /* ignore */ } };
+
+  // ---- State <-> URL hash -----------------------------------------------------------------
+
+  // Single source of truth. Serialised as #view?when=..&type=a,b&area=..&venue=..,fav&free=1&special=1&nolong=1&q=..&m=YYYY-MM
+  const state = { view: 'agenda', when: null, types: new Set(), areas: new Set(), venues: new Set(), favOnly: false, free: false, special: false, hideLong: false, q: '', month: currentMonth };
+
+  function readHash() {
+    const [view, qs = ''] = location.hash.replace(/^#/, '').split('?');
+    const p = new URLSearchParams(qs);
+    const list = (k) => (p.get(k) || '').split(',').filter(Boolean);
+    state.view = view === 'expos' ? 'expos' : 'agenda';
+    state.when = PRESETS[p.get('when')] ? p.get('when') : null;
+    state.types = new Set(list('type').filter(t => typeOptions.includes(t)));
+    state.areas = new Set(list('area').filter(a => areaOptions.some(o => o.slug === a)));
+    const vs = list('venue');
+    state.favOnly = vs.includes('fav') && favorites.size > 0;
+    state.venues = new Set(vs.filter(id => venueById[id]));
+    state.free = p.get('free') === '1';
+    state.special = p.get('special') === '1';
+    state.hideLong = p.get('nolong') === '1';
+    state.q = p.get('q') || '';
+    state.month = /^\d{4}-\d{2}$/.test(p.get('m') || '') ? p.get('m') : currentMonth;
+  }
+
+  function writeHash() {
+    const p = new URLSearchParams();
+    if (state.when) p.set('when', state.when);
+    if (state.types.size) p.set('type', [...state.types].join(','));
+    if (state.areas.size) p.set('area', [...state.areas].join(','));
+    const vs = [...state.venues]; if (state.favOnly) vs.push('fav');
+    if (vs.length) p.set('venue', vs.join(','));
+    if (state.free) p.set('free', '1');
+    if (state.special) p.set('special', '1');
+    if (state.hideLong) p.set('nolong', '1');
+    if (state.q) p.set('q', state.q);
+    if (state.month !== currentMonth) p.set('m', state.month);
+    const qs = p.toString().replace(/%2C/g, ',');
+    const hash = state.view === 'expos' || qs ? `#${state.view}${qs ? '?' + qs : ''}` : '';
+    history.replaceState(null, '', location.pathname + location.search + hash);
+  }
+
+  const hasFilters = () => !!(state.when || state.types.size || state.areas.size || state.venues.size || state.favOnly || state.free || state.special || state.hideLong || state.q);
+  const level2Count = () => state.areas.size + state.venues.size + (state.free ? 1 : 0) + (state.special ? 1 : 0) + (state.hideLong ? 1 : 0);
+  const toggle = (set, v) => { set.has(v) ? set.delete(v) : set.add(v); };
+  const commit = () => { writeHash(); render(); };
+
+  // ---- Filtering --------------------------------------------------------------------------
+
+  // Window of a time preset as inclusive ISO dates. `eve` is the Friday whose evening counts as week-end.
+  function presetWindow(when) {
+    const t = dateOf(todayStr), dow = (t.getDay() + 6) % 7; // 0 = Monday
+    if (when === 'tonight') return { from: todayStr, to: todayStr };
+    if (when === 'weekend') { const sat = addDays(t, dow === 6 ? -1 : 5 - dow); return { from: iso(sat), to: iso(addDays(sat, 1)), eve: iso(addDays(sat, -1)) }; }
+    if (when === 'week') return { from: todayStr, to: iso(addDays(t, dow === 6 ? 7 : 6 - dow)) };
+    return null;
+  }
+  // An event matches a preset when [start_date, end_date] intersects the window (plus the preset's time rules).
+  function matchesWhen(e, when) {
+    const w = presetWindow(when);
+    if (!w) return true;
+    const inWindow = e.start_date <= w.to && (e.end_date || e.start_date) >= w.from;
+    if (when === 'tonight') return inWindow && (isRange(e) || !e.start_time || e.start_time >= '17:00');
+    if (when === 'weekend') return inWindow || (e.start_date === w.eve && !!e.start_time && e.start_time >= '18:00');
+    return inWindow;
+  }
+  // Venue facet: explicit venues, plus every favourite when "Mes lieux" is on.
+  function venueSet(s) { const set = new Set(s.venues); if (s.favOnly) for (const id of favorites) set.add(id); return set; }
+  // AND between facets, OR inside a facet. Empty facet = no constraint.
+  function applyFilters(list, s = state) {
+    const vset = venueSet(s), q = fold(s.q);
+    return list.filter(e =>
+      (!s.when || matchesWhen(e, s.when)) &&
+      (!s.types.size || s.types.has(e.category || 'autre')) &&
+      (!s.areas.size || s.areas.has(venueArea[e.venue_id])) &&
+      (!vset.size || vset.has(e.venue_id)) &&
+      (!s.free || e.free === true) &&
+      (!s.special || e._special) &&
+      (!s.hideLong || s.view === 'expos' || !isLongRun(e)) &&
+      (!q || e._q.includes(q)));
+  }
+  // What the current view can actually display: expos view = long runs still open; month grid = everything but
+  // long runs; day list (preset active) = everything.
+  function scoped(list, s = state) {
+    if (s.view === 'expos') return list.filter(e => isLongRun(e) && e.end_date >= todayStr);
+    return s.when ? list : list.filter(e => !isLongRun(e));
+  }
+  // Live count of an option: all other facets as they are, this facet replaced by the option.
+  const countWith = (patch) => { const s = { ...state, ...patch }; return scoped(applyFilters(events, s), s).length; };
+
+  // ---- Rendering helpers ------------------------------------------------------------------
+
+  // Keep one child per key in `box` (created with make, refreshed with update) so focus survives re-renders.
+  function syncNodes(box, keys, make, update) {
+    const byKey = new Map([...box.children].map(n => [n.dataset.key, n]));
+    for (const k of keys) {
+      let n = byKey.get(k);
+      if (!n) { n = make(k); n.dataset.key = k; box.appendChild(n); }
+      update(n, k);
+    }
+    for (const [k, n] of byKey) if (!keys.includes(k)) n.remove();
+  }
+  function chipNode(cls, label, onClick, dot) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = `chip ${cls}`;
+    b.innerHTML = `${dot ? '<span class="dot"></span>' : ''}${label}<span class="k"></span>`;
+    b.onclick = onClick;
+    return b;
+  }
+  function setChipState(b, on, count) {
+    b.classList.toggle('on', on);
+    b.classList.toggle('muted', !count);
+    b.setAttribute('aria-pressed', on);
+    b.querySelector('.k').textContent = count;
+  }
+
+  function renderPresets() {
+    syncNodes($('presets'), Object.keys(PRESETS),
+      (k) => chipNode('preset', esc(PRESETS[k]), () => { state.when = state.when === k ? null : k; commit(); }),
+      (b, k) => setChipState(b, state.when === k, countWith({ when: k })));
+  }
+
+  function renderTypes() {
+    const keys = [...typeOptions, ...(favorites.size ? ['fav'] : [])];
+    syncNodes($('types'), keys,
+      (k) => {
+        if (k === 'fav') return chipNode('fav', '<span class="star">&#9733;</span>Mes lieux', () => { state.favOnly = !state.favOnly; commit(); });
+        const b = chipNode('type', esc(CATEGORIES[k] || k), () => { toggle(state.types, k); commit(); }, true);
+        b.style.setProperty('--c', `var(--c-${k}, var(--c-autre))`);
+        return b;
+      },
+      (b, k) => k === 'fav'
+        ? setChipState(b, state.favOnly, countWith({ venues: new Set(), favOnly: true }))
+        : setChipState(b, state.types.has(k), countWith({ types: new Set([k]) })));
+  }
+
+  function optNode(label, onChange) {
+    const l = document.createElement('label');
+    l.className = 'opt';
+    l.innerHTML = `<input type="checkbox"><span class="l">${label}</span><span class="k"></span>`;
+    l.firstChild.onchange = onChange;
+    return l;
+  }
+  function setOptState(l, on, count, disabled = false) {
+    l.classList.toggle('on', on);
+    l.classList.toggle('muted', !count);
+    l.classList.toggle('disabled', disabled);
+    l.firstChild.checked = on;
+    l.firstChild.disabled = disabled;
+    l.querySelector('.k').textContent = count;
+  }
+
+  function renderAreas() {
+    syncNodes($('areaOpts'), areaOptions.map(a => a.slug),
+      (k) => { const l = optNode(esc(areaName(k)), () => { toggle(state.areas, k); commit(); }); l.title = areaOptions.find(a => a.slug === k).full; return l; },
+      (l, k) => setOptState(l, state.areas.has(k), countWith({ areas: new Set([k]) })));
+  }
+
+  function renderMore() {
+    const MORE = {
+      free: ['Gratuit', () => { state.free = !state.free; commit(); }, () => countWith({ free: true })],
+      special: ['Séances spéciales', () => { state.special = !state.special; commit(); }, () => countWith({ special: true })],
+      hideLong: ['Masquer les expos', () => { state.hideLong = !state.hideLong; commit(); }, () => countWith({ hideLong: true })],
+    };
+    syncNodes($('moreOpts'), Object.keys(MORE),
+      (k) => optNode(esc(MORE[k][0]), MORE[k][1]),
+      (l, k) => setOptState(l, state[k], MORE[k][2](), k === 'hideLong' && state.view === 'expos'));
+  }
+
+  // Venue combobox: a text input narrowing the list below, arrow keys + Enter, stars for favourites.
+  let venueQuery = '', venueActive = -1;
+  const visibleVenueRows = () => [...$('venueList').children].filter(n => !n.hidden);
+  function toggleFavorite(id) {
+    toggle(favorites, id);
+    saveFavorites();
+    if (!favorites.size) state.favOnly = false;
+    commit();
+  }
+  function venueRow(id) {
+    const v = venueById[id];
+    const li = document.createElement('li');
+    li.className = 'vopt';
+    li.id = `vopt-${id}`;
+    li.setAttribute('role', 'option');
+    li.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+    li.innerHTML = `<button type="button" class="star" aria-pressed="false"></button><span class="dot"></span><span class="name">${esc(v.name)}</span><span class="k"></span>`;
+    li.firstChild.onclick = (ev) => { ev.stopPropagation(); toggleFavorite(id); };
+    li.onclick = () => { toggle(state.venues, id); commit(); if (!MOBILE.matches) $('venueQ').focus(); };
+    return li;
+  }
+  function setVenueRowState(li, id) {
+    const v = venueById[id], fav = favorites.has(id), on = state.venues.has(id);
+    const count = countWith({ venues: new Set([id]), favOnly: false });
+    li.hidden = !!venueQuery && !fold(v.name).includes(venueQuery);
+    li.classList.toggle('muted', !count);
+    li.setAttribute('aria-selected', on);
+    li.querySelector('.k').textContent = count;
+    const star = li.firstChild;
+    star.textContent = fav ? '\u2605' : '\u2606';
+    star.classList.toggle('on', fav);
+    star.setAttribute('aria-pressed', fav);
+    star.setAttribute('aria-label', fav ? `Retirer ${v.name} de mes lieux` : `Ajouter ${v.name} à mes lieux`);
+  }
+  function highlightVenue() {
+    const rows = visibleVenueRows();
+    if (venueActive >= rows.length) venueActive = rows.length - 1;
+    rows.forEach((r, i) => r.classList.toggle('active', i === venueActive));
+    const act = rows[venueActive];
+    if (act) { $('venueQ').setAttribute('aria-activedescendant', act.id); act.scrollIntoView({ block: 'nearest' }); }
+    else $('venueQ').removeAttribute('aria-activedescendant');
+  }
+  function renderVenues() {
+    syncNodes($('venueList'), venueOptions.map(v => v.id), venueRow, setVenueRowState);
+    highlightVenue();
+    const sel = $('venueSel');
+    sel.hidden = !state.venues.size;
+    syncNodes(sel, [...state.venues],
+      (id) => {
+        const t = document.createElement('span');
+        t.className = 'tag';
+        t.innerHTML = `<button type="button" class="star"></button><span>${esc(venueById[id].name)}</span><span class="k"></span><button type="button" class="x" aria-label="Retirer ${esc(venueById[id].name)}">&times;</button>`;
+        t.firstChild.onclick = () => toggleFavorite(id);
+        t.lastChild.onclick = () => { state.venues.delete(id); commit(); };
+        return t;
+      },
+      (t, id) => {
+        const fav = favorites.has(id);
+        t.firstChild.textContent = fav ? '\u2605' : '\u2606';
+        t.firstChild.classList.toggle('on', fav);
+        t.firstChild.setAttribute('aria-label', fav ? `Retirer ${venueById[id].name} de mes lieux` : `Ajouter ${venueById[id].name} à mes lieux`);
+        t.querySelector('.k').textContent = countWith({ venues: new Set([id]), favOnly: false });
+      });
+  }
+  $('venueQ').oninput = (ev) => { venueQuery = fold(ev.target.value); venueActive = venueQuery ? 0 : -1; renderVenues(); };
+  $('venueQ').onkeydown = (ev) => {
+    const rows = visibleVenueRows();
+    if (ev.key === 'ArrowDown') { ev.preventDefault(); venueActive = Math.min(venueActive + 1, rows.length - 1); highlightVenue(); }
+    else if (ev.key === 'ArrowUp') { ev.preventDefault(); venueActive = Math.max(venueActive - 1, 0); highlightVenue(); }
+    else if (ev.key === 'Enter') { ev.preventDefault(); const r = rows[venueActive]; if (r) { toggle(state.venues, r.dataset.key); commit(); } }
+  };
+
+  function renderRecap() {
+    const tags = [];
+    if (state.when) tags.push([PRESETS[state.when], () => { state.when = null; }]);
+    for (const t of state.types) tags.push([CATEGORIES[t] || t, () => state.types.delete(t)]);
+    for (const a of state.areas) tags.push([areaName(a), () => state.areas.delete(a)]);
+    if (state.favOnly) tags.push(['Mes lieux', () => { state.favOnly = false; }]);
+    for (const id of state.venues) tags.push([venueById[id].name, () => state.venues.delete(id)]);
+    if (state.free) tags.push(['Gratuit', () => { state.free = false; }]);
+    if (state.special) tags.push(['Séances spéciales', () => { state.special = false; }]);
+    if (state.hideLong) tags.push(['Sans les expos', () => { state.hideLong = false; }]);
+    if (state.q) tags.push([`« ${state.q} »`, () => { state.q = ''; $('q').value = ''; }]);
+    const box = $('recap');
+    box.hidden = !tags.length;
+    box.innerHTML = '';
+    if (!tags.length) return;
+    const lbl = document.createElement('span'); lbl.className = 'lbl'; lbl.textContent = 'Filtres :'; box.appendChild(lbl);
+    for (const [label, remove] of tags) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'tag';
+      b.setAttribute('aria-label', `Retirer le filtre ${label}`);
+      b.innerHTML = `<span>${esc(label)}</span><span class="x" aria-hidden="true">&times;</span>`;
+      b.onclick = () => { remove(); commit(); };
+      box.appendChild(b);
+    }
+    const clear = document.createElement('button'); clear.type = 'button'; clear.className = 'clear'; clear.textContent = 'Tout effacer'; clear.onclick = clearAll; box.appendChild(clear);
+  }
+
+  function clearAll() {
+    state.when = null; state.types.clear(); state.areas.clear(); state.venues.clear(); state.favOnly = false;
+    state.free = state.special = state.hideLong = false; state.q = '';
+    $('q').value = ''; $('venueQ').value = ''; venueQuery = ''; venueActive = -1;
+    commit();
+  }
+
+  function renderCount(n) {
+    const active = hasFilters();
+    $('count').textContent = active ? (n ? plural(n, 'événement') : 'Aucun événement') : `${events.length} événements, ${venues.length} lieux.`;
+    $('count').classList.toggle('on', active);
+    $('sheetApply').textContent = n ? `Voir ${plural(n, 'événement')}` : 'Aucun événement';
+    $('fcount').textContent = level2Count();
+    $('filtersBtn').classList.toggle('on', level2Count() > 0);
+  }
+
+  // ---- Event nodes and views --------------------------------------------------------------
+
+  function evNode(e, withVenue = false) {
     const n = document.createElement('div');
     n.className = 'ev' + (e.status === 'cancelled' ? ' cancelled' : '');
     n.style.setProperty('--c', color(e));
     n.title = `${e.venue_name} - ${e.title}`;
     const label = isRange(e) ? `jusqu'au ${fmtDate(e.end_date)}` : timeLabel(e);
-    n.innerHTML = `${label ? `<span class="t">${esc(label)}</span>` : ''}<span class="n">${esc(e.title)}</span>`;
+    n.innerHTML = `${label ? `<span class="t">${esc(label)}</span>` : ''}<span class="n">${esc(e.title)}</span>${withVenue ? `<span class="v">${esc(e.venue_name)}</span>` : ''}`;
     n.onclick = () => openPanel(e);
     return n;
   }
@@ -249,17 +692,19 @@
     week.style.setProperty('--bars', rows.length);
   }
 
-  function render() {
+  const byTime = (a, b) => (a.start_time || '').localeCompare(b.start_time || '');
+
+  // Month grid (desktop) + month list (mobile) for the events of state.month. `evs` holds no long run.
+  function renderMonth(evs) {
+    const cursor = dateOf(state.month + '-01');
     const y = cursor.getFullYear(), m = cursor.getMonth();
     $('month').textContent = fmtMonth.format(cursor);
     const first = new Date(y, m, 1);
     const start = addDays(first, -((first.getDay() + 6) % 7));
     const monthStart = iso(first), monthEnd = iso(new Date(y, m + 1, 0));
     const weeks = Math.ceil((((first.getDay() + 6) % 7) + new Date(y, m + 1, 0).getDate()) / 7);
-    const evs = visible();
     const single = evs.filter(e => !isRange(e));
-    const shortRuns = evs.filter(e => isRange(e) && !isLongRun(e));
-    const longRuns = evs.filter(e => isLongRun(e) && e.end_date >= todayStr);
+    const shortRuns = evs.filter(e => isRange(e));
     const byDay = {};
     for (const e of single) (byDay[e.start_date] ||= []).push(e);
 
@@ -275,7 +720,7 @@
         cell.className = 'cell' + (d.getMonth() !== m ? ' out' : '') + (k === todayStr ? ' today' : '');
         cell.innerHTML = `<div class="d">${d.getDate()}</div><div class="list"></div>`;
         const list = cell.lastChild;
-        for (const e of (byDay[k] || []).sort((a, b) => (a.start_time || '').localeCompare(b.start_time || ''))) list.appendChild(evNode(e));
+        for (const e of (byDay[k] || []).sort(byTime)) list.appendChild(evNode(e));
         week.appendChild(cell);
       }
       layoutBars(week, shortRuns.filter(e => e.start_date <= weKey && e.end_date >= wsKey), wsKey, weKey);
@@ -292,14 +737,35 @@
       (agDays[e.start_date < monthStart ? monthStart : e.start_date] ||= []).push(e);
     }
     const days = Object.keys(agDays).sort();
-    if (!days.length) ag.innerHTML = '<div class="empty">Rien ce mois-ci</div>';
+    if (!days.length) ag.innerHTML = `<div class="empty">${hasFilters() ? 'Rien ce mois-ci avec ces filtres' : 'Rien ce mois-ci'}</div>`;
     for (const k of days) {
       const h = document.createElement('h3'); h.textContent = fmtDay.format(dateOf(k)); ag.appendChild(h);
-      const sorted = agDays[k].sort((a, b) => (isRange(b) - isRange(a)) || (a.start_time || '').localeCompare(b.start_time || ''));
+      const sorted = agDays[k].sort((a, b) => (isRange(b) - isRange(a)) || byTime(a, b));
       for (const e of sorted) ag.appendChild(evNode(e));
     }
+  }
 
-    renderExpos(longRuns);
+  // Compact list grouped by day for a time preset. Long runs and ranges that started before the window go last,
+  // under "Expos & en cours", so the evening's actual events come first.
+  function renderDayList(evs, w) {
+    const ag = $('agenda');
+    ag.innerHTML = '';
+    const byDay = {}, running = [];
+    for (const e of evs) {
+      if (isLongRun(e) || (isRange(e) && e.start_date < w.from)) running.push(e);
+      else (byDay[e.start_date] ||= []).push(e);
+    }
+    const days = Object.keys(byDay).sort();
+    if (!days.length && !running.length) { ag.innerHTML = `<div class="empty">Rien pour « ${esc(PRESETS[state.when])} » avec ces filtres</div>`; return; }
+    for (const k of days) {
+      const h = document.createElement('h3'); h.textContent = fmtDay.format(dateOf(k)); ag.appendChild(h);
+      const sorted = byDay[k].sort((a, b) => (isRange(b) - isRange(a)) || byTime(a, b));
+      for (const e of sorted) ag.appendChild(evNode(e, true));
+    }
+    if (running.length) {
+      const h = document.createElement('h3'); h.textContent = 'Expos & en cours'; h.style.textTransform = 'none'; ag.appendChild(h);
+      for (const e of running.sort((a, b) => a.end_date.localeCompare(b.end_date))) ag.appendChild(evNode(e, true));
+    }
   }
 
   // "termine dans N jours" / "commence le ..." hint for a long run, relative to today.
@@ -330,23 +796,56 @@
     const box = $('expos');
     box.innerHTML = '';
     $('exposCount').textContent = longRuns.length;
-    if (!longRuns.length) { box.innerHTML = '<div class="empty">Aucune exposition ni événement au long cours pour le moment</div>'; return; }
+    if (!longRuns.length) { box.innerHTML = `<div class="empty">${hasFilters() ? 'Aucune exposition ni événement au long cours avec ces filtres' : 'Aucune exposition ni événement au long cours pour le moment'}</div>`; return; }
     // Soonest ending first, so what is about to close surfaces at the top.
     const sorted = [...longRuns].sort((a, b) => a.end_date.localeCompare(b.end_date) || a.start_date.localeCompare(b.start_date) || a.title.localeCompare(b.title));
     for (const e of sorted) box.appendChild(cardNode(e));
   }
 
-  function setView(view) {
-    document.body.dataset.view = view;
+  function renderTabs() {
+    document.body.dataset.view = state.view;
+    document.body.toggleAttribute('data-list', !!state.when);
     for (const t of document.querySelectorAll('#tabs .tab')) {
-      const on = t.dataset.view === view;
+      const on = t.dataset.view === state.view;
       t.classList.toggle('on', on);
       t.setAttribute('aria-selected', on);
     }
-    history.replaceState(null, '', view === 'expos' ? '#expos' : location.pathname + location.search);
   }
-  for (const t of document.querySelectorAll('#tabs .tab')) t.onclick = () => setView(t.dataset.view);
-  setView(location.hash === '#expos' ? 'expos' : 'agenda');
+
+  function render() {
+    renderTabs();
+    const matched = applyFilters(events);
+    renderPresets(); renderTypes(); renderAreas(); renderVenues(); renderMore(); renderRecap();
+    renderCount(scoped(matched).length);
+    if (state.when) renderDayList(matched, presetWindow(state.when));
+    else renderMonth(matched.filter(e => !isLongRun(e)));
+    renderExpos(matched.filter(e => isLongRun(e) && e.end_date >= todayStr));
+  }
+
+  // ---- Popover / bottom sheet -------------------------------------------------------------
+
+  const pop = $('pop'), filtersBtn = $('filtersBtn');
+  function openPop() {
+    pop.hidden = false;
+    $('backdrop').hidden = false;
+    filtersBtn.setAttribute('aria-expanded', 'true');
+    // Focus lands on the dialog itself (Tab then reaches the first checkbox); the close button on the mobile sheet.
+    (MOBILE.matches ? $('popClose') : pop).focus();
+  }
+  function closePop(refocus = true) {
+    if (pop.hidden) return;
+    pop.hidden = true;
+    $('backdrop').hidden = true;
+    filtersBtn.setAttribute('aria-expanded', 'false');
+    if (refocus) filtersBtn.focus();
+  }
+  filtersBtn.onclick = () => pop.hidden ? openPop() : closePop();
+  $('popClose').onclick = () => closePop();
+  $('sheetApply').onclick = () => closePop();
+  $('clearAll').onclick = clearAll;
+  document.addEventListener('pointerdown', (ev) => { if (!pop.hidden && !pop.contains(ev.target) && !filtersBtn.contains(ev.target)) closePop(false); });
+
+  // ---- Detail panel -----------------------------------------------------------------------
 
   function openPanel(e) {
     const v = venueById[e.venue_id] || {};
@@ -377,14 +876,28 @@
       </div>`;
     $('panel').classList.add('open');
   }
-  function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
-
   $('close').onclick = () => $('panel').classList.remove('open');
-  document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape') $('panel').classList.remove('open'); if (ev.key === 'ArrowLeft') $('prev').click(); if (ev.key === 'ArrowRight') $('next').click(); });
-  $('prev').onclick = () => { cursor.setMonth(cursor.getMonth() - 1); render(); };
-  $('next').onclick = () => { cursor.setMonth(cursor.getMonth() + 1); render(); };
-  $('today').onclick = () => { cursor = new Date(todayStr + 'T00:00:00'); cursor.setDate(1); render(); };
-  render();
+
+  // ---- Wiring -----------------------------------------------------------------------------
+
+  for (const t of document.querySelectorAll('#tabs .tab')) t.onclick = () => { state.view = t.dataset.view; commit(); };
+  const shiftMonth = (n) => { const d = dateOf(state.month + '-01'); d.setMonth(d.getMonth() + n); state.month = iso(d).slice(0, 7); commit(); };
+  $('prev').onclick = () => shiftMonth(-1);
+  $('next').onclick = () => shiftMonth(1);
+  $('today').onclick = () => { state.month = currentMonth; commit(); };
+  let qTimer;
+  $('q').oninput = (ev) => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = ev.target.value.trim(); commit(); }, SEARCH_DEBOUNCE_MS); };
+  $('q').onkeydown = (ev) => { if (ev.key === 'Enter') { clearTimeout(qTimer); state.q = ev.target.value.trim(); commit(); } };
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Escape') { if (!pop.hidden) { closePop(); return; } $('panel').classList.remove('open'); return; }
+    if (ev.target.matches('input, textarea, select') || !pop.hidden || state.when || state.view === 'expos') return;
+    if (ev.key === 'ArrowLeft') $('prev').click();
+    if (ev.key === 'ArrowRight') $('next').click();
+  });
+  const syncFromHash = () => { readHash(); $('q').value = state.q; render(); };
+  window.addEventListener('hashchange', syncFromHash);
+  syncFromHash();
+  writeHash();
 })();
 </script>
 </body>

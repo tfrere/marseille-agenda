@@ -68,3 +68,41 @@ def test_published_events_folds_cross_source_duplicates():
         ("Concert Rebecca Trio", "instagram"),
     ]
     assert len(out) == 4
+
+
+def test_published_events_folds_daily_copies_into_the_matching_range():
+    from marseille_agenda.output import published_events
+    from marseille_agenda.schema import State
+
+    def ev(title, day, end=None, start=time(16, 0), venue="mucem"):
+        e = _event(title, day, start)
+        e.venue_id, e.source_kind, e.end_date = venue, "json", end
+        e.uid = make_uid(venue, title, day)
+        return e
+
+    st = State()
+    for e in [
+        ev("Un objet, une histoire - En Ribambelle !", date(2026, 10, 24), end=date(2026, 10, 30)),  # the range
+        ev("Un objet, une histoire - En Ribambelle !", date(2026, 10, 25)),  # daily copies inside the range: dropped
+        ev("Un objet, une histoire - En Ribambelle !", date(2026, 10, 28)),
+        ev("Un objet, une histoire - En Ribambelle !", date(2026, 10, 30)),  # last day of the range: dropped too
+        ev("Un objet, une histoire - En Ribambelle !", date(2026, 10, 18)),  # before the range: kept
+        ev("Un objet, une histoire - En Ribambelle !", date(2026, 11, 2)),  # after the range: kept
+        ev("Un objet, une histoire - En Ribambelle !", date(2026, 10, 26), venue="friche"),  # other venue: kept
+        ev("Visite flash", date(2026, 10, 26)),  # unrelated title on a covered day: kept
+        ev("Liteul Pipol", date(2026, 10, 24), end=date(2026, 10, 26)),  # another range: ranges never fold each other
+        ev("Visites Flash", date(2026, 9, 3), end=date(2026, 10, 11), start=time(14, 0)),  # weeks-long range...
+        ev("Visites guidées en LSF de Mossi", date(2026, 9, 26), start=time(14, 0)),  # ...one shared word + same time: kept
+    ]:
+        st.events[e.uid] = e
+    out = published_events(st)
+    assert [(e.title, e.venue_id, e.start_date, e.end_date) for e in out] == [
+        ("Visites Flash", "mucem", date(2026, 9, 3), date(2026, 10, 11)),
+        ("Visites guidées en LSF de Mossi", "mucem", date(2026, 9, 26), None),
+        ("Un objet, une histoire - En Ribambelle !", "mucem", date(2026, 10, 18), None),
+        ("Liteul Pipol", "mucem", date(2026, 10, 24), date(2026, 10, 26)),
+        ("Un objet, une histoire - En Ribambelle !", "mucem", date(2026, 10, 24), date(2026, 10, 30)),
+        ("Un objet, une histoire - En Ribambelle !", "friche", date(2026, 10, 26), None),
+        ("Visite flash", "mucem", date(2026, 10, 26), None),
+        ("Un objet, une histoire - En Ribambelle !", "mucem", date(2026, 11, 2), None),
+    ]

@@ -23,18 +23,42 @@ def _tokens(title: str) -> set[str]:
     return {t for t in re.findall(r"[a-z0-9]+", strip_accents(normalize(title))) if len(t) > 1 and t not in _STOPWORDS}
 
 
+def _similar_titles(a: Event, b: Event, *, loose: bool = False) -> bool:
+    """Titles overlapping enough (share of the shorter title's tokens); `loose` lowers the bar."""
+    ta, tb = _tokens(a.title), _tokens(b.title)
+    if not ta or not tb:
+        return False
+    overlap = len(ta & tb) / min(len(ta), len(tb))
+    return overlap >= (0.5 if loose else 0.75)
+
+
 def _same_event(a: Event, b: Event) -> bool:
     """Same venue and day; same clock time when both have one; titles overlapping enough."""
     if a.venue_id != b.venue_id or a.start_date != b.start_date:
         return False
     if a.start_time and b.start_time and a.start_time != b.start_time:
         return False
-    ta, tb = _tokens(a.title), _tokens(b.title)
-    if not ta or not tb:
-        return False
-    overlap = len(ta & tb) / min(len(ta), len(tb))
     # A shared clock time is strong evidence: a looser title match is enough then.
-    return overlap >= (0.5 if a.start_time and b.start_time else 0.75)
+    return _similar_titles(a, b, loose=bool(a.start_time and b.start_time))
+
+
+def _is_range(e: Event) -> bool:
+    return e.end_date is not None and e.end_date > e.start_date
+
+
+def _inside_range(single: Event, rng: Event) -> bool:
+    """A single-day event that a same-venue range with a matching title already covers.
+
+    Some sources publish the same run twice: once as a date range ("Ma mini-ferme, 20 Feb - 7 Mar")
+    and once per session (one entry per day). The range is the useful one; the daily copies go.
+    Falling inside a weeks-long window is weak evidence, so the strict title threshold always applies
+    ("Visites Flash" must not swallow "Visites guidées en LSF" just because both run at the Mucem).
+    """
+    if single.venue_id != rng.venue_id or _is_range(single):
+        return False
+    if not rng.start_date <= single.start_date <= rng.end_date:
+        return False
+    return _similar_titles(single, rng)
 
 
 def published_events(state: State) -> list[Event]:
@@ -43,12 +67,15 @@ def published_events(state: State) -> list[Event]:
     Cross-source duplicates carry different titles ("REBECCA, Alfred Hitchcock, 1940" on Instagram
     vs "HANTEES ciné-club : REBECCA d'Hitchcock" on Facebook), so exact uids cannot catch them.
     The state keeps every copy; only the output is folded, preferring the most structured source.
+    Single-day copies of a run that is also published as a date range are folded into the range.
     """
     ranked = sorted(state.events.values(), key=lambda e: (_SOURCE_RANK.get(e.source_kind, 9), _sort_key(e)))
     kept: list[Event] = []
     for e in ranked:
         if not any(_same_event(e, k) for k in kept if k.start_date == e.start_date):
             kept.append(e)
+    ranges = [k for k in kept if _is_range(k)]
+    kept = [k for k in kept if not any(_inside_range(k, r) for r in ranges if r.venue_id == k.venue_id)]
     return sorted(kept, key=_sort_key)
 
 

@@ -11,10 +11,12 @@ DTEND;VALUE=DATE:20260921
 UID:7cea19aa15d4@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/la-vie-climatique-histoires-sensib
- les-des-collections-privees-triennale-de-leur-temps-8
+ les-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-co
+ ntemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
 URL:https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-
- collections-privees-triennale-de-leur-temps-8
+ collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contempora
+ in-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -23,9 +25,10 @@ DTEND;VALUE=DATE:20270104
 UID:3f00f5332384@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/africa-louisa-baba
- ri
+ ri?museum=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/africa-louisa-babari
+URL:https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-con
+ temporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite libre de la statue de la Bonne Mère
@@ -144,8 +147,8 @@ URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lydia et le vaisseau des tempêtes
-DTSTART;TZID=Europe/Paris:20260913T110000
-DTEND;TZID=Europe/Paris:20260913T130000
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260921
 UID:92a156efffbd@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-temp
@@ -431,6 +434,18 @@ LOCATION:La Baleine - La Baleine
 URL:https://www.instagram.com/p/DdMeP_EiF3P/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Chien Bleu et autres belles histoires de l’école des loisirs
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260924
+UID:3f14b70fe166@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-h
+ istoires-de-lecole-des-loisirs/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-histoires
+ -de-lecole-des-loisirs/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:« Sur un fil » – Séance d’écoute avec Mediapart
 DTSTART;TZID=Europe/Paris:20260916T183000
 DTEND;TZID=Europe/Paris:20260916T203000
@@ -460,8 +475,8 @@ URL:https://docs.google.com/forms/d/e/1FAIpQLSeyQGxyvFjJdeIuurRsQj8sN0vqEO
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L’aventure rêvée
-DTSTART;TZID=Europe/Paris:20260916T190000
-DTEND;TZID=Europe/Paris:20260916T210000
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260921
 UID:c83611483f41@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:https://cinemalegyptis.org/films/laventure-revee/
@@ -660,18 +675,17 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/rien-plus-quun-peu-de-moelle/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ciné-débat : FINI DE RIRE ! L'HUMOUR POLITIQUE AU GARDE-À-VOUS 
- ? de M.Larroque\, C.Menais\, M.Branco
+SUMMARY:Fini de rire ! L’humour politique au garde-à-vous ?
 DTSTART;TZID=Europe/Paris:20260918T190000
 DTEND;TZID=Europe/Paris:20260918T210000
-UID:9100f9dfcc14@marseille-agenda
+UID:a59897c16226@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:📆 Vendredi 18 septembre à 19h // Projection suivie d'un d
- ébat // En partenariat avec Cracs et Coudes à coudes. FINI DE RIRE ? L'H
- UMOUR POLITIQUE AU GARDE-À-VOUS ? De Matéo Larroque\, Clara Menais\, Mil
- a\nhttps://www.facebook.com/events/1051495490738132/
-LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
-URL:https://www.facebook.com/events/1051495490738132/
+DESCRIPTION:Avant-première suivie d’un débat · En partenariat avec Cr
+ acs et Coudes à coudes\nhttps://cinemalegyptis.org/films/fini-de-rire-lhu
+ mour-politique-au-garde-a-vous/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/fini-de-rire-lhumour-politique-au-gar
+ de-a-vous/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BLOCKHEAD + PROLETER + Arms and Sleepers
@@ -726,9 +740,10 @@ DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
- isa-babari
+ isa-babari?museum=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
+ dart-contemporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Journées du Patrimoine
@@ -752,6 +767,18 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/journees-europeenn
  es-du-patrimoine-2026/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS
+DTSTART;TZID=Europe/Paris:20260919T110000
+DTEND;TZID=Europe/Paris:20260919T130000
+UID:8f07c830aca8@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Une séance cinématographique pour enfants adaptant des histo
+ ires de l'École des Loisirs avec des dessins fixes animés par voix\, cam
+ éra et son.\nhttps://www.instagram.com/p/DdHAKxfiTfr/
+LOCATION:Le Gyptis
+URL:https://www.instagram.com/p/DdHAKxfiTfr/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Journée de l’engagement
@@ -790,8 +817,8 @@ URL:https://www.lafriche.org/evenements/visite-flash-15/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Marius et le Royaume des mers
-DTSTART;TZID=Europe/Paris:20260919T153000
-DTEND;TZID=Europe/Paris:20260919T173000
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260924
 UID:61ca4174968d@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers
@@ -873,18 +900,17 @@ LOCATION:Friche la Belle de Mai - grandes tables
 URL:https://www.instagram.com/p/Dc1H9VsjGLX/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MARIE MADELEINE de Géssica Généus
+SUMMARY:Marie Madeleine
 DTSTART;TZID=Europe/Paris:20260919T200000
 DTEND;TZID=Europe/Paris:20260919T220000
-UID:5ea23b222b81@marseille-agenda
+UID:9b9cedde0f0c@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Avant-première du film 'MARIE MADELEINE' de Géssica Généus
- \, en VOST\, le samedi 19 septembre à 20h.\nhttps://www.facebook.com/cine
- malegyptis/posts/pfbid02AkESvrRDqKLcfWF2EzkKmZA8MxaqUZuTHNangfKqgRho4oAnFH
- n6vcN3BdXH9ixal
-LOCATION:Le Gyptis - Le Gyptis
-URL:https://www.facebook.com/cinemalegyptis/posts/pfbid02AkESvrRDqKLcfWF2E
- zkKmZA8MxaqUZuTHNangfKqgRho4oAnFHn6vcN3BdXH9ixal
+DESCRIPTION:Avant-première dans le cadre du Retour de Cannes\, manifestat
+ ion organisée par le GNCR · Suivie d’une rencontre avec le cinéaste e
+ t programmateur Simon Gaillot\nhttps://cinemalegyptis.org/films/marie-made
+ leine/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/marie-madeleine/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bal méditerranéen\, avec DJ Jikay et Pan-J
@@ -922,6 +948,18 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/journees-europeenn
  es-du-patrimoine-2026/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS
+DTSTART;TZID=Europe/Paris:20260920T110000
+DTEND;TZID=Europe/Paris:20260920T130000
+UID:e21c6a723973@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Une séance cinématographique pour enfants adaptant des histo
+ ires de l'École des Loisirs avec des dessins fixes animés par voix\, cam
+ éra et son.\nhttps://www.instagram.com/p/DdHAKxfiTfr/
+LOCATION:Le Gyptis
+URL:https://www.instagram.com/p/DdHAKxfiTfr/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lydia et le vaisseau des tempêtes
@@ -1018,8 +1056,8 @@ URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un Amour d’Épouvantail
-DTSTART;TZID=Europe/Paris:20260923T160000
-DTEND;TZID=Europe/Paris:20260923T180000
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260928
 UID:8995b8171a82@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:https://cinemalegyptis.org/films/un-amour-depouvantail/
@@ -1027,10 +1065,22 @@ LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/un-amour-depouvantail/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS
+DTSTART;TZID=Europe/Paris:20260923T170000
+DTEND;TZID=Europe/Paris:20260923T190000
+UID:c8ee3ce05a7c@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Une séance cinématographique pour enfants adaptant des histo
+ ires de l'École des Loisirs avec des dessins fixes animés par voix\, cam
+ éra et son.\nhttps://www.instagram.com/p/DdHAKxfiTfr/
+LOCATION:Le Gyptis
+URL:https://www.instagram.com/p/DdHAKxfiTfr/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Écrire la vie : Annie Ernaux racontée par des lycéennes et des 
  lycéens
-DTSTART;TZID=Europe/Paris:20260923T190000
-DTEND;TZID=Europe/Paris:20260923T210000
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260927
 UID:7c90a0187381@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-ra
@@ -1339,6 +1389,18 @@ LOCATION:L'Intermédiaire - L'Intermédiaire
 URL:https://www.instagram.com/p/Dc9GRp1Iqss/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Chien Bleu et autres belles histoires de l’école des loisirs
+DTSTART;TZID=Europe/Paris:20260927T110000
+DTEND;TZID=Europe/Paris:20260927T130000
+UID:6adf47e1880d@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-h
+ istoires-de-lecole-des-loisirs/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-histoires
+ -de-lecole-des-loisirs/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LE MAUVAIS OEIL 88 : Kikifruit
 DTSTART;TZID=Europe/Paris:20260927T140000
 DTEND;TZID=Europe/Paris:20260927T160000
@@ -1422,8 +1484,8 @@ URL:https://www.instagram.com/p/Dc_fCkuJfVN/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L’ornement dans les arts de l’Islam
-DTSTART;TZID=Europe/Paris:20260930T090000
-DTEND;TZID=Europe/Paris:20260930T180000
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261003
 UID:26329bf4209b@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/lornement-dans-les
@@ -1963,8 +2025,8 @@ URL:https://lemolotov.com/events/eleine-guest/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Liteul Pipol
-DTSTART;TZID=Europe/Paris:20261024T153000
-DTEND;TZID=Europe/Paris:20261024T160000
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261027
 UID:ee476d99c26a@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/liteul-pipol/
@@ -1973,8 +2035,8 @@ URL:https://mucem.org/evenement/liteul-pipol/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire - En Ribambelle !
-DTSTART;TZID=Europe/Paris:20261024T160000
-DTEND;TZID=Europe/Paris:20261024T170000
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261031
 UID:8ba9a0b8b7bb@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire-en-ribambell
@@ -2057,8 +2119,8 @@ URL:https://lemolotov.com/events/messa-guest-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire - En Ribambelle !
-DTSTART;TZID=Europe/Paris:20261028T103000
-DTEND;TZID=Europe/Paris:20261028T110000
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261101
 UID:3f21fdec86ec@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire-en-rimbabelle/
@@ -2475,8 +2537,8 @@ URL:https://mucem.org/evenement/le-banquet-des-images/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gâteaux d’art
-DTSTART;TZID=Europe/Paris:20261230T150000
-DTEND;TZID=Europe/Paris:20261230T163000
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20270104
 UID:f6f28f9d0352@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/gateaux-dart/
@@ -2605,8 +2667,8 @@ URL:https://mucem.org/evenement/baby-populaire/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ma mini-ferme
-DTSTART;TZID=Europe/Paris:20270220T100000
-DTEND;TZID=Europe/Paris:20270220T180000
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270308
 UID:117187a8ba58@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/ma-mini-ferme/
@@ -2675,8 +2737,8 @@ URL:https://mucem.org/evenement/ma-mini-ferme/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Champ libre !
-DTSTART;TZID=Europe/Paris:20270224T160000
-DTEND;TZID=Europe/Paris:20270224T173000
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270305
 UID:cb69f8d0bf72@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/champ-libre/
@@ -2715,8 +2777,8 @@ URL:https://mucem.org/evenement/geographie-du-sensible/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Graines d’histoires
-DTSTART;TZID=Europe/Paris:20270225T160000
-DTEND;TZID=Europe/Paris:20270225T170000
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270304
 UID:198f18705b4c@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/graines-dhistoires/
@@ -2755,8 +2817,8 @@ URL:https://mucem.org/evenement/ma-mini-ferme/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby PaySans
-DTSTART;TZID=Europe/Paris:20270227T103000
-DTEND;TZID=Europe/Paris:20270227T111500
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270306
 UID:0af7621547a6@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/
@@ -3055,8 +3117,8 @@ URL:https://mucem.org/evenement/champ-libre/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby PaySans
-DTSTART;TZID=Europe/Paris:20270419T103000
-DTEND;TZID=Europe/Paris:20270419T111500
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270430
 UID:dbc9a5f323c3@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/

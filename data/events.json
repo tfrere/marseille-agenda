@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T03:21:07+02:00",
+ "generated_at": "2026-09-13T03:23:36+02:00",
  "today": "2026-09-13",
  "venues": [
   {
@@ -130,7 +130,7 @@
    "lat": 43.311,
    "lng": 5.386,
    "website": "https://cinemalegyptis.org/seances-et-evenements/",
-   "event_count": 30
+   "event_count": 35
   },
   {
    "id": "la-fabulerie",
@@ -155,7 +155,7 @@
    "end_date": "2026-09-20",
    "end_time": "00:00:00",
    "location_name": "Musée d'art contemporain [mac]",
-   "url": "https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8",
+   "url": "https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contemporain-mac-0",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -165,7 +165,7 @@
    "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
    "source_kind": "html",
    "evidence": [
-    "(https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8) La vie climatique. Histoires sensibles des collections privées - Triennale De leur temps #8 (https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees"
+    "(https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contemporain-mac-0) La vie climatique. Histoires sensibles des collections privées - Triennale De leur temps #8 (https://musees.marseille.fr/la-vie-climatique-histoi"
    ],
    "verifier": "accept",
    "verifier_reason": "Exhibition confirmed at Musée d'art contemporain [mac] from '04 avril 2026' to '20 septembre 2026'.",
@@ -185,7 +185,7 @@
    "end_date": "2027-01-03",
    "end_time": "00:00:00",
    "location_name": "Musée d'art contemporain [mac]",
-   "url": "https://musees.marseille.fr/africa-louisa-babari",
+   "url": "https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-contemporain-mac-0",
    "price": "Gratuit",
    "summary": null,
    "status": "scheduled",
@@ -195,7 +195,7 @@
    "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
    "source_kind": "html",
    "evidence": [
-    "Gratuit (https://musees.marseille.fr/africa-louisa-babari) AFRICA - Louisa Babari (https://musees.marseille.fr/africa-louisa-babari) Musée d'art contemporain [mac] Du [2026-05-15T07:00:00Z] 15 mai 2026 au [2027-01-03T17:00:00Z] 03 janvier 2027"
+    "Gratuit (https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-contemporain-mac-0) AFRICA - Louisa Babari (https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-contemporain-mac-0) Musée d'art contemporain [mac] Du [2026-05-15T07:00:00Z] 15 mai 2026 au [2027-01-03T17:00:00Z"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition 'AFRICA - Louisa Babari' at Musée d'art contemporain [mac] runs 'Du [2026-05-15T07:00:00Z] 15 mai 2026 au [2027-01-03T17:00:00Z] 03 janvier 2027', matching the extracted details and URL.",
@@ -230,7 +230,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -260,7 +260,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -492,7 +492,7 @@
    "title": "Lydia et le vaisseau des tempêtes",
    "start_date": "2026-09-13",
    "start_time": "11:00:00",
-   "end_date": null,
+   "end_date": "2026-09-20",
    "end_time": null,
    "location_name": null,
    "url": "https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/",
@@ -501,11 +501,12 @@
    "status": "scheduled",
    "event_type": null,
    "free": null,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
    "source_kind": "html",
    "evidence": [
-    "[2026-09-13] (https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Jeune public 11h Lydia et le vaisseau des tempêtes (https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/) De Nancy Florence Savard, "
+    "[2026-09-13] (https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Jeune public 11h Lydia et le vaisseau des tempêtes (https://cinemalegyptis.org/films/lydia-et-le-vaisseau-des-tempetes/) De Nancy Florence Savard, ",
+    "same entry listed on every day from 2026-09-13 to 2026-09-20"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the screening of 'Lydia et le vaisseau des tempêtes' on 'dimanche 13 septembre' (septembre 2026) at '11h' with the matching URL.",
@@ -966,7 +967,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Le mardi 15 septembre à 18 h 30' under 'Prochain(s) rendez-vous' discussing an article from 'août 2026' with matching URL.",
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2994164,
    "lng": 5.3858632
   },
@@ -1153,6 +1154,37 @@
    "lng": 5.383
   },
   {
+   "uid": "3f14b70fe166",
+   "venue_id": "le-gyptis",
+   "venue_name": "Le Gyptis",
+   "category": "cinema",
+   "title": "Chien Bleu et autres belles histoires de l’école des loisirs",
+   "start_date": "2026-09-16",
+   "start_time": "16:30:00",
+   "end_date": "2026-09-23",
+   "end_time": null,
+   "location_name": null,
+   "url": "https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-histoires-de-lecole-des-loisirs/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": true,
+   "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
+   "source_kind": "html",
+   "evidence": [
+    "[2026-09-16] (https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-histoires-de-lecole-des-loisirs/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Jeune public 16h30 Chien Bleu et autres belles histoires de l’école des loisirs (https://cinemalegyptis.org/films/chien-b",
+    "same entry listed on every day from 2026-09-16 to 2026-09-23"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The screening of 'Chien Bleu et autres belles histoires de l’école des loisirs' is confirmed for 'mercredi 16 septembre' at '16h30' with matching URL.",
+   "first_seen": "2026-09-13",
+   "last_seen": "2026-09-13",
+   "lat": 43.311,
+   "lng": 5.386
+  },
+  {
    "uid": "b0cf0471f561",
    "venue_id": "friche-la-belle-de-mai",
    "venue_name": "Friche la Belle de Mai",
@@ -1220,7 +1252,7 @@
    "title": "L’aventure rêvée",
    "start_date": "2026-09-16",
    "start_time": "19:00:00",
-   "end_date": null,
+   "end_date": "2026-09-20",
    "end_time": null,
    "location_name": null,
    "url": "https://cinemalegyptis.org/films/laventure-revee/",
@@ -1229,11 +1261,12 @@
    "status": "scheduled",
    "event_type": null,
    "free": null,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
    "source_kind": "html",
    "evidence": [
-    "[2026-09-16] Retour de Cannes 2026 (https://cinemalegyptis.org/films/laventure-revee/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Séance spéciale (https://cinemalegyptis.org/seances-et-evenement/?categorie=seance-speciale) 19h L’aventure rêvée (https://cinemalegyptis.org/f"
+    "[2026-09-16] Retour de Cannes 2026 (https://cinemalegyptis.org/films/laventure-revee/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Séance spéciale (https://cinemalegyptis.org/seances-et-evenement/?categorie=seance-speciale) 19h L’aventure rêvée (https://cinemalegyptis.org/f",
+    "same entry listed on every day from 2026-09-16 to 2026-09-20"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'L’aventure rêvée' on [2026-09-16] at '19h' with URL 'https://cinemalegyptis.org/films/laventure-revee/'.",
@@ -1363,7 +1396,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -1637,7 +1670,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -1704,30 +1737,30 @@
    "lng": 5.3906
   },
   {
-   "uid": "9100f9dfcc14",
+   "uid": "a59897c16226",
    "venue_id": "le-gyptis",
    "venue_name": "Le Gyptis",
    "category": "cinema",
-   "title": "Ciné-débat : FINI DE RIRE ! L'HUMOUR POLITIQUE AU GARDE-À-VOUS ? de M.Larroque, C.Menais, M.Branco",
+   "title": "Fini de rire ! L’humour politique au garde-à-vous ?",
    "start_date": "2026-09-18",
    "start_time": "19:00:00",
    "end_date": null,
    "end_time": null,
-   "location_name": "136 rue Loubon, 13003 Marseille, France",
-   "url": "https://www.facebook.com/events/1051495490738132/",
+   "location_name": null,
+   "url": "https://cinemalegyptis.org/films/fini-de-rire-lhumour-politique-au-garde-a-vous/",
    "price": null,
-   "summary": "📆 Vendredi 18 septembre à 19h // Projection suivie d'un débat // En partenariat avec Cracs et Coudes à coudes. FINI DE RIRE ? L'HUMOUR POLITIQUE AU GARDE-À-VOUS ? De Matéo Larroque, Clara Menais, Mila",
+   "summary": "Avant-première suivie d’un débat · En partenariat avec Cracs et Coudes à coudes",
    "status": "scheduled",
    "event_type": null,
    "free": null,
    "recurring": false,
-   "source_url": "https://www.facebook.com/cinemalegyptis/upcoming_hosted_events",
-   "source_kind": "facebook",
+   "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
+   "source_kind": "html",
    "evidence": [
-    "Friday 18 September 2026 from 19:00-22:00 CEST"
+    "[2026-09-18] (https://cinemalegyptis.org/films/fini-de-rire-lhumour-politique-au-garde-a-vous/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Séance spéciale (https://cinemalegyptis.org/seances-et-evenement/?categorie=seance-speciale) 19h Fini de rire ! L’humour politique au "
    ],
-   "verifier": null,
-   "verifier_reason": null,
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'vendredi 18 septembre' at '19h' for 'Fini de rire ! L’humour politique au garde-à-vous ?' with matching URL.",
    "first_seen": "2026-09-13",
    "last_seen": "2026-09-13",
    "lat": 43.311,
@@ -1867,7 +1900,7 @@
    "end_date": "2027-01-03",
    "end_time": "00:00:00",
    "location_name": "Musée d'art contemporain [mac]",
-   "url": "https://musees.marseille.fr/voix-publiques-louisa-babari",
+   "url": "https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-dart-contemporain-mac-0",
    "price": "Gratuit",
    "summary": null,
    "status": "scheduled",
@@ -1877,7 +1910,7 @@
    "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
    "source_kind": "html",
    "evidence": [
-    "Gratuit (https://musees.marseille.fr/voix-publiques-louisa-babari) Voix Publiques - Louisa Babari (https://musees.marseille.fr/voix-publiques-louisa-babari) Musée d'art contemporain [mac] Du [2026-09-19T07:00:00Z] 19 septembre 2026 au [2027-01-03T17:00:00Z] 03 janvier 2027"
+    "Gratuit (https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-dart-contemporain-mac-0) Voix Publiques - Louisa Babari (https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-dart-contemporain-mac-0) Musée d'art contemporain [mac] Du [2026-09-19T07:00:00Z] 19 septembre"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Voix Publiques - Louisa Babari' at Musée d'art contemporain [mac] from 19 septembre 2026 to 03 janvier 2027.",
@@ -1942,9 +1975,41 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
+  },
+  {
+   "uid": "8f07c830aca8",
+   "venue_id": "le-gyptis",
+   "venue_name": "Le Gyptis",
+   "category": "cinema",
+   "title": "CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS",
+   "start_date": "2026-09-19",
+   "start_time": "11:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.instagram.com/p/DdHAKxfiTfr/",
+   "price": null,
+   "summary": "Une séance cinématographique pour enfants adaptant des histoires de l'École des Loisirs avec des dessins fixes animés par voix, caméra et son.",
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "source_url": "https://www.instagram.com/cinemalegyptis/",
+   "source_kind": "instagram",
+   "evidence": [
+    "CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS",
+    "À partir de 3 ans",
+    "🎬 Mer 16 : 16h30 / Sam 19 : 11h / Dim 20 : 11h / Mer 23 : 17h / Dim 27 : 11h"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The caption announces an upcoming event at the venue (\"PROCHAINEMENT AU GYPTIS\") with showtimes \"🎬 Mer 16 : 16h30 / Sam 19 : 11h / Dim 20 : 11h / Mer 23 : 17h / Dim 27 : 11h\", and 19 September 2026 is indeed a Saturday at 11h, matching the extracted date/time; no cancellation is mentioned.",
+   "first_seen": "2026-09-13",
+   "last_seen": "2026-09-13",
+   "lat": 43.311,
+   "lng": 5.386
   },
   {
    "uid": "12810fcb16ef",
@@ -2044,7 +2109,7 @@
    "title": "Marius et le Royaume des mers",
    "start_date": "2026-09-19",
    "start_time": "15:30:00",
-   "end_date": null,
+   "end_date": "2026-09-23",
    "end_time": null,
    "location_name": null,
    "url": "https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/",
@@ -2053,11 +2118,12 @@
    "status": "scheduled",
    "event_type": null,
    "free": null,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
    "source_kind": "html",
    "evidence": [
-    "[2026-09-19] (https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Jeune public 15h30 Marius et le Royaume des mers (https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/) De Endre Skandfer. VF À partir de 3 "
+    "[2026-09-19] (https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Jeune public 15h30 Marius et le Royaume des mers (https://cinemalegyptis.org/films/marius-et-le-royaume-des-mers/) De Endre Skandfer. VF À partir de 3 ",
+    "same entry listed on every day from 2026-09-19 to 2026-09-23"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists the screening of \"Marius et le Royaume des mers\" on [2026-09-19] at 15h30 with the matching film URL.",
@@ -2249,31 +2315,30 @@
    "lng": 5.3906
   },
   {
-   "uid": "5ea23b222b81",
+   "uid": "9b9cedde0f0c",
    "venue_id": "le-gyptis",
    "venue_name": "Le Gyptis",
    "category": "cinema",
-   "title": "MARIE MADELEINE de Géssica Généus",
+   "title": "Marie Madeleine",
    "start_date": "2026-09-19",
    "start_time": "20:00:00",
    "end_date": null,
    "end_time": null,
-   "location_name": "Le Gyptis",
-   "url": "https://www.facebook.com/cinemalegyptis/posts/pfbid02AkESvrRDqKLcfWF2EzkKmZA8MxaqUZuTHNangfKqgRho4oAnFHn6vcN3BdXH9ixal",
+   "location_name": null,
+   "url": "https://cinemalegyptis.org/films/marie-madeleine/",
    "price": null,
-   "summary": "Avant-première du film 'MARIE MADELEINE' de Géssica Généus, en VOST, le samedi 19 septembre à 20h.",
+   "summary": "Avant-première dans le cadre du Retour de Cannes, manifestation organisée par le GNCR · Suivie d’une rencontre avec le cinéaste et programmateur Simon Gaillot",
    "status": "scheduled",
    "event_type": null,
    "free": null,
    "recurring": false,
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "source_kind": "facebook",
+   "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
+   "source_kind": "html",
    "evidence": [
-    "Avant-première le Samedi 19 septembre à 20h.",
-    "AVANT-PREMIERE SAM. 19 | 20H MARIE-MADELEINE MARIE- de Géssica Généus"
+    "[2026-09-19] Retour de Cannes 2026 (https://cinemalegyptis.org/films/marie-madeleine/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Séance spéciale (https://cinemalegyptis.org/seances-et-evenement/?categorie=seance-speciale) 20h Marie Madeleine (https://cinemalegyptis.org/fi"
    ],
    "verifier": "accept",
-   "verifier_reason": "Caption states 'MARIE MADELEINE de Géssica Généus – Avant-première le Samedi 19 septembre à 20h' and the flyer reads 'AVANT-PREMIÈRE SAM. 19 | 20H', matching the extracted date/time at Le Gyptis; 19 September 2026 is indeed a Saturday and is after the 2026-09-08 publication date.",
+   "verifier_reason": "The excerpt confirms 'Marie Madeleine' on [2026-09-19] at 20h with URL https://cinemalegyptis.org/films/marie-madeleine/.",
    "first_seen": "2026-09-13",
    "last_seen": "2026-09-13",
    "lat": 43.311,
@@ -2367,9 +2432,41 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
+  },
+  {
+   "uid": "e21c6a723973",
+   "venue_id": "le-gyptis",
+   "venue_name": "Le Gyptis",
+   "category": "cinema",
+   "title": "CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS",
+   "start_date": "2026-09-20",
+   "start_time": "11:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.instagram.com/p/DdHAKxfiTfr/",
+   "price": null,
+   "summary": "Une séance cinématographique pour enfants adaptant des histoires de l'École des Loisirs avec des dessins fixes animés par voix, caméra et son.",
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "source_url": "https://www.instagram.com/cinemalegyptis/",
+   "source_kind": "instagram",
+   "evidence": [
+    "CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS",
+    "À partir de 3 ans",
+    "🎬 Mer 16 : 16h30 / Sam 19 : 11h / Dim 20 : 11h / Mer 23 : 17h / Dim 27 : 11h"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "\"PROCHAINEMENT AU GYPTIS\" announces an upcoming screening, and the caption's schedule \"Dim 20 : 11h\" matches the extracted 2026-09-20 (a Sunday, after the 2026-09-10 publication) at 11:00.",
+   "first_seen": "2026-09-13",
+   "last_seen": "2026-09-13",
+   "lat": 43.311,
+   "lng": 5.386
   },
   {
    "uid": "a75550ba4528",
@@ -2620,7 +2717,7 @@
    "title": "Un Amour d’Épouvantail",
    "start_date": "2026-09-23",
    "start_time": "16:00:00",
-   "end_date": null,
+   "end_date": "2026-09-27",
    "end_time": null,
    "location_name": null,
    "url": "https://cinemalegyptis.org/films/un-amour-depouvantail/",
@@ -2629,14 +2726,47 @@
    "status": "scheduled",
    "event_type": null,
    "free": null,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
    "source_kind": "html",
    "evidence": [
-    "[2026-09-23] (https://cinemalegyptis.org/films/un-amour-depouvantail/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Jeune public 16h Un Amour d’Épouvantail (https://cinemalegyptis.org/films/un-amour-depouvantail/) De Samantha Cutler, Jeroen Jaspaert. VF À partir de 3 ans Bil"
+    "[2026-09-23] (https://cinemalegyptis.org/films/un-amour-depouvantail/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Jeune public 16h Un Amour d’Épouvantail (https://cinemalegyptis.org/films/un-amour-depouvantail/) De Samantha Cutler, Jeroen Jaspaert. VF À partir de 3 ans Bil",
+    "same entry listed on every day from 2026-09-23 to 2026-09-27"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 23 septembre' at '16h' for 'Un Amour d’Épouvantail' with matching URL.",
+   "first_seen": "2026-09-13",
+   "last_seen": "2026-09-13",
+   "lat": 43.311,
+   "lng": 5.386
+  },
+  {
+   "uid": "c8ee3ce05a7c",
+   "venue_id": "le-gyptis",
+   "venue_name": "Le Gyptis",
+   "category": "cinema",
+   "title": "CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS",
+   "start_date": "2026-09-23",
+   "start_time": "17:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.instagram.com/p/DdHAKxfiTfr/",
+   "price": null,
+   "summary": "Une séance cinématographique pour enfants adaptant des histoires de l'École des Loisirs avec des dessins fixes animés par voix, caméra et son.",
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "source_url": "https://www.instagram.com/cinemalegyptis/",
+   "source_kind": "instagram",
+   "evidence": [
+    "CHIEN BLEU ET AUTRES BELLES HISTOIRES DE L'ÉCOLE DES LOISIRS",
+    "À partir de 3 ans",
+    "🎬 Mer 16 : 16h30 / Sam 19 : 11h / Dim 20 : 11h / Mer 23 : 17h / Dim 27 : 11h"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The caption announces an upcoming screening (\"PROCHAINEMENT AU GYPTIS\") and lists \"Mer 23 : 17h\", which matches the extracted 2026-09-23 (a Wednesday) at 17:00; the post date 2026-09-10 precedes it and all listed weekdays align with the 2026 calendar.",
    "first_seen": "2026-09-13",
    "last_seen": "2026-09-13",
    "lat": 43.311,
@@ -2650,7 +2780,7 @@
    "title": "Écrire la vie : Annie Ernaux racontée par des lycéennes et des lycéens",
    "start_date": "2026-09-23",
    "start_time": "19:00:00",
-   "end_date": null,
+   "end_date": "2026-09-26",
    "end_time": null,
    "location_name": null,
    "url": "https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-par-des-lyceennes-et-des-lyceens/",
@@ -2659,11 +2789,12 @@
    "status": "scheduled",
    "event_type": null,
    "free": null,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
    "source_kind": "html",
    "evidence": [
-    "[2026-09-23] (https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-par-des-lyceennes-et-des-lyceens/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) 19h Écrire la vie : Annie Ernaux racontée par des lycéennes et des lycéens (https://cinemalegyptis.org/films/ecr"
+    "[2026-09-23] (https://cinemalegyptis.org/films/ecrire-la-vie-annie-ernaux-racontee-par-des-lyceennes-et-des-lyceens/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) 19h Écrire la vie : Annie Ernaux racontée par des lycéennes et des lycéens (https://cinemalegyptis.org/films/ecr",
+    "same entry listed on every day from 2026-09-23 to 2026-09-26"
    ],
    "verifier": "accept",
    "verifier_reason": "The film screening of 'Écrire la vie : Annie Ernaux racontée par des lycéennes et des lycéens' is confirmed for 2026-09-23 at 19h with matching URL.",
@@ -2917,7 +3048,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3127,7 +3258,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3247,7 +3378,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3434,6 +3565,36 @@
    "last_seen": "2026-09-13",
    "lat": 43.2942,
    "lng": 5.3855
+  },
+  {
+   "uid": "6adf47e1880d",
+   "venue_id": "le-gyptis",
+   "venue_name": "Le Gyptis",
+   "category": "cinema",
+   "title": "Chien Bleu et autres belles histoires de l’école des loisirs",
+   "start_date": "2026-09-27",
+   "start_time": "11:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-histoires-de-lecole-des-loisirs/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
+   "source_kind": "html",
+   "evidence": [
+    "[2026-09-27] (https://cinemalegyptis.org/films/chien-bleu-et-autres-belles-histoires-de-lecole-des-loisirs/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Jeune public 11h Chien Bleu et autres belles histoires de l’école des loisirs (https://cinemalegyptis.org/films/chien-ble"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "Confirmed by excerpt: \"dimanche 27 septembre\" [2026-09-27] at \"11h\" for \"Chien Bleu et autres belles histoires de l’école des loisirs\".",
+   "first_seen": "2026-09-13",
+   "last_seen": "2026-09-13",
+   "lat": 43.311,
+   "lng": 5.386
   },
   {
    "uid": "a56027bf71ed",
@@ -3655,7 +3816,7 @@
    "title": "L’ornement dans les arts de l’Islam",
    "start_date": "2026-09-30",
    "start_time": "09:00:00",
-   "end_date": null,
+   "end_date": "2026-10-02",
    "end_time": "18:00:00",
    "location_name": "Fort Saint-Jean / MucemLab",
    "url": "https://mucem.org/evenement/lornement-dans-les-arts-de-lislam/",
@@ -3664,16 +3825,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": true,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "L’ornement dans les arts de l’Islam | 20260930 | 09:00"
+    "L’ornement dans les arts de l’Islam | 20260930 | 09:00",
+    "same entry listed on every day from 2026-09-30 to 2026-10-02"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3943,7 +4105,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3973,7 +4135,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4033,7 +4195,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4153,7 +4315,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4213,7 +4375,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4243,7 +4405,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4273,7 +4435,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4303,7 +4465,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4393,7 +4555,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4637,7 +4799,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4667,7 +4829,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4727,7 +4889,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4757,7 +4919,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4787,7 +4949,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is listed under 'Prochain(s) rendez-vous' for 'Le mardi 20 octobre à 18 h 30' (matching 2026-10-20) with matching URL and details.",
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2994164,
    "lng": 5.3858632
   },
@@ -4847,7 +5009,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4937,7 +5099,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5057,7 +5219,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5099,7 +5261,7 @@
    "title": "Liteul Pipol",
    "start_date": "2026-10-24",
    "start_time": "15:30:00",
-   "end_date": null,
+   "end_date": "2026-10-26",
    "end_time": "16:00:00",
    "location_name": "J4 / Auditorium",
    "url": "https://mucem.org/evenement/liteul-pipol/",
@@ -5108,16 +5270,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": false,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Liteul Pipol | 20261024 | 15:30"
+    "Liteul Pipol | 20261024 | 15:30",
+    "same entry listed on every day from 2026-10-24 to 2026-10-26"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5129,7 +5292,7 @@
    "title": "Un objet, une histoire - En Ribambelle !",
    "start_date": "2026-10-24",
    "start_time": "16:00:00",
-   "end_date": null,
+   "end_date": "2026-10-30",
    "end_time": "17:00:00",
    "location_name": "J4",
    "url": "https://mucem.org/evenement/un-objet-une-histoire-en-ribambelle-2/",
@@ -5138,16 +5301,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": false,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Un objet, une histoire - En Ribambelle ! | 20261024 | 16:00"
+    "Un objet, une histoire - En Ribambelle ! | 20261024 | 16:00",
+    "same entry listed on every day from 2026-10-24 to 2026-10-30"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5177,7 +5341,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5327,7 +5491,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5369,7 +5533,7 @@
    "title": "Baby populaire - En Ribambelle !",
    "start_date": "2026-10-28",
    "start_time": "10:30:00",
-   "end_date": null,
+   "end_date": "2026-10-31",
    "end_time": "11:00:00",
    "location_name": "J4",
    "url": "https://mucem.org/evenement/baby-populaire-en-rimbabelle/",
@@ -5378,16 +5542,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": false,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Baby populaire - En Ribambelle ! | 20261028 | 10:30"
+    "Baby populaire - En Ribambelle ! | 20261028 | 10:30",
+    "same entry listed on every day from 2026-10-28 to 2026-10-31"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5447,7 +5612,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed for 'Le mercredi 28 octobre, à 19 heures' in 2026, matching the extracted date, time, and URL.",
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2994164,
    "lng": 5.3858632
   },
@@ -5537,7 +5702,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5567,7 +5732,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5687,7 +5852,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5747,7 +5912,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5807,7 +5972,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5897,7 +6062,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5927,7 +6092,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6017,7 +6182,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6137,7 +6302,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6227,7 +6392,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6257,7 +6422,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6287,7 +6452,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6347,7 +6512,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6377,7 +6542,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6437,7 +6602,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6467,7 +6632,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6497,7 +6662,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6527,7 +6692,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6557,7 +6722,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6569,7 +6734,7 @@
    "title": "Gâteaux d’art",
    "start_date": "2026-12-30",
    "start_time": "15:00:00",
-   "end_date": null,
+   "end_date": "2027-01-03",
    "end_time": "16:30:00",
    "location_name": "J4",
    "url": "https://mucem.org/evenement/gateaux-dart/",
@@ -6578,16 +6743,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": true,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Gâteaux d’art | 20261230 | 15:00"
+    "Gâteaux d’art | 20261230 | 15:00",
+    "same entry listed on every day from 2026-12-30 to 2027-01-03"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6617,7 +6783,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6707,7 +6873,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6767,7 +6933,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6797,7 +6963,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6827,7 +6993,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6857,7 +7023,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6887,7 +7053,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6917,7 +7083,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6947,7 +7113,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6959,7 +7125,7 @@
    "title": "Ma mini-ferme",
    "start_date": "2027-02-20",
    "start_time": "10:00:00",
-   "end_date": null,
+   "end_date": "2027-03-07",
    "end_time": "18:00:00",
    "location_name": "J4 / Forum",
    "url": "https://mucem.org/evenement/ma-mini-ferme/",
@@ -6968,16 +7134,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": true,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Ma mini-ferme | 20270220 | 10:00"
+    "Ma mini-ferme | 20270220 | 10:00",
+    "same entry listed on every day from 2027-02-20 to 2027-03-07"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7037,7 +7204,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7067,7 +7234,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7127,7 +7294,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7169,7 +7336,7 @@
    "title": "Champ libre !",
    "start_date": "2027-02-24",
    "start_time": "16:00:00",
-   "end_date": null,
+   "end_date": "2027-03-04",
    "end_time": "17:30:00",
    "location_name": "J4",
    "url": "https://mucem.org/evenement/champ-libre/",
@@ -7178,16 +7345,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": false,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Champ libre ! | 20270224 | 16:00"
+    "Champ libre ! | 20270224 | 16:00",
+    "same entry listed on every day from 2027-02-24 to 2027-03-04"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7217,7 +7385,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7277,7 +7445,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7289,7 +7457,7 @@
    "title": "Graines d’histoires",
    "start_date": "2027-02-25",
    "start_time": "16:00:00",
-   "end_date": null,
+   "end_date": "2027-03-03",
    "end_time": "17:00:00",
    "location_name": "J4",
    "url": "https://mucem.org/evenement/graines-dhistoires/",
@@ -7298,16 +7466,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": false,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Graines d’histoires | 20270225 | 16:00"
+    "Graines d’histoires | 20270225 | 16:00",
+    "same entry listed on every day from 2027-02-25 to 2027-03-03"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7409,7 +7578,7 @@
    "title": "Baby PaySans",
    "start_date": "2027-02-27",
    "start_time": "10:30:00",
-   "end_date": null,
+   "end_date": "2027-03-05",
    "end_time": "11:15:00",
    "location_name": "J4",
    "url": "https://mucem.org/evenement/baby-paysans/",
@@ -7418,16 +7587,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": false,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Baby PaySans | 20270227 | 10:30"
+    "Baby PaySans | 20270227 | 10:30",
+    "same entry listed on every day from 2027-02-27 to 2027-03-05"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7637,7 +7807,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7727,7 +7897,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7907,7 +8077,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7937,7 +8107,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7967,7 +8137,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7997,7 +8167,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8027,7 +8197,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8057,7 +8227,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8087,7 +8257,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8117,7 +8287,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8147,7 +8317,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8177,7 +8347,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8207,7 +8377,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8237,7 +8407,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8267,7 +8437,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8297,7 +8467,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8309,7 +8479,7 @@
    "title": "Baby PaySans",
    "start_date": "2027-04-19",
    "start_time": "10:30:00",
-   "end_date": null,
+   "end_date": "2027-04-29",
    "end_time": "11:15:00",
    "location_name": "J4",
    "url": "https://mucem.org/evenement/baby-paysans/",
@@ -8318,16 +8488,17 @@
    "status": "scheduled",
    "event_type": null,
    "free": false,
-   "recurring": false,
+   "recurring": true,
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Baby PaySans | 20270419 | 10:30"
+    "Baby PaySans | 20270419 | 10:30",
+    "same entry listed on every day from 2027-04-19 to 2027-04-29"
    ],
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8357,7 +8528,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8417,7 +8588,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8447,7 +8618,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8507,7 +8678,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8567,7 +8738,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8597,7 +8768,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8657,7 +8828,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8687,7 +8858,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8717,7 +8888,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8747,7 +8918,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8777,7 +8948,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8807,7 +8978,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8837,7 +9008,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8867,7 +9038,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8897,7 +9068,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8927,7 +9098,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8957,7 +9128,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8987,7 +9158,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9017,7 +9188,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9047,7 +9218,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9077,7 +9248,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "lat": 43.2966941,
    "lng": 5.3610825
   }

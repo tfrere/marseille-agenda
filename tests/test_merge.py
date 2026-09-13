@@ -70,6 +70,23 @@ def test_published_events_folds_cross_source_duplicates():
     assert len(out) == 4
 
 
+def test_published_events_never_folds_two_cards_of_the_same_html_listing():
+    from marseille_agenda.output import published_events
+    from marseille_agenda.schema import State
+
+    def build(kind: str) -> State:
+        st = State()
+        for title in ("L’Appart du Futur s’installe au Pop-up de La Fabulerie", "Le Pop-up La Fabulerie au Tiers lieu des Temps de l’enfant"):
+            e = _event(title, date(2026, 9, 21), time(9, 0), url=None)
+            e.venue_id, e.source_url, e.source_kind = "la-fabulerie", f"https://{kind}.test/", kind
+            e.uid = make_uid("la-fabulerie", title, e.start_date)
+            st.events[e.uid] = e
+        return st
+
+    assert len(published_events(build("html"))) == 2, "two cards of one listing are two events"
+    assert len(published_events(build("facebook"))) == 1, "two posts about the same event still fold"
+
+
 def test_published_events_folding_keeps_the_only_available_image():
     from marseille_agenda.output import published_events
     from marseille_agenda.schema import State

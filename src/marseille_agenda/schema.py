@@ -115,7 +115,11 @@ class Event(BaseModel):
     venue_name: str
     category: str
     title: str
-    title_truncated: bool = Field(default=False, description="The source cut the title short; `title` is its verbatim prefix.")
+    title_truncated: bool = Field(default=False, description="The listing cut the title short. `title` is then either the "
+                                                             "verbatim prefix or, when `title_completed_from` is set and the "
+                                                             "detail page's title extended it, that full title.")
+    title_completed_from: str | None = Field(default=None, description="Detail page consulted for the full title (fetched once "
+                                                                       "per uid; the prefix stays when nothing there extends it).")
     start_date: date
     start_time: time | None = None
     end_date: date | None = None

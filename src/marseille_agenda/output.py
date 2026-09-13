@@ -33,8 +33,16 @@ def _similar_titles(a: Event, b: Event, *, loose: bool = False) -> bool:
 
 
 def _same_event(a: Event, b: Event) -> bool:
-    """Same venue and day; same clock time when both have one; titles overlapping enough."""
+    """Same venue and day; same clock time when both have one; titles overlapping enough.
+
+    Two cards of the same HTML listing are two events even when their titles overlap (both
+    carrying the venue name: "L'Appart du Futur s'installe au Pop-up de La Fabulerie" vs "Le
+    Pop-up La Fabulerie au Tiers lieu..."): the schema already folds exact repeats. Social and
+    JSON sources do announce one event several times under varying titles, so they still fold.
+    """
     if a.venue_id != b.venue_id or a.start_date != b.start_date:
+        return False
+    if a.source_url == b.source_url and a.source_kind == "html":
         return False
     if a.start_time and b.start_time and a.start_time != b.start_time:
         return False

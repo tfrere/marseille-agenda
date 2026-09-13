@@ -8,6 +8,7 @@ For each venue in venues.json:
   3. fetch source, execute schema (no LLM)
   4. schema unhealthy     -> regenerate (LLM), then re-discover after repeated failures
   5. deterministic checks -> adversarial verifier on NEW html events only (LLM, cheap)
+     titles the listing cut short are completed from the event's own page (prefix-verified)
   6. merge into data/state.json, publish data/events.json + events.ics + report.json
   7. cache each published event's visual as site/img/<uid>.webp (no LLM, skip with --no-images)
 
@@ -30,6 +31,7 @@ import httpx
 from .apply import SchemaEvent, apply_schema
 from .config import TZ, Settings, load_settings
 from .discover import build_discoverer, discover_source
+from .enrich import complete_truncated_titles
 from .extract import build_extractor
 from .extraction_schema import ExtractionSchema, SchemaRecord, SourceRecord, SourcesFile
 from .fetch import SourceDocument, fetch_document, make_client
@@ -100,11 +102,13 @@ def to_event(ex: SchemaEvent, venue: Venue, source_url: str, kind: str, today: d
 
 
 class Runner:
-    def __init__(self, settings: Settings, today: date, *, verify: bool = True, allow_llm: bool = True):
+    def __init__(self, settings: Settings, today: date, *, verify: bool = True, allow_llm: bool = True, enrich: bool = True):
         self.settings = settings
         self.today = today
         self.verify = verify
         self.allow_llm = allow_llm and settings.has_llm
+        self.enrich = enrich
+        """Complete truncated titles from the events' own pages (deterministic, a few fetches)."""
         self._agents: dict[str, object] = {}
         self._social: SocialRunner | None = None
 
@@ -437,6 +441,9 @@ class Runner:
                 if venue.web:
                     report.sources_total += 1
                     outcome = await self.process_venue(venue, sources, state, client)
+                    if self.enrich and outcome.events and any(e.title_truncated for e in outcome.events):
+                        stats = await asyncio.to_thread(complete_truncated_titles, outcome.events, state, client)
+                        log.info("[%s] truncated titles: %s", venue.id, stats.describe())
                     report.llm_calls += outcome.llm_calls
                     report.events_rejected_grounding += outcome.rejected_checks
                     report.events_rejected_verifier += outcome.rejected_verifier
@@ -466,6 +473,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--regenerate", action="append", default=[], help="forget the schema of these venue ids")
     parser.add_argument("--today", help="override today's date (YYYY-MM-DD)")
     parser.add_argument("--no-images", action="store_true", help="skip downloading event visuals into site/img/")
+    parser.add_argument("--no-enrich", action="store_true", help="do not fetch event pages to complete truncated titles")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -491,7 +499,7 @@ def main(argv: list[str] | None = None) -> int:
     if not settings.has_social:
         log.info("APIFY_API_KEY not set: Instagram / Facebook sources skipped")
 
-    runner = Runner(settings, today, verify=not args.no_verify, allow_llm=not args.no_llm)
+    runner = Runner(settings, today, verify=not args.no_verify, allow_llm=not args.no_llm, enrich=not args.no_enrich)
     credits_before = fetch_credits(settings)
     try:
         report = asyncio.run(runner.run(venues, sources, state, social))

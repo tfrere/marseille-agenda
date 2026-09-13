@@ -126,15 +126,19 @@
   /* multi-day bars (short runs), absolutely positioned over the week row, one bar per event */
   .week { --bar-h: 20px; }
   .bar { position: absolute; top: calc(23px + var(--row) * var(--bar-h)); left: calc(var(--c0) * 100% / 7); width: calc(var(--span) * 100% / 7); height: calc(var(--bar-h) - 3px); z-index: 1; display: flex; align-items: center; padding: 0 5px; background: color-mix(in srgb, var(--c) 18%, var(--cell)); cursor: pointer; font-size: 12px; line-height: 1; overflow: hidden; }
-  .bar.s { margin-left: 4px; width: calc(var(--span) * 100% / 7 - 4px); border-left: 3px solid var(--c); border-radius: 5px 0 0 5px; }
+  .bar.s { margin-left: 4px; width: calc(var(--span) * 100% / 7 - 4px); border-radius: 5px 0 0 5px; gap: 5px; }
   .bar.e { width: calc(var(--span) * 100% / 7 - 4px); border-radius: 0 5px 5px 0; }
   .bar.s.e { width: calc(var(--span) * 100% / 7 - 8px); border-radius: 5px; }
-  .bar:not(.s) { border-left: 2px dashed color-mix(in srgb, var(--c) 45%, transparent); }
   .bar:not(.s) .n { color: var(--muted); }
   .bar:hover { background: color-mix(in srgb, var(--c) 32%, var(--cell)); }
   .bar .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
   .bar.cancelled .n { text-decoration: line-through; }
-  .ev { display: flex; gap: 5px; align-items: baseline; padding: 2px 4px; border-radius: 5px; border-left: 3px solid var(--c); background: color-mix(in srgb, var(--c) 9%, transparent); margin-bottom: 3px; cursor: pointer; font-size: 12.5px; line-height: 1.25; }
+  /* category colour is carried by a small dot ("pastille"), never by a left border */
+  .pin { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
+  .ev { display: flex; gap: 5px; align-items: baseline; padding: 2px 6px; border-radius: 5px; background: color-mix(in srgb, var(--c) 9%, transparent); margin-bottom: 3px; cursor: pointer; font-size: 12.5px; line-height: 1.25; }
+  /* rows align on the text baseline; the dot is centred on the first line of text instead */
+  .ev .pin { align-self: flex-start; margin-top: calc(0.625em - 4px); }
+  .ev.thumbed .pin { align-self: center; margin-top: 0; }
   .ev:hover { background: color-mix(in srgb, var(--c) 20%, transparent); }
   .ev .t { color: var(--muted); font-variant-numeric: tabular-nums; flex: none; font-size: 11.5px; }
   .ev .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
@@ -152,7 +156,7 @@
   .panel { position: fixed; top: 0; right: 0; height: 100%; width: min(440px, 100%); background: var(--panel); box-shadow: var(--shadow); transform: translateX(105%); transition: transform .2s ease; padding: 18px 20px; overflow: auto; z-index: 30; }
   .panel.open { transform: none; }
   .panel h2 { margin: 4px 0 6px; font-size: 20px; line-height: 1.25; }
-  .panel .venue { color: var(--c); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+  .panel .venue { display: flex; align-items: center; gap: 7px; color: var(--c); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
   /* panel visual: full width, never cropped (posters), capped at 40vh */
   .panel .vis { width: 100%; aspect-ratio: 16 / 9; max-height: 40vh; margin-top: 30px; border-radius: 8px; }
   .panel .vis img { object-fit: contain; }
@@ -175,11 +179,11 @@
   .expos { display: none; flex: 1; min-height: 0; overflow: auto; padding: 14px 16px 40px; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 10px; align-content: start; }
   body[data-view="expos"] .expos { display: grid; }
   /* no overflow:hidden on the card: a scroll container would let the grid squeeze auto rows below content height */
-  .card { display: flex; flex-direction: column; background: var(--cell); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 8px; cursor: pointer; }
-  .card:hover { border-color: var(--muted); border-left-color: var(--c); }
-  .card .vis { aspect-ratio: 3 / 2; width: 100%; border-radius: 4px 7px 0 0; }
+  .card { display: flex; flex-direction: column; background: var(--cell); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
+  .card:hover { border-color: var(--muted); }
+  .card .vis { aspect-ratio: 3 / 2; width: 100%; border-radius: 7px 7px 0 0; }
   .card .body { display: flex; flex-direction: column; gap: 3px; padding: 10px 12px; }
-  .card .venue { color: var(--c); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; }
+  .card .venue { display: flex; align-items: center; gap: 6px; color: var(--c); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; }
   .card .title { font-weight: 600; font-size: 14.5px; line-height: 1.3; }
   .card.cancelled .title { text-decoration: line-through; }
   .card .dates { color: var(--muted); font-size: 12.5px; }
@@ -704,7 +708,7 @@
     n.style.setProperty('--c', color(e));
     n.title = `${e.venue_name} - ${e.title}`;
     const label = isRange(e) ? `jusqu'au ${fmtDate(e.end_date)}` : timeLabel(e);
-    n.innerHTML = `${label ? `<span class="t">${esc(label)}</span>` : ''}<span class="n">${esc(e.title)}</span>${venue ? `<span class="v">${esc(e.venue_name)}</span>` : ''}`;
+    n.innerHTML = `<span class="pin"></span>${label ? `<span class="t">${esc(label)}</span>` : ''}<span class="n">${esc(e.title)}</span>${venue ? `<span class="v">${esc(e.venue_name)}</span>` : ''}`;
     const th = thumb ? visualNode(e, 'th', true) : null;
     if (th) { n.prepend(th); n.classList.add('thumbed'); }
     n.onclick = () => openPanel(e);
@@ -720,8 +724,8 @@
     n.style.setProperty('--c0', c0);
     n.style.setProperty('--span', c1 - c0 + 1);
     n.title = `${e.venue_name} - ${e.title} (${fmtRange(e)})`;
-    // The title is repeated on every segment; continuation segments (.bar:not(.s)) render it muted.
-    n.innerHTML = `<span class="n">${esc(e.title)}</span>`;
+    // The title is repeated on every segment; only the start segment carries the dot, continuations render it muted.
+    n.innerHTML = `${isStart ? '<span class="pin"></span>' : ''}<span class="n">${esc(e.title)}</span>`;
     n.onclick = () => openPanel(e);
     return n;
   }
@@ -832,7 +836,7 @@
     n.style.setProperty('--c', color(e));
     const hint = runHint(e);
     n.innerHTML = `<div class="body">
-      <div class="venue">${esc(e.venue_name)}</div>
+      <div class="venue"><span class="pin"></span>${esc(e.venue_name)}</div>
       <div class="title">${esc(e.title)}</div>
       <div class="dates">${esc(fmtRange(e))}</div>
       <div class="hint ${hint.cls}">${esc(hint.text)}</div>
@@ -914,7 +918,7 @@
     const body = $('panelBody');
     body.innerHTML = `
       ${e.image_source ? `<a class="orig" href="${esc(e.image_source)}" target="_blank" rel="noopener">visuel d'origine</a>` : ''}
-      <div class="venue" style="--c:${color(e)}">${esc(e.venue_name)}</div>
+      <div class="venue" style="--c:${color(e)}"><span class="pin"></span>${esc(e.venue_name)}</div>
       <h2>${esc(e.title)}</h2>
       ${e.summary ? `<p>${esc(e.summary)}</p>` : ''}
       <dl>${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join('')}</dl>

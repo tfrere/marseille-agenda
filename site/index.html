@@ -11,6 +11,7 @@
     --panel: #ffffff; --shadow: 0 10px 30px rgba(0,0,0,.12); --star: #d97706;
     --c-culture: #c2410c; --c-milite: #b91c1c; --c-cinema: #6d28d9; --c-ateliers: #0f766e; --c-ceramique: #a16207;
     --c-bars: #be185d; --c-mer: #0369a1; --c-sport: #15803d; --c-coop: #4d7c0f; --c-amap: #65a30d; --c-macon: #57534e; --c-autre: #475569;
+    --slot-h: 20px;
   }
   @media (prefers-color-scheme: dark) {
     :root { --bg: #151515; --fg: #ececea; --muted: #9a9993; --line: #2a2a2a; --cell: #1c1c1c; --today: #3a3410; --panel: #1f1f1f; --shadow: 0 10px 30px rgba(0,0,0,.6); --star: #fbbf24; }
@@ -18,26 +19,25 @@
   * { box-sizing: border-box; }
   html, body { height: 100%; margin: 0; }
   body { font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--fg); display: flex; flex-direction: column; }
-  header { display: flex; flex-direction: column; gap: 8px; padding: 10px 16px 8px; border-bottom: 1px solid var(--line); }
-  header h1 { font-size: 18px; margin: 0 8px 0 0; font-weight: 650; letter-spacing: -.01em; }
-  .top { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-  .top #today { margin-left: auto; }
   button, .chip, input { font: inherit; border: 1px solid var(--line); background: var(--cell); color: var(--fg); border-radius: 8px; padding: 5px 10px; }
   button, .chip { cursor: pointer; }
   button:hover, .chip:hover { border-color: var(--muted); }
   button:focus-visible, .chip:focus-visible, input:focus-visible, .opt:has(input:focus-visible) { outline: 2px solid var(--fg); outline-offset: 1px; }
-  .pop:focus { outline: none; }
-  /* view tabs: month grid vs long-running exhibitions */
-  .tabs { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
-  .tabs button { border: 0; border-radius: 0; background: transparent; color: var(--muted); padding: 5px 12px; }
+  .pop:focus, .panel:focus { outline: none; }
+  .lnk { border: 0; background: none; color: var(--muted); text-decoration: underline; padding: 2px 4px; cursor: pointer; font: inherit; }
+  .lnk:hover { color: var(--fg); }
+  /* ---- header: identical in both views, never moves ---- */
+  header { display: flex; flex-direction: column; gap: 8px; padding: 10px 16px 6px; border-bottom: 1px solid var(--line); flex: none; }
+  header h1 { font-size: 18px; margin: 0; font-weight: 650; letter-spacing: -.01em; }
+  .top { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; }
+  .tabs { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; justify-self: center; }
+  .tabs button { border: 0; border-radius: 0; background: transparent; color: var(--muted); padding: 6px 14px; }
   .tabs button + button { border-left: 1px solid var(--line); }
   .tabs button.on { background: var(--cell); color: var(--fg); font-weight: 600; }
-  .tabs .count { display: inline-block; min-width: 18px; padding: 0 5px; margin-left: 4px; border-radius: 999px; background: color-mix(in srgb, var(--fg) 8%, transparent); font-size: 11px; font-weight: 600; text-align: center; }
-  /* filters block: presets + search on the first row, type chips + "Filtres" button on the second, recap below */
-  .filters { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "presets search" "types filters" "recap recap"; gap: 8px 12px; align-items: center; }
-  .presets { grid-area: presets; }
-  .search { grid-area: search; }
-  .types { grid-area: types; }
+  .count { display: inline-block; min-width: 18px; padding: 0 5px; margin-left: 5px; border-radius: 999px; background: color-mix(in srgb, var(--fg) 8%, transparent); font-size: 11px; font-weight: 600; text-align: center; }
+  /* filter bar: type chips + "Filtres" button, recap below */
+  .filters { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "types filters" "recap recap"; gap: 8px 12px; align-items: center; }
+  .scrollx { grid-area: types; min-width: 0; }
   .fwrap { grid-area: filters; position: relative; justify-self: end; }
   .recap { grid-area: recap; }
   .chips { display: flex; gap: 6px; flex-wrap: wrap; min-width: 0; }
@@ -48,14 +48,11 @@
   .chip.type.on { background: var(--c); border-color: var(--c); color: #fff; }
   .chip.type.on .dot { background: rgba(255,255,255,.85); }
   .chip.type.on .k { color: rgba(255,255,255,.8); }
-  .chip.preset.on, .chip.fav.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
-  .chip.preset.on .k, .chip.fav.on .k { color: inherit; opacity: .75; }
+  .chip.fav.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+  .chip.fav.on .k { color: inherit; opacity: .75; }
   .chip.fav .star { color: var(--star); }
-  .search input { width: 280px; max-width: 100%; padding: 6px 10px; }
-  .search input::placeholder { color: var(--muted); }
   #filtersBtn.on { border-color: var(--fg); font-weight: 600; }
   #filtersBtn .car { font-size: 10px; margin-left: 2px; color: var(--muted); }
-  /* active filter recap: one removable tag per filter */
   .recap { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; font-size: 12.5px; }
   .recap[hidden] { display: none; }
   .recap .lbl { color: var(--muted); margin-right: 2px; }
@@ -64,14 +61,29 @@
   .tag:hover .x { color: var(--fg); }
   .tag .k { color: var(--muted); font-size: 11.5px; }
   .tag button.x { border: 0; background: none; padding: 0 2px; cursor: pointer; }
-  .recap .clear { margin-left: auto; border: 0; background: none; color: var(--muted); text-decoration: underline; padding: 2px 4px; }
-  .recap .clear:hover { color: var(--fg); }
-  /* counter + freshness line */
-  .meta { color: var(--muted); font-size: 12px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2px 12px; }
-  .meta a { color: inherit; }
-  .meta #count.on { color: var(--fg); font-weight: 600; font-size: 13px; }
-  .credits { border-bottom: 1px dotted var(--muted); cursor: help; }
-  .credits.low { color: #b91c1c; font-weight: 600; }
+  .recap .clear { margin-left: auto; }
+  /* second row: sub-tabs + search (Liste) or month navigation (Agenda); same height in both views */
+  .sub { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 40px; }
+  .subtabs { display: flex; gap: 4px; }
+  .subtabs button { border: 0; background: transparent; color: var(--muted); padding: 8px 10px; border-radius: 8px; white-space: nowrap; }
+  .subtabs button:hover { color: var(--fg); }
+  .subtabs button.on { color: var(--fg); font-weight: 600; background: color-mix(in srgb, var(--fg) 7%, transparent); }
+  .nav { display: flex; align-items: center; gap: 10px; }
+  .nav .month { font-size: 16px; font-weight: 600; min-width: 170px; text-transform: capitalize; }
+  .search input { width: 280px; max-width: 100%; padding: 8px 10px; }
+  .search input::placeholder { color: var(--muted); }
+  body[data-view="agenda"] .subtabs, body[data-view="agenda"] .sub .search, body[data-view="agenda"] .liste { display: none; }
+  body[data-view="liste"] .nav, body[data-view="liste"] .agendaView { display: none; }
+  /* meta line: venues button, freshness, info popover */
+  .meta { display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+  .meta .lnk { font-size: 12px; }
+  .iwrap { position: relative; display: inline-flex; }
+  .info { width: 20px; height: 20px; border-radius: 50%; padding: 0; font: italic 600 12px/18px Georgia, "Times New Roman", serif; color: var(--muted); }
+  .tip { position: absolute; right: 0; top: calc(100% + 6px); min-width: 240px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); padding: 10px 12px; font-size: 12.5px; color: var(--fg); text-align: left; z-index: 20; }
+  .tip[hidden] { display: none; }
+  .tip p { margin: 3px 0; }
+  .tip .muted { color: var(--muted); }
+  .tip a { color: var(--fg); }
   /* popover (desktop) / bottom sheet (mobile) with level-2 facets */
   .pop { position: absolute; top: calc(100% + 6px); right: 0; width: 420px; max-width: calc(100vw - 32px); background: var(--panel); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); z-index: 20; }
   .pop[hidden] { display: none; }
@@ -82,10 +94,9 @@
   .opt .l { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
   .opt:hover { background: color-mix(in srgb, var(--fg) 6%, transparent); }
   .opt.muted:not(.on) { opacity: .45; }
-  .opt.disabled { opacity: .4; cursor: not-allowed; }
   .opt input { margin: 0; padding: 0; width: 15px; height: 15px; accent-color: var(--fg); }
   .opt .k, .vopt .k { margin-left: auto; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
-  .pop .search input { width: 100%; }
+  .pop .search input, .panel .search input { width: 100%; }
   .vlist { list-style: none; margin: 6px 0 0; padding: 0; max-height: 176px; overflow: auto; border: 1px solid var(--line); border-radius: 8px; }
   .vopt { display: flex; align-items: center; gap: 7px; padding: 4px 8px 4px 4px; cursor: pointer; }
   .vopt[hidden] { display: none; }
@@ -93,7 +104,7 @@
   .vopt.muted:not([aria-selected="true"]) { opacity: .5; }
   .vopt[aria-selected="true"] .name { font-weight: 600; }
   .vopt[aria-selected="true"] .name::after { content: " \2713"; color: var(--muted); font-weight: 400; }
-  .vopt .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
+  .dot, .pin { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
   .vopt .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
   .star { border: 0; background: none; padding: 0 3px; color: var(--muted); font-size: 16px; line-height: 1; cursor: pointer; flex: none; }
   .star.on { color: var(--star); }
@@ -104,28 +115,57 @@
   .hint { color: var(--muted); font-size: 11.5px; margin-top: 6px; }
   .pop-foot { display: flex; justify-content: flex-end; margin-top: 14px; }
   .sheet-head, .sheet-foot, .backdrop { display: none; }
-  main { flex: 1; display: flex; flex-direction: column; min-height: 0; }
-  .nav { display: flex; align-items: center; gap: 12px; padding: 8px 16px 4px; flex: none; }
-  .nav .month { font-size: 18px; font-weight: 600; min-width: 190px; text-transform: capitalize; }
-  body[data-view="expos"] .nav, body[data-view="expos"] .grid, body[data-view="expos"] .agenda { display: none; }
-  /* a time preset replaces the month grid by a compact day list (a near-empty grid says nothing) */
-  body[data-list] .nav, body[data-list] .grid { display: none; }
-  body[data-list]:not([data-view="expos"]) .agenda { display: block; }
-  /* month grid: a header row of weekday names, then one .week row per week */
-  .grid { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  /* ---- main ---- */
+  main { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: auto; }
+  body[data-view="agenda"] main { overflow: hidden; }
+  .liste { padding: 12px 16px 40px; }
+  .lead { font-size: 15px; font-weight: 600; margin: 2px 0 12px; }
+  h3.group { font-size: 13px; color: var(--muted); font-weight: 600; margin: 18px 0 8px; }
+  h3.group:first-child { margin-top: 0; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 10px; align-content: start; align-items: start; }
+  .more { margin-top: 22px; text-align: center; }
+  .empty { padding: 32px 16px; text-align: center; color: var(--muted); }
+  .empty p { margin: 6px 0; }
+  .empty .lnk { color: var(--fg); }
+  /* card component (Liste sub-tabs, mobile agenda). No overflow:hidden: a scroll container would let the grid squeeze rows */
+  .card { display: flex; flex-direction: column; background: var(--cell); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
+  .card:hover { border-color: var(--muted); }
+  .card .vis { aspect-ratio: 3 / 2; width: 100%; border-radius: 7px 7px 0 0; }
+  .card .vis.ph { aspect-ratio: 3 / 1; }
+  .card .body { display: flex; flex-direction: column; gap: 3px; padding: 10px 12px; }
+  .card .venue { display: flex; align-items: center; gap: 6px; color: var(--c); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; }
+  .card .title { font-weight: 600; font-size: 14.5px; line-height: 1.3; }
+  .card.cancelled .title { text-decoration: line-through; }
+  .card .dates { color: var(--muted); font-size: 12.5px; }
+  .card .hintline { font-size: 12.5px; color: var(--muted); }
+  .card .hintline.soon { color: #b91c1c; font-weight: 600; }
+  .card .hintline.upcoming { color: var(--fg); }
+  .card a { margin-top: 4px; font-size: 12px; color: var(--muted); align-self: flex-start; }
+  /* event visuals: tinted box (category colour) holding the image, or the "pas de visuel" placeholder */
+  .vis { position: relative; overflow: hidden; flex: none; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--c) 12%, var(--cell)); }
+  .vis img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .vis.ph span { font-size: 11.5px; color: var(--muted); letter-spacing: .02em; }
+  /* ---- Agenda: month grid with a per-week slot model ---- */
+  .agendaView { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .grid { flex: 1; display: flex; flex-direction: column; min-height: 0; --slots: 5; }
   .dows { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); height: 28px; flex: none; }
   .dow { padding: 6px 8px; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid var(--line); }
-  .week { --bars: 0; position: relative; flex: 1 1 0; min-height: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
-  .cell { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--cell); padding: 4px 6px; overflow: hidden; display: flex; flex-direction: column; min-height: 0; }
+  .week { position: relative; flex: 1 1 0; min-height: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
+  .cell { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--cell); padding: 4px 6px 0; overflow: hidden; min-width: 0; }
+  .cell.we { background: color-mix(in srgb, var(--fg) 3%, var(--cell)); }
   .cell.out { background: transparent; opacity: .5; }
   .cell.today { background: var(--today); }
-  .cell .d { font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+  .cell .d { height: 19px; line-height: 19px; font-size: 12px; color: var(--muted); }
   .cell.today .d { font-weight: 700; color: var(--fg); }
-  /* single events start below the multi-day bars of the week */
-  .cell .list { overflow: auto; min-height: 0; flex: 1; margin-top: calc(var(--bars) * var(--bar-h)); }
-  /* multi-day bars (short runs), absolutely positioned over the week row, one bar per event */
-  .week { --bar-h: 20px; }
-  .bar { position: absolute; top: calc(23px + var(--row) * var(--bar-h)); left: calc(var(--c0) * 100% / 7); width: calc(var(--span) * 100% / 7); height: calc(var(--bar-h) - 3px); z-index: 1; display: flex; align-items: center; padding: 0 5px; background: color-mix(in srgb, var(--c) 18%, var(--cell)); cursor: pointer; font-size: 12px; line-height: 1; overflow: hidden; }
+  .cell.past .d { color: color-mix(in srgb, var(--muted) 60%, transparent); }
+  .cell.past .slots, .bar.past { opacity: .55; }
+  .slots { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: repeat(var(--slots), var(--slot-h)); }
+  .slots .ev { height: calc(var(--slot-h) - 3px); margin: 0; align-items: center; }
+  .slots .ev .pin { align-self: center; margin-top: 0; }
+  .ev.more { border: 0; justify-content: center; background: color-mix(in srgb, var(--fg) 7%, transparent); color: var(--muted); font-weight: 600; }
+  .ev.more:hover { background: color-mix(in srgb, var(--fg) 14%, transparent); color: var(--fg); }
+  /* multi-day bars (short runs), absolutely positioned over the week row, aligned on the same slot rows */
+  .bar { position: absolute; top: calc(23px + var(--row) * var(--slot-h)); left: calc(var(--c0) * 100% / 7); width: calc(var(--span) * 100% / 7); height: calc(var(--slot-h) - 3px); z-index: 1; display: flex; align-items: center; padding: 0 5px; background: color-mix(in srgb, var(--c) 18%, var(--cell)); cursor: pointer; font-size: 12px; line-height: 1; overflow: hidden; }
   .bar.s { margin-left: 4px; width: calc(var(--span) * 100% / 7 - 4px); border-radius: 5px 0 0 5px; gap: 5px; }
   .bar.e { width: calc(var(--span) * 100% / 7 - 4px); border-radius: 0 5px 5px 0; }
   .bar.s.e { width: calc(var(--span) * 100% / 7 - 8px); border-radius: 5px; }
@@ -133,82 +173,86 @@
   .bar:hover { background: color-mix(in srgb, var(--c) 32%, var(--cell)); }
   .bar .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
   .bar.cancelled .n { text-decoration: line-through; }
-  /* category colour is carried by a small dot ("pastille"), never by a left border */
-  .pin { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
-  .ev { display: flex; gap: 5px; align-items: baseline; padding: 2px 6px; border-radius: 5px; background: color-mix(in srgb, var(--c) 9%, transparent); margin-bottom: 3px; cursor: pointer; font-size: 12.5px; line-height: 1.25; }
-  /* rows align on the text baseline; the dot is centred on the first line of text instead */
-  .ev .pin { align-self: flex-start; margin-top: calc(0.625em - 4px); }
-  .ev.thumbed .pin { align-self: center; margin-top: 0; }
+  .ev { display: flex; gap: 5px; align-items: center; padding: 2px 6px; border-radius: 5px; background: color-mix(in srgb, var(--c) 9%, transparent); cursor: pointer; font-size: 12.5px; line-height: 1.25; }
   .ev:hover { background: color-mix(in srgb, var(--c) 20%, transparent); }
   .ev .t { color: var(--muted); font-variant-numeric: tabular-nums; flex: none; font-size: 11.5px; }
   .ev .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
-  .ev .v { color: var(--muted); font-size: 11.5px; flex: none; }
-  .cell { min-width: 0; }
   .ev.cancelled .n { text-decoration: line-through; }
-  /* event visuals: a tinted box (category colour) holding the image, or the "pas de visuel" placeholder */
-  .vis { position: relative; overflow: hidden; flex: none; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--c) 12%, var(--cell)); }
-  .vis img { display: block; width: 100%; height: 100%; object-fit: cover; }
-  .vis.ph span { font-size: 11.5px; color: var(--muted); letter-spacing: .02em; }
-  /* list rows: small square thumbnail, only when the event has a visual */
-  .ev .th { width: 44px; height: 44px; flex: none; align-self: center; border-radius: 5px; }
-  .ev.thumbed { align-items: center; }
-  /* panel */
+  /* mobile mini-month */
+  .mini, .miniLead, .miniCards { display: none; }
+  /* ---- panels: event detail and venues ---- */
+  .pbackdrop { position: fixed; inset: 0; background: rgba(0,0,0,.25); z-index: 29; }
+  .pbackdrop[hidden] { display: none; }
   .panel { position: fixed; top: 0; right: 0; height: 100%; width: min(440px, 100%); background: var(--panel); box-shadow: var(--shadow); transform: translateX(105%); transition: transform .2s ease; padding: 18px 20px; overflow: auto; z-index: 30; }
   .panel.open { transform: none; }
   .panel h2 { margin: 4px 0 6px; font-size: 20px; line-height: 1.25; }
-  .panel .venue { display: flex; align-items: center; gap: 7px; color: var(--c); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
-  /* panel visual: full width, never cropped (posters), capped at 40vh */
+  .panel .venue { display: flex; align-items: center; gap: 7px; color: var(--c); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; margin-top: 30px; }
+  .panel .vis ~ .venue { margin-top: 10px; }
   .panel .vis { width: 100%; aspect-ratio: 16 / 9; max-height: 40vh; margin-top: 30px; border-radius: 8px; }
   .panel .vis img { object-fit: contain; }
-  .panel .orig { display: block; text-align: right; font-size: 11px; color: var(--muted); margin: 4px 0 10px; }
-  .panel .vis.ph { margin-bottom: 14px; }
+  .panel .orig { display: block; text-align: right; font-size: 11px; color: var(--muted); margin: 4px 0 0; }
   .panel dl { display: grid; grid-template-columns: 90px 1fr; gap: 6px 10px; margin: 14px 0; }
   .panel dt { color: var(--muted); }
   .panel dd { margin: 0; }
   .panel .close { position: absolute; top: 12px; right: 12px; }
   .panel .src { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+  .panel .src a { color: inherit; }
+  .panel details { margin-top: 6px; }
+  .panel summary { cursor: pointer; }
   .panel blockquote { margin: 6px 0; padding: 6px 10px; border-left: 3px solid var(--line); font-style: italic; }
-  .panel .badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); margin-left: 6px; vertical-align: middle; }
-  .empty { padding: 40px; text-align: center; color: var(--muted); grid-column: 1 / -1; }
-  /* list view (mobile, or desktop while a time preset is active) */
-  .agenda { display: none; padding: 8px 16px 40px; overflow: auto; min-height: 0; width: 100%; max-width: 860px; margin: 0 auto; }
-  .agenda h3 { font-size: 13px; color: var(--muted); margin: 16px 0 6px; text-transform: capitalize; position: sticky; top: 0; background: var(--bg); padding: 4px 0; }
-  .agenda .ev { font-size: 14px; padding: 6px 8px; }
-  .agenda .ev .n { white-space: normal; }
-  /* long-running exhibitions view: cards sorted by end date */
-  .expos { display: none; flex: 1; min-height: 0; overflow: auto; padding: 14px 16px 40px; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 10px; align-content: start; }
-  body[data-view="expos"] .expos { display: grid; }
-  /* no overflow:hidden on the card: a scroll container would let the grid squeeze auto rows below content height */
-  .card { display: flex; flex-direction: column; background: var(--cell); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
-  .card:hover { border-color: var(--muted); }
-  .card .vis { aspect-ratio: 3 / 2; width: 100%; border-radius: 7px 7px 0 0; }
-  .card .body { display: flex; flex-direction: column; gap: 3px; padding: 10px 12px; }
-  .card .venue { display: flex; align-items: center; gap: 6px; color: var(--c); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; }
-  .card .title { font-weight: 600; font-size: 14.5px; line-height: 1.3; }
-  .card.cancelled .title { text-decoration: line-through; }
-  .card .dates { color: var(--muted); font-size: 12.5px; }
-  .card .hint { font-size: 12.5px; color: var(--muted); }
-  .card .hint.soon { color: #b91c1c; font-weight: 600; }
-  .card .hint.upcoming { color: var(--fg); }
-  .card a { margin-top: 4px; font-size: 12px; color: var(--muted); align-self: flex-start; }
+  .panel .badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); margin-right: 6px; vertical-align: middle; }
+  .panel.lieux h2 { margin-top: 28px; }
+  .lrows { list-style: none; margin: 10px 0 0; padding: 0; }
+  .lrow { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+  .lrow .ltxt { flex: 1; min-width: 0; }
+  .lrow .lname { font-weight: 600; color: var(--fg); text-decoration: none; padding: 2px 0; text-align: left; }
+  .lrow .lname:hover { text-decoration: underline; }
+  .lrow .lsub { color: var(--muted); font-size: 12px; }
+  .lrow .lweb { font-size: 12px; color: var(--muted); flex: none; }
+  .lrow.muted { opacity: .55; }
+  .panel .foot { margin-top: 14px; font-size: 11.5px; color: var(--muted); }
+  .panel .foot a { color: inherit; }
   @media (max-width: 760px) {
-    .grid { display: none; }
-    body:not([data-view="expos"]) .agenda { display: block; }
-    header { padding: 10px 12px 8px; }
+    header { padding: 8px 12px 6px; position: sticky; top: 0; background: var(--bg); z-index: 5; }
     header h1 { font-size: 16px; }
-    .top { gap: 8px; }
-    .nav { padding: 8px 12px 0; }
-    .nav .month { min-width: 0; flex: 1; }
-    .filters { grid-template-areas: "presets presets" "types types" "search filters" "recap recap"; gap: 8px; }
-    /* chip rows scroll edge to edge, scrollbar hidden */
-    .presets, .types { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -12px; padding: 0 12px; }
-    .presets::-webkit-scrollbar, .types::-webkit-scrollbar { display: none; }
+    .top { grid-template-columns: 1fr auto; gap: 8px; }
+    .tabs { justify-self: end; }
+    .tabs button, .subtabs button, .chip, #filtersBtn, .nav button { min-height: 40px; }
+    .filters { grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+    /* chip rows scroll edge to edge, scrollbar hidden, right-edge fade as a scroll hint */
+    .scrollx { overflow-x: auto; scrollbar-width: none; margin: 0 -12px 0 -12px; padding: 0 12px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 36px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 36px), transparent); }
+    .scrollx::-webkit-scrollbar { display: none; }
+    .scrollx .chips { flex-wrap: nowrap; width: max-content; padding-right: 36px; }
+    .sub { flex-wrap: wrap; gap: 6px; }
+    .subtabs { flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+    .subtabs::-webkit-scrollbar { display: none; }
+    .sub .search { width: 100%; }
     .search input { width: 100%; }
-    .fwrap { justify-self: stretch; }
-    #filtersBtn { white-space: nowrap; }
+    .nav { flex: 1; }
+    .nav .month { min-width: 0; flex: 1; text-align: center; }
     .recap .clear { margin-left: 0; }
-    .expos { grid-template-columns: 1fr; padding: 10px 12px 40px; }
+    /* collapsed header on downward scroll: keep the title, the view toggle and the sub-tabs / month nav */
+    header.collapsed .filters, header.collapsed .sub .search, header.collapsed .meta { display: none; }
+    .liste { padding: 10px 12px 40px; }
+    .cards { grid-template-columns: 1fr; }
     .card .vis { aspect-ratio: 16 / 9; }
+    .card .vis.ph { aspect-ratio: 16 / 4; }
+    /* agenda on mobile: mini-month + the selected day's cards */
+    body[data-view="agenda"] main { overflow: auto; }
+    .grid { display: none; }
+    .mini { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 2px; padding: 8px 10px 4px; }
+    .mini .dow { text-align: center; border: 0; padding: 4px 0; }
+    .mday { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 5px 0 4px; border: 1px solid transparent; border-radius: 8px; background: transparent; min-height: 44px; }
+    .mday .num { font-size: 13px; width: 24px; line-height: 24px; text-align: center; border-radius: 50%; }
+    .mday.out { opacity: .35; }
+    .mday.past .num { color: var(--muted); }
+    .mday.today .num { font-weight: 700; background: var(--today); }
+    .mday.on { border-color: var(--fg); }
+    .mday .dots { display: flex; gap: 2px; height: 6px; align-items: center; }
+    .mday .dots i { width: 5px; height: 5px; border-radius: 50%; background: var(--c); }
+    .mday .plus { font-size: 10px; color: var(--muted); line-height: 6px; }
+    .miniLead { display: block; padding: 10px 12px 0; }
+    .miniCards { display: grid; padding: 0 12px 40px; }
     /* level-2 facets become a bottom sheet */
     .pop { position: fixed; top: auto; right: 0; bottom: 0; left: 0; width: auto; max-width: none; max-height: 88vh; border-radius: 14px 14px 0 0; display: flex; flex-direction: column; animation: slide-up .25s ease; }
     .pop[hidden] { display: none; }
@@ -220,23 +264,24 @@
     .sheet-foot button { width: 100%; background: var(--fg); color: var(--bg); border-color: var(--fg); font-weight: 600; padding: 10px; }
     .backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 19; }
     .backdrop:not([hidden]) { display: block; }
+    /* venues panel becomes a bottom sheet */
+    .panel.lieux { top: auto; bottom: 0; height: 88vh; width: 100%; border-radius: 14px 14px 0 0; transform: translateY(105%); }
+    .panel.lieux.open { transform: none; }
+    .tip { right: 0; left: auto; }
   }
 </style>
 </head>
-<body>
-<header>
+<body data-view="liste">
+<header id="header">
   <div class="top">
-    <h1>Marseille, agenda des lieux</h1>
+    <h1>Marseille</h1>
     <div class="tabs" role="tablist" id="tabs">
-      <button class="tab on" role="tab" data-view="agenda" aria-selected="true">Agenda</button>
-      <button class="tab" role="tab" data-view="expos" aria-selected="false">Expos &amp; en cours<span class="count" id="exposCount">0</span></button>
+      <button class="tab on" role="tab" data-view="liste" aria-selected="true">Liste</button>
+      <button class="tab" role="tab" data-view="agenda" aria-selected="false">Agenda</button>
     </div>
-    <button id="today">Aujourd'hui</button>
   </div>
   <div class="filters">
-    <div class="chips presets" id="presets" aria-label="Période"></div>
-    <div class="search"><input type="search" id="q" placeholder="Rechercher un event, un lieu..." aria-label="Rechercher un événement ou un lieu" autocomplete="off"></div>
-    <div class="chips types" id="types" aria-label="Type de lieu"></div>
+    <div class="scrollx"><div class="chips types" id="types" aria-label="Type de lieu"></div></div>
     <div class="fwrap">
       <button id="filtersBtn" aria-haspopup="dialog" aria-expanded="false" aria-controls="pop">Filtres (<span id="fcount">0</span>)<span class="car">&#9662;</span></button>
       <div class="pop" id="pop" role="dialog" aria-labelledby="popTitle" tabindex="-1" hidden>
@@ -258,39 +303,75 @@
     </div>
     <div class="recap" id="recap" hidden></div>
   </div>
-  <div class="meta" id="meta"><span id="count" aria-live="polite"></span><span id="updated"></span></div>
+  <div class="sub">
+    <div class="subtabs" role="tablist" id="subtabs" aria-label="Période"></div>
+    <div class="nav" id="nav">
+      <button id="prev" aria-label="Mois précédent">&larr;</button>
+      <div class="month" id="month" aria-live="polite"></div>
+      <button id="next" aria-label="Mois suivant">&rarr;</button>
+    </div>
+    <div class="search"><input type="search" id="q" placeholder="Rechercher un event, un lieu..." aria-label="Rechercher un événement ou un lieu" autocomplete="off"></div>
+  </div>
+  <div class="meta">
+    <button class="lnk" id="lieuxBtn" aria-haspopup="dialog" aria-controls="lieuxPanel">lieux</button>
+    <span aria-hidden="true">·</span>
+    <span id="maj"></span>
+    <span class="iwrap">
+      <button class="info" id="infoBtn" aria-label="Informations sur les données" aria-haspopup="dialog" aria-expanded="false" aria-controls="infoPop">i</button>
+      <div class="tip" id="infoPop" role="dialog" aria-label="Informations" hidden>
+        <p id="infoUpdated"></p>
+        <p class="muted" id="infoCredits" hidden></p>
+        <p><a href="./events.ics">ICS</a> · <a href="./events.json">JSON</a></p>
+      </div>
+    </span>
+  </div>
 </header>
 <div class="backdrop" id="backdrop" hidden></div>
-<main>
-  <div class="nav">
-    <button id="prev" aria-label="Mois précédent">&larr;</button>
-    <div class="month" id="month"></div>
-    <button id="next" aria-label="Mois suivant">&rarr;</button>
-  </div>
-  <div class="grid" id="grid"></div>
-  <div class="agenda" id="agenda"></div>
-  <section class="expos" id="expos" aria-label="Expositions et événements au long cours"></section>
+<main id="main">
+  <section class="liste" id="liste">
+    <div class="lead" id="listLead"></div>
+    <div id="listBody"></div>
+    <div class="more" id="listMore" hidden></div>
+  </section>
+  <section class="agendaView" id="agendaView" aria-label="Agenda du mois">
+    <div class="grid" id="grid"></div>
+    <div class="mini" id="mini" role="grid" aria-label="Jours du mois"></div>
+    <div class="lead miniLead" id="miniLead"></div>
+    <div class="cards miniCards" id="miniCards"></div>
+  </section>
 </main>
-<aside class="panel" id="panel" aria-live="polite">
+<div class="pbackdrop" id="panelBackdrop" hidden></div>
+<aside class="panel" id="panel" role="dialog" aria-label="Détail de l'événement" tabindex="-1">
   <button class="close" id="close" aria-label="Fermer">&times;</button>
   <div id="panelBody"></div>
+</aside>
+<aside class="panel lieux" id="lieuxPanel" role="dialog" aria-label="Lieux suivis" tabindex="-1">
+  <button class="close" id="lieuxClose" aria-label="Fermer">&times;</button>
+  <h2>Lieux</h2>
+  <div class="search"><input type="search" id="lieuxQ" placeholder="Chercher un lieu..." aria-label="Chercher un lieu" autocomplete="off"></div>
+  <ul class="lrows" id="lieuxList"></ul>
+  <div class="foot">&#9733; = mes lieux, mémorisés sur cet appareil<br><a href="https://github.com/tfrere/marseille-agenda/issues/new?title=Ajouter%20un%20lieu" target="_blank" rel="noopener">Un lieu manque ?</a></div>
 </aside>
 <script>
 (async function () {
   const DATA_URLS = ['./events.json', '../data/events.json'];
   const $ = (id) => document.getElementById(id);
   const fmtMonth = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' });
+  const fmtMonthLong = new Intl.DateTimeFormat('fr-FR', { month: 'long' });
   const fmtDay = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' });
+  const fmtDayNum = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric' });
+  const fmtDayShort = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
   const fmtShort = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short' });
   const fmtShortYear = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
   const DOW = ['lun', 'mar', 'mer', 'jeu', 'ven', 'sam', 'dim'];
-  // Multi-day ranges longer than this (end_date - start_date, in days) leave the month grid
-  // for the dedicated "Expos & en cours" view; shorter ranges are drawn as bars in the grid.
+  // Multi-day ranges longer than this (end_date - start_date, in days) are exhibitions: they live in the
+  // "Expositions" sub-tab; shorter ranges are drawn as bars in the month grid and as cards in the day lists.
   const LONG_RUN_DAYS = 7;
+  const SLOT_H = 20; // px, one row of the month grid slot model (must match --slot-h)
   const CATEGORIES = { culture: 'Culture', milite: 'Militant', cinema: 'Cinéma', bars: 'Bars', ateliers: 'Ateliers', ceramique: 'Céramique', mer: 'Mer', sport: 'Sport', coop: 'Coop', amap: 'AMAP', macon: 'Maçonnerie', autre: 'Autre' };
-  const PRESETS = { tonight: 'Ce soir', weekend: 'Ce week-end', week: 'Cette semaine' };
+  const TABS = { aujourdhui: "Aujourd'hui", semaine: 'Cette semaine', expos: 'Expositions' };
+  const STATUS = { cancelled: 'Annulé', postponed: 'Reporté', sold_out: 'Complet' };
   // Neighbourhood centroids; a venue belongs to the nearest one (client-side, from its lat/lng).
-  // `name` is the short label shown in chips, `full` the tooltip.
   const AREAS = [
     { slug: 'belle-de-mai', name: 'Belle de Mai', full: 'Belle de Mai', lat: 43.311, lng: 5.389 },
     { slug: 'la-plaine', name: 'La Plaine', full: 'La Plaine / Cours Julien', lat: 43.294, lng: 5.383 },
@@ -312,32 +393,31 @@
   for (const u of DATA_URLS) {
     try { const r = await fetch(u, { cache: 'no-store' }); if (r.ok) { data = await r.json(); break; } } catch (e) { /* try next */ }
   }
-  if (!data) { $('grid').innerHTML = '<div class="empty">events.json introuvable</div>'; return; }
+  if (!data) { $('listLead').textContent = 'events.json introuvable'; return; }
 
   const events = data.events;
   const venues = data.venues;
   const venueById = Object.fromEntries(venues.map(v => [v.id, v]));
+  const byUid = new Map(events.map(e => [e.uid, e]));
   const color = (e) => `var(--c-${e.category || 'autre'}, var(--c-autre))`;
   const todayStr = data.today || new Date().toISOString().slice(0, 10);
   const currentMonth = todayStr.slice(0, 7);
 
-  $('updated').innerHTML = `Mis à jour ${new Date(data.generated_at).toLocaleString('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })}. <a href="./events.ics">ICS</a> · <a href="./events.json">JSON</a><span id="credits"></span>`;
+  const generated = new Date(data.generated_at);
+  $('maj').textContent = `maj ${generated.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}`;
+  $('infoUpdated').textContent = `Mis à jour le ${generated.toLocaleDateString('fr-FR', { dateStyle: 'medium' })} à ${generated.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}`;
+  $('lieuxBtn').textContent = `${venues.length} lieux`;
 
-  // Last run report: LLM credits left, cost of the run (informational tooltip).
+  // Last run report: LLM credits left (informational, muted).
   for (const u of ['./report.json', '../data/report.json']) {
     try {
       const r = await fetch(u, { cache: 'no-store' });
       if (!r.ok) continue;
       const rep = await r.json();
-      if (rep.credits_remaining_usd == null) break;
-      const usd = (x) => x.toLocaleString('fr-FR', { style: 'currency', currency: 'USD', maximumFractionDigits: 2 });
-      const tip = [
-        `Crédits OpenRouter restants après le run du ${new Date(rep.run_date).toLocaleDateString('fr-FR')}`,
-        rep.run_cost_usd != null ? `Coût de ce run : ${usd(rep.run_cost_usd)} (${rep.llm_calls} appel${rep.llm_calls > 1 ? 's' : ''} LLM)` : null,
-        `${rep.sources_ok}/${rep.sources_total} lieux OK, ${rep.alerts.length} alerte${rep.alerts.length > 1 ? 's' : ''}`,
-      ].filter(Boolean).join('\n');
-      const low = rep.credits_remaining_usd < 2;
-      $('credits').innerHTML = ` · <span class="credits${low ? ' low' : ''}" title="${esc(tip)}" tabindex="0">${low ? '⚠ ' : ''}crédits LLM : ${usd(rep.credits_remaining_usd)}</span>`;
+      if (rep.credits_remaining_usd != null) {
+        $('infoCredits').textContent = `Crédits LLM restants : ${rep.credits_remaining_usd.toLocaleString('fr-FR', { maximumFractionDigits: 2 })} $`;
+        $('infoCredits').hidden = false;
+      }
       break;
     } catch (e) { /* try next */ }
   }
@@ -346,17 +426,26 @@
   const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
   const dateOf = (k) => new Date(k + 'T00:00:00');
   const dayDiff = (a, b) => Math.round((dateOf(b) - dateOf(a)) / 86400000);
-  const timeLabel = (e) => e.start_time ? e.start_time.slice(0, 5).replace(':', 'h') : '';
-  // Client-side classification of date ranges: single day, short run (bars in the grid), long run (expos view).
+  const hasTime = (e) => !!e.start_time && e.start_time.slice(0, 5) !== '00:00';
+  const hhmm = (t) => t.slice(0, 5).replace(':', 'h');
+  const timeLabel = (e) => hasTime(e) ? hhmm(e.start_time) : '';
+  // Client-side classification of date ranges: single day, short run (bars in the grid), long run (exhibition).
   const spanDays = (e) => e.end_date && e.end_date > e.start_date ? dayDiff(e.start_date, e.end_date) : 0;
   const isRange = (e) => spanDays(e) > 0;
   const isLongRun = (e) => spanDays(e) > LONG_RUN_DAYS;
+  const covers = (e, from, to) => e.start_date <= to && (e.end_date || e.start_date) >= from;
   const thisYear = dateOf(todayStr).getFullYear();
   // Day + month, with the year appended only when it is not the current one.
   const fmtDate = (k) => (dateOf(k).getFullYear() === thisYear ? fmtShort : fmtShortYear).format(dateOf(k));
   const fmtRange = (e) => `du ${fmtDate(e.start_date)} au ${fmtDate(e.end_date)}`;
   const plural = (n, w) => `${n} ${w}${n > 1 ? 's' : ''}`;
+  const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
   function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+  const timeKey = (e) => e.start_time || '99'; // events without a time sort last
+  const byTime = (a, b) => timeKey(a).localeCompare(timeKey(b));
+  const monthBounds = (m) => { const d = dateOf(m + '-01'); return [iso(d), iso(new Date(d.getFullYear(), d.getMonth() + 1, 0))]; };
+  // "Cette semaine": today through next Sunday (through the following Sunday when today is a Sunday).
+  const weekWindow = () => { const t = dateOf(todayStr), dow = (t.getDay() + 6) % 7; return { from: todayStr, to: iso(addDays(t, dow === 6 ? 7 : 6 - dow)) }; };
 
   // ---- Facet data -------------------------------------------------------------------------
 
@@ -387,15 +476,20 @@
 
   // ---- State <-> URL hash -----------------------------------------------------------------
 
-  // Single source of truth. Serialised as #view?when=..&type=a,b&area=..&venue=..,fav&free=1&special=1&nolong=1&q=..&m=YYYY-MM
-  const state = { view: 'agenda', when: null, types: new Set(), areas: new Set(), venues: new Set(), favOnly: false, free: false, special: false, hideLong: false, q: '', month: currentMonth };
+  // Single source of truth. Routes: #liste/aujourdhui | #liste/semaine | #liste/expos | #liste/jour?day=YYYY-MM-DD | #agenda?m=YYYY-MM
+  // Query params: type, area, venue (incl. fav), free, special, q (Liste only), ev (open event), lieux=1 (venues panel).
+  const state = { view: 'liste', tab: 'aujourdhui', day: null, month: currentMonth, types: new Set(), areas: new Set(), venues: new Set(), favOnly: false, free: false, special: false, q: '', ev: null, lieux: false };
 
   function readHash() {
-    const [view, qs = ''] = location.hash.replace(/^#/, '').split('?');
+    const [path, qs = ''] = location.hash.replace(/^#/, '').split('?');
     const p = new URLSearchParams(qs);
     const list = (k) => (p.get(k) || '').split(',').filter(Boolean);
-    state.view = view === 'expos' ? 'expos' : 'agenda';
-    state.when = PRESETS[p.get('when')] ? p.get('when') : null;
+    const [root, sub] = path.split('/');
+    if (root === 'agenda') { state.view = 'agenda'; state.tab = 'aujourdhui'; }
+    else { state.view = 'liste'; state.tab = root === 'expos' ? 'expos' : (TABS[sub] || sub === 'jour') ? sub : 'aujourdhui'; } // legacy #expos
+    state.day = state.tab === 'jour' && /^\d{4}-\d{2}-\d{2}$/.test(p.get('day') || '') ? p.get('day') : null;
+    if (state.tab === 'jour' && !state.day) state.tab = 'aujourdhui';
+    if (state.day === todayStr) { state.tab = 'aujourdhui'; state.day = null; }
     state.types = new Set(list('type').filter(t => typeOptions.includes(t)));
     state.areas = new Set(list('area').filter(a => areaOptions.some(o => o.slug === a)));
     const vs = list('venue');
@@ -403,75 +497,65 @@
     state.venues = new Set(vs.filter(id => venueById[id]));
     state.free = p.get('free') === '1';
     state.special = p.get('special') === '1';
-    state.hideLong = p.get('nolong') === '1';
-    state.q = p.get('q') || '';
+    state.q = state.view === 'liste' ? (p.get('q') || '') : '';
     state.month = /^\d{4}-\d{2}$/.test(p.get('m') || '') ? p.get('m') : currentMonth;
+    state.ev = byUid.has(p.get('ev')) ? p.get('ev') : null;
+    state.lieux = p.get('lieux') === '1';
   }
 
-  function writeHash() {
+  // `push` adds a history entry (view / tab / panel navigation); facet tweaks replace the current one.
+  function writeHash(push = false) {
     const p = new URLSearchParams();
-    if (state.when) p.set('when', state.when);
     if (state.types.size) p.set('type', [...state.types].join(','));
     if (state.areas.size) p.set('area', [...state.areas].join(','));
     const vs = [...state.venues]; if (state.favOnly) vs.push('fav');
     if (vs.length) p.set('venue', vs.join(','));
     if (state.free) p.set('free', '1');
     if (state.special) p.set('special', '1');
-    if (state.hideLong) p.set('nolong', '1');
-    if (state.q) p.set('q', state.q);
-    if (state.month !== currentMonth) p.set('m', state.month);
+    if (state.view === 'liste' && state.q) p.set('q', state.q);
+    if (state.view === 'liste' && state.tab === 'jour') p.set('day', state.day);
+    if (state.view === 'agenda' && state.month !== currentMonth) p.set('m', state.month);
+    if (state.ev) p.set('ev', state.ev);
+    if (state.lieux) p.set('lieux', '1');
     const qs = p.toString().replace(/%2C/g, ',');
-    const hash = state.view === 'expos' || qs ? `#${state.view}${qs ? '?' + qs : ''}` : '';
-    history.replaceState(null, '', location.pathname + location.search + hash);
+    const path = state.view === 'agenda' ? 'agenda' : `liste/${state.tab}`;
+    const url = `${location.pathname}${location.search}#${path}${qs ? '?' + qs : ''}`;
+    if (push) history.pushState(null, '', url); else history.replaceState(null, '', url);
   }
 
-  const hasFilters = () => !!(state.when || state.types.size || state.areas.size || state.venues.size || state.favOnly || state.free || state.special || state.hideLong || state.q);
-  const level2Count = () => state.areas.size + state.venues.size + (state.free ? 1 : 0) + (state.special ? 1 : 0) + (state.hideLong ? 1 : 0);
+  const hasFilters = () => !!(state.types.size || state.areas.size || state.venues.size || state.favOnly || state.free || state.special || (state.view === 'liste' && state.q));
+  const level2Count = () => state.areas.size + state.venues.size + (state.free ? 1 : 0) + (state.special ? 1 : 0);
   const toggle = (set, v) => { set.has(v) ? set.delete(v) : set.add(v); };
-  const commit = () => { writeHash(); render(); };
+  const commit = (push = false) => { writeHash(push); render(); };
+  // Navigation (view, sub-tab, day): new history entry, scroll back to the top.
+  const goto = (patch) => { Object.assign(state, patch); commit(true); $('main').scrollTop = 0; };
 
   // ---- Filtering --------------------------------------------------------------------------
 
-  // Window of a time preset as inclusive ISO dates. `eve` is the Friday whose evening counts as week-end.
-  function presetWindow(when) {
-    const t = dateOf(todayStr), dow = (t.getDay() + 6) % 7; // 0 = Monday
-    if (when === 'tonight') return { from: todayStr, to: todayStr };
-    if (when === 'weekend') { const sat = addDays(t, dow === 6 ? -1 : 5 - dow); return { from: iso(sat), to: iso(addDays(sat, 1)), eve: iso(addDays(sat, -1)) }; }
-    if (when === 'week') return { from: todayStr, to: iso(addDays(t, dow === 6 ? 7 : 6 - dow)) };
-    return null;
-  }
-  // An event matches a preset when [start_date, end_date] intersects the window (plus the preset's time rules).
-  function matchesWhen(e, when) {
-    const w = presetWindow(when);
-    if (!w) return true;
-    const inWindow = e.start_date <= w.to && (e.end_date || e.start_date) >= w.from;
-    if (when === 'tonight') return inWindow && (isRange(e) || !e.start_time || e.start_time >= '17:00');
-    if (when === 'weekend') return inWindow || (e.start_date === w.eve && !!e.start_time && e.start_time >= '18:00');
-    return inWindow;
-  }
   // Venue facet: explicit venues, plus every favourite when "Mes lieux" is on.
   function venueSet(s) { const set = new Set(s.venues); if (s.favOnly) for (const id of favorites) set.add(id); return set; }
-  // AND between facets, OR inside a facet. Empty facet = no constraint.
+  // AND between facets, OR inside a facet. Empty facet = no constraint. Search only exists in the Liste view.
   function applyFilters(list, s = state) {
-    const vset = venueSet(s), q = fold(s.q);
+    const vset = venueSet(s), q = s.view === 'liste' ? fold(s.q) : '';
     return list.filter(e =>
-      (!s.when || matchesWhen(e, s.when)) &&
       (!s.types.size || s.types.has(e.category || 'autre')) &&
       (!s.areas.size || s.areas.has(venueArea[e.venue_id])) &&
       (!vset.size || vset.has(e.venue_id)) &&
       (!s.free || e.free === true) &&
       (!s.special || e._special) &&
-      (!s.hideLong || s.view === 'expos' || !isLongRun(e)) &&
       (!q || e._q.includes(q)));
   }
-  // What the current view can actually display: expos view = long runs still open; month grid = everything but
-  // long runs; day list (preset active) = everything.
+  // What the current view / sub-tab can actually display. Every count on the page is "what you would see".
   function scoped(list, s = state) {
-    if (s.view === 'expos') return list.filter(e => isLongRun(e) && e.end_date >= todayStr);
-    return s.when ? list : list.filter(e => !isLongRun(e));
+    if (s.view === 'agenda') { const [ms, me] = monthBounds(s.month); return list.filter(e => !isLongRun(e) && covers(e, ms, me)); }
+    if (s.tab === 'expos') return list.filter(e => isLongRun(e) && e.end_date >= todayStr);
+    if (s.tab === 'semaine') { const w = weekWindow(); return list.filter(e => !isLongRun(e) && covers(e, w.from, w.to)); }
+    const d = s.tab === 'jour' ? s.day : todayStr;
+    return list.filter(e => !isLongRun(e) && covers(e, d, d));
   }
+  const visible = (s = state) => scoped(applyFilters(events, s), s);
   // Live count of an option: all other facets as they are, this facet replaced by the option.
-  const countWith = (patch) => { const s = { ...state, ...patch }; return scoped(applyFilters(events, s), s).length; };
+  const countWith = (patch) => visible({ ...state, ...patch }).length;
 
   // ---- Rendering helpers ------------------------------------------------------------------
 
@@ -500,10 +584,30 @@
     b.querySelector('.k').textContent = count;
   }
 
-  function renderPresets() {
-    syncNodes($('presets'), Object.keys(PRESETS),
-      (k) => chipNode('preset', esc(PRESETS[k]), () => { state.when = state.when === k ? null : k; commit(); }),
-      (b, k) => setChipState(b, state.when === k, countWith({ when: k })));
+  function renderTabs() {
+    document.body.dataset.view = state.view;
+    for (const t of document.querySelectorAll('#tabs .tab')) {
+      const on = t.dataset.view === state.view;
+      t.classList.toggle('on', on);
+      t.setAttribute('aria-selected', on);
+    }
+  }
+
+  function renderSubtabs() {
+    syncNodes($('subtabs'), Object.keys(TABS),
+      (k) => {
+        const b = document.createElement('button');
+        b.type = 'button'; b.setAttribute('role', 'tab');
+        b.innerHTML = `${esc(TABS[k])}${k === 'expos' ? '<span class="count"></span>' : ''}`;
+        b.onclick = () => goto({ tab: k, day: null });
+        return b;
+      },
+      (b, k) => {
+        const on = state.tab === k;
+        b.classList.toggle('on', on);
+        b.setAttribute('aria-selected', on);
+        if (k === 'expos') b.querySelector('.count').textContent = countWith({ view: 'liste', tab: 'expos' });
+      });
   }
 
   function renderTypes() {
@@ -527,12 +631,10 @@
     l.firstChild.onchange = onChange;
     return l;
   }
-  function setOptState(l, on, count, disabled = false) {
+  function setOptState(l, on, count) {
     l.classList.toggle('on', on);
     l.classList.toggle('muted', !count);
-    l.classList.toggle('disabled', disabled);
     l.firstChild.checked = on;
-    l.firstChild.disabled = disabled;
     l.querySelector('.k').textContent = count;
   }
 
@@ -546,11 +648,10 @@
     const MORE = {
       free: ['Gratuit', () => { state.free = !state.free; commit(); }, () => countWith({ free: true })],
       special: ['Séances spéciales', () => { state.special = !state.special; commit(); }, () => countWith({ special: true })],
-      hideLong: ['Masquer les expos', () => { state.hideLong = !state.hideLong; commit(); }, () => countWith({ hideLong: true })],
     };
     syncNodes($('moreOpts'), Object.keys(MORE),
       (k) => optNode(esc(MORE[k][0]), MORE[k][1]),
-      (l, k) => setOptState(l, state[k], MORE[k][2](), k === 'hideLong' && state.view === 'expos'));
+      (l, k) => setOptState(l, state[k], MORE[k][2]()));
   }
 
   // Venue combobox: a text input narrowing the list below, arrow keys + Enter, stars for favourites.
@@ -561,6 +662,14 @@
     saveFavorites();
     if (!favorites.size) state.favOnly = false;
     commit();
+  }
+  const starLabel = (id) => favorites.has(id) ? `Retirer ${venueById[id].name} de mes lieux` : `Ajouter ${venueById[id].name} à mes lieux`;
+  function setStar(btn, id) {
+    const fav = favorites.has(id);
+    btn.textContent = fav ? '\u2605' : '\u2606';
+    btn.classList.toggle('on', fav);
+    btn.setAttribute('aria-pressed', fav);
+    btn.setAttribute('aria-label', starLabel(id));
   }
   function venueRow(id) {
     const v = venueById[id];
@@ -575,17 +684,13 @@
     return li;
   }
   function setVenueRowState(li, id) {
-    const v = venueById[id], fav = favorites.has(id), on = state.venues.has(id);
+    const v = venueById[id], on = state.venues.has(id);
     const count = countWith({ venues: new Set([id]), favOnly: false });
     li.hidden = !!venueQuery && !fold(v.name).includes(venueQuery);
     li.classList.toggle('muted', !count);
     li.setAttribute('aria-selected', on);
     li.querySelector('.k').textContent = count;
-    const star = li.firstChild;
-    star.textContent = fav ? '\u2605' : '\u2606';
-    star.classList.toggle('on', fav);
-    star.setAttribute('aria-pressed', fav);
-    star.setAttribute('aria-label', fav ? `Retirer ${v.name} de mes lieux` : `Ajouter ${v.name} à mes lieux`);
+    setStar(li.firstChild, id);
   }
   function highlightVenue() {
     const rows = visibleVenueRows();
@@ -609,13 +714,7 @@
         t.lastChild.onclick = () => { state.venues.delete(id); commit(); };
         return t;
       },
-      (t, id) => {
-        const fav = favorites.has(id);
-        t.firstChild.textContent = fav ? '\u2605' : '\u2606';
-        t.firstChild.classList.toggle('on', fav);
-        t.firstChild.setAttribute('aria-label', fav ? `Retirer ${venueById[id].name} de mes lieux` : `Ajouter ${venueById[id].name} à mes lieux`);
-        t.querySelector('.k').textContent = countWith({ venues: new Set([id]), favOnly: false });
-      });
+      (t, id) => { setStar(t.firstChild, id); t.querySelector('.k').textContent = countWith({ venues: new Set([id]), favOnly: false }); });
   }
   $('venueQ').oninput = (ev) => { venueQuery = fold(ev.target.value); venueActive = venueQuery ? 0 : -1; renderVenues(); };
   $('venueQ').onkeydown = (ev) => {
@@ -627,15 +726,13 @@
 
   function renderRecap() {
     const tags = [];
-    if (state.when) tags.push([PRESETS[state.when], () => { state.when = null; }]);
     for (const t of state.types) tags.push([CATEGORIES[t] || t, () => state.types.delete(t)]);
     for (const a of state.areas) tags.push([areaName(a), () => state.areas.delete(a)]);
     if (state.favOnly) tags.push(['Mes lieux', () => { state.favOnly = false; }]);
     for (const id of state.venues) tags.push([venueById[id].name, () => state.venues.delete(id)]);
     if (state.free) tags.push(['Gratuit', () => { state.free = false; }]);
     if (state.special) tags.push(['Séances spéciales', () => { state.special = false; }]);
-    if (state.hideLong) tags.push(['Sans les expos', () => { state.hideLong = false; }]);
-    if (state.q) tags.push([`« ${state.q} »`, () => { state.q = ''; $('q').value = ''; }]);
+    if (state.view === 'liste' && state.q) tags.push([`« ${state.q} »`, () => { state.q = ''; $('q').value = ''; }]);
     const box = $('recap');
     box.hidden = !tags.length;
     box.innerHTML = '';
@@ -650,26 +747,25 @@
       b.onclick = () => { remove(); commit(); };
       box.appendChild(b);
     }
-    const clear = document.createElement('button'); clear.type = 'button'; clear.className = 'clear'; clear.textContent = 'Tout effacer'; clear.onclick = clearAll; box.appendChild(clear);
+    const clear = document.createElement('button'); clear.type = 'button'; clear.className = 'lnk clear'; clear.textContent = 'Tout effacer'; clear.onclick = clearAll; box.appendChild(clear);
   }
 
   function clearAll() {
-    state.when = null; state.types.clear(); state.areas.clear(); state.venues.clear(); state.favOnly = false;
-    state.free = state.special = state.hideLong = false; state.q = '';
+    state.types.clear(); state.areas.clear(); state.venues.clear(); state.favOnly = false;
+    state.free = state.special = false; state.q = '';
     $('q').value = ''; $('venueQ').value = ''; venueQuery = ''; venueActive = -1;
     commit();
   }
 
-  function renderCount(n) {
-    const active = hasFilters();
-    $('count').textContent = active ? (n ? plural(n, 'événement') : 'Aucun événement') : `${events.length} événements, ${venues.length} lieux.`;
-    $('count').classList.toggle('on', active);
-    $('sheetApply').textContent = n ? `Voir ${plural(n, 'événement')}` : 'Aucun événement';
-    $('fcount').textContent = level2Count();
-    $('filtersBtn').classList.toggle('on', level2Count() > 0);
+  function renderFiltersBtn() {
+    const n = level2Count();
+    $('fcount').textContent = n;
+    $('filtersBtn').classList.toggle('on', n > 0);
+    const shown = visible().length;
+    $('sheetApply').textContent = shown ? `Voir ${plural(shown, 'événement')}` : 'Aucun événement';
   }
 
-  // ---- Event nodes and views --------------------------------------------------------------
+  // ---- Visuals and the card component ----------------------------------------------------
 
   // Visuals are published as paths relative to the site directory (img/<uid>.webp), so resolve against the page URL.
   const imageUrl = (e) => e.image ? new URL(e.image, location.href).href : null;
@@ -690,135 +786,10 @@
     img.loading = 'lazy';
     img.decoding = 'async';
     img.alt = e.title;
-    img.onerror = () => {
-      if (!optional) { wrap.replaceWith(placeholderNode(cls)); return; }
-      const row = wrap.parentElement;
-      wrap.remove();
-      if (row) row.classList.remove('thumbed');
-    };
+    img.onerror = () => { optional ? wrap.remove() : wrap.replaceWith(placeholderNode(cls)); };
     img.src = url;
     wrap.appendChild(img);
     return wrap;
-  }
-
-  // `venue` appends the venue name; `thumb` prepends a square thumbnail when the event has a visual (lists only).
-  function evNode(e, { venue = false, thumb = false } = {}) {
-    const n = document.createElement('div');
-    n.className = 'ev' + (e.status === 'cancelled' ? ' cancelled' : '');
-    n.style.setProperty('--c', color(e));
-    n.title = `${e.venue_name} - ${e.title}`;
-    const label = isRange(e) ? `jusqu'au ${fmtDate(e.end_date)}` : timeLabel(e);
-    n.innerHTML = `<span class="pin"></span>${label ? `<span class="t">${esc(label)}</span>` : ''}<span class="n">${esc(e.title)}</span>${venue ? `<span class="v">${esc(e.venue_name)}</span>` : ''}`;
-    const th = thumb ? visualNode(e, 'th', true) : null;
-    if (th) { n.prepend(th); n.classList.add('thumbed'); }
-    n.onclick = () => openPanel(e);
-    return n;
-  }
-
-  // One segment of a multi-day bar inside a week row: columns c0..c1 (0 = Monday), stacked at `row`.
-  function barNode(e, row, c0, c1, isStart, isEnd) {
-    const n = document.createElement('div');
-    n.className = 'bar' + (isStart ? ' s' : '') + (isEnd ? ' e' : '') + (e.status === 'cancelled' ? ' cancelled' : '');
-    n.style.setProperty('--c', color(e));
-    n.style.setProperty('--row', row);
-    n.style.setProperty('--c0', c0);
-    n.style.setProperty('--span', c1 - c0 + 1);
-    n.title = `${e.venue_name} - ${e.title} (${fmtRange(e)})`;
-    // The title is repeated on every segment; only the start segment carries the dot, continuations render it muted.
-    n.innerHTML = `${isStart ? '<span class="pin"></span>' : ''}<span class="n">${esc(e.title)}</span>`;
-    n.onclick = () => openPanel(e);
-    return n;
-  }
-
-  // Greedy row assignment: first row whose columns are free, so bars never overlap within a week.
-  function layoutBars(week, bars, weekStartKey, weekEndKey) {
-    const rows = [];
-    const sorted = [...bars].sort((a, b) => a.start_date.localeCompare(b.start_date) || spanDays(b) - spanDays(a) || (a.start_time || '').localeCompare(b.start_time || ''));
-    for (const e of sorted) {
-      const c0 = e.start_date < weekStartKey ? 0 : dayDiff(weekStartKey, e.start_date);
-      const c1 = e.end_date > weekEndKey ? 6 : dayDiff(weekStartKey, e.end_date);
-      let r = rows.findIndex(row => !row.slice(c0, c1 + 1).some(Boolean));
-      if (r < 0) { r = rows.length; rows.push(Array(7).fill(false)); }
-      for (let c = c0; c <= c1; c++) rows[r][c] = true;
-      week.appendChild(barNode(e, r, c0, c1, e.start_date >= weekStartKey, e.end_date <= weekEndKey));
-    }
-    week.style.setProperty('--bars', rows.length);
-  }
-
-  const byTime = (a, b) => (a.start_time || '').localeCompare(b.start_time || '');
-
-  // Month grid (desktop) + month list (mobile) for the events of state.month. `evs` holds no long run.
-  function renderMonth(evs) {
-    const cursor = dateOf(state.month + '-01');
-    const y = cursor.getFullYear(), m = cursor.getMonth();
-    $('month').textContent = fmtMonth.format(cursor);
-    const first = new Date(y, m, 1);
-    const start = addDays(first, -((first.getDay() + 6) % 7));
-    const monthStart = iso(first), monthEnd = iso(new Date(y, m + 1, 0));
-    const weeks = Math.ceil((((first.getDay() + 6) % 7) + new Date(y, m + 1, 0).getDate()) / 7);
-    const single = evs.filter(e => !isRange(e));
-    const shortRuns = evs.filter(e => isRange(e));
-    const byDay = {};
-    for (const e of single) (byDay[e.start_date] ||= []).push(e);
-
-    const grid = $('grid');
-    grid.innerHTML = `<div class="dows">${DOW.map(d => `<div class="dow">${d}</div>`).join('')}</div>`;
-    for (let w = 0; w < weeks; w++) {
-      const ws = addDays(start, w * 7), wsKey = iso(ws), weKey = iso(addDays(ws, 6));
-      const week = document.createElement('div');
-      week.className = 'week';
-      for (let i = 0; i < 7; i++) {
-        const d = addDays(ws, i), k = iso(d);
-        const cell = document.createElement('div');
-        cell.className = 'cell' + (d.getMonth() !== m ? ' out' : '') + (k === todayStr ? ' today' : '');
-        cell.innerHTML = `<div class="d">${d.getDate()}</div><div class="list"></div>`;
-        const list = cell.lastChild;
-        for (const e of (byDay[k] || []).sort(byTime)) list.appendChild(evNode(e));
-        week.appendChild(cell);
-      }
-      layoutBars(week, shortRuns.filter(e => e.start_date <= weKey && e.end_date >= wsKey), wsKey, weKey);
-      grid.appendChild(week);
-    }
-
-    // Mobile list: short runs are listed once, on their first day within the month.
-    const ag = $('agenda');
-    ag.innerHTML = '';
-    const agDays = {};
-    for (const k of Object.keys(byDay)) if (k >= monthStart && k <= monthEnd) agDays[k] = [...byDay[k]];
-    for (const e of shortRuns) {
-      if (e.start_date > monthEnd || e.end_date < monthStart) continue;
-      (agDays[e.start_date < monthStart ? monthStart : e.start_date] ||= []).push(e);
-    }
-    const days = Object.keys(agDays).sort();
-    if (!days.length) ag.innerHTML = `<div class="empty">${hasFilters() ? 'Rien ce mois-ci avec ces filtres' : 'Rien ce mois-ci'}</div>`;
-    for (const k of days) {
-      const h = document.createElement('h3'); h.textContent = fmtDay.format(dateOf(k)); ag.appendChild(h);
-      const sorted = agDays[k].sort((a, b) => (isRange(b) - isRange(a)) || byTime(a, b));
-      for (const e of sorted) ag.appendChild(evNode(e, { thumb: true }));
-    }
-  }
-
-  // Compact list grouped by day for a time preset. Long runs and ranges that started before the window go last,
-  // under "Expos & en cours", so the evening's actual events come first.
-  function renderDayList(evs, w) {
-    const ag = $('agenda');
-    ag.innerHTML = '';
-    const byDay = {}, running = [];
-    for (const e of evs) {
-      if (isLongRun(e) || (isRange(e) && e.start_date < w.from)) running.push(e);
-      else (byDay[e.start_date] ||= []).push(e);
-    }
-    const days = Object.keys(byDay).sort();
-    if (!days.length && !running.length) { ag.innerHTML = `<div class="empty">Rien pour « ${esc(PRESETS[state.when])} » avec ces filtres</div>`; return; }
-    for (const k of days) {
-      const h = document.createElement('h3'); h.textContent = fmtDay.format(dateOf(k)); ag.appendChild(h);
-      const sorted = byDay[k].sort((a, b) => (isRange(b) - isRange(a)) || byTime(a, b));
-      for (const e of sorted) ag.appendChild(evNode(e, { venue: true, thumb: true }));
-    }
-    if (running.length) {
-      const h = document.createElement('h3'); h.textContent = 'Expos & en cours'; h.style.textTransform = 'none'; ag.appendChild(h);
-      for (const e of running.sort((a, b) => a.end_date.localeCompare(b.end_date))) ag.appendChild(evNode(e, { venue: true, thumb: true }));
-    }
   }
 
   // "termine dans N jours" / "commence le ..." hint for a long run, relative to today.
@@ -830,60 +801,282 @@
     return { text: `termine dans ${toEnd} jours`, cls: toEnd <= LONG_RUN_DAYS ? 'soon' : '' };
   }
 
-  function cardNode(e) {
+  // Date / time line of a card. Exhibitions show their range; day cards show the time, then the event type or "gratuit".
+  function cardWhen(e, ctx) {
+    if (ctx === 'expos') return fmtRange(e);
+    const bits = [];
+    if (hasTime(e)) bits.push(timeLabel(e));
+    if (isRange(e)) bits.push(`jusqu'au ${fmtDate(e.end_date)}`);
+    const extra = e.event_type || (e.free === true ? 'gratuit' : null);
+    if (extra) bits.push(extra);
+    return bits.join(' · ');
+  }
+
+  // The single card component, used by every Liste sub-tab and by the mobile agenda.
+  function cardNode(e, ctx) {
     const n = document.createElement('article');
     n.className = 'card' + (e.status === 'cancelled' ? ' cancelled' : '');
     n.style.setProperty('--c', color(e));
-    const hint = runHint(e);
+    const when = cardWhen(e, ctx);
+    const hint = ctx === 'expos' ? runHint(e) : (STATUS[e.status] ? { text: STATUS[e.status], cls: 'soon' } : null);
     n.innerHTML = `<div class="body">
       <div class="venue"><span class="pin"></span>${esc(e.venue_name)}</div>
       <div class="title">${esc(e.title)}</div>
-      <div class="dates">${esc(fmtRange(e))}</div>
-      <div class="hint ${hint.cls}">${esc(hint.text)}</div>
+      ${when ? `<div class="dates">${esc(when)}</div>` : ''}
+      ${hint ? `<div class="hintline ${hint.cls}">${esc(hint.text)}</div>` : ''}
       ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(new URL(e.url).hostname)}</a>` : ''}</div>`;
     n.prepend(visualNode(e, 'banner'));
     n.onclick = (ev) => { if (ev.target.closest('a')) return; openPanel(e); };
     return n;
   }
+  function cardsGrid(list, ctx) {
+    const g = document.createElement('div');
+    g.className = 'cards';
+    for (const e of list) g.appendChild(cardNode(e, ctx));
+    return g;
+  }
+  function groupHeading(text) { const h = document.createElement('h3'); h.className = 'group'; h.textContent = text; return h; }
 
-  function renderExpos(longRuns) {
-    const box = $('expos');
-    box.innerHTML = '';
-    $('exposCount').textContent = longRuns.length;
-    if (!longRuns.length) { box.innerHTML = `<div class="empty">${hasFilters() ? 'Aucune exposition ni événement au long cours avec ces filtres' : 'Aucune exposition ni événement au long cours pour le moment'}</div>`; return; }
-    // Soonest ending first, so what is about to close surfaces at the top.
-    const sorted = [...longRuns].sort((a, b) => a.end_date.localeCompare(b.end_date) || a.start_date.localeCompare(b.start_date) || a.title.localeCompare(b.title));
-    for (const e of sorted) box.appendChild(cardNode(e));
+  // ---- Liste view -------------------------------------------------------------------------
+
+  function renderListe() {
+    const evs = visible();
+    const lead = $('listLead'), body = $('listBody'), more = $('listMore');
+    body.innerHTML = '';
+    more.hidden = true;
+    if (state.tab === 'expos') renderExposTab(evs, lead, body);
+    else if (state.tab === 'semaine') renderWeekTab(evs, lead, body);
+    else renderDayTab(evs, state.tab === 'jour' ? state.day : todayStr, lead, body);
+    if (state.tab !== 'expos') renderMoreExpos(more);
   }
 
-  function renderTabs() {
-    document.body.dataset.view = state.view;
-    document.body.toggleAttribute('data-list', !!state.when);
-    for (const t of document.querySelectorAll('#tabs .tab')) {
-      const on = t.dataset.view === state.view;
-      t.classList.toggle('on', on);
-      t.setAttribute('aria-selected', on);
+  function renderDayTab(evs, day, lead, body) {
+    lead.textContent = `${cap(fmtDay.format(dateOf(day)))}, ${evs.length ? plural(evs.length, 'événement') : 'aucun événement'}`;
+    body.appendChild(evs.length ? cardsGrid([...evs].sort(byTime), 'day') : emptyDay(day));
+  }
+
+  // Empty day: say so, point to the next event in these venues, offer the week.
+  function emptyDay(day) {
+    const box = document.createElement('div');
+    box.className = 'empty';
+    const next = applyFilters(events).filter(e => !isLongRun(e) && e.start_date > day).sort((a, b) => a.start_date.localeCompare(b.start_date) || byTime(a, b))[0];
+    let html = `<p>${day === todayStr ? "Rien aujourd'hui" : 'Rien ce jour-là'} dans ces lieux.</p>`;
+    if (next) {
+      const rel = dayDiff(day, next.start_date) === 1 ? 'demain' : fmtDay.format(dateOf(next.start_date));
+      html += `<p>Prochain event : ${esc(rel)}, <button type="button" class="lnk" id="nextEv">${esc(next.title)}</button>${hasTime(next) ? ` (${timeLabel(next)})` : ''}</p>`;
     }
+    html += '<p><button type="button" id="goWeek">Voir cette semaine</button></p>';
+    box.innerHTML = html;
+    box.querySelector('#goWeek').onclick = () => goto({ tab: 'semaine', day: null });
+    if (next) box.querySelector('#nextEv').onclick = () => openPanel(next);
+    return box;
+  }
+
+  function renderWeekTab(evs, lead, body) {
+    const w = weekWindow(), from = dateOf(w.from), to = dateOf(w.to);
+    const range = from.getMonth() === to.getMonth() ? `du ${from.getDate()} au ${to.getDate()} ${fmtMonthLong.format(to)}` : `du ${fmtDate(w.from)} au ${fmtDate(w.to)}`;
+    lead.textContent = `${evs.length ? plural(evs.length, 'événement') : 'Aucun événement'} ${range}`;
+    // Short ranges appear once, on their first day inside the window.
+    const byDay = {};
+    for (const e of evs) (byDay[e.start_date < w.from ? w.from : e.start_date] ||= []).push(e);
+    const days = Object.keys(byDay).sort();
+    if (!days.length) { body.innerHTML = '<div class="empty"><p>Rien cette semaine dans ces lieux.</p></div>'; return; }
+    for (const k of days) {
+      body.appendChild(groupHeading(cap(fmtDayNum.format(dateOf(k)))));
+      body.appendChild(cardsGrid(byDay[k].sort(byTime), 'day'));
+    }
+  }
+
+  function renderExposTab(evs, lead, body) {
+    const running = evs.filter(e => e.start_date <= todayStr).sort((a, b) => a.end_date.localeCompare(b.end_date) || a.start_date.localeCompare(b.start_date) || a.title.localeCompare(b.title));
+    const upcoming = evs.filter(e => e.start_date > todayStr).sort((a, b) => a.start_date.localeCompare(b.start_date) || a.title.localeCompare(b.title));
+    lead.textContent = evs.length ? `${plural(evs.length, 'exposition')} et événements au long cours` : 'Aucune exposition';
+    if (!evs.length) { body.innerHTML = '<div class="empty"><p>Aucune exposition en cours ni à venir dans ces lieux.</p></div>'; return; }
+    if (running.length) { body.appendChild(groupHeading(`En cours (${running.length})`)); body.appendChild(cardsGrid(running, 'expos')); }
+    if (upcoming.length) { body.appendChild(groupHeading(`À venir (${upcoming.length})`)); body.appendChild(cardsGrid(upcoming, 'expos')); }
+  }
+
+  // Discreet link to the exhibitions, under the day / week lists.
+  function renderMoreExpos(more) {
+    const all = applyFilters(events);
+    const running = all.filter(e => isLongRun(e) && e.start_date <= todayStr && e.end_date >= todayStr).length;
+    const upcoming = all.filter(e => isLongRun(e) && e.start_date > todayStr).length;
+    const n = running || upcoming;
+    if (!n) return;
+    more.hidden = false;
+    more.innerHTML = '';
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'lnk';
+    b.textContent = `+ ${plural(n, 'exposition')} ${running ? 'en cours' : 'à venir'}`;
+    b.onclick = () => goto({ tab: 'expos', day: null });
+    more.appendChild(b);
+  }
+
+  // ---- Agenda view: month grid (desktop) and mini-month (mobile) -------------------------
+
+  function evNode(e, row) {
+    const n = document.createElement('div');
+    n.className = 'ev' + (e.status === 'cancelled' ? ' cancelled' : '');
+    n.style.setProperty('--c', color(e));
+    n.style.gridRow = row + 1;
+    n.title = `${e.venue_name} - ${e.title}`;
+    const t = timeLabel(e);
+    n.innerHTML = `<span class="pin"></span>${t ? `<span class="t">${esc(t)}</span>` : ''}<span class="n">${esc(e.title)}</span>`;
+    n.onclick = () => openPanel(e);
+    return n;
+  }
+  // "+N" chip in the last slot of an overflowing day: opens that day in the Liste view.
+  function moreNode(dayKey, n, row) {
+    const c = document.createElement('button');
+    c.type = 'button';
+    c.className = 'ev more';
+    c.style.gridRow = row + 1;
+    c.textContent = `+${n}`;
+    c.setAttribute('aria-label', `${n} événements de plus le ${fmtDate(dayKey)}`);
+    c.onclick = () => gotoDay(dayKey);
+    return c;
+  }
+  const gotoDay = (k) => goto(k === todayStr ? { view: 'liste', tab: 'aujourdhui', day: null } : { view: 'liste', tab: 'jour', day: k });
+
+  // One segment of a multi-day bar inside a week row: columns c0..c1 (0 = Monday), stacked at `row`.
+  function barNode(e, row, c0, c1, isStart, isEnd) {
+    const n = document.createElement('div');
+    n.className = 'bar' + (isStart ? ' s' : '') + (isEnd ? ' e' : '') + (e.status === 'cancelled' ? ' cancelled' : '') + (e.end_date < todayStr ? ' past' : '');
+    n.style.setProperty('--c', color(e));
+    n.style.setProperty('--row', row);
+    n.style.setProperty('--c0', c0);
+    n.style.setProperty('--span', c1 - c0 + 1);
+    n.title = `${e.venue_name} - ${e.title} (${fmtRange(e)})`;
+    // The title is repeated on every segment; only the start segment carries the dot, continuations render it muted.
+    n.innerHTML = `${isStart ? '<span class="pin"></span>' : ''}<span class="n">${esc(e.title)}</span>`;
+    n.onclick = () => openPanel(e);
+    return n;
+  }
+
+  // Greedy row assignment for the bars of one week: first row whose columns are free. Returns the placements
+  // and the occupancy matrix (rows x 7 columns) the single events then fill around.
+  function layoutBars(bars, weekStartKey, weekEndKey) {
+    const rows = [], placed = [];
+    const sorted = [...bars].sort((a, b) => a.start_date.localeCompare(b.start_date) || spanDays(b) - spanDays(a) || byTime(a, b));
+    for (const e of sorted) {
+      const c0 = e.start_date < weekStartKey ? 0 : dayDiff(weekStartKey, e.start_date);
+      const c1 = e.end_date > weekEndKey ? 6 : dayDiff(weekStartKey, e.end_date);
+      let r = rows.findIndex(row => !row.slice(c0, c1 + 1).some(Boolean));
+      if (r < 0) { r = rows.length; rows.push(Array(7).fill(false)); }
+      for (let c = c0; c <= c1; c++) rows[r][c] = true;
+      placed.push({ e, r, c0, c1 });
+    }
+    return { rows, placed };
+  }
+
+  // Month grid with a per-week slot model: bars take their rows first, then each day's events fill the free
+  // slots of their column from the top. Slot count follows the available height; overflow becomes a "+N" chip.
+  function renderGrid(evs) {
+    const cursor = dateOf(state.month + '-01');
+    const y = cursor.getFullYear(), m = cursor.getMonth();
+    const first = new Date(y, m, 1);
+    const start = addDays(first, -((first.getDay() + 6) % 7));
+    const weeks = Math.ceil((((first.getDay() + 6) % 7) + new Date(y, m + 1, 0).getDate()) / 7);
+    const grid = $('grid');
+    grid.innerHTML = `<div class="dows">${DOW.map(d => `<div class="dow">${d}</div>`).join('')}</div>`;
+    const weekH = Math.max(0, (grid.clientHeight - 28) / weeks);
+    const SLOTS = Math.max(2, Math.floor((weekH - 27) / SLOT_H));
+    grid.style.setProperty('--slots', SLOTS);
+    const byDay = {};
+    for (const e of evs.filter(e => !isRange(e))) (byDay[e.start_date] ||= []).push(e);
+    const bars = evs.filter(isRange);
+
+    for (let w = 0; w < weeks; w++) {
+      const ws = addDays(start, w * 7), wsKey = iso(ws), weKey = iso(addDays(ws, 6));
+      const week = document.createElement('div');
+      week.className = 'week';
+      const { rows, placed } = layoutBars(bars.filter(e => covers(e, wsKey, weKey)), wsKey, weKey);
+      // Bars beyond the penultimate slot are not drawn: the last slot stays free for events or the "+N" chip.
+      const drawn = placed.filter(b => b.r <= SLOTS - 2);
+      for (let i = 0; i < 7; i++) {
+        const d = addDays(ws, i), k = iso(d);
+        const cell = document.createElement('div');
+        cell.className = 'cell' + (d.getMonth() !== m ? ' out' : '') + (k === todayStr ? ' today' : '') + (k < todayStr ? ' past' : '') + (i >= 5 ? ' we' : '');
+        cell.innerHTML = `<div class="d">${d.getDate()}</div><div class="slots"></div>`;
+        const slots = cell.lastChild;
+        const list = (byDay[k] || []).sort(byTime);
+        const covering = placed.filter(b => b.c0 <= i && i <= b.c1).length;
+        const shownBars = drawn.filter(b => b.c0 <= i && i <= b.c1).length;
+        const total = covering + list.length;
+        const overflow = total > SLOTS || shownBars < covering;
+        const limit = overflow ? SLOTS - 1 : SLOTS;
+        let r = 0, shown = 0;
+        for (const e of list) {
+          while (r < limit && rows[r] && rows[r][i]) r++;
+          if (r >= limit) break;
+          slots.appendChild(evNode(e, r));
+          r++; shown++;
+        }
+        if (overflow) slots.appendChild(moreNode(k, total - shownBars - shown, SLOTS - 1));
+        week.appendChild(cell);
+      }
+      for (const b of drawn) week.appendChild(barNode(b.e, b.r, b.c0, b.c1, b.e.start_date >= wsKey, b.e.end_date <= weKey));
+      grid.appendChild(week);
+    }
+  }
+
+  // Mobile: 7-column mini-month with up to three category dots per day, then the selected day's cards.
+  let miniDay = null;
+  function renderMini(evs) {
+    const cursor = dateOf(state.month + '-01');
+    const y = cursor.getFullYear(), m = cursor.getMonth();
+    const first = new Date(y, m, 1);
+    const start = addDays(first, -((first.getDay() + 6) % 7));
+    const weeks = Math.ceil((((first.getDay() + 6) % 7) + new Date(y, m + 1, 0).getDate()) / 7);
+    const [ms, me] = monthBounds(state.month);
+    const dayItems = (k) => evs.filter(e => covers(e, k, k)).sort(byTime);
+    if (!miniDay || miniDay.slice(0, 7) !== state.month) {
+      let firstWith = null;
+      for (let d = dateOf(ms); iso(d) <= me && !firstWith; d = addDays(d, 1)) if (dayItems(iso(d)).length) firstWith = iso(d);
+      miniDay = state.month === currentMonth ? todayStr : (firstWith || ms);
+    }
+    const mini = $('mini');
+    mini.innerHTML = DOW.map(d => `<div class="dow" role="columnheader">${d}</div>`).join('');
+    for (let w = 0; w < weeks; w++) for (let i = 0; i < 7; i++) {
+      const d = addDays(start, w * 7 + i), k = iso(d);
+      const items = dayItems(k);
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'mday' + (d.getMonth() !== m ? ' out' : '') + (k === todayStr ? ' today' : '') + (k < todayStr ? ' past' : '') + (k === miniDay ? ' on' : '');
+      b.setAttribute('aria-label', `${fmtDay.format(d)}, ${plural(items.length, 'événement')}`);
+      b.setAttribute('aria-pressed', k === miniDay);
+      b.innerHTML = `<span class="num">${d.getDate()}</span><span class="dots">${items.slice(0, 3).map(e => `<i style="--c:${color(e)}"></i>`).join('')}${items.length > 3 ? '<span class="plus">+</span>' : ''}</span>`;
+      b.onclick = () => { miniDay = k; renderMini(evs); };
+      mini.appendChild(b);
+    }
+    const items = dayItems(miniDay);
+    $('miniLead').textContent = `${cap(fmtDayShort.format(dateOf(miniDay)))}, ${items.length ? plural(items.length, 'événement') : 'aucun événement'}`;
+    const cards = $('miniCards');
+    cards.innerHTML = '';
+    for (const e of items) cards.appendChild(cardNode(e, 'day'));
+  }
+
+  function renderAgenda() {
+    $('month').textContent = fmtMonth.format(dateOf(state.month + '-01'));
+    const evs = visible();
+    if (MOBILE.matches) renderMini(evs); else renderGrid(evs);
   }
 
   function render() {
     renderTabs();
-    const matched = applyFilters(events);
-    renderPresets(); renderTypes(); renderAreas(); renderVenues(); renderMore(); renderRecap();
-    renderCount(scoped(matched).length);
-    if (state.when) renderDayList(matched, presetWindow(state.when));
-    else renderMonth(matched.filter(e => !isLongRun(e)));
-    renderExpos(matched.filter(e => isLongRun(e) && e.end_date >= todayStr));
+    renderSubtabs(); renderTypes(); renderAreas(); renderVenues(); renderMore(); renderRecap(); renderFiltersBtn();
+    if (state.view === 'liste') renderListe(); else renderAgenda();
+    if (state.lieux) renderLieux();
+    syncPanels();
   }
 
-  // ---- Popover / bottom sheet -------------------------------------------------------------
+  // ---- Filters popover / bottom sheet -----------------------------------------------------
 
   const pop = $('pop'), filtersBtn = $('filtersBtn');
   function openPop() {
     pop.hidden = false;
     $('backdrop').hidden = false;
     filtersBtn.setAttribute('aria-expanded', 'true');
-    // Focus lands on the dialog itself (Tab then reaches the first checkbox); the close button on the mobile sheet.
     (MOBILE.matches ? $('popClose') : pop).focus();
   }
   function closePop(refocus = true) {
@@ -897,67 +1090,180 @@
   $('popClose').onclick = () => closePop();
   $('sheetApply').onclick = () => closePop();
   $('clearAll').onclick = clearAll;
-  document.addEventListener('pointerdown', (ev) => { if (!pop.hidden && !pop.contains(ev.target) && !filtersBtn.contains(ev.target)) closePop(false); });
+
+  // Info popover (freshness, credits, exports).
+  const infoPop = $('infoPop'), infoBtn = $('infoBtn');
+  function setInfo(open) { infoPop.hidden = !open; infoBtn.setAttribute('aria-expanded', open); }
+  infoBtn.onclick = () => setInfo(infoPop.hidden);
+
+  document.addEventListener('pointerdown', (ev) => {
+    if (!pop.hidden && !pop.contains(ev.target) && !filtersBtn.contains(ev.target)) closePop(false);
+    if (!infoPop.hidden && !infoPop.contains(ev.target) && !infoBtn.contains(ev.target)) setInfo(false);
+  });
 
   // ---- Detail panel -----------------------------------------------------------------------
 
-  function openPanel(e) {
+  let panelUid = null;
+  // Same place written twice (venue vs. location, "[mac] Musée" vs "Musée [mac]") collapses to one line.
+  const placeKey = (s) => fold(s).replace(/\[[^\]]*\]/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim();
+  function whereLine(e, v) {
+    const seen = new Set([placeKey(e.venue_name)]), parts = [];
+    for (const s of [e.location_name, v.map_name]) {
+      if (!s) continue;
+      const k = placeKey(s);
+      if (seen.has(k)) continue;
+      seen.add(k); parts.push(s);
+    }
+    return parts.length ? parts.join(' - ') : e.venue_name;
+  }
+  // Exhibitions: dates only. Short ranges: dates plus hours when a real start time exists. Single days: day and time.
+  function whenLine(e) {
+    const t = timeLabel(e), end = e.end_time && e.end_time.slice(0, 5) !== '00:00' ? hhmm(e.end_time) : '';
+    if (isLongRun(e)) return fmtRange(e);
+    if (isRange(e)) return `${fmtRange(e)}${t ? `, ${t}${end ? ' - ' + end : ''}` : ''}`;
+    return `${fmtDay.format(dateOf(e.start_date))}${t ? ` à ${t}` : ''}${end ? ` (jusqu'à ${end})` : ''}`;
+  }
+
+  function openPanel(e, push = true) {
     const v = venueById[e.venue_id] || {};
-    const when = isRange(e)
-      ? `${fmtRange(e)}${e.start_time ? `, ${timeLabel(e)}${e.end_time ? ' - ' + e.end_time.slice(0, 5).replace(':', 'h') : ''}` : ''}`
-      : `${fmtDay.format(new Date(e.start_date + 'T00:00:00'))}${e.start_time ? ` à ${timeLabel(e)}` : ''}${e.end_time ? ` (jusqu'à ${e.end_time.slice(0, 5).replace(':', 'h')})` : ''}`;
     const rows = [
-      ['Quand', when],
-      ['Où', [e.location_name, v.map_name && v.map_name !== e.location_name ? v.map_name : null].filter(Boolean).join(' - ') || e.venue_name],
-      e.event_type ? ['Type', e.event_type] : null,
-      e.price ? ['Prix', e.price] : null,
-      e.status !== 'scheduled' ? ['Statut', { cancelled: 'Annulé', postponed: 'Reporté', sold_out: 'Complet' }[e.status]] : null,
+      ['Quand', esc(whenLine(e))],
+      ['Où', esc(whereLine(e, v))],
+      e.event_type ? ['Type', esc(e.event_type)] : null,
+      e.price ? ['Prix', esc(e.price)] : null,
+      STATUS[e.status] ? ['Statut', STATUS[e.status]] : null,
       e.url ? ['Lien', `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(new URL(e.url).hostname)}</a>`] : null,
     ].filter(Boolean);
     const map = v.lat ? `<a href="https://tfrere.github.io/marseille-tes-lieux/#${encodeURIComponent(v.map_name || v.name)}" target="_blank" rel="noopener">voir sur la carte</a>` : '';
+    const seen = e.last_seen ? ` · vu le ${new Date(e.last_seen).toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' })}` : '';
+    const kind = { instagram: '<span class="badge">Instagram</span>', facebook: '<span class="badge">Facebook</span>' }[e.source_kind] || '';
     const body = $('panelBody');
     body.innerHTML = `
-      ${e.image_source ? `<a class="orig" href="${esc(e.image_source)}" target="_blank" rel="noopener">visuel d'origine</a>` : ''}
+      ${e.image && e.image_source ? `<a class="orig" href="${esc(e.image_source)}" target="_blank" rel="noopener">visuel d'origine</a>` : ''}
       <div class="venue" style="--c:${color(e)}"><span class="pin"></span>${esc(e.venue_name)}</div>
       <h2>${esc(e.title)}</h2>
       ${e.summary ? `<p>${esc(e.summary)}</p>` : ''}
       <dl>${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join('')}</dl>
       ${map}
-      <div class="src">Source : <a href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(new URL(e.source_url).hostname)}</a>
-        ${{ instagram: '<span class="badge">Instagram</span>', facebook: '<span class="badge">Facebook</span>' }[e.source_kind] || ''}
-        ${e.verifier ? `<span class="badge">vérifié</span>` : `<span class="badge">données structurées</span>`}
-        <br>Vu pour la première fois le ${new Date(e.first_seen).toLocaleDateString('fr-FR')}.
-        ${e.evidence && e.evidence.length ? `<blockquote>${esc(e.evidence[0])}</blockquote>` : ''}
-        ${e.verifier_reason ? `<div>${esc(e.verifier_reason)}</div>` : ''}
+      <div class="src">Source : <a href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(new URL(e.source_url).hostname)}</a>${seen}
+        <details><summary>détails de la vérification</summary>
+          <p>${kind}${e.verifier ? '<span class="badge">vérifié</span>' : '<span class="badge">données structurées</span>'}</p>
+          ${e.evidence && e.evidence.length ? `<blockquote>${esc(e.evidence[0])}</blockquote>` : ''}
+          ${e.verifier_reason ? `<p>${esc(e.verifier_reason)}</p>` : ''}
+        </details>
       </div>`;
-    const vis = visualNode(e, 'poster');
-    vis.style.setProperty('--c', color(e));
-    body.prepend(vis);
+    const vis = visualNode(e, 'poster', true);
+    if (vis) { vis.style.setProperty('--c', color(e)); body.prepend(vis); }
     $('panel').classList.add('open');
     $('panel').scrollTop = 0;
+    panelUid = e.uid;
+    if (state.ev !== e.uid) { state.ev = e.uid; writeHash(push); }
+    updateBackdrop();
   }
-  $('close').onclick = () => $('panel').classList.remove('open');
+  function closePanel(write = true) {
+    $('panel').classList.remove('open');
+    panelUid = null;
+    if (state.ev) { state.ev = null; if (write) writeHash(); }
+    updateBackdrop();
+  }
+  $('close').onclick = () => closePanel();
+
+  // ---- Venues panel -----------------------------------------------------------------------
+
+  let lieuxQuery = '';
+  function renderLieux() {
+    const list = $('lieuxList');
+    const rows = venueOptions.filter(v => !lieuxQuery || fold(v.name).includes(lieuxQuery));
+    syncNodes(list, rows.map(v => v.id),
+      (id) => {
+        const v = venueById[id];
+        const li = document.createElement('li');
+        li.className = 'lrow';
+        li.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+        li.innerHTML = `<button type="button" class="star"></button><span class="dot"></span>
+          <div class="ltxt"><button type="button" class="lnk lname">${esc(v.name)}</button><div class="lsub"></div></div>
+          ${v.website ? `<a class="lweb" href="${esc(v.website)}" target="_blank" rel="noopener">site</a>` : ''}`;
+        li.querySelector('.star').onclick = () => toggleFavorite(id);
+        li.querySelector('.lname').onclick = () => { state.venues = new Set([id]); state.lieux = false; commit(true); };
+        return li;
+      },
+      (li, id) => {
+        const v = venueById[id], n = countWith({ venues: new Set([id]), favOnly: false });
+        setStar(li.querySelector('.star'), id);
+        li.classList.toggle('muted', !n);
+        li.querySelector('.lsub').textContent = [CATEGORIES[v.category] || v.category, areaName(venueArea[id]), plural(n, 'événement')].filter(Boolean).join(' · ');
+      });
+    // syncNodes appends new rows at the end; re-order to the sorted list.
+    for (const id of rows.map(v => v.id)) list.appendChild(list.querySelector(`[data-key="${id}"]`));
+  }
+  $('lieuxQ').oninput = (ev) => { lieuxQuery = fold(ev.target.value); renderLieux(); };
+  function openLieux(push = true) {
+    renderLieux();
+    $('lieuxPanel').classList.add('open');
+    if (!state.lieux) { state.lieux = true; writeHash(push); }
+    updateBackdrop();
+    $('lieuxQ').focus({ preventScroll: true });
+  }
+  function closeLieux(write = true) {
+    $('lieuxPanel').classList.remove('open');
+    if (state.lieux) { state.lieux = false; if (write) writeHash(); }
+    updateBackdrop();
+  }
+  $('lieuxBtn').onclick = () => state.lieux ? closeLieux() : openLieux();
+  $('lieuxClose').onclick = () => closeLieux();
+
+  function updateBackdrop() { $('panelBackdrop').hidden = !($('panel').classList.contains('open') || $('lieuxPanel').classList.contains('open')); }
+  $('panelBackdrop').onclick = () => { closePanel(); closeLieux(); };
+  // Bring the panels in line with the state read from the hash (deep links, back button).
+  function syncPanels() {
+    if (state.ev && byUid.has(state.ev)) { if (panelUid !== state.ev) openPanel(byUid.get(state.ev), false); }
+    else if (panelUid) closePanel(false);
+    if (state.lieux) { if (!$('lieuxPanel').classList.contains('open')) openLieux(false); }
+    else closeLieux(false);
+  }
 
   // ---- Wiring -----------------------------------------------------------------------------
 
-  for (const t of document.querySelectorAll('#tabs .tab')) t.onclick = () => { state.view = t.dataset.view; commit(); };
+  for (const t of document.querySelectorAll('#tabs .tab')) t.onclick = () => goto({ view: t.dataset.view });
   const shiftMonth = (n) => { const d = dateOf(state.month + '-01'); d.setMonth(d.getMonth() + n); state.month = iso(d).slice(0, 7); commit(); };
   $('prev').onclick = () => shiftMonth(-1);
   $('next').onclick = () => shiftMonth(1);
-  $('today').onclick = () => { state.month = currentMonth; commit(); };
   let qTimer;
   $('q').oninput = (ev) => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = ev.target.value.trim(); commit(); }, SEARCH_DEBOUNCE_MS); };
   $('q').onkeydown = (ev) => { if (ev.key === 'Enter') { clearTimeout(qTimer); state.q = ev.target.value.trim(); commit(); } };
   document.addEventListener('keydown', (ev) => {
-    if (ev.key === 'Escape') { if (!pop.hidden) { closePop(); return; } $('panel').classList.remove('open'); return; }
-    if (ev.target.matches('input, textarea, select') || !pop.hidden || state.when || state.view === 'expos') return;
+    if (ev.key === 'Escape') {
+      if (!pop.hidden) { closePop(); return; }
+      if (!infoPop.hidden) { setInfo(false); return; }
+      if (panelUid) { closePanel(); return; }
+      if (state.lieux) closeLieux();
+      return;
+    }
+    if (ev.target.matches('input, textarea, select') || !pop.hidden || state.view !== 'agenda') return;
     if (ev.key === 'ArrowLeft') $('prev').click();
     if (ev.key === 'ArrowRight') $('next').click();
   });
-  const syncFromHash = () => { readHash(); $('q').value = state.q; render(); };
+  // Mobile: collapse the filter rows after ~80 px of downward scroll, reveal on scroll up.
+  let lastY = 0;
+  $('main').addEventListener('scroll', () => {
+    if (!MOBILE.matches) return;
+    const y = $('main').scrollTop;
+    $('header').classList.toggle('collapsed', y > 80 && y > lastY);
+    lastY = y;
+  }, { passive: true });
+  let resizeTimer;
+  window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => { if (state.view === 'agenda') renderAgenda(); }, 120); });
+  // Read the hash, render, then rewrite it in canonical form (legacy #expos / #agenda?when=.. redirect here).
+  const syncFromHash = () => {
+    const before = `${state.view}/${state.tab}/${state.day}`;
+    readHash();
+    $('q').value = state.q;
+    render();
+    writeHash();
+    if (`${state.view}/${state.tab}/${state.day}` !== before) $('main').scrollTop = 0;
+  };
   window.addEventListener('hashchange', syncFromHash);
   syncFromHash();
-  writeHash();
 })();
 </script>
 </body>

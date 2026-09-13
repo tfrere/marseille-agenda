@@ -30,6 +30,7 @@ from .extract import build_extractor
 from .extraction_schema import SchemaRecord, SourceRecord, SourcesFile
 from .fetch import SourceDocument, fetch_document, make_client
 from .llm import fetch_credits, make_model
+from .filters import publishable
 from .merge import collapse_daily_runs, expire_past, make_uid, merge_source
 from .output import load_state, save_state, write_events_json, write_ics, write_report
 from .schema import Alert, Event, RunReport, State, Venue, VenuesFile
@@ -259,6 +260,10 @@ class Runner:
 
         # Day-by-day agendas repeat running exhibitions under every date: one range entry each.
         kept = collapse_daily_runs(kept)
+        # Category rules (cinemas: special sessions only), before paying for any verification.
+        kept, dropped = publishable(venue, kept)
+        if dropped:
+            log.info("[%s] %d regular screening(s) left out by the %s rule", venue.id, dropped, venue.category)
 
         # Adversarial verification of NEW events from free-form HTML.
         events: list[Event] = []
@@ -320,6 +325,9 @@ class Runner:
                 if prev is not None and prev.source_url != src.url and prev.last_seen == self.today:
                     continue  # already published from another source this run (the website is canonical)
                 events.append(e)
+            events, dropped = publishable(venue, events)
+            if dropped:
+                log.info("[%s] %s: %d regular screening(s) left out by the %s rule", venue.id, src.key, dropped, venue.category)
             if out.error is None:
                 report.sources_ok += 1
             alerts = merge_source(state, src.url, venue.id, events, self.today, None, None)

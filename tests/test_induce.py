@@ -71,6 +71,25 @@ def test_mac_exhibitions_with_two_time_elements_become_ranges(today):
     assert any("Triennale" in t for t in ind.sample_titles)
 
 
+def test_image_field_is_induced_only_where_cards_carry_their_own_visual(today):
+    from marseille_agenda.apply import apply_schema
+    from marseille_agenda.extraction_schema import FieldSpec
+
+    for key in ("friche", "gyptis", "mac"):
+        fields = induce_schema(_doc(key), today).schema.rules[0].fields
+        assert fields.get("image") == FieldSpec(selector="img", attr="src"), key
+    # Transit: 3 of 15 cards show a book cover; the field would promise what most cards lack.
+    ind = induce_schema(_doc("transit"), today)
+    assert "image" not in ind.schema.rules[0].fields
+    # ...but the engine fallback still gives those three their own cover.
+    res = apply_schema(ind.schema, _doc("transit"), today)
+    with_image = {e.title: e.image for e in res.events if e.image}
+    assert len(with_image) == 3 and 'Présentation de "Le courage et la joie"' in with_image
+    assert all(u.startswith("https://transit-librairie.org/local/adapt-img/") for u in with_image.values())
+    # Molotov cards have no picture at all.
+    assert "image" not in induce_schema(_doc("molotov"), today).schema.rules[0].fields
+
+
 def test_amis_diplo_date_selector_covers_dated_cards_only(today, amis_diplo_doc):
     # Two of the five cards are plain articles (videos) whose prose mentions past dates.
     ind = induce_schema(amis_diplo_doc, today)

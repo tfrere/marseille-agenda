@@ -55,6 +55,9 @@ class PostRecord(BaseModel):
     is_announcement: bool = True
     events: list[StoredEvent] = Field(default_factory=list)
     notes: str | None = None
+    image_urls: list[str] = Field(default_factory=list)
+    """Pictures of the post (the flyer the vision model read). The first one is the visual of
+    the events it announced; CDN URLs expire within days, so it is cached at publication time."""
 
 
 class SocialSource(BaseModel):
@@ -243,7 +246,7 @@ class SocialRunner:
         images = await asyncio.to_thread(download_images, client, post.image_urls)
         if not post.text.strip() and not images:
             return PostRecord(id=post.id, url=post.url, published=post.published_date, analyzed=self.today,
-                              is_announcement=False, notes="no caption and no readable image")
+                              is_announcement=False, notes="no caption and no readable image", image_urls=post.image_urls)
         deps = PostDeps(post=post, today=self.today, venue_name=f"{venue.name} ({venue.city})", images=images)
         run = await extract_post(self.extractor, deps)
         out.llm_calls += run.usage.requests
@@ -254,7 +257,7 @@ class SocialRunner:
             if not any("past" in p for p in problems):
                 out.notes.append(f"{src.kind} rejected {ev.title!r} {ev.start_date}: {'; '.join(problems)}")
         rec = PostRecord(id=post.id, url=post.url, published=post.published_date, analyzed=self.today,
-                         is_announcement=result.is_announcement, notes=result.notes)
+                         is_announcement=result.is_announcement, notes=result.notes, image_urls=post.image_urls)
         log.info("[%s] %s post %s (%s): %d event(s) %s", venue.id, src.kind, post.id, post.published_date,
                  len(result.events), "" if result.is_announcement else "(not an announcement)")
         for ev in result.events:
@@ -290,7 +293,8 @@ def rebuild(src: SocialSource, today: date) -> list[Published]:
                 continue
             if (ev.end_date or ev.start_date) < today:
                 continue
-            se = SchemaEvent(**ev.model_dump(exclude={"verifier", "verifier_reason", "from_image"}), grounded_text=False)
+            se = SchemaEvent(**ev.model_dump(exclude={"verifier", "verifier_reason", "from_image"}), grounded_text=False,
+                             image=post.image_urls[0] if post.image_urls else None)
             se.url = se.url or post.url
             by_key[(se.title.strip().lower(), se.start_date)] = (se, ev.verifier, ev.verifier_reason)
     return list(by_key.values())
@@ -311,6 +315,6 @@ def fb_event_to_schema(e: FacebookEvent, today: date) -> SchemaEvent | None:
     return SchemaEvent(
         title=e.name, start_date=local.date(), start_time=local.time().replace(second=0, microsecond=0),
         end_date=end_date, location_name=e.location_name, url=e.ticket_url or e.url, price=e.price, summary=summary,
-        status="cancelled" if e.cancelled else "scheduled",
+        status="cancelled" if e.cancelled else "scheduled", image=e.image_url or None,
         evidence=[e.date_sentence or local.strftime("%Y-%m-%d %H:%M")], grounded_text=False,
     )

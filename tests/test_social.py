@@ -71,7 +71,9 @@ def test_fb_event_to_schema_converts_to_paris_time_and_handles_duration_and_canc
     assert ag.start_date == date(2026, 10, 1) and ag.start_time == time(19, 0)  # 17:00 UTC in summer time
     assert ag.end_date is None and ag.location_name == "Manifesten" and ag.url == "https://www.facebook.com/events/1269179411830316/"
     assert ag.summary.startswith("On fait le point")
+    assert ag.image == "https://cdn.example.test/ag.jpg"
     fest = fb_event_to_schema(events[1], today)
+    assert fest.image is None
     assert fest.status == "cancelled" and fest.end_date == date(2026, 11, 8) and fest.price == "5 EUR"
     assert fest.url == "https://example.test/billetterie"
     assert fb_event_to_schema(events[2], today) is None
@@ -146,6 +148,9 @@ def test_rebuild_publishes_accepted_upcoming_events_only():
     assert sorted(ev.title for ev, _, _ in published) == ["Unverified", "Upcoming"]
     ev, verdict, reason = next(p for p in published if p[0].title == "Upcoming")
     assert verdict == "accept" and reason == "ok" and ev.url == "https://www.instagram.com/p/a/" and ev.grounded_text is False
+    assert ev.image is None  # a record cached before images were kept
+    src.posts["a"].image_urls = ["https://cdn.example.test/flyer.jpg", "https://cdn.example.test/flyer-2.jpg"]
+    assert all(ev.image == "https://cdn.example.test/flyer.jpg" for ev, _, _ in rebuild(src, today))
 
 
 def test_fetch_window_and_due():
@@ -243,6 +248,10 @@ async def test_social_only_venue_publishes_and_caches_post_analysis(tmp_path, fa
     concert = next(e for e in state.events.values() if e.source_kind == "instagram")
     assert concert.verifier == "accept" and concert.url == "https://manifesten.fr/concert" and concert.start_time == time(19, 0)
     assert concert.source_url == "https://www.instagram.com/manifesten/"
+    # The post's flyer is the event's visual (first image of the post); the events tab has its own cover.
+    assert concert.image_source == "https://cdn.example.test/flyer-concert.jpg" and concert.image is None
+    ag = next(e for e in state.events.values() if e.title == "Assemblée générale de rentrée")
+    assert ag.image_source == "https://cdn.example.test/ag.jpg"
     assert not [a for a in report.alerts if a.level == "error"]
 
     # Next day: posts are fetched again (daily) but nothing is re-analysed; the events tab waits a week.

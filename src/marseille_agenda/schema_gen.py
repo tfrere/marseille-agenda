@@ -42,12 +42,19 @@ HTML sources (you receive a condensed skeleton of the page: tags, classes, ids, 
   plus `date_format`.
 - `fields.url`: the event link with attr "href". Add `location`, `price`, `summary` when present.
 - Use `regex` (capture group 1) to isolate a value from surrounding text.
+- `fields.image` (optional, e.g. selector "img" with attr "src"; lazy-loading attributes and srcset
+  are handled by the engine): use it ONLY when each card carries its own visual for the event
+  (the poster, a photo of the show). If the pictures are the venue's logo, a theme placeholder,
+  a banner shared by several cards, or otherwise not clearly about the event, OMIT the field:
+  an unrelated image is a mismatch and worthless as a thumbnail. Missing is better than wrong.
 
 JSON sources (you receive a structural summary with sample items):
 - `items_path`: dotted path to the list of events. If each item holds several dated sessions,
   set `expand_path` to that sub-list and prefix parent fields with "item.".
 - `date_format`/`time_format`: strptime formats matching the raw values exactly ("%Y%m%d", "%H:%M").
 - Booleans like free/paid map to the `free` field; lists of names can be joined with `join`.
+- `fields.image` (optional): path to the URL of the event's own picture, with the same rule as
+  for HTML: only when it is clearly this event's visual, never a shared or generic image.
 - If items come in two shapes (e.g. dated sessions vs. a recurrence range), write one rule per shape.
 
 The schema is executed immediately and compared with an independent reading of the same page.

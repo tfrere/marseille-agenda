@@ -4,7 +4,9 @@ These schemas are what the generator agent is expected to produce (or something
 equivalent). They double as regression tests for the engine itself.
 """
 
+import json
 from datetime import date, time
+from pathlib import Path
 
 from marseille_agenda.apply import apply_schema
 from marseille_agenda.extraction_schema import ExtractionSchema, FieldSpec, HtmlRule, JsonRule
@@ -171,3 +173,112 @@ def test_mucem_schema(mucem_doc, today):
     upcoming = [e for e in res.events if not check_event(e, mucem_doc, today, check_text=False)]
     assert len(upcoming) >= 60
     assert all(e.start_date >= today or (e.end_date and e.end_date >= today) for e in upcoming)
+
+
+# ------------------------------------------------------------------ images
+
+LISTINGS = Path(__file__).parent / "fixtures" / "listings"
+
+
+def _listing(name: str, url: str):
+    from marseille_agenda.fetch import document_from_body
+
+    return document_from_body(url, "html", (LISTINGS / name).read_text(encoding="utf-8"))
+
+
+def test_html_image_field_and_engine_fallback_agree_on_friche_and_gyptis(today):
+    """With an explicit `image` field or without one, each card's poster is found."""
+    from marseille_agenda.induce import induce_schema
+
+    for name, url in (("friche_agenda.html", "https://www.lafriche.org/agenda/"),
+                      ("gyptis_seances.html", "https://cinemalegyptis.org/seances-et-evenements/")):
+        doc = _listing(name, url)
+        schema = induce_schema(doc, today).schema
+        explicit = schema.rules[0].fields
+        assert explicit["image"] == FieldSpec(selector="img", attr="src")
+        with_field = apply_schema(schema, doc, today)
+        silent = schema.model_copy(deep=True)
+        del silent.rules[0].fields["image"]
+        fallback = apply_schema(silent, doc, today)
+        got = [e.image for e in with_field.events]
+        assert got and all(got), name
+        assert all(u.startswith("https://") and not u.endswith(".svg") for u in got)
+        assert got == [e.image for e in fallback.events], name
+    # A poster repeated on every screening of the same film is still that film's poster.
+    imgs = [e.image for e in with_field.events]
+    assert len(set(imgs)) == len({e.title for e in with_field.events})
+
+
+def test_shared_image_rule_drops_the_venue_logo_but_keeps_the_own_poster(today):
+    from marseille_agenda.fetch import document_from_body
+
+    cards = "".join(
+        f'<li class="event"><img src="/static/logo.png" width="300" height="100"><h3><a href="/e/{i}">Event {i}</a></h3>'
+        f'<span class="d">{13 + i} Sep 2026</span></li>'
+        for i in range(4)
+    )
+    cards += ('<li class="event"><img src="/uploads/poster.jpg"><h3><a href="/e/9">Own poster</a></h3>'
+              '<span class="d">20 Sep 2026</span></li>')
+    doc = document_from_body("https://x.test/agenda/", "html", f"<ul>{cards}</ul>")
+    for fields in (
+        {"title": FieldSpec(selector="h3 a"), "date": FieldSpec(selector="span.d")},
+        {"title": FieldSpec(selector="h3 a"), "date": FieldSpec(selector="span.d"), "image": FieldSpec(selector="img", attr="src")},
+    ):
+        res = apply_schema(ExtractionSchema(rules=[HtmlRule(item_selector="li.event", fields=fields)]), doc, today)
+        assert not res.failures and len(res.events) == 5
+        by_title = {e.title: e.image for e in res.events}
+        assert by_title["Own poster"] == "https://x.test/uploads/poster.jpg"
+        assert all(by_title[f"Event {i}"] is None for i in range(4)), by_title
+
+
+def test_lazy_loading_attributes_srcset_and_placeholders(today):
+    from marseille_agenda.fetch import document_from_body
+
+    html = """<ul>
+      <li class="event"><img class="lazy" src="data:image/gif;base64,R0lGOD" data-src="/img/a.jpg"><h3>A</h3><span>13 Sep 2026</span></li>
+      <li class="event"><img srcset="/img/b-480.jpg 480w, /img/b-960.jpg 960w"><h3>B</h3><span>14 Sep 2026</span></li>
+      <li class="event"><picture><source srcset="/img/c.webp" type="image/webp"><img src="/pixel.gif" width="1" height="1"></picture>
+          <img data-lazy-src="/img/c2.jpg"><h3>C</h3><span>15 Sep 2026</span></li>
+      <li class="event"><img src="/icons/calendar.svg"><img src="/img/d.png?v=2"><h3>D</h3><span>16 Sep 2026</span></li>
+      <li class="event"><img src="/icons/star.png" width="16" height="16"><h3>E</h3><span>17 Sep 2026</span></li>
+    </ul>"""
+    doc = document_from_body("https://x.test/agenda/", "html", html)
+    schema = ExtractionSchema(rules=[HtmlRule(item_selector="li.event", fields={"title": FieldSpec(selector="h3"), "date": FieldSpec(selector="span")})])
+    res = apply_schema(schema, doc, today)
+    assert {e.title: e.image for e in res.events} == {
+        "A": "https://x.test/img/a.jpg",
+        "B": "https://x.test/img/b-480.jpg",
+        "C": "https://x.test/img/c2.jpg",  # the 1x1 pixel is skipped, its <picture> too; the next picture wins
+        "D": "https://x.test/img/d.png?v=2",  # SVG icons are never posters
+        "E": None,  # a 16x16 icon is not a visual
+    }
+
+
+def test_json_image_fallback_prefers_a_medium_rendition_on_mucem(mucem_doc, today):
+    res = apply_schema(MUCEM_SCHEMA, mucem_doc, today)
+    darwich = next(e for e in res.events if e.title == "Mahmoud Darwich Poetry Day")
+    assert darwich.image and darwich.image.startswith("https://mucem.org/uploads/") and "-768x480" in darwich.image
+    with_image = [e for e in res.events if e.image]
+    assert len(with_image) == len(res.events)
+    # One visual per event, not one per session, and no site-wide default picture.
+    assert len({e.image for e in with_image}) >= 30
+
+
+def test_json_image_walk_takes_image_keys_and_extensions_and_skips_shared_ones(today):
+    from marseille_agenda.fetch import document_from_body
+
+    items = [
+        {"name": "A", "when": "2026-09-13", "visuel": "https://x.test/a.jpg"},
+        {"name": "B", "when": "2026-09-14", "media": {"cover": {"sizes": {"medium": "https://x.test/b-m.jpg", "large": "https://x.test/b-l.jpg"}}}},
+        {"name": "C", "when": "2026-09-15", "attachments": [{"file": "https://x.test/c.png"}]},
+        {"name": "D", "when": "2026-09-16", "cover_color": "#ffffff", "logo": "https://x.test/logo.svg"},
+    ]
+    doc = document_from_body("https://x.test/api", "json", json.dumps(items))
+    schema = ExtractionSchema(rules=[JsonRule(items_path="", fields={"title": FieldSpec(selector="name"), "date": FieldSpec(selector="when")})])
+    res = apply_schema(schema, doc, today)
+    assert {e.title: e.image for e in res.events} == {
+        "A": "https://x.test/a.jpg", "B": "https://x.test/b-m.jpg", "C": "https://x.test/c.png", "D": None,
+    }
+    shared = [{"name": f"E{i}", "when": f"2026-09-2{i}", "thumbnail": "https://x.test/default.jpg"} for i in range(3)]
+    res = apply_schema(schema, document_from_body("https://x.test/api", "json", json.dumps(shared)), today)
+    assert [e.image for e in res.events] == [None, None, None]

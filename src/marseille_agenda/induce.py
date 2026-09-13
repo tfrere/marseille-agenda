@@ -23,7 +23,7 @@ from datetime import date, timedelta
 
 from bs4 import BeautifulSoup, Tag
 
-from .apply import ApplyResult, apply_schema
+from .apply import ApplyResult, first_item_image, apply_schema
 from .dates import DateParseError, parse_date_text
 from .extraction_schema import ExtractionSchema, FieldSpec, HtmlRule
 from .fetch import SourceDocument
@@ -236,6 +236,9 @@ def _build_schema(sel: str, items: list[Tag], date_nodes: list[Tag], class_count
     time_field = _time_field(sample, class_count, fields["date"])
     if time_field:
         fields["time"] = time_field
+    image = _image_field(sample, title)
+    if image:
+        fields["image"] = image
     rule = HtmlRule(item_selector=sel, fields=fields, notes="Induced deterministically from the repeated dated cards of the page.")
     return ExtractionSchema(rules=[rule], notes="Deterministic induction (no model).")
 
@@ -339,6 +342,20 @@ def _date_field(items: list[Tag], date_nodes: list[Tag], class_count: Counter) -
         if c >= 0.5 * n and c >= 0.9 * dated_items and all(len(i.select(sel)) <= 2 for i in items):
             return FieldSpec(selector=sel)
     return FieldSpec(selector="")  # whole card text; the engine picks the date out of it
+
+
+def _image_field(items: list[Tag], title: FieldSpec) -> FieldSpec | None:
+    """`img[src]` when the cards carry their own visual: most cards have a usable picture and
+    the pictures are about as varied as the titles (an exhibition listed on every day of its run
+    legitimately repeats its poster; a venue logo on every card does not count as a visual).
+    Without the field the engine still falls back to the first picture of each card."""
+    urls = [u for u in (first_item_image(i, "https://induction.invalid/") for i in items) if u]
+    if len(urls) < 0.8 * len(items):
+        return None
+    titles = {i.select_one(title.selector).get_text(" ", strip=True) for i in items if i.select_one(title.selector)}
+    if len(set(urls)) < 0.5 * max(1, len(titles)):
+        return None
+    return FieldSpec(selector="img", attr="src")
 
 
 def _time_field(items: list[Tag], class_count: Counter, date_field: FieldSpec) -> FieldSpec | None:

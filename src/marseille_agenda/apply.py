@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections import Counter
 from dataclasses import dataclass, field
 from datetime import date, datetime, time
 from typing import Any
@@ -20,6 +21,8 @@ from .schema import EventStatus, ExtractedEvent
 class SchemaEvent(ExtractedEvent):
     event_type: str | None = None
     free: bool | None = None
+    image: str | None = None
+    """Absolute URL of the event's own visual (poster, photo) when the source carries one."""
     grounded_text: bool = True
     """False for JSON sources: evidence is a rendering of the item, not a page excerpt."""
 
@@ -66,14 +69,17 @@ def _html_values(item: Tag, spec: FieldSpec, base_url: str) -> list[str]:
     nodes: list[Tag] = item.select(spec.selector) if spec.selector else [item]
     values: list[str] = []
     for n in nodes:
-        if spec.attr:
+        if spec.attr == "src" and n.name == "img":
+            # Lazy-loaded pictures keep the real URL in data-src / srcset; placeholders are skipped.
+            v = image_url(n, base_url) or ""
+        elif spec.attr:
             v = n.get(spec.attr)
             if isinstance(v, list):
                 v = " ".join(v)
             if v is None:
                 continue
             v = str(v).strip()
-            if spec.attr in ("href", "src") and v:
+            if spec.attr in _URL_ATTRS and v:
                 v = urljoin(base_url, v)
         else:
             v = n.get_text(" ", strip=True)
@@ -85,8 +91,145 @@ def _html_values(item: Tag, spec: FieldSpec, base_url: str) -> list[str]:
     return values
 
 
+_URL_ATTRS = ("href", "src", "data-src", "data-lazy-src", "data-original")
 _DATE_ATTRS = ("data-date", "datetime", "data-start", "data-start-date", "data-day", "content")
 _ISO_DAY = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
+# --------------------------------------------------------------------------- images
+
+# Lazy-loading libraries park the real URL in one of these while `src` holds a placeholder.
+_LAZY_SRC_ATTRS = ("data-src", "data-lazy-src", "data-original", "src")
+_MAX_ICON_PX = 32
+"""Declared width/height at or below this is an icon or a tracking pixel, never a poster."""
+_IMAGE_EXT = re.compile(r"\.(?:jpe?g|png|webp|gif|avif|bmp|tiff?)(?:$|[?#])", re.I)
+_IMAGE_KEY = re.compile(r"image|thumb|photo|visuel|picture|cover|poster|affiche", re.I)
+_JSON_SIZE_PREFERENCE = ("medium_large", "medium", "large", "w-600", "w-500", "w-400", "thumbnail")
+SHARED_IMAGE_RATIO = 0.5
+"""An image carried by more than this share of a rule's events is the venue's logo or a default
+thumbnail, not the event's own visual: it is dropped for all of them."""
+
+
+def _usable_image_url(url: str | None, base_url: str) -> str | None:
+    if not url:
+        return None
+    url = url.strip()
+    if not url or url.startswith("data:"):
+        return None
+    url = urljoin(base_url, url)
+    if not url.startswith(("http://", "https://")):
+        return None
+    if re.search(r"\.svg(?:$|[?#])", url.split("#")[0], re.I):
+        return None
+    return url
+
+
+def _first_srcset_url(srcset: str | None) -> str | None:
+    if not srcset:
+        return None
+    first = srcset.strip().split(",")[0].strip()
+    return first.split()[0] if first else None
+
+
+def _declared_tiny(node: Tag) -> bool:
+    dims = []
+    for a in ("width", "height"):
+        v = node.get(a)
+        if isinstance(v, str) and (m := re.match(r"\s*(\d+)", v)):
+            dims.append(int(m.group(1)))
+    return bool(dims) and all(d <= _MAX_ICON_PX for d in dims)
+
+
+def image_url(img: Tag, base_url: str) -> str | None:
+    """Absolute URL of the picture an `<img>` shows, or None when it is not a usable visual.
+
+    Accepts lazy-loading attributes and `srcset` (first candidate), then a `<picture><source>`
+    sibling. Rejects data: URIs, SVGs and anything declared icon- or pixel-sized.
+    """
+    if _declared_tiny(img):
+        return None
+    candidates: list[str | None] = [img.get(a) if isinstance(img.get(a), str) else None for a in _LAZY_SRC_ATTRS]
+    candidates.append(_first_srcset_url(img.get("srcset") if isinstance(img.get("srcset"), str) else None))
+    candidates.append(_first_srcset_url(img.get("data-srcset") if isinstance(img.get("data-srcset"), str) else None))
+    parent = img.parent
+    if isinstance(parent, Tag) and parent.name == "picture":
+        for source in parent.find_all("source"):
+            candidates.append(_first_srcset_url(source.get("srcset") if isinstance(source.get("srcset"), str) else None))
+    for c in candidates:
+        if u := _usable_image_url(c, base_url):
+            return u
+    return None
+
+
+def first_item_image(item: Tag, base_url: str) -> str | None:
+    """Engine fallback when the schema has no `image` field: the first usable picture of the card."""
+    for img in item.find_all("img"):
+        if u := image_url(img, base_url):
+            return u
+    for source in item.find_all("source"):
+        if u := _usable_image_url(_first_srcset_url(source.get("srcset") if isinstance(source.get("srcset"), str) else None), base_url):
+            return u
+    return None
+
+
+def _json_image_from_dict(d: dict, depth: int = 0) -> str | None:
+    """Best URL inside a media object: a small/medium rendition when sizes are listed, else `url`."""
+    if depth > 4:
+        return None
+    sizes = d.get("sizes")
+    if isinstance(sizes, dict):
+        for name in _JSON_SIZE_PREFERENCE:
+            if u := _usable_image_url(_str_or_none(sizes.get(name)), ""):
+                return u
+    for key in ("url", "src", "source_url", "href"):
+        if u := _usable_image_url(_str_or_none(d.get(key)), ""):
+            return u
+    for v in d.values():
+        if isinstance(v, dict) and (u := _json_image_from_dict(v, depth + 1)):
+            return u
+        if isinstance(v, str) and _IMAGE_EXT.search(v) and (u := _usable_image_url(v, "")):
+            return u
+    return None
+
+
+def _str_or_none(v: Any) -> str | None:
+    return v if isinstance(v, str) else None
+
+
+def _first_json_image(obj: Any, depth: int = 0) -> str | None:
+    """Engine fallback for JSON items: the first http(s) image URL found in the item.
+
+    Walks the item (depth <= 3) and takes a string ending in an image extension, or the value
+    under a key that names an image (image, thumbnail, photo, visuel, cover, poster). A media
+    object under such a key is dug into, preferring a medium-sized rendition.
+    """
+    if depth > 3 or not isinstance(obj, (dict, list)):
+        return None
+    if isinstance(obj, list):
+        for v in obj:
+            if u := _first_json_image(v, depth + 1):
+                return u
+        return None
+    for k, v in obj.items():
+        if isinstance(v, str):
+            if (_IMAGE_EXT.search(v) or _IMAGE_KEY.search(str(k))) and (u := _usable_image_url(v, "")):
+                return u
+        elif isinstance(v, dict) and _IMAGE_KEY.search(str(k)):
+            if u := _json_image_from_dict(v):
+                return u
+    for k, v in obj.items():
+        if isinstance(v, (dict, list)) and (u := _first_json_image(v, depth + 1)):
+            return u
+    return None
+
+
+def _drop_shared_images(events: list[SchemaEvent]) -> None:
+    """Shared-image rule: a picture used by most events of a rule is not any event's visual."""
+    counts = Counter(ev.image for ev in events if ev.image)
+    shared = {u for u, n in counts.items() if n >= 2 and n > SHARED_IMAGE_RATIO * len(events)}
+    for ev in events:
+        if ev.image in shared:
+            ev.image = None
 
 
 def _iso_attribute_dates(item: Tag) -> list[str]:
@@ -150,6 +293,7 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
     # Empty placeholder cards (grid fillers) are not failed events, just layout.
     items = [i for i in items if i.get_text(strip=True)]
     result.items_seen += len(items)
+    first_event = len(result.events)
 
     for item in items:
         try:
@@ -157,6 +301,10 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
             if not titles:
                 raise ValueError("empty title")
             title = titles[0]
+            if "image" in rule.fields:
+                image = _usable_image_url(_first(_html_values(item, rule.fields["image"], doc.url)), doc.url)
+            else:
+                image = first_item_image(item, doc.url)
             date_values = _html_values(item, rule.fields["date"], doc.url) if "date" in rule.fields else [item.get_text(" ", strip=True)]
             evidence_text, _ = html_to_text(str(item), doc.url)
             # Plain truncation (no ellipsis) so the quote stays a verbatim substring of the page.
@@ -193,11 +341,12 @@ def _apply_html(rule: HtmlRule, doc: SourceDocument, today: date, result: ApplyR
                 result.events.append(
                     SchemaEvent(
                         title=title, start_date=parsed.start, end_date=end_date,
-                        start_time=start_time, end_time=end_time, evidence=evidence, **common,
+                        start_time=start_time, end_time=end_time, evidence=evidence, image=image, **common,
                     )
                 )
         except (DateParseError, ValueError, KeyError) as exc:
             result.failures.append(f"{_clip(item.get_text(' ', strip=True), 80)!r}: {exc}")
+    _drop_shared_images(result.events[first_event:])
 
 
 # --------------------------------------------------------------------------- JSON
@@ -267,6 +416,7 @@ def _apply_json(rule: JsonRule, doc: SourceDocument, today: date, result: ApplyR
     if not isinstance(items, list):
         result.failures.append(f"items_path {rule.items_path!r} did not resolve to a list")
         return
+    first_event = len(result.events)
 
     for item in items:
         subs: list[Any]
@@ -298,16 +448,22 @@ def _apply_json(rule: JsonRule, doc: SourceDocument, today: date, result: ApplyR
                     if ed:
                         end_date = parse_date_text(ed, today, rule.date_format).start
                 common = _common_fields(rule, None, doc.url, lambda spec: _json_values(ctx, spec))
+                if "image" in rule.fields:
+                    image = _usable_image_url(_first(_json_values(ctx, rule.fields["image"])), doc.url)
+                else:
+                    # The session sub-item first (it may carry its own visual), then the parent item.
+                    image = _first_json_image(sub) or (_first_json_image(item) if sub is not item else None)
                 evidence = [_clip(f"{title} | {date_text}" + (f" | {start_time:%H:%M}" if start_time else ""), 300)]
                 result.events.append(
                     SchemaEvent(
                         title=title, start_date=parsed.start, end_date=end_date,
                         start_time=start_time, end_time=end_time, evidence=evidence,
-                        grounded_text=False, **common,
+                        grounded_text=False, image=image, **common,
                     )
                 )
             except (DateParseError, ValueError, KeyError, TypeError) as exc:
                 result.failures.append(f"item {_clip(_scalar(sub), 80)!r}: {exc}")
+    _drop_shared_images(result.events[first_event:])
 
 
 # --------------------------------------------------------------------------- shared

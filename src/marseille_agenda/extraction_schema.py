@@ -14,7 +14,7 @@ from pydantic import BaseModel, Field
 
 FieldName = Literal[
     "title", "date", "end_date", "time", "end_time", "url", "location", "price",
-    "summary", "status", "event_type", "free",
+    "summary", "status", "event_type", "free", "image",
 ]
 
 
@@ -22,7 +22,9 @@ class FieldSpec(BaseModel):
     """How to read one field from an item.
 
     HTML: `selector` is a CSS selector relative to the item (empty string = the item itself),
-    `attr` an attribute name (href, datetime, content) or null for the text content.
+    `attr` an attribute name (href, datetime, content) or null for the text content. For the
+    optional `image` field, `selector="img"` with `attr="src"` also reads lazy-loading
+    attributes (data-src, srcset) and resolves the URL.
     JSON: `selector` is a dotted path relative to the item ("meta.sessions.date");
     prefix with "item." to read from the parent item when `expand_path` is used.
     """

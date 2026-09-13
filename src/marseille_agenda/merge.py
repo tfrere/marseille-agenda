@@ -62,6 +62,12 @@ def merge_source(
         old = state.events.get(e.uid)
         if old:
             e.first_seen = old.first_seen
+            # The cached visual survives a refresh as long as the source still points at the same
+            # picture (or at none: a page that stopped showing it does not lose what was verified).
+            if not e.image_source:
+                e.image_source = old.image_source
+            if e.image_source == old.image_source:
+                e.image = old.image
         e.last_seen = today
         state.events[e.uid] = e
         src.missing_runs.pop(e.uid, None)

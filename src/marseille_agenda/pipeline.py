@@ -86,7 +86,7 @@ def to_event(ex: SchemaEvent, venue: Venue, source_url: str, kind: str, today: d
         title=ex.title, start_date=ex.start_date, start_time=ex.start_time,
         end_date=ex.end_date, end_time=ex.end_time, location_name=ex.location_name,
         url=ex.url, price=ex.price, summary=ex.summary, status=ex.status,
-        event_type=ex.event_type, free=ex.free,
+        event_type=ex.event_type, free=ex.free, image_source=ex.image,
         recurring=bool(ex.end_date and ex.end_date > ex.start_date),
         source_url=source_url, source_kind=kind,  # type: ignore[arg-type]
         evidence=ex.evidence, verifier=verifier, verifier_reason=verifier_reason,  # type: ignore[arg-type]

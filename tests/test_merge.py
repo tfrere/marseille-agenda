@@ -70,6 +70,54 @@ def test_published_events_folds_cross_source_duplicates():
     assert len(out) == 4
 
 
+def test_published_events_folding_keeps_the_only_available_image():
+    from marseille_agenda.output import published_events
+    from marseille_agenda.schema import State
+
+    def ev(title, kind, image_source=None, image=None):
+        e = _event(title, date(2026, 9, 15), time(19, 45), url=None)
+        e.source_kind, e.source_url, e.image_source, e.image = kind, f"https://{kind}.test/", image_source, image
+        e.uid = make_uid("friche", title, e.start_date) + kind
+        return e
+
+    st = State()
+    for e in [ev("Rebecca", "html"), ev("REBECCA, Alfred Hitchcock, 1940", "instagram", "https://cdn.test/flyer.jpg", "img/abc.webp")]:
+        st.events[e.uid] = e
+    out = published_events(st)
+    assert len(out) == 1 and out[0].source_kind == "html"
+    assert (out[0].image_source, out[0].image) == ("https://cdn.test/flyer.jpg", "img/abc.webp")
+
+    st = State()
+    for e in [ev("Rebecca", "html", "https://site.test/poster.jpg"), ev("REBECCA, Alfred Hitchcock, 1940", "instagram", "https://cdn.test/flyer.jpg")]:
+        st.events[e.uid] = e
+    assert published_events(st)[0].image_source == "https://site.test/poster.jpg", "the winner's own visual stays"
+
+
+def test_merge_source_keeps_the_cached_image_while_the_source_url_is_unchanged():
+    from marseille_agenda.merge import merge_source
+    from marseille_agenda.schema import State
+
+    st = State()
+    day = date(2026, 9, 20)
+    old = _event("Concert", day)
+    old.image_source, old.image = "https://site.test/a.jpg", f"img/{old.uid}.webp"
+    st.events[old.uid] = old
+
+    same = _event("Concert", day)
+    same.image_source = "https://site.test/a.jpg"
+    merge_source(st, "https://x.test/agenda/", "friche", [same], day, "h1")
+    assert st.events[old.uid].image == f"img/{old.uid}.webp"
+
+    silent = _event("Concert", day)  # the page stopped showing a picture: keep what we had
+    merge_source(st, "https://x.test/agenda/", "friche", [silent], day, "h2")
+    assert (st.events[old.uid].image_source, st.events[old.uid].image) == ("https://site.test/a.jpg", f"img/{old.uid}.webp")
+
+    changed = _event("Concert", day)  # a new poster: the cache is stale, download again
+    changed.image_source = "https://site.test/b.jpg"
+    merge_source(st, "https://x.test/agenda/", "friche", [changed], day, "h3")
+    assert (st.events[old.uid].image_source, st.events[old.uid].image) == ("https://site.test/b.jpg", None)
+
+
 def test_published_events_folds_daily_copies_into_the_matching_range():
     from marseille_agenda.output import published_events
     from marseille_agenda.schema import State

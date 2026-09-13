@@ -129,6 +129,9 @@ class Event(BaseModel):
     # Multi-day events (exhibitions, recurring visits "until Sept 30") are published once
     # with start/end dates; the calendar shows them as a range, not one entry per day.
     recurring: bool = False
+    image: str | None = Field(default=None, description="Published visual: path relative to the site (img/<uid>.webp). "
+                                                        "None when no trustworthy image exists for this event.")
+    image_source: str | None = Field(default=None, description="Original URL of the event's own visual, as found in the source.")
     source_url: str
     source_kind: SourceKind
     evidence: list[str]

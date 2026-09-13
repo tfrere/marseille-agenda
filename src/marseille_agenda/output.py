@@ -72,11 +72,26 @@ def published_events(state: State) -> list[Event]:
     ranked = sorted(state.events.values(), key=lambda e: (_SOURCE_RANK.get(e.source_kind, 9), _sort_key(e)))
     kept: list[Event] = []
     for e in ranked:
-        if not any(_same_event(e, k) for k in kept if k.start_date == e.start_date):
+        winner = next((k for k in kept if k.start_date == e.start_date and _same_event(e, k)), None)
+        if winner is None:
             kept.append(e)
+        else:
+            _inherit_image(winner, e)
     ranges = [k for k in kept if _is_range(k)]
-    kept = [k for k in kept if not any(_inside_range(k, r) for r in ranges if r.venue_id == k.venue_id)]
-    return sorted(kept, key=_sort_key)
+    out: list[Event] = []
+    for k in kept:
+        covering = next((r for r in ranges if r.venue_id == k.venue_id and _inside_range(k, r)), None)
+        if covering is None:
+            out.append(k)
+        else:
+            _inherit_image(covering, k)
+    return sorted(out, key=_sort_key)
+
+
+def _inherit_image(winner: Event, loser: Event) -> None:
+    """A folded copy may be the only one with a visual (the Instagram flyer of a website event)."""
+    if not winner.image_source and loser.image_source:
+        winner.image_source, winner.image = loser.image_source, loser.image
 
 
 def _sort_key(e: Event):

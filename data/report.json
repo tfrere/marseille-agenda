@@ -1,12 +1,12 @@
 {
  "run_date": "2026-09-13",
- "sources_total": 12,
- "sources_ok": 12,
+ "sources_total": 34,
+ "sources_ok": 34,
  "sources_skipped_unchanged": 0,
  "events_published": 262,
- "events_new": 3,
+ "events_new": 0,
  "events_rejected_grounding": 79,
- "events_rejected_verifier": 0,
+ "events_rejected_verifier": 1,
  "events_uncertain": 0,
  "alerts": [
   {
@@ -17,15 +17,21 @@
   },
   {
    "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "message": "verifier rejected 'Journées du Patrimoine' 2026-09-20: The excerpt lists multiple time slots '10h / 10h30 / 14h / 14h30', contradicting the extracted end time of 10:30:00."
+  },
+  {
+   "level": "warning",
    "venue_id": "la-fabulerie",
    "source_url": "https://lafabulerie.com/agenda/?type-projet=tout&localisation=marseille",
    "message": "no upcoming event on source at last check; next generation attempt 2026-09-20"
   }
  ],
- "llm_calls": 0,
+ "llm_calls": 3,
  "posts_analyzed": 0,
  "apify_runs": 0,
- "images_published": 149,
+ "images_published": 164,
  "images_failed": 0,
  "credits_remaining_usd": 1.4752,
  "run_cost_usd": 0.0

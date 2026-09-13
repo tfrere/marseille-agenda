@@ -265,7 +265,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 108,
-   "content_hash": "7be54d15341881fc",
+   "content_hash": "bacb558c6db16ca0",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -362,7 +362,7 @@
    },
    "last_ok": "2026-09-13",
    "last_error": null,
-   "last_event_count": 25,
+   "last_event_count": 24,
    "content_hash": "0e8d7e077fbdc9fe",
    "consecutive_failures": 0,
    "regenerations": 0,
@@ -451,7 +451,7 @@
     "version": 1
    },
    "last_ok": "2026-09-13",
-   "last_error": "fetch: timed out",
+   "last_error": null,
    "last_event_count": 3,
    "content_hash": "105434b59ce03265",
    "consecutive_failures": 0,

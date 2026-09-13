@@ -11,10 +11,12 @@ DTEND;VALUE=DATE:20260921
 UID:7cea19aa15d4@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/la-vie-climatique-histoires-sensib
- les-des-collections-privees-triennale-de-leur-temps-8
+ les-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-co
+ ntemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
 URL:https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-
- collections-privees-triennale-de-leur-temps-8
+ collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contempora
+ in-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -23,9 +25,10 @@ DTEND;VALUE=DATE:20270104
 UID:3f00f5332384@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/africa-louisa-baba
- ri
+ ri?museum=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/africa-louisa-babari
+URL:https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-con
+ temporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite libre de la statue de la Bonne Mère
@@ -579,9 +582,10 @@ DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
- isa-babari
+ isa-babari?museum=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
+ dart-contemporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Journées du Patrimoine
@@ -745,6 +749,18 @@ DESCRIPTION:Concert featuring REST UP (Art Rock - Angers)\, ABSTRACT PUPPE
  CPWL/
 LOCATION:L'Intermédiaire - L'Intermédiaire
 URL:https://www.instagram.com/p/Dcvt3IyCPWL/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Journées du Patrimoine
+DTSTART;TZID=Europe/Paris:20260920T100000
+DTEND;TZID=Europe/Paris:20260920T103000
+UID:101cc439dba5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Visite des coulisses\, des expos\, partez à la découverte de
+  la Friche ! Une proposition de la Friche la Belle de Mai\nPrix : Gratuit 
+ !\nhttps://www.lafriche.org/evenements/journees-du-patrimoine-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/journees-du-patrimoine-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Journées européennes du patrimoine 2026
@@ -1188,6 +1204,17 @@ LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Traversées libanaises
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+UID:4ceb7179ee44@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42202
+LOCATION:Mille Bâbords - Vidéodrome 2 – 49 cours Julien – 13006 Mars
+ eille
+URL:https://www.millebabords.org/spip.php?article42202
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visite de l'appartement témoin
 DTSTART;TZID=Europe/Paris:20261006T140000
 DTEND;TZID=Europe/Paris:20261006T153000
@@ -1244,6 +1271,18 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/bruits-roses/
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/bruits-roses/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Conférence gesticulée : « Nous produisons\, nous décidons 
+ » Écrire la partition d’un monde post-capitaliste
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+UID:1cfea82d7404@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42197
+LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42197
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:« Offensive fasciste\, résistances éditoriales ! »

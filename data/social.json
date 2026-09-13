@@ -37,7 +37,8 @@
        "verifier_reason": "The flyer announces « LE POULET » par l’Âne Solo at MANIFESTEN, with « -20h SAMEDI 12/09 » and « entrée libre / chapeau »; the caption confirms « Samedi 12 septembre ». 2026-09-12 is indeed a samedi, after the 2026-09-09 publication, and nothing indicates cancellation."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1660657569403205": {
      "id": "1660657569403205",
@@ -46,7 +47,8 @@
      "analyzed": "2026-09-12",
      "is_announcement": false,
      "events": [],
-     "notes": "no caption and no readable image"
+     "notes": "no caption and no readable image",
+     "image_urls": []
     },
     "1660464039422558": {
      "id": "1660464039422558",
@@ -55,7 +57,8 @@
      "analyzed": "2026-09-12",
      "is_announcement": false,
      "events": [],
-     "notes": "no caption and no readable image"
+     "notes": "no caption and no readable image",
+     "image_urls": []
     },
     "1660374196098209": {
      "id": "1660374196098209",
@@ -64,7 +67,8 @@
      "analyzed": "2026-09-12",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'JAM SESSION AVEC LA PLAINE KONNEXION' is scheduled for vendredi 11/09, which is Friday, September 11, 2026. Today is samedi 2026-09-12, so the event has already occurred. Since no other events are announced in the post, there are no upcoming events to list."
+     "notes": "The event 'JAM SESSION AVEC LA PLAINE KONNEXION' is scheduled for vendredi 11/09, which is Friday, September 11, 2026. Today is samedi 2026-09-12, so the event has already occurred. Since no other events are announced in the post, there are no upcoming events to list.",
+     "image_urls": []
     },
     "1660275982774697": {
      "id": "1660275982774697",
@@ -73,7 +77,8 @@
      "analyzed": "2026-09-12",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'JAM SESSION AVEC LA PLAINE KONNEXION' is scheduled for vendredi 11/09, which is Friday, 2026-09-11. Since today is samedi 2026-09-12, the event has already occurred and is not an upcoming event. Therefore, no upcoming events are announced in this post."
+     "notes": "The event 'JAM SESSION AVEC LA PLAINE KONNEXION' is scheduled for vendredi 11/09, which is Friday, 2026-09-11. Since today is samedi 2026-09-12, the event has already occurred and is not an upcoming event. Therefore, no upcoming events are announced in this post.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -126,7 +131,8 @@
        "verifier_reason": "The caption announces an ongoing exhibition with a concrete closing date: « Exposition visible jusqu'au 27 septembre 2026 » and « Du mercredi au dimanche, de 14h à 19h » at « Friche la Belle de Mai, 41 rue Jobin, 13003, Marseille ». 27 September 2026 is a dimanche, matching the stated Wed–Sun schedule, and the posted schedule (14h–19h) matches the extracted times. It is a real, dated, public event, not cancelled."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3984120000908851003": {
      "id": "3984120000908851003",
@@ -135,7 +141,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3982397557615498966": {
      "id": "3982397557615498966",
@@ -165,7 +172,8 @@
        "verifier_reason": "The caption announces a future event: \"📍 Mercredi 16 septembre aux Grandes Tables de la Friche Belle de Mai, dès 18h30\" and the flyer confirms \"MER 16 SEPT 2026 à La Friche de la Belle de Mai à 18h30\"; 16 September 2026 is indeed a Wednesday, after the 9 September publication date, and the venue matches."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3983938121447883855": {
      "id": "3983938121447883855",
@@ -231,7 +239,8 @@
        "verifier_reason": "The post announces a future event: \"Samedi 19 septembre, 21h — Bal méditerranéen, avec DJ Jikay et Pan-J avec @lasociety_mars\", at the Friche la Belle de Mai, matching the extracted date, time and venue; 2026-09-19 is indeed a Saturday."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3975965472843596589": {
      "id": "3975965472843596589",
@@ -240,7 +249,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "Both events are scheduled for vendredi 4 septembre 2026, which is in the past relative to today (dimanche 2026-09-13). The post announces events that have already occurred. No upcoming events are listed."
+     "notes": "Both events are scheduled for vendredi 4 septembre 2026, which is in the past relative to today (dimanche 2026-09-13). The post announces events that have already occurred. No upcoming events are listed.",
+     "image_urls": []
     },
     "3978904822791054194": {
      "id": "3978904822791054194",
@@ -249,7 +259,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'La maison forestière' is scheduled from 2026-09-08 to 2026-09-12, but today is 2026-09-13, meaning the event has already ended. Therefore, no upcoming events are announced in this post."
+     "notes": "The event 'La maison forestière' is scheduled from 2026-09-08 to 2026-09-12, but today is 2026-09-13, meaning the event has already ended. Therefore, no upcoming events are announced in this post.",
+     "image_urls": []
     },
     "3975995434979684771": {
      "id": "3975995434979684771",
@@ -258,7 +269,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "Both announced events ('Les Films derrière l’écran' on 2026-09-05 and 'Les Silences de Riyad' from 2026-09-02 to 2026-09-06) occurred in the past relative to today (2026-09-13). Since the task requires listing only upcoming public events, no events are returned."
+     "notes": "Both announced events ('Les Films derrière l’écran' on 2026-09-05 and 'Les Silences de Riyad' from 2026-09-02 to 2026-09-06) occurred in the past relative to today (2026-09-13). Since the task requires listing only upcoming public events, no events are returned.",
+     "image_urls": []
     },
     "3975785374597720004": {
      "id": "3975785374597720004",
@@ -267,7 +279,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event announced (CREAConnect Barcelona Hackathon) takes place in Barcelona, Spain, not at Friche la Belle de Mai in Marseille. Therefore, no events at the venue are announced."
+     "notes": "The event announced (CREAConnect Barcelona Hackathon) takes place in Barcelona, Spain, not at Friche la Belle de Mai in Marseille. Therefore, no events at the venue are announced.",
+     "image_urls": []
     },
     "3976720260866320571": {
      "id": "3976720260866320571",
@@ -276,7 +289,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post is a general announcement about the atmosphere and activities at Friche la Belle de Mai in September, but it does not specify any concrete upcoming events with dates, times, or titles. The image shows a scene from the venue but contains no text indicating an event. No specific public events are announced."
+     "notes": "The post is a general announcement about the atmosphere and activities at Friche la Belle de Mai in September, but it does not specify any concrete upcoming events with dates, times, or titles. The image shows a scene from the venue but contains no text indicating an event. No specific public events are announced.",
+     "image_urls": []
     },
     "3983825647822257041": {
      "id": "3983825647822257041",
@@ -340,7 +354,8 @@
        "verifier_reason": "Caption explicitly announces 'Sam 19, 21h — bal méditerranéen, gratuit' and the flyer confirms 'Friche la Belle de Mai Marseille' on '18-19 sept'; the post is a forward-looking announcement published 2026-09-11, and 2026-09-19 is indeed a samedi."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3982372529900627615": {
      "id": "3982372529900627615",
@@ -410,7 +425,8 @@
        "verifier_reason": "Caption announces 'Sam 19, 21h — bal méditerranéen, gratuit' at 'la Friche', matching the extracted date/time/venue; post published 2026-09-09 precedes the event, and 2026-09-19 is indeed a samedi."
       }
      ],
-     "notes": "The image confirms the venue (Friche la Belle de Mai, Marseille) and dates (18-19 sept), but all event details are extracted from the caption. The year 2026 is inferred from the context of the post date (2026-09-09) and the 'saison 2026' text in the image."
+     "notes": "The image confirms the venue (Friche la Belle de Mai, Marseille) and dates (18-19 sept), but all event details are extracted from the caption. The year 2026 is inferred from the context of the post date (2026-09-09) and the 'saison 2026' text in the image.",
+     "image_urls": []
     },
     "3983806125375795811": {
      "id": "3983806125375795811",
@@ -480,7 +496,8 @@
        "verifier_reason": "The caption announces \"📍 Sam 19, 21h — bal méditerranéen, gratuit\" and the flyer confirms \"Friche la Belle de Mai Marseille / 18-19 sept\"; 2026-09-19 is indeed a samedi, matching the extracted date, time and free price, and the post is a forward-looking announcement published 2026-09-11."
       }
      ],
-     "notes": "The image confirms the event dates (18-19 sept) and venue (Friche la Belle de Mai, Marseille), but all event details are extracted from the caption. The image text 'Smala #4 Le Caire' is not used as an event title since it's not in the caption."
+     "notes": "The image confirms the event dates (18-19 sept) and venue (Friche la Belle de Mai, Marseille), but all event details are extracted from the caption. The image text 'Smala #4 Le Caire' is not used as an event title since it's not in the caption.",
+     "image_urls": []
     },
     "3983225018196679930": {
      "id": "3983225018196679930",
@@ -544,7 +561,8 @@
        "verifier_reason": "The caption announces \"Sam 19, 21h — bal méditerranéen, gratuit\" at \"Friche la Belle de Mai Marseille\" (flyer \"18-19 sept\"), matching the extracted date, time, venue and free price; the post is a forward-looking announcement published 2026-09-10, and 19 September 2026 is indeed a Saturday."
       }
      ],
-     "notes": "The image confirms the venue and dates (18-19 sept) but does not provide additional event details beyond what is in the caption. All events are at the venue."
+     "notes": "The image confirms the venue and dates (18-19 sept) but does not provide additional event details beyond what is in the caption. All events are at the venue.",
+     "image_urls": []
     },
     "3983757909225771368": {
      "id": "3983757909225771368",
@@ -614,7 +632,8 @@
        "verifier_reason": "Caption and flyer agree: 'Samedi 19 sept, 21h — BAL MÉDITERRANÉEN, DJ Jikay x Pan-J x artistes associés / Grandes Tables, gratuit' and the flyer states '19 sept 21h ... Grandes Tables ... GRATUIT, ACCÈS LIBRE'. 2026-09-19 is indeed a samedi, after the 2026-09-11 publication, and it is a genuine dated public event at Friche la Belle de Mai, not cancelled."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3973057813169688062": {
      "id": "3973057813169688062",
@@ -623,7 +642,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "All events listed in the images are scheduled for vendredi 2026-08-28, which is in the past relative to today (dimanche 2026-09-13). The post announces a one-day event that has already occurred. No upcoming events are announced."
+     "notes": "All events listed in the images are scheduled for vendredi 2026-08-28, which is in the past relative to today (dimanche 2026-09-13). The post announces a one-day event that has already occurred. No upcoming events are announced.",
+     "image_urls": []
     },
     "3978850244303654382": {
      "id": "3978850244303654382",
@@ -632,7 +652,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post is a recap of a past event (Fiesta On Air) that took place on the roof terrace of Friche la Belle de Mai. The only upcoming events mentioned are not at this venue: 'Fiesta Ciné' is at cinéma Les Variétés, and future performances by @sharouh and @shahzenx are at 'la Fiesta' (location unspecified). Therefore, no events at Friche la Belle de Mai are announced."
+     "notes": "The post is a recap of a past event (Fiesta On Air) that took place on the roof terrace of Friche la Belle de Mai. The only upcoming events mentioned are not at this venue: 'Fiesta Ciné' is at cinéma Les Variétés, and future performances by @sharouh and @shahzenx are at 'la Fiesta' (location unspecified). Therefore, no events at Friche la Belle de Mai are announced.",
+     "image_urls": []
     },
     "3977496242346411785": {
      "id": "3977496242346411785",
@@ -641,7 +662,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event announced in the caption and images is scheduled for samedi 5 septembre 2026. Today is dimanche 2026-09-13, so the event has already occurred. The post was published on mercredi 2026-09-02, which was before the event, but since today is after the event date, it is no longer 'upcoming'. Therefore, no upcoming events are announced at the venue."
+     "notes": "The event announced in the caption and images is scheduled for samedi 5 septembre 2026. Today is dimanche 2026-09-13, so the event has already occurred. The post was published on mercredi 2026-09-02, which was before the event, but since today is after the event date, it is no longer 'upcoming'. Therefore, no upcoming events are announced at the venue.",
+     "image_urls": []
     },
     "3978120847361336023": {
      "id": "3978120847361336023",
@@ -671,7 +693,8 @@
        "verifier_reason": "The caption announces a future dated event: \"lasociety#4 19.09.26 ... grandes tables friche la belle de mai ... 20:00 → 01:30 free entry / gratuit\", all consistent with the extractor's values; 19 Sept 2026 is indeed a samedi, after the 2026-09-03 publication, and no cancellation or past-tense recap appears."
       }
      ],
-     "notes": "The event is clearly announced for the future (19.09.26) at Friche la Belle de Mai, as per caption and images. The images confirm the event's title and collaborators but do not contain date or time information; thus, all details are caption-grounded."
+     "notes": "The event is clearly announced for the future (19.09.26) at Friche la Belle de Mai, as per caption and images. The images confirm the event's title and collaborators but do not contain date or time information; thus, all details are caption-grounded.",
+     "image_urls": []
     },
     "3973098582587039388": {
      "id": "3973098582587039388",
@@ -680,7 +703,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post appears to be a recap or highlight of a past event (DJ set at Friche la Belle de Mai) rather than an announcement of upcoming events. The caption mentions 'Summer 2026' but does not specify any future dates or events. The image shows a live performance that likely already occurred, given the context and lack of scheduling details."
+     "notes": "The post appears to be a recap or highlight of a past event (DJ set at Friche la Belle de Mai) rather than an announcement of upcoming events. The caption mentions 'Summer 2026' but does not specify any future dates or events. The image shows a live performance that likely already occurred, given the context and lack of scheduling details.",
+     "image_urls": []
     },
     "3982578817364473797": {
      "id": "3982578817364473797",
@@ -710,7 +734,8 @@
        "verifier_reason": "Caption announces a future dated tour: \"Pour les journées du Patrimoine... 📍Les 19 & 20 septembre\", at \"la Friche la Belle de Mai\", free on reservation, with no contradiction of date, weekday or venue."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -789,7 +814,8 @@
        "verifier_reason": "Caption explicitly announces 'Samedi 19 septembre, 21h — Bal méditerranéen, avec DJ Jikay et Pan-J avec La Society'; 2026-09-19 is a Saturday and follows the 2026-09-11 publication date. No venue, cancellation, or date/time contradiction appears in the post."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1675869634128005": {
      "id": "1675869634128005",
@@ -855,7 +881,8 @@
        "verifier_reason": "Caption explicitly announces 'Samedi 19 septembre, 21h — Bal méditerranéen, avec DJ Jikay et Pan-J. Grandes Tables, gratuit.' — a future dated public event at the Friche, matching the extracted date (samedi 2026-09-19), time, venue and status."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1675841214130847": {
      "id": "1675841214130847",
@@ -920,7 +947,8 @@
        "verifier_reason": "The caption announces 'Samedi 19 septembre, 21h — Bal méditerranéen, avec DJ Jikay et Pan-J. Grandes Tables, gratuit.', matching the extracted date/time/venue/price; the post was published 11 Sept and the event is on 19 Sept, a Saturday, at the Friche la Belle de Mai. Not a recap, no cancellation mentioned."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1675778420803793": {
      "id": "1675778420803793",
@@ -1006,7 +1034,8 @@
        "verifier_reason": "The caption explicitly announces \"À noter aussi : atelier de préparation du bal le 17 septembre à 19h, gratuit sur inscription\"; the date (jeudi 17 septembre 2026) is after the 2026-09-11 publication date and matches the written weekday, the venue Friche la Belle de Mai hosts the whole Smala programme, no cancellation or past-event language appears, and the helloasso link is the post's reservation URL."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1675137900867845": {
      "id": "1675137900867845",
@@ -1072,7 +1101,8 @@
        "verifier_reason": "The caption announces a future event: \"Samedi 19 septembre, 21h — Bal méditerranéen, avec DJ Jikay et Pan-J. Grandes Tables, gratuit.\" — matching the extracted date (2026-09-19, a samedi), time (21:00), venue (Grandes Tables at Friche la Belle de Mai) and free price, and the post (published 2026-09-11) is an announcement, not a recap."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1673897694325199": {
      "id": "1673897694325199",
@@ -1137,7 +1167,8 @@
        "verifier_reason": "Caption explicitly announces 'Samedi 19 septembre, 21h — Bal méditerranéen, avec DJ Jikay et Pan-J. Grandes Tables, gratuit.' at the Friche la Belle de Mai (18-19 sept), a dated public event after the vendredi 11 sept publication date, with no cancellation notice and a matching reservation URL."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1530292285792506": {
      "id": "1530292285792506",
@@ -1167,7 +1198,8 @@
        "verifier_reason": "The post announces a future event ('Les 19 & 20 septembre', 'Pour les journées du Patrimoine'), published 2026-09-09 by the Friche la Belle de Mai's own page at that venue. 2026-09-19 correctly falls on a samedi and 2026-09-20 on a dimanche, and the caption explicitly says 'Gratuit sur réservation' with status scheduled."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1601452095325968": {
      "id": "1601452095325968",
@@ -1197,7 +1229,8 @@
        "verifier_reason": "The caption announces an ongoing exhibition: \"Exposition visible jusqu'au 27 septembre 2026\" and \"Du mercredi au dimanche, de 14h à 19h\" at \"Friche la Belle de Mai, 41 rue Jobin, 13003, Marseille\", matching the extracted end date, time window and venue; the start date (2026-09-09, a mercredi) is on the publication date and is not contradicted, and the post is a live announcement, not a recap or cancellation."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1525649849590083": {
      "id": "1525649849590083",
@@ -1206,7 +1239,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'La maison forestière' is scheduled from 2026-09-08 to 2026-09-12, but today is 2026-09-13, meaning the event has already ended. Therefore, no upcoming events are announced in this post."
+     "notes": "The event 'La maison forestière' is scheduled from 2026-09-08 to 2026-09-12, but today is 2026-09-13, meaning the event has already ended. Therefore, no upcoming events are announced in this post.",
+     "image_urls": []
     },
     "1523852339769834": {
      "id": "1523852339769834",
@@ -1215,7 +1249,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'CABARET ALÉATOIRE X UTOPIA PRÉLUDE' is scheduled for samedi 5 septembre 2026, which is in the past relative to today (dimanche 2026-09-13). Since no other events are announced and this one has already occurred, there are no upcoming events to list."
+     "notes": "The event 'CABARET ALÉATOIRE X UTOPIA PRÉLUDE' is scheduled for samedi 5 septembre 2026, which is in the past relative to today (dimanche 2026-09-13). Since no other events are announced and this one has already occurred, there are no upcoming events to list.",
+     "image_urls": []
     },
     "1522933176528417": {
      "id": "1522933176528417",
@@ -1224,7 +1259,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post is a general announcement about the atmosphere and activities at Friche la Belle de Mai in September, but it does not list any specific upcoming public events with dates, times, or titles. The only link provided is to a newsletter, which is not an event itself. No flyer or image contains event details."
+     "notes": "The post is a general announcement about the atmosphere and activities at Friche la Belle de Mai in September, but it does not list any specific upcoming public events with dates, times, or titles. The only link provided is to a newsletter, which is not an event itself. No flyer or image contains event details.",
+     "image_urls": []
     },
     "1522121623276239": {
      "id": "1522121623276239",
@@ -1233,7 +1269,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'VENDREDI SUR LE TOIT ✨' is scheduled for 2026-09-04, which is in the past relative to today's date (2026-09-13). No upcoming events are announced in this post."
+     "notes": "The event 'VENDREDI SUR LE TOIT ✨' is scheduled for 2026-09-04, which is in the past relative to today's date (2026-09-13). No upcoming events are announced in this post.",
+     "image_urls": []
     },
     "1478230850991926": {
      "id": "1478230850991926",
@@ -1242,7 +1279,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The title is now copied verbatim from the caption as 'ON AIR · WARM-UP DU FESTIVAL 🪩'. The evidence includes verbatim excerpts from the caption. The event date (29 août 2026) is Saturday, which matches the day of the week, and while it is in the past relative to today (2026-09-13), it was an upcoming event at the time of posting (2026-08-27). Therefore, it is included per instructions."
+     "notes": "The title is now copied verbatim from the caption as 'ON AIR · WARM-UP DU FESTIVAL 🪩'. The evidence includes verbatim excerpts from the caption. The event date (29 août 2026) is Saturday, which matches the day of the week, and while it is in the past relative to today (2026-09-13), it was an upcoming event at the time of posting (2026-08-27). Therefore, it is included per instructions.",
+     "image_urls": []
     },
     "1518359693652432": {
      "id": "1518359693652432",
@@ -1251,7 +1289,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "All events announced in the post are scheduled for dimanche 2026-08-28, which is in the past relative to today (dimanche 2026-09-13). Since no future events are mentioned in the caption or images, and the post does not announce any upcoming events beyond that date, there are no valid upcoming events to list."
+     "notes": "All events announced in the post are scheduled for dimanche 2026-08-28, which is in the past relative to today (dimanche 2026-09-13). Since no future events are mentioned in the caption or images, and the post does not announce any upcoming events beyond that date, there are no valid upcoming events to list.",
+     "image_urls": []
     },
     "1517471303741271": {
      "id": "1517471303741271",
@@ -1260,7 +1299,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event mentioned ('Rendez-vous demain à 16h pour la dernière séance !') was scheduled for jeudi 27 août 2026, which is in the past (today is dimanche 2026-09-13). The post appears to be a recap of a past event, not an announcement of upcoming events. Therefore, no upcoming events are announced at the venue."
+     "notes": "The event mentioned ('Rendez-vous demain à 16h pour la dernière séance !') was scheduled for jeudi 27 août 2026, which is in the past (today is dimanche 2026-09-13). The post appears to be a recap of a past event, not an announcement of upcoming events. Therefore, no upcoming events are announced at the venue.",
+     "image_urls": []
     },
     "1516636027158132": {
      "id": "1516636027158132",
@@ -1269,7 +1309,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The title 'FESTIVAL CONSTELLATIONS' is not written verbatim in the caption; instead, it appears as '@festival_constellations'. The event date is explicitly stated as 'Samedi 29 août 2026', which is after the post publication date (2026-08-25). However, today's date is 2026-09-13, meaning the event has already occurred. Since the system requires events to be upcoming, and this event is in the past, it should be dropped. Therefore, no events are announced for the future."
+     "notes": "The title 'FESTIVAL CONSTELLATIONS' is not written verbatim in the caption; instead, it appears as '@festival_constellations'. The event date is explicitly stated as 'Samedi 29 août 2026', which is after the post publication date (2026-08-25). However, today's date is 2026-09-13, meaning the event has already occurred. Since the system requires events to be upcoming, and this event is in the past, it should be dropped. Therefore, no events are announced for the future.",
+     "image_urls": []
     },
     "1516286567193078": {
      "id": "1516286567193078",
@@ -1278,7 +1319,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'LA FIESTA DES SUDS' is scheduled for Friday, August 28, 2026. The post was published on Tuesday, August 25, 2026. Since today is Sunday, September 13, 2026, the event has already occurred and is in the past. Therefore, no upcoming events are announced in this post."
+     "notes": "The event 'LA FIESTA DES SUDS' is scheduled for Friday, August 28, 2026. The post was published on Tuesday, August 25, 2026. Since today is Sunday, September 13, 2026, the event has already occurred and is in the past. Therefore, no upcoming events are announced in this post.",
+     "image_urls": []
     },
     "1513023867519348": {
      "id": "1513023867519348",
@@ -1287,7 +1329,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'Art-o-rama' is scheduled from 2026-08-28 to 2026-08-30, but today is 2026-09-13. The event has already passed and is not upcoming. Therefore, no valid upcoming events are announced in this post."
+     "notes": "The event 'Art-o-rama' is scheduled from 2026-08-28 to 2026-08-30, but today is 2026-09-13. The event has already passed and is not upcoming. Therefore, no valid upcoming events are announced in this post.",
+     "image_urls": []
     },
     "1512219570933111": {
      "id": "1512219570933111",
@@ -1296,7 +1339,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The events announced in the post (Vernissages gratuits and Soirée On Air) are scheduled for vendredi 28 août, which is in the past relative to today's date (dimanche 2026-09-13). No upcoming events are announced."
+     "notes": "The events announced in the post (Vernissages gratuits and Soirée On Air) are scheduled for vendredi 28 août, which is in the past relative to today's date (dimanche 2026-09-13). No upcoming events are announced.",
+     "image_urls": []
     },
     "1615855176794461": {
      "id": "1615855176794461",
@@ -1305,7 +1349,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'VERNISSAGES DE RENTRÉE' is scheduled for vendredi 28 août, which is Friday, August 28, 2026. Today is dimanche 2026-09-13 (Sunday, September 13, 2026), so the event has already occurred. Since no other events are announced in the post, there are no upcoming events to list."
+     "notes": "The event 'VERNISSAGES DE RENTRÉE' is scheduled for vendredi 28 août, which is Friday, August 28, 2026. Today is dimanche 2026-09-13 (Sunday, September 13, 2026), so the event has already occurred. Since no other events are announced in the post, there are no upcoming events to list.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -1356,7 +1401,8 @@
        "verifier_reason": "Caption announces a future event: \"Jeudi 17 à 19h présentation avec Hendrik Davi et Samy Johsua\", posted 2026-09-12 by the librairie itself; 17 September 2026 is indeed a jeudi, matching the written weekday and time."
       }
      ],
-     "notes": "The flyer image shows the book 'SCIENCES en résistance', which is likely the subject of the presentation. However, the event details (date, time, title) are taken from the caption, not the image. The image does not contain explicit event information like date or time."
+     "notes": "The flyer image shows the book 'SCIENCES en résistance', which is likely the subject of the presentation. However, the event details (date, time, title) are taken from the caption, not the image. The image does not contain explicit event information like date or time.",
+     "image_urls": []
     },
     "1684820030320701": {
      "id": "1684820030320701",
@@ -1384,7 +1430,8 @@
        "verifier_reason": "The caption announces a future event, \"Mardi 19h : Catherine Dorion en conversation avec Corinne Morel Darleux\", posted samedi 2026-09-12, so the next Tuesday is 2026-09-15 at 19:00, matching the extracted values; the flyer is only a book cover with no contradicting date, and the post is an announcement from the venue itself, not a recap."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1057324923598269": {
      "id": "1057324923598269",
@@ -1393,7 +1440,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The image is a book cover with no event details (date, time, title of an event). No upcoming public event is announced at Transit librairie. The post contains no caption and the image does not indicate any scheduled event."
+     "notes": "The image is a book cover with no event details (date, time, title of an event). No upcoming public event is announced at Transit librairie. The post contains no caption and the image does not indicate any scheduled event.",
+     "image_urls": []
     },
     "1346466243960578": {
      "id": "1346466243960578",
@@ -1423,7 +1471,8 @@
        "verifier_reason": "The single attached image is only the book cover ('Catherine Dorion / LE COURAGE ET LA JOIE / TRAVERSER LA TEMPÊTE FASCISTE SANS PERDRE LE NORD / LETTRES LIBRES') with no printed date, time or venue, and the caption is empty, so the extracted start_date 2026-09-13 and the Transit librairie venue are unsupported by the post."
       }
      ],
-     "notes": "The event is scheduled for dimanche 2026-09-13, as inferred from the post date (mercredi 2026-09-09) and typical scheduling patterns. The flyer does not specify time or price. No caption text was provided."
+     "notes": "The event is scheduled for dimanche 2026-09-13, as inferred from the post date (mercredi 2026-09-09) and typical scheduling patterns. The flyer does not specify time or price. No caption text was provided.",
+     "image_urls": []
     },
     "1679773444158693": {
      "id": "1679773444158693",
@@ -1432,7 +1481,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'Présentation le mercredi 9 septembre à 19h en présence de l autrice' is scheduled for September 9, 2026, which is in the past relative to today (September 13, 2026). Since no future events are announced in the post, and the only event mentioned has already occurred, there are no upcoming events to list."
+     "notes": "The event 'Présentation le mercredi 9 septembre à 19h en présence de l autrice' is scheduled for September 9, 2026, which is in the past relative to today (September 13, 2026). Since no future events are announced in the post, and the only event mentioned has already occurred, there are no upcoming events to list.",
+     "image_urls": []
     },
     "1594955025457933": {
      "id": "1594955025457933",
@@ -1441,7 +1491,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post contains only an image of a book cover (Mohamed Abdou, 'Islam et Anarchisme') with no event details such as date, time, or location. No upcoming public event at Transit librairie is announced."
+     "notes": "The post contains only an image of a book cover (Mohamed Abdou, 'Islam et Anarchisme') with no event details such as date, time, or location. No upcoming public event at Transit librairie is announced.",
+     "image_urls": []
     },
     "964817886651770": {
      "id": "964817886651770",
@@ -1470,7 +1521,8 @@
        "verifier_reason": "The only image is a plain book cover reading \"LOUISE DEVISE / LA ROSE DE JÉRICO\" with no date, time or venue anywhere, and the caption is empty, so the extracted start_date 2026-09-13 and location \"Transit librairie\" are unsupported — this is not a dated public event."
       }
      ],
-     "notes": "The post contains only an image with the title and author name. No date or time is visible on the image. The event is assumed to be scheduled for the next Sunday (2026-09-13) as today is Wednesday 2026-09-02 and the post was published on that day."
+     "notes": "The post contains only an image with the title and author name. No date or time is visible on the image. The event is assumed to be scheduled for the next Sunday (2026-09-13) as today is Wednesday 2026-09-02 and the post was published on that day.",
+     "image_urls": []
     },
     "4581907788720349": {
      "id": "4581907788720349",
@@ -1479,7 +1531,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post shows a book cover ('Dans les sillons de Gaston Couté') but does not announce any upcoming event at Transit librairie. There is no text in the caption and no event details (date, time, title) visible on the image that indicate an announcement. This appears to be a promotional image for a book, not an event."
+     "notes": "The post shows a book cover ('Dans les sillons de Gaston Couté') but does not announce any upcoming event at Transit librairie. There is no text in the caption and no event details (date, time, title) visible on the image that indicate an announcement. This appears to be a promotional image for a book, not an event.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -1563,7 +1616,8 @@
        "verifier_reason": "The caption announces a future show: \"Jeudi 17 septembre 2026 | ⏰ 21h\" at \"L'intermédiaire, 63 place Jean Jaurès, 13006 Marseille\" with \"Tarif : 7€\", matching the extracted date, time, venue and price; 2026-09-17 is indeed a jeudi and falls after the 2026-08-28 publication date. The mention of \"une annulation\" refers to the past summer season, not this event, and no cancellation/postponement of this concert is stated."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3977320875807162134": {
      "id": "3977320875807162134",
@@ -1633,7 +1687,8 @@
        "verifier_reason": "The caption announces \"MERCREDI 23 SEPTEMBRE ... 20h30 début des concerts\" at \"À l'intermédiaire 63 la plaine\" with \"Participation aux frais: 7€ (cash)\", and 2026-09-23 is indeed a Wednesday after the 2026-09-02 publication date; it is an announcement, not a recap."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3975326799638305978": {
      "id": "3975326799638305978",
@@ -1663,7 +1718,8 @@
        "verifier_reason": "Flyer and caption announce a future gig: \"22 SEPT. 21h.\" at \"INTERMÉDIAIRE 5/7e\" with \"BROWER ... + SASHA VAUGHAN BAND\", posted 2026-08-30, so 2026-09-22 at 21:00 is on/after publication and matches the venue L'Intermédiaire; no cancellation or past-event wording."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3970947742145495387": {
      "id": "3970947742145495387",
@@ -1672,7 +1728,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "All announced events are scheduled for 2026-09-09, which is in the past relative to today (2026-09-13). Therefore, no upcoming events are listed."
+     "notes": "All announced events are scheduled for 2026-09-09, which is in the past relative to today (2026-09-13). Therefore, no upcoming events are listed.",
+     "image_urls": []
     },
     "3976598697085040011": {
      "id": "3976598697085040011",
@@ -1702,7 +1759,8 @@
        "verifier_reason": "Flyer reads \"19.09.26 - 21H - L'Intermédiaire / 63 Place Jean Jaurès, 13006 Marseille\", matching the extracted date, time and venue; 2026-09-19 is indeed a samedi and is after the 2026-09-01 publication date, and the post is a forward-looking announcement, not a recap."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3976024686981802781": {
      "id": "3976024686981802781",
@@ -1711,7 +1769,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event announced (OPÉRATION COUP DE POING) is scheduled for jeudi 3 septembre 2026, which is in the past relative to today (dimanche 2026-09-13). Therefore, no upcoming events are announced."
+     "notes": "The event announced (OPÉRATION COUP DE POING) is scheduled for jeudi 3 septembre 2026, which is in the past relative to today (dimanche 2026-09-13). Therefore, no upcoming events are announced.",
+     "image_urls": []
     },
     "3966137704041268608": {
      "id": "3966137704041268608",
@@ -1720,7 +1779,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'BEER & LAS GRIMAS' was scheduled for 2026-08-18, which is in the past relative to today (2026-09-13). The post announces a past event, not an upcoming one. No future events are announced."
+     "notes": "The event 'BEER & LAS GRIMAS' was scheduled for 2026-08-18, which is in the past relative to today (2026-09-13). The post announces a past event, not an upcoming one. No future events are announced.",
+     "image_urls": []
     },
     "3970924925506358092": {
      "id": "3970924925506358092",
@@ -1729,7 +1789,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'SUPREME NIGHTCLUB' is scheduled for 2026-09-10, which is in the past (today is 2026-09-13). Therefore, no upcoming events are announced."
+     "notes": "The event 'SUPREME NIGHTCLUB' is scheduled for 2026-09-10, which is in the past (today is 2026-09-13). Therefore, no upcoming events are announced.",
+     "image_urls": []
     },
     "3957060499160018252": {
      "id": "3957060499160018252",
@@ -1738,7 +1799,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event is scheduled for Saturday, September 12, 2026. Today is Sunday, September 13, 2026. The event occurred yesterday and is therefore in the past. However, since the post was published on August 5, 2026, and the event is listed as upcoming at that time, it is a valid announcement of a future event at the time of posting. The system’s ‘past’ check is based on today’s date, which is not relevant to the context of the announcement. The event should be retained as announced."
+     "notes": "The event is scheduled for Saturday, September 12, 2026. Today is Sunday, September 13, 2026. The event occurred yesterday and is therefore in the past. However, since the post was published on August 5, 2026, and the event is listed as upcoming at that time, it is a valid announcement of a future event at the time of posting. The system’s ‘past’ check is based on today’s date, which is not relevant to the context of the announcement. The event should be retained as announced.",
+     "image_urls": []
     },
     "3980365247090436908": {
      "id": "3980365247090436908",
@@ -1768,7 +1830,8 @@
        "verifier_reason": "Caption and flyer agree: \"Samedi 26 septembre ... à L'Intermediaire\", \"🕰 21h30\", \"Entrée 10€\", flyer shows \"63 Place Jean Jaurès 13006 Marseille\"; 2026-09-26 is indeed a samedi and falls after the 2026-09-06 publication date, with no cancellation or past-event language."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3983786774283090244": {
      "id": "3983786774283090244",
@@ -1797,7 +1860,8 @@
        "verifier_reason": "The post is a forward-looking announcement (\"On se retrouve dans moins d'une semaine à l'Intermédiaire\") and the flyer states \"GRAND KOSMI INDIE FOLK - MARSEILLE\" with \"JEU. 17 SEPTEMBRE\"; 17 September 2026 is indeed a jeudi, consistent with the publication date of vendredi 2026-09-11, and the venue matches the caption's \"à l'Intermédiaire\"."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3976780230748042191": {
      "id": "3976780230748042191",
@@ -1827,7 +1891,8 @@
        "verifier_reason": "The caption announces a forthcoming show (\"On est trop content de retourner à l'intermédiaire d'ici une quinzaine de jours\") and the flyer states \"JEU. 17 SEPTEMBRE\", which matches 2026-09-17 being a Thursday and falls after the 2026-09-01 publication date; venue L'Intermédiaire is confirmed by the caption."
       }
      ],
-     "notes": "The event is announced for L'Intermédiaire based on the context of the post and the flyer image, which shows the date 'JEU. 17 SEPTEMBRE'. The caption mentions returning to L'Intermédiaire in about two weeks from the post date (September 1, 2026), aligning with September 17, 2026. No URL or price is provided."
+     "notes": "The event is announced for L'Intermédiaire based on the context of the post and the flyer image, which shows the date 'JEU. 17 SEPTEMBRE'. The caption mentions returning to L'Intermédiaire in about two weeks from the post date (September 1, 2026), aligning with September 17, 2026. No URL or price is provided.",
+     "image_urls": []
     },
     "3967308080958232312": {
      "id": "3967308080958232312",
@@ -1836,7 +1901,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event title is taken verbatim from the caption as the first sentence describing the concert, since 'TVOD + LE BAGARR' is not explicitly written as a single phrase. The date is confirmed as lundi 7 septembre 2026, which is in the future relative to today (dimanche 2026-09-13). The start time is explicitly stated as 20:45 in the caption. The image-based event was dropped due to duplication and conflicting timing."
+     "notes": "The event title is taken verbatim from the caption as the first sentence describing the concert, since 'TVOD + LE BAGARR' is not explicitly written as a single phrase. The date is confirmed as lundi 7 septembre 2026, which is in the future relative to today (dimanche 2026-09-13). The start time is explicitly stated as 20:45 in the caption. The image-based event was dropped due to duplication and conflicting timing.",
+     "image_urls": []
     },
     "3975970495835548788": {
      "id": "3975970495835548788",
@@ -1845,7 +1911,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'TVOD + LE BAGARR' is scheduled for 2026-09-07, which is before today's date (2026-09-13). Since the current date is after the event date, this event is in the past and should not be included as an upcoming event. The post was published on 2026-08-31, so at that time it was a future event, but now it is not. Therefore, no upcoming events are announced."
+     "notes": "The event 'TVOD + LE BAGARR' is scheduled for 2026-09-07, which is before today's date (2026-09-13). Since the current date is after the event date, this event is in the past and should not be included as an upcoming event. The post was published on 2026-08-31, so at that time it was a future event, but now it is not. Therefore, no upcoming events are announced.",
+     "image_urls": []
     },
     "3982500311679373959": {
      "id": "3982500311679373959",
@@ -1874,7 +1941,8 @@
        "verifier_reason": "Caption announces \"22 SEPTEMBRE @l_intermediaire 21h 5/7€\" for @brower____, matching the flyer's \"22 SEPT. 21H\" / \"BROWER\"; the event date (2026-09-22) is after the publication date (2026-09-09), the venue matches, and no cancellation is mentioned."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -1895,7 +1963,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1656659123135000": {
      "id": "1656659123135000",
@@ -1904,7 +1973,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'Le joyeux presqu' anniversaire de Raph' was scheduled for 2026-08-29, which is in the past relative to today (2026-09-13). The post was published on 2026-08-28, and 'ce soir' refers to that evening (2026-08-28), not the next day. However, since the flyer does not specify a date, and the caption says 'ce soir', the event occurred on the day of publication, making it a past event. No upcoming events are announced."
+     "notes": "The event 'Le joyeux presqu' anniversaire de Raph' was scheduled for 2026-08-29, which is in the past relative to today (2026-09-13). The post was published on 2026-08-28, and 'ce soir' refers to that evening (2026-08-28), not the next day. However, since the flyer does not specify a date, and the caption says 'ce soir', the event occurred on the day of publication, making it a past event. No upcoming events are announced.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -1957,7 +2027,8 @@
        "verifier_reason": "Caption and flyer agree: \"dim 13 de 14h à 19h\" / \"DIMANCHE 13 SEPTEMBRE 14H-19H\", and 2026-09-13 does fall on a Sunday (after the 2026-09-09 publication date). It is a dated public sale (\"on vide les stocks ! DVD et affiches à petits prix\") tied to La Baleine's anniversary, with no cancellation or venue mismatch."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3983741561741987624": {
      "id": "3983741561741987624",
@@ -1987,7 +2058,8 @@
        "verifier_reason": "The caption announces upcoming screenings at La Baleine (logo on the flyer): \"Mer 16 à 20h30 ; jeu 17 à 20h15 ; ... mar 22 à 18h10\", matching the extracted start 2026-09-16 20:30 (a Wednesday) and end 2026-09-22, all after the 2026-09-11 publication date, with no cancellation mentioned."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3978010166650140151": {
      "id": "3978010166650140151",
@@ -2017,7 +2089,8 @@
        "verifier_reason": "The caption announces upcoming screenings at the venue itself: \"MARIUS ET LE ROYAUME DES MERS d'Endre Skandfer ▶️ Mer 9 à 14h ; sam 12 à 14h ; dim 13 à 14h15\", and the flyer confirms \"la BALEINE cinema bistrot\". 2026-09-09 is indeed a mercredi, 09-12 a samedi and 09-13 a dimanche, all on/after the 2026-09-03 publication date, and nothing indicates cancellation."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3981522116855042365": {
      "id": "3981522116855042365",
@@ -2084,7 +2157,8 @@
        "verifier_reason": "The caption explicitly announces the braderie \"Vente d'affiches et DVD ▶️ dim 13 de 14h à 19h\", matching Sunday 13 September 2026, 14:00–19:00; it is a dated public event at La Baleine, posted 2026-09-08 (before the event), with no cancellation notice."
       }
      ],
-     "notes": "The event 'MARIUS ET LE ROYAUME DES MERS d'Endre Skandfer' on Saturday 12 September is now in the past (today is Sunday 13 September) and has been dropped. Only events on or after today are included."
+     "notes": "The event 'MARIUS ET LE ROYAUME DES MERS d'Endre Skandfer' on Saturday 12 September is now in the past (today is Sunday 13 September) and has been dropped. Only events on or after today are included.",
+     "image_urls": []
     },
     "3980797599443565009": {
      "id": "3980797599443565009",
@@ -2093,7 +2167,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'HAIR, PAPER, WATER... de Nicolas Graux & Minh Quý Trương' is scheduled for 2026-09-08, which is in the past (today is 2026-09-13). No upcoming events are announced in this post."
+     "notes": "The event 'HAIR, PAPER, WATER... de Nicolas Graux & Minh Quý Trương' is scheduled for 2026-09-08, which is in the past (today is 2026-09-13). No upcoming events are announced in this post.",
+     "image_urls": []
     },
     "3979528723975984830": {
      "id": "3979528723975984830",
@@ -2102,7 +2177,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'SÉANCE DE COURTS MÉTRAGES' is scheduled for 2026-09-10, which is in the past relative to today (2026-09-13). No future events are announced in the post."
+     "notes": "The event 'SÉANCE DE COURTS MÉTRAGES' is scheduled for 2026-09-10, which is in the past relative to today (2026-09-13). No future events are announced in the post.",
+     "image_urls": []
     },
     "3983067993168702835": {
      "id": "3983067993168702835",
@@ -2132,7 +2208,8 @@
        "verifier_reason": "Flyer and caption both state \"LUNDI 14.09 · 20H\" for the avant-première of \"MERCI D'ÊTRE VENU\" at La Baleine (\"La BALEINE cinema · bistrot\" on the flyer), and 2026-09-14 is indeed a Monday, on/after the 2026-09-10 publication date; it is an announced public screening, not a recap."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3979619565075741426": {
      "id": "3979619565075741426",
@@ -2141,7 +2218,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'DÉSOEUVRLEMENT (PEINTURES SUR LE MOTIF)' is scheduled for 2026-09-10, which is in the past relative to today (2026-09-13). Since no other upcoming events are announced in the post, there are no valid upcoming events at the venue."
+     "notes": "The event 'DÉSOEUVRLEMENT (PEINTURES SUR LE MOTIF)' is scheduled for 2026-09-10, which is in the past relative to today (2026-09-13). Since no other upcoming events are announced in the post, there are no valid upcoming events at the venue.",
+     "image_urls": []
     },
     "3972947323926886934": {
      "id": "3972947323926886934",
@@ -2150,7 +2228,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'GOUFFRES ET MERVEILLES de Jean Boiron-Lajous' is scheduled for 2026-09-02, which is in the past relative to today (2026-09-13). Since the post was published on 2026-08-27 and the flyer clearly states 'Mercredi 02.09', this date is unambiguously September 2, 2026 — a past date. The system flag is correct: this is not an upcoming event. Therefore, we drop it from the list of upcoming events. No other events are announced."
+     "notes": "The event 'GOUFFRES ET MERVEILLES de Jean Boiron-Lajous' is scheduled for 2026-09-02, which is in the past relative to today (2026-09-13). Since the post was published on 2026-08-27 and the flyer clearly states 'Mercredi 02.09', this date is unambiguously September 2, 2026 — a past date. The system flag is correct: this is not an upcoming event. Therefore, we drop it from the list of upcoming events. No other events are announced.",
+     "image_urls": []
     },
     "3975841376197787208": {
      "id": "3975841376197787208",
@@ -2159,7 +2238,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event '𝗚𝗢𝗨𝗙𝗙𝗥𝗘𝗦 𝗘𝗧 𝗠𝗘𝗥𝗩𝗘𝗜𝗟𝗟𝗘𝗦 de Jean Boiron-Lajous' was scheduled for September 2–7, 2026, but today is September 13, 2026 — meaning the event has already passed. Since the task requires listing upcoming events (at the time of posting or now), and this event is no longer upcoming, it is dropped. The post announced past events, so no valid upcoming events remain."
+     "notes": "The event '𝗚𝗢𝗨𝗙𝗙𝗥𝗘𝗦 𝗘𝗧 𝗠𝗘𝗥𝗩𝗘𝗜𝗟𝗟𝗘𝗦 de Jean Boiron-Lajous' was scheduled for September 2–7, 2026, but today is September 13, 2026 — meaning the event has already passed. Since the task requires listing upcoming events (at the time of posting or now), and this event is no longer upcoming, it is dropped. The post announced past events, so no valid upcoming events remain.",
+     "image_urls": []
     },
     "3978713571193354475": {
      "id": "3978713571193354475",
@@ -2168,7 +2248,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'RETOUR AVANT 15 HEURES' was scheduled for 2026-09-08, which is in the past relative to today (2026-09-13). Since the post was published on 2026-09-04, the event was upcoming at that time, but as of today, it has already occurred. The instruction requires listing only upcoming events (on or after today's date). Therefore, no events are listed."
+     "notes": "The event 'RETOUR AVANT 15 HEURES' was scheduled for 2026-09-08, which is in the past relative to today (2026-09-13). Since the post was published on 2026-09-04, the event was upcoming at that time, but as of today, it has already occurred. The instruction requires listing only upcoming events (on or after today's date). Therefore, no events are listed.",
+     "image_urls": []
     },
     "3974490510769053324": {
      "id": "3974490510769053324",
@@ -2177,7 +2258,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "All announced events for 'SOUDAIN de Ryūsuke Hamaguchi' occurred before today (2026-09-13). The post announces past screenings; no upcoming events are listed."
+     "notes": "All announced events for 'SOUDAIN de Ryūsuke Hamaguchi' occurred before today (2026-09-13). The post announces past screenings; no upcoming events are listed.",
+     "image_urls": []
     },
     "3971314780945889979": {
      "id": "3971314780945889979",
@@ -2186,7 +2268,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "All announced events (Memory of Princess Mumbe, Melancholia, Les Beaux Jours) occurred before today's date (2026-09-13). The post announces past events, not upcoming ones."
+     "notes": "All announced events (Memory of Princess Mumbe, Melancholia, Les Beaux Jours) occurred before today's date (2026-09-13). The post announces past events, not upcoming ones.",
+     "image_urls": []
     },
     "3980168915141028374": {
      "id": "3980168915141028374",
@@ -2234,7 +2317,8 @@
        "verifier_reason": "The caption explicitly announces '𝗘𝗩𝗘𝗥𝗬𝗧𝗜𝗠𝗘 de Sandra Wollner ▶️ Ven 25 à 20h30' with the matching link https://fb.me/e/66FSK2fCA, at La Baleine; 2026-09-25 is indeed a Friday and falls after the 2026-09-06 publication date."
       }
      ],
-     "notes": "The event 'NOTRE SALUT d'Emmanuel Marre' on 2026-09-11 is in the past (today is 2026-09-13) and has been dropped. The remaining events are scheduled for future dates."
+     "notes": "The event 'NOTRE SALUT d'Emmanuel Marre' on 2026-09-11 is in the past (today is 2026-09-13) and has been dropped. The remaining events are scheduled for future dates.",
+     "image_urls": []
     },
     "3970100244909953067": {
      "id": "3970100244909953067",
@@ -2284,7 +2368,8 @@
        "verifier_reason": "Flyer reads 'VENDREDI 25.09 · 20H30' and 'EVERYTIME DE SANDRA WOLLNER' at 'la BALEINE cinema bistrot', matching the extracted date (2026-09-25 is indeed a Friday, consistent with the '11 au 27 septembre 2026' festival window) and the caption's 'Ven 25 à 20h30' plus the link 'https://fb.me/e/66FSK2fCA'. It is a forthcoming avant-première, not a recap, and no cancellation/postponement is mentioned."
       }
      ],
-     "notes": "The event 'NOTRE SALUT' on 2026-09-11 is in the past relative to today (2026-09-13), so it is dropped as per instruction. Only upcoming events are included."
+     "notes": "The event 'NOTRE SALUT' on 2026-09-11 is in the past relative to today (2026-09-13), so it is dropped as per instruction. Only upcoming events are included.",
+     "image_urls": []
     },
     "3973671583692364581": {
      "id": "3973671583692364581",
@@ -2293,7 +2378,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'MELANCHOLIA (2011) DE LARS VON TRIER' is scheduled for 2026-09-01, which is in the past relative to today (2026-09-13). Since no other events are announced, and the post refers to a past date, it does not announce any upcoming events at the venue."
+     "notes": "The event 'MELANCHOLIA (2011) DE LARS VON TRIER' is scheduled for 2026-09-01, which is in the past relative to today (2026-09-13). Since no other events are announced, and the post refers to a past date, it does not announce any upcoming events at the venue.",
+     "image_urls": []
     },
     "3984692810225311183": {
      "id": "3984692810225311183",
@@ -2323,7 +2409,8 @@
        "verifier_reason": "The caption announces upcoming screenings at La Baleine: \"Mer 16 à 16h ; sam 19 à 16h30 ; dim 20 à 16h\", and the flyer confirms the venue (\"La BALEINE cinema - bistrot\") and title \"LE CYGNE ET L'ENFANT DE MIYOUNG BAEK\". Published samedi 2026-09-12, the dates 16/19/20 September 2026 correctly fall on mercredi/samedi/dimanche, matching the extracted start 2026-09-16 16:00 and end 2026-09-20."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3977173943404314936": {
      "id": "3977173943404314936",
@@ -2351,7 +2438,8 @@
        "verifier_reason": "Caption explicitly announces an upcoming event: \"Aux Variétés, à la Baleine et au Gyptis (Marseille) du 2 au 4 octobre\" with La Baleine tagged @labaleinemarseille, matching the extracted 2026-10-02 to 2026-10-04 (vendredi 2 octobre 2026), after the 2026-09-02 publication date, with no cancellation or time contradiction."
       }
      ],
-     "notes": "The event is part of a wider tour; only the Marseille dates at La Baleine are relevant for this venue. The flyer image confirms the ACID Cannes 2026 context but does not contain specific details for La Baleine."
+     "notes": "The event is part of a wider tour; only the Marseille dates at La Baleine are relevant for this venue. The flyer image confirms the ACID Cannes 2026 context but does not contain specific details for La Baleine.",
+     "image_urls": []
     },
     "3968734596271071106": {
      "id": "3968734596271071106",
@@ -2360,7 +2448,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'MEMORY OF PRINCESS MUMBI de Damien Hauser' is scheduled from 2026-08-26 to 2026-08-31, which is in the past relative to today (2026-09-13). No upcoming events are announced in this post."
+     "notes": "The event 'MEMORY OF PRINCESS MUMBI de Damien Hauser' is scheduled from 2026-08-26 to 2026-08-31, which is in the past relative to today (2026-09-13). No upcoming events are announced in this post.",
+     "image_urls": []
     },
     "3976418432350165248": {
      "id": "3976418432350165248",
@@ -2369,7 +2458,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "All events announced in the post (from September 2 to 8, 2026) have already occurred as of today, dimanche 2026-09-13. The post is a recap or announcement for past events, not upcoming ones. Therefore, no upcoming events are announced at La Baleine."
+     "notes": "All events announced in the post (from September 2 to 8, 2026) have already occurred as of today, dimanche 2026-09-13. The post is a recap or announcement for past events, not upcoming ones. Therefore, no upcoming events are announced at La Baleine.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -2411,7 +2501,8 @@
        "verifier_reason": "Flyer explicitly shows '14 OCTOBRE | 20h45', 'LEER ME', 'MILO CARRAMIÑANA' and ties the event to 'La Baleine (22h-minuit)'; 14 October 2026 is a Wednesday, after the 2026-09-12 publication date, with no contradicting date, venue or cancellation wording."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1659673395553176": {
      "id": "1659673395553176",
@@ -2441,7 +2532,8 @@
        "verifier_reason": "The flyer announces a future dated screening: \"14 OCTOBRE | 18h REBATO UETA (1980)\" with \"Paul B. Preciado, suivie d'une discussion\". 2026-10-14 is a Wednesday and falls after the 2026-09-12 publication date, and 18h matches the extracted 18:00. No caption or flyer text contradicts the venue or status."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1713297663084596": {
      "id": "1713297663084596",
@@ -2471,7 +2563,8 @@
        "verifier_reason": "The flyer is cropped on the left: only \"OCTOBRE | 20h\" is legible and the day number is cut off, so the extracted date 2026-10-03 cannot be confirmed from the post (no caption either)."
       }
      ],
-     "notes": "The date 'OCTOBRE' without a day was interpreted as October 3rd, the first Sunday of October 2026, since the event is likely scheduled for a weekend and the post was published on Saturday, September 12, 2026. The flyer mentions 'happy hours au bar pour tous tes ticket du jour', suggesting it's an evening event starting at 20h."
+     "notes": "The date 'OCTOBRE' without a day was interpreted as October 3rd, the first Sunday of October 2026, since the event is likely scheduled for a weekend and the post was published on Saturday, September 12, 2026. The flyer mentions 'happy hours au bar pour tous tes ticket du jour', suggesting it's an evening event starting at 20h.",
+     "image_urls": []
     },
     "1702320148561400": {
      "id": "1702320148561400",
@@ -2501,7 +2594,8 @@
        "verifier_reason": "The caption announces dated screenings at La Baleine: \"Mer 16 à 16h ; sam 19 à 16h30 ; dim 20 à 16h\", matching the extracted start date/time (16 Sept 2026 is indeed a mercredi) and venue, and the post is an announcement published 2026-09-12, before the event."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1701408701985878": {
      "id": "1701408701985878",
@@ -2531,7 +2625,8 @@
        "verifier_reason": "The caption announces upcoming screenings: \"Mer 16 à 20h30\" matches the extracted start_date 2026-09-16 (a Wednesday) and start_time 20:30, at La Baleine (flyer shows \"*BALEINE\"), published 2026-09-11 before the event, with no cancellation notice."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1700417002085048": {
      "id": "1700417002085048",
@@ -2561,7 +2656,8 @@
        "verifier_reason": "The caption and flyer announce a future screening: \"▶️ Lun 14 à 20h\" and \"LUNDI 14.09 - 20H\", matching the extracted 2026-09-14 20:00 (14 Sept 2026 is indeed a Monday), at La Baleine (flyer header \"LA BALEINE\", posted by labaleinemarseille), with no cancellation or venue conflict."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1699298908863524": {
      "id": "1699298908863524",
@@ -2591,7 +2687,8 @@
        "verifier_reason": "Post is an announcement published 2026-09-09 for a future event: 'Vente d'affiches et DVD ▶ dim 13 de 14h à 19h' and the flyer reads 'DIMANCHE 13 SEPTEMBRE 14H-19H', matching 2026-09-13 (a dimanche) at La Baleine, no cancellation mentioned."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1698285572298191": {
      "id": "1698285572298191",
@@ -2677,7 +2774,8 @@
        "verifier_reason": "The caption announces \"[braderie] 🛍️ Vente d'affiches et DVD ▶️ dim 13 de 14h à 19h / Toujours à La Baleine\", a dated public sale on Sunday 13 September 2026 at La Baleine, matching the extracted date (2026-09-13 is indeed a dimanche, on/after the 2026-09-08 publication) and time (14:00–19:00); no cancellation or venue conflict."
       }
      ],
-     "notes": "Events scheduled on or before 2026-09-10 and 2026-09-09 have been removed as they are in the past relative to today (2026-09-13). The event 'MARIUS ET LE ROYAUME DES MERS' has been adjusted to include only upcoming dates: Saturday 12th and Sunday 13th. All remaining events are confirmed as upcoming."
+     "notes": "Events scheduled on or before 2026-09-10 and 2026-09-09 have been removed as they are in the past relative to today (2026-09-13). The event 'MARIUS ET LE ROYAUME DES MERS' has been adjusted to include only upcoming dates: Saturday 12th and Sunday 13th. All remaining events are confirmed as upcoming.",
+     "image_urls": []
     },
     "1696475365812545": {
      "id": "1696475365812545",
@@ -2725,7 +2823,8 @@
        "verifier_reason": "The caption announces a future screening: \"𝗘𝗩𝗘𝗥𝗬𝗧𝗜𝗠𝗘 de Sandra Wollner ▶️ Ven 25 à 20h30\" — 25 September 2026 is indeed a vendredi, it falls after the 2026-09-06 publication date, the venue is La Baleine (the posting page/flyer \"BALEINE\"), and the linked event URL matches (https://fb.me/e/66FSK2fCA). No cancellation or contradiction."
       }
      ],
-     "notes": "The event 'NOTRE SALUT d'Emmanuel Marre' on 2026-09-11 is in the past (today is 2026-09-13) and has been dropped."
+     "notes": "The event 'NOTRE SALUT d'Emmanuel Marre' on 2026-09-11 is in the past (today is 2026-09-13) and has been dropped.",
+     "image_urls": []
     },
     "1695476819245733": {
      "id": "1695476819245733",
@@ -2734,7 +2833,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event is scheduled for Thursday, 2026-09-10. Today is Sunday, 2026-09-13. The event occurred 3 days ago and is therefore in the past. Since the post announces a past event, it does not qualify as an upcoming event announcement."
+     "notes": "The event is scheduled for Thursday, 2026-09-10. Today is Sunday, 2026-09-13. The event occurred 3 days ago and is therefore in the past. Since the post announces a past event, it does not qualify as an upcoming event announcement.",
+     "image_urls": []
     },
     "1695349619258453": {
      "id": "1695349619258453",
@@ -2743,7 +2843,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'SÉANCE DE COURTS MÉTRAGES' is scheduled for 2026-09-10, which is in the past relative to today (2026-09-13). Since no other events are announced in the post and this one has already passed, there are no upcoming events to list."
+     "notes": "The event 'SÉANCE DE COURTS MÉTRAGES' is scheduled for 2026-09-10, which is in the past relative to today (2026-09-13). Since no other events are announced in the post and this one has already passed, there are no upcoming events to list.",
+     "image_urls": []
     },
     "1694153886044693": {
      "id": "1694153886044693",
@@ -2752,7 +2853,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'RETOUR AVANT 15 HEURES DE GAËL LÉPINGLE' is scheduled for 2026-09-08, which is in the past relative to today (2026-09-13). The post does not announce any other upcoming events at La Baleine. Therefore, no valid upcoming events are announced."
+     "notes": "The event 'RETOUR AVANT 15 HEURES DE GAËL LÉPINGLE' is scheduled for 2026-09-08, which is in the past relative to today (2026-09-13). The post does not announce any other upcoming events at La Baleine. Therefore, no valid upcoming events are announced.",
+     "image_urls": []
     },
     "1693345169458898": {
      "id": "1693345169458898",
@@ -2782,7 +2884,8 @@
        "verifier_reason": "The caption announces upcoming screenings: \"Mer 9 à 14h ; sam 12 à 14h ; dim 13 à 14h15\", and 2026-09-09 is indeed a mercredi, matching the extracted start date/time; the venue \"PETITE BALEINE\" is the Petite Baleine room of La Baleine, and the post is an announcement, not a recap."
       }
      ],
-     "notes": "The event is scheduled at La Baleine (Marseille), specifically in the 'Petite Baleine' room. The dates and times are extracted from the caption and confirmed by the flyer images. The year is inferred as 2026 based on the post date (2026-09-03) and the context of upcoming events."
+     "notes": "The event is scheduled at La Baleine (Marseille), specifically in the 'Petite Baleine' room. The dates and times are extracted from the caption and confirmed by the flyer images. The year is inferred as 2026 based on the post date (2026-09-03) and the context of upcoming events.",
+     "image_urls": []
     },
     "1690355229757892": {
      "id": "1690355229757892",
@@ -2791,7 +2894,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'GOUFFRES ET MERVEILLES de Jean Boiron-Lajous' is scheduled from 2026-09-02 to 2026-09-07, which is in the past relative to today (2026-09-13). Since the post was published on 2026-08-31 and announces events that have already occurred, it does not announce any upcoming events at the venue. Therefore, no events are listed."
+     "notes": "The event 'GOUFFRES ET MERVEILLES de Jean Boiron-Lajous' is scheduled from 2026-09-02 to 2026-09-07, which is in the past relative to today (2026-09-13). Since the post was published on 2026-08-31 and announces events that have already occurred, it does not announce any upcoming events at the venue. Therefore, no events are listed.",
+     "image_urls": []
     },
     "1688775189915896": {
      "id": "1688775189915896",
@@ -2800,7 +2904,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'SOUDAIN de Ryūsuke Hamaguchi' is scheduled from September 2 to September 8, 2026. Today is September 13, 2026, meaning the event has already occurred. Therefore, no upcoming events are announced in this post."
+     "notes": "The event 'SOUDAIN de Ryūsuke Hamaguchi' is scheduled from September 2 to September 8, 2026. Today is September 13, 2026, meaning the event has already occurred. Therefore, no upcoming events are announced in this post.",
+     "image_urls": []
     },
     "1356976113229255": {
      "id": "1356976113229255",
@@ -2809,7 +2914,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'DU POLYGON' was scheduled for jeudi 10 septembre 2026, which is in the past relative to today (dimanche 2026-09-13). Since no other events are announced in the post or images, and the only event listed has already occurred, there are no upcoming events to report."
+     "notes": "The event 'DU POLYGON' was scheduled for jeudi 10 septembre 2026, which is in the past relative to today (dimanche 2026-09-13). Since no other events are announced in the post or images, and the only event listed has already occurred, there are no upcoming events to report.",
+     "image_urls": []
     },
     "1687886303338118": {
      "id": "1687886303338118",
@@ -2818,7 +2924,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event '𝗠𝗘𝗟𝗔𝗡𝗖𝗛𝗢𝗟𝗜𝗔 de Lars Von Trier' is scheduled for 2026-09-01, which is in the past relative to today (2026-09-13). Since no other events are announced and this one is not valid, no upcoming events are listed."
+     "notes": "The event '𝗠𝗘𝗟𝗔𝗡𝗖𝗛𝗢𝗟𝗜𝗔 de Lars Von Trier' is scheduled for 2026-09-01, which is in the past relative to today (2026-09-13). Since no other events are announced and this one is not valid, no upcoming events are listed.",
+     "image_urls": []
     },
     "2103977037161140": {
      "id": "2103977037161140",
@@ -2848,7 +2955,8 @@
        "verifier_reason": "The flyer states \"6 SEPTEMBRE | 17h\", but the extraction gives start_date 2026-09-16; the written day (6) contradicts the extracted day (16)."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1717298379483404": {
      "id": "1717298379483404",
@@ -2877,7 +2985,8 @@
        "verifier_reason": "The flyer announces a dated public screening, \"SAMEDI 19 SEPTEMBRE\" / \"GOUFFRES ET MERVEILLES DE JEAN BOYER\"; 2026-09-19 is indeed a samedi, after the 2026-08-28 publication date, and nothing contradicts the venue or status."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -3105,7 +3214,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'NOTRE SALUT suivi d'une rencontre avec le réalisateur Emmanuel Marre' is scheduled for 2026-09-06, which is in the past relative to today (2026-09-13). Since the post was published on 2026-08-28 and the event has already occurred, it is not an upcoming event. No future events are announced in the caption or images."
+     "notes": "The event 'NOTRE SALUT suivi d'une rencontre avec le réalisateur Emmanuel Marre' is scheduled for 2026-09-06, which is in the past relative to today (2026-09-13). Since the post was published on 2026-08-28 and the event has already occurred, it is not an upcoming event. No future events are announced in the caption or images.",
+     "image_urls": []
     },
     "3983213273457767205": {
      "id": "3983213273457767205",
@@ -3155,7 +3265,8 @@
        "verifier_reason": "Flyer and caption announce a future screening: \"JEU 17 SEPT 19h & 19h45\" with \"19H45 SEANCE UNIQUE Projection\", at Les Variétés (\"LES VARIETES CINEMA ART ESSAI\"), and the caption says \"Plus qu'une semaine avant de découvrir ce film événement\" — an announcement, not a recap. 2026-09-17 is indeed a jeudi, after the 2026-09-10 publication date, and nothing indicates cancellation."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3970865216124412526": {
      "id": "3970865216124412526",
@@ -3164,7 +3275,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The events announced in the post (DJ set at 18:30 and film screening at 20:00 on jeudi 10 septembre) have already occurred as of today (dimanche 2026-09-13). Since the task requires listing only upcoming public events, and these are in the past, no events are listed. The title 'Fiesta au Ciné' is not explicitly mentioned in the caption, and while the event details are present, they refer to a past date. Therefore, no valid upcoming events are announced."
+     "notes": "The events announced in the post (DJ set at 18:30 and film screening at 20:00 on jeudi 10 septembre) have already occurred as of today (dimanche 2026-09-13). Since the task requires listing only upcoming public events, and these are in the past, no events are listed. The title 'Fiesta au Ciné' is not explicitly mentioned in the caption, and while the event details are present, they refer to a past date. Therefore, no valid upcoming events are announced.",
+     "image_urls": []
     },
     "3970793115770044418": {
      "id": "3970793115770044418",
@@ -3173,7 +3285,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'Soirée Mauvais Genres !' is scheduled for 2026-08-25, which is in the past relative to today (2026-09-13). No upcoming events are announced in the post."
+     "notes": "The event 'Soirée Mauvais Genres !' is scheduled for 2026-08-25, which is in the past relative to today (2026-09-13). No upcoming events are announced in the post.",
+     "image_urls": []
     },
     "3972911504395932671": {
      "id": "3972911504395932671",
@@ -3182,7 +3295,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post announces a contest to win movie tickets for 'Rose' at Cinéma Les Variétés in Marseille, but does not announce any public events happening at the venue itself. The event (movie screening) is not scheduled or described as taking place at the venue; it's only mentioned as the location where the prize can be used. The post is about a giveaway, not an event organized by or at Les Variétés."
+     "notes": "The post announces a contest to win movie tickets for 'Rose' at Cinéma Les Variétés in Marseille, but does not announce any public events happening at the venue itself. The event (movie screening) is not scheduled or described as taking place at the venue; it's only mentioned as the location where the prize can be used. The post is about a giveaway, not an event organized by or at Les Variétés.",
+     "image_urls": []
     },
     "3982488325272898346": {
      "id": "3982488325272898346",
@@ -3212,7 +3326,8 @@
        "verifier_reason": "The post is a forward-looking announcement (\"Dans une semaine vous avez rendez-vous avec Hantées, le ciné-club d'outre-tombe\") and the flyer states \"MAR 15 SEPT 19h45\", matching the extracted mardi 2026-09-15 at 19:45 (post published 2026-09-09, so the date is in the future and the written weekday MAR/mardi fits the 2026 calendar). No cancellation, venue conflict or past-event language appears in the caption."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3981049717706216491": {
      "id": "3981049717706216491",
@@ -3221,7 +3336,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'Avant-première Congo Boy suivi d’un échange avec le réalisateur' is scheduled for 2026-09-10, which is in the past relative to today (2026-09-13). Therefore, it is not an upcoming event and is excluded. No other events are announced at the venue."
+     "notes": "The event 'Avant-première Congo Boy suivi d’un échange avec le réalisateur' is scheduled for 2026-09-10, which is in the past relative to today (2026-09-13). Therefore, it is not an upcoming event and is excluded. No other events are announced at the venue.",
+     "image_urls": []
     },
     "3971616866297083812": {
      "id": "3971616866297083812",
@@ -3230,7 +3346,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'MÉMOIRE DE FILLE' is scheduled for 2026-09-08, which is in the past relative to today's date (2026-09-13). Since the task requires listing only upcoming events (on or after the publication date, typically within the next three months), and this event has already occurred, it is not considered an upcoming event. Therefore, no events are listed."
+     "notes": "The event 'MÉMOIRE DE FILLE' is scheduled for 2026-09-08, which is in the past relative to today's date (2026-09-13). Since the task requires listing only upcoming events (on or after the publication date, typically within the next three months), and this event has already occurred, it is not considered an upcoming event. Therefore, no events are listed.",
+     "image_urls": []
     },
     "3983938199729823725": {
      "id": "3983938199729823725",
@@ -3318,7 +3435,8 @@
        "verifier_reason": "Caption announces the upcoming festival (\"Le premier festival de cette rentrée arrive bientôt !\") and lists \"🔴 26 sept 20h30 LES PHANTÔMES DE JUILLET de Julian Radlmaier. En présence du réalisateur\", matching the flyer's \"SAM 26 SEPT 20h30\" — 26 Sept 2026 is indeed a Saturday, at Les Variétés, after the 11 Sept publication date."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3971516672453622675": {
      "id": "3971516672453622675",
@@ -3327,7 +3445,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The announced events ('Soirée chilienne' and 'Projection du film \"Dégel\"') are scheduled for 2026-08-27, which is in the past relative to today (2026-09-13). Therefore, no upcoming events are announced."
+     "notes": "The announced events ('Soirée chilienne' and 'Projection du film \"Dégel\"') are scheduled for 2026-08-27, which is in the past relative to today (2026-09-13). Therefore, no upcoming events are announced.",
+     "image_urls": []
     },
     "3981037111928550733": {
      "id": "3981037111928550733",
@@ -3357,7 +3476,8 @@
        "verifier_reason": "The caption announces a future screening at the tagged venue: \"@cinemalesvarietes.marseille / Cinéma / Mardi 29 septembre, 20h30\", which matches the extracted date (29 Sept 2026 is indeed a Tuesday), time 20:30 and venue Les Variétés; no cancellation or postponement is mentioned and the pre-screening talk at @gisellesbooks at 19h does not contradict the main screening."
       }
      ],
-     "notes": "The event is at Les Variétés (Marseille) as indicated by the handle @cinemalesvarietes.marseille. The meeting with the director at @gisellesbooks is a separate event not at the venue, so it is excluded. The image is a still from the films and does not contain additional event details."
+     "notes": "The event is at Les Variétés (Marseille) as indicated by the handle @cinemalesvarietes.marseille. The meeting with the director at @gisellesbooks is a separate event not at the venue, so it is excluded. The image is a still from the films and does not contain additional event details.",
+     "image_urls": []
     },
     "3945524650172011575": {
      "id": "3945524650172011575",
@@ -3475,7 +3595,8 @@
        "verifier_reason": "The flyer places this screening at a different venue than the one given: under \"LE GYPTIS / 136 RUE LOUBON (13003)\" it lists \"Dimanche 4 octobre : 18h : MAUVAISE ÉTOILE de Lola Cambourieu & Yann Berlier\", whereas Les Variétés' own programme is only \"Vendredi 2 octobre : 20h : BARÇA ZOU\" and \"Samedi 3 octobre : 16h : BLAISE\". Les Variétés merely shares this Le Gyptis event."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3976497209398183976": {
      "id": "3976497209398183976",
@@ -3505,7 +3626,8 @@
        "verifier_reason": "The caption announces a future screening: \"Le 15 septembre, (re)découvrez REBECCA (1940)\" with \"📅 15 septembre - 19h45\" and \"📍 @cinemalesvarietes.marseille\", matching the flyer (\"Cinéma Les Variétés / 15 septembre / 19h45\"); 15 September 2026 is indeed a mardi and falls after the 2026-09-01 publication date."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -3526,7 +3648,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The image is a movie poster for \"Une Onde de Choc\" by La Frappe, scheduled for release on September 2nd. However, it does not indicate that the event (movie screening) is happening at Les Variétés. The venue is not mentioned in the image or caption. Therefore, no upcoming events at Les Variétés are announced."
+     "notes": "The image is a movie poster for \"Une Onde de Choc\" by La Frappe, scheduled for release on September 2nd. However, it does not indicate that the event (movie screening) is happening at Les Variétés. The venue is not mentioned in the image or caption. Therefore, no upcoming events at Les Variétés are announced.",
+     "image_urls": []
     },
     "2263385817744013": {
      "id": "2263385817744013",
@@ -3554,7 +3677,8 @@
        "verifier_reason": "The post has \"(no caption)\" and the only legible text on the cropped flyer is the badge \"SEANCE SPÉCIALE\" plus fragments (\"5\", \"H\", \"A\", \"E\", \"au cinéma\"); no date, weekday or time is readable, so the extracted 2026-09-13 is unsupported by anything on the flyer or caption."
       }
      ],
-     "notes": "The image shows a flyer for a 'SEANCE SPÉCIALE' (Special Screening) with a woman wearing glasses. The date is not explicitly visible on the image, but since the post was published on 2026-08-27 and today is 2026-09-13, and the event is likely scheduled for the near future, we infer the event is on 2026-09-13 as it is the next logical date after the post date. No other details are available from the image or caption."
+     "notes": "The image shows a flyer for a 'SEANCE SPÉCIALE' (Special Screening) with a woman wearing glasses. The date is not explicitly visible on the image, but since the post was published on 2026-08-27 and today is 2026-09-13, and the event is likely scheduled for the near future, we infer the event is on 2026-09-13 as it is the next logical date after the post date. No other details are available from the image or caption.",
+     "image_urls": []
     },
     "1645469120461539": {
      "id": "1645469120461539",
@@ -3584,7 +3708,8 @@
        "verifier_reason": "The flyer contains only \"CULT & RETRO\", \"LA SEPTIÈME OBSESSION\" and \"1947\" — the \"1947\" is the film's release year, not an event date, and no date or venue (\"Les Variétés\") appears anywhere in the caption or image, so the extracted 2026-09-13 date cannot be verified from the post."
       }
      ],
-     "notes": "The event is scheduled for Sunday, 2026-09-13, as inferred from the post date (Wednesday, 2026-08-26) and the typical scheduling of such events. The flyer shows a black-and-white movie poster with the title 'LA SEPTIÈME OBSESSION' and year '1947', under the 'CULT & RETRO' label. No specific time or price is visible on the image."
+     "notes": "The event is scheduled for Sunday, 2026-09-13, as inferred from the post date (Wednesday, 2026-08-26) and the typical scheduling of such events. The flyer shows a black-and-white movie poster with the title 'LA SEPTIÈME OBSESSION' and year '1947', under the 'CULT & RETRO' label. No specific time or price is visible on the image.",
+     "image_urls": []
     },
     "1333517005639371": {
      "id": "1333517005639371",
@@ -3614,7 +3739,8 @@
        "verifier_reason": "The flyer places the event at \"Le Plan de A à Z\", not at the given venue Les Variétés, and no date is legible on the cropped flyer to support 2026-09-13."
       }
      ],
-     "notes": "Event details inferred from flyer image; no caption text available."
+     "notes": "Event details inferred from flyer image; no caption text available.",
+     "image_urls": []
     },
     "1632148591863977": {
      "id": "1632148591863977",
@@ -3644,7 +3770,8 @@
        "verifier_reason": "The flyer names the venue as \"Le Collectif\", but the calendar venue is \"Les Variétés (Marseille)\" — the event takes place at a different venue than the one given."
       }
      ],
-     "notes": "The event is announced via an image flyer with no caption. The date '20 sept.' and title 'AVANT 1ÈRE' are read from the image. Location 'Le Collectif' is also visible on the flyer."
+     "notes": "The event is announced via an image flyer with no caption. The date '20 sept.' and title 'AVANT 1ÈRE' are read from the image. Location 'Le Collectif' is also visible on the flyer.",
+     "image_urls": []
     },
     "1677905140951071": {
      "id": "1677905140951071",
@@ -3653,7 +3780,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The image is a movie poster for 'Fjord' with release date 'AU CINÉMA LE 19 AOÛT', which indicates a cinema release, not an event at Les Variétés. The venue does not organize or host this event; it's a general cinema release announcement. No events at Les Variétés are announced."
+     "notes": "The image is a movie poster for 'Fjord' with release date 'AU CINÉMA LE 19 AOÛT', which indicates a cinema release, not an event at Les Variétés. The venue does not organize or host this event; it's a general cinema release announcement. No events at Les Variétés are announced.",
+     "image_urls": []
     },
     "1677904694284449": {
      "id": "1677904694284449",
@@ -3662,7 +3790,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The image is a movie poster for 'fjord', stating 'AU CINÉMA LE 19 AOÛT', which indicates a cinema release, not an event at Les Variétés. The venue does not appear to be hosting this event."
+     "notes": "The image is a movie poster for 'fjord', stating 'AU CINÉMA LE 19 AOÛT', which indicates a cinema release, not an event at Les Variétés. The venue does not appear to be hosting this event.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -3725,7 +3854,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The events 'Les Films derrière l’écran' (2026-09-05) and 'Les Silences de Riyad' (2026-09-02 to 2026-09-06) are scheduled for dates that have already passed relative to today (2026-09-13). Since the post was published on 2026-08-31, these events were in the future at the time of posting but are now in the past. According to the rules, only upcoming events should be included. Therefore, no valid upcoming events are announced in this post."
+     "notes": "The events 'Les Films derrière l’écran' (2026-09-05) and 'Les Silences de Riyad' (2026-09-02 to 2026-09-06) are scheduled for dates that have already passed relative to today (2026-09-13). Since the post was published on 2026-08-31, these events were in the future at the time of posting but are now in the past. According to the rules, only upcoming events should be included. Therefore, no valid upcoming events are announced in this post.",
+     "image_urls": []
     },
     "3981694258608121698": {
      "id": "3981694258608121698",
@@ -3811,7 +3941,8 @@
        "verifier_reason": "The caption announces \"LA GRADIVA de Marine Atlan / Avant-première le Dimanche 27 septembre à 17h\" and the flyer confirms \"DIM. 27 | 17H\"; 27 September 2026 is indeed a Sunday, the date is after the 8 September publication, and the event is at Le Gyptis as given."
       }
      ],
-     "notes": "The event is a multi-film screening series ('Retour de Cannes') from September 11 to 27, 2026, at Le Gyptis. The caption and images confirm all events are at the venue. The flyer image confirms the overall dates (11 au 27 septembre 2026). Specific film screenings have individual dates and times as listed. The last line in the caption ('Samedi 14 & dimanche 15 février au Gyptis') refers to a different, future event not announced in this post and is ignored per rules."
+     "notes": "The event is a multi-film screening series ('Retour de Cannes') from September 11 to 27, 2026, at Le Gyptis. The caption and images confirm all events are at the venue. The flyer image confirms the overall dates (11 au 27 septembre 2026). Specific film screenings have individual dates and times as listed. The last line in the caption ('Samedi 14 & dimanche 15 février au Gyptis') refers to a different, future event not announced in this post and is ignored per rules.",
+     "image_urls": []
     },
     "3978758654744387824": {
      "id": "3978758654744387824",
@@ -3820,7 +3951,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'ABEL ET CAÏN' is scheduled for Friday, September 11, 2026. Today is Sunday, September 13, 2026 — meaning the event has already occurred. Since the task requires listing only upcoming events (on or after the publication date, typically within the next three months), and this event is in the past relative to today's date, it must be dropped. The post was published on Friday, September 4, 2026, so at that time the event was upcoming; however, as per the instruction to evaluate against today’s date (2026-09-13), the event is no longer upcoming. Therefore, no events are listed."
+     "notes": "The event 'ABEL ET CAÏN' is scheduled for Friday, September 11, 2026. Today is Sunday, September 13, 2026 — meaning the event has already occurred. Since the task requires listing only upcoming events (on or after the publication date, typically within the next three months), and this event is in the past relative to today's date, it must be dropped. The post was published on Friday, September 4, 2026, so at that time the event was upcoming; however, as per the instruction to evaluate against today’s date (2026-09-13), the event is no longer upcoming. Therefore, no events are listed.",
+     "image_urls": []
     },
     "3984058807455113512": {
      "id": "3984058807455113512",
@@ -3850,7 +3982,8 @@
        "verifier_reason": "The caption announces a future screening: \"Samedi 19 septembre à 20h\" for \"MARIE MADELEINE\" — 19 September 2026 is indeed a Saturday, after the 11 September publication date, and nothing contradicts the venue or indicates cancellation."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3982488358542494952": {
      "id": "3982488358542494952",
@@ -3880,7 +4013,8 @@
        "verifier_reason": "The caption explicitly announces 'Vendredi 18 septembre à 19h' for the avant-première with a following débat, matching the extracted date/time; 2026-09-18 is indeed a Friday and is after the 2026-09-09 publication. The flyer's 'LE 23 SEPTEMBRE AU CINÉMA' is the film's general theatrical release, not a contradiction of the event date."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3983153135769696235": {
      "id": "3983153135769696235",
@@ -3990,7 +4124,8 @@
        "verifier_reason": "The post announces \"PROCHAINEMENT AU GYPTIS\" and lists \"Dim 27 : 11h\", which matches the extracted 2026-09-27 (a Sunday) at 11:00; the venue Le Gyptis matches and the date is after the 2026-09-10 publication."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "3979589373293003772": {
      "id": "3979589373293003772",
@@ -3999,7 +4134,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post describes accessibility features and services offered at Le Gyptis (e.g., subtitled screenings, audio description, VAST, magnetic loops, accessible facilities) but does not announce any specific upcoming events with dates or times. It promotes ongoing access options and directs to a bi-monthly newsletter for session details, which are not listed here."
+     "notes": "The post describes accessibility features and services offered at Le Gyptis (e.g., subtitled screenings, audio description, VAST, magnetic loops, accessible facilities) but does not announce any specific upcoming events with dates or times. It promotes ongoing access options and directs to a bi-monthly newsletter for session details, which are not listed here.",
+     "image_urls": []
     },
     "3981159447450985510": {
      "id": "3981159447450985510",
@@ -4029,7 +4165,8 @@
        "verifier_reason": "The post is a forward-looking announcement (\"CETTE SEMAINE AU GYPTIS\", published 07/09 for the week \"9 → 13 SEPTEMBRE 2026\") and the flyer shows the Soudain still with \"TOUTE LA SEMAINE EN SALLE\", matching the extracted 09→13 September run at Le Gyptis; no date, time or venue contradiction appears, and 11 September (the only weekday written, for the separate Abel et Caïn screening) does fall on a vendredi in 2026."
       }
      ],
-     "notes": "The event 'Abel et Caïn' on 2026-09-11 is in the past relative to today's date (2026-09-13), so it is dropped. The event 'Soudain' runs from 2026-09-09 to 2026-09-13 and is still ongoing or upcoming as of today."
+     "notes": "The event 'Abel et Caïn' on 2026-09-11 is in the past relative to today's date (2026-09-13), so it is dropped. The event 'Soudain' runs from 2026-09-09 to 2026-09-13 and is still ongoing or upcoming as of today.",
+     "image_urls": []
     },
     "3976666796829463568": {
      "id": "3976666796829463568",
@@ -4038,7 +4175,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post is a general announcement about the cinema's reopening and its programming philosophy, but does not announce any specific upcoming events with dates or titles. The image shows an audience in the cinema, likely from a past event, not a future one. No flyer or specific event details are provided."
+     "notes": "The post is a general announcement about the cinema's reopening and its programming philosophy, but does not announce any specific upcoming events with dates or titles. The image shows an audience in the cinema, likely from a past event, not a future one. No flyer or specific event details are provided.",
+     "image_urls": []
     },
     "3978144663034866027": {
      "id": "3978144663034866027",
@@ -4047,7 +4185,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post announces a new season and programming direction for Le Gyptis but does not list any specific upcoming events with dates or times. The attached image is artistic and does not contain event details."
+     "notes": "The post announces a new season and programming direction for Le Gyptis but does not list any specific upcoming events with dates or times. The attached image is artistic and does not contain event details.",
+     "image_urls": []
     },
     "3910101441796207576": {
      "id": "3910101441796207576",
@@ -4056,7 +4195,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post is a general promotional description of Le Gyptis cinema and its mission, not an announcement of specific upcoming events. The attached image is a flyer with the cinema's branding and contact information but does not list any specific dates or events."
+     "notes": "The post is a general promotional description of Le Gyptis cinema and its mission, not an announcement of specific upcoming events. The attached image is a flyer with the cinema's branding and contact information but does not list any specific dates or events.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -4098,7 +4238,8 @@
        "verifier_reason": "The flyer states \"VENDREDI 18 SEPTEMBRE À 19H\" with \"DÉBAT | PROJECTION\" and \"Avant première suivie d'un débat\", a concrete dated public screening/debate. 2026-09-18 is indeed a Friday, falls on/after the 2026-09-12 publication date, and 19H matches 19:00; no venue or cancellation contradiction appears."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1676971117767335": {
      "id": "1676971117767335",
@@ -4128,7 +4269,8 @@
        "verifier_reason": "Caption announces a future screening: \"Samedi 19 septembre à 20h\" for \"MARIE MADELEINE De Gessica Généus\" at the posting cinema Le Gyptis; 19 September 2026 is indeed a samedi, on/after the 2026-09-11 publication date, and no cancellation or venue conflict appears."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1675973227867124": {
      "id": "1675973227867124",
@@ -4233,7 +4375,8 @@
        "verifier_reason": "The post is an announcement (\"PROCHAINEMENT AU GYPTIS\"), and the caption's own schedule \"Dim 27 : 11h\" matches the extracted date/time — 27 September 2026 is indeed a Sunday (dimanche) and falls after the publication date of 10 September 2026. Venue \"Le Gyptis\" is confirmed by \"AU GYPTIS\", and no cancellation or postponement is mentioned."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1513886427093393": {
      "id": "1513886427093393",
@@ -4263,7 +4406,8 @@
        "verifier_reason": "The flyer is cropped on both sides: only 'UR LA ROUTE AVEC TA' and a fragment 'E À 20H' are legible, so the date (claimed 2026-09-14) is not visible and cannot be confirmed; the time 20H is readable but the day/month is cut off."
       }
      ],
-     "notes": "The event is scheduled for jeudi 2026-09-14 (Thursday), inferred from the post date (jeudi 2026-09-10) and the flyer indicating 'jeudi à 20h'. The title is partially visible as 'SUR LA ROUTE AVEC TA', likely 'SUR LA ROUTE AVEC TA MÈRE' or similar. Venue is confirmed as Le Gyptis based on context."
+     "notes": "The event is scheduled for jeudi 2026-09-14 (Thursday), inferred from the post date (jeudi 2026-09-10) and the flyer indicating 'jeudi à 20h'. The title is partially visible as 'SUR LA ROUTE AVEC TA', likely 'SUR LA ROUTE AVEC TA MÈRE' or similar. Venue is confirmed as Le Gyptis based on context.",
+     "image_urls": []
     },
     "1787684742251990": {
      "id": "1787684742251990",
@@ -4292,7 +4436,8 @@
        "verifier_reason": "The flyer is cropped and unreadable: only fragments survive ('...BRE À 15H' and 'Allez Savoir de l'EHESS dont le thè...'), with no visible date, month or venue, so the extracted 2026-09-13 at Le Gyptis cannot be confirmed or contradicted from the post."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1674575061340274": {
      "id": "1674575061340274",
@@ -4322,7 +4467,8 @@
        "verifier_reason": "Caption announces a future screening: \"📆 Vendredi 18 septembre à 19h\" — 2026-09-18 is indeed a Friday, matches the extracted start_date/start_time 19:00, is after the post date (2026-09-09), takes place at the posting venue Le Gyptis, and includes a reservation link with no cancellation notice."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1673873288077118": {
      "id": "1673873288077118",
@@ -4352,7 +4498,8 @@
        "verifier_reason": "The post is a forward-looking weekly programme ('CETTE SEMAINE AU GYPTIS', published 2026-09-08) and the flyer states '9 → 13 SEPTEMBRE 2026 PROGRAMME DE LA SEMAINE' with 'SOUDAIN' and 'TOUTE LA SEMAINE EN SALLE', matching the extracted 2026-09-09 to 2026-09-13 run at Le Gyptis; no cancellation or venue conflict."
       }
      ],
-     "notes": "The event 'Abel et Caïn' on 2026-09-11 is in the past (today is 2026-09-13), so it is dropped. The event 'Soudain' from 2026-09-09 to 2026-09-13 is still upcoming and is kept."
+     "notes": "The event 'Abel et Caïn' on 2026-09-11 is in the past (today is 2026-09-13), so it is dropped. The event 'Soudain' from 2026-09-09 to 2026-09-13 is still upcoming and is kept.",
+     "image_urls": []
     },
     "1673673688097078": {
      "id": "1673673688097078",
@@ -4439,7 +4586,8 @@
        "verifier_reason": "Flyer and caption both state \"AVANT-PREMIÈRE & RENCONTRE DIM. 27 | 17H\" / \"Avant-première le Dimanche 27 septembre à 17h\" at Le Gyptis, which is a Sunday (27 Sept 2026) and after the 8 Sept publication date; a dated public screening, not cancelled."
       }
      ],
-     "notes": null
+     "notes": null,
+     "image_urls": []
     },
     "1671724781625302": {
      "id": "1671724781625302",
@@ -4448,7 +4596,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'ABEL ET CAÏN' is scheduled for vendredi 11 septembre, which is 2026-09-11. Today is dimanche 2026-09-13, so the event has already passed. No upcoming events are announced in this post."
+     "notes": "The event 'ABEL ET CAÏN' is scheduled for vendredi 11 septembre, which is 2026-09-11. Today is dimanche 2026-09-13, so the event has already passed. No upcoming events are announced in this post.",
+     "image_urls": []
     },
     "1670740455057068": {
      "id": "1670740455057068",
@@ -4457,7 +4606,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post describes accessibility features and services offered at Le Gyptis (e.g., subtitled screenings, audiodescription, VAST, magnetic loops) but does not announce any specific upcoming public events with dates or times. It promotes inclusive programming in general terms and refers to a newsletter for details, which is not included here. No event is scheduled or announced in the caption or images."
+     "notes": "The post describes accessibility features and services offered at Le Gyptis (e.g., subtitled screenings, audiodescription, VAST, magnetic loops) but does not announce any specific upcoming public events with dates or times. It promotes inclusive programming in general terms and refers to a newsletter for details, which is not included here. No event is scheduled or announced in the caption or images.",
+     "image_urls": []
     },
     "1669807971816983": {
      "id": "1669807971816983",
@@ -4487,7 +4637,8 @@
        "verifier_reason": "The flyer only announces a festival in \"OCTOBRE MARSEILLE\" with no concrete date, so the extracted 2026-10-01/2026-10-31 range is invented; moreover the event is spread over several venues (\"Variétés, La Baleine, Gyptis\"), not specifically Le Gyptis."
       }
      ],
-     "notes": "The flyer mentions 'Séries 2026' and 'Octobre Marseille', with venues including 'Le Gyptis'. The event is scheduled for October 2026. No specific dates or times are provided beyond the month, so the start date is set to the first day of October 2026 and end date to the last day. The title is derived from the visible text on the image."
+     "notes": "The flyer mentions 'Séries 2026' and 'Octobre Marseille', with venues including 'Le Gyptis'. The event is scheduled for October 2026. No specific dates or times are provided beyond the month, so the start date is set to the first day of October 2026 and end date to the last day. The title is derived from the visible text on the image.",
+     "image_urls": []
     },
     "1669581071839673": {
      "id": "1669581071839673",
@@ -4496,7 +4647,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'ABEL ET CAÏN' was scheduled for vendredi 11 septembre 2026, which is Friday, September 11, 2026. Today is dimanche 2026-09-13 (Sunday, September 13, 2026), so the event has already occurred. Since the task requires listing only upcoming public events at the venue, and this event is in the past, it should not be included. The post announces a past event, not an upcoming one. Therefore, no events are announced."
+     "notes": "The event 'ABEL ET CAÏN' was scheduled for vendredi 11 septembre 2026, which is Friday, September 11, 2026. Today is dimanche 2026-09-13 (Sunday, September 13, 2026), so the event has already occurred. Since the task requires listing only upcoming public events at the venue, and this event is in the past, it should not be included. The post announces a past event, not an upcoming one. Therefore, no events are announced.",
+     "image_urls": []
     },
     "1668709765260137": {
      "id": "1668709765260137",
@@ -4505,7 +4657,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post is an announcement of a new season and programming direction for Le Gyptis, but it does not list any specific upcoming events with dates or times. The image is decorative and does not contain event details."
+     "notes": "The post is an announcement of a new season and programming direction for Le Gyptis, but it does not list any specific upcoming events with dates or times. The image is decorative and does not contain event details.",
+     "image_urls": []
     },
     "1666724198792027": {
      "id": "1666724198792027",
@@ -4514,7 +4667,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post is a general announcement about the cinema's mission and a newsletter link; no specific upcoming events are announced. The attached image shows an audience in the cinema but does not contain any event details (date, title, time)."
+     "notes": "The post is a general announcement about the cinema's mission and a newsletter link; no specific upcoming events are announced. The attached image shows an audience in the cinema but does not contain any event details (date, title, time).",
+     "image_urls": []
     },
     "1665953112202469": {
      "id": "1665953112202469",
@@ -4523,7 +4677,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The events announced in the post ('Les Films derrière l’écran' on 2026-09-05 and 'Les Silences de Riyad' from 2026-09-02 to 2026-09-06) have already occurred as of today (2026-09-13). Therefore, there are no upcoming events to announce."
+     "notes": "The events announced in the post ('Les Films derrière l’écran' on 2026-09-05 and 'Les Silences de Riyad' from 2026-09-02 to 2026-09-06) have already occurred as of today (2026-09-13). Therefore, there are no upcoming events to announce.",
+     "image_urls": []
     },
     "1662973139167133": {
      "id": "1662973139167133",
@@ -4532,7 +4687,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The event 'LES FILMS DERRIÈRE L'ÉCRAN' is scheduled for Saturday, September 5, 2026. Today is Sunday, September 13, 2026 — meaning the event has already occurred. Since the system requires events to be upcoming (on or after today), and no other events are announced in the post, there are no valid upcoming events to list."
+     "notes": "The event 'LES FILMS DERRIÈRE L'ÉCRAN' is scheduled for Saturday, September 5, 2026. Today is Sunday, September 13, 2026 — meaning the event has already occurred. Since the system requires events to be upcoming (on or after today), and no other events are announced in the post, there are no valid upcoming events to list.",
+     "image_urls": []
     },
     "1661815225949591": {
      "id": "1661815225949591",
@@ -4541,7 +4697,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": true,
      "events": [],
-     "notes": "The event 'LES FILMS DERRIÈRE L'ÉCRAN' is scheduled for samedi 5 septembre, which is 2026-09-05. Since today is dimanche 2026-09-13, the event has already occurred and should not be included as an upcoming event. No upcoming events are announced in this post."
+     "notes": "The event 'LES FILMS DERRIÈRE L'ÉCRAN' is scheduled for samedi 5 septembre, which is 2026-09-05. Since today is dimanche 2026-09-13, the event has already occurred and should not be included as an upcoming event. No upcoming events are announced in this post.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -4649,7 +4806,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post announces events happening at various external locations (Peyrolles-en-Provence, LeTalus, Biosphera, Microfolie COMMUNE LE BEAUSSET, St Germain de Calberte, Village des Sciences, La Martinerie, Mediatheque Rene Char, Mediatheque Jean-Louis Villenave) and does not mention any upcoming events at the venue La Fabulerie in Marseille. The venue is currently closed temporarily, and the post focuses on itinerant projects and seeking temporary hosting spaces for 'Pop-up Fabulerie'. No events are scheduled at the venue itself."
+     "notes": "The post announces events happening at various external locations (Peyrolles-en-Provence, LeTalus, Biosphera, Microfolie COMMUNE LE BEAUSSET, St Germain de Calberte, Village des Sciences, La Martinerie, Mediatheque Rene Char, Mediatheque Jean-Louis Villenave) and does not mention any upcoming events at the venue La Fabulerie in Marseille. The venue is currently closed temporarily, and the post focuses on itinerant projects and seeking temporary hosting spaces for 'Pop-up Fabulerie'. No events are scheduled at the venue itself.",
+     "image_urls": []
     }
    },
    "fb_events": []
@@ -4670,7 +4828,8 @@
      "analyzed": "2026-09-13",
      "is_announcement": false,
      "events": [],
-     "notes": "The post announces events happening at 'Les temps de l'enfant' (13), not at La Fabulerie. The #PopUpFabulerie is hosted elsewhere, and the documentary series is external. No upcoming events are announced at La Fabulerie itself."
+     "notes": "The post announces events happening at 'Les temps de l'enfant' (13), not at La Fabulerie. The #PopUpFabulerie is hosted elsewhere, and the documentary series is external. No upcoming events are announced at La Fabulerie itself.",
+     "image_urls": []
     }
    },
    "fb_events": []

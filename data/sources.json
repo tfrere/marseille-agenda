@@ -570,34 +570,41 @@
      "rules": [
       {
        "kind": "html",
-       "container_selector": "div.liste-articles-rubrique",
+       "container_selector": null,
        "exclude_selectors": [],
-       "item_selector": "div.cadre-articles-rubrique",
-       "item_mode": "wrapper",
+       "item_selector": "div.evenement-date",
+       "item_mode": "run",
        "fields": {
         "title": {
-         "selector": ".titre-articles-rubrique2",
-         "attr": null,
-         "regex": null,
-         "constant": null,
-         "join": null
-        },
-        "date": {
-         "selector": ".date-article",
+         "selector": "div.donnee-titre",
          "attr": null,
          "regex": null,
          "constant": null,
          "join": null
         },
         "url": {
-         "selector": "a.articles-rubrique",
+         "selector": "div.donnee-titre a",
          "attr": "href",
          "regex": null,
          "constant": null,
          "join": null
         },
+        "date": {
+         "selector": "div.evenement-date",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "time": {
+         "selector": "div.donnee-heure",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
         "location": {
-         "selector": ".introduction-articles-rubrique",
+         "selector": "div.donnee-lieu",
          "attr": null,
          "regex": null,
          "constant": null,
@@ -605,20 +612,20 @@
         }
        },
        "date_format": null,
-       "notes": "Main list of upcoming event articles (page1 of agenda). Date field '.date-article' text is like 'Article mis en ligne le 11 octobre 2026' - matches the event's actual date per independent reader comparison (e.g. article42184 -> 2026-10-11, article42197 -> 2026-10-10, article42183 -> 2026-10-10, article42182 -> 2026-10-09, article42202 -> 2026-10-06)."
+       "notes": "Induced deterministically from a flat listing: each item runs from a date node to the next."
       }
      ],
-     "notes": ""
+     "notes": "Deterministic induction (no model)."
     },
     "created": "2026-09-13",
-    "validated_against_llm": true,
-    "agreement": 0.75,
-    "generator_model": "anthropic/claude-sonnet-5",
+    "validated_against_llm": false,
+    "agreement": 0.883,
+    "generator_model": "induction",
     "version": 1
    },
    "last_ok": "2026-09-13",
    "last_error": null,
-   "last_event_count": 5,
+   "last_event_count": 4,
    "content_hash": "9034a82308cd82fd",
    "consecutive_failures": 0,
    "regenerations": 0,
@@ -995,6 +1002,199 @@
    "last_error": null,
    "last_event_count": 22,
    "content_hash": "eb668d41db7855d8",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "videodrome-2": {
+   "venue_id": "videodrome-2",
+   "source": {
+    "url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+    "kind": "html",
+    "confidence": 0.85,
+    "reasoning": "The homepage/cinema page \"Les prochaines séances\" is a server-rendered WordPress listing that already shows numerous upcoming screenings with exact dates/times (e.g. Sept 13, 18, 19, 20, 23, 24 2026), confirmed via pre-scan. No JSON API or events calendar plugin was detected, so this HTML page is the best available source.",
+    "sample_titles": [
+     "Les Mains Gauches | Séance de clôture : #7 PASSAGES",
+     "13000 Film Festival | Programme de courts-métrages #1",
+     "13000 Film Festival | Programme de courts-métrages #2",
+     "Rendez-vous avec l'association Ahdarija | Le disqualifié de Hamza Ouni",
+     "Soirée de soutien aux Rencontres Nationales Queer Racisées | Le regard mystérieux du flamant rose"
+    ],
+    "fallback_url": "https://www.videodrome2.fr/wp-content/uploads/Flyer-septembre-2026.pdf",
+    "instagram": "videodrome2",
+    "facebook": "videodromedeux"
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "div.event_future",
+       "item_mode": "wrapper",
+       "fields": {
+        "title": {
+         "selector": "h5",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "a",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "time",
+         "attr": "datetime",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "time": {
+         "selector": "span.time.time-start",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "image": {
+         "selector": "img",
+         "attr": "src",
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Induced deterministically from the repeated dated cards of the page."
+      }
+     ],
+     "notes": "Deterministic induction (no model)."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": false,
+    "agreement": 1.0,
+    "generator_model": "induction",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 21,
+   "content_hash": "8399c92bb2cff8cc",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "alcazar": {
+   "venue_id": "alcazar",
+   "source": {
+    "url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
+    "kind": "json",
+    "confidence": 0.9,
+    "reasoning": "The pre-scan shows this OpenAgenda JSON export endpoint returns a full events list (total 231) with upcoming events (e.g. 2026-09-16, 2026-09-17) including titles, descriptions, dates and locations for the Alcazar library in Marseille. It uses limit=300 with no page parameter, covering the whole agenda in one fetch, and is a JSON endpoint (preferred over HTML per rules).",
+    "sample_titles": [
+     "Her"
+    ],
+    "fallback_url": null,
+    "instagram": null,
+    "facebook": null
+   },
+   "discovered": "2026-09-13",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "json",
+       "items_path": "events",
+       "expand_path": null,
+       "fields": {
+        "title": {
+         "selector": "title.fr",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "firstDate",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "time": {
+         "selector": "firstTimeStart",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "end_date": {
+         "selector": "lastDate",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "end_time": {
+         "selector": "lastTimeEnd",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "canonicalUrl",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": "locationName",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "summary": {
+         "selector": "description.fr",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "image": {
+         "selector": "thumbnail",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": "%Y-%m-%d",
+       "time_format": "%H:%M",
+       "notes": ""
+      }
+     ],
+     "notes": "OpenAgenda legacy JSON export for Alcazar library. events list at 'events'. Each event has a single 'firstDate'/'firstTimeStart' used for date/time, canonicalUrl for url, locationName for location, thumbnail for image (event-specific poster/still, not shared placeholder)."
+    },
+    "created": "2026-09-13",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 1
+   },
+   "last_ok": "2026-09-13",
+   "last_error": null,
+   "last_event_count": 110,
+   "content_hash": "4adcaed2ad76e5d4",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

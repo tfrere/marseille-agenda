@@ -1,26 +1,32 @@
 {
  "run_date": "2026-09-13",
- "sources_total": 34,
- "sources_ok": 34,
+ "sources_total": 1,
+ "sources_ok": 1,
  "sources_skipped_unchanged": 0,
- "events_published": 284,
- "events_new": 0,
- "events_rejected_grounding": 79,
- "events_rejected_verifier": 0,
+ "events_published": 421,
+ "events_new": 21,
+ "events_rejected_grounding": 0,
+ "events_rejected_verifier": 1,
  "events_uncertain": 0,
  "alerts": [
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-09-19"
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "schema induced without a model: 21 cards matched by 'div.event_future', 22 upcoming events, coverage 1.00, quality 1.00, machine-readable dates"
+  },
+  {
+   "level": "warning",
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected '13000 Film Festival' 2026-09-19: The start date contradicts the excerpt, which clearly states the festival runs 'du vendredi 18 septembre 2026 au samedi 19 septembre 2026'. The extracted start_date is 2026-09-19 instead of 2026-09-18."
   }
  ],
- "llm_calls": 0,
+ "llm_calls": 22,
  "posts_analyzed": 0,
  "apify_runs": 0,
- "images_published": 186,
+ "images_published": 319,
  "images_failed": 0,
- "credits_remaining_usd": 1.3881,
+ "credits_remaining_usd": 0.8783,
  "run_cost_usd": 0.0
 }

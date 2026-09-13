@@ -363,7 +363,7 @@
    "last_ok": "2026-09-13",
    "last_error": null,
    "last_event_count": 24,
-   "content_hash": "f32f5c2a493d20b4",
+   "content_hash": "a04986f5b66b4b46",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -451,10 +451,10 @@
     "version": 1
    },
    "last_ok": "2026-09-13",
-   "last_error": null,
+   "last_error": "fetch: timed out",
    "last_event_count": 3,
    "content_hash": "bda5d011df418178",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "regenerations": 0,
    "next_generation": null
   },

@@ -11,10 +11,12 @@ DTEND;VALUE=DATE:20260921
 UID:7cea19aa15d4@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/la-vie-climatique-histoires-sensib
- les-des-collections-privees-triennale-de-leur-temps-8
+ les-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-co
+ ntemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
 URL:https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-
- collections-privees-triennale-de-leur-temps-8
+ collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contempora
+ in-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -23,9 +25,10 @@ DTEND;VALUE=DATE:20270104
 UID:3f00f5332384@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/africa-louisa-baba
- ri
+ ri?museum=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/africa-louisa-babari
+URL:https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-con
+ temporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite libre de la statue de la Bonne Mère
@@ -176,92 +179,32 @@ URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
  sent/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Braderie d'affiches et DVD à La Baleine !
-DTSTART;TZID=Europe/Paris:20260913T140000
-DTEND;TZID=Europe/Paris:20260913T160000
-UID:71cffcc40b45@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Le 13 septembre\, à l'occasion de l'anniversaire de La Balein
- e\, pour chiner ou pour offrir\, on vide les stocks ! DVD et Affiches à p
- etits prix. -------- Dimanche 13 septembre de 14h à 19h -------- Des \nht
- tps://www.facebook.com/events/1348218804116673/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://www.facebook.com/events/1348218804116673/
+SUMMARY:Le Mauvais Œil 87 : Thomas Perrodin
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260926
+UID:7b96fb039a05@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des imaginaires graphiques singuliers où se croisent expérim
+ entation\, artisanat et nouvelles formes de narration visuelle. Une propos
+ ition de Le Dernier Cri\nPrix : Entrée libre\nhttps://www.lafriche.org/ev
+ enements/le-mauvais-oeil-87-thomas-perrodin/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-87-thomas-perrodin
+ /
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[rdv doc] HAIR\, PAPER\, WATER... de Nicolas Graux\, Minh Quý Tr
- ương | Avec le Labo Largent
-DTSTART;TZID=Europe/Paris:20260913T160000
-DTEND;TZID=Europe/Paris:20260913T180000
-UID:549280656228@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ En présence de Arnaud Alain et Alyzée Soudet du Labo Lar
- gent ▉ En partenariat avec le Labo Largent ▉ Dans le cadre du rendez-v
- ous documentaire de La Baleine\, en partenariat avec La Cinémathèque du 
- d\nhttps://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les Mains Gauches | #6 FAIRE SA PLACE (rediffusion)
-DTSTART;TZID=Europe/Paris:20260913T160000
-DTEND;TZID=Europe/Paris:20260913T180000
-UID:71cdf760ec91@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/les-mains-gauches-6-faire-sa-place-
- rediffusion/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/les-mains-gauches-6-faire-sa-place-rediffus
- ion/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TOURNÉE EUROPÉENNE FRAYBA - CNI · 2026
-DTSTART;TZID=Europe/Paris:20260913T173000
-DTEND;TZID=Europe/Paris:20260913T193000
-UID:9572b0f28f1b@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Discussion à Marseille le 13 septembre 2026 à 17h30 à La Co
- lorada avec des membres du Congrès National Indigène et de l'ONG Fray Ba
- rtolomé de Las Casas sur la résistance des peuples indigènes au Mexique
- .\nPrix : Adhésion à l’asso à partir de 2€\nhttps://www.instagram.c
- om/p/Dc_3oQ2uQkJ/
-LOCATION:La Colorada - La Colorada
-URL:https://www.instagram.com/p/Dc_3oQ2uQkJ/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les Mains Gauches | #5 ERRANCE CITADINE (rediffusion)
-DTSTART;TZID=Europe/Paris:20260913T180000
-DTEND;TZID=Europe/Paris:20260913T200000
-UID:af9b20304e61@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/les-mains-gauches-5-errance-citadin
- e-rediffusion/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/les-mains-gauches-5-errance-citadine-rediff
- usion/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AFTER MARY + BRIGHT SHOP + CASTAWAYS
-DTSTART;TZID=Europe/Paris:20260913T193000
-DTEND;TZID=Europe/Paris:20260913T213000
-UID:77c7bbfac396@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/after-mary-bright-s
- hop-castaways/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/after-mary-bright-shop-castaways/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les Mains Gauches | Séance de clôture : #7 PASSAGES
-DTSTART;TZID=Europe/Paris:20260913T200000
-DTEND;TZID=Europe/Paris:20260913T220000
-UID:070cb0937af9@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/les-mains-gauches-seance-de-cloture
- -7-passages/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/les-mains-gauches-seance-de-cloture-7-passa
- ges/
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260929
+UID:b2cf9898f23a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Marché paysan
@@ -428,6 +371,79 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/49907915_atel
  ier-photo-sensible-bibliotheque-du-futur-7506415
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Expo-pause
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260928
+UID:a84b4f4c4cd4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un espace aménagé au seuil de l’exposition pour s’asseoi
+ r et s’installer confortablement\, faire une pause.\nPrix : Gratuit !\nh
+ ttps://www.lafriche.org/evenements/expo-pause-4/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/expo-pause-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glaneuses et glaneurs
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260928
+UID:9579fdd53cd4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
+ Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
+ é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
+ /www.lafriche.org/evenements/glaneuses-et-glaneurs/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jouer la montre
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260928
+UID:79e699e90f38@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Mona Benyamin mobilise l'humour et l'ironie comme outils polit
+ iques de résistance et de réflexion. Une proposition de Triangle-Astéri
+ des et B7L9\nhttps://www.lafriche.org/evenements/exposition-personnelle-de
+ -mona-benyamin/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/exposition-personnelle-de-mona-ben
+ yamin/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les rêves n’ont pas de titre الأحلام لا تحمل عن
+ اوين
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260928
+UID:6a816938e57c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une compilation de films choisis\, excavation d’archives oub
+ liées ou retrouvées\, remakes d’images empruntées et témoins de l’
+ effervescence des luttes se mêlent dans une grande traversée des imagina
+ ires.\nhttps://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8
+ %a7%d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9
+ %84-%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8%a7
+ %d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9%84
+ -%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sur les ruines\, les pierres fleurissent تزهر حجارة ال
+ أطلال
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260928
+UID:2b456c3dc591@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une lecture renouvelée des territoires désertiques\, non com
+ me des espaces figés\, mais comme un ensemble de constellations d’entit
+ és animales\, végétales\, humaines et minérales dignes. Une propositio
+ n de Fræme\, Kulte et Le Cirva\nhttps://www.lafriche.org/evenements/sur-l
+ es-ruines-les-pierres-fleurissent/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
+ sent/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:★ Jeune public | Le Jour des corneilles
@@ -877,9 +893,10 @@ DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
- isa-babari
+ isa-babari?museum=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
+ dart-contemporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Journées Européennes du Patrimoine
@@ -1628,8 +1645,8 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/12592687_marx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LE MAUVAIS OEIL 88 : Kikifruit
-DTSTART;TZID=Europe/Paris:20260926T140000
-DTEND;TZID=Europe/Paris:20260926T160000
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260929
 UID:ac42c3207e3c@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
@@ -1746,18 +1763,6 @@ LOCATION:L'Intermédiaire - L'Intermédiaire
 URL:https://www.instagram.com/p/Dc9GRp1Iqss/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:LE MAUVAIS OEIL 88 : Kikifruit
-DTSTART;TZID=Europe/Paris:20260927T140000
-DTEND;TZID=Europe/Paris:20260927T160000
-UID:a56027bf71ed@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:La Gradiva
 DTSTART;TZID=Europe/Paris:20260927T170000
 DTEND;TZID=Europe/Paris:20260927T190000
@@ -1804,6 +1809,18 @@ DESCRIPTION:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien-le-chag
  rin-et-la-pitie-partie-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20260928T160000
+DTEND;TZID=Europe/Paris:20260928T200000
+UID:b040c50e2227@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[rdv doc] ÉCRIRE LA VIE : ANNIE ERNAUX RACONTÉE ... de Claire Si
@@ -2432,6 +2449,18 @@ URL:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-sinstall
  e-a-maison-du-parc-et-du-tourisme-des-cevennes-au-mont-lozere/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:R·M·F.C + TECHNOPOLICE
+DTSTART;TZID=Europe/Paris:20261013T203000
+DTEND;TZID=Europe/Paris:20261013T223000
+UID:04ebdb8ab245@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Concert featuring R·M·F.C (Rock Music Football Club) and Tec
+ hnopolice (garage rock) at L'Intermédiaire.\nPrix : 8€ en prévente (li
+ en en bio)\n10€ sur place\nhttps://www.instagram.com/p/DdOQuQ1O1eK/
+LOCATION:L'Intermédiaire - L'Intermédiaire
+URL:https://www.instagram.com/p/DdOQuQ1O1eK/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ateliers : Cartographier nos territoires avec Nadin Nadine
 DTSTART;TZID=Europe/Paris:20261014T140000
 DTEND;TZID=Europe/Paris:20261014T160000
@@ -2534,6 +2563,19 @@ DESCRIPTION:▉ Séance en présence de l'équipe du film ▉ Suivi d'un D
  Carramiñana Docume\nhttps://marseillecinemalabaleine.cine.boutique/
 LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HARDCORE SERIES 8
+DTSTART;TZID=Europe/Paris:20261014T210000
+DTEND;TZID=Europe/Paris:20261014T230000
+UID:6e143234f685@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Concert featuring ODDPACE\, HEATWAVE\, and THE BUTCHER PROJECT
+  at L'Intermédiaire in Marseille.\nPrix : 6€ en prévente Helloasso (li
+ en en bio) / 8€ sur place (espèces ou CB)\nhttps://www.instagram.com/p/
+ DdOuaNSK9_x/
+LOCATION:L'Intermédiaire - L’Intermédiaire
+URL:https://www.instagram.com/p/DdOuaNSK9_x/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rencontre autour du don d'organe
@@ -3668,6 +3710,16 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SETH GUEKO
+DTSTART;TZID=Europe/Paris:20261205T200000
+DTEND;TZID=Europe/Paris:20261205T220000
+UID:dd6123043bf9@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 28€\nhttps://lemolotov.com/events/seth-gueko/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/seth-gueko/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture

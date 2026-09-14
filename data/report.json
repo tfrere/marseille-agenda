@@ -1,10 +1,10 @@
 {
- "run_date": "2026-09-13",
+ "run_date": "2026-09-14",
  "sources_total": 39,
  "sources_ok": 38,
  "sources_skipped_unchanged": 0,
  "events_published": 421,
- "events_new": 0,
+ "events_new": 11,
  "events_rejected_grounding": 80,
  "events_rejected_verifier": 2,
  "events_uncertain": 0,
@@ -16,35 +16,35 @@
    "message": "no upcoming event on source at last check; next generation attempt 2026-09-19"
   },
   {
-   "level": "error",
-   "venue_id": "mac-musee-d-art-contemporain",
-   "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
-   "message": "source failed, last verified state kept: fetch: timed out"
-  },
-  {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-09-14: \"Permanence de Mille Bâbords et de sa médiathèque\" represents venue opening hours / drop-in desk hours, not a dated public event."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-09-14: The listing 'Permanence de Mille Bâbords et de sa médiathèque' corresponds to the regular opening/drop-in hours of the Mille Bâbords venue and its media library, not a specific public event."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected '13000 Film Festival' 2026-09-19: The festival begins on 2026-09-18, not 2026-09-19 (\"du vendredi 18 septembre 2026 au samedi 19 septembre 2026\")."
+   "message": "verifier rejected '13000 Film Festival' 2026-09-19: The excerpt states the festival runs 'du vendredi 18 septembre 2026 au samedi 19 septembre 2026', contradicting the extracted start_date of 2026-09-19."
   },
   {
    "level": "warning",
    "venue_id": "alcazar",
    "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
    "message": "rejected 'test' 2028-07-06: start_date 2028-07-06 is implausibly far in the future"
+  },
+  {
+   "level": "error",
+   "venue_id": "la-colorada",
+   "source_url": "https://www.facebook.com/lacoloradamarsella/",
+   "message": "facebook fetch failed 2x: apify~facebook-posts-scraper: not_available"
   }
  ],
- "llm_calls": 2,
- "posts_analyzed": 0,
- "apify_runs": 0,
- "images_published": 319,
+ "llm_calls": 22,
+ "posts_analyzed": 6,
+ "apify_runs": 12,
+ "images_published": 322,
  "images_failed": 0,
- "credits_remaining_usd": 0.814,
- "run_cost_usd": 0.007
+ "credits_remaining_usd": 0.7684,
+ "run_cost_usd": 0.0456
 }

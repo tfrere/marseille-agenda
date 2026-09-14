@@ -4,8 +4,8 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -98,8 +98,8 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -744,8 +744,8 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1370,8 +1370,8 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1583,8 +1583,8 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1943,6 +1943,72 @@
      ],
      "notes": null,
      "image_urls": []
+    },
+    "3985326831378882545": {
+     "id": "3985326831378882545",
+     "url": "https://www.instagram.com/p/DdOuaNSK9_x/",
+     "published": "2026-09-13",
+     "analyzed": "2026-09-14",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "HARDCORE SERIES 8",
+       "start_date": "2026-10-14",
+       "start_time": "21:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "L’Intermédiaire",
+       "url": null,
+       "price": "6€ en prévente Helloasso (lien en bio) / 8€ sur place (espèces ou CB)",
+       "summary": "Concert featuring ODDPACE, HEATWAVE, and THE BUTCHER PROJECT at L'Intermédiaire in Marseille.",
+       "status": "scheduled",
+       "evidence": [
+        "🔥 Azurcore Booking presents la HARDCORE SERIES 8 🔥",
+        "📅 DATE : Mercredi 14 octobre – 21H",
+        "📍 LIEU : L’Intermédiaire – 63 Place Jean Jaurès, 13006 Marseille"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "Announcement post for a future event: \" DATE : Mercredi 14 octobre – 21H\" and \"📍 LIEU : L’Intermédiaire – 63 Place Jean Jaurès, 13006 Marseille\", confirmed by the flyer \"14/10/26 - START 21H / L'INTERMEDIAIRE\". 14 October 2026 is indeed a Wednesday, after the 13 Sept 2026 publication date, and the post announces the show rather than recapping or cancelling it (title \"HARDCORE SERIES 8\" vs flyer \"IX\" is a harmless numbering discrepancy, not a date/venue conflict)."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/808823210_17932311168395609_5568203911137448275_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk4NTMyNjgzMTM3ODg4MjU0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=W_FUgBRMjTkQ7kNvwHsudKD&_nc_oc=Adoo2EJsZYjH4sJhd6uHajLmNK_BlXVMADYoZ3oly7NN4RePeWaYUv5eB_8ueskmunWUNCkWI3o9YmbHPRHBSY51&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_gid=aCML7aUuQ_9mYg46AjdC6g&_nc_ss=7a22e&oh=00_AQKQp2uqRj5cyi3MWRCAjYdjGg6pjU-uNPWgd1rd_UCC-A&oe=6AAD6E08"
+     ]
+    },
+    "3985196268182525834": {
+     "id": "3985196268182525834",
+     "url": "https://www.instagram.com/p/DdOQuQ1O1eK/",
+     "published": "2026-09-13",
+     "analyzed": "2026-09-14",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "R·M·F.C + TECHNOPOLICE",
+       "start_date": "2026-10-13",
+       "start_time": "20:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "L'Intermédiaire",
+       "url": null,
+       "price": "8€ en prévente (lien en bio)\n10€ sur place",
+       "summary": "Concert featuring R·M·F.C (Rock Music Football Club) and Technopolice (garage rock) at L'Intermédiaire.",
+       "status": "scheduled",
+       "evidence": [
+        "13/10 INTERMEDIAIRE",
+        "R·M·F.C Rock Music + Football Club",
+        "TECHNOPOLICE GARAGE"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption announces \"MARDI 13 OCTOBRE\" with \"Début des concerts: 20h30\" at \"À l'Intermédiaire (63 place Jean-Jaurès 13006)\", and the flyer reads \"13/10 ... INTERMEDIAIRE\"; 2026-10-13 is indeed a Tuesday, matching the written weekday, and the post is a forward-looking announcement, not a recap."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/807901032_18587842237068930_3319125353051470221_n.webp?_nc_cat=101&ig_cache_key=Mzk4NTE5NjI2ODE4MjUyNTgzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=WTgWh7SugXIQ7kNvwFiH1OG&_nc_oc=Adq_beD_B8HXeYmcsSY5DjVqX2W6v-fqfXEWVjWKj0GVR20Sz-L9bhuQ59xF4xW29Us&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_gid=yrJAraJD6fPa846xks26rw&_nc_ss=7a22e&oh=00_AQKwQwWKRjip88nsopT0jx19PAm5NKs10vuYZv3odoQQcA&oe=6AAD599B"
+     ]
     }
    },
    "fb_events": []
@@ -1951,8 +2017,8 @@
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1994,8 +2060,8 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2468,8 +2534,8 @@
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2987,6 +3053,19 @@
      ],
      "notes": null,
      "image_urls": []
+    },
+    "1697303359063079": {
+     "id": "1697303359063079",
+     "url": "https://www.facebook.com/labaleinemarseille/posts/pfbid02DryaLjnRy13EPQF9J8wNF2Vhdzb2B58N3GXZ6UP1TFPaaUdU2mxDLVpVHCsim3VAl",
+     "published": "2026-09-07",
+     "analyzed": "2026-09-14",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The only announced event, 'HAIR, PAPER, WATER... de Nicolas Graux & Minh Quý Trương', is scheduled for 2026-09-08, which is in the past relative to today (2026-09-14). Since the instruction requires listing only upcoming events, and no other events are mentioned in the caption or images, there are no valid upcoming events to announce.",
+     "image_urls": [
+      "https://scontent-hou1-1.xx.fbcdn.net/v/t39.99422-6/799682624_1398266838385273_6667404874947241268_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fta21r69j-EQ7kNvwE87is5&_nc_oc=AdpcfYNv2QR-FbWgmJhtQoJkmpchp83FCqzMIHBKWOUE_fPTg2Lvz550wJcx33sBKyY&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=-6kQeUc3kEJh8mF64g_UoQ&_nc_ss=73289&oh=00_AQK5TWNdw_e_sY-YzDgezf9YUE1REvoy0yeROQ7KDUWMqQ&oe=6AAD499C",
+      "https://scontent-hou1-1.xx.fbcdn.net/v/t39.99422-6/799264764_1047263504604305_5961197903290181177_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ufT931LKDkYQ7kNvwFrU5XY&_nc_oc=Adq6YAx__as935LMGDgdNT8TX95t1HqHkaUSOO8XvAxIPnhBU_yOCd22PaM-5o1aJtw&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=-6kQeUc3kEJh8mF64g_UoQ&_nc_ss=73289&oh=00_AQLhISEJzr7hR-pjY8nBqwVcG-9jZte0Fd8wKti51xlqWw&oe=6AAD7206"
+     ]
     }
    },
    "fb_events": []
@@ -3202,8 +3281,8 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3636,10 +3715,10 @@
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-14",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: no_items",
+   "consecutive_failures": 1,
    "posts": {
     "1690057176402534": {
      "id": "1690057176402534",
@@ -3842,8 +3921,8 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -4197,6 +4276,21 @@
      "events": [],
      "notes": "The post is a general promotional description of Le Gyptis cinema and its mission, not an announcement of specific upcoming events. The attached image is a flyer with the cinema's branding and contact information but does not list any specific dates or events.",
      "image_urls": []
+    },
+    "3985478244719521827": {
+     "id": "3985478244719521827",
+     "url": "https://www.instagram.com/p/DdPQ1j8jfAj/",
+     "published": "2026-09-13",
+     "analyzed": "2026-09-14",
+     "is_announcement": true,
+     "events": [],
+     "notes": "The post announces the resumption of youth workshops at Le Gyptis but does not specify any upcoming event dates, times, or titles. The images show past or ongoing activities (stop-motion, arts plastiques, etc.), not future scheduled events. Therefore, no specific upcoming public events can be extracted.",
+     "image_urls": [
+      "https://instagram.fcgh37-1.fna.fbcdn.net/v/t39.30808-6/807289098_1677620224369091_6155459391636396349_n.jpg?stp=c0.0.1542.1928a_dst-jpg_e35_s1542x1928_tt6&_nc_cat=103&ig_cache_key=Mzk4NTQ3ODIyNDUzNjQ5ODgxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTU0My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sunR42WWR1cQ7kNvwFqNnrj&_nc_oc=AdprcwtdMMovVSzIqpUwEwEMcI8PsL0KleVAcdZi4nz1Jl3zNDP7RcKPGFHkvj9EITE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgh37-1.fna&_nc_gid=vjLFlS_dHMiA_DXsbitLuw&_nc_ss=7a22e&oh=00_AQLBiio7kcCJnZmoqYrHQte1fLnqJgrVBoZDU6P2TYa-HA&oe=6AAD4314",
+      "https://instagram.fcgh37-1.fna.fbcdn.net/v/t39.30808-6/806053071_1677620534369060_4138464556476475043_n.jpg?stp=c0.0.1536.1919a_dst-jpg_e35_s1536x1919_tt6&_nc_cat=100&ig_cache_key=Mzk4NTQ3ODIyMTk3Nzk3NDYzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dqVIC97F1fgQ7kNvwEfhr4D&_nc_oc=AdpkvqCSgswQepG5YYRgInzMjJFkKmtaHaMXKZgJ7BnP2XfXPTZpoHbcOzCfgZeIHsw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgh37-1.fna&_nc_gid=vjLFlS_dHMiA_DXsbitLuw&_nc_ss=7a22e&oh=00_AQJqB5hWD70A-vf1JWA2lV3CDIOARzjB67rzqd0lHRBdeg&oe=6AAD489A",
+      "https://instagram.fcgh11-1.fna.fbcdn.net/v/t39.30808-6/807799050_1677620221035758_2868392435102913891_n.jpg?stp=c0.0.1229.1535a_dst-jpg_e35_s1229x1535_tt6&_nc_cat=105&ig_cache_key=Mzk4NTQ3ODIyMzE1MjQwODAxNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIyOS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DnbnLD0XH7IQ7kNvwGrmKS8&_nc_oc=AdoI0BcWTs646qljLE4KdnN3EB1POL19CROJvzlZl_gAyYQrqudDiaoc7xKEQjtGPog&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgh11-1.fna&_nc_gid=vjLFlS_dHMiA_DXsbitLuw&_nc_ss=7a22e&oh=00_AQIzOF9z8CTOXg2e9V_DmuZoKud7Kd48cjT5pt2h9rTCYA&oe=6AAD5BAF",
+      "https://instagram.fcgh37-1.fna.fbcdn.net/v/t39.30808-6/807487955_1677620261035754_3810621085111110637_n.jpg?stp=c0.0.1536.1919a_dst-jpg_e35_s1536x1919_tt6&_nc_cat=104&ig_cache_key=Mzk4NTQ3ODIyMjI1NDc5NTU1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9V79jS2PVRsQ7kNvwEASlU1&_nc_oc=Adp4x1p9Ka6qqiYPY_BfRcatToHAjy2wNco4vccd9N2o5QRJnnHzjJ6fRYm6Hvis5pU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgh37-1.fna&_nc_gid=vjLFlS_dHMiA_DXsbitLuw&_nc_ss=7a22e&oh=00_AQIBWF8-7HZDdjNTetpealML4Idy5g3dwpPQJxmGjtek-w&oe=6AAD632B"
+     ]
     }
    },
    "fb_events": []
@@ -4205,8 +4299,8 @@
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -4699,6 +4793,21 @@
      "events": [],
      "notes": "The event 'LES FILMS DERRIÈRE L'ÉCRAN' is scheduled for samedi 5 septembre, which is 2026-09-05. Since today is dimanche 2026-09-13, the event has already occurred and should not be included as an upcoming event. No upcoming events are announced in this post.",
      "image_urls": []
+    },
+    "1678649590932821": {
+     "id": "1678649590932821",
+     "url": "https://www.facebook.com/cinemalegyptis/posts/pfbid0sZ9MMjKyfBwSjs1kXmaJcL7tBsFrFZGtHW7S2aV6os42PG84riQ97poxktkzhXbSl",
+     "published": "2026-09-13",
+     "analyzed": "2026-09-14",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post announces upcoming youth workshops at Le Gyptis but does not specify any concrete dates, times, or titles for future events. The images show past or ongoing activities (stop-motion, arts plastiques, etc.) but no flyers with scheduled events. Therefore, no specific upcoming public events can be extracted.",
+     "image_urls": [
+      "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/808763664_1227151956283043_7057203767288251247_n.png?stp=dst-jpg_tt6&cstp=mx1543x1928&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=BIiWSeGZro8Q7kNvwFpZpvh&_nc_oc=AdoVrbWBBIMfhQ6YGTJ2_CmMHmO6C_7uyqiGOotQ-pfgqC6myGjuGEFgCKFtKTm_3RzpOg1pDOzsPhkdkYS6niEg&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=Y6Oz2hmUDKqXENtO3H_l_g&_nc_ss=73289&oh=00_AQIO_wZCjvGW_59qeZZUmin14jnK_tsNX11epeYUtFfzdQ&oe=6AAD4A13",
+      "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/809039232_2569227646854637_6085073929367357143_n.png?stp=dst-jpg_tt6&cstp=mx1536x1920&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CqYbfPL6nrcQ7kNvwHeWDg5&_nc_oc=AdpwHN-gCoKIJYZgXeYhGCfE3pwB9bsHDwrehDvmH7-A7METL1mntrgFd5oW19FzOkJXVCe5PbUG1UkipYT-qtcM&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=Y6Oz2hmUDKqXENtO3H_l_g&_nc_ss=73289&oh=00_AQK-X0wYrKFYjtn14R0zQdjwaEv2xjgLRyB4DplwrsUb4A&oe=6AAD4CF7",
+      "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/807844595_1078547648470491_8979075215179958141_n.png?stp=dst-jpg_tt6&cstp=mx1229x1536&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GAuaN3580p0Q7kNvwHXuD5S&_nc_oc=AdqYVHvK__NrODyL3WuIRXVjNEZ6xMxpje_NOCVCC95DUYS5WjXecNJPLrl09xJ2NfxItNN8r7_0w7XO2baqMLYq&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=Y6Oz2hmUDKqXENtO3H_l_g&_nc_ss=73289&oh=00_AQLSp6sqW1rLw_9XnK5ePzFb2M015NSOyW_np2dKEjM-BA&oe=6AAD68C4",
+      "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/808855727_1565940197873757_3950449977413624955_n.png?stp=dst-jpg_tt6&cstp=mx1536x1920&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5xQO4fUtEdkQ7kNvwGlP8Lk&_nc_oc=AdpKQv5b7rBTvRXu3347cI0hG8Dl6fi88IdL6eT66WHGymCoIEeWPHx7k4PkY94gFqiUUIruMeGwLAxcBJP0TpNY&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=Y6Oz2hmUDKqXENtO3H_l_g&_nc_ss=73289&oh=00_AQIKahRLiVbVy4Lz5ONcoDyvJyL3pRyxzVssyqcWpYSTww&oe=6AAD46FC"
+     ]
     }
    },
    "fb_events": []
@@ -4794,10 +4903,10 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-14",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: no_items",
+   "consecutive_failures": 1,
    "posts": {
     "3968562240534019368": {
      "id": "3968562240534019368",
@@ -4816,10 +4925,10 @@
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-14",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: no_items",
+   "consecutive_failures": 1,
    "posts": {
     "1855733538723567": {
      "id": "1855733538723567",
@@ -5954,8 +6063,8 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-14",
+   "last_ok": "2026-09-14",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -6297,10 +6406,10 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-14",
    "last_ok": null,
    "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "posts": {},
    "fb_events": []
   },

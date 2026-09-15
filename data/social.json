@@ -4,8 +4,8 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -79,6 +79,37 @@
      "events": [],
      "notes": "The event 'JAM SESSION AVEC LA PLAINE KONNEXION' is scheduled for vendredi 11/09, which is Friday, 2026-09-11. Since today is samedi 2026-09-12, the event has already occurred and is not an upcoming event. Therefore, no upcoming events are announced in this post.",
      "image_urls": []
+    },
+    "3230733690469042": {
+     "id": "3230733690469042",
+     "url": "https://www.facebook.com/events/3230733690469042/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "discussion sur la propriété d'usage à la ville et à la campagne et Buvette :)",
+       "start_date": "2026-09-15",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": "MANIFESTEN",
+       "url": null,
+       "price": null,
+       "summary": "Discussion organized by Le Collectif du Beughot at Manifesten on property usage in urban and rural areas, with a buvette (refreshments).",
+       "status": "scheduled",
+       "evidence": [
+        "discussion sur la propriété d'usage à la ville et à la campagne et Buvette :)"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The flyer only reads \"LE COLLECTIF DU BEUGHOT\", \"discussion sur la propriété d'usage à la ville et à la campagne et Buvette :)\" and \"MANIFESTEN\" — no date or time appears anywhere in the post (caption is empty), so the extracted start_date 2026-09-15 is unverifiable from the post alone."
+      }
+     ],
+     "notes": "The event is announced via an image flyer. The date is inferred as today (2026-09-15) since the post was published on 2026-09-14 and no specific date is given in the image or caption. The venue name 'MANIFESTEN' is visible at the bottom of the image.",
+     "image_urls": [
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/808265457_2361471191256991_1543356742886073466_n.png?stp=c0.0.1414.776a_dst-jpg_tt6&cstp=mx1414x776&ctp=s526x296&_nc_cat=105&ccb=1-7&_nc_sid=1abd25&_nc_ohc=KRWwkzFoEBsQ7kNvwHl5UPT&_nc_oc=AdpeHkW85NowV2guwLlS_6lP3xoPpLgS_jXyKtFdSxytY7SCEC9DVq0OnHWsc_hPRylw2l3YCgbavS5767ettMAu&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=rJI-dMzBhv7Oyfp82E-CTg&_nc_ss=73289&oh=00_AQJOEXtwLzgUPT-1nUVttZytuCkK1GEqeckq6L4MPc_MLQ&oe=6AAEB34C"
+     ]
     }
    },
    "fb_events": []
@@ -98,8 +129,8 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -736,6 +767,75 @@
      ],
      "notes": null,
      "image_urls": []
+    },
+    "3986098917590581348": {
+     "id": "3986098917590581348",
+     "url": "https://www.instagram.com/p/DdRd9imjkBk/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Spectacle La Smala de Marseille",
+       "start_date": "2026-09-19",
+       "start_time": "18:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Petit Plateau",
+       "url": null,
+       "price": "12€",
+       "summary": "Création inédite de danse chorégraphiée par Kader Attou et Sophie Bulbulyan, présentée à la Friche la Belle de Mai.",
+       "status": "scheduled",
+       "evidence": [
+        "Création inédite Spectacle La Smala de Marseille",
+        "Chorégraphie Kader Attou x Sophie Bulbulyan",
+        "Friche la Belle de Mai Marseille 19 sept 18h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future dated public show: \"Rendez-vous samedi 19 sept, 18 h — Création, chorégraphie Kader Attou x Sophie Bulbulyan (Petit Plateau @frichelabelledemai - 12€, sur réservation)\", matching the flyer's \"19 sept 18h\" and \"Friche la Belle de Mai Marseille\"; 2026-09-19 is indeed a samedi and is after the 2026-09-14 publication date."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/810246521_1678884573826511_6739034299972436734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk4NjA5ODc3NTU2MzEwNTAwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=odv7kP64PA4Q7kNvwH_LNCh&_nc_oc=Adpcmu7MxcxOODzcuZYpLBPLAe76XehF2btMcZqUZYVWDdPOrt0iZGaaradOfrVC5Q5pB8qGLS4na4xHo-BaAn7u&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=N7smIGO9fnDMLQXMYZOkhg&_nc_ss=7a22e&oh=00_AQJOrPHMlmVoY_Py8LR1oqTIFapq6EDLMFLtim1Je312MQ&oe=6AAE9C8D",
+      "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/810384078_18069321938725724_701010580488218104_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzk4NjA5ODc3NzI4MjczNTgwMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=FRx0UhuUWHkQ7kNvwEfQomy&_nc_oc=AdrvDzbk3kdX7w2X7TZ1HJplepEZPXfAnVU5iZb1P5nn3-u5yZyZfboWZmjM6xkGSxwhENm8Bq-vPlexEZYt0zVD&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=N7smIGO9fnDMLQXMYZOkhg&_nc_ss=7a22e&oh=00_AQKFxsDmzTNJYWNWKiDRT5bjubA9RB6-aOjH1D2NOLkmRA&oe=6AAEAF08",
+      "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/810022918_1678899830491652_3944438605781513208_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk4NjA5ODc3NTczOTIzNTc0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=rW9FTy_bhNIQ7kNvwHFi80-&_nc_oc=AdpZO6nL0IBWRO56bHYNcsTv2oHD4kjklLDulEPZnyQlfjDq0ZHovLjIQEDiKD5NbejkZ7ET8sIlXy2LE_E70_IQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=N7smIGO9fnDMLQXMYZOkhg&_nc_ss=7a22e&oh=00_AQLIsdIvfjrnA-aQBe9uGRlrbY31k2QuPj1jGFrt_oXUPw&oe=6AAE91B6",
+      "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/810090946_1678896777158624_2462047660811263391_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzk4NjA5ODc3NzAyMjY5MzQxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=4G_wLvIFzK4Q7kNvwEHrGEI&_nc_oc=Adpqnwl8zL9vZQa21APiUfXwIPd9kqvjZHhxEnrOmHSa24lr89zxu-JRcBhbr__kEko4Lsoi65CoeJi8bJs9RcAH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=N7smIGO9fnDMLQXMYZOkhg&_nc_ss=7a22e&oh=00_AQK2MowbXmhHpmECxxoNs5ILIVQdSKhrg-4Auw5pgtEj3A&oe=6AAEBA43"
+     ]
+    },
+    "3986202866577670539": {
+     "id": "3986202866577670539",
+     "url": "https://www.instagram.com/p/DdR1mMpAYGL/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "5ᵉ édition de la @biennalechroniques , Biennale des Imaginaires Numériques",
+       "start_date": "2026-10-24",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Friche",
+       "url": null,
+       "price": null,
+       "summary": "La 5ᵉ édition de la Biennale des Imaginaires Numériques, thématique 'Résistances', présente installations, performances et réalité virtuelle à la Friche à partir du 24 octobre 2026.",
+       "status": "scheduled",
+       "evidence": [
+        "RÉSISTANCES 🔥",
+        "C’est le mot qui s’est imposé pour la thématique de la 5ᵉ édition de la @biennalechroniques , Biennale des Imaginaires Numériques.",
+        "📍 À découvrir à la Friche dès le 24 octobre."
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future event: \"À découvrir à la Friche dès le 24 octobre\" for the 5ᵉ édition de la Biennale des Imaginaires Numériques, at the Friche la Belle de Mai, published 2026-09-14, so 2026-10-24 (a Saturday) is on/after publication and consistent."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-15/810421389_18629964397056042_1169426634922369000_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk4NjIwMjg2NjU3NzY3MDUzOTE4NjI5OTY0Mzk0MDU2MDQy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=UZXusjuKE_UQ7kNvwFwbmte&_nc_oc=Ado1ZAtqCgJKYz3ymmBMt55VkgkW2aIy5Q_1bj9gGWRXEMvjKXdNk86KFDwB45Cg_b3FDrcrJW5b3ZKtEuCmnJ06&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_gid=3Q2-An3yUijwwAPjmuK6tA&_nc_ss=7a22e&oh=00_AQIU2IbcKG4CaG166Gc3rmTB8Y4xeB1fn_P1E393dH4vMQ&oe=6AAEB2B5"
+     ]
     }
    },
    "fb_events": []
@@ -744,8 +844,8 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1351,6 +1451,39 @@
      "events": [],
      "notes": "The event 'VERNISSAGES DE RENTRÉE' is scheduled for vendredi 28 août, which is Friday, August 28, 2026. Today is dimanche 2026-09-13 (Sunday, September 13, 2026), so the event has already occurred. Since no other events are announced in the post, there are no upcoming events to list.",
      "image_urls": []
+    },
+    "1534957891992612": {
+     "id": "1534957891992612",
+     "url": "https://www.facebook.com/reel/2528740480957622/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "5ᵉ édition de la @biennalechroniques , Biennale des Imaginaires Numériques",
+       "start_date": "2026-10-24",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Friche la Belle de Mai",
+       "url": null,
+       "price": null,
+       "summary": "La 5ᵉ édition de la Biennale des Imaginaires Numériques, sous le thème 'Résistances', présente des installations, performances et œuvres numériques explorant la création comme force de lutte et de contre-récit, à partir du 24 octobre à la Friche la Belle de Mai.",
+       "status": "scheduled",
+       "evidence": [
+        "RÉSISTANCES 🔥",
+        "C’est le mot qui s’est imposé pour la thématique de la 5ᵉ édition de la @biennalechroniques , Biennale des Imaginaires Numériques.",
+        "📍 À découvrir à la Friche dès le 24 octobre."
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The post announces a future event: \"À découvrir à la Friche dès le 24 octobre\" for the 5ᵉ édition de la Biennale des Imaginaires Numériques, at the Friche la Belle de Mai, published 2026-09-14 (before the date), and 2026-10-24 is indeed a samedi."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t15.5256-10/810518733_1104239208798306_6029706393195868406_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=hGuZRzq4t1QQ7kNvwGtnIJe&_nc_oc=AdqSd62BAM8mRLRS5_o33LHpBhIhacLJEAyAxLk_r3jFPIpD8CUWUubBO0jMqVP24Ne8AlnejXTCPE1Rmcy86cjJ&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=ZvaqQWNAy-JK3BYtLbD29A&_nc_ss=73289&oh=00_AQLbuF91BpMNgFPoDPQCIzCMOxOkZ-W-AlCc6Xb5ZH9jdA&oe=6AAEBB44"
+     ]
     }
    },
    "fb_events": []
@@ -1370,8 +1503,8 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1583,8 +1716,8 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2017,8 +2150,8 @@
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2060,8 +2193,8 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2526,6 +2659,41 @@
      "events": [],
      "notes": "All events announced in the post (from September 2 to 8, 2026) have already occurred as of today, dimanche 2026-09-13. The post is a recap or announcement for past events, not upcoming ones. Therefore, no upcoming events are announced at La Baleine.",
      "image_urls": []
+    },
+    "3986112366332641592": {
+     "id": "3986112366332641592",
+     "url": "https://www.instagram.com/p/DdRhBPuDIE4/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "GOUFFRES ET MERVEILLES de Jean Boiron Lajous",
+       "start_date": "2026-09-19",
+       "start_time": "17:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "La Baleine",
+       "url": "https://fb.me/e/bCh3z3qyN",
+       "price": null,
+       "summary": "Projection du film 'Gouffres et Merveilles' suivi d'une rencontre avec l'équipe du film sur le thème de l'amitié, en partenariat avec la librairie Histoire de l'oeil et l'Oracle de l'amitié.",
+       "status": "scheduled",
+       "evidence": [
+        "SAMEDI 19.09 ·17H30",
+        "GOUFFRES ET MERVEILLES DE JEAN BOIRON LAJOUS",
+        "Rencontre avec l'équipe du film, en partenariat avec la librairie Histoire de l'oeil et l'Oracle de l'amitié"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces an upcoming screening (\"[séance spéciale] ... Sam 19 à 17h30\") and the flyer confirms \"SAMEDI 19.09 ·17H30\" at \"La BALEINE cinema · bistrot\"; 2026-09-19 is indeed a Saturday, after the 2026-09-14 publication, and status is scheduled, not cancelled."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ham3-1.cdninstagram.com/v/t39.30808-6/799543231_1697751895684892_2669521296676427020_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk4NjExMjM1MzAzNjY4NzQwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eKeCS3Y8HKgQ7kNvwGs778p&_nc_oc=AdqQ4aa2ouPQIibj9oSn5u9IX4NXiZjjgaj82g_WJV7hp3pqjvPWrVE9yb-pi0THtxo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_gid=IyVWWf7TpXzFB5oE3MfPzQ&_nc_ss=7a22e&oh=00_AQLZO6Pg-5cbh58B55jLIxRxE-n0QHdym5XIcrVFi14Qrg&oe=6AAEA3A2",
+      "https://scontent-ham3-1.cdninstagram.com/v/t39.30808-6/799675941_1697751899018225_1239145929277261377_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk4NjExMjM1MzEzNzM2MTk5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=d6NqWoniBXEQ7kNvwEhDlfg&_nc_oc=Adri47oI-AqYGfdI_cnV93fkBu2y-7pex2rNw6MOkqKCCpI5Gfwz7YJXof3uQD5yFOA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_gid=IyVWWf7TpXzFB5oE3MfPzQ&_nc_ss=7a22e&oh=00_AQKPBvuy4LlvquLrvYYB88oUgZ-UZIdBDbI6d5ORHBaT7Q&oe=6AAE9634",
+      "https://scontent-ham3-1.cdninstagram.com/v/t39.30808-6/799590589_1697751925684889_5792904014024466973_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk4NjExMjM1MzkzNDI3NzQwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=utQh77wJypIQ7kNvwGCl7ip&_nc_oc=AdoZIenv3DbgGGu9W8yBpVKhZ_XiGekpRrHgrCvSs-StJ4yWWy5H7hLNzt_BDPBUIhU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_gid=IyVWWf7TpXzFB5oE3MfPzQ&_nc_ss=7a22e&oh=00_AQLrVqefPe_zlo6b_JJCc0pP2ZFPLrO9V0uSn8dftSEw7Q&oe=6AAE9AA8"
+     ]
     }
    },
    "fb_events": []
@@ -2534,8 +2702,8 @@
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3066,6 +3234,40 @@
       "https://scontent-hou1-1.xx.fbcdn.net/v/t39.99422-6/799682624_1398266838385273_6667404874947241268_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fta21r69j-EQ7kNvwE87is5&_nc_oc=AdpcfYNv2QR-FbWgmJhtQoJkmpchp83FCqzMIHBKWOUE_fPTg2Lvz550wJcx33sBKyY&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=-6kQeUc3kEJh8mF64g_UoQ&_nc_ss=73289&oh=00_AQK5TWNdw_e_sY-YzDgezf9YUE1REvoy0yeROQ7KDUWMqQ&oe=6AAD499C",
       "https://scontent-hou1-1.xx.fbcdn.net/v/t39.99422-6/799264764_1047263504604305_5961197903290181177_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ufT931LKDkYQ7kNvwFrU5XY&_nc_oc=Adq6YAx__as935LMGDgdNT8TX95t1HqHkaUSOO8XvAxIPnhBU_yOCd22PaM-5o1aJtw&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=-6kQeUc3kEJh8mF64g_UoQ&_nc_ss=73289&oh=00_AQLhISEJzr7hR-pjY8nBqwVcG-9jZte0Fd8wKti51xlqWw&oe=6AAD7206"
      ]
+    },
+    "1704332028360212": {
+     "id": "1704332028360212",
+     "url": "https://www.facebook.com/labaleinemarseille/posts/pfbid02v5p9sAKLhy5swW8Q58X1bnQbkhhYgZXmNd7SQBEzJyti62FKe218CJz7i4556LUml",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "GOUFFRES ET MERVEILLES de Jean Boiron Lajous",
+       "start_date": "2026-09-19",
+       "start_time": "17:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "La Baleine",
+       "url": "https://fb.me/e/bCh3z3qyN",
+       "price": null,
+       "summary": "Séance spéciale du film 'Gouffres et Merveilles' de Jean Boiron Lajous, suivie d'une rencontre avec l'équipe du film sur le thème de l'amitié, en partenariat avec la librairie Histoire de l'oeil et l'Oracle de l'amitié.",
+       "status": "scheduled",
+       "evidence": [
+        "[séance spéciale] 📽️ 𝗚𝗢𝗨𝗙𝗙𝗥𝗘𝗦 𝗘𝗧 𝗠𝗘𝗥𝗩𝗘𝗜𝗟𝗟𝗘𝗦 de Jean Boiron Lajous ▶️ Sam 19 à 17h30",
+        "SAMEDI 19.09 - 17H30 GOUFFRES ET MERVEILLES DE JEAN BOIRON LAJOUS Rencontre avec l'équipe du film, en partenariat avec la librairie Histoire de l'oeil et l'Oracle de l'amitié"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Flyer and caption both state \"SAMEDI 19.09 - 17H30 GOUFFRES ET MERVEILLES\" at \"LA BALEINE\", a dated public screening; 2026-09-19 is indeed a samedi and is after the 2026-09-14 publication date, with no cancellation mentioned."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/808299577_1068684185791538_454833182348635915_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8NRO45EqwfUQ7kNvwGyrhxW&_nc_oc=Adop7jWWB2RlJWfirPjhk-NGyQ9XnQmqBfViPQ9v1z6vLOM3huzjfvi_VEy6yFvv7lg&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=w-p2nzAGN7iRmNpmlkUrUg&_nc_ss=73289&oh=00_AQL_tWZmwGwtAVN1Q8aVScORPXU_OA8z-kGhrobVuxjbLw&oe=6AAEB9E7",
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/808763703_1598369638690295_1010122829822571793_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=OY5O6lcBp68Q7kNvwEMZhwe&_nc_oc=AdohZiBhJ8y9kVOtHh1gJgy_mS3NpFOoP7WHjuwCS7QTm5ZvydXzWKgnSlNAX0SUK0Y&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=w-p2nzAGN7iRmNpmlkUrUg&_nc_ss=73289&oh=00_AQJBTVc_GOb4ACEAqpViHDHx3mrRebtsVn2fY3jg5A0Vxg&oe=6AAEA97B",
+      "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/809544117_934194155915683_9208119134358042349_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DSwkmYT8ZzsQ7kNvwGB9lYn&_nc_oc=AdqzI6EgYKfeR7Ethql1RSaQf-vFUeJNxiqdPA8R3o2w_8WyNYAWhMY7Pts9WrNnnOo&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=w-p2nzAGN7iRmNpmlkUrUg&_nc_ss=73289&oh=00_AQKyA47H3o5wLo1Y2KI6VEiZ8yDh1rIKz8Clh16sancIgQ&oe=6AAEB808"
+     ]
     }
    },
    "fb_events": []
@@ -3281,8 +3483,8 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3715,10 +3917,10 @@
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-13",
-   "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 1,
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
+   "last_error": null,
+   "consecutive_failures": 0,
    "posts": {
     "1690057176402534": {
      "id": "1690057176402534",
@@ -3871,6 +4073,30 @@
      "events": [],
      "notes": "The image is a movie poster for 'fjord', stating 'AU CINÉMA LE 19 AOÛT', which indicates a cinema release, not an event at Les Variétés. The venue does not appear to be hosting this event.",
      "image_urls": []
+    },
+    "1065754896160673": {
+     "id": "1065754896160673",
+     "url": "https://www.facebook.com/events/1065754896160673/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post contains only an image with no caption. The image appears to be a flyer for a children's film event ('CINEKIDS') titled 'UNE ENFANT', but it does not specify the venue as Les Variétés or provide any date or time information. There is no indication that this event is taking place at Les Variétés. Therefore, no upcoming events at the venue can be confirmed from this post.",
+     "image_urls": [
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/810319716_1703505178391067_2334912639291089625_n.jpg?stp=c455.0.1070.1070a_dst-jpg_tt6&cstp=mx1070x1070&ctp=s565x565&_nc_cat=109&ccb=1-7&_nc_sid=1abd25&_nc_ohc=L6pRx9Ii8dUQ7kNvwEL0A9-&_nc_oc=AdpU7aiKutU4h709Y5XTYMZ4OpohkY4zIHY2FpWRS12vdOvqLPWAHz0uR-wHJnNcD4ZBLj4GNnLrQQeeDpQC-64c&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=Ruiimkf2arlyV5sRGCK-Hw&_nc_ss=73289&oh=00_AQKq1tWUZjrVjvi90RTj0-xI3UdimFmNdLJTscj3ov1QIA&oe=6AAE96A9"
+     ]
+    },
+    "1703267475081504": {
+     "id": "1703267475081504",
+     "url": "https://www.facebook.com/lesvarietesmarseille/posts/1812600703527167:1812600703527167",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The image is a movie poster for 'Histoires de la Nuit' with release date 'AU CINÉMA LE 16 SEPTEMBRE'. This is a cinema release announcement, not an event at Les Variétés (Marseille). The venue does not appear to be hosting this film or any other event in the post. No events are announced at the venue.",
+     "image_urls": [
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/809287717_1703267478414837_7914966305847805860_n.jpg?stp=dst-jpg_tt6&cstp=mx2364x875&ctp=p180x540&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ytXrYhzthQUQ7kNvwHdAtGE&_nc_oc=AdpGxhXJNslNPQaLHA0hTrTIo6PDhfY4-UNZ3IJONzVXih8ECuJubV16JVO3W9dzQS7G6SWr-wuuaL3zSDpxKdEX&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=Ruiimkf2arlyV5sRGCK-Hw&_nc_ss=73289&oh=00_AQKNfE73qLT6w1QxNcM8IKO11JkT0ENRAdUvidVoGl210g&oe=6AAE9BB4"
+     ]
     }
    },
    "fb_events": []
@@ -3921,8 +4147,8 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -4291,6 +4517,62 @@
       "https://instagram.fcgh11-1.fna.fbcdn.net/v/t39.30808-6/807799050_1677620221035758_2868392435102913891_n.jpg?stp=c0.0.1229.1535a_dst-jpg_e35_s1229x1535_tt6&_nc_cat=105&ig_cache_key=Mzk4NTQ3ODIyMzE1MjQwODAxNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIyOS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DnbnLD0XH7IQ7kNvwGrmKS8&_nc_oc=AdoI0BcWTs646qljLE4KdnN3EB1POL19CROJvzlZl_gAyYQrqudDiaoc7xKEQjtGPog&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgh11-1.fna&_nc_gid=vjLFlS_dHMiA_DXsbitLuw&_nc_ss=7a22e&oh=00_AQIzOF9z8CTOXg2e9V_DmuZoKud7Kd48cjT5pt2h9rTCYA&oe=6AAD5BAF",
       "https://instagram.fcgh37-1.fna.fbcdn.net/v/t39.30808-6/807487955_1677620261035754_3810621085111110637_n.jpg?stp=c0.0.1536.1919a_dst-jpg_e35_s1536x1919_tt6&_nc_cat=104&ig_cache_key=Mzk4NTQ3ODIyMjI1NDc5NTU1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9V79jS2PVRsQ7kNvwEASlU1&_nc_oc=Adp4x1p9Ka6qqiYPY_BfRcatToHAjy2wNco4vccd9N2o5QRJnnHzjJ6fRYm6Hvis5pU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgh37-1.fna&_nc_gid=vjLFlS_dHMiA_DXsbitLuw&_nc_ss=7a22e&oh=00_AQIBWF8-7HZDdjNTetpealML4Idy5g3dwpPQJxmGjtek-w&oe=6AAD632B"
      ]
+    },
+    "3985991374595787724": {
+     "id": "3985991374595787724",
+     "url": "https://www.instagram.com/p/DdRFglYjYvM/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Fini de rire ! L’humour politique au garde-à-vous ?",
+       "start_date": "2026-09-18",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Le Gyptis Cinéma",
+       "url": null,
+       "price": null,
+       "summary": "Avant-première du documentaire de Jean-Baptiste Rivoire suivi d'un débat sur l'humour politique.",
+       "status": "scheduled",
+       "evidence": [
+        "CINÉ-DÉBAT",
+        "FINI DE RIRE ! L’HUMOUR POLITIQUE AU GARDE À VOUS",
+        "VEN. 18 | 19H"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The post is a forward-looking weekly programme for Le Gyptis (\"PROGRAMME DE LA SEMAINE 16 → 20 SEPTEMBRE 2026\") announcing \"Vendredi 18 septembre à 19h : Fini de rire ! L'humour politique au garde-à-vous ? ... Avant-première du documentaire suivie d'un débat\", matching the flyer \"VEN. 18 | 19H\"; 18 September 2026 is indeed a Friday and falls after the 14 September publication date, and no cancellation, postponement or sell-out is mentioned."
+      },
+      {
+       "title": "Marie Madeleine",
+       "start_date": "2026-09-19",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Le Gyptis Cinéma",
+       "url": null,
+       "price": null,
+       "summary": "Avant-première du film de Géssica Généus dans le cadre du Retour de Cannes 2026, suivie d'une rencontre avec Simon Gaillot.",
+       "status": "scheduled",
+       "evidence": [
+        "RETOUR CANNES 2026 AVANT-PREMIÈRE",
+        "MARIE MADELEINE",
+        "SAM. 19 | 20H"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption announces \"📌 Samedi 19 septembre à 20h : Marie Madeleine de Géssica Généus. Avant-première du film dans le cadre du Retour de Cannes 2026\", matching the flyer \"MARIE MADELEINE / SAM. 19 | 20H\" within the dated programme \"16 → 20 SEPTEMBRE 2026\"; the venue is confirmed by \"CETTE SEMAINE AU GYPTIS\" and \"LE GYPTIS CINÉMA\", the event is future (published 2026-09-14, i.e. on or after), 2026-09-19 is indeed a samedi, and tickets are still on sale (\"Réservez vos places maintenant\")."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.frec43-1.fna.fbcdn.net/v/t39.30808-6/801200311_1674605631337217_419332217234426226_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk4NTk5MTM1NDc1Njc0NzA4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Rob8XKzQqDAQ7kNvwHqJgvt&_nc_oc=Adr94x299C013htjQjPjZOiC_dSjRQE0BL_l-wj5tK947qdYQyr9l2DOi9VwNGlZulA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frec43-1.fna&_nc_gid=DZ8x8X3E9IajEu9AG1jQUQ&_nc_ss=7a22e&oh=00_AQIf--pL-iyBa83PLpnELCmyoO145Ha07_UrV1VNL0p1Gg&oe=6AAEA04D",
+      "https://instagram.frec43-1.fna.fbcdn.net/v/t39.30808-6/801869934_1674605688003878_8054945114847833107_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk4NTk5MTM1NDg0MDU5ODM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vmlMCWkCgPcQ7kNvwEK7HnH&_nc_oc=AdpFD9OVYPWO0OIxA9HkAcumyLakvZC4iJSNTgVX0B7VUt9Z8DFnKlkjA6eV8Cf5Fh0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frec43-1.fna&_nc_gid=DZ8x8X3E9IajEu9AG1jQUQ&_nc_ss=7a22e&oh=00_AQJRPkpn74kUfLakjwVuY0RTXnvCBTsd5yOVSd10hegFYQ&oe=6AAE9EF3",
+      "https://instagram.frec43-1.fna.fbcdn.net/v/t39.30808-6/801883124_1674605644670549_1908443037405172669_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk4NTk5MTM1NTU3ODgzNTM4OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=1WIKp67-eg4Q7kNvwGr273n&_nc_oc=AdqKQl5xLBHeDz-Tf0Znf6TaqNHXHFEQXTnP34x9r6JmqekLynUM462xd4sVFsajqWA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frec43-1.fna&_nc_gid=DZ8x8X3E9IajEu9AG1jQUQ&_nc_ss=7a22e&oh=00_AQJ9O3jM4s8j8w96KjxaAUyA1l8K0rzQgAUzigVN-toGMg&oe=6AAE920A",
+      "https://instagram.frec43-1.fna.fbcdn.net/v/t39.30808-6/800642776_1674605744670539_1029483931210116616_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk4NTk5MTM1NTgwNTMyNjEyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=_mhdcEGxlLMQ7kNvwHOXen9&_nc_oc=Adp9mq0tabNmwY8BicGA6xZMONprJKjcu5vYkIJ8Rdf0Ww-ud_fK3ZRTW9uP-T_3gog&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frec43-1.fna&_nc_gid=DZ8x8X3E9IajEu9AG1jQUQ&_nc_ss=7a22e&oh=00_AQI7dc6UTcIWvT6ubRVuADYuRmS20n2uXv1ERluWKRUJnQ&oe=6AAE973E"
+     ]
     }
    },
    "fb_events": []
@@ -4299,8 +4581,8 @@
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -4808,6 +5090,62 @@
       "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/807844595_1078547648470491_8979075215179958141_n.png?stp=dst-jpg_tt6&cstp=mx1229x1536&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GAuaN3580p0Q7kNvwHXuD5S&_nc_oc=AdqYVHvK__NrODyL3WuIRXVjNEZ6xMxpje_NOCVCC95DUYS5WjXecNJPLrl09xJ2NfxItNN8r7_0w7XO2baqMLYq&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=Y6Oz2hmUDKqXENtO3H_l_g&_nc_ss=73289&oh=00_AQLSp6sqW1rLw_9XnK5ePzFb2M015NSOyW_np2dKEjM-BA&oe=6AAD68C4",
       "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/808855727_1565940197873757_3950449977413624955_n.png?stp=dst-jpg_tt6&cstp=mx1536x1920&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5xQO4fUtEdkQ7kNvwGlP8Lk&_nc_oc=AdpKQv5b7rBTvRXu3347cI0hG8Dl6fi88IdL6eT66WHGymCoIEeWPHx7k4PkY94gFqiUUIruMeGwLAxcBJP0TpNY&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=Y6Oz2hmUDKqXENtO3H_l_g&_nc_ss=73289&oh=00_AQIKahRLiVbVy4Lz5ONcoDyvJyL3pRyxzVssyqcWpYSTww&oe=6AAD46FC"
      ]
+    },
+    "1679721957492251": {
+     "id": "1679721957492251",
+     "url": "https://www.facebook.com/cinemalegyptis/posts/pfbid0cPZs7uyLFarojDreY4b2cTFZmEUSe7ExM7w1amfD4N4DbYB5qm95SEeBK1ENeBV3l",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Fini de rire ! L’humour politique au garde-à-vous ?",
+       "start_date": "2026-09-18",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Le Gyptis Cinéma",
+       "url": "https://cinemalegyptis.org/",
+       "price": null,
+       "summary": "Avant-première du documentaire de Jean-Baptiste Rivoire suivie d'un débat sur l'humour politique.",
+       "status": "scheduled",
+       "evidence": [
+        "CINÉ-DÉBAT",
+        "FINI DE RIRE! L'HUMOUR POLITIQUE AU GARDE A VOUS",
+        "VEN.18|19H"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption announces \"📌 Vendredi 18 septembre à 19h : Fini de rire ! ... Avant-première du documentaire suivie d'un débat\" and the flyer repeats \"VEN.18 | 19H\"; 2026-09-18 is indeed a vendredi, after the 2026-09-14 publication, at Le Gyptis Cinéma, with no cancellation notice."
+      },
+      {
+       "title": "Marie Madeleine",
+       "start_date": "2026-09-19",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Le Gyptis Cinéma",
+       "url": "https://cinemalegyptis.org/",
+       "price": null,
+       "summary": "Avant-première du film de Géssica Généus dans le cadre du Retour de Cannes 2026, suivie d'une rencontre avec Simon Gaillot.",
+       "status": "scheduled",
+       "evidence": [
+        "RETOUR CANNES 2026 AVANT-PREMIÈRE",
+        "MARIE MADELEINE",
+        "SAM. 19 | 20H"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption explicitly announces \"Samedi 19 septembre à 20h : Marie Madeleine de Géssica Généus. Avant-première du film dans le cadre du Retour de Cannes 2026\", matching the flyer \"SAM. 19 | 20H\" and the venue Le Gyptis Cinéma; 19 September 2026 is indeed a Saturday, after the 14 September publication date, and no cancellation is mentioned."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-bos5-1.xx.fbcdn.net/v/t39.99422-6/809656908_4030707203889838_4404735113496728643_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7WbQZRCtf7MQ7kNvwGECq2K&_nc_oc=AdroxqEFs3z5hnbl0lyWsLXKpmVwYZvEld-RMJoR1LgkX6zps7jh1B9K9QSL-ihAHSg&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=JDxRTouW0Jtw6ppkjOPVkw&_nc_ss=73289&oh=00_AQJtVrWdndwYBmxWMEsBvjNzLrkFLlTVdjUs1unQ1A3oKQ&oe=6AAEC742",
+      "https://scontent-bos5-1.xx.fbcdn.net/v/t39.99422-6/807868850_2131985407715822_2160730658599426320_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Yz61aV3jFOgQ7kNvwGEcExg&_nc_oc=AdpYtdPgCDn9xEna-eS9jV2KEKtblPL5e-K4kPCDRmqfYvEP1x4faw-jZVQZxueszps&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=JDxRTouW0Jtw6ppkjOPVkw&_nc_ss=73289&oh=00_AQL4ak29ociVMZl_R4vxlo0onuLLHs7pM6f0Vai8FFUlHw&oe=6AAEB883",
+      "https://scontent-bos5-1.xx.fbcdn.net/v/t39.99422-6/809633246_1798562307963978_4137305356138358275_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_Nmvm5O_gnQQ7kNvwHxCcdw&_nc_oc=Adqb3HMKlvHyywV9zVwymtPW_c5TEHx6qv0ZUrXgJSWed6HXNlFxOV_v3XJZzZIsolg&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=JDxRTouW0Jtw6ppkjOPVkw&_nc_ss=73289&oh=00_AQL22Kn0c_5YVCMihG6ukYRD1jAZTCkmLiUZbU4gVs1Fdw&oe=6AAE9454",
+      "https://scontent-bos5-1.xx.fbcdn.net/v/t39.99422-6/808855736_1071492325869460_5220929880492728805_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wwevKSQBuqUQ7kNvwExMEDo&_nc_oc=AdpFkzy22dakwDG6VWMF9YEnlz9yTH03433XOdGRYPRu_FVHH2p2_0tdOCDdE771eBQ&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=JDxRTouW0Jtw6ppkjOPVkw&_nc_ss=73289&oh=00_AQKnuslbvf6Ge-Htrynd60FYHcPynKlJJLZXsqVpvuO_Aw&oe=6AAEA7A8"
+     ]
     }
    },
    "fb_events": []
@@ -4903,10 +5241,10 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-09-14",
+   "last_fetched": "2026-09-15",
    "last_ok": "2026-09-13",
    "last_error": "apify~instagram-api-scraper: no_items",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "posts": {
     "3968562240534019368": {
      "id": "3968562240534019368",
@@ -4925,10 +5263,10 @@
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-09-14",
+   "last_fetched": "2026-09-15",
    "last_ok": "2026-09-13",
    "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "posts": {
     "1855733538723567": {
      "id": "1855733538723567",
@@ -6063,8 +6401,8 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-09-14",
-   "last_ok": "2026-09-14",
+   "last_fetched": "2026-09-15",
+   "last_ok": "2026-09-15",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -6398,6 +6736,92 @@
      "image_urls": [
       "https://scontent-syd2-1.cdninstagram.com/v/t51.82787-15/792506601_17930111463393865_3335987638094211335_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk3NzQ3NDc4OTQwNzk2MDUyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=UoLkl3RXPDcQ7kNvwEZ1G6J&_nc_oc=AdpIL3vMZJpxppxXrf2KlNlcuSONXZT9eCOumRWppqM0SN2xZdpkqWyo6lgXTGHP_D0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-syd2-1.cdninstagram.com&_nc_gid=RuuftRol3AU0ClKoRCwTBw&_nc_ss=7a22e&oh=00_AQLCPkOetW5CP6wgy6RF36CUBedIHF2MomvB2xzNgEghbA&oe=6AAC67C7"
      ]
+    },
+    "3985843320004483477": {
+     "id": "3985843320004483477",
+     "url": "https://www.instagram.com/p/DdQj2GzOxmV/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Salsa Con-versada",
+       "start_date": "2026-09-26",
+       "start_time": "19:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "La Colorada",
+       "url": null,
+       "price": "PAF 2€",
+       "summary": "Soirée dansante 'Salsa Con-versada' animée par Karelia de Cuba, avec une discussion sur Arsenio Rodríguez et un hommage à travers la danse et l'écoute.",
+       "status": "scheduled",
+       "evidence": [
+        "Samedi 26 SEPT 19h30",
+        "SALSA con-versada",
+        "Karelia de Cuba nous fera l'honneur d'animer la colorada avec sa connaissance et son charisme ! Cette fois on a la reine des excuses, ou plutôt le roi : on abordera le sujet du grand Arsenio Rodriguez et de sa marque initiatique, indélébile sur ce qu'on aurait d'appeler, plus tard, Salsa."
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption and flyer both announce \"✨Samedi 26 à La Colorada ✨\" with \"A partir de 19h30\" / \"Samedi 26 SEPT 19h30\" at \"76 rue Consolat, 13001 Marseille\", matching the extracted date, time and venue; 26 September 2026 is indeed a samedi, the event follows the 14 September publication date, and it is an announced soirée dansante (PAF 2€), not a recap or cancellation."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/808397609_17931881874393865_7906193620933841943_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk4NTg0MzMyMDAwNDQ4MzQ3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=1pYL7NVzq4oQ7kNvwHCmpoC&_nc_oc=AdqrGDHT0Ostwg_PdpiHYObYSy3LDy1qhD-TtTINlVBJiZrTV5iFTROLfo3iNkpB4tc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=VYPa1B8xqLefxr9irJy1lw&_nc_ss=7a22e&oh=00_AQKoUq3seJVJY2CW8Ue5EqsYvOfv15E21tPN1pRK08V69Q&oe=6AAE93D3"
+     ]
+    },
+    "3985924005947923286": {
+     "id": "3985924005947923286",
+     "url": "https://www.instagram.com/p/DdQ2MPcOltW/",
+     "published": "2026-09-14",
+     "analyzed": "2026-09-15",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "CHANTS Afro cubanos",
+       "start_date": "2026-09-17",
+       "start_time": "17:45:00",
+       "end_date": "2026-12-31",
+       "end_time": "18:45:00",
+       "location_name": "La Colorada",
+       "url": null,
+       "price": null,
+       "summary": "Cours de chants afro-cubains à La Colorada, débutant le jeudi 17 septembre 2026 à 17h45, avec un horaire exceptionnel pour la rentrée.",
+       "status": "scheduled",
+       "evidence": [
+        "CHANTS Début le jeudi 17 sept",
+        "Ce jeudi 17 septembre : cours de 17h45 à 18h45",
+        "La Colorada — 76 rue Consolat, 13001"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The post is a forward-looking announcement (\"Début le jeudi 17 sept\", \"Début des cours : Jeudi 17 septembre 2026\") and the flyer confirms the extracted slot for that very date: \"Ce jeudi 17 septembre : cours de 17h45 à 18h45\", with the regular slot \"Dès le jeudi 24 septembre : cours de 19h00 à 20h00\" applying only from the following week. The venue matches exactly (\"La Colorada — 76 rue Consolat, 13001 Marseille\"), nothing is cancelled (\"Places limitées\" is not a sell-out), and 17 September 2026 is indeed a jeudi as written."
+      },
+      {
+       "title": "CHANTS Afro cubanos",
+       "start_date": "2026-09-24",
+       "start_time": "19:00:00",
+       "end_date": "2026-12-31",
+       "end_time": "20:00:00",
+       "location_name": "La Colorada",
+       "url": null,
+       "price": null,
+       "summary": "Cours hebdomadaire de chants afro-cubains à La Colorada, chaque jeudi à partir du 24 septembre 2026 de 19h à 20h.",
+       "status": "scheduled",
+       "evidence": [
+        "Dès le jeudi 24 septembre : cours de 19h00 à 20h00",
+        "Chaque Jeudi",
+        "La Colorada — 76 rue Consolat, 13001"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer states \"Dès le jeudi 24 septembre : cours de 19h00 à 20h00\" and \"Chaque Jeudi\", matching the extracted start date (a Thursday) and 19h–20h time; the caption's \"Début des cours : Jeudi 17 septembre 2026\" refers to the exceptional 17h45–18h45 rentrée session, not the regular slot. Venue \"La Colorada — 76 rue Consolat, 13001\" matches, and the post is an announcement, not a recap."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/808883537_17931897561393865_5882298513682521862_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk4NTkyNDAwNTk0NzkyMzI4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=p3e18ZRr9KAQ7kNvwFpmvnO&_nc_oc=AdoqkRMBnrnandFKb0CbMZxl-xDnCNmgiXuj0jOa8gcsFrMgjyfNnt9Mert-z4777TCHqbOhDPjPf-VI_vSxPQ27&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_gid=mcY4T637qhRolETO1aADWQ&_nc_ss=7a22e&oh=00_AQK0pXC0w7ktQnbfZGtCRK02x65jQyLML939hQKea4Skxw&oe=6AAEBAE7"
+     ]
     }
    },
    "fb_events": []
@@ -6406,10 +6830,10 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-09-14",
+   "last_fetched": "2026-09-15",
    "last_ok": null,
    "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "posts": {},
    "fb_events": []
   },

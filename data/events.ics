@@ -11,12 +11,10 @@ DTEND;VALUE=DATE:20260921
 UID:7cea19aa15d4@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/la-vie-climatique-histoires-sensib
- les-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-co
- ntemporain-mac-0
+ les-des-collections-privees-triennale-de-leur-temps-8
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
 URL:https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-
- collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contempora
- in-mac-0
+ collections-privees-triennale-de-leur-temps-8
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -207,41 +205,32 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marché paysan
-DTSTART;TZID=Europe/Paris:20260914T160000
-DTEND;TZID=Europe/Paris:20260914T200000
-UID:e38f91d87ba8@marseille-agenda
+SUMMARY:Le Mauvais Œil 87 : Thomas Perrodin
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260926
+UID:fbadc9ee1472@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
- ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
-  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+DESCRIPTION:Des imaginaires graphiques singuliers où se croisent expérim
+ entation\, artisanat et nouvelles formes de narration visuelle. Une propos
+ ition de Le Dernier Cri\nPrix : Entrée libre\nhttps://www.lafriche.org/ev
+ enements/le-mauvais-oeil-87-thomas-perrodin/
 LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/marche-paysan/
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-87-thomas-perrodin
+ /
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:"Cagnard"
-DTSTART;TZID=Europe/Paris:20260914T183000
-DTEND;TZID=Europe/Paris:20260914T203000
-UID:34d7b782e0d7@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.millebabords.org/spip.php?article42185
-LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
- le
-URL:https://www.millebabords.org/spip.php?article42185
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Retour de Cannes] MERCI D'ÊTRE VENU d'Alain Cavalier | En prése
- nce Clémence Arrivé\, critique
-DTSTART;TZID=Europe/Paris:20260914T200000
-DTEND;TZID=Europe/Paris:20260914T220000
-UID:e02d61f94fae@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ Avant-première spéciale Anniversaire de La Baleine ! ▉
-  En présence de la critique Clémence Arrivé. ▉ Dans le cadre du Retou
- r de Cannes du GNCR (Groupement National des Cinémas de Recherche). Le Re
- to\nhttps://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260930
+UID:52dd842257ea@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier libre de linogravure
@@ -602,6 +591,18 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/94448281_limm
  igration-libanaise-a-marseille
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CHANTS Afro cubanos
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20270101
+UID:3021823f58a6@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Cours de chants afro-cubains à La Colorada\, débutant le jeu
+ di 17 septembre 2026 à 17h45\, avec un horaire exceptionnel pour la rentr
+ ée.\nhttps://www.instagram.com/p/DdQ2MPcOltW/
+LOCATION:La Colorada - La Colorada
+URL:https://www.instagram.com/p/DdQ2MPcOltW/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rencontres partenaires : La pédagogie en folie!
 DTSTART;TZID=Europe/Paris:20260917T183000
 DTEND;TZID=Europe/Paris:20260917T203000
@@ -814,6 +815,20 @@ URL:https://www.helloasso.com/associations/accrorap/evenements/restitution
  -des-labos-smala/widget-vignette
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:La Smala de Marseille
+DTSTART;TZID=Europe/Paris:20260918T190000
+DTEND;TZID=Europe/Paris:20260918T210000
+UID:b75a2555ed72@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Initiée par la compagnie Accrorap\, la Smala de Marseille est
+  l’aboutissement de trois années de rencontres et d’ateliers chorégr
+ aphiques avec des artistes de la Méditerranée Une proposition de Accrora
+ p - Cie Kader Attou\nhttps://www.lafriche.org/evenements/la-smala-de-marse
+ ille/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/la-smala-de-marseille/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rien plus qu’un peu de moelle
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260921
@@ -893,10 +908,9 @@ DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
- isa-babari?museum=musee-dart-contemporain-mac-0
+ isa-babari
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
- dart-contemporain-mac-0
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Journées Européennes du Patrimoine
@@ -1127,6 +1141,17 @@ URL:https://www.helloasso.com/associations/accrorap/evenements/restitution
  -des-labos-smala/widget-vignette
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Marxisme et antispécisme
+DTSTART;TZID=Europe/Paris:20260919T183000
+DTEND;TZID=Europe/Paris:20260919T203000
+UID:53957fc85020@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42205
+LOCATION:Mille Bâbords - Mille Bâbords - 61 rue Consolat - 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42205
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LINO (ÄRSENIK)
 DTSTART;TZID=Europe/Paris:20260919T193000
 DTEND;TZID=Europe/Paris:20260919T213000
@@ -1181,8 +1206,8 @@ UID:9b9cedde0f0c@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:Avant-première dans le cadre du Retour de Cannes\, manifestat
  ion organisée par le GNCR · Suivie d’une rencontre avec le cinéaste e
- t programmateur Simon Gaillot\nhttps://cinemalegyptis.org/films/marie-made
- leine/
+ t programmateur Simon Gaillot · Séance en partenariat avec le festival 
+ Îliennes\nhttps://cinemalegyptis.org/films/marie-madeleine/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/marie-madeleine/
 END:VEVENT
@@ -1483,6 +1508,18 @@ LOCATION:Les Variétés - Les Variétés
 URL:https://www.instagram.com/p/DdJyq9SAV_t/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CHANTS Afro cubanos
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20270101
+UID:fcc7ab13e10a@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Cours hebdomadaire de chants afro-cubains à La Colorada\, cha
+ que jeudi à partir du 24 septembre 2026 de 19h à 20h.\nhttps://www.insta
+ gram.com/p/DdQ2MPcOltW/
+LOCATION:La Colorada - La Colorada
+URL:https://www.instagram.com/p/DdQ2MPcOltW/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:EMBERSIGHT + Vulher + While Oceans Burn
 DTSTART;TZID=Europe/Paris:20260924T200000
 DTEND;TZID=Europe/Paris:20260924T220000
@@ -1656,6 +1693,18 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260930
+UID:2417838ba949@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visite flash
 DTSTART;TZID=Europe/Paris:20260926T150000
 DTEND;TZID=Europe/Paris:20260926T160000
@@ -1702,15 +1751,17 @@ LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Salsa con-versada Soirée dansante
+SUMMARY:Salsa Con-versada
 DTSTART;TZID=Europe/Paris:20260926T193000
 DTEND;TZID=Europe/Paris:20260926T213000
-UID:7f2808693720@marseille-agenda
+UID:c3abebc9690a@marseille-agenda
 CATEGORIES:bars
-DESCRIPTION:Soirée dansante de salsa\, le samedi 26 septembre 2026 à 19h
- 30.\nhttps://www.instagram.com/p/DdFJjEKDhD1/
-LOCATION:La Colorada - La Colorada Marsella
-URL:https://www.instagram.com/p/DdFJjEKDhD1/
+DESCRIPTION:Soirée dansante 'Salsa Con-versada' animée par Karelia de Cu
+ ba\, avec une discussion sur Arsenio Rodríguez et un hommage à travers l
+ a danse et l'écoute.\nPrix : PAF 2€\nhttps://www.instagram.com/p/DdQj2G
+ zOxmV/
+LOCATION:La Colorada - La Colorada
+URL:https://www.instagram.com/p/DdQj2GzOxmV/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Roma Elastica
@@ -2914,6 +2965,20 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 22€\nhttps://lemolotov.com/events/eleine-guest/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/eleine-guest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:5ᵉ édition de la @biennalechroniques \, Biennale des Imaginaire
+ s Numériques
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+UID:845d31292fe0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:La 5ᵉ édition de la Biennale des Imaginaires Numériques\, 
+ thématique 'Résistances'\, présente installations\, performances et ré
+ alité virtuelle à la Friche à partir du 24 octobre 2026.\nhttps://www.i
+ nstagram.com/p/DdR1mMpAYGL/
+LOCATION:Friche la Belle de Mai - Friche
+URL:https://www.instagram.com/p/DdR1mMpAYGL/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'initiation à la traduction littéraire - le Grec

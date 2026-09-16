@@ -1,12 +1,12 @@
 {
- "run_date": "2026-09-15",
+ "run_date": "2026-09-16",
  "sources_total": 39,
  "sources_ok": 36,
  "sources_skipped_unchanged": 0,
- "events_published": 427,
- "events_new": 11,
+ "events_published": 421,
+ "events_new": 13,
  "events_rejected_grounding": 80,
- "events_rejected_verifier": 1,
+ "events_rejected_verifier": 4,
  "events_uncertain": 1,
  "alerts": [
   {
@@ -17,27 +17,45 @@
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier uncertain \"discussion sur la propriété d'usage à la ville et à la campagne et Buvette :)\" 2026-09-15: The flyer only reads \"LE COLLECTIF DU BEUGHOT\", \"discussion sur la propriété d'usage à la ville et à la campagne et Buvette :)\" and \"MANIFESTEN\" — no date or time appears anywhere in the post (caption is empty), so the extracted start_date 2026-09-15 is unverifiable from the post alone."
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "message": "verifier rejected 'Festival actoral' 2026-09-30: The excerpt lists multiple schedule times '19h / 19h30 / 21h30', contradicting the extracted end_time of 19:30:00 (19h30 is another performance slot, with shows continuing at 21h30)."
+  },
+  {
+   "level": "warning",
+   "venue_id": "mille-babords",
+   "source_url": "https://www.millebabords.org/spip.php?rubrique2",
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-09-21: \"Permanence de Mille Bâbords et de sa médiathèque\" denotes venue/library opening/drop-in hours rather than a distinct public event."
+  },
+  {
+   "level": "warning",
+   "venue_id": "mille-babords",
+   "source_url": "https://www.millebabords.org/spip.php?rubrique2",
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa Médiathèque' 2026-09-24: 'Permanence de Mille Bâbords et de sa Médiathèque' designates the regular opening/drop-in hours of the venue and its media library rather than a distinct public event."
+  },
+  {
+   "level": "warning",
+   "venue_id": "transit-librairie",
+   "source_url": "https://www.facebook.com/transit.librairie/",
+   "message": "facebook verifier uncertain \"Le paria et le colon\\nUne autre histoire de l'antisémitisme\" 2026-09-17: The post has \"(no caption)\" and the single attached image is only a book cover reading \"Le paria et le colon / Une autre histoire de l'antisémitisme\" — it shows no date, no time and no mention of Transit librairie, so the extracted start_date 2026-09-17 (a jeudi) and the venue appear nowhere in the post and cannot be verified or refuted."
   },
   {
    "level": "error",
    "venue_id": "la-fabulerie",
    "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram fetch failed 2x: apify~instagram-api-scraper: no_items"
+   "message": "instagram fetch failed 3x: apify~instagram-api-scraper: no_items"
   },
   {
    "level": "error",
    "venue_id": "la-fabulerie",
    "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook fetch failed 2x: apify~facebook-posts-scraper: no_items"
+   "message": "facebook fetch failed 3x: apify~facebook-posts-scraper: no_items"
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected '13000 Film Festival' 2026-09-19: The excerpt states the festival takes place 'du vendredi 18 septembre 2026 au samedi 19 septembre 2026', contradicting the extracted start date of 2026-09-19."
+   "message": "verifier rejected '13000 Film Festival' 2026-09-19: The festival runs 'du vendredi 18 septembre 2026 au samedi 19 septembre 2026', but the extracted start_date is 2026-09-19 instead of 2026-09-18."
   },
   {
    "level": "warning",
@@ -49,14 +67,14 @@
    "level": "error",
    "venue_id": "la-colorada",
    "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 3x: apify~facebook-posts-scraper: not_available"
+   "message": "facebook fetch failed 4x: apify~facebook-posts-scraper: not_available"
   }
  ],
- "llm_calls": 33,
- "posts_analyzed": 13,
+ "llm_calls": 41,
+ "posts_analyzed": 14,
  "apify_runs": 13,
- "images_published": 327,
+ "images_published": 324,
  "images_failed": 0,
- "credits_remaining_usd": 0.7211,
- "run_cost_usd": 0.046
+ "credits_remaining_usd": 0.6439,
+ "run_cost_usd": 0.0772
 }

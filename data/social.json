@@ -4,8 +4,8 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-09-19",
-   "last_ok": "2026-09-19",
+   "last_fetched": "2026-09-20",
+   "last_ok": "2026-09-20",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -129,8 +129,8 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-09-19",
-   "last_ok": "2026-09-19",
+   "last_fetched": "2026-09-20",
+   "last_ok": "2026-09-20",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1144,6 +1144,39 @@
       "https://scontent-nrt1-2.cdninstagram.com/v/t39.30808-6/800514621_1536383661850035_4123534659712396523_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk4Nzk4NDgyNzk5MTk4NTU2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=PFOUgqDpXFkQ7kNvwF0Gd5G&_nc_oc=Adovx8yttBxSuiBrUDb8vi6FtzzfVqSaGsbyvTD3bjkbmS-tjuKhSSk3j-E4eHJ4gs6d8gfxtPutGG5KT812uOSl&_nc_ad=z-m&_nc_cid=1698&_nc_zt=23&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_gid=pmCS0P25x0oWN9zHccgd5A&_nc_ss=7a22e&oh=00_AQLnJiW2dp1OyIGggM2SpRXmOyZQxJ8544pGrzWMQhPkkQ&oe=6AB3DEA0",
       "https://scontent-nrt1-2.cdninstagram.com/v/t39.30808-6/811711214_1536383658516702_4790616322197328367_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk4Nzk4NDgyNzk1ODQ5MjYyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=D2gXSDm7BygQ7kNvwEgDx2g&_nc_oc=Adq6mh_1aBdMvCVxK6BEUCD5ZpTeYnhQdRPbD_HDX7TFb0c93IkXEAdCH-Bv8dx9VEOUvolTIOojNGKnwInY2-D1&_nc_ad=z-m&_nc_cid=1698&_nc_zt=23&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_gid=pmCS0P25x0oWN9zHccgd5A&_nc_ss=7a22e&oh=00_AQI8-XNLlUG4R_8PRGjFws0bQwK_8KEIG83ggkGf81gslQ&oe=6AB3DF94"
      ]
+    },
+    "3989434206463524739": {
+     "id": "3989434206463524739",
+     "url": "https://www.instagram.com/p/DddUUYbDP-D/",
+     "published": "2026-09-19",
+     "analyzed": "2026-09-20",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "UTOPIA FESTIVAL",
+       "start_date": "2026-09-25",
+       "start_time": null,
+       "end_date": "2026-09-26",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Utopia Festival returns with four stages over two days, featuring electronic music and techno artists.",
+       "status": "scheduled",
+       "evidence": [
+        "UTOPIA FESTIVAL",
+        "4 scènes, 2 jours : @utopiafestival.fr , le festival des cultures électroniques revient pour une nouvelle édition, avec une programmation plus inclusive et exclusive avec des figures incontournables du mouvement techno.",
+        "📍Les 25 & 26 septembre"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption is a forward-looking announcement (\"le festival des cultures électroniques revient pour une nouvelle édition\") with explicit dates \"📍Les 25 & 26 septembre\", matching the extracted 2026-09-25/26; published 2026-09-19, so the dates fall after publication and no weekday or venue is contradicted (25 Sept 2026 = vendredi, 26 = samedi). No cancellation, no recap, and it is a concrete dated public festival."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fcvj2-1.fna.fbcdn.net/v/t39.30808-6/814754761_1537469898408078_3833804919704108046_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk4OTQzNDIwNjQ2MzUyNDczOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=BM7ZxyNSCA4Q7kNvwH_Fsny&_nc_oc=AdolnZwAJa20KV2ptiYLKr1INMI0cDojXcGGxLyzomP2NHWnDT24hAPWsgCqzQYjTz_v3BxLqB4ZPDY6YfFjnTqF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcvj2-1.fna&_nc_gid=C6Z8mF4UfBHEoPLJv6LnQg&_nc_ss=7a22e&oh=00_AQK27J7CENg4LdAwQIAMztIdB1pPJ2SppZAV-q27AoqgCg&oe=6AB5500C"
+     ]
     }
    },
    "fb_events": []
@@ -1152,8 +1185,8 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-09-19",
-   "last_ok": "2026-09-19",
+   "last_fetched": "2026-09-20",
+   "last_ok": "2026-09-20",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1985,6 +2018,39 @@
       "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/813872187_28819658887658505_2936398173570936097_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tdhUYKEjLU0Q7kNvwF9XL_8&_nc_oc=AdoeaorL7eMeF-0u7fnSJf7AoWYtaL6RU6S5FYTvJrKCPBil2M15Ifu4jtcanurYf4qEc6cogMX73LbklytRJbCx&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=5Jr131c3JY6YhmCodofxog&_nc_ss=73289&oh=00_AQLPPN1BVh1dPtNH9TOouokdYBOs--qe4Ko2FXiFv51ygQ&oe=6AB3EA7B",
       "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/813986975_1103011398938843_8142433968390329389_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=E8T-DY9L1X4Q7kNvwHkmmPY&_nc_oc=AdpCDCD1C02TUOewMVZ9QGDvNU5hGoFAwxclnuBgX9qniTGsaMouAqgPlCkd-O2VnqxNWJ9t1U6xEXP8vFLrWquh&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=5Jr131c3JY6YhmCodofxog&_nc_ss=73289&oh=00_AQIpKH_TMeUkEv-wP_YmW91vf30N5WjHLSaAievW-UAkrQ&oe=6AB3D9A8"
      ]
+    },
+    "1538959131592488": {
+     "id": "1538959131592488",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid0yzkprB2tAmXcxxMvQZtTMjevn7AdsjXBtmLCdarTkGdH8n8pCunciPXfTZpTzLW8l",
+     "published": "2026-09-19",
+     "analyzed": "2026-09-20",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "UTOPIA FESTIVAL",
+       "start_date": "2026-09-25",
+       "start_time": null,
+       "end_date": "2026-09-26",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Utopia Festival returns with four stages over two days, featuring electronic music and techno artists.",
+       "status": "scheduled",
+       "evidence": [
+        "UTOPIA FESTIVAL",
+        "4 scènes, 2 jours : @utopiafestival.fr , le festival des cultures électroniques revient pour une nouvelle édition, avec une programmation plus inclusive et exclusive avec des figures incontournables du mouvement techno.",
+        "📍Les 25 & 26 septembre"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The post is a forward-looking announcement (\"le festival des cultures électroniques revient pour une nouvelle édition\") with explicit dates \"📍Les 25 & 26 septembre\", posted 2026-09-19, so the year is 2026 and 25 September 2026 falls on a Friday, matching the extracted start_date; no venue, time or cancellation contradiction appears (the page is Friche la Belle de Mai, which hosts the festival)."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-mia3-3.xx.fbcdn.net/v/t39.99422-6/796468043_2300042907194954_6209559315670093865_n.png?stp=dst-jpg_tt6&cstp=mx1440x960&ctp=p180x540&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=BoVKyO-vJ0EQ7kNvwEw3nFg&_nc_oc=AdooZhOAkbjiZUNtB_sBdQJrxoAyVLsyCdIB5lRnB1KyT4gRdwR6vlsdTLdPu0lECmQ&_nc_zt=14&_nc_ht=scontent-mia3-3.xx&_nc_gid=p3cmRuF9IVT-EAmucSIppw&_nc_ss=73289&oh=00_AQKY-GLkt8qq5PafPwd3SUJUgSPoLx6nv6FXRYwubI0QTA&oe=6AB53B4A"
+     ]
     }
    },
    "fb_events": []
@@ -1993,8 +2059,8 @@
    "kind": "facebook-events",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/upcoming_hosted_events",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-20",
+   "last_ok": "2026-09-20",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
@@ -2004,8 +2070,8 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-09-19",
-   "last_ok": "2026-09-19",
+   "last_fetched": "2026-09-20",
+   "last_ok": "2026-09-20",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2210,6 +2276,37 @@
      "image_urls": [
       "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-6/815037691_1690995736369797_5443998811191387235_n.webp?stp=c102.0.517.517a_dst-png&cstp=mx517x517&ctp=s517x517&_nc_cat=109&ccb=1-7&_nc_sid=1abd25&_nc_ohc=dSXze0KUhPIQ7kNvwEjCD2x&_nc_oc=AdqHnOD7-hYcQ9brWeGQUwOwvx4YVNSEwDMPcbKRDk685qGecBddPKfhHlO69I8Tyux-arlMbYnS2Uf8QJ09Tq7X&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&_nc_gid=o9PqU1E7DxnxMtjKGQbUwA&_nc_ss=7d289&oh=00_AQIFPIS90oQOhzGnI3Cop68vJy7uGGg2__abVRb10Cmfow&oe=6AB3EEC8"
      ]
+    },
+    "1691985456270825": {
+     "id": "1691985456270825",
+     "url": "https://www.facebook.com/transit.librairie/posts/pfbid0v3k37BMVNp5EsZht3qKYigskrPhJ3ZfzG24SPCWwNqMA8aPdcQH6WTbf9pQMBMmxl",
+     "published": "2026-09-19",
+     "analyzed": "2026-09-20",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Présentation des livres « Le Paria et le colon » et «  Gaza au bord d’un temps incertain « avec Pierre Stambul",
+       "start_date": "2026-09-21",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Présentation de deux livres par Pierre Stambul : « Le Paria et le colon » et « Gaza au bord d’un temps incertain », organisée à Transit librairie.",
+       "status": "scheduled",
+       "evidence": [
+        "Présentation des livres « Le Paria et le colon » et «  Gaza au bord d’un temps incertain « avec Pierre Stambul"
+       ],
+       "from_image": false,
+       "verifier": "uncertain",
+       "verifier_reason": "The caption is only \"Présentation des livres « Le Paria et le colon » et « Gaza au bord d'un temps incertain « avec Pierre Stambul\" and the single image shows only book covers — no date, time or weekday appears anywhere, so the extracted start_date 2026-09-21 (a lundi) is unsupported and the date is genuinely ambiguous."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-phl2-1.xx.fbcdn.net/v/t51.82787-15/807284798_18181816015413308_5137399218651465333_n.jpg?stp=dst-jpg_tt6&cstp=mx320x427&ctp=s320x427&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ZeIFZjOHygcQ7kNvwH4hhIB&_nc_oc=Adrz83SqlE10tcpi3rL3qtLwGtVRA8tOyLAHo-mZeeeVnP7bIwCkxl7qoNqphZVuTyI&_nc_zt=23&_nc_ht=scontent-phl2-1.xx&_nc_gid=k9BPsiDU05IEmvBNAMLJ0A&_nc_ss=73289&oh=00_AQK2CrPFEcVlrGMiVqK5xKYYPPI_MnnUSPtDI9WbAv61Gw&oe=6AB5371C"
+     ]
     }
    },
    "fb_events": []
@@ -2218,41 +2315,26 @@
    "kind": "facebook-events",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/upcoming_hosted_events",
-   "last_fetched": "2026-09-13",
-   "last_ok": "2026-09-13",
+   "last_fetched": "2026-09-20",
+   "last_ok": "2026-09-20",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
    "fb_events": [
     {
-     "id": "1346466243960578",
-     "url": "https://www.facebook.com/events/1346466243960578/",
-     "name": "\"Le courage et la joie\" de Catherine Dorion, en conversation avec Corinne Morel Darleux",
-     "start": "2026-09-15T17:00:00Z",
-     "date_sentence": "Tuesday 15 September 2026 at 19:00 CEST",
-     "description": "Alors que des personnalités autoritaires se hissent partout au pouvoir et que les discours de haine se multiplient et nous nous y habituons. Car nous n’y pouvons rien, n’est-ce pas ? Pourquoi sommes-nous si désemparés ? Qu’est-ce que résister veut dire quand l’actualité nous dépasse, quand le pouvoir nous emporte dans son emballement ? Pour répondre à ces questions, Catherine Dorion propose une chronique intimiste de l’année 2025, année de la rupture. \n\nCatherine Dorion est une écrivaine et femme de théâtre québécoise, détentrice d’une maîtrise en Études de la guerre du King’s College de Londres. Elle est l’autrice de Les luttes fécondes (Atelier 10, 2017, Binge Audio, 2024) et de Les têtes brûlées (Lux, 2023).",
+     "id": "1657762249298456",
+     "url": "https://www.facebook.com/events/1657762249298456/",
+     "name": "Présentation de « Gaza au bord d’un temps incertain » et « Le Paria et le colon» avec Pierre Stambul",
+     "start": "2026-09-25T17:00:00Z",
+     "date_sentence": "Friday 25 September 2026 at 19:00 CEST",
+     "description": "« Gaza au bord d’un temps incertain » de Mutasem Eleiwa\nÀ rebours des récits ­médiatiques ­désincarnés et des mises en scène diplomatiques réduisant Gaza à une simple « crise humanitaire », ce livre donne à voir la réalité quotidienne d’un territoire soumis à la destruction, au blocus et à l’effacement programmé de ses habitants.\n\n« Le Paria et le colon. Une autre histoire de l’antisémitisme » de Pierre Stambul\n20 octobre 2015 : Benjamin Nétanyahou prend la parole devant le 37ème congrès sioniste mondial : à cette occasion, il a revisité l’histoire de la Shoah.On est stupéfait qu’un premier ministre israélien ait pu faire une telle déclaration totalement négationniste sans en subir de conséquence politique.",
      "location_name": "51 boulevard de la libération, 13001 Marseille, France",
      "cancelled": false,
      "is_past": false,
      "duration": null,
      "price": null,
      "ticket_url": null,
-     "image_url": "https://scontent.fsaw2-2.fna.fbcdn.net/v/t39.30808-6/801582301_1681845610618143_1351499925405910943_n.jpg?stp=dst-jpg_tt6&cstp=mx640x928&ctp=s640x928&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=q0LQC8JQbWwQ7kNvwEvKfdH&_nc_oc=Adp1CSJtaPTML56hYpGx37Mztmg3CDRfBItaIRcUZw8z_Sj3acyogNfesVN-Z-icHKk&_nc_zt=23&_nc_ht=scontent.fsaw2-2.fna&_nc_gid=eJ-7Avdgzzj7RYp4vq-iJg&_nc_ss=73289&oh=00_AQLOHiTMOHuuCSvzlb5xFdOpiqCl3Q3_S-Co6cpUsr32lw&oe=6AABBFE5"
-    },
-    {
-     "id": "1057324923598269",
-     "url": "https://www.facebook.com/events/1057324923598269/",
-     "name": "\"Sciences en résistance. Pour une recherche libre et émancipatrice\" avec Hendrik Davi",
-     "start": "2026-09-17T17:00:00Z",
-     "date_sentence": "Thursday, September 17, 2026 at 7:00 PM CEST",
-     "description": "Mettre la science au service de tous plutôt que de l’argent. Le savoir scientifique procure du pouvoir, mais il donne aussi aux plus démunis des moyens rationnels pour se battre contre les puissants.\n\nHendrik Davi, directeur de recherche et responsable CGT à l’INRAE, est député Écologiste et social de la Ve circonscription des Bouches-du-Rhône à Marseille. Docteur en écologie, il a travaillé sur la vulnérabilité et l’adaptation des forêts au changement climatique. Il a déjà publié Le capital, c’est nous. Manifeste pour une justice sociale et écologique en 2023 aux éditions Hors d’atteinte.",
-     "location_name": "51 boulevard de la libération, 13001 Marseille, France",
-     "cancelled": false,
-     "is_past": false,
-     "duration": null,
-     "price": null,
-     "ticket_url": null,
-     "image_url": "https://scontent.fruh4-2.fna.fbcdn.net/v/t39.30808-6/802858361_1682859967183374_8190945864156609965_n.jpg?stp=dst-jpg_tt6&cstp=mx600x1017&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=L4WHNzssdZUQ7kNvwEa808Y&_nc_oc=AdqmLhh2wazL-LBJma-3sYRAiMWzM4lW_UH6DaL8aniMAyHDH4TykhM0sptF1Zozn6o&_nc_zt=23&_nc_ht=scontent.fruh4-2.fna&_nc_gid=lMbjd3-m85Zdju91-M2kXg&_nc_ss=73289&oh=00_AQKnmSLzl8bXQKETGCe-V_Ym8YRxV58ZND2lBXXSrsB_5A&oe=6AABA987"
+     "image_url": "https://scontent.fsyd3-1.fna.fbcdn.net/v/t39.30808-6/811710998_1687815403354497_6945973685511235288_n.jpg?stp=dst-jpg_tt6&cstp=mx400x671&ctp=s400x671&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=UBL5cAgVMegQ7kNvwEk2Wm9&_nc_oc=AdorPBKwHPkMawW0dXnSLvOmKaCmNZGwGC7fFpsIVAnl5y9laySFDDfGl0EnncNDNyA&_nc_zt=23&_nc_ht=scontent.fsyd3-1.fna&_nc_gid=ceCbIHzv-1k2sCC0f0vujA&_nc_ss=73289&oh=00_AQKNmLOEtafdQTwJE0Ft8UNGrVNBsDtu_xYyugV3p-r9EQ&oe=6AB525E6"
     }
    ]
   },
@@ -2260,10 +2342,10 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 400: {\n  \"error\": {\n    \"type\": \"run-failed\",\n    \"message\": \"Actor run did not succeed (run ID: iehVS7plgDditNT2F, status: FAILED).\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3973821047807462375": {
      "id": "3973821047807462375",
@@ -2793,10 +2875,10 @@
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-16",
-   "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 2,
+   "last_error": "apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 3,
    "posts": {
     "27367697112904947": {
      "id": "27367697112904947",
@@ -2825,10 +2907,10 @@
    "kind": "facebook-events",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/upcoming_hosted_events",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-events-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {},
    "fb_events": []
   },
@@ -2836,10 +2918,10 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3982247112787746827": {
      "id": "3982247112787746827",
@@ -3515,10 +3597,10 @@
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "2282542679251048": {
      "id": "2282542679251048",
@@ -4317,10 +4399,10 @@
    "kind": "facebook-events",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/upcoming_hosted_events",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-events-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {},
    "fb_events": [
     {
@@ -4524,10 +4606,10 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3973790853206263299": {
      "id": "3973790853206263299",
@@ -5057,10 +5139,10 @@
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1690057176402534": {
      "id": "1690057176402534",
@@ -5355,10 +5437,10 @@
    "kind": "facebook-events",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/upcoming_hosted_events",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-events-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {},
    "fb_events": [
     {
@@ -5397,10 +5479,10 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3975995434979684771": {
      "id": "3975995434979684771",
@@ -5909,10 +5991,10 @@
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1677523864378727": {
      "id": "1677523864378727",
@@ -6638,10 +6720,10 @@
    "kind": "facebook-events",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/upcoming_hosted_events",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-events-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {},
    "fb_events": [
     {
@@ -6725,10 +6807,10 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3968562240534019368": {
      "id": "3968562240534019368",
@@ -6795,10 +6877,10 @@
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1855733538723567": {
      "id": "1855733538723567",
@@ -6898,10 +6980,10 @@
    "kind": "facebook-events",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/upcoming_hosted_events",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-events-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {},
    "fb_events": []
   },
@@ -8014,10 +8096,10 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-19",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3981145255053953289": {
      "id": "3981145255053953289",
@@ -8641,10 +8723,10 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-09-19",
+   "last_fetched": "2026-09-20",
    "last_ok": null,
-   "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 6,
+   "last_error": "apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 7,
    "posts": {},
    "fb_events": []
   },
@@ -8652,10 +8734,10 @@
    "kind": "facebook-events",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/upcoming_hosted_events",
-   "last_fetched": "2026-09-13",
+   "last_fetched": "2026-09-20",
    "last_ok": "2026-09-13",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-events-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {},
    "fb_events": []
   }

@@ -1,43 +1,25 @@
 {
- "run_date": "2026-09-19",
+ "run_date": "2026-09-20",
  "sources_total": 39,
  "sources_ok": 36,
  "sources_skipped_unchanged": 0,
- "events_published": 496,
- "events_new": 85,
- "events_rejected_grounding": 85,
- "events_rejected_verifier": 10,
- "events_uncertain": 3,
+ "events_published": 452,
+ "events_new": 10,
+ "events_rejected_grounding": 82,
+ "events_rejected_verifier": 4,
+ "events_uncertain": 1,
  "alerts": [
   {
    "level": "warning",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-09-26"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram verifier uncertain 'La Society' 2026-09-19: The flyer's date \"19 SEPT. 2026\" matches the caption's \"Demain\" (posted vendredi 18 Sept, and 19 Sept is indeed a samedi), and the venue \"GRANDES TABLES, FRICHE LA BELLE DE MAI, MARSEILLE\" matches, but the end time is genuinely ambiguous: the blurred, dark flyer appears to read \"20h → 01h30\" whereas the extractor claims \"20h → 08h30\", and this cannot be confirmed from the image."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram verifier rejected 'RÉSISTANCES « Une histoire de la Friche au cœur des luttes sociales »' 2026-09-19: The flyer shows \"10H30 | 14H\" together with \"DURÉE : 1H30\", i.e. two 1h30 visit slots (10h30 and 14h), not a continuous event running from 2026-09-19 10:30 until 2026-09-20 14:00 — the extracted end_date/end_time are a misreading of the second slot; the caption \"Les 19 & 20 septembre\" means the visits are repeated both days, not a single 2-day span."
+   "message": "no upcoming event on source at last check; next generation attempt 2026-09-26"
   },
   {
    "level": "warning",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.instagram.com/frichelabelledemai/",
    "message": "instagram post analysis error: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook verifier rejected 'VISITE FRICHE' 2026-09-19: The flyer shows two separate departure slots per day, \"10H|14H30 ... DURÉE : 1H30\" (mirrored by \"RÉSISTANCES 10H30|14H ... DURÉE : 1H30\"), i.e. a 10:00 tour and a 14:30 tour lasting 1h30 each; the extractor misread the second slot as an end time, producing a continuous event running from 19/09 10:00 to 20/09 14:30 (~28h), which contradicts \"DURÉE : 1H30\"."
   },
   {
    "level": "error",
@@ -49,103 +31,37 @@
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-09-21: The entry 'Permanence de Mille Bâbords et de sa médiathèque' represents opening hours / drop-in hours for the venue and its media library rather than a discrete public event."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-09-21: \"Permanence de Mille Bâbords et de sa médiathèque\" designates the regular opening hours / desk duty of the venue and its media library rather than a public event."
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa Médiathèque' 2026-09-24: \"Permanence de Mille Bâbords et de sa Médiathèque\" represents the venue/media library's drop-in opening hours rather than a public event."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa Médiathèque' 2026-09-24: \"Permanence de Mille Bâbords et de sa Médiathèque\" designates the regular drop-in opening hours of the venue and its media library rather than a discrete public event."
   },
   {
    "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+   "venue_id": "transit-librairie",
+   "source_url": "https://www.facebook.com/transit.librairie/",
+   "message": "facebook verifier uncertain 'Présentation des livres «\\xa0Le Paria et le colon\\xa0» et «\\xa0 Gaza au bord d’un temps incertain «\\xa0avec Pierre Stambul' 2026-09-21: The caption is only \"Présentation des livres « Le Paria et le colon » et « Gaza au bord d'un temps incertain « avec Pierre Stambul\" and the single image shows only book covers — no date, time or weekday appears anywhere, so the extracted start_date 2026-09-21 (a lundi) is unsupported and the date is genuinely ambiguous."
   },
   {
    "level": "error",
    "venue_id": "l-intermediaire",
    "source_url": "https://www.facebook.com/Intermediaire.live/",
-   "message": "facebook fetch failed 2x: apify~facebook-posts-scraper: no_items"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram rejected 'ÉCRIRE LA VIE : ANNIE ERNAUX RACONTÉE PAR DES LYCÉENNES ET DES LYCÉENS de Claire Simon' 2026-09-24: evidence not found verbatim in caption: '[sortie nationale] 🌟 𝗘́𝗖𝗥𝗜𝗥𝗘 𝗟𝗔 𝗩𝗜𝗘 : 𝗔𝗡𝗡𝗜𝗘 𝗘𝗥𝗡𝗔𝗨𝗫 𝗥𝗔𝗖𝗢𝗡𝗧É𝗘 𝗣𝗔𝗥 𝗗𝗘𝗦 𝗟𝗬𝗖𝗘́𝗘𝗡𝗡𝗘𝗦 𝗘'"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram rejected 'ÉCRIRE LA VIE : ANNIE ERNAUX RACONTÉE PAR DES LYCÉENNES ET DES LYCÉENS de Claire Simon' 2026-09-25: evidence not found verbatim in caption: '[sortie nationale] 🌟 𝗘́𝗖𝗥𝗜𝗥𝗘 𝗟𝗔 𝗩𝗜𝗘 : 𝗔𝗡𝗡𝗜𝗘 𝗘𝗥𝗡𝗔𝗨𝗫 𝗥𝗔𝗖𝗢𝗡𝗧É𝗘 𝗣𝗔𝗥 𝗗𝗘𝗦 𝗟𝗬𝗖𝗘́𝗘𝗡𝗡𝗘𝗦 𝗘'"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram rejected 'ÉCRIRE LA VIE : ANNIE ERNAUX RACONTÉE PAR DES LYCÉENNES ET DES LYCÉENS de Claire Simon' 2026-09-27: evidence not found verbatim in caption: '[sortie nationale] 🌟 𝗘́𝗖𝗥𝗜𝗥𝗘 𝗟𝗔 𝗩𝗜𝗘 : 𝗔𝗡𝗡𝗜𝗘 𝗘𝗥𝗡𝗔𝗨𝗫 𝗥𝗔𝗖𝗢𝗡𝗧É𝗘 𝗣𝗔𝗥 𝗗𝗘𝗦 𝗟𝗬𝗖𝗘́𝗘𝗡𝗡𝗘𝗦 𝗘'"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram rejected 'ÉCRIRE LA VIE : ANNIE ERNAUX RACONTÉE PAR DES LYCÉENNES ET DES LYCÉENS de Claire Simon' 2026-09-28: evidence not found verbatim in caption: '[sortie nationale] 🌟 𝗘́𝗖𝗥𝗜𝗥𝗘 𝗟𝗔 𝗩𝗜𝗘 : 𝗔𝗡𝗡𝗜𝗘 𝗘𝗥𝗡𝗔𝗨𝗫 𝗥𝗔𝗖𝗢𝗡𝗧É𝗘 𝗣𝗔𝗥 𝗗𝗘𝗦 𝗟𝗬𝗖𝗘́𝗘𝗡𝗡𝗘𝗦 𝗘'"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram rejected 'ÉCRIRE LA VIE : ANNIE ERNAUX RACONTÉE PAR DES LYCÉENNES ET DES LYCÉENS de Claire Simon' 2026-09-29: evidence not found verbatim in caption: '[sortie nationale] 🌟 𝗘́𝗖𝗥𝗜𝗥𝗘 𝗟𝗔 𝗩𝗜𝗘 : 𝗔𝗡𝗡𝗜𝗘 𝗘𝗥𝗡𝗔𝗨𝗫 𝗥𝗔𝗖𝗢𝗡𝗧É𝗘 𝗣𝗔𝗥 𝗗𝗘𝗦 𝗟𝗬𝗖𝗘́𝗘𝗡𝗡𝗘𝗦 𝗘'"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram verifier uncertain 'ROMA ELASTICA' 2026-09-19: The caption only announces \"🎬 AVANT-PREMIÈRE / ROMA ELASTICA De Bertrand Mandico\" with no date, time or venue, and the attached image is an unreadable abstract explosion (only the word \"ROMA\" partly visible), so the extracted 2026-09-19 / 19:00 at Le Gyptis cannot be confirmed from the post."
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook verifier uncertain 'ROMA ELASTICA' 2026-09-19: The caption only announces \"🎬 AVANT-PREMIÈRE ROMA ELASTICA De Bertrand Mandico\" with no date, time or venue (\"Le Gyptis\" appears nowhere in the post), and the single attached image is an illegible blurry title card, so the extracted start_date 2026-09-19 cannot be confirmed or contradicted."
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook verifier rejected 'D-R-Y' 2026-09-20: The extraction's own summary says the screening is \"prévue le samedi 20 septembre\", but the extracted start_date 2026-09-20 is a dimanche; a samedi 20 septembre would fall in 2025, before the post's publication date (2026-09-18). The written weekday therefore contradicts the extracted date, and the cropped flyer (\"D-R-Y / RE À 20H30 / ...TRE / avec le réalisateur Johan Grimonprez\") shows no date to confirm it."
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram verifier rejected 'Le Popup Fabulerie' 2026-09-19: The caption is a behind-the-scenes preparation post — \"Préparation du popup Fabulerie ! Vernissage et inscriptions visites ici\" — with no date, time or weekday written anywhere in the caption or on the visible flyer; the flyer only reads \"La Fabulerie vous invite à découvrir différents modules d'exposition\". Nothing in the post supports the extracted start_date of 2026-09-19, so this is not a dated public event announcement."
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook verifier rejected 'LA Pop-up FABULERIE' 2026-09-21: The event is announced at a different venue than the one assigned: the caption and flyer state \"On vous donne rendez-vous au tiers-lieu éducatif Les Temps de l'Enfant au 31 bd d'Athènes, 13001 Marseille\" (flyer: \"Au tiers-lieu éducatif Les Temps de l'Enfant 31, bd d'Athènes 13001\"), not La Fabulerie — the Fabulerie only organises/shares it. Dates (21/09/26 → 03/12/26) match the post, so only the venue is wrong."
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook verifier rejected 'LA-Popu FABU LERIE' 2026-09-19: The post is a behind-the-scenes/preparation teaser (\"Préparation du popup Fabulerie ! Vernissage et inscriptions visites ici : https://lafabulerie.com/projet/le-popup-fabulerie/\") and neither the caption nor the readable text on the wall graphic states any date — the extracted 2026-09-19 (today) appears nowhere in the post, so this is not a verifiable dated public-event announcement."
+   "message": "facebook fetch failed 3x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Les Yeux Ouverts |\\xa03e Rencontres Documentaires à Marseille' 2026-10-10: The event starts on Friday 9 October, not Saturday 10 October: excerpt states 'du vendredi 9 octobre 2026 au samedi 10 octobre 2026'."
+   "message": "verifier rejected 'Les Yeux Ouverts |\\xa03e Rencontres Documentaires à Marseille' 2026-10-10: The extracted start_date '2026-10-10' contradicts the excerpt, which states the event runs 'du vendredi 9 octobre 2026 au samedi 10 octobre 2026'."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date is 2027-01-20, which is actually the end date of the cycle; the excerpt states 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027'."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The start date is incorrect: the excerpt states \"du [...] mercredi 30 septembre 2026 au [...] mercredi 20 janvier 2027\", making 2027-01-20 the end date, not the start date."
   },
   {
    "level": "warning",
@@ -157,14 +73,14 @@
    "level": "error",
    "venue_id": "la-colorada",
    "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 6x: apify~facebook-posts-scraper: not_available"
+   "message": "facebook fetch failed 7x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   }
  ],
- "llm_calls": 95,
- "posts_analyzed": 27,
- "apify_runs": 15,
- "images_published": 399,
+ "llm_calls": 21,
+ "posts_analyzed": 4,
+ "apify_runs": 6,
+ "images_published": 382,
  "images_failed": 0,
- "credits_remaining_usd": 102.2044,
- "run_cost_usd": 0.1907
+ "credits_remaining_usd": 91.9074,
+ "run_cost_usd": 0.0506
 }

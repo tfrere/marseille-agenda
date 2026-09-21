@@ -4,21 +4,6 @@ PRODID:-//marseille-agenda//tfrere//FR
 X-WR-CALNAME:Marseille - agenda des lieux
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
-SUMMARY:La vie climatique. Histoires sensibles des collections privées - 
- Triennale De leur temps #8
-DTSTART;VALUE=DATE:20260404
-DTEND;VALUE=DATE:20260921
-UID:7cea19aa15d4@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/la-vie-climatique-histoires-sensib
- les-des-collections-privees-triennale-de-leur-temps-8?museum=musee-dart-co
- ntemporain-mac-0
-LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/la-vie-climatique-histoires-sensibles-des-
- collections-privees-triennale-de-leur-temps-8?museum=musee-dart-contempora
- in-mac-0
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20270104
@@ -117,92 +102,19 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.instagram.com/p/DdYc55gnChU/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le Mauvais Œil 87 : Thomas Perrodin
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260926
-UID:54f3ea984627@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Des imaginaires graphiques singuliers où se croisent expérim
- entation\, artisanat et nouvelles formes de narration visuelle. Une propos
- ition de Le Dernier Cri\nPrix : Entrée libre\nhttps://www.lafriche.org/ev
- enements/le-mauvais-oeil-87-thomas-perrodin/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-87-thomas-perrodin
- /
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20261002
-UID:bc5cdffea3b3@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Expo-pause
+SUMMARY:« Sur les ruines\, les pierres fleurissent »
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260928
-UID:0bd6a3ad8835@marseille-agenda
+UID:bd492a168e71@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Un espace aménagé au seuil de l’exposition pour s’asseoi
- r et s’installer confortablement\, faire une pause.\nPrix : Gratuit !\nh
- ttps://www.lafriche.org/evenements/expo-pause-4/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/expo-pause-4/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Jouer la montre
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260928
-UID:425eb841d706@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Mona Benyamin mobilise l'humour et l'ironie comme outils polit
- iques de résistance et de réflexion. Une proposition de Triangle-Astéri
- des et B7L9\nhttps://www.lafriche.org/evenements/exposition-personnelle-de
- -mona-benyamin/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/exposition-personnelle-de-mona-ben
- yamin/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les rêves n’ont pas de titre الأحلام لا تحمل عن
- اوين
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260928
-UID:5eae91d34f78@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une compilation de films choisis\, excavation d’archives oub
- liées ou retrouvées\, remakes d’images empruntées et témoins de l’
- effervescence des luttes se mêlent dans une grande traversée des imagina
- ires.\nhttps://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8
- %a7%d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9
- %84-%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8%a7
- %d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9%84
- -%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sur les ruines\, les pierres fleurissent تزهر حجارة ال
- أطلال
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260928
-UID:85d14dd6b3cc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une lecture renouvelée des territoires désertiques\, non com
- me des espaces figés\, mais comme un ensemble de constellations d’entit
- és animales\, végétales\, humaines et minérales dignes. Une propositio
- n de Fræme\, Kulte et Le Cirva\nhttps://www.lafriche.org/evenements/sur-l
- es-ruines-les-pierres-fleurissent/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
- sent/
+DESCRIPTION:Exposition monographique d'Abdessamad El Montassir\, présenta
+ nt le film 'Galb’Echaouf' et des œuvres explorant les liens entre ruine
+ s\, plantes et mémoire dans le Sahara.\nhttps://www.facebook.com/fraeme.p
+ roject/posts/pfbid02qMv8y3e5ZDEuxVyh49Auuu4VTc7ZfDJkbVvZB9GkWaKpAV2p32bkuR
+ yK5Xn2sFpbl
+LOCATION:Friche la Belle de Mai - Friche la Belle de Mai
+URL:https://www.facebook.com/fraeme.project/posts/pfbid02qMv8y3e5ZDEuxVyh4
+ 9Auuu4VTc7ZfDJkbVvZB9GkWaKpAV2p32bkuRyK5Xn2sFpbl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -217,32 +129,6 @@ LOCATION:La Colorada - La Colorada
 URL:https://www.instagram.com/p/DdQ2MPcOltW/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rien plus qu’un peu de moelle
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260921
-UID:dc690e76ccc8@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une farce impertinente pleine de malice et d’excès dans le 
- monde toujours aussi actuel de Rabelais. Une proposition de La Criée\, Th
- éâtre National à Marseille\nhttps://www.lafriche.org/evenements/rien-pl
- us-quun-peu-de-moelle/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/rien-plus-quun-peu-de-moelle/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LIEU D’HISTOIRE(S)
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260921
-UID:3304dd835961@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Visite commentée de la Friche la Belle de Mai pendant les Jou
- rnées du Patrimoine\, explorant son histoire industrielle et les luttes s
- ociales qui y ont eu lieu.\nPrix : Gratuit sur réservation\nhttps://www.i
- nstagram.com/p/DdE9lVzATfF/
-LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DdE9lVzATfF/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Voix Publiques - Louisa Babari
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270104
@@ -253,34 +139,6 @@ DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
 URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
  dart-contemporain-mac-0
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VISITE FRICHE
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260921
-UID:31f10a27e4aa@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Guided tour of Friche la Belle de Mai with mediation team and 
- residents\, free on reservation.\nPrix : GRATUIT SUR RÉSERVATION\nhttps:/
- /www.instagram.com/p/DdYKxbonN6e/
-LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DdYKxbonN6e/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:RÉSISTANCES « Une histoire de la Friche au cœur des luttes soci
- ales »
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260921
-UID:02d9de563c28@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Themed guided tour exploring the social struggles and industri
- al history of Friche la Belle de Mai\, presented in advance of the Biennal
- e des Imaginaires Numériques.\nPrix : GRATUIT SUR RÉSERVATION\nhttps://w
- ww.facebook.com/friche.labelledemai/posts/pfbid02YYLrNcbLRpN2egxjikzC6fnZt
- DkjjwkBdRZ1zuEJA99bx3e7PGBvTpGHDSvSqnpXl
-LOCATION:Friche la Belle de Mai
-URL:https://www.facebook.com/friche.labelledemai/posts/pfbid02YYLrNcbLRpN2
- egxjikzC6fnZtDkjjwkBdRZ1zuEJA99bx3e7PGBvTpGHDSvSqnpXl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -295,21 +153,6 @@ DESCRIPTION:Une exposition et une série de dialogues publics réunissant
  he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:EXPOSITIONS
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260921
-UID:2d9e2d421e4a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Free access to multiple exhibitions across different floors in
- cluding 'Unwordling'\, 'Sur les ruines\, les pierres fleurissent'\, 'Jouer
-  la montre'\, and others.\nPrix : ENTRÉE LIBRE\nhttps://www.facebook.com/
- friche.labelledemai/posts/pfbid02YYLrNcbLRpN2egxjikzC6fnZtDkjjwkBdRZ1zuEJA
- 99bx3e7PGBvTpGHDSvSqnpXl
-LOCATION:Friche la Belle de Mai
-URL:https://www.facebook.com/friche.labelledemai/posts/pfbid02YYLrNcbLRpN2
- egxjikzC6fnZtDkjjwkBdRZ1zuEJA99bx3e7PGBvTpGHDSvSqnpXl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Expo-pause
@@ -397,41 +240,6 @@ DESCRIPTION:Une lecture renouvelée des territoires désertiques\, non com
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
  sent/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unwordling | Salle des Machines
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260921
-UID:7fedb0b1b59a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Collective exhibition by The Racial Imaginary Institute in the
-  Salle des Machines\, open to the public from 2 PM to 7 PM.\nPrix : ENTRÉ
- E LIBRE\nhttps://www.instagram.com/p/DdYKxbonN6e/
-LOCATION:Friche la Belle de Mai - Salle des Machines
-URL:https://www.instagram.com/p/DdYKxbonN6e/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Journées du Patrimoine
-DTSTART;TZID=Europe/Paris:20260920T100000
-DTEND;TZID=Europe/Paris:20260920T103000
-UID:101cc439dba5@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Visite des coulisses\, des expos\, partez à la découverte de
-  la Friche ! Une proposition de la Friche la Belle de Mai\nPrix : Gratuit 
- !\nhttps://www.lafriche.org/evenements/journees-du-patrimoine-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/journees-du-patrimoine-7/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Journées européennes du patrimoine 2026
-DTSTART;TZID=Europe/Paris:20260920T100000
-DTEND;TZID=Europe/Paris:20260920T190000
-UID:08f0d22e6340@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/journees-europeenn
- es-du-patrimoine-2026/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -535,45 +343,6 @@ URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
  sent/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HAIR\, PAPER\, WATER... de Nicolas Graux & Minh Quý Trương
-DTSTART;TZID=Europe/Paris:20260920T170000
-DTEND;TZID=Europe/Paris:20260920T190000
-UID:8f8d7a98df5a@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film 'HAIR\, PAPER\, WATER...' de Nicolas Graux 
- & Minh Quý Trương\, sélectionné au Festival de Locarno 2025.\nhttps:/
- /www.facebook.com/labaleinemarseille/posts/pfbid0ohGKUjQCBUhKBJfVCFsERkt59
- YQhcnf4eY9RDM3tUN5rwhxMrH3rXd62sgeQS8Hel
-LOCATION:La Baleine
-URL:https://www.facebook.com/labaleinemarseille/posts/pfbid0ohGKUjQCBUhKBJ
- fVCFsERkt59YQhcnf4eY9RDM3tUN5rwhxMrH3rXd62sgeQS8Hel
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rendez-vous avec l'association Ahdarija | Le disqualifié de Hamz
- a Ouni
-DTSTART;TZID=Europe/Paris:20260920T180000
-DTEND;TZID=Europe/Paris:20260920T200000
-UID:2a85f3c528cb@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/rendez-vous-avec-lassociation-ahdar
- ija-le-disqualifie-de-hamza-ouni/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/rendez-vous-avec-lassociation-ahdarija-le-d
- isqualifie-de-hamza-ouni/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Teenage snuff film | Tarnation + courts-métrages
-DTSTART;TZID=Europe/Paris:20260920T203000
-DTEND;TZID=Europe/Paris:20260920T223000
-UID:278c935364b2@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/teenage-snuff-film-tarnation-courts
- -metrages/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/teenage-snuff-film-tarnation-courts-metrage
- s/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le Pop-up La Fabulerie au Tiers lieu des Temps de l’enfant chez 
  Canopé 13
 DTSTART;TZID=Europe/Paris:20260921T090000
@@ -597,6 +366,34 @@ DESCRIPTION:https://lafabulerie.com/agenda/lappart-du-futur-sinstalle-au-p
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/lappart-du-futur-sinstalle-au-pop-up-de
  -la-fabulerie/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Mauvais Œil 87 : Thomas Perrodin
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260926
+UID:fbb09d5d6130@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des imaginaires graphiques singuliers où se croisent expérim
+ entation\, artisanat et nouvelles formes de narration visuelle. Une propos
+ ition de Le Dernier Cri\nPrix : Entrée libre\nhttps://www.lafriche.org/ev
+ enements/le-mauvais-oeil-87-thomas-perrodin/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-87-thomas-perrodin
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20261006
+UID:697576b93bdd@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Marché paysan
@@ -660,6 +457,17 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/54229535_rand
  onnee-en-bibliotheque-avec-louise-bentkowski
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Permanence des Amoureux au ban public
+DTSTART;TZID=Europe/Paris:20260922T173000
+DTEND;TZID=Europe/Paris:20260922T193000
+UID:409f8d48a8ba@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42228
+LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42228
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Festival Splash ! 2026 | Regards croisés sur le désir
 DTSTART;TZID=Europe/Paris:20260922T203000
 DTEND;TZID=Europe/Paris:20260922T223000
@@ -707,6 +515,79 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/75152829_atel
  ier-photo-sensible-bibliotheque-du-futur-925316
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Expo-pause
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260928
+UID:9b009e08c1e0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un espace aménagé au seuil de l’exposition pour s’asseoi
+ r et s’installer confortablement\, faire une pause.\nPrix : Gratuit !\nh
+ ttps://www.lafriche.org/evenements/expo-pause-4/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/expo-pause-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glaneuses et glaneurs
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20261005
+UID:181edb2dbfdf@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
+ Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
+ é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
+ /www.lafriche.org/evenements/glaneuses-et-glaneurs/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jouer la montre
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260928
+UID:413faae08f3e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Mona Benyamin mobilise l'humour et l'ironie comme outils polit
+ iques de résistance et de réflexion. Une proposition de Triangle-Astéri
+ des et B7L9\nhttps://www.lafriche.org/evenements/exposition-personnelle-de
+ -mona-benyamin/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/exposition-personnelle-de-mona-ben
+ yamin/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les rêves n’ont pas de titre الأحلام لا تحمل عن
+ اوين
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260928
+UID:cf069e4f045f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une compilation de films choisis\, excavation d’archives oub
+ liées ou retrouvées\, remakes d’images empruntées et témoins de l’
+ effervescence des luttes se mêlent dans une grande traversée des imagina
+ ires.\nhttps://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8
+ %a7%d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9
+ %84-%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8%a7
+ %d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9%84
+ -%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sur les ruines\, les pierres fleurissent تزهر حجارة ال
+ أطلال
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260928
+UID:eca34a344b11@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une lecture renouvelée des territoires désertiques\, non com
+ me des espaces figés\, mais comme un ensemble de constellations d’entit
+ és animales\, végétales\, humaines et minérales dignes. Une propositio
+ n de Fræme\, Kulte et Le Cirva\nhttps://www.lafriche.org/evenements/sur-l
+ es-ruines-les-pierres-fleurissent/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
+ sent/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[petite baleine] LE CYGNE ET L'ENFANT de Miyoung Baek | suivi d'un
@@ -1058,7 +939,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
 DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
 UID:2417838ba949@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
@@ -1287,6 +1168,17 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/marche-paysan/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:"Cagnard"
+DTSTART;TZID=Europe/Paris:20260928T183000
+DTEND;TZID=Europe/Paris:20260928T203000
+UID:5ce71b9c8a1d@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42235
+LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42235
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:QUI VIT ENCORE
 DTSTART;TZID=Europe/Paris:20260928T194500
 DTEND;TZID=Europe/Paris:20260928T214500
@@ -1338,6 +1230,17 @@ DESCRIPTION:Soirée de performances gratuites organisée par les artistes
  agram.com/p/DdYc55gnChU/
 LOCATION:Friche la Belle de Mai
 URL:https://www.instagram.com/p/DdYc55gnChU/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Permanence des Amoureux au ban public
+DTSTART;TZID=Europe/Paris:20260929T173000
+DTEND;TZID=Europe/Paris:20260929T193000
+UID:9fb02db81c43@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42229
+LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42229
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Traversées Libanaises | Captive de l'attente
@@ -1828,6 +1731,19 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Labo des désirs
+DTSTART;TZID=Europe/Paris:20261005T100000
+DTEND;TZID=Europe/Paris:20261005T200000
+UID:c203d1c7e8fa@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Projet participatif et convivial de création et programmation
+  collective ouvert à tous·tes une semaine par mois. Une proposition de r
+ ésident·es et associations du quartier\nPrix : Entrée libre\nhttps://ww
+ w.lafriche.org/evenements/labo-des-desirs-3/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/labo-des-desirs-3/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:L'exposition Bouches-à-Oreilles s'invite à La Martinerie !
 DTSTART;TZID=Europe/Paris:20261005T110000
 DTEND;TZID=Europe/Paris:20261005T130000
@@ -1849,6 +1765,18 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-1-les-jardin
  s-mediterraneens/
 LOCATION:Mucem - Fort Saint-Jean
 URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20261005T160000
+DTEND;TZID=Europe/Paris:20261005T200000
+UID:ab577756b0e8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[actoral] Avant-première de LES RECOMMENCEMENTS d'I. Ingold & V. 
@@ -2824,17 +2752,6 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/13061020_lect
  ures-en-salle-6400715
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:COMPLET – LEO MIDDEA (Full Band) – Deuxième date
-DTSTART;TZID=Europe/Paris:20261021T190000
-DTEND;TZID=Europe/Paris:20261021T210000
-UID:8281e1e1cbeb@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 31€\nhttps://lemolotov.com/events/leo-middea-full-ban
- d-deuxieme-date/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/leo-middea-full-band-deuxieme-date/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:LEO MIDDEA (Full Band) – Deuxième date
 DTSTART;TZID=Europe/Paris:20261021T190000
 DTEND;TZID=Europe/Paris:20261021T210000
@@ -2903,17 +2820,6 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/69541168_film
  s-femmes-mediterranee-presentation-de-ledition-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:COMPLET – LEO MIDDEA (Full Band)
-DTSTART;TZID=Europe/Paris:20261022T190000
-DTEND;TZID=Europe/Paris:20261022T210000
-UID:ff384de9f15a@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 31€\nhttps://lemolotov.com/events/leo-middea-full-ban
- d/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/leo-middea-full-band/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LEO MIDDEA (Full Band)
@@ -3655,16 +3561,6 @@ LOCATION:Le Molotov - @ Le Dodu
 URL:https://lemolotov.com/events/ashen-guest/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ASHEN + Guest
-DTSTART;TZID=Europe/Paris:20261113T190000
-DTEND;TZID=Europe/Paris:20261113T210000
-UID:298e4fac022a@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/ashen-guest/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/ashen-guest/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261114T103000
 DTEND;TZID=Europe/Paris:20261114T110000
@@ -3745,18 +3641,6 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/32333505_evei
  l-musical-5030115
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-jeune
-DTSTART;TZID=Europe/Paris:20261118T150000
-DTEND;TZID=Europe/Paris:20261118T154000
-UID:c197125030ba@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/25513586_cine-jeune-6609983
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/25513586_cine
- -jeune-6609983
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture

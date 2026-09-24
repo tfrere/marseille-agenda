@@ -130,34 +130,6 @@ URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Mauvais Œil 87 : Thomas Perrodin
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260926
-UID:fbb09d5d6130@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Des imaginaires graphiques singuliers où se croisent expérim
- entation\, artisanat et nouvelles formes de narration visuelle. Une propos
- ition de Le Dernier Cri\nPrix : Entrée libre\nhttps://www.lafriche.org/ev
- enements/le-mauvais-oeil-87-thomas-perrodin/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-87-thomas-perrodin
- /
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20261006
-UID:697576b93bdd@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le Mauvais Œil 87 : Thomas Perrodin
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260926
 UID:eae86d55441b@marseille-agenda
@@ -211,16 +183,6 @@ URL:https://www.lafriche.org/evenements/le-mauvais-oeil-87-thomas-perrodin
  /
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Atelier d'écriture
-DTSTART;TZID=Europe/Paris:20260923T103000
-DTEND;TZID=Europe/Paris:20260923T123000
-UID:5efb2fa2cddd@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/atelier-decriture/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Unworlding
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20261008
@@ -233,19 +195,6 @@ DESCRIPTION:Une exposition et une série de dialogues publics réunissant
  he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier Photo sensible: bibliothèque du futur
-DTSTART;TZID=Europe/Paris:20260923T140000
-DTEND;TZID=Europe/Paris:20260923T170000
-UID:51d76705f36f@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/75152829_atelier-photo-sensible-bi
- bliotheque-du-futur-925316
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/75152829_atel
- ier-photo-sensible-bibliotheque-du-futur-925316
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Expo-pause
@@ -321,115 +270,91 @@ URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
  sent/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[petite baleine] LE CYGNE ET L'ENFANT de Miyoung Baek | suivi d'un
-  atelier peinture et aquarelle !
-DTSTART;TZID=Europe/Paris:20260923T160000
-DTEND;TZID=Europe/Paris:20260923T180000
-UID:d2edfb545b2b@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ La Petite Baleine : Atelier Aquarelles et coloriages à l
- ’issue de la projection ! ▉ Atelier gratuit\, places limitées sur ré
- servation à ylang@labaleinemarseille.com Mercredi 23 septembre | 16h 𝗟
- 𝗘 𝗖𝗬𝗚\nhttps://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Annulé : Lectures en salle
-DTSTART;TZID=Europe/Paris:20260923T163000
-DTEND;TZID=Europe/Paris:20260923T170000
-UID:f27c40c353b2@marseille-agenda
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20261009
+UID:c2f1c2b377c9@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/66966113_lectures-en-salle-2474078
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/66966113_lect
- ures-en-salle-2474078
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:LA LIGNE BLEUE
-DTSTART;TZID=Europe/Paris:20260923T200000
-DTEND;TZID=Europe/Paris:20260923T220000
-UID:e6c2b70c8006@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:CinéFID screening of Marie Dumora's film 'La Ligne Bleue' pre
- sented by Olivier Pierre\, programmer at FIDMarseille.\nhttps://www.instag
- ram.com/p/DdZPgf2DNa4/
-LOCATION:La Baleine - La Baleine\, Marseille
-URL:https://www.instagram.com/p/DdZPgf2DNa4/
+SUMMARY:Expo-pause
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260928
+UID:3d1a36b509a9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un espace aménagé au seuil de l’exposition pour s’asseoi
+ r et s’installer confortablement\, faire une pause.\nPrix : Gratuit !\nh
+ ttps://www.lafriche.org/evenements/expo-pause-4/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/expo-pause-4/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BLACK MILK + LUTE
-DTSTART;TZID=Europe/Paris:20260923T200000
-DTEND;TZID=Europe/Paris:20260923T220000
-UID:ac8e1178a66b@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 28€\nhttps://lemolotov.com/events/black-milk/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/black-milk/
+SUMMARY:Glaneuses et glaneurs
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20261005
+UID:899acc78d216@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
+ Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
+ é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
+ /www.lafriche.org/evenements/glaneuses-et-glaneurs/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FATHERLAND
-DTSTART;TZID=Europe/Paris:20260923T200000
-DTEND;TZID=Europe/Paris:20260923T220000
-UID:4dc996dca92f@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Opening night of the Kinovisions festival with the premiere of
-  Pawel Pawlikowski's 'Fatherland'\, winner of Best Director at Cannes 2026
- .\nhttps://www.instagram.com/p/DdJyq9SAV_t/
-LOCATION:Les Variétés - Les Variétés
-URL:https://www.instagram.com/p/DdJyq9SAV_t/
+SUMMARY:Jouer la montre
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260928
+UID:13009d5e50cb@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Mona Benyamin mobilise l'humour et l'ironie comme outils polit
+ iques de résistance et de réflexion. Une proposition de Triangle-Astéri
+ des et B7L9\nhttps://www.lafriche.org/evenements/exposition-personnelle-de
+ -mona-benyamin/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/exposition-personnelle-de-mona-ben
+ yamin/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DESIGNER (garage USA)
-DTSTART;TZID=Europe/Paris:20260923T203000
-DTEND;TZID=Europe/Paris:20260923T223000
-UID:794920a7ea25@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Concert de DESIGNER (garage USA) au L'Intermédiaire à Marsei
- lle\, le mercredi 23 septembre à 20h30. Participation aux frais : 7€ en
-  espèces.\nPrix : 7€ (cash)\nhttps://www.instagram.com/p/DcySEOIOz8W/
-LOCATION:L'Intermédiaire - L'intermédiaire 63 la plaine
-URL:https://www.instagram.com/p/DcySEOIOz8W/
+SUMMARY:Les rêves n’ont pas de titre الأحلام لا تحمل عن
+ اوين
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260928
+UID:6ce01282cbaf@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une compilation de films choisis\, excavation d’archives oub
+ liées ou retrouvées\, remakes d’images empruntées et témoins de l’
+ effervescence des luttes se mêlent dans une grande traversée des imagina
+ ires.\nhttps://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8
+ %a7%d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9
+ %84-%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8%a7
+ %d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9%84
+ -%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DJ YAKUZAK (rocksteady/ska Marseille)
-DTSTART;TZID=Europe/Paris:20260923T203000
-DTEND;TZID=Europe/Paris:20260923T223000
-UID:883c3359ef34@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Performance de DJ YAKUZAK (rocksteady/ska Marseille) au L'Inte
- rmédiaire à Marseille\, le mercredi 23 septembre à 20h30. Participation
-  aux frais : 7€ en espèces.\nPrix : 7€ (cash)\nhttps://www.instagram.
- com/p/DcySEOIOz8W/
-LOCATION:L'Intermédiaire - L'intermédiaire 63 la plaine
-URL:https://www.instagram.com/p/DcySEOIOz8W/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FLIPPEUR (eggpunk Paris)
-DTSTART;TZID=Europe/Paris:20260923T203000
-DTEND;TZID=Europe/Paris:20260923T223000
-UID:93db7864250d@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Concert de FLIPPEUR (eggpunk Paris) au L'Intermédiaire à Mar
- seille\, le mercredi 23 septembre à 20h30. Participation aux frais : 7€
-  en espèces.\nPrix : 7€ (cash)\nhttps://www.instagram.com/p/DcySEOIOz8W
- /
-LOCATION:L'Intermédiaire - L'intermédiaire 63 la plaine
-URL:https://www.instagram.com/p/DcySEOIOz8W/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Soirée de soutien aux Rencontres Nationales Queer Racisées | Le 
- Regard mystérieux du flamant rose
-DTSTART;TZID=Europe/Paris:20260923T203000
-DTEND;TZID=Europe/Paris:20260923T223000
-UID:384a6ad81763@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/soiree-de-soutien-aux-rencontres-na
- tionales-queer-racisees-le-regard-mysterieux-du-flamant-rose/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/soiree-de-soutien-aux-rencontres-nationales
- -queer-racisees-le-regard-mysterieux-du-flamant-rose/
+SUMMARY:Sur les ruines\, les pierres fleurissent تزهر حجارة ال
+ أطلال
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260928
+UID:0b47a2abc826@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une lecture renouvelée des territoires désertiques\, non com
+ me des espaces figés\, mais comme un ensemble de constellations d’entit
+ és animales\, végétales\, humaines et minérales dignes. Une propositio
+ n de Fræme\, Kulte et Le Cirva\nhttps://www.lafriche.org/evenements/sur-l
+ es-ruines-les-pierres-fleurissent/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
+ sent/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Allez-Savoir 2026: L'argent. C'est à dire?
@@ -670,7 +595,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
 DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
 UID:2417838ba949@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
@@ -1005,6 +930,18 @@ LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/vivant-e-s-en-itinerance/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Bookflux - Cartographie
+DTSTART;TZID=Europe/Paris:20260930T140000
+DTEND;TZID=Europe/Paris:20260930T200000
+UID:c4f3bedd0284@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheques-de-marseille/events/94317290_bookflux-cartographie
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheques-de-marseille/events/94317290_book
+ flux-cartographie
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:★ Jeune public | Atelier stop-motion
 DTSTART;TZID=Europe/Paris:20260930T140000
 DTEND;TZID=Europe/Paris:20260930T160000
@@ -1070,7 +1007,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival actoral
 DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
 UID:4ee9f577e0e0@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Théâtre\, danse\, performances... une immersion au cœur de 
@@ -1122,6 +1059,17 @@ DESCRIPTION:https://www.millebabords.org/spip.php?article42242
 LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
  le
 URL:https://www.millebabords.org/spip.php?article42242
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présentation de "Jeune et ambitieux"
+DTSTART;TZID=Europe/Paris:20261001T190000
+DTEND;TZID=Europe/Paris:20261001T210000
+UID:1a5a94bb9b29@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Jeune-et-ambitie
+ ux
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Jeune-et-ambitieux
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:25 ans du Polygone Étoilé | La subtile mémoire des humains du r
@@ -1245,6 +1193,16 @@ LOCATION:La Colorada - La Colorada
 URL:https://www.instagram.com/p/DdT3HIPvZAd/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Présentation de "Des Jours Poreux"
+DTSTART;TZID=Europe/Paris:20261002T190000
+DTEND;TZID=Europe/Paris:20261002T210000
+UID:825054f3f55f@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Des-Jours-Poreux
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Des-Jours-Poreux
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Camp Claude
 DTSTART;TZID=Europe/Paris:20261002T193000
 DTEND;TZID=Europe/Paris:20261002T223000
@@ -1265,6 +1223,19 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 18€\nhttps://lemolotov.com/events/lute-guest/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/lute-guest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival actoral 26 | Dentro de lo Azul + Boyuna + My Little nothi
+ ng
+DTSTART;TZID=Europe/Paris:20261002T203000
+DTEND;TZID=Europe/Paris:20261002T223000
+UID:f5226b2f322d@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-actoral-26-dentro-de-lo-az
+ ul-boyuna-my-little-nothing/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-actoral-26-dentro-de-lo-azul-boyun
+ a-my-little-nothing/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L'exposition " Bouches à Oreilles" s'invite à la Fête de la Sci
@@ -1437,6 +1408,20 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/quand-les-traumas-se-transmettent/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Présentation de la collection "Résonances La courte échelle.éd
+ itions transit"  et Résonances n°4 : "Le rôle essentiel des femmes alg
+ ériennes dans la guerre de libération Khadidja Belguenbour"
+DTSTART;TZID=Europe/Paris:20261003T173000
+DTEND;TZID=Europe/Paris:20261003T193000
+UID:5ed4a40150fb@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-la-collection-Re
+ sonances-La-courte-echelle-editions-transit-et
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-la-collection-Resonances
+ -La-courte-echelle-editions-transit-et
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Trop drôle pour mourir
 DTSTART;TZID=Europe/Paris:20261003T190000
 DTEND;TZID=Europe/Paris:20261003T201500
@@ -1531,7 +1516,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Labo des désirs
 DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
 UID:c203d1c7e8fa@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Projet participatif et convivial de création et programmation
@@ -1736,6 +1721,56 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/64425710_lect
  ures-en-salle-9169542
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[vwa] langages\, sciences sociales et cinéma | Atelier de convers
+ ation de Bernhard Braunstein
+DTSTART;TZID=Europe/Paris:20261007T180000
+DTEND;TZID=Europe/Paris:20261007T200000
+UID:36fd30fa7526@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/vwa-langages-sciences-sociales-et-c
+ inema-atelier-de-conversation-de-bernhard-braunstein/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/vwa-langages-sciences-sociales-et-cinema-at
+ elier-de-conversation-de-bernhard-braunstein/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Séminaire MERs hors les murs | Travailler en films
+DTSTART;TZID=Europe/Paris:20261007T203000
+DTEND;TZID=Europe/Paris:20261007T223000
+UID:a78e2c96b4bf@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/seminaire-migrations-ecritures-sens
+ ibles-travailler-en-films/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/seminaire-migrations-ecritures-sensibles-tr
+ availler-en-films/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;TZID=Europe/Paris:20261008T153000
+DTEND;TZID=Europe/Paris:20261008T173000
+UID:b6ae7b2cd94e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
+  et découvrir toutes les facettes des jeux vidéo indépendants et artist
+ iques\, créer et jouer ensemble ! Une proposition de CHRONIQUES\nPrix : G
+ ratuit !\nhttps://www.lafriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présentation de "Beau comme tu changes" de Joseph Kai
+DTSTART;TZID=Europe/Paris:20261008T190000
+DTEND;TZID=Europe/Paris:20261008T210000
+UID:2efb6e889552@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Beau-comme-tu-ch
+ anges-de-Joseph-Kai
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Beau-comme-tu-changes-de
+ -Joseph-Kai
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[happy hours] FINI DE RIRE ! L'humour politique au garde-à-vous |
@@ -2001,6 +2036,29 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/3182083_on-ne
  -laisse-pas-bebe-dans-un-coin
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Présentation de "Bruits roses DEUXIÈME ÉDITION"
+DTSTART;TZID=Europe/Paris:20261010T173000
+DTEND;TZID=Europe/Paris:20261010T193000
+UID:1f5dc5d94ffe@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Bruits-roses-DEU
+ XIEME-EDITION
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Bruits-roses-DEUXIEME-ED
+ ITION
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Imaginaires Documentaires | Hotel Metalurg
+DTSTART;TZID=Europe/Paris:20261010T190000
+DTEND;TZID=Europe/Paris:20261010T210000
+UID:9df8bad188eb@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/imaginaires-documentaires-hotel-met
+ alurg/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/imaginaires-documentaires-hotel-metalurg/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La tsigane sur la route avec Tamèrantong !
 DTSTART;TZID=Europe/Paris:20261010T200000
 DTEND;TZID=Europe/Paris:20261010T220000
@@ -2023,6 +2081,17 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/destination-fiesta
  -avec-le-mucem/
 LOCATION:Mucem - J4 / Esplanade
 URL:https://mucem.org/evenement/destination-fiesta-avec-le-mucem/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La guerra inizia qui
+DTSTART;TZID=Europe/Paris:20261011T180000
+DTEND;TZID=Europe/Paris:20261011T200000
+UID:93b1bb2acd90@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Suivie d’une rencontre avec les réalisateurs Julien O’Mie
+ l et Perin Caspal.\nhttps://cinemalegyptis.org/films/la-guerra-inizia-qui/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/la-guerra-inizia-qui/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FOREVER NU!
@@ -2348,6 +2417,32 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/48573828_cycl
  e-traduction-dominique-vittoz
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le Rendez-vous de la Création Radiophonique | Personne ne se souv
+ iendra de nous
+DTSTART;TZID=Europe/Paris:20261016T180000
+DTEND;TZID=Europe/Paris:20261016T200000
+UID:b59d10030de5@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/le-rendez-vous-de-la-creation-radio
+ phonique-personne-ne-se-souviendra-de-nous/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/le-rendez-vous-de-la-creation-radiophonique
+ -personne-ne-se-souviendra-de-nous/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présentation de "Histoires et colonisations. Des récits de la co
+ nquête aux héritages postcoloniaux"
+DTSTART;TZID=Europe/Paris:20261016T190000
+DTEND;TZID=Europe/Paris:20261016T210000
+UID:88aaa8fc0108@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Histoires-et-col
+ onisations-Des-recits-de-la-conquete-aux
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Histoires-et-colonisatio
+ ns-Des-recits-de-la-conquete-aux
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:COMPLET – A6EL
 DTSTART;TZID=Europe/Paris:20261016T193000
 DTEND;TZID=Europe/Paris:20261016T213000
@@ -2356,6 +2451,18 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 30€\nhttps://lemolotov.com/events/a6el/
 LOCATION:Le Molotov - @ Le Dodu
 URL:https://lemolotov.com/events/a6el/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biennale de la culture cubaine | AM-PM de Alejandro Gil
+DTSTART;TZID=Europe/Paris:20261016T210000
+DTEND;TZID=Europe/Paris:20261016T230000
+UID:927dac187ab4@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/biennale-de-la-culture-cubaine-am-p
+ m-de-alejandro-gil/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/biennale-de-la-culture-cubaine-am-pm-de-ale
+ jandro-gil/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures aux tout-petits
@@ -2431,6 +2538,29 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/seance-de-courts-metrages-2-aflam/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Biennale de la culture cubaine | Habanastation de Ian Padrón
+DTSTART;TZID=Europe/Paris:20261017T193000
+DTEND;TZID=Europe/Paris:20261017T213000
+UID:27aeb10d938c@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/biennale-de-la-culture-cubaine-haba
+ nastation-de-ian-padron/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/biennale-de-la-culture-cubaine-habanastatio
+ n-de-ian-padron/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MASSALIA SKA CITY : SKA REGGAE & SOUL NIGHT
+DTSTART;TZID=Europe/Paris:20261017T210000
+DTEND;TZID=Europe/Paris:20261017T230000
+UID:927f562e1ced@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:https://lemolotov.com/events/massalia-ska-city-ska-reggae-soul
+ -night/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/massalia-ska-city-ska-reggae-soul-night/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261101
@@ -2487,6 +2617,19 @@ DESCRIPTION:https://mucem.org/evenement/my-paradise-une-archive-filmique-d
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/my-paradise-une-archive-filmique-du-rojava
  /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rendez-vous avec l'association Ahdarija | Des murs et des hommes 
+ de Dalila Ennadre
+DTSTART;TZID=Europe/Paris:20261018T180000
+DTEND;TZID=Europe/Paris:20261018T200000
+UID:90bb09bbba23@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/rendez-vous-avec-lassociation-ahdar
+ ija-des-murs-et-des-hommes-de-dalila-ennadre/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/rendez-vous-avec-lassociation-ahdarija-des-
+ murs-et-des-hommes-de-dalila-ennadre/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Clôture - Souraya mon amour
@@ -2572,6 +2715,19 @@ DESCRIPTION:Le mardi 20 octobre à 18 h 30\, au Grand Bar du Chapitre\, 4
 LOCATION:Amis du Monde diplomatique - Marseille
 URL:https://www.amis.monde-diplomatique.fr/Cafe-Diplo-a-Marseille-9799.htm
  l
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présentation de "Nous ne sommes pas des chiffres : Les voix de l
+ a jeunesse de Gaza traduit par Zurbach Claude"
+DTSTART;TZID=Europe/Paris:20261020T190000
+DTEND;TZID=Europe/Paris:20261020T210000
+UID:2f3f0acc0673@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Nous-ne-sommes-p
+ as-des-chiffres-Les-voix-de-la-jeunesse-de-Gaza
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Nous-ne-sommes-pas-des-c
+ hiffres-Les-voix-de-la-jeunesse-de-Gaza
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exposition Allo\, à l'eau?! à la Micro-Folie Le Beausset
@@ -2730,6 +2886,18 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/le-grand-kami/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-grand-kami/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présentation de "Khouya\, recueil de poésie" de Chems Bakkali
+DTSTART;TZID=Europe/Paris:20261023T190000
+DTEND;TZID=Europe/Paris:20261023T210000
+UID:ed3e45dcc675@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Khouya-recueil-d
+ e-poesie-de-Chems-Bakkali
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Khouya-recueil-de-poesie
+ -de-Chems-Bakkali
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ELEINE + Rexoria + Serapis Project
@@ -2960,6 +3128,19 @@ URL:https://www.amis.monde-diplomatique.fr/Iran-Guerres-revoltes-esperance
  s.html
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Présentation du supplément du Monde diplomatique Manière de voi
+ r\, dossier sur l’Iran
+DTSTART;TZID=Europe/Paris:20261028T190000
+DTEND;TZID=Europe/Paris:20261028T210000
+UID:3b6f35860090@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-du-supplement-du-Mo
+ nde-diplomatique-Maniere-de-voir-dossier-sur-l
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-du-supplement-du-Monde-dipl
+ omatique-Maniere-de-voir-dossier-sur-l
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:THE TELESCOPES + Guest
 DTSTART;TZID=Europe/Paris:20261028T200000
 DTEND;TZID=Europe/Paris:20261028T220000
@@ -3037,6 +3218,19 @@ DESCRIPTION:https://lafabulerie.com/agenda/la-martinerie-fait-sa-cremaille
  re/
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/la-martinerie-fait-sa-cremaillere/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Presentation de "Paroles de citoyennes au congrès ouvrier de 1879
+  à Marseille"
+DTSTART;TZID=Europe/Paris:20261030T190000
+DTEND;TZID=Europe/Paris:20261030T210000
+UID:895549bc90e3@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Paroles-de-citoy
+ ennes-au-congres-ouvrier-de-1879-a-Marseille
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Paroles-de-citoyennes-au
+ -congres-ouvrier-de-1879-a-Marseille
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures aux tout-petits
@@ -3223,6 +3417,16 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/the-lets-gos-guest/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:THE LET’S GO’S + Supreme Nightclub
+DTSTART;TZID=Europe/Paris:20261105T203000
+DTEND;TZID=Europe/Paris:20261105T223000
+UID:117aee0571f2@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 12€\nhttps://lemolotov.com/events/the-lets-gos-guest/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/the-lets-gos-guest/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:MHS PRÉSENT SOUL HATER [ HARDCORE / DEATH METAL ] ENTERTORMENT [ 
  HARDCORE ] + GUEST
 DTSTART;TZID=Europe/Paris:20261105T210000
@@ -3367,7 +3571,7 @@ UID:b0333616b9a7@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/live-set-disam-eli
  as/
-LOCATION:Mucem - J4 / Auditorium
+LOCATION:Mucem - J4 / Forum
 URL:https://mucem.org/evenement/live-set-disam-elias/
 END:VEVENT
 BEGIN:VEVENT
@@ -3380,6 +3584,17 @@ DESCRIPTION:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadi
  ne/
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadine/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UP TOWN MUSIC BAND #24
+DTSTART;TZID=Europe/Paris:20261108T183000
+DTEND;TZID=Europe/Paris:20261108T203000
+UID:3e0bde79fd16@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/up-town-music-band-2
+ 4/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/up-town-music-band-24/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 1 - Les jardins méditerranéens
@@ -3691,17 +3906,6 @@ URL:https://lafabulerie.com/agenda/allo-a-leau-exposition-sonore-a-saint-g
  ermain-de-calberte/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ERADIKAL INSANE + Reign
-DTSTART;TZID=Europe/Paris:20261127T200000
-DTEND;TZID=Europe/Paris:20261127T220000
-UID:9b537c963990@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 8€\nhttps://lemolotov.com/events/eradikal-insane-reig
- n/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/eradikal-insane-reign/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261128T103000
 DTEND;TZID=Europe/Paris:20261128T110000
@@ -3808,17 +4012,6 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/50725798_lect
  ures-en-salle-8235300
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:KRAV BOCA + Wake the Dead
-DTSTART;TZID=Europe/Paris:20261204T190000
-DTEND;TZID=Europe/Paris:20261204T210000
-UID:cb25e95b675b@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 23€\nhttps://lemolotov.com/events/krav-boca-wake-the-
- dead/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/krav-boca-wake-the-dead/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Éveil musical
 DTSTART;TZID=Europe/Paris:20261205T100000
 DTEND;TZID=Europe/Paris:20261205T103000
@@ -3865,16 +4058,6 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SETH GUEKO
-DTSTART;TZID=Europe/Paris:20261205T200000
-DTEND;TZID=Europe/Paris:20261205T220000
-UID:dd6123043bf9@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 28€\nhttps://lemolotov.com/events/seth-gueko/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/seth-gueko/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
  Âge européen et byzantin\, du Ve au XVe siècle.
 DTSTART;TZID=Europe/Paris:20261207T110000
@@ -3887,17 +4070,6 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-2-initiation
 LOCATION:Mucem - Fort Saint-Jean
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:THIS WILL DESTROY YOU + Cahill//Costello
-DTSTART;TZID=Europe/Paris:20261208T200000
-DTEND;TZID=Europe/Paris:20261208T220000
-UID:1e2d9474e7ff@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 22€\nhttps://lemolotov.com/events/this-will-destroy-y
- ou-cahill-costello/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/this-will-destroy-you-cahill-costello/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture

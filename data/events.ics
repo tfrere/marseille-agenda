@@ -122,9 +122,10 @@ DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
- isa-babari
+ isa-babari?museum=centre-de-la-vieille-charite
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=centre
+ -de-la-vieille-charite
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KinoVisions
@@ -139,106 +140,6 @@ URL:https://www.cfaprovence.com/wp-content/uploads/2026/08/KINOVISIONS_PRO
  GRAMME_2026.pdf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20261009
-UID:c2f1c2b377c9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Expo-pause
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260928
-UID:3d1a36b509a9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Un espace aménagé au seuil de l’exposition pour s’asseoi
- r et s’installer confortablement\, faire une pause.\nPrix : Gratuit !\nh
- ttps://www.lafriche.org/evenements/expo-pause-4/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/expo-pause-4/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Glaneuses et glaneurs
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20261005
-UID:899acc78d216@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
- Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
- é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
- /www.lafriche.org/evenements/glaneuses-et-glaneurs/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Jouer la montre
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260928
-UID:13009d5e50cb@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Mona Benyamin mobilise l'humour et l'ironie comme outils polit
- iques de résistance et de réflexion. Une proposition de Triangle-Astéri
- des et B7L9\nhttps://www.lafriche.org/evenements/exposition-personnelle-de
- -mona-benyamin/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/exposition-personnelle-de-mona-ben
- yamin/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les rêves n’ont pas de titre الأحلام لا تحمل عن
- اوين
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260928
-UID:6ce01282cbaf@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une compilation de films choisis\, excavation d’archives oub
- liées ou retrouvées\, remakes d’images empruntées et témoins de l’
- effervescence des luttes se mêlent dans une grande traversée des imagina
- ires.\nhttps://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8
- %a7%d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9
- %84-%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/les-reves-nont-pas-de-titre-%d8%a7
- %d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%85-%d9%84%d8%a7-%d8%aa%d8%ad%d9%85%d9%84
- -%d8%b9%d9%86%d8%a7%d9%88%d9%8a%d9%86/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sur les ruines\, les pierres fleurissent تزهر حجارة ال
- أطلال
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260928
-UID:0b47a2abc826@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une lecture renouvelée des territoires désertiques\, non com
- me des espaces figés\, mais comme un ensemble de constellations d’entit
- és animales\, végétales\, humaines et minérales dignes. Une propositio
- n de Fræme\, Kulte et Le Cirva\nhttps://www.lafriche.org/evenements/sur-l
- es-ruines-les-pierres-fleurissent/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
- sent/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Festival Allez-Savoir 2026: L'argent. C'est à dire?
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260927
-UID:6cb969e486ac@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/27072718_festival-allez-savoir-202
- 6
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/27072718_fest
- ival-allez-savoir-2026
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20270101
@@ -249,18 +150,6 @@ DESCRIPTION:Cours hebdomadaire de chants afro-cubains à La Colorada\, cha
  gram.com/p/DdQ2MPcOltW/
 LOCATION:La Colorada - La Colorada
 URL:https://www.instagram.com/p/DdQ2MPcOltW/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:UTOPIA FESTIVAL
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260927
-UID:c94970a63f10@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Utopia Festival returns with four stages over two days\, featu
- ring electronic music and techno artists.\nhttps://www.instagram.com/p/Ddd
- UUYbDP-D/
-LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DddUUYbDP-D/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -350,54 +239,17 @@ URL:https://www.lafriche.org/evenements/sur-les-ruines-les-pierres-fleuris
  sent/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Annulé : Lectures aux tout-petits
-DTSTART;TZID=Europe/Paris:20260926T100000
-DTEND;TZID=Europe/Paris:20260926T103000
-UID:b5fcd99acd77@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/4419248_lectures-aux-tout-petits-5
- 144945
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/4419248_lectu
- res-aux-tout-petits-5144945
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier d'initiation à la traduction littéraire - l'Arabe
-DTSTART;TZID=Europe/Paris:20260926T100000
-DTEND;TZID=Europe/Paris:20260926T130000
-UID:d6e751407a80@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/80914142_atelier-de-traduction-ara
- be
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/80914142_atel
- ier-de-traduction-arabe
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Éveil musical
-DTSTART;TZID=Europe/Paris:20260926T100000
-DTEND;TZID=Europe/Paris:20260926T103000
-UID:c071f3bad28a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/65931050_eveil-musical-172535
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/65931050_evei
- l-musical-172535
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cours de peinture ERROR 00 PAR LES EGUSQUIZA
-DTSTART;TZID=Europe/Paris:20260926T100000
-DTEND;TZID=Europe/Paris:20260926T114500
-UID:149ee7e31629@marseille-agenda
+SUMMARY:Error #00 avec Les
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20270101
+UID:c9dcb74f61f6@marseille-agenda
 CATEGORIES:bars
-DESCRIPTION:Atelier d'expérimentation artistique pour adultes\, tous les 
- samedis de 10h à 11h45\, sans nécessité de savoir dessiner.\nPrix : 15 
- euros\nhttps://www.instagram.com/p/DdUcv1vuU-G/
+DESCRIPTION:Artistic experimentation workshop for adults every Saturday fr
+ om 10:00 to 11:45\, starting September 26\, 2026. No drawing skills requir
+ ed\; each session is independent.\nPrix : 15 euros\nhttps://www.instagram.
+ com/p/DdUdOUROB0H/
 LOCATION:La Colorada - La Colorada Marsella
-URL:https://www.instagram.com/p/DdUcv1vuU-G/
+URL:https://www.instagram.com/p/DdUdOUROB0H/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -412,33 +264,6 @@ DESCRIPTION:Une exposition et une série de dialogues publics réunissant
  he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visites guidées en LSF de «Mossi\, la mode aussi »
-DTSTART;TZID=Europe/Paris:20260926T110000
-DTEND;TZID=Europe/Paris:20260926T123000
-UID:165314662867@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/visites-guidees-en-lsf-de-mossi-la
- -mode-aussi/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/visites-guidees-en-lsf-de-mossi-la-mode-au
- ssi/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marx et la critique de l’argent dans le capitalisme
-DTSTART;TZID=Europe/Paris:20260926T140000
-DTEND;TZID=Europe/Paris:20260926T170000
-UID:3b8a29ec788c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/12592687_marx-et-la-critique-de-la
- rgent-dans-le-capitalisme-cine-sciences-sociales-autour-du-film-le-jeune-k
- arl-marx
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/12592687_marx
- -et-la-critique-de-largent-dans-le-capitalisme-cine-sciences-sociales-auto
- ur-du-film-le-jeune-karl-marx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Glaneuses et glaneurs
@@ -466,148 +291,43 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ALLEZ SAVOIR ! Ciné-débat avec l'économiste Mihika Chatterjee e
- t les sociologues Sylvain Laurens & Charles Bosvieux-Onyekwelu
-DTSTART;TZID=Europe/Paris:20260926T140000
-DTEND;TZID=Europe/Paris:20260926T160000
-UID:9a0018d6b8a4@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Ciné-débat du Festival Allez Savoir autour du film 'Dark Wat
- ers' avec des experts en économie et sociologie.\nhttps://www.instagram.c
- om/p/DdUF1DEDeRF/
-LOCATION:Les Variétés - Les Variétés
-URL:https://www.instagram.com/p/DdUF1DEDeRF/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visite flash
-DTSTART;TZID=Europe/Paris:20260926T150000
-DTEND;TZID=Europe/Paris:20260926T160000
-UID:6056c9cde17e@marseille-agenda
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261012
+UID:6e3a216f5eeb@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
-  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-15/
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-flash-15/
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le Bonheur
-DTSTART;TZID=Europe/Paris:20260926T150000
-DTEND;TZID=Europe/Paris:20260926T170000
-UID:22376bff4c32@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Ciné-concert de la compagnie Clameurs\, dans le cadre du Fest
- ival Allez Savoir\nhttps://cinemalegyptis.org/films/le-bonheur/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/le-bonheur/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BAAB x DOUBLE VISION | Masterclass de Verena Paravel
-DTSTART;TZID=Europe/Paris:20260926T150000
-DTEND;TZID=Europe/Paris:20260926T170000
-UID:2af3577b19c0@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/baab-x-double-vision-masterclass-de
- -verena-paravel/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/baab-x-double-vision-masterclass-de-verena-
- paravel/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un objet\, une histoire
-DTSTART;TZID=Europe/Paris:20260926T163000
-DTEND;TZID=Europe/Paris:20260926T173000
-UID:3de874d621ad@marseille-agenda
+SUMMARY:Glaneuses et glaneurs
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261005
+UID:0c334228c2f4@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/un-objet-une-histoire/
+DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
+ Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
+ é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
+ /www.lafriche.org/evenements/glaneuses-et-glaneurs/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Allez Savoir#7] WELFARE (1973) de Frederick Wiseman | En présenc
- e de Marie Vidal\, anthropologue
-DTSTART;TZID=Europe/Paris:20260926T170000
-DTEND;TZID=Europe/Paris:20260926T190000
-UID:0bdf8a1cb1a7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ Séance présentée par Marie Vidal\, anthropologue\, memb
- re du Centre d’Etudes Nord-Américaines de l’EHESS. L’argent fait-il
-  le bonheur ? Les réseaux sociaux sont-ils une machine à cash ? Le liqui
- de est\nhttps://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Salsa Con-versada
-DTSTART;TZID=Europe/Paris:20260926T193000
-DTEND;TZID=Europe/Paris:20260926T213000
-UID:c3abebc9690a@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Soirée dansante 'Salsa Con-versada' animée par Karelia de Cu
- ba\, avec une discussion sur Arsenio Rodríguez et un hommage à travers l
- a danse et l'écoute.\nPrix : PAF 2€\nhttps://www.instagram.com/p/DdQj2G
- zOxmV/
-LOCATION:La Colorada - La Colorada
-URL:https://www.instagram.com/p/DdQj2GzOxmV/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DOUBLE VISION : RITUELS | Outside + Mothlight + De humani corporis
-  fabrica
-DTSTART;TZID=Europe/Paris:20260926T193000
-DTEND;TZID=Europe/Paris:20260926T213000
-UID:ec18d6831f4d@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/double-vision-rituels-outside-mothl
- ight-de-humani-corporis-fabrica/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/double-vision-rituels-outside-mothlight-de-
- humani-corporis-fabrica/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Roma Elastica
-DTSTART;TZID=Europe/Paris:20260926T200000
-DTEND;TZID=Europe/Paris:20260926T220000
-UID:80a1c2af318c@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Avant-première dans le cadre du Retour de Cannes\, manifestat
- ion organisée par le GNCR.\nhttps://cinemalegyptis.org/films/roma-elastic
- a/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/roma-elastica/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LES PHANTÔMES DE JUILLET
-DTSTART;TZID=Europe/Paris:20260926T203000
-DTEND;TZID=Europe/Paris:20260926T223000
-UID:147899532054@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Screening of 'LES PHANTÔMES DE JUILLET' by Julian Radlmaier\,
-  with a meeting with the director.\nhttps://www.instagram.com/p/DdJyq9SAV_
- t/
-LOCATION:Les Variétés - Les Variétés
-URL:https://www.instagram.com/p/DdJyq9SAV_t/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LES VOIX POUR GAZA
-DTSTART;TZID=Europe/Paris:20260926T210000
-DTEND;TZID=Europe/Paris:20260926T230000
-UID:8897a049378f@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/les-voix-pour-gaza-2
- /
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/les-voix-pour-gaza-2/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LIVE CUMBIA! SAX + PSYCHEDELIQUE
-DTSTART;TZID=Europe/Paris:20260926T213000
-DTEND;TZID=Europe/Paris:20260926T233000
-UID:5af70df05d6e@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Live cumbia event with Atlanticos and DJ WandaWitt at L'Interm
- édiaire in Marseille.\nPrix : 10€\nhttps://www.instagram.com/p/Dc9GRp1I
- qss/
-LOCATION:L'Intermédiaire - L'Intermédiaire
-URL:https://www.instagram.com/p/Dc9GRp1Iqss/
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261012
+UID:b8666ec2f06b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cinekids - Le Cygne et l'Enfant
@@ -1116,19 +836,6 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/74158691_lect
  ures-aux-tout-petits-6186054
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cours de peinture ERROR 00 PAR LES EGUSQUIZA
-DTSTART;TZID=Europe/Paris:20261003T100000
-DTEND;TZID=Europe/Paris:20261003T114500
-UID:9c2929f39930@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Atelier d'expérimentation artistique pour adultes\, chaque sa
- medi de 10h à 11h45\, axé sur le dessin\, la matière et l’imaginaire 
- sans pression de réussite.\nPrix : 15 euros\nhttps://www.instagram.com/p/
- DdW6k-rugqy/
-LOCATION:La Colorada - La Colorada Marsella
-URL:https://www.instagram.com/p/DdW6k-rugqy/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horizons partagés
@@ -1964,6 +1671,18 @@ DESCRIPTION:https://transit-librairie.org/Presentation-de-Bruits-roses-DEU
 LOCATION:Transit librairie
 URL:https://transit-librairie.org/Presentation-de-Bruits-roses-DEUXIEME-ED
  ITION
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Conférence gesticulée : « Nous produisons\, nous décidons 
+ » Écrire la partition d’un monde post-capitaliste
+DTSTART;TZID=Europe/Paris:20261010T183000
+DTEND;TZID=Europe/Paris:20261010T203000
+UID:1cfea82d7404@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42197
+LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42197
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Imaginaires Documentaires | Hotel Metalurg
@@ -4676,16 +4395,6 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Un courant d’air – Over the sky
-DTSTART;TZID=Europe/Paris:20270320T103000
-DTEND;TZID=Europe/Paris:20270320T110000
-UID:321a9bc12d83@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/un-courant-dair-over-the-sky/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/un-courant-dair-over-the-sky/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Baby PaySans
 DTSTART;TZID=Europe/Paris:20270321T103000
 DTEND;TZID=Europe/Paris:20270321T111500
@@ -4694,16 +4403,6 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-paysans/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un courant d’air – Over the sky
-DTSTART;TZID=Europe/Paris:20270321T103000
-DTEND;TZID=Europe/Paris:20270321T110000
-UID:19f7e4e99f14@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/un-courant-dair-over-the-sky/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/un-courant-dair-over-the-sky/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Graines d’histoires

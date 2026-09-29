@@ -10,10 +10,9 @@ DTEND;VALUE=DATE:20270104
 UID:3f00f5332384@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/africa-louisa-baba
- ri?museum=musee-dart-contemporain-mac-0
+ ri
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-con
- temporain-mac-0
+URL:https://musees.marseille.fr/africa-louisa-babari
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite libre de la statue de la Bonne Mère
@@ -69,10 +68,9 @@ DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
- isa-babari?museum=centre-de-la-vieille-charite
+ isa-babari
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=centre
- -de-la-vieille-charite
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -98,45 +96,6 @@ DESCRIPTION:Artistic experimentation workshop for adults every Saturday fr
  com/p/DdUdOUROB0H/
 LOCATION:La Colorada - La Colorada Marsella
 URL:https://www.instagram.com/p/DdUdOUROB0H/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20261011
-UID:96a4c258a4e5@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Glaneuses et glaneurs
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20261005
-UID:59c90e8c16f6@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
- Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
- é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
- /www.lafriche.org/evenements/glaneuses-et-glaneurs/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20261011
-UID:2417838ba949@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -204,55 +163,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marché paysan
-DTSTART;TZID=Europe/Paris:20260928T160000
-DTEND;TZID=Europe/Paris:20260928T200000
-UID:b040c50e2227@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
- ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
-  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/marche-paysan/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:"Cagnard"
-DTSTART;TZID=Europe/Paris:20260928T183000
-DTEND;TZID=Europe/Paris:20260928T203000
-UID:5ce71b9c8a1d@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.millebabords.org/spip.php?article42235
-LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
- le
-URL:https://www.millebabords.org/spip.php?article42235
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:QUI VIT ENCORE
-DTSTART;TZID=Europe/Paris:20260928T194500
-DTEND;TZID=Europe/Paris:20260928T214500
-UID:01fe1c56198b@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film documentaire 'Qui vit encore' de Nicolas Wa
- dimoff\, suivi d'une rencontre avec le réalisateur.\nhttps://www.instagra
- m.com/p/DdWKlyUDpz6/
-LOCATION:Les Variétés - LES VARIETES
-URL:https://www.instagram.com/p/DdWKlyUDpz6/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[rdv doc] ÉCRIRE LA VIE : ANNIE ERNAUX RACONTÉE ... de Claire Si
- mon | en présence de la réalisatrice
-DTSTART;TZID=Europe/Paris:20260928T200000
-DTEND;TZID=Europe/Paris:20260928T220000
-UID:66543f2db92e@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ Rencontre avec la réalisatrice Claire Simon. ▉ Dans le 
- cadre du rendez-vous documentaire de La Baleine\, en partenariat avec La C
- inémathèque du documentaire. ▉ Une table d'ouvrages d'Annie Ernaux ser
- \nhttps://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Soirée gratuite de performances
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
@@ -263,6 +173,32 @@ DESCRIPTION:Soirée de performances gratuites organisée par les artistes
  agram.com/p/DdYc55gnChU/
 LOCATION:Friche la Belle de Mai
 URL:https://www.instagram.com/p/DdYc55gnChU/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20261014
+UID:d40355eb3a0c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20261012
+UID:448391f946b1@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Permanence des Amoureux au ban public
@@ -907,6 +843,19 @@ URL:https://www.videodrome2.fr/etcetera-etcetera-phone-game-scroll-moi-tou
  che-moi-please-leave-a-message-etcetera-etcetera/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Etcetera Etcetera | scroll me\, touch me\, sorry I can't hear you
+ \, leave a message.
+DTSTART;TZID=Europe/Paris:20261004T190000
+DTEND;TZID=Europe/Paris:20261004T210000
+UID:446302faff00@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/etcetera-etcetera-phone-game-scroll
+ -moi-touche-moi-please-leave-a-message-etcetera-etcetera/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/etcetera-etcetera-phone-game-scroll-moi-tou
+ che-moi-please-leave-a-message-etcetera-etcetera/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FLEUR + Echoes of Hate + Oni Kabe
 DTSTART;TZID=Europe/Paris:20261004T193000
 DTEND;TZID=Europe/Paris:20261004T213000
@@ -948,8 +897,8 @@ DTSTART;TZID=Europe/Paris:20261005T140000
 DTEND;TZID=Europe/Paris:20261005T153000
 UID:003a64df194d@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-1-les-jardin
- s-mediterraneens/
+DESCRIPTION:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens
+ /
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
 END:VEVENT
@@ -1578,8 +1527,8 @@ DTSTART;TZID=Europe/Paris:20261012T140000
 DTEND;TZID=Europe/Paris:20261012T153000
 UID:18919bd0a585@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-1-les-jardin
- s-mediterraneens/
+DESCRIPTION:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens
+ /
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
 END:VEVENT
@@ -2870,8 +2819,8 @@ DTSTART;TZID=Europe/Paris:20261102T140000
 DTEND;TZID=Europe/Paris:20261102T153000
 UID:e21fdc28b548@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-1-les-jardin
- s-mediterraneens/
+DESCRIPTION:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens
+ /
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
 END:VEVENT
@@ -3120,8 +3069,8 @@ DTSTART;TZID=Europe/Paris:20261109T110000
 DTEND;TZID=Europe/Paris:20261109T123000
 UID:4912f9e6054e@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-1-les-jardin
- s-mediterraneens/
+DESCRIPTION:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens
+ /
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
 END:VEVENT
@@ -3233,9 +3182,8 @@ DTSTART;TZID=Europe/Paris:20261116T140000
 DTEND;TZID=Europe/Paris:20261116T153000
 UID:715b437aa5bf@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-2-initiation
- -a-lhistoire-generale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-x
- ve-siecle/
+DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
+ erale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
@@ -3357,9 +3305,8 @@ DTSTART;TZID=Europe/Paris:20261123T140000
 DTEND;TZID=Europe/Paris:20261123T153000
 UID:61c7e091e3fa@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-2-initiation
- -a-lhistoire-generale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-x
- ve-siecle/
+DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
+ erale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
@@ -3407,11 +3354,9 @@ DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20270928
 UID:6bff3843c472@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/morellet?museum=mu
- see-dart-contemporain-mac-0
+DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/morellet
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/morellet?museum=musee-dart-contemporain-ma
- c-0
+URL:https://musees.marseille.fr/morellet
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allo\, à l’eau ?! - Exposition sonore à Saint-Germain-de-Calbe
@@ -3478,9 +3423,8 @@ DTSTART;TZID=Europe/Paris:20261130T140000
 DTEND;TZID=Europe/Paris:20261130T153000
 UID:1ab5bc5b804f@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-2-initiation
- -a-lhistoire-generale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-x
- ve-siecle/
+DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
+ erale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
@@ -3585,9 +3529,8 @@ DTSTART;TZID=Europe/Paris:20261207T110000
 DTEND;TZID=Europe/Paris:20261207T123000
 UID:9595377e3ef1@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-2-initiation
- -a-lhistoire-generale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-x
- ve-siecle/
+DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
+ erale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
@@ -3639,10 +3582,10 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/rever-la-mediterranee/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Les chauves-souris
+SUMMARY:Vivre en harmonie avec es chauves-souris
 DTSTART;TZID=Europe/Paris:20261212T170000
 DTEND;TZID=Europe/Paris:20261212T190000
-UID:fe331b0277a7@marseille-agenda
+UID:59d2900b7b5c@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
  a.com/bibliotheques-de-marseille/events/47477664_les-chauves-souris-526740
@@ -3667,9 +3610,8 @@ DTSTART;TZID=Europe/Paris:20261214T140000
 DTEND;TZID=Europe/Paris:20261214T153000
 UID:8c0eaef8cae0@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-2-initiation
- -a-lhistoire-generale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-x
- ve-siecle/
+DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
+ erale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
@@ -3938,8 +3880,8 @@ DTSTART;TZID=Europe/Paris:20270111T110000
 DTEND;TZID=Europe/Paris:20270111T123000
 UID:7c92dad031ef@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-3-watteau-un
- -peintre-a-la-mode/
+DESCRIPTION:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mo
+ de/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mode/
 END:VEVENT
@@ -3959,8 +3901,8 @@ DTSTART;TZID=Europe/Paris:20270118T110000
 DTEND;TZID=Europe/Paris:20270118T123000
 UID:bb1225de9a8d@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-3-watteau-un
- -peintre-a-la-mode/
+DESCRIPTION:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mo
+ de/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mode/
 END:VEVENT
@@ -3971,9 +3913,9 @@ DTSTART;TZID=Europe/Paris:20270118T140000
 DTEND;TZID=Europe/Paris:20270118T153000
 UID:4f40ba119657@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-4-linvention
- -du-visible-espace-corps-lumiere-et-sciences-du-regard-en-italie-du-trecen
- to-au-cinquecento/
+DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
+ ce-corps-lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecent
+ o/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
@@ -3994,8 +3936,8 @@ DTSTART;TZID=Europe/Paris:20270125T110000
 DTEND;TZID=Europe/Paris:20270125T123000
 UID:6d2c4282f69b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-3-watteau-un
- -peintre-a-la-mode/
+DESCRIPTION:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mo
+ de/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mode/
 END:VEVENT
@@ -4006,9 +3948,9 @@ DTSTART;TZID=Europe/Paris:20270125T140000
 DTEND;TZID=Europe/Paris:20270125T153000
 UID:22a76509cf9f@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-4-linvention
- -du-visible-espace-corps-lumiere-et-sciences-du-regard-en-italie-du-trecen
- to-au-cinquecento/
+DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
+ ce-corps-lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecent
+ o/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
@@ -4029,8 +3971,8 @@ DTSTART;TZID=Europe/Paris:20270201T110000
 DTEND;TZID=Europe/Paris:20270201T123000
 UID:3c53852843e7@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-3-watteau-un
- -peintre-a-la-mode/
+DESCRIPTION:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mo
+ de/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mode/
 END:VEVENT
@@ -4041,9 +3983,9 @@ DTSTART;TZID=Europe/Paris:20270201T140000
 DTEND;TZID=Europe/Paris:20270201T153000
 UID:be87a199136f@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-4-linvention
- -du-visible-espace-corps-lumiere-et-sciences-du-regard-en-italie-du-trecen
- to-au-cinquecento/
+DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
+ ce-corps-lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecent
+ o/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
@@ -4064,8 +4006,8 @@ DTSTART;TZID=Europe/Paris:20270208T110000
 DTEND;TZID=Europe/Paris:20270208T123000
 UID:3a47fd312979@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-3-watteau-un
- -peintre-a-la-mode/
+DESCRIPTION:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mo
+ de/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-3-watteau-un-peintre-a-la-mode/
 END:VEVENT
@@ -4076,9 +4018,9 @@ DTSTART;TZID=Europe/Paris:20270208T140000
 DTEND;TZID=Europe/Paris:20270208T153000
 UID:c36fae9eaae3@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-4-linvention
- -du-visible-espace-corps-lumiere-et-sciences-du-regard-en-italie-du-trecen
- to-au-cinquecento/
+DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
+ ce-corps-lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecent
+ o/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
@@ -4100,9 +4042,9 @@ DTSTART;TZID=Europe/Paris:20270215T140000
 DTEND;TZID=Europe/Paris:20270215T153000
 UID:92ca7f645ac4@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-4-linvention
- -du-visible-espace-corps-lumiere-et-sciences-du-regard-en-italie-du-trecen
- to-au-cinquecento/
+DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
+ ce-corps-lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecent
+ o/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
@@ -4274,8 +4216,8 @@ DTSTART;TZID=Europe/Paris:20270322T140000
 DTEND;TZID=Europe/Paris:20270322T153000
 UID:b93edbfcba89@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-5-peinture-e
- t-sculpture-freres-ennemis-ou-liens-intimes-xixe-xxe-siecles/
+DESCRIPTION:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-frer
+ es-ennemis-ou-liens-intimes-xixe-xxe-siecles/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
@@ -4327,8 +4269,8 @@ DTSTART;TZID=Europe/Paris:20270405T140000
 DTEND;TZID=Europe/Paris:20270405T153000
 UID:da4c7419c764@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-5-peinture-e
- t-sculpture-freres-ennemis-ou-liens-intimes-xixe-xxe-siecles/
+DESCRIPTION:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-frer
+ es-ennemis-ou-liens-intimes-xixe-xxe-siecles/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
@@ -4350,8 +4292,8 @@ DTSTART;TZID=Europe/Paris:20270412T140000
 DTEND;TZID=Europe/Paris:20270412T153000
 UID:b73dac10b6bd@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-5-peinture-e
- t-sculpture-freres-ennemis-ou-liens-intimes-xixe-xxe-siecles/
+DESCRIPTION:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-frer
+ es-ennemis-ou-liens-intimes-xixe-xxe-siecles/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
@@ -4474,8 +4416,8 @@ DTSTART;TZID=Europe/Paris:20270503T140000
 DTEND;TZID=Europe/Paris:20270503T153000
 UID:4788b5ac4c24@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-5-peinture-e
- t-sculpture-freres-ennemis-ou-liens-intimes-xixe-xxe-siecles/
+DESCRIPTION:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-frer
+ es-ennemis-ou-liens-intimes-xixe-xxe-siecles/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
@@ -4527,8 +4469,8 @@ DTSTART;TZID=Europe/Paris:20270510T140000
 DTEND;TZID=Europe/Paris:20270510T153000
 UID:977217df8b09@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/cycle-5-peinture-e
- t-sculpture-freres-ennemis-ou-liens-intimes-xixe-xxe-siecles/
+DESCRIPTION:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-frer
+ es-ennemis-ou-liens-intimes-xixe-xxe-siecles/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/

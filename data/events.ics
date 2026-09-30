@@ -98,45 +98,6 @@ LOCATION:La Colorada - La Colorada Marsella
 URL:https://www.instagram.com/p/DdUdOUROB0H/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20261012
-UID:6e3a216f5eeb@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Glaneuses et glaneurs
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20261005
-UID:0c334228c2f4@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
- Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
- é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
- /www.lafriche.org/evenements/glaneuses-et-glaneurs/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20261012
-UID:b8666ec2f06b@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20261013
@@ -163,16 +124,19 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Soirée gratuite de performances
+SUMMARY:Glaneuses et Glaneurs
 DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-UID:5506b0e561c1@marseille-agenda
+DTEND;VALUE=DATE:20261005
+UID:16479b41a07a@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Soirée de performances gratuites organisée par les artistes 
- de l'exposition "Glaneuses et Glaneurs".\nPrix : Gratuit\nhttps://www.inst
- agram.com/p/DdYc55gnChU/
+DESCRIPTION:Collective exhibition by graduates of Beaux-Arts de Marseille 
+ showcasing works that explore traces and resist erasure\, with a free perf
+ ormance evening on September 29.\nPrix : Gratuit\nhttps://www.facebook.com
+ /friche.labelledemai/posts/pfbid029Apt8dYTpwEe4rsuck3y8tSLSj2aDcPdcoZeCKpr
+ rJ52XYvGWgKVrWBzuuVKKAmgl
 LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DdYc55gnChU/
+URL:https://www.facebook.com/friche.labelledemai/posts/pfbid029Apt8dYTpwEe
+ 4rsuck3y8tSLSj2aDcPdcoZeCKprrJ52XYvGWgKVrWBzuuVKKAmgl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
@@ -201,28 +165,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Permanence des Amoureux au ban public
-DTSTART;TZID=Europe/Paris:20260929T173000
-DTEND;TZID=Europe/Paris:20260929T193000
-UID:9fb02db81c43@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.millebabords.org/spip.php?article42238
-LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
- le
-URL:https://www.millebabords.org/spip.php?article42238
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Traversées Libanaises | Captive de l'attente
-DTSTART;TZID=Europe/Paris:20260929T190000
-DTEND;TZID=Europe/Paris:20260929T210000
-UID:566eb5739b70@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/traversees-libanaises-captive-de-la
- ttente/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/traversees-libanaises-captive-de-lattente/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cœurs Sombres | Cycle cinéma
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
@@ -233,6 +175,18 @@ LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/coeurs-sombres-cycle-cinema/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261015
+UID:8d911593f37c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:VIVANT.E.S en itinérance
 DTSTART;TZID=Europe/Paris:20260930T100000
 DTEND;TZID=Europe/Paris:20260930T120000
@@ -241,6 +195,20 @@ CATEGORIES:culture
 DESCRIPTION:https://lafabulerie.com/agenda/vivant-e-s-en-itinerance/
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/vivant-e-s-en-itinerance/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261012
+UID:da672a06446c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bookflux - Cartographie
@@ -1225,6 +1193,19 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/club-cabaret-9/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Al Beyt : Bu Nasser’s live
+DTSTART;TZID=Europe/Paris:20261009T233000
+DTEND;TZID=Europe/Paris:20261009T043000
+UID:b903da8fa19d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Les diasporas en mouvement\, les basses en commun. Une proposi
+ tion de Bi:Pole\nhttps://www.lafriche.org/evenements/al-beyt-au-petit-cab-
+ bu-nassers-live/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/al-beyt-au-petit-cab-bu-nassers-li
+ ve/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Al Beyt au Petit Cab : Bu Nasser’s live
 DTSTART;TZID=Europe/Paris:20261009T233000
 DTEND;TZID=Europe/Paris:20261009T043000
@@ -1305,7 +1286,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261010T103000
-DTEND;TZID=Europe/Paris:20261010T110000
+DTEND;TZID=Europe/Paris:20261010T111500
 UID:c776e7c37f90@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -1413,18 +1394,6 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/3182083_on-ne
  -laisse-pas-bebe-dans-un-coin
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Bruits roses DEUXIÈME ÉDITION"
-DTSTART;TZID=Europe/Paris:20261010T173000
-DTEND;TZID=Europe/Paris:20261010T193000
-UID:1f5dc5d94ffe@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Bruits-roses-DEU
- XIEME-EDITION
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Bruits-roses-DEUXIEME-ED
- ITION
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Conférence gesticulée : « Nous produisons\, nous décidons 
@@ -1569,6 +1538,20 @@ LOCATION:L'Intermédiaire - L'Intermédiaire
 URL:https://www.instagram.com/p/DdOQuQ1O1eK/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Les Petits Mercredis
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+UID:e730d1503f84@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
+ el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
+ fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
+ ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
+ s-mercredis-13/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
 DTSTART;TZID=Europe/Paris:20261014T103000
 DTEND;TZID=Europe/Paris:20261014T123000
@@ -1603,6 +1586,19 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/70524397_fest
  ival-de-cinema-espagnol-cinehorizontes
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;TZID=Europe/Paris:20261014T153000
+DTEND;TZID=Europe/Paris:20261014T173000
+UID:94a8b8cda50f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
+  et découvrir toutes les facettes des jeux vidéo indépendants et artist
+ iques\, créer et jouer ensemble ! Une proposition de CHRONIQUES\nPrix : G
+ ratuit !\nhttps://www.lafriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -1976,6 +1972,17 @@ DESCRIPTION:https://www.videodrome2.fr/biennale-de-la-culture-cubaine-haba
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/biennale-de-la-culture-cubaine-habanastatio
  n-de-ian-padron/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dial H-I-S-T-O-R-Y
+DTSTART;TZID=Europe/Paris:20261017T203000
+DTEND;TZID=Europe/Paris:20261017T223000
+UID:97c555ed329b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection dans le cadre du festival AFLAM ·En présence du r
+ éalisateur\nhttps://cinemalegyptis.org/films/dial-h-i-s-t-o-r-y/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/dial-h-i-s-t-o-r-y/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MASSALIA SKA CITY : SKA REGGAE & SOUL NIGHT
@@ -3122,7 +3129,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261114T103000
-DTEND;TZID=Europe/Paris:20261114T110000
+DTEND;TZID=Europe/Paris:20261114T111500
 UID:1b09793e05f7@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -3374,7 +3381,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261128T103000
-DTEND;TZID=Europe/Paris:20261128T110000
+DTEND;TZID=Europe/Paris:20261128T111500
 UID:37aa59b98670@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -3678,7 +3685,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261219T103000
-DTEND;TZID=Europe/Paris:20261219T110000
+DTEND;TZID=Europe/Paris:20261219T111500
 UID:f707ef6584ad@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -3867,7 +3874,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270109T103000
-DTEND;TZID=Europe/Paris:20270109T110000
+DTEND;TZID=Europe/Paris:20270109T111500
 UID:3a25c1de868a@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -4028,7 +4035,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270214T103000
-DTEND;TZID=Europe/Paris:20270214T110000
+DTEND;TZID=Europe/Paris:20270214T111500
 UID:29c96da9b48b@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -4162,7 +4169,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270313T103000
-DTEND;TZID=Europe/Paris:20270313T110000
+DTEND;TZID=Europe/Paris:20270313T111500
 UID:81fa483c7b9b@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -4182,12 +4189,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270320T103000
-DTEND;TZID=Europe/Paris:20270320T110000
+DTEND;TZID=Europe/Paris:20270320T111500
 UID:fa00abd20332@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Un courant d’air – Over the sky
+DTSTART;TZID=Europe/Paris:20270320T103000
+DTEND;TZID=Europe/Paris:20270320T110000
+UID:321a9bc12d83@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://mucem.org/evenement/un-courant-dair-over-the-sky/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/un-courant-dair-over-the-sky/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby PaySans
@@ -4235,7 +4252,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270328T103000
-DTEND;TZID=Europe/Paris:20270328T110000
+DTEND;TZID=Europe/Paris:20270328T111500
 UID:82a8315e6ef9@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -4301,7 +4318,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270417T103000
-DTEND;TZID=Europe/Paris:20270417T110000
+DTEND;TZID=Europe/Paris:20270417T111500
 UID:c83114e3c6a3@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -4402,7 +4419,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270430T103000
-DTEND;TZID=Europe/Paris:20270430T110000
+DTEND;TZID=Europe/Paris:20270430T111500
 UID:f5d59c08830f@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -4478,7 +4495,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270515T103000
-DTEND;TZID=Europe/Paris:20270515T110000
+DTEND;TZID=Europe/Paris:20270515T111500
 UID:a9c83a39d0eb@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
@@ -4548,7 +4565,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270619T103000
-DTEND;TZID=Europe/Paris:20270619T110000
+DTEND;TZID=Europe/Paris:20270619T111500
 UID:1747892415ae@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/

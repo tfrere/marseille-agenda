@@ -75,7 +75,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
    "last_event_count": 2,
    "content_hash": "02a564a0954ecab4",
@@ -103,10 +103,10 @@
    },
    "discovered": "2026-09-12",
    "schema_record": null,
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
    "last_event_count": 0,
-   "content_hash": "a2acac751d7f8063",
+   "content_hash": "af58b14c9632d3b7",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": "2026-10-03"
@@ -263,10 +263,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
-   "last_event_count": 165,
-   "content_hash": "73888891d97f2ba1",
+   "last_event_count": 164,
+   "content_hash": "24101201ee293e27",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -362,10 +362,10 @@
     "generator_model": "manual",
     "version": 2
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
    "last_event_count": 22,
-   "content_hash": "4c3598f46afaf3d0",
+   "content_hash": "37888c4cbaf6e594",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -457,7 +457,7 @@
    "last_error": "fetch: timed out",
    "last_event_count": 3,
    "content_hash": "f76109f25861df2c",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "regenerations": 0,
    "next_generation": null
   },
@@ -538,7 +538,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
    "last_event_count": 30,
    "content_hash": "54d61f0e97123337",
@@ -623,10 +623,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
    "last_event_count": 1,
-   "content_hash": "d322ba6f392e4c77",
+   "content_hash": "000237fbff1b7fe8",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -691,7 +691,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
    "last_event_count": 2,
    "content_hash": "2420947ff1163957",
@@ -760,10 +760,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
    "last_event_count": 9,
-   "content_hash": "5af192f782b1e76d",
+   "content_hash": "12f42e078b4a80a5",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -835,10 +835,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
    "last_event_count": 0,
-   "content_hash": "f372c9247a850dee",
+   "content_hash": "dc721f1992f516f9",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -920,10 +920,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
-   "last_event_count": 6,
-   "content_hash": "10fd7b2d728f96c4",
+   "last_event_count": 11,
+   "content_hash": "f30a0372af9d6f7b",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -998,10 +998,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
-   "last_event_count": 17,
-   "content_hash": "bcdb664c6ffb88db",
+   "last_event_count": 16,
+   "content_hash": "5f59d4624b4e13b4",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1083,10 +1083,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
-   "last_event_count": 24,
-   "content_hash": "63e50733130c4e32",
+   "last_event_count": 30,
+   "content_hash": "d0114175a8624870",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1191,10 +1191,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-09-30",
+   "last_ok": "2026-10-01",
    "last_error": null,
-   "last_event_count": 90,
-   "content_hash": "ef58293d584087f3",
+   "last_event_count": 86,
+   "content_hash": "76db36b108fb3d9f",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

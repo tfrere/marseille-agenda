@@ -15,18 +15,6 @@ LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
 URL:https://musees.marseille.fr/africa-louisa-babari
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Visite libre de la statue de la Bonne Mère
-DTSTART;VALUE=DATE:20260629
-DTEND;VALUE=DATE:20261001
-UID:b0ab99bcf1d0@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visite-libre-de-la
- -statue-de-la-bonne-mere/
-LOCATION:Mucem - Fort Saint-Jean / Tour du Roi René
-URL:https://mucem.org/evenement/visite-libre-de-la-statue-de-la-bonne-mere
- /
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Visites Flash
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20261012
@@ -98,32 +86,6 @@ LOCATION:La Colorada - La Colorada Marsella
 URL:https://www.instagram.com/p/DdUdOUROB0H/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20261013
-UID:ffa8f9bb1a01@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20261012
-UID:43f6dbb22a31@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Glaneuses et Glaneurs
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20261005
@@ -165,16 +127,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cœurs Sombres | Cycle cinéma
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-UID:0f09aeeba53a@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/coeurs-sombres-cycle-cinema/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/coeurs-sombres-cycle-cinema/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261015
@@ -185,16 +137,6 @@ DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
  -kikifruit/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VIVANT.E.S en itinérance
-DTSTART;TZID=Europe/Paris:20260930T100000
-DTEND;TZID=Europe/Paris:20260930T120000
-UID:9f66c53628b4@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/vivant-e-s-en-itinerance/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/vivant-e-s-en-itinerance/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -211,18 +153,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bookflux - Cartographie
-DTSTART;TZID=Europe/Paris:20260930T140000
-DTEND;TZID=Europe/Paris:20260930T200000
-UID:c4f3bedd0284@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/94317290_bookflux-cartographie
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/94317290_book
- flux-cartographie
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Glaneuses et glaneurs
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261005
@@ -234,43 +164,6 @@ DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
  /www.lafriche.org/evenements/glaneuses-et-glaneurs/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:★ Jeune public | Atelier stop-motion
-DTSTART;TZID=Europe/Paris:20260930T140000
-DTEND;TZID=Europe/Paris:20260930T160000
-UID:e3d71b56a1c9@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/%e2%98%85-jeune-public-atelier-stop
- -motion-3/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/%e2%98%85-jeune-public-atelier-stop-motion-
- 3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Annulé : Lectures en salle
-DTSTART;TZID=Europe/Paris:20260930T163000
-DTEND;TZID=Europe/Paris:20260930T170000
-UID:220975a515de@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/18276390_lectures-en-salle-1763195
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/18276390_lect
- ures-en-salle-1763195
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les Mercredis de l'Imaginaire
-DTSTART;TZID=Europe/Paris:20260930T170000
-DTEND;TZID=Europe/Paris:20260930T190000
-UID:b7a9cee38f40@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/27368939_les-mercredis-de-limagina
- ire
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/27368939_les-
- mercredis-de-limaginaire
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CLUB DE DESSIN
@@ -286,19 +179,6 @@ LOCATION:La Colorada
 URL:https://www.instagram.com/p/DdW7GkytFy7/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marseille et sa Major : 1600 ans d’une histoire partagée
-DTSTART;TZID=Europe/Paris:20260930T180000
-DTEND;TZID=Europe/Paris:20260930T193000
-UID:2e6aaacf678d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/62961129_marseille-et-sa-major-160
- 0-ans-dune-histoire-partagee
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/62961129_mars
- eille-et-sa-major-1600-ans-dune-histoire-partagee
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Festival actoral
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261011
@@ -312,17 +192,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/festival-actoral-5/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cœurs Sombres | Senso de Luchino Visconti
-DTSTART;TZID=Europe/Paris:20260930T193000
-DTEND;TZID=Europe/Paris:20260930T213000
-UID:3f33f987efa3@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/coeurs-sombres-senso-de-luchino-vis
- conti/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/coeurs-sombres-senso-de-luchino-visconti/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:L’ornement dans les arts de l’Islam
 DTSTART;TZID=Europe/Paris:20261001T090000
 DTEND;TZID=Europe/Paris:20261001T171500
@@ -332,6 +201,18 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/lornement-dans-les
  -arts-de-lislam/
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/lornement-dans-les-arts-de-lislam/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261016
+UID:90804fba2bfe@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
@@ -344,6 +225,20 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/atelier-decriture/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261012
+UID:458d72c1e9c8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Permanence juridique et syndicale de l’Union Locale CNT 13
 DTSTART;TZID=Europe/Paris:20261001T120000
 DTEND;TZID=Europe/Paris:20261001T140000
@@ -353,6 +248,19 @@ DESCRIPTION:https://www.millebabords.org/spip.php?article42242
 LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
  le
 URL:https://www.millebabords.org/spip.php?article42242
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glaneuses et glaneurs
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261005
+UID:71707c13ff00@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
+ Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
+ é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
+ /www.lafriche.org/evenements/glaneuses-et-glaneurs/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Présentation de "Jeune et ambitieux"
@@ -645,10 +553,11 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/43970191_jouo
  ns-5592181
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Visites guidées des nouveaux espaces jeunesse et musique
+SUMMARY:Visites guidées des nouveaux espaces Musique et Enfance et jeunes
+ se
 DTSTART;TZID=Europe/Paris:20261003T150000
 DTEND;TZID=Europe/Paris:20261003T160000
-UID:b35365ef56d2@marseille-agenda
+UID:7a1caa662650@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
  a.com/bibliotheques-de-marseille/events/43468936_visites-guidees-des-nouve
@@ -796,19 +705,6 @@ DESCRIPTION:Avant-première dans le cadre de la reprise de l’ACID Cannes
  s://cinemalegyptis.org/films/mauvaise-etoile/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/mauvaise-etoile/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Etcetera Etcetera | Phone game\, scroll moi\, touche moi\, please 
- leave a message\, etcetera etcetera.
-DTSTART;TZID=Europe/Paris:20261004T190000
-DTEND;TZID=Europe/Paris:20261004T210000
-UID:542d8aa4b541@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/etcetera-etcetera-phone-game-scroll
- -moi-touche-moi-please-leave-a-message-etcetera-etcetera/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/etcetera-etcetera-phone-game-scroll-moi-tou
- che-moi-please-leave-a-message-etcetera-etcetera/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Etcetera Etcetera | scroll me\, touch me\, sorry I can't hear you
@@ -1069,6 +965,18 @@ URL:https://www.videodrome2.fr/seminaire-migrations-ecritures-sensibles-tr
  availler-en-films/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:David Yon | Discussion : Robert Kramer\, une quête incandescente
+DTSTART;TZID=Europe/Paris:20261008T193000
+DTEND;TZID=Europe/Paris:20261008T213000
+UID:64352132d268@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/david-yon-discussion-robert-kramer-
+ une-quete-incandescente/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/david-yon-discussion-robert-kramer-une-quet
+ e-incandescente/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[happy hours] FINI DE RIRE ! L'humour politique au garde-à-vous |
   avec M. Larroque et des humoristes
 DTSTART;TZID=Europe/Paris:20261008T200000
@@ -1095,6 +1003,17 @@ DESCRIPTION:Powerpop concert featuring THE GOODS\, JOEL CUSUMANO from Cali
  cash seulement)\nhttps://www.instagram.com/p/DdT2lQTOzZ2/
 LOCATION:L'Intermédiaire - intermédiaire 63 la plaine
 URL:https://www.instagram.com/p/DdT2lQTOzZ2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:David Yon | Projection : Ne me guéris jamais
+DTSTART;TZID=Europe/Paris:20261008T203000
+DTEND;TZID=Europe/Paris:20261008T223000
+UID:c1d2a3d0be11@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/david-yon-projection-ne-me-gueris-j
+ amais/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/david-yon-projection-ne-me-gueris-jamais/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Yeux Ouverts | 3e Rencontres Documentaires à Marseille
@@ -1249,15 +1168,15 @@ BEGIN:VEVENT
 SUMMARY:Festival Bruits Roses - créations radiophoniques méditerranéenn
  es
 DTSTART;TZID=Europe/Paris:20261010T100000
-DTEND;TZID=Europe/Paris:20261010T133000
+DTEND;TZID=Europe/Paris:20261010T130000
 UID:004736638175@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/97884369_festival-bruits-roses-889
- 6746
+ a.com/bibliotheques-de-marseille/events/69358924_festival-bruits-roses-961
+ 7717
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/97884369_fest
- ival-bruits-roses-8896746
+URL:https://openagenda.com/bibliotheques-de-marseille/events/69358924_fest
+ ival-bruits-roses-9617717
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures aux tout-petits
@@ -1457,6 +1376,20 @@ LOCATION:Mucem - J4 / Esplanade
 URL:https://mucem.org/evenement/destination-fiesta-avec-le-mucem/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Marcel Ophuls\, cinéaste et historien | Veillées d'armes : Hist
+ oire du journalisme en temps de guerre – Premier Voyage
+DTSTART;TZID=Europe/Paris:20261011T170000
+DTEND;TZID=Europe/Paris:20261011T190000
+UID:29028c1e7794@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien
+ -veillees-darmes-histoire-du-journalisme-en-temps-de-guerre-premier-voyage
+ /
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien-veillee
+ s-darmes-histoire-du-journalisme-en-temps-de-guerre-premier-voyage/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La guerra inizia qui
 DTSTART;TZID=Europe/Paris:20261011T180000
 DTEND;TZID=Europe/Paris:20261011T200000
@@ -1466,6 +1399,20 @@ DESCRIPTION:Suivie d’une rencontre avec les réalisateurs Julien O’Mie
  l et Perin Caspal.\nhttps://cinemalegyptis.org/films/la-guerra-inizia-qui/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/la-guerra-inizia-qui/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marcel Ophuls\, cinéaste et historien | Veillées d'armes : Hist
+ oire du journalisme en temps de guerre – Deuxième Voyage
+DTSTART;TZID=Europe/Paris:20261011T193000
+DTEND;TZID=Europe/Paris:20261011T213000
+UID:d0d77706e8e1@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien
+ -veillees-darmes-histoire-du-journalisme-en-temps-de-guerre-deuxieme-voyag
+ e/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien-veillee
+ s-darmes-histoire-du-journalisme-en-temps-de-guerre-deuxieme-voyage/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FOREVER NU!
@@ -1526,6 +1473,29 @@ URL:https://mucem.org/evenement/ouverture-officielle-ahlam-saghira-petits-
  reves/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival Aflam | 13ème édition
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+UID:25553243c922@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-aflam-13eme-edition/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-aflam-13eme-edition/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Aflam | Affluents : Khabur + Bleu gris + Beneath Which Ri
+ vers Flow
+DTSTART;TZID=Europe/Paris:20261013T180000
+DTEND;TZID=Europe/Paris:20261013T200000
+UID:03c332c57245@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-aflam-affluents-khabur-ble
+ u-gris-beneath-which-rivers-flow/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-aflam-affluents-khabur-bleu-gris-b
+ eneath-which-rivers-flow/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:R·M·F.C + TECHNOPOLICE
 DTSTART;TZID=Europe/Paris:20261013T203000
 DTEND;TZID=Europe/Paris:20261013T223000
@@ -1536,6 +1506,17 @@ DESCRIPTION:Concert featuring R·M·F.C (Rock Music Football Club) and Tec
  en en bio)\n10€ sur place\nhttps://www.instagram.com/p/DdOQuQ1O1eK/
 LOCATION:L'Intermédiaire - L'Intermédiaire
 URL:https://www.instagram.com/p/DdOQuQ1O1eK/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Aflam | Un bonheur hydroélectrique
+DTSTART;TZID=Europe/Paris:20261013T203000
+DTEND;TZID=Europe/Paris:20261013T223000
+UID:c65ce463cba3@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-aflam-un-bonheur-hydroelec
+ trique/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-aflam-un-bonheur-hydroelectrique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Petits Mercredis
@@ -1625,6 +1606,17 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/83981426_lect
  ures-en-salle-3782666
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Petite Casbah
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261024
+UID:40b193e081d0@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection dans le cadre du festival Cinémanimé\nhttps://cin
+ emalegyptis.org/films/petite-casbah/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/petite-casbah/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Projection Escales INA - À Beyrouth suivie de Zghorta
 DTSTART;TZID=Europe/Paris:20261014T170000
 DTEND;TZID=Europe/Paris:20261014T181000
@@ -1665,6 +1657,16 @@ LOCATION:La Baleine - 59 Cours Julien\, 13006 Marseille\, France
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival Aflam | Al Ahwar (Les Marais)
+DTSTART;TZID=Europe/Paris:20261014T180000
+DTEND;TZID=Europe/Paris:20261014T200000
+UID:fdc3e7b7d4ba@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-aflam-al-ahwar-les-marais/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-aflam-al-ahwar-les-marais/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:STONE HORNS + Not Yours + Angel Guts
 DTSTART;TZID=Europe/Paris:20261014T200000
 DTEND;TZID=Europe/Paris:20261014T220000
@@ -1674,6 +1676,18 @@ DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/stone-horns-not-you
  rs-angel-guts/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/stone-horns-not-yours-angel-guts/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Aflam | Courts-métrages de Kassem Hawal
+DTSTART;TZID=Europe/Paris:20261014T203000
+DTEND;TZID=Europe/Paris:20261014T223000
+UID:a8fd33a78ae2@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-aflam-courts-metrages-de-k
+ assem-hawal/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-aflam-courts-metrages-de-kassem-ha
+ wal/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[CineHorizontes] QUEER ME d'Irene B. Carramiñana |  avec l'équip
@@ -1721,6 +1735,19 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/alea-jacarandas/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/alea-jacarandas/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;TZID=Europe/Paris:20261015T153000
+DTEND;TZID=Europe/Paris:20261015T173000
+UID:2f26e32f2aad@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
+  et découvrir toutes les facettes des jeux vidéo indépendants et artist
+ iques\, créer et jouer ensemble ! Une proposition de CHRONIQUES\nPrix : G
+ ratuit !\nhttps://www.lafriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rencontre autour du don d'organe
@@ -1915,6 +1942,17 @@ URL:https://mucem.org/evenement/table-ronde-diffuser-le-cinema-de-patrimoi
  ne-des-pays-arabes-un-geste-politique/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le monde à l’envers
+DTSTART;TZID=Europe/Paris:20261017T110000
+DTEND;TZID=Europe/Paris:20261017T130000
+UID:52a49a7de529@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection dans le cadre du festival Cinémanimé\nhttps://cin
+ emalegyptis.org/films/le-monde-a-lenvers/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/le-monde-a-lenvers/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visites guidées en LSF de «Mossi\, la mode aussi »
 DTSTART;TZID=Europe/Paris:20261017T110000
 DTEND;TZID=Europe/Paris:20261017T123000
@@ -2004,6 +2042,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le monde à l’envers
+DTSTART;TZID=Europe/Paris:20261018T110000
+DTEND;TZID=Europe/Paris:20261018T130000
+UID:b91f3d8d5a4d@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection dans le cadre du festival Cinémanimé\nhttps://cin
+ emalegyptis.org/films/le-monde-a-lenvers/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/le-monde-a-lenvers/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Séance de courts métrages #3
@@ -2224,6 +2273,17 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/13061020_lect
  ures-en-salle-6400715
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:In Waves
+DTSTART;TZID=Europe/Paris:20261021T170000
+DTEND;TZID=Europe/Paris:20261021T190000
+UID:f61f6cc96f38@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection dans le cadre du festival Cinémanimé\nhttps://cin
+ emalegyptis.org/films/in-waves/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/in-waves/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LEO MIDDEA (Full Band) – Deuxième date
 DTSTART;TZID=Europe/Paris:20261021T190000
 DTEND;TZID=Europe/Paris:20261021T210000
@@ -2269,6 +2329,21 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/matrimoine-textile
  -en-provence/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/matrimoine-textile-en-provence/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dernier coup de chapeau pour Capelito
+DTSTART;TZID=Europe/Paris:20261022T140000
+DTEND;TZID=Europe/Paris:20261022T160000
+UID:cf6604ab73f7@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Avant-première dans le cadre du festival Cinémanimé Suivie 
+ d’un atelier gratuit / sur inscription : ateliersducinema@lafriche.org 
+ – à partir de 4 ans – 10 places Les enfants seront amenés à découv
+ rir le principe de la stop-motion en anim...\nhttps://cinemalegyptis.org/f
+ ilms/dernier-coup-de-chapeau-pour-capelito/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/dernier-coup-de-chapeau-pour-capelito
+ /
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ciné-jeune

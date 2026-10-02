@@ -10,9 +10,10 @@ DTEND;VALUE=DATE:20270104
 UID:3f00f5332384@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/africa-louisa-baba
- ri
+ ri?museum=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/africa-louisa-babari
+URL:https://musees.marseille.fr/africa-louisa-babari?museum=musee-dart-con
+ temporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites Flash
@@ -56,9 +57,10 @@ DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/voix-publiques-lou
- isa-babari
+ isa-babari?museum=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
+ dart-contemporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -99,32 +101,6 @@ DESCRIPTION:Collective exhibition by graduates of Beaux-Arts de Marseille
 LOCATION:Friche la Belle de Mai
 URL:https://www.facebook.com/friche.labelledemai/posts/pfbid029Apt8dYTpwEe
  4rsuck3y8tSLSj2aDcPdcoZeCKprrJ52XYvGWgKVrWBzuuVKKAmgl
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20261014
-UID:d40355eb3a0c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20261012
-UID:448391f946b1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
@@ -192,17 +168,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/festival-actoral-5/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:L’ornement dans les arts de l’Islam
-DTSTART;TZID=Europe/Paris:20261001T090000
-DTEND;TZID=Europe/Paris:20261001T171500
-UID:bba0bcfca4b2@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/lornement-dans-les
- -arts-de-lislam/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/lornement-dans-les-arts-de-lislam/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261016
@@ -213,16 +178,6 @@ DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
  -kikifruit/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier d'écriture
-DTSTART;TZID=Europe/Paris:20261001T103000
-DTEND;TZID=Europe/Paris:20261001T123000
-UID:4b36e4236b5b@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/atelier-decriture/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -239,17 +194,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Permanence juridique et syndicale de l’Union Locale CNT 13
-DTSTART;TZID=Europe/Paris:20261001T120000
-DTEND;TZID=Europe/Paris:20261001T140000
-UID:beacbfd2c4a8@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.millebabords.org/spip.php?article42242
-LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
- le
-URL:https://www.millebabords.org/spip.php?article42242
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Glaneuses et glaneurs
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261005
@@ -261,30 +205,6 @@ DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
  /www.lafriche.org/evenements/glaneuses-et-glaneurs/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Jeune et ambitieux"
-DTSTART;TZID=Europe/Paris:20261001T190000
-DTEND;TZID=Europe/Paris:20261001T210000
-UID:1a5a94bb9b29@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Jeune-et-ambitie
- ux
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Jeune-et-ambitieux
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:25 ans du Polygone Étoilé | La subtile mémoire des humains du r
- ivage : Panier CinéJournal
-DTSTART;TZID=Europe/Paris:20261001T203000
-DTEND;TZID=Europe/Paris:20261001T223000
-UID:6aa5eff4a572@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/25-ans-du-polygone-etoile-la-subtil
- e-memoire-des-humains-du-rivage-panier-cinejournal/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/25-ans-du-polygone-etoile-la-subtile-memoir
- e-des-humains-du-rivage-panier-cinejournal/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:REPRISES ACID CANNES 2026
@@ -330,6 +250,45 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/lornement-dans-les
  -arts-de-lislam/
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/lornement-dans-les-arts-de-lislam/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261017
+UID:80853675c59d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261012
+UID:31319e4dae40@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glaneuses et glaneurs
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261005
+UID:6c944b46bd35@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
+ Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
+ é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
+ /www.lafriche.org/evenements/glaneuses-et-glaneurs/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La noire de... | Bibliothèques de Marseille
@@ -1125,19 +1084,6 @@ URL:https://www.lafriche.org/evenements/al-beyt-au-petit-cab-bu-nassers-li
  ve/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Al Beyt au Petit Cab : Bu Nasser’s live
-DTSTART;TZID=Europe/Paris:20261009T233000
-DTEND;TZID=Europe/Paris:20261009T043000
-UID:9b8c7a00a448@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les diasporas en mouvement\, les basses en commun. Une proposi
- tion de Bi:Pole\nhttps://www.lafriche.org/evenements/al-beyt-au-petit-cab-
- bu-nassers-live/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/al-beyt-au-petit-cab-bu-nassers-li
- ve/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FamilyTech
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
@@ -1315,16 +1261,16 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/3182083_on-ne
  -laisse-pas-bebe-dans-un-coin
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Conférence gesticulée : « Nous produisons\, nous décidons 
- » Écrire la partition d’un monde post-capitaliste
-DTSTART;TZID=Europe/Paris:20261010T183000
-DTEND;TZID=Europe/Paris:20261010T203000
-UID:1cfea82d7404@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.millebabords.org/spip.php?article42197
-LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
- le
-URL:https://www.millebabords.org/spip.php?article42197
+SUMMARY:Journée Régionale de Capoeira
+DTSTART;TZID=Europe/Paris:20261010T180000
+DTEND;TZID=Europe/Paris:20261010T233000
+UID:e9e8ddd55078@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Tout le monde en mouvement\, grâce à la Capoeira. Une propos
+ ition de Comité Régional FSCF Provence-Alpes-Côte d'Azur\nhttps://www.l
+ afriche.org/evenements/journee-regionale-de-capoeira/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/journee-regionale-de-capoeira/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Imaginaires Documentaires | Hotel Metalurg
@@ -1534,8 +1480,8 @@ URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
-DTSTART;TZID=Europe/Paris:20261014T103000
-DTEND;TZID=Europe/Paris:20261014T123000
+DTSTART;TZID=Europe/Paris:20261014T100000
+DTEND;TZID=Europe/Paris:20261014T120000
 UID:01ca61b1494c@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
@@ -1570,8 +1516,8 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/70524397_fest
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
-DTSTART;TZID=Europe/Paris:20261014T153000
-DTEND;TZID=Europe/Paris:20261014T173000
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261017
 UID:94a8b8cda50f@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
@@ -1737,19 +1683,6 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/alea-jacarandas/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;TZID=Europe/Paris:20261015T153000
-DTEND;TZID=Europe/Paris:20261015T173000
-UID:2f26e32f2aad@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
-  et découvrir toutes les facettes des jeux vidéo indépendants et artist
- iques\, créer et jouer ensemble ! Une proposition de CHRONIQUES\nPrix : G
- ratuit !\nhttps://www.lafriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rencontre autour du don d'organe
 DTSTART;TZID=Europe/Paris:20261015T170000
 DTEND;TZID=Europe/Paris:20261015T190000
@@ -1857,6 +1790,20 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/48573828_cycl
  e-traduction-dominique-vittoz
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Projection-débat : « Vivre avec le risque inondation »
+DTSTART;TZID=Europe/Paris:20261016T180000
+DTEND;TZID=Europe/Paris:20261016T200000
+UID:df99619ff412@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une soirée pour s'informer et se préparer face au risque inn
+ ondation. Une proposition de l'EPAGE HuCA et l'Atelier Bleu – CPIE Côte
+  Provençale\nhttps://www.lafriche.org/evenements/projection-debat-vivre-a
+ vec-le-risque-inondation/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/projection-debat-vivre-avec-le-ris
+ que-inondation/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Le Rendez-vous de la Création Radiophonique | Personne ne se souv
  iendra de nous
 DTSTART;TZID=Europe/Paris:20261016T180000
@@ -1914,6 +1861,19 @@ DESCRIPTION:https://www.videodrome2.fr/biennale-de-la-culture-cubaine-am-p
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/biennale-de-la-culture-cubaine-am-pm-de-ale
  jandro-gil/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MYD + Pastel
+DTSTART;TZID=Europe/Paris:20261016T233000
+DTEND;TZID=Europe/Paris:20261016T043000
+UID:2638a78126a4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:EXTRA invite MYD à Marseille pour une nuit entre French Touch
+ \, house et énergie dancefloor\, avec Pastel en warm up au Petit Cab. Une
+  proposition de Bi:Pole\nhttps://www.lafriche.org/evenements/myd-pastel-pe
+ tit-cab/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/myd-pastel-petit-cab/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures aux tout-petits
@@ -2219,6 +2179,19 @@ SUMMARY:Présentation de "Nous ne sommes pas des chiffres : Les voix de l
 DTSTART;TZID=Europe/Paris:20261020T190000
 DTEND;TZID=Europe/Paris:20261020T210000
 UID:2f3f0acc0673@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Nous-ne-sommes-p
+ as-des-chiffres-Les-voix-de-la-jeunesse-de-Gaza
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Nous-ne-sommes-pas-des-c
+ hiffres-Les-voix-de-la-jeunesse-de-Gaza
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présentation de "Nous ne sommes pas des chiffres : Les voix de l
+ a jeunesse de Gaza" de Ahmed Alnaouq et Pam Bailey
+DTSTART;TZID=Europe/Paris:20261020T190000
+DTEND;TZID=Europe/Paris:20261020T210000
+UID:84e2bf0e717a@marseille-agenda
 CATEGORIES:milite
 DESCRIPTION:https://transit-librairie.org/Presentation-de-Nous-ne-sommes-p
  as-des-chiffres-Les-voix-de-la-jeunesse-de-Gaza
@@ -2643,6 +2616,18 @@ DESCRIPTION:https://lafabulerie.com/agenda/cartographier-nos-territoires-a
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
  n-nadine/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digérer l'Art : pratiques iconophages contemporaines
+DTSTART;TZID=Europe/Paris:20261028T140000
+DTEND;TZID=Europe/Paris:20261028T180000
+UID:a8149e91bee3@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/digerer-lart-prati
+ ques-iconophages-contemporaines/
+LOCATION:Mucem - Fort Saint-Jean / MucemLab
+URL:https://mucem.org/evenement/digerer-lart-pratiques-iconophages-contemp
+ oraines/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -3319,6 +3304,18 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/67093975_lect
  ures-en-salle-5513746
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Maghreb des anthropologues : acteurs\, pratiques et espaces
+DTSTART;TZID=Europe/Paris:20261119T090000
+DTEND;TZID=Europe/Paris:20261119T180000
+UID:05b8c17334ee@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/maghreb-des-anthro
+ pologues-acteurs-pratiques-et-espaces/
+LOCATION:Mucem - Fort Saint-Jean / MucemLab
+URL:https://mucem.org/evenement/maghreb-des-anthropologues-acteurs-pratiqu
+ es-et-espaces/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:MASSIMO SILVERIO + Misé Babilha
 DTSTART;TZID=Europe/Paris:20261119T200000
 DTEND;TZID=Europe/Paris:20261119T220000
@@ -3433,12 +3430,14 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:6 + (1+1+1) / Morellet mis à neuf
 DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20280131
 UID:6bff3843c472@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/morellet
+DESCRIPTION:Prix : Gratuit\nhttps://musees.marseille.fr/morellet?museum=mu
+ see-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
-URL:https://musees.marseille.fr/morellet
+URL:https://musees.marseille.fr/morellet?museum=musee-dart-contemporain-ma
+ c-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allo\, à l’eau ?! - Exposition sonore à Saint-Germain-de-Calbe
@@ -3603,6 +3602,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20261206T100000
+DTEND;TZID=Europe/Paris:20261206T180000
+UID:050c89846a3c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
@@ -3937,6 +3947,17 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-gouter-des-images/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270103T100000
+DTEND;TZID=Europe/Paris:20270103T180000
+UID:ca9fa3bd2d0d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Le goûter des images
 DTSTART;TZID=Europe/Paris:20270103T160000
 DTEND;TZID=Europe/Paris:20270103T173000
@@ -4081,6 +4102,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/rever-la-mediterranee/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/rever-la-mediterranee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270207T100000
+DTEND;TZID=Europe/Paris:20270207T180000
+UID:932d0ccf2e6b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 3 - Watteau\, un peintre à la mode
@@ -4242,6 +4274,17 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/lou-petit/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270307T100000
+DTEND;TZID=Europe/Paris:20270307T180000
+UID:b8a2fa5e0c36@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270313T103000
 DTEND;TZID=Europe/Paris:20270313T111500
@@ -4353,6 +4396,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-paysans/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270404T100000
+DTEND;TZID=Europe/Paris:20270404T180000
+UID:b38a2e5a964d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 5 - Peinture et sculpture : Frères ennemis ou liens intimes
@@ -4502,6 +4556,17 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270502T100000
+DTEND;TZID=Europe/Paris:20270502T180000
+UID:ebe5abd9b87b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cycle 5 - Peinture et sculpture : Frères ennemis ou liens intimes
   ? XIXe - XXe siècles
 DTSTART;TZID=Europe/Paris:20270503T140000
@@ -4628,6 +4693,17 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270606T100000
+DTEND;TZID=Europe/Paris:20270606T180000
+UID:4c79f4d23863@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby PaySans
 DTSTART;TZID=Europe/Paris:20270612T103000
 DTEND;TZID=Europe/Paris:20270612T111500
@@ -4670,6 +4746,39 @@ URL:https://openagenda.com/bibliotheques-de-marseille/events/4318409_drive
  -my-car-1397716
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270704T100000
+DTEND;TZID=Europe/Paris:20270704T180000
+UID:760d8146a01a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270801T100000
+DTEND;TZID=Europe/Paris:20270801T180000
+UID:86d58746204b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20270905T100000
+DTEND;TZID=Europe/Paris:20270905T180000
+UID:8f36dab099ea@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Au nom du peuple italien
 DTSTART;TZID=Europe/Paris:20270911T140000
 DTEND;TZID=Europe/Paris:20270911T170000
@@ -4680,5 +4789,38 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheques-de-marseille/events/41887281_au-n
  om-du-peuple-italien
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20271003T100000
+DTEND;TZID=Europe/Paris:20271003T180000
+UID:fa32a2183884@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20271107T100000
+DTEND;TZID=Europe/Paris:20271107T180000
+UID:b5985a17eb34@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dimanche entrée libre
+DTSTART;TZID=Europe/Paris:20271205T100000
+DTEND;TZID=Europe/Paris:20271205T180000
+UID:5e82490c1bb3@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
+ bre/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 END:VCALENDAR

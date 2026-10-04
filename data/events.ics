@@ -115,45 +115,6 @@ LOCATION:La Colorada
 URL:https://www.instagram.com/p/DdW7GkytFy7/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261016
-UID:90804fba2bfe@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261012
-UID:458d72c1e9c8@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Glaneuses et glaneurs
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261005
-UID:71707c13ff00@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pour la cinquième année consécutive\, l’école des Beaux-
- Arts de Marseille a le plaisir de présenter l’exposition de ses diplôm
- é·es. Une proposition de l’école des Beaux-Arts de Marseille\nhttps:/
- /www.lafriche.org/evenements/glaneuses-et-glaneurs/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:REPRISES ACID CANNES 2026
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
@@ -205,32 +166,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/glaneuses-et-glaneurs/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:L'exposition " Bouches à Oreilles" s'invite à la Fête de la Sci
- ence !
-DTSTART;TZID=Europe/Paris:20261003T000000
-DTEND;TZID=Europe/Paris:20261003T020000
-UID:a42cc86613bc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-
- sinvite-a-la-fete-de-la-science/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/lexposition-bouches-a-oreilles-sinvite-
- a-la-fete-de-la-science/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lectures aux tout-petits
-DTSTART;TZID=Europe/Paris:20261003T100000
-DTEND;TZID=Europe/Paris:20261003T103000
-UID:4edf62050fbd@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/74158691_lectures-aux-tout-petits-
- 6186054
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/74158691_lect
- ures-aux-tout-petits-6186054
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Unworlding
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261012
@@ -245,57 +180,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horizons partagés
-DTSTART;TZID=Europe/Paris:20261003T130000
-DTEND;TZID=Europe/Paris:20261003T150000
-UID:3d88913ccc00@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/horizons-partages-bien-dans-ma-tet
- e/
-LOCATION:Mucem - J4 / Galerie des collections - R+2
-URL:https://mucem.org/evenement/horizons-partages-bien-dans-ma-tete/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Annulé Fête de la science
-DTSTART;TZID=Europe/Paris:20261003T140000
-DTEND;TZID=Europe/Paris:20261003T150000
-UID:e2094d33c305@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/69299024_fete-de-la-science-324036
- 1
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/69299024_fete
- -de-la-science-3240361
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:L’Alcazar se transforme : Créez le futur Studio de Création av
- ec nous !
-DTSTART;TZID=Europe/Paris:20261003T140000
-DTEND;TZID=Europe/Paris:20261003T170000
-UID:569bdb534e87@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/32392089_lalcazar-se-transforme-cr
- eez-le-futur-studio-de-creation-avec-nous
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/32392089_lalc
- azar-se-transforme-creez-le-futur-studio-de-creation-avec-nous
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;TZID=Europe/Paris:20261003T140000
-DTEND;TZID=Europe/Paris:20261003T153000
-UID:9a3e9ae90f28@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
-  et découvrir toutes les facettes des jeux vidéo indépendants et artist
- iques\, créer et jouer ensemble ! Une proposition de CHRONIQUES\nPrix : G
- ratuit !\nhttps://www.lafriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261018
@@ -306,100 +190,6 @@ DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
  -kikifruit/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le forum associatif
-DTSTART;TZID=Europe/Paris:20261003T143000
-DTEND;TZID=Europe/Paris:20261003T183000
-UID:9d54b9021f7e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/le-forum-associati
- f/
-LOCATION:Mucem - J4 / Forum
-URL:https://mucem.org/evenement/le-forum-associatif/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Annulé : Jeux de société
-DTSTART;TZID=Europe/Paris:20261003T150000
-DTEND;TZID=Europe/Paris:20261003T170000
-UID:e4feeaa9934e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/65032286_jeux-de-societe-5904632
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/65032286_jeux
- -de-societe-5904632
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Jouons !
-DTSTART;TZID=Europe/Paris:20261003T150000
-DTEND;TZID=Europe/Paris:20261003T170000
-UID:0f03baad9573@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/43970191_jouons-5592181
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/43970191_jouo
- ns-5592181
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visites guidées des nouveaux espaces Musique et Enfance et jeunes
- se
-DTSTART;TZID=Europe/Paris:20261003T150000
-DTEND;TZID=Europe/Paris:20261003T160000
-UID:7a1caa662650@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/43468936_visites-guidees-des-nouve
- aux-espaces-jeunesse-et-musique
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/43468936_visi
- tes-guidees-des-nouveaux-espaces-jeunesse-et-musique
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NumériTech
-DTSTART;TZID=Europe/Paris:20261003T153000
-DTEND;TZID=Europe/Paris:20261003T173000
-UID:80aee10655fd@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:À partir de la pratique des jeux vidéo\, des ateliers pour e
- xplorer de manière créative les nouvelles technologies pour mieux les co
- mprendre et les réinventer. Une proposition de CHRONIQUES\nPrix : Gratuit
-  !\nhttps://www.lafriche.org/evenements/numeritech-9/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/numeritech-9/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Soin et hospitalité\, accueillir l’autre
-DTSTART;TZID=Europe/Paris:20261003T153000
-DTEND;TZID=Europe/Paris:20261003T163000
-UID:8acff5076d25@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/soin-et-hospitalit
- e-accueillir-lautre/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/soin-et-hospitalite-accueillir-lautre/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le sens de la mode
-DTSTART;TZID=Europe/Paris:20261003T160000
-DTEND;TZID=Europe/Paris:20261003T173000
-UID:36a57269ef67@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/le-sens-de-la-mode/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/le-sens-de-la-mode/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Quand les traumas se transmettent
-DTSTART;TZID=Europe/Paris:20261003T170000
-DTEND;TZID=Europe/Paris:20261003T180000
-UID:03c9e430fd0d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/quand-les-traumas-
- se-transmettent/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/quand-les-traumas-se-transmettent/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival actoral
@@ -413,54 +203,6 @@ DESCRIPTION:Théâtre\, danse\, performances... une immersion au cœur de
  nts/festival-actoral-5/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/festival-actoral-5/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de la collection "Résonances La courte échelle.éd
- itions transit"  et Résonances n°4 : "Le rôle essentiel des femmes alg
- ériennes dans la guerre de libération Khadidja Belguenbour"
-DTSTART;TZID=Europe/Paris:20261003T173000
-DTEND;TZID=Europe/Paris:20261003T193000
-UID:5ed4a40150fb@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-la-collection-Re
- sonances-La-courte-echelle-editions-transit-et
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-la-collection-Resonances
- -La-courte-echelle-editions-transit-et
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Trop drôle pour mourir de Mamari
-DTSTART;TZID=Europe/Paris:20261003T190000
-DTEND;TZID=Europe/Paris:20261003T201500
-UID:5d7195c93457@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/trop-drole-pour-mourir/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/trop-drole-pour-mourir/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:14 Images | La Quatorzaine de Marseille 2026 (rediffusion)
-DTSTART;TZID=Europe/Paris:20261003T190000
-DTEND;TZID=Europe/Paris:20261003T210000
-UID:daedd98abcc6@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/14-images-la-quatorzaine-de-marseil
- le-2026-rediffusion/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/14-images-la-quatorzaine-de-marseille-2026-
- rediffusion/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Stand High Patrol
-DTSTART;TZID=Europe/Paris:20261003T210000
-DTEND;TZID=Europe/Paris:20261003T013000
-UID:5595946d8282@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Stand High Patrol débarque à Marseille pour une nuit sous ha
- ute tension : Dubadub\, basses profondes et énergie soundsystem. Une prop
- osition de Bi:Pole\nhttps://www.lafriche.org/evenements/stand-high-patrol/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/stand-high-patrol/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:After Stand High Patrol
@@ -485,6 +227,32 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
  bre/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261012
+UID:59bdd9a52955@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261019
+UID:41f55bbae00d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Virages
@@ -642,6 +410,17 @@ DESCRIPTION:Prix : 13€\nhttps://lemolotov.com/events/hippie-death-cult-g
  uest/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/hippie-death-cult-guest/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le combat des lycéens et des étudiants est celui de toute la cla
+ sse ouvrière !
+DTSTART;TZID=Europe/Paris:20261006T200000
+DTEND;TZID=Europe/Paris:20261006T220000
+UID:241aec8014c8@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42283
+LOCATION:Mille Bâbords
+URL:https://www.millebabords.org/spip.php?article42283
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Petits Mercredis
@@ -1410,7 +1189,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Petite Casbah
 DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
 UID:40b193e081d0@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:Projection dans le cadre du festival Cinémanimé\nhttps://cin
@@ -1874,8 +1653,11 @@ DTSTART;TZID=Europe/Paris:20261017T203000
 DTEND;TZID=Europe/Paris:20261017T223000
 UID:97c555ed329b@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Projection dans le cadre du festival AFLAM ·En présence du r
- éalisateur\nhttps://cinemalegyptis.org/films/dial-h-i-s-t-o-r-y/
+DESCRIPTION:Projection dans le cadre du festival AFLAM · En présence du 
+ réalisateur · Garderie proposée pendant la séance par les bénévoles 
+ d’Aflam\, à partir de 5 ans et sur inscription à l’adresse suivante 
+ clemence.hardouin@aflam.fr\nhttps://cinemalegyptis.org/films/dial-h-i-s-t-
+ o-r-y/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/dial-h-i-s-t-o-r-y/
 END:VEVENT
@@ -1889,6 +1671,20 @@ DESCRIPTION:https://lemolotov.com/events/massalia-ska-city-ska-reggae-soul
  -night/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/massalia-ska-city-ska-reggae-soul-night/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mondjali Festival 2026
+DTSTART;TZID=Europe/Paris:20261018T103000
+DTEND;TZID=Europe/Paris:20261018T180000
+UID:3585369b5bf5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une journée festive\, culturelle et solidaire\, ouverte à to
+ utes et tous\, autour d’animations et d’activités pour petit·es et g
+ rand·es. Une proposition de Secours populaire français – Fédération 
+ des Bouches-du-Rhône.\nhttps://www.lafriche.org/evenements/mondjali-festi
+ val-2026/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/mondjali-festival-2026/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -2069,19 +1865,6 @@ DESCRIPTION:Le mardi 20 octobre à 18 h 30\, au Grand Bar du Chapitre\, 4
 LOCATION:Amis du Monde diplomatique - Marseille
 URL:https://www.amis.monde-diplomatique.fr/Cafe-Diplo-a-Marseille-9799.htm
  l
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Nous ne sommes pas des chiffres : Les voix de l
- a jeunesse de Gaza traduit par Zurbach Claude"
-DTSTART;TZID=Europe/Paris:20261020T190000
-DTEND;TZID=Europe/Paris:20261020T210000
-UID:2f3f0acc0673@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Nous-ne-sommes-p
- as-des-chiffres-Les-voix-de-la-jeunesse-de-Gaza
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Nous-ne-sommes-pas-des-c
- hiffres-Les-voix-de-la-jeunesse-de-Gaza
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Présentation de "Nous ne sommes pas des chiffres : Les voix de l
@@ -2479,6 +2262,19 @@ DESCRIPTION:Prix : 12€\nhttps://lemolotov.com/events/hyperactivity-music
  -label-night-3/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/hyperactivity-music-label-night-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Joyeuse Jungle !
+DTSTART;TZID=Europe/Paris:20261025T140000
+DTEND;TZID=Europe/Paris:20261025T160000
+UID:191f6e2035ae@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection dans le cadre du festival Cinémanimé Suivie d’u
+ n atelier gratuit / Sur inscription : ateliersducinema@lafriche.org – à
+  partir de 5 ans – 12 places\nhttps://cinemalegyptis.org/films/joyeuse-j
+ ungle/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/joyeuse-jungle/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:#ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences de la Mart
@@ -3271,18 +3067,6 @@ DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Maghreb des anthropologues : acteurs\, pratiques et espaces
-DTSTART;TZID=Europe/Paris:20261117T090000
-DTEND;TZID=Europe/Paris:20261117T180000
-UID:7e053f60820f@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/maghreb-des-anthro
- pologues-acteurs-pratiques-et-espaces/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/maghreb-des-anthropologues-acteurs-pratiqu
- es-et-espaces/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'écriture

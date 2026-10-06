@@ -75,7 +75,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
    "last_event_count": 2,
    "content_hash": "02a564a0954ecab4",
@@ -103,7 +103,7 @@
    },
    "discovered": "2026-09-12",
    "schema_record": null,
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
    "last_event_count": 0,
    "content_hash": "f4ddca08df22b947",
@@ -263,10 +263,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
-   "last_event_count": 172,
-   "content_hash": "43190dcbba0d8f29",
+   "last_event_count": 174,
+   "content_hash": "e333feec0fc4d030",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -362,10 +362,10 @@
     "generator_model": "manual",
     "version": 2
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
-   "last_event_count": 23,
-   "content_hash": "12994edd59ed5af4",
+   "last_event_count": 28,
+   "content_hash": "4e1c25ef6447891f",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -454,10 +454,10 @@
     "version": 1
    },
    "last_ok": "2026-10-03",
-   "last_error": "fetch: Server error '500 Server Error' for url 'https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+   "last_error": "fetch: timed out",
    "last_event_count": 3,
    "content_hash": "333714ed4f27534d",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "regenerations": 0,
    "next_generation": null
   },
@@ -538,10 +538,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
    "last_event_count": 30,
-   "content_hash": "55bcccfa68bc0b82",
+   "content_hash": "694b8ffcd86e7a2d",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -623,10 +623,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
    "last_event_count": 2,
-   "content_hash": "9fc943e35d38d7e1",
+   "content_hash": "b8d98dcbb155f3d1",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -691,7 +691,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
    "last_event_count": 2,
    "content_hash": "2420947ff1163957",
@@ -760,7 +760,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
    "last_event_count": 5,
    "content_hash": "0326264b37c655c2",
@@ -791,18 +791,11 @@
        "kind": "html",
        "container_selector": null,
        "exclude_selectors": [],
-       "item_selector": "#cnt5244 .content-texte, #cnt5250 .content-texte",
+       "item_selector": "div.bloc",
        "item_mode": "wrapper",
        "fields": {
         "title": {
-         "selector": "",
-         "attr": null,
-         "regex": "(KinoVisions|ACID)",
-         "constant": null,
-         "join": null
-        },
-        "date": {
-         "selector": "",
+         "selector": "strong",
          "attr": null,
          "regex": null,
          "constant": null,
@@ -815,8 +808,8 @@
          "constant": null,
          "join": null
         },
-        "summary": {
-         "selector": "p:nth-of-type(2)",
+        "date": {
+         "selector": "",
          "attr": null,
          "regex": null,
          "constant": null,
@@ -824,23 +817,23 @@
         }
        },
        "date_format": null,
-       "notes": "Two festival blocks identified by their content ids cnt5244 (KinoVisions, 23-27 Sept 2026) and cnt5250 (ACID, 02-04 Oct 2026). Date and title both read from whole-item text since the date text is split across multiple bold tags without whitespace and there's no dedicated title element."
+       "notes": "Induced deterministically from the repeated dated cards of the page."
       }
      ],
-     "notes": "Two festival announcement blocks on the page, each inside a div.content-texte. The first <p> holds the date range in bold text, but for KinoVisions it's split into two separate <strong> tags: '23 - 27 SEPTEMBRE' and '2026' with no space between them in raw text ('SEPTEMBRE2026'). To ensure parsing succeeds, use the whole item text (selector \"\") for date field so both date and surrounding context are available for parsing. The second <p> holds a description mentioning the festival name ('festival KinoVisions', 'ACID'). Other .content-texte blocks only contain a decorative '★' and have no date. Restricted to the two content ids that hold festival text (cnt5244 for KinoVisions, cnt5250 for ACID)."
+     "notes": "Deterministic induction (no model)."
     },
-    "created": "2026-09-13",
-    "validated_against_llm": true,
-    "agreement": 1.0,
-    "generator_model": "anthropic/claude-sonnet-5",
-    "version": 1
+    "created": "2026-10-06",
+    "validated_against_llm": false,
+    "agreement": 0.96,
+    "generator_model": "induction",
+    "version": 2
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
-   "last_event_count": 0,
-   "content_hash": "9c442e2a8a98f9ee",
+   "last_event_count": 2,
+   "content_hash": "0fabe6d6134958fe",
    "consecutive_failures": 0,
-   "regenerations": 0,
+   "regenerations": 1,
    "next_generation": null
   },
   "le-gyptis": {
@@ -920,7 +913,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
    "last_event_count": 13,
    "content_hash": "505074c25e910b91",
@@ -998,10 +991,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
-   "last_event_count": 15,
-   "content_hash": "67cd40304e17f1dc",
+   "last_event_count": 14,
+   "content_hash": "0b267656fe343500",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1083,10 +1076,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
-   "last_event_count": 35,
-   "content_hash": "8b7421564d45345b",
+   "last_event_count": 39,
+   "content_hash": "45fe352711e0b610",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1191,10 +1184,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "last_error": null,
-   "last_event_count": 91,
-   "content_hash": "2df52576790bb103",
+   "last_event_count": 113,
+   "content_hash": "c3d6d253b2ed6435",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

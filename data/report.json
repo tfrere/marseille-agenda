@@ -1,11 +1,11 @@
 {
- "run_date": "2026-10-06",
+ "run_date": "2026-10-07",
  "sources_total": 39,
- "sources_ok": 22,
+ "sources_ok": 23,
  "sources_skipped_unchanged": 0,
- "events_published": 450,
- "events_new": 44,
- "events_rejected_grounding": 92,
+ "events_published": 465,
+ "events_new": 23,
+ "events_rejected_grounding": 93,
  "events_rejected_verifier": 6,
  "events_uncertain": 0,
  "alerts": [
@@ -19,139 +19,139 @@
    "level": "error",
    "venue_id": "manifesten",
    "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook fetch failed 16x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "facebook fetch failed 17x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram fetch failed 16x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "instagram fetch failed 17x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook fetch failed 16x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "facebook fetch failed 17x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
-   "level": "error",
+   "level": "warning",
    "venue_id": "mac-musee-d-art-contemporain",
-   "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
-   "message": "source failed, last verified state kept: fetch: timed out"
+   "source_url": "https://musees.marseille.fr/",
+   "message": "3 consecutive failures on https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0: re-discovering"
+  },
+  {
+   "level": "warning",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "source_url": "https://musees.marseille.fr/",
+   "message": "https://musees.marseille.fr/lagenda-des-musees?museum=musee-dart-contemporain-mac-0 has no upcoming date in its server-rendered text (client-rendered listing); source switched to https://musees.marseille.fr/: 6 cards matched by 'div.bg-color', 5 upcoming events, coverage 0.71, quality 0.86, machine-readable dates"
+  },
+  {
+   "level": "warning",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "source_url": "https://musees.marseille.fr/",
+   "message": "schema induced without a model: 6 cards matched by 'div.bg-color', 5 upcoming events, coverage 0.71, quality 0.86, machine-readable dates"
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa Médiathèque' 2026-10-08: \"Permanence de Mille Bâbords et de sa Médiathèque\" designates drop-in opening hours for the venue and its media library rather than a public event."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa Médiathèque' 2026-10-08: \"Permanence de Mille Bâbords et de sa Médiathèque\" represents opening/drop-in hours for the venue and its media library rather than a specific public event."
   },
   {
    "level": "error",
    "venue_id": "transit-librairie",
    "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook fetch failed 16x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "facebook fetch failed 17x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "l-intermediaire",
    "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram fetch failed 17x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "instagram fetch failed 18x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "l-intermediaire",
    "source_url": "https://www.facebook.com/Intermediaire.live/",
-   "message": "facebook fetch failed 19x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "facebook fetch failed 20x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-baleine",
    "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram fetch failed 17x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "instagram fetch failed 18x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-baleine",
    "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook fetch failed 17x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
-   "message": "schema unhealthy: no items matched"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
-   "message": "schema induced without a model: 24 cards matched by 'div.bloc', 3 upcoming events, coverage 1.00, quality 0.96"
+   "message": "facebook fetch failed 18x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "les-varietes",
    "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram fetch failed 17x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "instagram fetch failed 18x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "les-varietes",
    "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook fetch failed 17x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "facebook fetch failed 18x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "le-gyptis",
    "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram fetch failed 17x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "instagram fetch failed 18x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "le-gyptis",
    "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook fetch failed 17x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "facebook fetch failed 18x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-fabulerie",
    "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram fetch failed 17x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "instagram fetch failed 18x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-fabulerie",
    "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook fetch failed 17x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "facebook fetch failed 18x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Les Yeux Ouverts |\\xa03e Rencontres Documentaires à Marseille' 2026-10-10: The excerpt states the event runs \"du [...] vendredi 9 octobre 2026 au [...] samedi 10 octobre 2026\", contradicting the extracted start_date of 2026-10-10."
+   "message": "verifier rejected 'Les Yeux Ouverts |\\xa03e Rencontres Documentaires à Marseille' 2026-10-10: The start date contradicts the excerpt, which states the event runs \"du [...] vendredi 9 octobre 2026 au [...] samedi 10 octobre 2026\", making the start date 2026-10-09, not 2026-10-10."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Festival Aflam |\\xa013ème édition' 2026-10-14: The excerpt states the event runs \"du [2026-10-13T00:00:00+00:00] mardi 13 octobre 2026 au [2026-10-14T00:00:00+00:00] mercredi 14 octobre 2026\", but the extracted start_date is 2026-10-14 instead of 2026-10-13."
+   "message": "verifier rejected 'Festival Aflam |\\xa013ème édition' 2026-10-14: The excerpt states \"du [2026-10-13T00:00:00+00:00] mardi 13 octobre 2026 au [2026-10-14T00:00:00+00:00] mercredi 14 octobre 2026\", contradicting the extracted start date of 2026-10-14."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected \"L'Appel des chantiers - festival de documentaires de création |\\xa08ème édition\" 2026-10-25: The start date contradicts the excerpt, which states 'du samedi 24 octobre 2026 au dimanche 25 octobre 2026', whereas the extracted start_date is 2026-10-25."
+   "message": "verifier rejected \"L'Appel des chantiers - festival de documentaires de création |\\xa08ème édition\" 2026-10-25: The extracted start_date is 2026-10-25, but the excerpt states the event runs \"du [2026-10-24T00:00:00+00:00] samedi 24 octobre 2026 au [2026-10-25T00:00:00+00:00] dimanche 25 octobre 2026\"."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cycle cinéma | Cinéma expérimental :\\xa0Cinédanse' 2026-10-29: The extracted start_date is 2026-10-29, but the excerpt states the event runs 'du mardi 27 octobre 2026 au jeudi 29 octobre 2026', making 2026-10-27 the start date."
+   "message": "verifier rejected 'Cycle cinéma | Cinéma expérimental :\\xa0Cinédanse' 2026-10-29: The excerpt states the event runs \"du [2026-10-27T00:00:00+00:00] mardi 27 octobre 2026 au [2026-10-29T00:00:00+00:00] jeudi 29 octobre 2026\", so the start date is 2026-10-27, not 2026-10-29."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date 2027-01-20 is actually the end date; the excerpt states 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027'."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The cycle runs 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027', but the extracted start_date is set to the end date '2027-01-20'."
   },
   {
    "level": "warning",
@@ -163,20 +163,20 @@
    "level": "error",
    "venue_id": "la-colorada",
    "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram fetch failed 17x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "instagram fetch failed 18x: apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-colorada",
    "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 23x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+   "message": "facebook fetch failed 24x: apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
   }
  ],
- "llm_calls": 24,
+ "llm_calls": 22,
  "posts_analyzed": 0,
  "apify_runs": 0,
- "images_published": 403,
+ "images_published": 410,
  "images_failed": 0,
- "credits_remaining_usd": 11.0917,
- "run_cost_usd": 0.0193
+ "credits_remaining_usd": 9.1284,
+ "run_cost_usd": 0.0147
 }

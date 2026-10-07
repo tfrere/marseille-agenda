@@ -75,7 +75,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
    "last_event_count": 2,
    "content_hash": "02a564a0954ecab4",
@@ -103,10 +103,10 @@
    },
    "discovered": "2026-09-12",
    "schema_record": null,
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
    "last_event_count": 0,
-   "content_hash": "f4ddca08df22b947",
+   "content_hash": "cb77ac17b546f69f",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": "2026-10-10"
@@ -263,10 +263,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
-   "last_event_count": 174,
-   "content_hash": "e333feec0fc4d030",
+   "last_event_count": 176,
+   "content_hash": "1e49389b71680ddc",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -362,10 +362,10 @@
     "generator_model": "manual",
     "version": 2
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
    "last_event_count": 28,
-   "content_hash": "4e1c25ef6447891f",
+   "content_hash": "4a4a954e99f13344",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -373,91 +373,77 @@
   "mac-musee-d-art-contemporain": {
    "venue_id": "mac-musee-d-art-contemporain",
    "source": {
-    "url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
+    "url": "https://musees.marseille.fr/",
     "kind": "html",
-    "confidence": 0.65,
-    "reasoning": "The dedicated Agenda page for the MAC returns no date-like content (empty/client-rendered with no events), while the Expositions listing page for the same museum filter shows server-rendered upcoming exhibitions with real dates (e.g. Voix publiques Louisa Babari starting 19 sept 2026, Africa Louisa Babari through Jan 2027, La vie climatique through 20 sept 2026). This page is the best available server-rendered source of upcoming public-facing events/exhibitions for the venue since no JSON API or working agenda endpoint was found.",
+    "confidence": 0.55,
+    "reasoning": "The venue has no independent agenda/JSON API; its events are listed on the city-wide \"Agenda des musées\" page filtered by museum=musee-dart-contemporain-mac-0. The page is server-rendered (though with low date-string count) and links to specific upcoming event pages such as the \"Journée d'étude et concert\" event. Standard WP/Events Calendar endpoints returned 404, so no JSON API is available. This filtered agenda page remains the best available server-rendered listing specific to this venue. [2026-10-07] https://musees.marseille.fr/lagenda-des-musees?museum=musee-dart-contemporain-mac-0 has no upcoming date in its server-rendered text (client-rendered listing); source switched to https://musees.marseille.fr/: 6 cards matched by 'div.bg-color', 5 upcoming events, coverage 0.71, quality 0.86, machine-readable dates",
     "sample_titles": [
-     "Voix publiques - Louisa Babari",
-     "Africa - Louisa Babari",
-     "30 ans de collection - La collection et ses invités",
-     "La vie climatique - Histoires sensibles des collections privées, triennale de leur temps"
+     "Journée d'étude et concert \"Objets et continuité des images de l'Algérie antique\"",
+     "Visite en famille autour de l'exposition Louisa Babari - [mac]",
+     "Visites commentées autour de l'exposition Louisa Babari - [mac]",
+     "Visite individuelle commentée des expositions temporaires et des collections - [mac]"
     ],
     "fallback_url": null,
     "instagram": "museesmarseille",
     "facebook": "museesmarseille"
    },
-   "discovered": "2026-09-13",
+   "discovered": "2026-10-07",
    "schema_record": {
     "schema": {
      "rules": [
       {
        "kind": "html",
-       "container_selector": ".views-infinite-scroll-content-wrapper",
+       "container_selector": null,
        "exclude_selectors": [],
-       "item_selector": ".grid__cell:has(.date time)",
+       "item_selector": "div.bg-color",
        "item_mode": "wrapper",
        "fields": {
         "title": {
-         "selector": "h3.title",
+         "selector": "h3.h1-no-serif",
          "attr": null,
          "regex": null,
          "constant": null,
          "join": null
         },
         "url": {
-         "selector": "a.js-link-hover",
+         "selector": "a",
          "attr": "href",
          "regex": null,
          "constant": null,
          "join": null
         },
         "date": {
-         "selector": ".date time:nth-of-type(1)",
+         "selector": "time:first-of-type",
          "attr": "datetime",
          "regex": null,
          "constant": null,
          "join": null
         },
         "end_date": {
-         "selector": ".date time:nth-of-type(2)",
+         "selector": "time:last-of-type",
          "attr": "datetime",
-         "regex": null,
-         "constant": null,
-         "join": null
-        },
-        "location": {
-         "selector": ".place",
-         "attr": null,
-         "regex": null,
-         "constant": null,
-         "join": null
-        },
-        "price": {
-         "selector": ".tag-wrapper .tag",
-         "attr": null,
          "regex": null,
          "constant": null,
          "join": null
         }
        },
        "date_format": null,
-       "notes": "Cards without a <time> element (permanent collection) are excluded by the :has(.date time) requirement."
+       "notes": "Induced deterministically from the repeated dated cards of the page."
       }
      ],
-     "notes": "Page lists exhibitions as cards inside .views-infinite-scroll-content-wrapper. Each card is a .grid__cell containing a .bk-card. One card is \"Exposition permanente\" (no time tags) and must be excluded via item_selector requiring a time element. The 4th card (permanent collection) has no <time> so it's excluded by selecting only cards that contain .date time. Start date is first <time datetime> in .date div; end date is second one."
+     "notes": "Deterministic induction (no model)."
     },
-    "created": "2026-09-13",
-    "validated_against_llm": true,
-    "agreement": 1.0,
-    "generator_model": "anthropic/claude-sonnet-5",
+    "created": "2026-10-07",
+    "validated_against_llm": false,
+    "agreement": 0.857,
+    "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-03",
-   "last_error": "fetch: timed out",
-   "last_event_count": 3,
-   "content_hash": "333714ed4f27534d",
-   "consecutive_failures": 3,
+   "last_ok": "2026-10-07",
+   "last_error": null,
+   "last_event_count": 5,
+   "content_hash": "947b17d6ca7b1ecc",
+   "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
   },
@@ -538,10 +524,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
    "last_event_count": 30,
-   "content_hash": "694b8ffcd86e7a2d",
+   "content_hash": "9e80dfe82d61270f",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -623,10 +609,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
-   "last_event_count": 2,
-   "content_hash": "b8d98dcbb155f3d1",
+   "last_event_count": 1,
+   "content_hash": "c2c73d0257e65c63",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -691,7 +677,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
    "last_event_count": 2,
    "content_hash": "2420947ff1163957",
@@ -760,10 +746,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
    "last_event_count": 5,
-   "content_hash": "0326264b37c655c2",
+   "content_hash": "efcde54f4ecfa36f",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -828,10 +814,10 @@
     "generator_model": "induction",
     "version": 2
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
    "last_event_count": 2,
-   "content_hash": "0fabe6d6134958fe",
+   "content_hash": "8dbfc8d324a176ab",
    "consecutive_failures": 0,
    "regenerations": 1,
    "next_generation": null
@@ -913,10 +899,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
    "last_event_count": 13,
-   "content_hash": "505074c25e910b91",
+   "content_hash": "e21787be74e2122a",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -991,10 +977,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
-   "last_event_count": 14,
-   "content_hash": "0b267656fe343500",
+   "last_event_count": 15,
+   "content_hash": "d6ecef6e8a27f2b0",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1076,10 +1062,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
-   "last_event_count": 39,
-   "content_hash": "45fe352711e0b610",
+   "last_event_count": 41,
+   "content_hash": "1322ef5f7db579b8",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1184,10 +1170,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-06",
+   "last_ok": "2026-10-07",
    "last_error": null,
-   "last_event_count": 113,
-   "content_hash": "c3d6d253b2ed6435",
+   "last_event_count": 112,
+   "content_hash": "9d9f3b2c01a69d17",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

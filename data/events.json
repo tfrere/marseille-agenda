@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-06T07:31:54+02:00",
- "today": "2026-10-06",
+ "generated_at": "2026-10-07T07:32:16+02:00",
+ "today": "2026-10-07",
  "venues": [
   {
    "id": "amis-du-monde-diplomatique",
@@ -20,7 +20,7 @@
    "lat": 43.2966941,
    "lng": 5.3610825,
    "website": null,
-   "event_count": 172
+   "event_count": 173
   },
   {
    "id": "manifesten",
@@ -40,7 +40,7 @@
    "lat": 43.3105,
    "lng": 5.3906,
    "website": "https://www.lafriche.org/agenda/",
-   "event_count": 35
+   "event_count": 37
   },
   {
    "id": "mac-musee-d-art-contemporain",
@@ -50,7 +50,7 @@
    "lat": 43.2569,
    "lng": 5.3966,
    "website": "https://musees.marseille.fr/lagenda-des-musees?museum=musee-dart-contemporain-mac-0",
-   "event_count": 3
+   "event_count": 7
   },
   {
    "id": "le-molotov",
@@ -60,7 +60,7 @@
    "lat": 43.2938,
    "lng": 5.3835,
    "website": "https://lemolotov.com/agenda/",
-   "event_count": 31
+   "event_count": 30
   },
   {
    "id": "mille-babords",
@@ -70,7 +70,7 @@
    "lat": 43.3006,
    "lng": 5.3865,
    "website": "https://www.millebabords.org/spip.php?rubrique2",
-   "event_count": 2
+   "event_count": 1
   },
   {
    "id": "cira-marseille",
@@ -140,7 +140,7 @@
    "lat": 43.2953,
    "lng": 5.3815,
    "website": "https://lafabulerie.com/agenda/?type-projet=tout&localisation=marseille",
-   "event_count": 14
+   "event_count": 16
   },
   {
    "id": "videodrome-2",
@@ -150,7 +150,7 @@
    "lat": 43.2937,
    "lng": 5.3826,
    "website": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "event_count": 40
+   "event_count": 43
   },
   {
    "id": "alcazar",
@@ -160,7 +160,7 @@
    "lat": 43.299,
    "lng": 5.3767,
    "website": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "event_count": 113
+   "event_count": 112
   },
   {
    "id": "la-colorada",
@@ -174,6 +174,108 @@
   }
  ],
  "events": [
+  {
+   "uid": "b7f440cd17df",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "venue_name": "[mac] Musée d'art contemporain",
+   "category": "culture",
+   "title": "Marseille vue par les Detaille - 164 ans de photos",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2025-10-31",
+   "start_time": "08:00:00",
+   "end_date": "2027-06-20",
+   "end_time": "00:00:00",
+   "location_name": null,
+   "url": "https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-photos?museum=musee-dhistoire-de-marseille-0",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": true,
+   "image": null,
+   "image_source": null,
+   "source_url": "https://musees.marseille.fr/",
+   "source_kind": "html",
+   "evidence": [
+    "Marseille vue par les Detaille - 164 ans de photos (https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-photos?museum=musee-dhistoire-de-marseille-0) Du [2025-10-31T08:00:00Z] 31 octobre 2025 au [2027-06-20T16:00:00Z] 20 juin 2027 Découvrir l'exposition (https://musees.marseille.fr"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms the exhibition 'Marseille vue par les Detaille - 164 ans de photos' runs 'Du [2025-10-31T08:00:00Z] 31 octobre 2025 au [2027-06-20T16:00:00Z] 20 juin 2027'.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2569,
+   "lng": 5.3966
+  },
+  {
+   "uid": "a09713f21970",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "venue_name": "[mac] Musée d'art contemporain",
+   "category": "culture",
+   "title": "\"Par une langue échappée\", nouveau parcours des collections modernes et contemporaines",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-05-08",
+   "start_time": "07:00:00",
+   "end_date": "2027-04-25",
+   "end_time": "00:00:00",
+   "location_name": null,
+   "url": "https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines?museum=musee-cantini",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": true,
+   "image": null,
+   "image_source": null,
+   "source_url": "https://musees.marseille.fr/",
+   "source_kind": "html",
+   "evidence": [
+    "\"Par une langue échappée\", nouveau parcours des collections modernes et contemporaines (https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines?museum=musee-cantini) Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027 "
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The exhibition is explicitly announced with dates 'Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027' and matching URL.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2569,
+   "lng": 5.3966
+  },
+  {
+   "uid": "858604a2310a",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "venue_name": "[mac] Musée d'art contemporain",
+   "category": "culture",
+   "title": "Art nouveau - Art déco. Marseille au cœur des styles",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-05-08",
+   "start_time": "07:00:00",
+   "end_date": "2027-04-25",
+   "end_time": "00:00:00",
+   "location_name": null,
+   "url": "https://musees.marseille.fr/art-nouveau-art-deco-marseille-au-coeur-des-styles?museum=musee-borely",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": true,
+   "image": null,
+   "image_source": null,
+   "source_url": "https://musees.marseille.fr/",
+   "source_kind": "html",
+   "evidence": [
+    "Art nouveau - Art déco. Marseille au cœur des styles (https://musees.marseille.fr/art-nouveau-art-deco-marseille-au-coeur-des-styles?museum=musee-borely) Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027 Découvrir l'exposition (https://musees.marseille.fr/art-nouveau-art-"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The exhibition is confirmed by the excerpt: 'Art nouveau - Art déco. Marseille au cœur des styles' running 'Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027'.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2569,
+   "lng": 5.3966
+  },
   {
    "uid": "3f00f5332384",
    "venue_id": "mac-musee-d-art-contemporain",
@@ -205,6 +307,40 @@
    "verifier_reason": "The exhibition 'AFRICA - Louisa Babari' at Musée d'art contemporain [mac] runs 'Du [2026-05-15T07:00:00Z] 15 mai 2026 au [2027-01-03T17:00:00Z] 03 janvier 2027', matching the extracted details and URL.",
    "first_seen": "2026-09-13",
    "last_seen": "2026-10-03",
+   "lat": 43.2569,
+   "lng": 5.3966
+  },
+  {
+   "uid": "e0d08c10845b",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "venue_name": "[mac] Musée d'art contemporain",
+   "category": "culture",
+   "title": "Dormir comme le soleil - Adrien Vescovi",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-05-16",
+   "start_time": "07:00:00",
+   "end_date": "2027-01-10",
+   "end_time": "00:00:00",
+   "location_name": null,
+   "url": "https://musees.marseille.fr/adrien-vescovi",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": true,
+   "image": null,
+   "image_source": null,
+   "source_url": "https://musees.marseille.fr/",
+   "source_kind": "html",
+   "evidence": [
+    "Dormir comme le soleil - Adrien Vescovi (https://musees.marseille.fr/adrien-vescovi) Centre de la Vieille Charité - (CVC) (https://musees.marseille.fr/liste-des-expositions) - Du [2026-05-16T07:00:00Z] 16 mai 2026 au [2027-01-10T17:00:00Z] 10 janvier 2027 Découvrir l'exposition (https://musees.marse"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The exhibition is confirmed in the source excerpt: 'Du [2026-05-16T07:00:00Z] 16 mai 2026 au [2027-01-10T17:00:00Z] 10 janvier 2027' with URL 'https://musees.marseille.fr/adrien-vescovi'.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -274,7 +410,7 @@
    "verifier": "accept",
    "verifier_reason": "The post is a forward-looking announcement (\"Début le jeudi 17 sept\", \"Début des cours : Jeudi 17 septembre 2026\") and the flyer confirms the extracted slot for that very date: \"Ce jeudi 17 septembre : cours de 17h45 à 18h45\", with the regular slot \"Dès le jeudi 24 septembre : cours de 19h00 à 20h00\" applying only from the following week. The venue matches exactly (\"La Colorada — 76 rue Consolat, 13001 Marseille\"), nothing is cancelled (\"Places limitées\" is not a sell-out), and 17 September 2026 is indeed a jeudi as written.",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -290,9 +426,9 @@
    "start_time": "07:00:00",
    "end_date": "2027-01-03",
    "end_time": "00:00:00",
-   "location_name": "Musée d'art contemporain [mac]",
-   "url": "https://musees.marseille.fr/voix-publiques-louisa-babari?museum=centre-de-la-vieille-charite",
-   "price": "Gratuit",
+   "location_name": null,
+   "url": "https://musees.marseille.fr/voix-publiques-louisa-babari",
+   "price": null,
    "summary": null,
    "status": "scheduled",
    "event_type": null,
@@ -300,15 +436,15 @@
    "recurring": true,
    "image": "img/3b62334d0fdf.webp",
    "image_source": "http://musees.marseille.fr/sites/default/files/styles/listing/public/2026-06/voix-publiques-MUSEES.webp?itok=hzeWcqz_",
-   "source_url": "https://musees.marseille.fr/liste-des-expositions?museum=musee-dart-contemporain-mac-0",
+   "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "Gratuit (https://musees.marseille.fr/voix-publiques-louisa-babari?museum=centre-de-la-vieille-charite) Voix Publiques - Louisa Babari (https://musees.marseille.fr/voix-publiques-louisa-babari?museum=centre-de-la-vieille-charite) Musée d'art contemporain [mac] Centre de la Vieille Charité - (CVC) Mus"
+    "Voix Publiques - Louisa Babari (https://musees.marseille.fr/voix-publiques-louisa-babari) Musée d'art contemporain [mac] (https://musees.marseille.fr/liste-des-expositions) - Centre de la Vieille Charité - (CVC) (https://musees.marseille.fr/liste-des-expositions) - Musée Cantini (https://musees.mars"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Voix Publiques - Louisa Babari' at Musée d'art contemporain [mac] from 19 septembre 2026 to 03 janvier 2027.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-07",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -344,7 +480,7 @@
    "verifier": "accept",
    "verifier_reason": "The flyer states \"Dès le jeudi 24 septembre : cours de 19h00 à 20h00\" and \"Chaque Jeudi\", matching the extracted start date (a Thursday) and 19h–20h time; the caption's \"Début des cours : Jeudi 17 septembre 2026\" refers to the exceptional 17h45–18h45 rentrée session, not the regular slot. Venue \"La Colorada — 76 rue Consolat, 13001\" matches, and the post is an announcement, not a recap.",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -380,7 +516,7 @@
    "verifier": "accept",
    "verifier_reason": "The caption announces a real, dated public event at the stated venue: \"A partir del sábado 26 de setiembre Les es parte de la familia de La Colorada\", \"Todos los sábados de 10h - 11h45\", \"Precio por curso de 15 euros\", \"📍 La Colorada Marsella, 76 rue Consolat, 13001 Marseille\". Publication date 2026-09-15 precedes the start date, and 26 September 2026 is indeed a Saturday, consistent with the written weekday; no contradiction or cancellation wording appears.",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -416,79 +552,9 @@
    "verifier": "accept",
    "verifier_reason": "Caption announces a new, dated workshop: \"Nuevo taller a La Colorada... CLUB DE DESSIN... Desde el 30 de setiembre, 2 veces por mes\", with \"Dos miércoles al mes / 17h - 18h45 / Precio: 15€\". 30 September 2026 is indeed a mercredi, matches the 17:00–18:45 slot, and the venue is La Colorada; no cancellation or recap language. Note only that the end_date 2027-01-31 is not stated in the post (the series length is open-ended), which does not contradict anything written.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3005,
    "lng": 5.387
-  },
-  {
-   "uid": "59bdd9a52955",
-   "venue_id": "friche-la-belle-de-mai",
-   "venue_name": "Friche la Belle de Mai",
-   "category": "culture",
-   "title": "Unworlding",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-04",
-   "start_time": "11:00:00",
-   "end_date": "2026-10-11",
-   "end_time": "19:00:00",
-   "location_name": null,
-   "url": "https://www.lafriche.org/evenements/unworlding/",
-   "price": "Gratuit !",
-   "summary": "Une exposition et une série de dialogues publics réunissant artistes et écrivain·es afin de repenser les structures et les relations dans un contexte d’effondrement social et institutionnel. Une proposition de The Racial Imaginary Institute",
-   "status": "scheduled",
-   "event_type": "Exposition",
-   "free": null,
-   "recurring": true,
-   "image": "img/59bdd9a52955.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/07/visuel-DP-500x300.jpg",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "source_kind": "html",
-   "evidence": [
-    "[2026-10-04] (https://www.lafriche.org/evenements/unworlding/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Unworlding (https://www.lafriche.org/evenements/unworlding/) Exposition collective Une exposition et une série de dialogues publics réunissant artistes et écrivain·es afi",
-    "same entry listed on every day from 2026-10-04 to 2026-10-11"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The excerpt confirms 'Unworlding' under date [2026-10-04] with times '11h-19h' and URL 'https://www.lafriche.org/evenements/unworlding/'.",
-   "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
-   "lat": 43.3105,
-   "lng": 5.3906
-  },
-  {
-   "uid": "41f55bbae00d",
-   "venue_id": "friche-la-belle-de-mai",
-   "venue_name": "Friche la Belle de Mai",
-   "category": "culture",
-   "title": "Le mauvais œil 88 : Kikifruit",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-04",
-   "start_time": "14:00:00",
-   "end_date": "2026-10-18",
-   "end_time": null,
-   "location_name": null,
-   "url": "https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/",
-   "price": "Gratuit !",
-   "summary": "Exposition de microédition Une proposition de Le Dernier Cri",
-   "status": "scheduled",
-   "event_type": "Exposition, Littérature Édition",
-   "free": null,
-   "recurring": true,
-   "image": "img/41f55bbae00d.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/08/MINIATURE-YOUTUBE-–-1-500x300.png",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "source_kind": "html",
-   "evidence": [
-    "[2026-10-04] (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Littérature Édition (https://www.lafriche.org/agenda/?categorie=litterature-edition) Le mauvais œil 88 : Kikifruit (https://www.lafriche.org/evenements/",
-    "same entry listed on every day from 2026-10-04 to 2026-10-18"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The excerpt confirms '[2026-10-04]' followed by 'lundi 5 octobre', listing 'Le mauvais œil 88 : Kikifruit' at '14h' with URL 'https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/'.",
-   "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
-   "lat": 43.3105,
-   "lng": 5.3906
   },
   {
    "uid": "c203d1c7e8fa",
@@ -701,108 +767,6 @@
    "lng": 5.3906
   },
   {
-   "uid": "ecf3dbd23b17",
-   "venue_id": "alcazar",
-   "venue_name": "Alcazar",
-   "category": "culture",
-   "title": "PROJECTION-RENCONTRE",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-06",
-   "start_time": "14:00:00",
-   "end_date": "2026-10-06",
-   "end_time": "17:00:00",
-   "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheques-de-marseille/events/20075925_projection-rencontre-6437893",
-   "price": null,
-   "summary": "Événement des bibliothèques de Marseille",
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": "img/ecf3dbd23b17.webp",
-   "image_source": "https://img.openagenda.com/main/5a0cfc9e7fff4dedb086590d343761f6.thumb.image.jpg",
-   "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "source_kind": "json",
-   "evidence": [
-    "PROJECTION-RENCONTRE | 2026-10-06 | 14:00"
-   ],
-   "verifier": null,
-   "verifier_reason": null,
-   "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
-   "lat": 43.299,
-   "lng": 5.3767
-  },
-  {
-   "uid": "de97a851dc9a",
-   "venue_id": "mucem",
-   "venue_name": "Mucem",
-   "category": "culture",
-   "title": "Visite de l'appartement témoin",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-06",
-   "start_time": "14:00:00",
-   "end_date": null,
-   "end_time": "15:30:00",
-   "location_name": "Le Centre de Conservation et de Ressources",
-   "url": "https://mucem.org/evenement/visite-des-reserves-du-mucem/",
-   "price": "Gratuit",
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": true,
-   "recurring": false,
-   "image": "img/de97a851dc9a.webp",
-   "image_source": "https://mucem.org/uploads/2025/01/r5-juin-23-p15-1-768x533.jpg",
-   "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
-   "source_kind": "json",
-   "evidence": [
-    "Visite de l'appartement témoin | 20261006 | 14:00"
-   ],
-   "verifier": null,
-   "verifier_reason": null,
-   "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
-   "lat": 43.2966941,
-   "lng": 5.3610825
-  },
-  {
-   "uid": "b1c5290d03fe",
-   "venue_id": "alcazar",
-   "venue_name": "Alcazar",
-   "category": "culture",
-   "title": "Randonnée en bibliothèque avec Constantin Alexandrakis",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-06",
-   "start_time": "17:30:00",
-   "end_date": "2026-10-06",
-   "end_time": "19:00:00",
-   "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheques-de-marseille/events/79456098_randonnee-en-bibliotheque-avec-constantin-alexandrakis",
-   "price": null,
-   "summary": "Événement des bibliothèques de Marseille",
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": "img/b1c5290d03fe.webp",
-   "image_source": "https://img.openagenda.com/main/751c46fc5c9d4c21b1d6455fe4245410.thumb.image.jpg",
-   "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "source_kind": "json",
-   "evidence": [
-    "Randonnée en bibliothèque avec Constantin Alexandrakis | 2026-10-06 | 17:30"
-   ],
-   "verifier": null,
-   "verifier_reason": null,
-   "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
-   "lat": 43.299,
-   "lng": 5.3767
-  },
-  {
    "uid": "a36510e55a89",
    "venue_id": "friche-la-belle-de-mai",
    "venue_name": "Friche la Belle de Mai",
@@ -838,108 +802,6 @@
    "lng": 5.3906
   },
   {
-   "uid": "2d00b4fac0a6",
-   "venue_id": "videodrome-2",
-   "venue_name": "Vidéodrome 2",
-   "category": "cinema",
-   "title": "Traversées Libanaises | Souha, survivre à l’enfer",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-06",
-   "start_time": "19:00:00",
-   "end_date": null,
-   "end_time": null,
-   "location_name": null,
-   "url": "https://www.videodrome2.fr/traversees-libanaises-programmation-a-venir/",
-   "price": null,
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": "img/2d00b4fac0a6.webp",
-   "image_source": "https://www.videodrome2.fr/wp-content/uploads/RCS-Souha-3-300x218.jpg",
-   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "source_kind": "html",
-   "evidence": [
-    "Traversées Libanaises | Souha, survivre à l’enfer (https://www.videodrome2.fr/traversees-libanaises-programmation-a-venir/) [2026-10-06T19:00:00+02:00] mardi 6 octobre 2026 de 19h00 à 20h00 Les séances de cinéma Dans le cadre du cycle “Traversées libanaises” - Cinéma, mémoire et vies en temps de gue"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The event 'Traversées Libanaises | Souha, survivre à l’enfer' is explicitly listed for 'mardi 6 octobre 2026 de 19h00 à 20h00' with matching URL.",
-   "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
-   "lat": 43.2937,
-   "lng": 5.3826
-  },
-  {
-   "uid": "b9c30559185c",
-   "venue_id": "le-molotov",
-   "venue_name": "Le Molotov",
-   "category": "bars",
-   "title": "HIPPIE DEATH CULT + The Yellow Stones",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-06",
-   "start_time": "20:00:00",
-   "end_date": null,
-   "end_time": null,
-   "location_name": "@ Le Molotov",
-   "url": "https://lemolotov.com/events/hippie-death-cult-guest/",
-   "price": "13€",
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": null,
-   "image_source": null,
-   "source_url": "https://lemolotov.com/agenda/",
-   "source_kind": "html",
-   "evidence": [
-    "6 Oct 2026 @ Le Molotov / 20:00 Entrée : 13€ Prévente: 10€ HIPPIE DEATH CULT + The Yellow Stones Doom (https://lemolotov.com/events/tags/doom/), Heavy Psych (https://lemolotov.com/events/tags/heavy-psych/), Heavy Rock (https://lemolotov.com/events/tags/heavy-rock/), Stoner (https://lemolotov.com/eve"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The excerpt explicitly lists '6 Oct 2026 @ Le Molotov / 20:00' with title 'HIPPIE DEATH CULT + The Yellow Stones' and corresponding URL.",
-   "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
-   "lat": 43.2938,
-   "lng": 5.3835
-  },
-  {
-   "uid": "241aec8014c8",
-   "venue_id": "mille-babords",
-   "venue_name": "Mille Bâbords",
-   "category": "milite",
-   "title": "Le combat des lycéens et des étudiants est celui de toute la classe ouvrière !",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-06",
-   "start_time": "20:00:00",
-   "end_date": null,
-   "end_time": null,
-   "location_name": null,
-   "url": "https://www.millebabords.org/spip.php?article42283",
-   "price": null,
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": null,
-   "image_source": null,
-   "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "source_kind": "html",
-   "evidence": [
-    "06 octobre 20:00 Le combat des lycéens et des étudiants est celui de toute la classe ouvrière ! (https://www.millebabords.org/spip.php?article42283)"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The excerpt confirms '06 octobre 20:00' for 'Le combat des lycéens et des étudiants est celui de toute la classe ouvrière !' with matching URL.",
-   "first_seen": "2026-10-04",
-   "last_seen": "2026-10-06",
-   "lat": 43.3006,
-   "lng": 5.3865
-  },
-  {
    "uid": "d06d3916a3aa",
    "venue_id": "friche-la-belle-de-mai",
    "venue_name": "Friche la Belle de Mai",
@@ -969,9 +831,148 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Les Petits Mercredis' on 'mercredi 7 octobre' [2026-10-07] at the corresponding URL.",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
+  },
+  {
+   "uid": "de9ae751e9c8",
+   "venue_id": "friche-la-belle-de-mai",
+   "venue_name": "Friche la Belle de Mai",
+   "category": "culture",
+   "title": "Unworlding",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-07",
+   "start_time": null,
+   "end_date": "2026-10-21",
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.lafriche.org/evenements/unworlding/",
+   "price": "Gratuit !",
+   "summary": "Une exposition et une série de dialogues publics réunissant artistes et écrivain·es afin de repenser les structures et les relations dans un contexte d’effondrement social et institutionnel. Une proposition de The Racial Imaginary Institute",
+   "status": "scheduled",
+   "event_type": "Exposition",
+   "free": null,
+   "recurring": true,
+   "image": "img/de9ae751e9c8.webp",
+   "image_source": "https://www.lafriche.org/app/uploads/2026/07/visuel-DP-500x300.jpg",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "source_kind": "html",
+   "evidence": [
+    "[2026-10-07] (https://www.lafriche.org/evenements/unworlding/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Unworlding (https://www.lafriche.org/evenements/unworlding/) Exposition collective Une exposition et une série de dialogues publics réunissant artistes et écrivain·es afi",
+    "same entry listed on every day from 2026-10-07 to 2026-10-21"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "Confirmed by excerpt under `[2026-10-07]` listing `Unworlding` with URL `https://www.lafriche.org/evenements/unworlding/`.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.3105,
+   "lng": 5.3906
+  },
+  {
+   "uid": "089a132ff980",
+   "venue_id": "friche-la-belle-de-mai",
+   "venue_name": "Friche la Belle de Mai",
+   "category": "culture",
+   "title": "Labo des désirs",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-07",
+   "start_time": "10:00:00",
+   "end_date": "2026-10-09",
+   "end_time": "20:00:00",
+   "location_name": null,
+   "url": "https://www.lafriche.org/evenements/labo-des-desirs-3/",
+   "price": "Entrée libre",
+   "summary": "Projet participatif et convivial de création et programmation collective ouvert à tous·tes une semaine par mois. Une proposition de résident·es et associations du quartier",
+   "status": "scheduled",
+   "event_type": "Théâtre, Danse, Atelier /stage",
+   "free": null,
+   "recurring": true,
+   "image": "img/089a132ff980.webp",
+   "image_source": "https://www.lafriche.org/app/uploads/2025/09/IMGL4591-Avec-accentuation-Bruit-500x300.jpg",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "source_kind": "html",
+   "evidence": [
+    "[2026-10-07] (https://www.lafriche.org/evenements/labo-des-desirs-3/) Théâtre (https://www.lafriche.org/agenda/?categorie=theatre) Danse (https://www.lafriche.org/agenda/?categorie=danse) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Labo des désirs (https://www.lafriche.org/ev",
+    "same entry listed on every day from 2026-10-07 to 2026-10-09"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Labo des désirs' on 'mercredi 7 octobre' [2026-10-07] from '10h-20h' with URL 'https://www.lafriche.org/evenements/labo-des-desirs-3/'.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.3105,
+   "lng": 5.3906
+  },
+  {
+   "uid": "1da886636c41",
+   "venue_id": "friche-la-belle-de-mai",
+   "venue_name": "Friche la Belle de Mai",
+   "category": "culture",
+   "title": "Le mauvais œil 88 : Kikifruit",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-07",
+   "start_time": "10:00:00",
+   "end_date": "2026-10-21",
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/",
+   "price": "Gratuit !",
+   "summary": "Exposition de microédition Une proposition de Le Dernier Cri",
+   "status": "scheduled",
+   "event_type": "Exposition, Littérature Édition",
+   "free": null,
+   "recurring": true,
+   "image": "img/1da886636c41.webp",
+   "image_source": "https://www.lafriche.org/app/uploads/2026/08/MINIATURE-YOUTUBE-–-1-500x300.png",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "source_kind": "html",
+   "evidence": [
+    "[2026-10-07] (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Littérature Édition (https://www.lafriche.org/agenda/?categorie=litterature-edition) Le mauvais œil 88 : Kikifruit (https://www.lafriche.org/evenements/",
+    "same entry listed on every day from 2026-10-07 to 2026-10-21"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The event is verified by the excerpt listing 'Le mauvais œil 88 : Kikifruit' under '[2026-10-07]' with start time '10h' and matching URL.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.3105,
+   "lng": 5.3906
+  },
+  {
+   "uid": "06daf184e897",
+   "venue_id": "la-fabulerie",
+   "venue_name": "La Fabulerie",
+   "category": "culture",
+   "title": "Nadin Nadine – Résidence-ateliers de carto-sérigraphie",
+   "title_truncated": true,
+   "title_completed_from": "https://lafabulerie.com/agenda/nadin-nadine-toponymie-itinerances-cartographie-sensible/",
+   "start_date": "2026-10-07",
+   "start_time": "10:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://lafabulerie.com/agenda/nadin-nadine-toponymie-itinerances-cartographie-sensible/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/06daf184e897.webp",
+   "image_source": "https://lafabulerie.com/wp-content/uploads/2026/08/Toi-qui-sans-le-monde_Nadin_Grenoble-Valence_Mai-2023-06164-310x310.jpg",
+   "source_url": "https://lafabulerie.com/",
+   "source_kind": "html",
+   "evidence": [
+    "Nadin Nadine –... 07/10/2026 - 10h (https://lafabulerie.com/agenda/nadin-nadine-toponymie-itinerances-cartographie-sensible/)"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The event is listed under 'Les prochains évènements' with the date '07/10/2026 - 10h' and matching URL.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2953,
+   "lng": 5.3815
   },
   {
    "uid": "66bf94d43bd7",
@@ -1037,16 +1038,16 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt confirms 'Ateliers : Cartographier nos...' on '07/10/2026 - 14h' with matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
   {
-   "uid": "53787e7646a7",
+   "uid": "73a272930a09",
    "venue_id": "alcazar",
    "venue_name": "Alcazar",
    "category": "culture",
-   "title": "Ciné-jeune",
+   "title": "Annulé :Ciné-jeune",
    "title_truncated": false,
    "title_completed_from": null,
    "start_date": "2026-10-07",
@@ -1054,24 +1055,24 @@
    "end_date": "2026-10-07",
    "end_time": "16:30:00",
    "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheques-de-marseille/events/12604700_cine-jeune-1680805",
+   "url": "https://openagenda.com/bibliotheque-lalcazar-marseille/events/12604700_cine-jeune-1680805",
    "price": null,
    "summary": "Événement des bibliothèques de Marseille",
    "status": "scheduled",
    "event_type": null,
    "free": null,
    "recurring": false,
-   "image": "img/53787e7646a7.webp",
+   "image": "img/73a272930a09.webp",
    "image_source": "https://img.openagenda.com/main/28c87a324b1c487aac40a3aee3affa46.thumb.image.jpg",
    "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
    "source_kind": "json",
    "evidence": [
-    "Ciné-jeune | 2026-10-07 | 15:00"
+    "Annulé :Ciné-jeune | 2026-10-07 | 15:00"
    ],
    "verifier": null,
    "verifier_reason": null,
-   "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1106,7 +1107,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches the excerpt listing '[2026-10-07]' with title 'Entrez libres', times '15h30-17h30', and URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1140,7 +1141,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1174,7 +1175,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1208,7 +1209,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1242,9 +1243,44 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '[vwa] langages, sciences sociales et cinéma | Atelier de conversation de Bernhard Braunstein' on 'mercredi 7 octobre 2026 de 18h00 à 19h30'.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
+  },
+  {
+   "uid": "187c00c8821b",
+   "venue_id": "friche-la-belle-de-mai",
+   "venue_name": "Friche la Belle de Mai",
+   "category": "culture",
+   "title": "Festival actoral",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-07",
+   "start_time": "19:00:00",
+   "end_date": "2026-10-10",
+   "end_time": "19:30:00",
+   "location_name": null,
+   "url": "https://www.lafriche.org/evenements/festival-actoral-5/",
+   "price": null,
+   "summary": "Théâtre, danse, performances... une immersion au cœur de la création contemporaine, avec 14 rendez-vous à la Friche pour cette 26e édition ! Une proposition de Actoral",
+   "status": "scheduled",
+   "event_type": "Théâtre, Danse, Performance",
+   "free": null,
+   "recurring": true,
+   "image": "img/187c00c8821b.webp",
+   "image_source": "https://www.lafriche.org/app/uploads/2026/08/Visuel-Actoral-site-Friche-500x300.png",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "source_kind": "html",
+   "evidence": [
+    "[2026-10-07] (https://www.lafriche.org/evenements/festival-actoral-5/) Théâtre (https://www.lafriche.org/agenda/?categorie=theatre) Danse (https://www.lafriche.org/agenda/?categorie=danse) Performance (https://www.lafriche.org/agenda/?categorie=performance) Festival actoral (https://www.lafriche.org",
+    "same entry listed on every day from 2026-10-07 to 2026-10-10"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Festival actoral' on '[2026-10-07]' with showtimes including '19h / 19h30 / 21h' and the URL 'https://www.lafriche.org/evenements/festival-actoral-5/'.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.3105,
+   "lng": 5.3906
   },
   {
    "uid": "a78e2c96b4bf",
@@ -1276,7 +1312,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt confirms 'mercredi 7 octobre 2026 de 20h30 à 22h30' with matching title and URL.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1310,7 +1346,7 @@
    "verifier": "accept",
    "verifier_reason": "The festival CineHorizontes is scheduled for '08 - 16 OCTOBRE 2026' with the link 'https://www.cinehorizontes.com/'.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2965,
    "lng": 5.378
   },
@@ -1344,7 +1380,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'David Yon | Discussion : Robert Kramer, une quête incandescente' is confirmed for 'jeudi 8 octobre 2026 de 19h30 à 20h15' with matching URL.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1378,7 +1414,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.383
   },
@@ -1414,7 +1450,7 @@
    "verifier": "accept",
    "verifier_reason": "The caption announces an upcoming gig — \"JEUDI 8 OCTOBRE ... Début des concerts: 20h30 ... Participation aux frais: 5/7€ (cash seulement)\" at \"intermédiaire 63 la plaine\" — and 8 October 2026 is indeed a Thursday, after the 15 Sept 2026 publication date. No cancellation, wrong venue, or date/time contradiction appears in the caption or flyer (\"FROZAK PRÉSENTE LE 08/10\", \"20H30\", \"INTERMÉDIAIRE\").",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2942,
    "lng": 5.3855
   },
@@ -1448,7 +1484,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is clearly listed for 'jeudi 8 octobre 2026 de 20h30 à 21h40' with matching URL and title.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1482,7 +1518,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists 'Les Yeux Ouverts | 3e Rencontres Documentaires à Marseille' 'du vendredi 9 octobre 2026 au samedi 10 octobre 2026' with the corresponding URL.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1516,7 +1552,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -1550,7 +1586,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1584,7 +1620,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Festival Plexus Rouge' on '[2026-10-09]' from '18h-23h' with URL 'https://www.lafriche.org/evenements/festival-plexus-rouge-2/'.",
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1618,7 +1654,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is scheduled for 'vendredi 9 octobre 2026 de 18h30 à 19h30' with matching title and URL.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1652,7 +1688,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches excerpt exactly: \"9 Oct 2026 @ Le Molotov / 21:00\" and title \"BUTCH PARTY\".",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -1686,7 +1722,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches 'vendredi 9 octobre 2026 de 21h00 à 22h15' and the provided URL.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1720,7 +1756,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt confirms '[2026-10-09]' with 'Club Cabaret' at '23h-05h' and URL 'https://www.lafriche.org/evenements/club-cabaret-9/'.",
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1754,7 +1790,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is listed under [2026-10-09] with times '23h30-04h30' and URL matching exactly.",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1788,7 +1824,7 @@
    "verifier": "accept",
    "verifier_reason": "The event FamilyTech is confirmed for Saturday, October 10, 2026 ('samedi 10 octobre') at https://www.lafriche.org/evenements/familytech-10/.",
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1822,7 +1858,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the 13e édition du festival Aflam taking place from '10 - 18 OCTOBRE 2026' with the link 'https://www.aflam.fr/'.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2965,
    "lng": 5.378
   },
@@ -1856,7 +1892,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1890,7 +1926,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1924,7 +1960,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1958,7 +1994,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -1992,7 +2028,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2026,7 +2062,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2060,7 +2096,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2094,7 +2130,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2128,7 +2164,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2162,7 +2198,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Les Yeux Ouverts | Atelier Doc en cours' on 'samedi 10 octobre 2026 de 16h00 à 18h00' with the matching URL.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2196,7 +2232,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2230,7 +2266,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2264,7 +2300,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Journée Régionale de Capoeira' is confirmed for 2026-10-10 from 18h to 23h30 with matching URL and details.",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2298,7 +2334,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '10 octobre 18:30 Conférence gesticulée : « Nous produisons, nous décidons » Écrire la partition d’un monde post-capitaliste' at 'Mille Bâbords, 61 rue Consolat, 13001 Marseille' with URL 'https://www.millebabords.org/spip.php?article42197'.",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3006,
    "lng": 5.3865
   },
@@ -2332,7 +2368,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: 'Imaginaires Documentaires | Hotel Metalurg' on 'samedi 10 octobre 2026 de 19h00 à 20h30'.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2366,7 +2402,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed for 'samedi 10 octobre' at 20h with the matching title, URL, and summary.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -2400,7 +2436,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is verified by the excerpt: '10 Oct 2026 @ Le Molotov / 20:00' with title 'PSY’APÉRO #29 BY LEVEL UP' and URL 'https://lemolotov.com/events/psyapero-29-by-level-up/'.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -2434,7 +2470,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the event 'A5KM B2b IA5KM + Acidpach, Anduj & Nxd' on '[2026-10-10]' from '23h-05h' at the expected URL.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2468,7 +2504,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the event 'Aquemini, Liliane Chlela, Rebeudespres' on 2026-10-10 with hours '23h30-04h30' and matching URL.",
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2502,7 +2538,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2536,7 +2572,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'dimanche 11 octobre 2026 de 17h00 à 18h30' with the matching URL and title.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2570,7 +2606,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the screening and Q&A of 'La guerra inizia qui' on [2026-10-11] at 18h with matching URL.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -2604,7 +2640,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed by excerpt: \"dimanche 11 octobre 2026 de 19h30 à 21h50\" with matching title and URL.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2638,7 +2674,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'FOREVER NU!' is scheduled for 11 Oct 2026 at 20:30 at Le Molotov with matching details and URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -2672,7 +2708,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'L’exposition ” Bouches à...' on '12/10/2026 - 10h' matching the extracted date, time, and URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -2706,7 +2742,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2740,7 +2776,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed on 'lundi 12 octobre' [2026-10-12] from '16h-20h' with URL https://www.lafriche.org/evenements/marche-paysan/.",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2774,7 +2810,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2808,7 +2844,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed by the excerpt: 'Festival Aflam | 13ème édition' listed 'du mardi 13 octobre 2026 au mercredi 14 octobre 2026'.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2842,7 +2878,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the event on 'mardi 13 octobre 2026 de 18h00 à 19h10' with matching URL and title.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2878,7 +2914,7 @@
    "verifier": "accept",
    "verifier_reason": "Caption announces \"MARDI 13 OCTOBRE\" with \"Début des concerts: 20h30\" at \"À l'Intermédiaire (63 place Jean-Jaurès 13006)\", and the flyer reads \"13/10 ... INTERMEDIAIRE\"; 2026-10-13 is indeed a Tuesday, matching the written weekday, and the post is a forward-looking announcement, not a recap.",
    "first_seen": "2026-09-14",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2942,
    "lng": 5.3855
   },
@@ -2912,7 +2948,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: \"mardi 13 octobre 2026 de 20h30 à 21h30\" at Videodrome 2.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2946,7 +2982,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed by excerpt: 'mercredi 14 octobre' with URL 'https://www.lafriche.org/evenements/les-petits-mercredis-13/'.",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2980,7 +3016,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3014,7 +3050,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Ateliers : Cartographier nos...' on '14/10/2026 - 14h' with the matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -3082,7 +3118,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3117,7 +3153,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 14 octobre' [2026-10-14] from '15h30-17h30' at the given URL.",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3151,7 +3187,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3185,7 +3221,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3220,7 +3256,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt confirms 'mercredi 14 octobre' at '16h30' for 'Petite Casbah' with URL https://cinemalegyptis.org/films/petite-casbah/.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -3254,7 +3290,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3290,7 +3326,7 @@
    "verifier": "accept",
    "verifier_reason": "The flyer announces a future dated screening: \"14 OCTOBRE | 18h REBATO UETA (1980)\" with \"Paul B. Preciado, suivie d'une discussion\". 2026-10-14 is a Wednesday and falls after the 2026-09-12 publication date, and 18h matches the extracted 18:00. No caption or flyer text contradicts the venue or status.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.383
   },
@@ -3324,7 +3360,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.383
   },
@@ -3358,7 +3394,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: 'Festival Aflam | Al Ahwar (Les Marais)', 'mercredi 14 octobre 2026 de 18h00 à 19h00'.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -3392,7 +3428,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is explicitly listed for '14 Oct 2026 @ Le Molotov / 20:00' with the matching title and URL.",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -3426,7 +3462,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms 'Festival Aflam | Courts-métrages de Kassem Hawal' on 'mercredi 14 octobre 2026 de 20h30 à 22h00' at the matching URL.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -3460,7 +3496,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.383
   },
@@ -3496,7 +3532,7 @@
    "verifier": "accept",
    "verifier_reason": "Announcement post for a future event: \" DATE : Mercredi 14 octobre – 21H\" and \"📍 LIEU : L’Intermédiaire – 63 Place Jean Jaurès, 13006 Marseille\", confirmed by the flyer \"14/10/26 - START 21H / L'INTERMEDIAIRE\". 14 October 2026 is indeed a Wednesday, after the 13 Sept 2026 publication date, and the post announces the show rather than recapping or cancelling it (title \"HARDCORE SERIES 8\" vs flyer \"IX\" is a harmless numbering discrepancy, not a date/venue conflict).",
    "first_seen": "2026-09-14",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2942,
    "lng": 5.3855
   },
@@ -3530,7 +3566,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3564,7 +3600,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3598,7 +3634,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3632,7 +3668,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists '15 Oct 2026 @ Le Dodu / 19:00' with title 'HÄLLAS + Earth Tongue' and the matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -3666,7 +3702,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '15 Oct 2026 @ Le Molotov / 20:00' with matching URL 'https://lemolotov.com/events/jim-youngers-spirit-release-party-claque-krack-head/'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -3700,7 +3736,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3734,7 +3770,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3768,7 +3804,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3802,7 +3838,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3836,7 +3872,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3870,7 +3906,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3938,7 +3974,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'vendredi 16 octobre' at '18h' for 'Vivre avec le risque inondation' at the specified URL.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3972,7 +4008,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: 'vendredi 16 octobre 2026 de 18h00 à 19h00' matching title and URL.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -4006,7 +4042,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Une femme aujourd’hui' is confirmed for 'vendredi 16 octobre' at '19h' at URL 'https://cinemalegyptis.org/films/une-femme-aujourdhui/'.",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -4040,7 +4076,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"Vendredi 16 octobre à 19h\" with the matching title and URL, which corresponds to 2026-10-16.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -4074,7 +4110,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '16 Oct 2026 @ Le Dodu / 19:30' for 'COMPLET – A6EL' with URL 'https://lemolotov.com/events/a6el/'. 'COMPLET' denotes sold out, not cancelled.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -4108,7 +4144,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of 'Biennale de la culture cubaine | AM-PM de Alejandro Gil' is confirmed for 'vendredi 16 octobre 2026 de 21h00 à 23h00' with matching URL.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -4142,7 +4178,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'MYD + Pastel' on 2026-10-16 with time '23h30-04h30' and URL https://www.lafriche.org/evenements/myd-pastel-petit-cab/.",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4176,7 +4212,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed for 'samedi 17 octobre' [2026-10-17] at Friche la Belle de Mai with URL matching 'https://www.lafriche.org/evenements/dessine-ta-famille-de-la-prehistoire/'.",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4210,7 +4246,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Kosmos' is confirmed for [2026-10-17] at URL https://www.lafriche.org/evenements/kosmos/.",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4244,7 +4280,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -4278,7 +4314,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4312,7 +4348,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of 'Le monde à l’envers' is explicitly confirmed for 'samedi 17 octobre' at '11h'.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -4346,7 +4382,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-16",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4380,9 +4416,44 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
+  },
+  {
+   "uid": "e95341819057",
+   "venue_id": "mucem",
+   "venue_name": "Mucem",
+   "category": "culture",
+   "title": "Visites Flash",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-17",
+   "start_time": "14:00:00",
+   "end_date": "2026-11-02",
+   "end_time": "16:00:00",
+   "location_name": "J4",
+   "url": "https://mucem.org/evenement/visites-flash/",
+   "price": "Gratuit",
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": true,
+   "recurring": true,
+   "image": "img/e95341819057.webp",
+   "image_source": "https://mucem.org/uploads/2025/01/Site_Visite-1-768x576.jpg",
+   "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
+   "source_kind": "json",
+   "evidence": [
+    "Visites Flash | 20261017 | 14:00",
+    "same entry listed on every day from 2026-10-17 to 2026-11-02"
+   ],
+   "verifier": null,
+   "verifier_reason": null,
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2966941,
+   "lng": 5.3610825
   },
   {
    "uid": "9dd81b15eaa4",
@@ -4414,7 +4485,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4448,7 +4519,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'NumériTech' on [2026-10-17] at '15h30-17h30' with URL https://www.lafriche.org/evenements/numeritech-9/.",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4482,7 +4553,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4516,7 +4587,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'samedi 17 octobre 2026 de 19h30 à 21h15' for the film screening of Habanastation.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -4550,7 +4621,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of \"Dial H-I-S-T-O-R-Y\" is confirmed for \"samedi 17 octobre\" at \"20h30\" with matching URL and details.",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -4584,7 +4655,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '17 Oct 2026 @ Le Molotov / 21:00' for 'MASSALIA SKA CITY : SKA REGGAE & SOUL NIGHT' with URL 'https://lemolotov.com/events/massalia-ska-city-ska-reggae-soul-night/'.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -4618,7 +4689,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Omerta X Sanctuary : Big Season Opening W/ Ca' is confirmed for 2026-10-17 from 23h to 05h with matching URL.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4652,7 +4723,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'dimanche 18 octobre' [2026-10-18] with hours '10h30-18h' for 'Mondjali Festival 2026'.",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4686,7 +4757,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4720,7 +4791,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of 'Le monde à l’envers' is confirmed for 'dimanche 18 octobre' at '11h' with URL 'https://cinemalegyptis.org/films/le-monde-a-lenvers/'.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -4754,7 +4825,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4788,7 +4859,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4822,7 +4893,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4856,7 +4927,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4890,7 +4961,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the screening on 'dimanche 18 octobre 2026 de 18h00 à 19h30' with the matching URL.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -4924,7 +4995,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4958,7 +5029,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms the event on 'dimanche 18 octobre 2026 de 20h30 à 22h30' with matching URL and title.",
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -4972,7 +5043,7 @@
    "title_completed_from": null,
    "start_date": "2026-10-19",
    "start_time": null,
-   "end_date": null,
+   "end_date": "2026-10-21",
    "end_time": null,
    "location_name": null,
    "url": "https://www.lafriche.org/evenements/stage-de-skate-deveil-graphique-de-graffiti-et-de-flocage/",
@@ -4981,20 +5052,55 @@
    "status": "scheduled",
    "event_type": "Atelier /stage, Sport",
    "free": null,
-   "recurring": false,
+   "recurring": true,
    "image": "img/307646d9a87f.webp",
    "image_source": "https://www.lafriche.org/app/uploads/2023/09/com-stage-toussaint-500x300.jpg",
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-10-19] (https://www.lafriche.org/evenements/stage-de-skate-deveil-graphique-de-graffiti-et-de-flocage/) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Sport (https://www.lafriche.org/agenda/?categorie=sport) Stage de skate, d’éveil graphique, de graffiti et de flocage (htt"
+    "[2026-10-19] (https://www.lafriche.org/evenements/stage-de-skate-deveil-graphique-de-graffiti-et-de-flocage/) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Sport (https://www.lafriche.org/agenda/?categorie=sport) Stage de skate, d’éveil graphique, de graffiti et de flocage (htt",
+    "same entry listed on every day from 2026-10-19 to 2026-10-21"
    ],
    "verifier": "accept",
    "verifier_reason": "The event 'Stage de skate, d’éveil graphique, de graffiti et de flocage' is confirmed for 'lundi 19 octobre' [2026-10-19] with matching URL.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
+  },
+  {
+   "uid": "86fd35b98e45",
+   "venue_id": "la-fabulerie",
+   "venue_name": "La Fabulerie",
+   "category": "culture",
+   "title": "Residence Artistique - Tout Petit Voyage dans le monde du vivant",
+   "title_truncated": true,
+   "title_completed_from": "https://lafabulerie.com/agenda/residence-artistique-tout-petit-voyage-dans-le-monde-du-vivant/",
+   "start_date": "2026-10-19",
+   "start_time": "09:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://lafabulerie.com/agenda/residence-artistique-tout-petit-voyage-dans-le-monde-du-vivant/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/86fd35b98e45.webp",
+   "image_source": "https://lafabulerie.com/wp-content/uploads/2026/09/Carre-agenda-9.png",
+   "source_url": "https://lafabulerie.com/",
+   "source_kind": "html",
+   "evidence": [
+    "Residence Artistique - Tout... 19/10/2026 - 09h (https://lafabulerie.com/agenda/residence-artistique-tout-petit-voyage-dans-le-monde-du-vivant/)"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "Listed under 'Les prochains évènements' with date '19/10/2026 - 09h' and matching URL.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2953,
+   "lng": 5.3815
   },
   {
    "uid": "547a61298555",
@@ -5026,7 +5132,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt explicitly confirms 'Tout Petit Voyage dans le... 19/10/2026 - 10h' with URL https://lafabulerie.com/agenda/tout-petit-voyage-dans-le-monde-du-vivant/.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -5060,7 +5166,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5094,41 +5200,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms 'Marché paysan' on 'lundi 19 octobre' [2026-10-19] from '16h-20h' with 'Entrée libre' at the stated URL.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
-   "lat": 43.3105,
-   "lng": 5.3906
-  },
-  {
-   "uid": "0aa2b3ffba23",
-   "venue_id": "friche-la-belle-de-mai",
-   "venue_name": "Friche la Belle de Mai",
-   "category": "culture",
-   "title": "Stage de skate, d’éveil graphique, de graffiti et de flocage",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-20",
-   "start_time": null,
-   "end_date": null,
-   "end_time": null,
-   "location_name": null,
-   "url": "https://www.lafriche.org/evenements/stage-de-skate-deveil-graphique-de-graffiti-et-de-flocage/",
-   "price": null,
-   "summary": "Pour les vacances d'hiver, des stages de skate, d'éveil graphique, de graffiti et de flocage pour tous les âges. Une proposition de BSM - Board Spirit Marseille",
-   "status": "scheduled",
-   "event_type": "Atelier /stage, Sport",
-   "free": null,
-   "recurring": false,
-   "image": "img/0aa2b3ffba23.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2023/09/com-stage-toussaint-500x300.jpg",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "source_kind": "html",
-   "evidence": [
-    "[2026-10-20] (https://www.lafriche.org/evenements/stage-de-skate-deveil-graphique-de-graffiti-et-de-flocage/) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Sport (https://www.lafriche.org/agenda/?categorie=sport) Stage de skate, d’éveil graphique, de graffiti et de flocage (htt"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The event is listed under 'mardi 20 octobre' ('[2026-10-20]') with matching title and URL 'https://www.lafriche.org/evenements/stage-de-skate-deveil-graphique-de-graffiti-et-de-flocage/'.",
-   "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5162,7 +5234,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Culture Moves Europe' on 'mardi 20 octobre' ([2026-10-20]) from '09h-18h' with matching URL.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5196,7 +5268,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5230,7 +5302,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches excerpt: 'Visites apprenantes pour les... 20/10/2026 - 14h' with the corresponding URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -5264,7 +5336,41 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
+   "lat": 43.299,
+   "lng": 5.3767
+  },
+  {
+   "uid": "329b8fd6d05e",
+   "venue_id": "alcazar",
+   "venue_name": "Alcazar",
+   "category": "culture",
+   "title": "Randonnée en bibliothèque avec Constantin Alexandrakis",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-20",
+   "start_time": "17:30:00",
+   "end_date": "2026-10-20",
+   "end_time": "19:00:00",
+   "location_name": "Bibliothèque de l'Alcazar",
+   "url": "https://openagenda.com/bibliotheque-lalcazar-marseille/events/79456098_randonnee-en-bibliotheque-avec-constantin-alexandrakis",
+   "price": null,
+   "summary": "Événement des bibliothèques de Marseille",
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/329b8fd6d05e.webp",
+   "image_source": "https://img.openagenda.com/main/751c46fc5c9d4c21b1d6455fe4245410.thumb.image.jpg",
+   "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
+   "source_kind": "json",
+   "evidence": [
+    "Randonnée en bibliothèque avec Constantin Alexandrakis | 2026-10-20 | 17:30"
+   ],
+   "verifier": null,
+   "verifier_reason": null,
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5298,7 +5404,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is listed under 'Prochain(s) rendez-vous' for 'Le mardi 20 octobre à 18 h 30' (matching 2026-10-20) with matching URL and details.",
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2994164,
    "lng": 5.3858632
   },
@@ -5332,7 +5438,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Malqa' is scheduled for 2026-10-20 from 19h-20h at URL https://www.lafriche.org/evenements/malqa-2/.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5366,7 +5472,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: \"mardi 20 octobre 2026 de 20h30 à 21h30\" with the matching title and URL.",
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -5400,7 +5506,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists 'Exposition Allo, à l\\'eau?!... 21/10/2026 - 10h' with matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -5434,7 +5540,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5468,9 +5574,43 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms \"★ Jeune public | Atelier stop-motion\" on \"mercredi 21 octobre 2026 de 14h00 à 16h00\" with the matching URL.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
+  },
+  {
+   "uid": "c8e96dc1060c",
+   "venue_id": "friche-la-belle-de-mai",
+   "venue_name": "Friche la Belle de Mai",
+   "category": "culture",
+   "title": "Entrez libres",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-21",
+   "start_time": "15:30:00",
+   "end_date": null,
+   "end_time": "17:30:00",
+   "location_name": null,
+   "url": "https://www.lafriche.org/evenements/entrez-libres-7/",
+   "price": "Gratuit !",
+   "summary": "Une programmation tout public et ludique pour mieux comprendre et découvrir toutes les facettes des jeux vidéo indépendants et artistiques, créer et jouer ensemble ! Une proposition de CHRONIQUES",
+   "status": "scheduled",
+   "event_type": "Atelier /stage, Numérique",
+   "free": null,
+   "recurring": false,
+   "image": "img/c8e96dc1060c.webp",
+   "image_source": "https://www.lafriche.org/app/uploads/2025/08/ENTREZ-LIBRES-500x300.jpeg",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "source_kind": "html",
+   "evidence": [
+    "[2026-10-21] (https://www.lafriche.org/evenements/entrez-libres-7/) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Numérique (https://www.lafriche.org/agenda/?categorie=numerique) Entrez libres (https://www.lafriche.org/evenements/entrez-libres-7/) Une programmation tout public "
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'mercredi 21 octobre' [2026-10-21] with times '15h30-17h30' for 'Entrez libres' at URL https://www.lafriche.org/evenements/entrez-libres-7/.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.3105,
+   "lng": 5.3906
   },
   {
    "uid": "477dbd82c0c7",
@@ -5502,7 +5642,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5536,7 +5676,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5570,7 +5710,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of \"In Waves\" is confirmed for \"mercredi 21 octobre\" at \"17h\" with URL \"https://cinemalegyptis.org/films/in-waves/\".",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -5604,7 +5744,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '21 Oct 2026 @ Le Dodu / 19:00' for 'LEO MIDDEA (Full Band) – Deuxième date' with matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -5638,7 +5778,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Mercredi 21 octobre à 19h' matching 2026-10-21 at 19:00:00 and lists the event URL and venue details.",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -5672,7 +5812,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is clearly confirmed by the excerpt: \"mercredi 21 octobre 2026 de 19h30 à 21h15\" with matching title and URL.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -5706,7 +5846,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5740,7 +5880,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'jeudi 22 octobre' [2026-10-22] at '14h' for 'Dernier coup de chapeau pour Capelito'.",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -5774,7 +5914,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5808,7 +5948,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5842,7 +5982,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5876,7 +6016,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '22 Oct 2026 @ Le Dodu / 19:00' with title 'LEO MIDDEA (Full Band)' and URL 'https://lemolotov.com/events/leo-middea-full-band/'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -5910,7 +6050,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '22 Oct 2026 @ Le Molotov / 20:30' for 'SYNDROME 81 + Orgueil' at https://lemolotov.com/events/syndrome-81-guest/.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -5944,16 +6084,16 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
   {
-   "uid": "be536c874cf3",
+   "uid": "a9d72bb14d03",
    "venue_id": "alcazar",
    "venue_name": "Alcazar",
    "category": "culture",
-   "title": "Grand jeu du loup Garou",
+   "title": "Annulé :Grand jeu du loup Garou",
    "title_truncated": false,
    "title_completed_from": null,
    "start_date": "2026-10-23",
@@ -5961,24 +6101,24 @@
    "end_date": "2026-10-23",
    "end_time": "17:00:00",
    "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheques-de-marseille/events/59895964_grand-jeu-du-loup-garou",
+   "url": "https://openagenda.com/bibliotheque-lalcazar-marseille/events/59895964_grand-jeu-du-loup-garou",
    "price": null,
    "summary": "Événement des bibliothèques de Marseille",
    "status": "scheduled",
    "event_type": null,
    "free": null,
    "recurring": false,
-   "image": "img/be536c874cf3.webp",
+   "image": "img/a9d72bb14d03.webp",
    "image_source": "https://img.openagenda.com/main/4078df0f4bae446ea7caad9064063913.thumb.image.jpg",
    "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
    "source_kind": "json",
    "evidence": [
-    "Grand jeu du loup Garou | 2026-10-23 | 15:00"
+    "Annulé :Grand jeu du loup Garou | 2026-10-23 | 15:00"
    ],
    "verifier": null,
    "verifier_reason": null,
-   "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6012,7 +6152,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6046,7 +6186,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed by 'Vendredi 23 octobre à 19 h' and matching URL for the book presentation.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -6080,7 +6220,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists '23 Oct 2026 @ Le Molotov / 20:30' for 'ELEINE + Rexoria + Serapis Project' with URL 'https://lemolotov.com/events/eleine-guest/'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -6114,7 +6254,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Corps troubles, peaux d'argent #3 | Flux, écume, embruns' on 'vendredi 23 octobre 2026 de 20h30 à 21h30' with matching URL.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6150,7 +6290,7 @@
    "verifier": "accept",
    "verifier_reason": "The caption announces a future event: \"À découvrir à la Friche dès le 24 octobre\" for the 5ᵉ édition de la Biennale des Imaginaires Numériques, at the Friche la Belle de Mai, published 2026-09-14, so 2026-10-24 (a Saturday) is on/after publication and consistent.",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6184,7 +6324,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is explicitly listed as 'du [2026-10-24T00:00:00+00:00] samedi 24 octobre 2026 au [2026-10-25T00:00:00+00:00] dimanche 25 octobre 2026' with matching URL and title.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6218,7 +6358,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6252,7 +6392,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6286,7 +6426,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6320,7 +6460,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the screening of 'Le merveilleux hiver de Tom Le Chat' on 'samedi 24 octobre' at '11h' with matching URL.",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -6354,7 +6494,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of 'In Waves' is confirmed for 'samedi 24 octobre' at '14h' with the matching film URL.",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -6371,7 +6511,7 @@
    "end_date": "2026-10-24",
    "end_time": "18:30:00",
    "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheques-de-marseille/events/66493168_nous-nous-sommes-tant-aimes-ceravamo-tanto-amati",
+   "url": "https://openagenda.com/bibliotheque-lalcazar-marseille/events/66493168_nous-nous-sommes-tant-aimes-ceravamo-tanto-amati",
    "price": null,
    "summary": "Événement des bibliothèques de Marseille",
    "status": "scheduled",
@@ -6388,7 +6528,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6423,7 +6563,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6457,7 +6597,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the screening of 'Muyi, la légende du village des femmes' on '[2026-10-24]' at '16h' with matching URL.",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -6492,7 +6632,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6526,7 +6666,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'samedi 24 octobre 2026 de 16h00 à 16h40' with the matching URL and title.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6560,7 +6700,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6594,7 +6734,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6628,7 +6768,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is explicitly confirmed by the excerpt: \"samedi 24 octobre 2026 de 18h00 à 19h00\" with matching title and URL.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6662,7 +6802,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the screening on 'samedi 24 octobre 2026 de 20h00 à 21h30' with matching URL and title.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6696,7 +6836,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms '24 Oct 2026 @ Le Molotov / 21:00' with title 'HYPERACTIVITY MUSIC LABEL NIGHT' and URL 'https://lemolotov.com/events/hyperactivity-music-label-night-3/'.",
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -6730,7 +6870,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'dimanche 25 octobre' at '14h' for 'Joyeuse Jungle !' with the corresponding URL.",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -6764,7 +6904,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'dimanche 25 octobre 2026 de 16h00 à 16h45' for 'L'Appel des chantiers | La Traversée + Au Boat Café' with matching URL.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6798,7 +6938,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt confirms 'dimanche 25 octobre 2026 de 18h00 à 19h00' at Videodrome 2 with matching URL.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6832,7 +6972,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'dimanche 25 octobre 2026 de 20h00 à 21h30' with matching URL and event title.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6866,7 +7006,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms '#ARBORESCENCE-Dav Guedin &...' on '26/10/2026 - 09h' with URL 'https://lafabulerie.com/agenda/residence-artistique-emma-pujar-dav-guedin/'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -6900,7 +7040,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by 'Cycle cinéma | Cinéma expérimental : Cinédanse' running 'du mardi 27 octobre 2026 au jeudi 29 octobre 2026' with matching URL.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6934,7 +7074,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6968,7 +7108,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7002,7 +7142,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt explicitly confirms 'mardi 27 octobre 2026 de 19h30 à 20h30' for 'Cinéma expérimental : Cinédanse | Grâce et déploiement'.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -7036,7 +7176,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '27 Oct 2026 @ Le Dodu / 20:00' with 'MESSA + The Night Eternal' at URL https://lemolotov.com/events/messa-guest-2/.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -7071,7 +7211,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7105,7 +7245,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Ateliers : Cartographier nos...' on '28/10/2026 - 14h' with the corresponding URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -7139,7 +7279,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7173,7 +7313,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7207,7 +7347,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7241,7 +7381,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed for 'Le mercredi 28 octobre, à 19 heures' in 2026, matching the extracted date, time, and URL.",
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2994164,
    "lng": 5.3858632
   },
@@ -7275,7 +7415,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Mercredi 28 octobre à 19 h' for the presentation with Akram Belkaid, scheduled in the upcoming events section before 'Évènements Passés'.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -7309,7 +7449,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt confirms 'Cinéma expérimental : Cinédanse | Les couleurs mènent la danse' on 'mercredi 28 octobre 2026 de 19h30 à 20h30'.",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -7377,7 +7517,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'THE TELESCOPES + Guest' on '28 Oct 2026' at '20:00' at '@ Le Molotov' with URL 'https://lemolotov.com/events/the-telescopes-guest/'.",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -7411,7 +7551,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7445,9 +7585,43 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
+  },
+  {
+   "uid": "e9b3cd44f150",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Cinéma expérimental : Cinédanse | Syncopes et glissements",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-29",
+   "start_time": "19:30:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/cinema-experimental-cinedanse-syncopes-et-glissements/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/e9b3cd44f150.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/PROMESSE2-MEA-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Cinéma expérimental : Cinédanse | Syncopes et glissements (https://www.videodrome2.fr/cinema-experimental-cinedanse-syncopes-et-glissements/) [2026-10-29T19:30:00+01:00] jeudi 29 octobre 2026 de 19h30 à 20h30 Les séances de cinéma Manifestation organisée par Grains de Lumière, conçue et réalisée par"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt explicitly confirms \"Cinéma expérimental : Cinédanse | Syncopes et glissements\" on \"jeudi 29 octobre 2026 de 19h30 à 20h30\".",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "ecadd56bb36a",
@@ -7479,7 +7653,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed by excerpt: '29 Oct 2026 @ Le Molotov / 20:00' with URL matching 'https://lemolotov.com/events/fine-klementine-release-party-knafeh-jacuzzi-noisy-peasy-x-strokevitch/'.",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -7513,16 +7687,16 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
   {
-   "uid": "7b0ab546318c",
+   "uid": "26079b0ccd69",
    "venue_id": "alcazar",
    "venue_name": "Alcazar",
    "category": "culture",
-   "title": "Escape game Cornebidouille",
+   "title": "Annulé :Escape game Cornebidouille",
    "title_truncated": false,
    "title_completed_from": null,
    "start_date": "2026-10-30",
@@ -7530,24 +7704,24 @@
    "end_date": "2026-10-30",
    "end_time": "17:00:00",
    "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheques-de-marseille/events/64433092_escape-game-cornebidouille-8100085",
+   "url": "https://openagenda.com/bibliotheque-lalcazar-marseille/events/64433092_escape-game-cornebidouille-8100085",
    "price": null,
    "summary": "Événement des bibliothèques de Marseille",
    "status": "scheduled",
    "event_type": null,
    "free": null,
    "recurring": false,
-   "image": "img/7b0ab546318c.webp",
+   "image": "img/26079b0ccd69.webp",
    "image_source": "https://img.openagenda.com/main/4cb179099f9f4ca7b1f7f4c052b61c72.thumb.image.jpg",
    "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
    "source_kind": "json",
    "evidence": [
-    "Escape game Cornebidouille | 2026-10-30 | 15:00"
+    "Annulé :Escape game Cornebidouille | 2026-10-30 | 15:00"
    ],
    "verifier": null,
    "verifier_reason": null,
-   "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7581,7 +7755,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the event on '30/10/2026 - 16h' with matching URL 'https://lafabulerie.com/agenda/la-martinerie-fait-sa-cremaillere/'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -7615,9 +7789,43 @@
    "verifier": "accept",
    "verifier_reason": "The event is listed under upcoming events with 'Vendredi 30 octobre à 19h' matching 2026-10-30 19:00.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3025,
    "lng": 5.39
+  },
+  {
+   "uid": "04e84cdc5714",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "39e Festival Les Instants Vidéo | Échappée belle",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-30",
+   "start_time": "20:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/39e-festival-les-instants-video-echappee-belle/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/04e84cdc5714.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/holdmyhand-Sophie-Sherman_03-MEA-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "39e Festival Les Instants Vidéo | Échappée belle (https://www.videodrome2.fr/39e-festival-les-instants-video-echappee-belle/) [2026-10-30T20:00:00+01:00] vendredi 30 octobre 2026 de 20h00 à 21h00 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Marseille Dans le cadre de la 39ème éditio"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'vendredi 30 octobre 2026 de 20h00 à 21h00' for '39e Festival Les Instants Vidéo | Échappée belle' at Videodrome 2.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "8a2d97aeffbf",
@@ -7649,7 +7857,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7683,7 +7891,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7717,7 +7925,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7751,9 +7959,43 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
+  },
+  {
+   "uid": "665411f5f1a7",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Même Pas Peur ! #12 | La Nuit des démons de Kevin Tenney",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-31",
+   "start_time": "18:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/meme-pas-peur-12-la-nuit-des-demons-de-kevin-tenney/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/665411f5f1a7.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/night_of_the_demons-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Même Pas Peur ! #12 | La Nuit des démons de Kevin Tenney (https://www.videodrome2.fr/meme-pas-peur-12-la-nuit-des-demons-de-kevin-tenney/) [2026-10-31T18:00:00+01:00] samedi 31 octobre 2026 de 18h00 à 19h30 Les séances de cinéma Dans le cadre du rendez-vous Même Pas Peur ! programmé par Lina Bouali "
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms \"Même Pas Peur ! #12 | La Nuit des démons de Kevin Tenney\" on \"samedi 31 octobre 2026 de 18h00 à 19h30\" at the matching URL.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "4840bc63ce0d",
@@ -7785,7 +8027,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-23",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7819,9 +8061,43 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '31 Oct 2026 @ Le Molotov / 20:30' for 'VIOFLESH + Beloog-A + Guest' with URL 'https://lemolotov.com/events/vioflesh-guest/'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
+  },
+  {
+   "uid": "adbe697e8322",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Même Pas Peur ! #12 | Le Messie du Mal de Willard Huyck, Gloria Katz",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-10-31",
+   "start_time": "20:30:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/meme-pas-peur-12-le-messie-du-mal-de-willard-huyck-gloria-katz/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/adbe697e8322.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/MESSIAH3-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Même Pas Peur ! #12 | Le Messie du Mal de Willard Huyck, Gloria Katz (https://www.videodrome2.fr/meme-pas-peur-12-le-messie-du-mal-de-willard-huyck-gloria-katz/) [2026-10-31T20:30:00+01:00] samedi 31 octobre 2026 de 20h30 à 22h00 Les séances de cinéma Dans le cadre du rendez-vous Même Pas Peur ! pro"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms \"samedi 31 octobre 2026 de 20h30 à 22h00\" for \"Même Pas Peur ! #12 | Le Messie du Mal de Willard Huyck, Gloria Katz\" at the matching URL.",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "8d03ccd90d76",
@@ -7853,7 +8129,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7887,7 +8163,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of 'F(L)EMME | Web-série intégrale' is confirmed for 'dimanche 1 novembre 2026 de 19h30 à 20h15' with matching URL.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -7921,7 +8197,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '1 Nov 2026 @ Le Molotov / 20:30' for 'EYEHATEGOD + Mezcal Wizard' with matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -7955,7 +8231,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'dimanche 1 novembre 2026 de 21h00 à 21h45' for 'F(L)EMME | Web-série intégrale (rediffusion)' with the matching URL.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -7989,7 +8265,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8023,7 +8299,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8057,7 +8333,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8091,7 +8367,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8125,7 +8401,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists 'Ateliers : Cartographier nos...' on '04/11/2026 - 14h' with matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -8159,7 +8435,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8193,7 +8469,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8227,7 +8503,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8261,7 +8537,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8295,7 +8571,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8329,7 +8605,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt confirms '5 Nov 2026 @ Le Molotov / 20:30' for 'THE LET’S GO’S + Supreme Nightclub' at URL 'https://lemolotov.com/events/the-lets-gos-guest/'.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -8365,7 +8641,7 @@
    "verifier": "accept",
    "verifier_reason": "Caption announces a future show (\"MHS PRÉSENT ... Jeudi 05 novembre\", \"L'INTERMEDIAIRE 63 PL. JEAN JAURES - 13006 MARSEILLE\", \"start : 21h00\", \"PAF: 10€\"); the flyer confirms \"JEUDI 05 NOVEMBRE 2026\", which falls on a Thursday (2026-11-05) and is after the post date of vendredi 2026-09-18, so date, weekday, time and venue all match with no cancellation mentioned.",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2942,
    "lng": 5.3855
   },
@@ -8399,7 +8675,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8433,7 +8709,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8467,7 +8743,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8501,7 +8777,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"6 Nov 2026 @ Le Dodu / 20:00\" for \"MASTER BOOT RECORD + FULCI + Arottenbit\" with matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -8535,7 +8811,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8569,7 +8845,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8603,7 +8879,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8637,7 +8913,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8671,7 +8947,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8705,7 +8981,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8739,7 +9015,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8773,7 +9049,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8807,7 +9083,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8841,7 +9117,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8875,7 +9151,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '7 Nov 2026 @ Le Molotov / 20:00' for 'IANWILL + Perseide + Maze’D + Ghetto Paradise' with matching URL.",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -8909,7 +9185,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-17",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8943,7 +9219,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Vernissage itinérant –... 08/11/2026 - 14h' with the matching agenda URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -8977,7 +9253,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '8 Nov 2026 @ Le Molotov / 18:30' for 'UP TOWN MUSIC BAND #24' with matching URL and price.",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9011,7 +9287,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9045,7 +9321,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9079,7 +9355,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '10 Nov 2026 @ Le Molotov / 20:00' for 'FLY ANAKIN & QUELLE CHRIS' with URL 'https://lemolotov.com/events/fly-anakin-quelle-chris/'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9113,7 +9389,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9147,7 +9423,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches excerpt: '12 Nov 2026 @ Le Molotov / 20:00 Entrée : 12€ Prévente: 10€ RATS DON’T SINK + Vodk47 + Bad Call' with link (https://lemolotov.com/events/rats-dont-sink-vodk47-bad-call/).",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9181,7 +9457,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9215,7 +9491,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms '13 Nov 2026 @ Le Dodu / 19:00' with title 'ASHEN + Ascend + Fleur.' and URL 'https://lemolotov.com/events/ashen-guest/'.",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9249,7 +9525,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9283,7 +9559,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-16",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9317,9 +9593,43 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
+  },
+  {
+   "uid": "8c1bac59e114",
+   "venue_id": "mucem",
+   "venue_name": "Mucem",
+   "category": "culture",
+   "title": "Visites Flash",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-11-14",
+   "start_time": "14:00:00",
+   "end_date": "2026-12-31",
+   "end_time": "16:00:00",
+   "location_name": "J4",
+   "url": "https://mucem.org/evenement/visites-flash/",
+   "price": "Gratuit",
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": true,
+   "recurring": true,
+   "image": "img/8c1bac59e114.webp",
+   "image_source": "https://mucem.org/uploads/2025/01/Site_Visite-1-768x576.jpg",
+   "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
+   "source_kind": "json",
+   "evidence": [
+    "Visites Flash | 20261114 | 14:00"
+   ],
+   "verifier": null,
+   "verifier_reason": null,
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "lat": 43.2966941,
+   "lng": 5.3610825
   },
   {
    "uid": "0803ebae2c0e",
@@ -9351,7 +9661,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9385,7 +9695,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9419,7 +9729,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Le samedi 14 novembre 2026 à 17 heures' for 'Le rouge-gorge de Cempuis' under 'Prochaines causeries' with the matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3003,
    "lng": 5.3852
   },
@@ -9453,7 +9763,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is clearly listed for '15 Nov 2026 @ Le Molotov / 20:00' with the URL 'https://lemolotov.com/events/the-upsessions/'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9487,7 +9797,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9521,7 +9831,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9555,7 +9865,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9589,7 +9899,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9623,7 +9933,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9657,7 +9967,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9691,7 +10001,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9725,7 +10035,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9759,7 +10069,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9793,7 +10103,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9827,7 +10137,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: \"19 Nov 2026 @ Le Molotov / 20:00\" for \"MASSIMO SILVERIO + Misé Babilha\" with URL https://lemolotov.com/events/massimo-silverio-mise-babilha/.",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9844,7 +10154,7 @@
    "end_date": "2026-11-20",
    "end_time": "18:00:00",
    "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheques-de-marseille/events/51959732_showing-up",
+   "url": "https://openagenda.com/bibliotheque-lalcazar-marseille/events/51959732_showing-up",
    "price": null,
    "summary": "Événement des bibliothèques de Marseille",
    "status": "scheduled",
@@ -9861,7 +10171,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9895,7 +10205,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9929,7 +10239,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists '20 Nov 2026 @ Le Dodu / 19:00' with title 'MARCUS GAD & Tribe' and matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9963,7 +10273,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9997,7 +10307,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10031,7 +10341,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10065,7 +10375,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10099,7 +10409,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms '21 Nov 2026 @ Le Dodu / 19:00' with title 'SPIDER ZED' and URL 'https://lemolotov.com/events/spider-zed/'.",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -10133,7 +10443,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10167,7 +10477,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10201,7 +10511,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10235,7 +10545,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10269,7 +10579,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '24 Nov 2026 @ Le Molotov / 20:30' for 'GVLLOW + Ohm Sweet Ohm' at https://lemolotov.com/events/gvllow-guest/.",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-07",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -10303,7 +10613,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10337,7 +10647,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10371,7 +10681,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10405,7 +10715,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10439,7 +10749,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10507,7 +10817,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Allo, à l’eau ?! -' on '27/11/2026 - 10h' with matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -10541,7 +10851,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10575,7 +10885,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10609,7 +10919,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10643,7 +10953,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10677,7 +10987,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '#Faire Famille - Machines à...' scheduled for '30/11/2026 - 09h' with the matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -10711,7 +11021,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10745,7 +11055,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10779,7 +11089,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10813,7 +11123,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10847,7 +11157,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10881,7 +11191,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10915,7 +11225,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10949,7 +11259,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10983,7 +11293,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11017,7 +11327,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11051,7 +11361,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11085,7 +11395,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11119,7 +11429,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11153,7 +11463,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11187,7 +11497,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11221,7 +11531,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11255,7 +11565,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11289,7 +11599,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11323,7 +11633,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11357,7 +11667,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11391,7 +11701,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11425,7 +11735,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11459,7 +11769,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11493,7 +11803,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11527,7 +11837,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-27",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11561,7 +11871,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms under 'Prochaines causeries' that 'Le samedi 12 décembre 2026 à 17 heures' will feature 'Hiver 95-96 un mouvement social et étudiant à Toulouse'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.3003,
    "lng": 5.3852
   },
@@ -11595,7 +11905,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11629,7 +11939,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11663,7 +11973,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11697,7 +12007,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11731,7 +12041,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11765,7 +12075,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11799,7 +12109,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11833,7 +12143,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11867,7 +12177,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11901,7 +12211,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -11935,7 +12245,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11969,7 +12279,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12003,7 +12313,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12037,7 +12347,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12071,7 +12381,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12105,7 +12415,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12139,7 +12449,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12173,7 +12483,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12207,7 +12517,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12241,7 +12551,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12275,7 +12585,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12309,7 +12619,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12343,7 +12653,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12412,7 +12722,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12446,7 +12756,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12480,7 +12790,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12514,7 +12824,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12548,7 +12858,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12582,7 +12892,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12616,7 +12926,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12650,7 +12960,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12684,7 +12994,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12718,7 +13028,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12752,7 +13062,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12786,7 +13096,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12820,7 +13130,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12854,7 +13164,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12888,7 +13198,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12922,7 +13232,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12956,7 +13266,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12990,7 +13300,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13024,7 +13334,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13058,7 +13368,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13092,7 +13402,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13126,7 +13436,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13160,7 +13470,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13194,7 +13504,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13229,7 +13539,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13263,7 +13573,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13297,7 +13607,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13331,7 +13641,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13366,7 +13676,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13400,7 +13710,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13434,7 +13744,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13469,7 +13779,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13504,7 +13814,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13538,7 +13848,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13572,7 +13882,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13606,7 +13916,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -13640,7 +13950,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13674,7 +13984,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13708,7 +14018,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13742,7 +14052,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13776,7 +14086,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-30",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13810,7 +14120,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13844,7 +14154,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13878,7 +14188,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13912,7 +14222,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13946,7 +14256,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13980,7 +14290,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14014,7 +14324,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14048,7 +14358,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14082,7 +14392,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14116,7 +14426,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14150,7 +14460,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14184,7 +14494,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14218,7 +14528,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14253,7 +14563,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14287,7 +14597,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14321,7 +14631,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14355,7 +14665,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14389,7 +14699,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14423,7 +14733,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14457,7 +14767,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14491,7 +14801,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14525,7 +14835,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14559,7 +14869,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14593,7 +14903,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14627,7 +14937,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14661,7 +14971,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14695,7 +15005,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14729,7 +15039,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14763,7 +15073,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14797,7 +15107,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14831,7 +15141,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14865,7 +15175,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14899,7 +15209,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14933,7 +15243,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14967,7 +15277,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15001,7 +15311,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15035,7 +15345,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15069,7 +15379,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15103,7 +15413,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15137,7 +15447,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -15171,7 +15481,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15205,7 +15515,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15239,7 +15549,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15273,7 +15583,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -15307,7 +15617,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15341,7 +15651,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15375,7 +15685,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "lat": 43.2966941,
    "lng": 5.3610825
   }

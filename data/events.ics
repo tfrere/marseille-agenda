@@ -133,45 +133,6 @@ URL:https://www.instagram.com/p/DdW7GkytFy7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Labo des désirs
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261010
-UID:c203d1c7e8fa@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Projet participatif et convivial de création et programmation
-  collective ouvert à tous·tes une semaine par mois. Une proposition de r
- ésident·es et associations du quartier\nPrix : Entrée libre\nhttps://ww
- w.lafriche.org/evenements/labo-des-desirs-3/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/labo-des-desirs-3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261020
-UID:ce0804df3447@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261012
-UID:d599cc240f5e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Labo des désirs
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261010
 UID:94b6592a5d95@marseille-agenda
@@ -223,20 +184,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/festival-actoral-5/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Les Petits Mercredis
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-UID:d06d3916a3aa@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
- el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
- fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
- ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
- s-mercredis-13/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Unworlding
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261022
@@ -276,54 +223,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nadin Nadine – Résidence-ateliers de carto-sérigraphie
-DTSTART;TZID=Europe/Paris:20261007T100000
-DTEND;TZID=Europe/Paris:20261007T120000
-UID:06daf184e897@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/nadin-nadine-toponymie-itineran
- ces-cartographie-sensible/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/nadin-nadine-toponymie-itinerances-cart
- ographie-sensible/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Nadin Nadine – Toponymie\, itinérances & cartographie sensible
-DTSTART;TZID=Europe/Paris:20261007T100000
-DTEND;TZID=Europe/Paris:20261007T120000
-UID:66bf94d43bd7@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/nadin-nadine-toponymie-itineran
- ces-cartographie-sensible/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/nadin-nadine-toponymie-itinerances-cart
- ographie-sensible/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ateliers : Cartographier nos territoires avec Nadin Nadine
-DTSTART;TZID=Europe/Paris:20261007T140000
-DTEND;TZID=Europe/Paris:20261007T160000
-UID:48ced9a87615@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/cartographier-nos-territoires-a
- vec-nadin-nadine/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
- n-nadine/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Annulé :Ciné-jeune
-DTSTART;TZID=Europe/Paris:20261007T150000
-DTEND;TZID=Europe/Paris:20261007T163000
-UID:73a272930a09@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/12604700_cine-jeune-1680805
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/12604700
- _cine-jeune-1680805
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Entrez libres
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261011
@@ -335,55 +234,6 @@ DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
  ratuit !\nhttps://www.lafriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Club de lecture
-DTSTART;TZID=Europe/Paris:20261007T160000
-DTEND;TZID=Europe/Paris:20261007T173000
-UID:85a035ee4e1c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/88904598_club-de-lecture-6392774
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/88904598_club
- -de-lecture-6392774
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le Règne animal
-DTSTART;TZID=Europe/Paris:20261007T160000
-DTEND;TZID=Europe/Paris:20261007T190000
-UID:26ff7f963a73@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/48053030_le-regne-animal-5061424
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/48053030_le-r
- egne-animal-5061424
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lectures en salle
-DTSTART;TZID=Europe/Paris:20261007T163000
-DTEND;TZID=Europe/Paris:20261007T170000
-UID:e4725e3f04d2@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/64425710_lectures-en-salle-9169542
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/64425710_lect
- ures-en-salle-9169542
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[vwa] langages\, sciences sociales et cinéma | Atelier de convers
- ation de Bernhard Braunstein
-DTSTART;TZID=Europe/Paris:20261007T180000
-DTEND;TZID=Europe/Paris:20261007T200000
-UID:36fd30fa7526@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/vwa-langages-sciences-sociales-et-c
- inema-atelier-de-conversation-de-bernhard-braunstein/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/vwa-langages-sciences-sociales-et-cinema-at
- elier-de-conversation-de-bernhard-braunstein/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival actoral
@@ -399,16 +249,18 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/festival-actoral-5/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Séminaire MERs hors les murs | Travailler en films
-DTSTART;TZID=Europe/Paris:20261007T203000
-DTEND;TZID=Europe/Paris:20261007T223000
-UID:a78e2c96b4bf@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/seminaire-migrations-ecritures-sens
- ibles-travailler-en-films/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/seminaire-migrations-ecritures-sensibles-tr
- availler-en-films/
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261023
+UID:5bfad284f53d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:08 - 16 OCTOBRE
@@ -419,6 +271,45 @@ CATEGORIES:cinema
 DESCRIPTION:https://www.cinehorizontes.com/
 LOCATION:Les Variétés
 URL:https://www.cinehorizontes.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261023
+UID:a6e28b4a6afc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261011
+UID:b6ae7b2cd94e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival actoral
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261011
+UID:1eb3c372bf2b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Théâtre\, danse\, performances... une immersion au cœur de 
+ la création contemporaine\, avec 14 rendez-vous à la Friche pour cette 2
+ 6e édition ! Une proposition de Actoral\nhttps://www.lafriche.org/eveneme
+ nts/festival-actoral-5/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/festival-actoral-5/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:David Yon | Discussion : Robert Kramer\, une quête incandescente
@@ -501,11 +392,11 @@ DTEND;TZID=Europe/Paris:20261009T183000
 UID:9137b0b7fb3d@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/51688684_club-de-lecture-ado-68339
- 4
+ a.com/bibliotheque-lalcazar-marseille/events/51688684_club-de-lecture-ado-
+ 683394
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/51688684_club
- -de-lecture-ado-683394
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51688684
+ _club-de-lecture-ado-683394
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Plexus Rouge
@@ -611,11 +502,11 @@ DTEND;TZID=Europe/Paris:20261010T120000
 UID:a23e2ca6f7e9@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/86004107_journee-de-formation-peda
- gogique-a-destination-des-professeurs-despagnol
+ a.com/bibliotheque-lalcazar-marseille/events/86004107_journee-de-formation
+ -pedagogique-a-destination-des-professeurs-despagnol
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/86004107_jour
- nee-de-formation-pedagogique-a-destination-des-professeurs-despagnol
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/86004107
+ _journee-de-formation-pedagogique-a-destination-des-professeurs-despagnol
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Bruits Roses - créations radiophoniques méditerranéenn
@@ -625,11 +516,11 @@ DTEND;TZID=Europe/Paris:20261010T130000
 UID:004736638175@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/69358924_festival-bruits-roses-961
- 7717
+ a.com/bibliotheque-lalcazar-marseille/events/69358924_festival-bruits-rose
+ s-9617717
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/69358924_fest
- ival-bruits-roses-9617717
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/69358924
+ _festival-bruits-roses-9617717
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures aux tout-petits
@@ -638,11 +529,11 @@ DTEND;TZID=Europe/Paris:20261010T103000
 UID:893f9595d4d3@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/8473914_lectures-aux-tout-petits-7
- 599984
+ a.com/bibliotheque-lalcazar-marseille/events/8473914_lectures-aux-tout-pet
+ its-7599984
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/8473914_lectu
- res-aux-tout-petits-7599984
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/8473914_
+ lectures-aux-tout-petits-7599984
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival des sciences de Marseille
@@ -685,10 +576,10 @@ DTEND;TZID=Europe/Paris:20261010T160000
 UID:4c07cb375456@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/87071629_6101590
+ a.com/bibliotheque-lalcazar-marseille/events/87071629_6101590
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/87071629_6101
- 590
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/87071629
+ _6101590
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L’Alcazar se transforme : Créez le futur Studio de Création av
@@ -698,11 +589,12 @@ DTEND;TZID=Europe/Paris:20261010T170000
 UID:3af314681b21@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/60758388_lalcazar-se-transforme-cr
- eez-le-futur-studio-de-creation-avec-nous-6068303
+ a.com/bibliotheque-lalcazar-marseille/events/60758388_lalcazar-se-transfor
+ me-creez-le-futur-studio-de-creation-avec-nous-6068303
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/60758388_lalc
- azar-se-transforme-creez-le-futur-studio-de-creation-avec-nous-6068303
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/60758388
+ _lalcazar-se-transforme-creez-le-futur-studio-de-creation-avec-nous-606830
+ 3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CineHorizontes 2026 - Festival de cinéma espagnol de Marseille
@@ -711,11 +603,11 @@ DTEND;TZID=Europe/Paris:20261010T170000
 UID:e51da33978c2@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/89317544_cinehorizontes-2026-festi
- val-de-cinema-espagnol-de-marseille
+ a.com/bibliotheque-lalcazar-marseille/events/89317544_cinehorizontes-2026-
+ festival-de-cinema-espagnol-de-marseille
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/89317544_cine
- horizontes-2026-festival-de-cinema-espagnol-de-marseille
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/89317544
+ _cinehorizontes-2026-festival-de-cinema-espagnol-de-marseille
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Yeux Ouverts | Atelier Doc en cours
@@ -735,11 +627,11 @@ DTEND;TZID=Europe/Paris:20261010T183000
 UID:46f1ec5c3957@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/92377856_atelier-du-parler-marseil
- lais-3600286
+ a.com/bibliotheque-lalcazar-marseille/events/92377856_atelier-du-parler-ma
+ rseillais-3600286
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/92377856_atel
- ier-du-parler-marseillais-3600286
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/92377856
+ _atelier-du-parler-marseillais-3600286
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rencontres inspirantes : Femmes des Suds et engagement à cœur #3
@@ -958,6 +850,17 @@ LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/festival-aflam-13eme-edition/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Permanence des Amoureux au ban public
+DTSTART;TZID=Europe/Paris:20261013T173000
+DTEND;TZID=Europe/Paris:20261013T193000
+UID:b7e6d5223c73@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42301
+LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42301
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Festival Aflam | Affluents : Khabur + Bleu gris + Beneath Which Ri
  vers Flow
 DTSTART;TZID=Europe/Paris:20261013T180000
@@ -1030,18 +933,6 @@ URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
  n-nadine/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:★ Jeune public | Atelier stop-motion
-DTSTART;TZID=Europe/Paris:20261014T140000
-DTEND;TZID=Europe/Paris:20261014T160000
-UID:5f11abf4c66c@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/%e2%98%85-jeune-public-atelier-stop
- -motion-4/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/%e2%98%85-jeune-public-atelier-stop-motion-
- 4/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cinehonrizontes fête la jeunesse\, rencontre avec l'auteur espagn
  ol José Ángel Mañas\, autour d'Historias del Kronen
 DTSTART;TZID=Europe/Paris:20261014T143000
@@ -1049,11 +940,11 @@ DTEND;TZID=Europe/Paris:20261014T173000
 UID:9bac71060398@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/70524397_festival-de-cinema-espagn
- ol-cinehorizontes
+ a.com/bibliotheque-lalcazar-marseille/events/70524397_festival-de-cinema-e
+ spagnol-cinehorizontes
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/70524397_fest
- ival-de-cinema-espagnol-cinehorizontes
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/70524397
+ _festival-de-cinema-espagnol-cinehorizontes
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
@@ -1061,10 +952,11 @@ DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261018
 UID:94a8b8cda50f@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
-  et découvrir toutes les facettes des jeux vidéo indépendants et artist
- iques\, créer et jouer ensemble ! Une proposition de CHRONIQUES\nPrix : G
- ratuit !\nhttps://www.lafriche.org/evenements/entrez-libres-7/
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
@@ -1075,10 +967,11 @@ DTEND;TZID=Europe/Paris:20261014T173000
 UID:992f056bd842@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/24346611_club-de-lecture-1159884
+ a.com/bibliotheque-lalcazar-marseille/events/24346611_club-de-lecture-1159
+ 884
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/24346611_club
- -de-lecture-1159884
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/24346611
+ _club-de-lecture-1159884
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -1087,10 +980,11 @@ DTEND;TZID=Europe/Paris:20261014T170000
 UID:45892edf97b2@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/83981426_lectures-en-salle-3782666
+ a.com/bibliotheque-lalcazar-marseille/events/83981426_lectures-en-salle-37
+ 82666
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/83981426_lect
- ures-en-salle-3782666
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/83981426
+ _lectures-en-salle-3782666
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Petite Casbah
@@ -1110,11 +1004,11 @@ DTEND;TZID=Europe/Paris:20261014T181000
 UID:70625fa8b10d@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/4147585_projection-escales-ina-a-b
- eyrouth-suivie-de-zghorta
+ a.com/bibliotheque-lalcazar-marseille/events/4147585_projection-escales-in
+ a-a-beyrouth-suivie-de-zghorta
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/4147585_proje
- ction-escales-ina-a-beyrouth-suivie-de-zghorta
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/4147585_
+ projection-escales-ina-a-beyrouth-suivie-de-zghorta
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:REBATO
@@ -1230,11 +1124,11 @@ DTEND;TZID=Europe/Paris:20261015T190000
 UID:e861fc055bf0@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/57922455_rencontre-autour-du-don-d
- organe
+ a.com/bibliotheque-lalcazar-marseille/events/57922455_rencontre-autour-du-
+ don-dorgane
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/57922455_renc
- ontre-autour-du-don-dorgane
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/57922455
+ _rencontre-autour-du-don-dorgane
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HÄLLAS + Earth Tongue
@@ -1287,11 +1181,11 @@ DTEND;TZID=Europe/Paris:20261016T183000
 UID:ece861c3d87b@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/95188432_club-de-lecture-ado-57489
- 82
+ a.com/bibliotheque-lalcazar-marseille/events/95188432_club-de-lecture-ado-
+ 5748982
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/95188432_club
- -de-lecture-ado-5748982
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/95188432
+ _club-de-lecture-ado-5748982
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Jour de colère : Contes de Tripoli ok
@@ -1311,11 +1205,11 @@ DTEND;TZID=Europe/Paris:20261016T193000
 UID:367101a7cefb@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/86846194_la-colere-dune-ville-reco
- nstruire-marseille-a-partir-de-la-rue-daubagne
+ a.com/bibliotheque-lalcazar-marseille/events/86846194_la-colere-dune-ville
+ -reconstruire-marseille-a-partir-de-la-rue-daubagne
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/86846194_la-c
- olere-dune-ville-reconstruire-marseille-a-partir-de-la-rue-daubagne
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/86846194
+ _la-colere-dune-ville-reconstruire-marseille-a-partir-de-la-rue-daubagne
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dominique Vittoz autour d’Andrea Camilleri
@@ -1324,25 +1218,11 @@ DTEND;TZID=Europe/Paris:20261016T200000
 UID:bfa9dd34f293@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/48573828_cycle-traduction-dominiqu
- e-vittoz
+ a.com/bibliotheque-lalcazar-marseille/events/48573828_cycle-traduction-dom
+ inique-vittoz
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/48573828_cycl
- e-traduction-dominique-vittoz
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Projection-débat : « Vivre avec le risque inondation »
-DTSTART;TZID=Europe/Paris:20261016T180000
-DTEND;TZID=Europe/Paris:20261016T200000
-UID:df99619ff412@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une soirée pour s'informer et se préparer face au risque inn
- ondation. Une proposition de l'EPAGE HuCA et l'Atelier Bleu – CPIE Côte
-  Provençale\nhttps://www.lafriche.org/evenements/projection-debat-vivre-a
- vec-le-risque-inondation/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/projection-debat-vivre-avec-le-ris
- que-inondation/
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/48573828
+ _cycle-traduction-dominique-vittoz
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Vivre avec le risque inondation
@@ -1465,11 +1345,11 @@ DTEND;TZID=Europe/Paris:20261017T103000
 UID:1faa3bc492fa@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/25356055_lectures-aux-tout-petits-
- 165611
+ a.com/bibliotheque-lalcazar-marseille/events/25356055_lectures-aux-tout-pe
+ tits-165611
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/25356055_lect
- ures-aux-tout-petits-165611
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/25356055
+ _lectures-aux-tout-petits-165611
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Table ronde : Diffuser le cinéma de patrimoine des pays arabes\, 
@@ -1514,10 +1394,11 @@ DTEND;TZID=Europe/Paris:20261017T173000
 UID:3edd24aa3490@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/57713605_cine-philo-blade-runner
+ a.com/bibliotheque-lalcazar-marseille/events/57713605_cine-philo-blade-run
+ ner
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/57713605_cine
- -philo-blade-runner
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/57713605
+ _cine-philo-blade-runner
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites Flash
@@ -1740,7 +1621,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Stage de skate\, d’éveil graphique\, de graffiti et de flocage
 DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
 UID:307646d9a87f@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Pour les vacances d'hiver\, des stages de skate\, d'éveil gra
@@ -1841,10 +1722,10 @@ DTEND;TZID=Europe/Paris:20261020T161500
 UID:965790889a4d@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/25549597_cine-jeune-5484737
+ a.com/bibliotheque-lalcazar-marseille/events/25549597_cine-jeune-5484737
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/25549597_cine
- -jeune-5484737
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/25549597
+ _cine-jeune-5484737
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Randonnée en bibliothèque avec Constantin Alexandrakis
@@ -1918,11 +1799,11 @@ DTEND;TZID=Europe/Paris:20261021T210000
 UID:2d63538a7f6d@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/2282328_conference-semaine-de-la-p
- op-philosophie
+ a.com/bibliotheque-lalcazar-marseille/events/2282328_conference-semaine-de
+ -la-pop-philosophie
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/2282328_confe
- rence-semaine-de-la-pop-philosophie
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/2282328_
+ conference-semaine-de-la-pop-philosophie
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:★ Jeune public | Atelier stop-motion
@@ -1942,10 +1823,11 @@ DTSTART;TZID=Europe/Paris:20261021T153000
 DTEND;TZID=Europe/Paris:20261021T173000
 UID:c8e96dc1060c@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Une programmation tout public et ludique pour mieux comprendre
-  et découvrir toutes les facettes des jeux vidéo indépendants et artist
- iques\, créer et jouer ensemble ! Une proposition de CHRONIQUES\nPrix : G
- ratuit !\nhttps://www.lafriche.org/evenements/entrez-libres-7/
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
@@ -1966,10 +1848,11 @@ DTEND;TZID=Europe/Paris:20261021T170000
 UID:9b2f7ad0f816@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/13061020_lectures-en-salle-6400715
+ a.com/bibliotheque-lalcazar-marseille/events/13061020_lectures-en-salle-64
+ 00715
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/13061020_lect
- ures-en-salle-6400715
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/13061020
+ _lectures-en-salle-6400715
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:In Waves
@@ -2019,6 +1902,16 @@ URL:https://www.videodrome2.fr/coeurs-sombres-lhistoire-dadele-h-de-franco
  is-truffaut/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ATNA VOL. 4
+DTSTART;TZID=Europe/Paris:20261021T200000
+DTEND;TZID=Europe/Paris:20261021T220000
+UID:672079779b3d@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/atna-vol-4/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/atna-vol-4/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Matrimoine textile en Provence
 DTSTART;TZID=Europe/Paris:20261022T103000
 DTEND;TZID=Europe/Paris:20261022T130000
@@ -2051,10 +1944,10 @@ DTEND;TZID=Europe/Paris:20261022T160000
 UID:b898bf88cec8@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/142964_cine-jeune-2903160
+ a.com/bibliotheque-lalcazar-marseille/events/142964_cine-jeune-2903160
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/142964_cine-j
- eune-2903160
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/142964_c
+ ine-jeune-2903160
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le grand Kami
@@ -2067,6 +1960,20 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-grand-kami/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;TZID=Europe/Paris:20261022T153000
+DTEND;TZID=Europe/Paris:20261022T173000
+UID:fac2ac963e4e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:21e Festival Films Femmes Méditerranée - Présentation de la pro
  grammation 2026
 DTSTART;TZID=Europe/Paris:20261022T180000
@@ -2074,11 +1981,38 @@ DTEND;TZID=Europe/Paris:20261022T203000
 UID:26d344f23bf8@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/69541168_films-femmes-mediterranee
- -presentation-de-ledition-2026
+ a.com/bibliotheque-lalcazar-marseille/events/69541168_films-femmes-mediter
+ ranee-presentation-de-ledition-2026
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/69541168_film
- s-femmes-mediterranee-presentation-de-ledition-2026
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/69541168
+ _films-femmes-mediterranee-presentation-de-ledition-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Présence en jeu\, présence au quotidien
+DTSTART;TZID=Europe/Paris:20261022T180000
+DTEND;TZID=Europe/Paris:20261022T193000
+UID:44600aea50b7@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un temps d'échange autour du mouvement et de la présence sc
+ énique. Une proposition de La Réplique\nhttps://www.lafriche.org/eveneme
+ nts/presence-en-jeu-presence-au-quotidien/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/presence-en-jeu-presence-au-quotid
+ ien/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Instants Vidéo – Jour 1
+DTSTART;TZID=Europe/Paris:20261022T183000
+DTEND;TZID=Europe/Paris:20261022T223000
+UID:0ec0c4560270@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pour ce premier jour à la Friche\, le festival propose 2 proj
+ ections\, 11 films en provenance d’Allemagne\, France\, Liban\, Palestin
+ e. Une proposition de Instants Vidéo\nPrix : Gratuit !\nhttps://www.lafri
+ che.org/evenements/39e-festival-les-instants-video-jour-1/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/39e-festival-les-instants-video-jo
+ ur-1/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LEO MIDDEA (Full Band)
@@ -2203,11 +2137,11 @@ DTEND;TZID=Europe/Paris:20261024T123000
 UID:cba10b81ee93@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/19183713_atelier-de-traduction-gre
- c
+ a.com/bibliotheque-lalcazar-marseille/events/19183713_atelier-de-traductio
+ n-grec
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/19183713_atel
- ier-de-traduction-grec
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/19183713
+ _atelier-de-traduction-grec
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures aux tout-petits
@@ -2216,11 +2150,11 @@ DTEND;TZID=Europe/Paris:20261024T103000
 UID:db49e27ed94a@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/22650315_lectures-aux-tout-petits-
- 9543461
+ a.com/bibliotheque-lalcazar-marseille/events/22650315_lectures-aux-tout-pe
+ tits-9543461
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/22650315_lect
- ures-aux-tout-petits-9543461
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/22650315
+ _lectures-aux-tout-petits-9543461
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Éveil musical
@@ -2229,10 +2163,11 @@ DTEND;TZID=Europe/Paris:20261024T103000
 UID:a541e8b1f86e@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/76958962_eveil-musical-9833385
+ a.com/bibliotheque-lalcazar-marseille/events/76958962_eveil-musical-983338
+ 5
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/76958962_evei
- l-musical-9833385
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/76958962
+ _eveil-musical-9833385
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le merveilleux hiver de Tom Le Chat
@@ -2331,10 +2266,21 @@ DTEND;TZID=Europe/Paris:20261024T190000
 UID:71db26626eb1@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/5150099_marseille-a-51c
+ a.com/bibliotheque-lalcazar-marseille/events/5150099_marseille-a-51c
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/5150099_marse
- ille-a-51c
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/5150099_
+ marseille-a-51c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Table ronde "L’Utile et l’Agréable"
+DTSTART;TZID=Europe/Paris:20261024T173000
+DTEND;TZID=Europe/Paris:20261024T193000
+UID:9cd231d28052@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Table-ronde-L-Utile-et-l-Agreabl
+ e
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Table-ronde-L-Utile-et-l-Agreable
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L'Appel des chantiers |  Maintenant je te vois + Vivre ailleurs 
@@ -2465,10 +2411,10 @@ DTEND;TZID=Europe/Paris:20261027T163000
 UID:3937c61714c1@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/33204392_cine-jeune-1259092
+ a.com/bibliotheque-lalcazar-marseille/events/33204392_cine-jeune-1259092
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/33204392_cine
- -jeune-1259092
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/33204392
+ _cine-jeune-1259092
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cinéma expérimental : Cinédanse | Grâce et déploiement
@@ -2533,10 +2479,11 @@ DTEND;TZID=Europe/Paris:20261028T170000
 UID:eb675d34e358@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/64423071_lectures-en-salle-3693979
+ a.com/bibliotheque-lalcazar-marseille/events/64423071_lectures-en-salle-36
+ 93979
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/64423071_lect
- ures-en-salle-3693979
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/64423071
+ _lectures-en-salle-3693979
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Parc national des Calanques : la solidarité écologique comme 
@@ -2546,12 +2493,12 @@ DTEND;TZID=Europe/Paris:20261028T193000
 UID:08fbac6b1edc@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/64670591_le-parc-national-des-cala
- nques-la-solidarite-ecologique-comme-projet-de-territoire
+ a.com/bibliotheque-lalcazar-marseille/events/64670591_le-parc-national-des
+ -calanques-la-solidarite-ecologique-comme-projet-de-territoire
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/64670591_le-p
- arc-national-des-calanques-la-solidarite-ecologique-comme-projet-de-territ
- oire
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/64670591
+ _le-parc-national-des-calanques-la-solidarite-ecologique-comme-projet-de-t
+ erritoire
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Iran. Guerres\, révoltes\, espérances
@@ -2623,10 +2570,10 @@ DTEND;TZID=Europe/Paris:20261029T154500
 UID:1612f7daebfb@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/31724680_cine-jeune-8323971
+ a.com/bibliotheque-lalcazar-marseille/events/31724680_cine-jeune-8323971
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/31724680_cine
- -jeune-8323971
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/31724680
+ _cine-jeune-8323971
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L’ombre en soi qui écrit
@@ -2729,11 +2676,11 @@ DTEND;TZID=Europe/Paris:20261031T103000
 UID:8a2d97aeffbf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/41282392_lectures-aux-tout-petits-
- 1842999
+ a.com/bibliotheque-lalcazar-marseille/events/41282392_lectures-aux-tout-pe
+ tits-1842999
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/41282392_lect
- ures-aux-tout-petits-1842999
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/41282392
+ _lectures-aux-tout-petits-1842999
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bibliomusée
@@ -2742,10 +2689,10 @@ DTEND;TZID=Europe/Paris:20261031T151500
 UID:2ab589e81123@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/17198488_bibliomusee-9537076
+ a.com/bibliotheque-lalcazar-marseille/events/17198488_bibliomusee-9537076
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/17198488_bibl
- iomusee-9537076
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/17198488
+ _bibliomusee-9537076
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L’Alcazar se transforme : Créez le futur Studio de Création av
@@ -2755,11 +2702,12 @@ DTEND;TZID=Europe/Paris:20261031T170000
 UID:fefb1d7e7749@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/63786025_lalcazar-se-transforme-cr
- eez-le-futur-studio-de-creation-avec-nous-1301786
+ a.com/bibliotheque-lalcazar-marseille/events/63786025_lalcazar-se-transfor
+ me-creez-le-futur-studio-de-creation-avec-nous-1301786
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/63786025_lalc
- azar-se-transforme-creez-le-futur-studio-de-creation-avec-nous-1301786
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/63786025
+ _lalcazar-se-transforme-creez-le-futur-studio-de-creation-avec-nous-130178
+ 6
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Res Futurae : uchronie\, utopie et dystopie dans les fonds patrimo
@@ -2769,11 +2717,12 @@ DTEND;TZID=Europe/Paris:20261031T160000
 UID:20c35d230e28@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/4503976_res-futurae-uchronie-utopi
- e-et-dystopie-dans-les-fonds-patrimoniaux-4958815
+ a.com/bibliotheque-lalcazar-marseille/events/4503976_res-futurae-uchronie-
+ utopie-et-dystopie-dans-les-fonds-patrimoniaux-4958815
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/4503976_res-f
- uturae-uchronie-utopie-et-dystopie-dans-les-fonds-patrimoniaux-4958815
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/4503976_
+ res-futurae-uchronie-utopie-et-dystopie-dans-les-fonds-patrimoniaux-495881
+ 5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Même Pas Peur ! #12 | La Nuit des démons de Kevin Tenney
@@ -2904,11 +2853,11 @@ DTEND;TZID=Europe/Paris:20261103T190000
 UID:56f3bdced63f@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/59190913_randonnee-en-bibliotheque
- -avec-uy-vinh-landru
+ a.com/bibliotheque-lalcazar-marseille/events/59190913_randonnee-en-bibliot
+ heque-avec-uy-vinh-landru
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/59190913_rand
- onnee-en-bibliotheque-avec-uy-vinh-landru
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/59190913
+ _randonnee-en-bibliotheque-avec-uy-vinh-landru
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ateliers : Cartographier nos territoires avec Nadin Nadine
@@ -2929,10 +2878,11 @@ DTEND;TZID=Europe/Paris:20261104T173000
 UID:4ec81cda5533@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/56317942_aide-aux-devoirs-5088389
+ a.com/bibliotheque-lalcazar-marseille/events/56317942_aide-aux-devoirs-508
+ 8389
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/56317942_aide
- -aux-devoirs-5088389
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/56317942
+ _aide-aux-devoirs-5088389
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ciné-jeune
@@ -2941,10 +2891,10 @@ DTEND;TZID=Europe/Paris:20261104T163000
 UID:d64195c7a0c6@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/19012756_cine-jeune-5841505
+ a.com/bibliotheque-lalcazar-marseille/events/19012756_cine-jeune-5841505
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/19012756_cine
- -jeune-5841505
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/19012756
+ _cine-jeune-5841505
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -2953,10 +2903,11 @@ DTEND;TZID=Europe/Paris:20261104T173000
 UID:d9970b9a9a19@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/25008583_club-de-lecture-2755521
+ a.com/bibliotheque-lalcazar-marseille/events/25008583_club-de-lecture-2755
+ 521
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/25008583_club
- -de-lecture-2755521
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/25008583
+ _club-de-lecture-2755521
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -2965,10 +2916,11 @@ DTEND;TZID=Europe/Paris:20261104T170000
 UID:31a37b7d750f@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/7442278_lectures-en-salle-5336648
+ a.com/bibliotheque-lalcazar-marseille/events/7442278_lectures-en-salle-533
+ 6648
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/7442278_lectu
- res-en-salle-5336648
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/7442278_
+ lectures-en-salle-5336648
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Nature des anarchistes - Colloque international pluridisciplina
@@ -2978,11 +2930,12 @@ DTEND;TZID=Europe/Paris:20261105T200000
 UID:035ccd7d608c@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/69319562_colloque-organise-par-lec
- ole-des-beaux-arts-de-marseille-cy-lecerf-maupoix
+ a.com/bibliotheque-lalcazar-marseille/events/69319562_colloque-organise-pa
+ r-lecole-des-beaux-arts-de-marseille-cy-lecerf-maupoix
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/69319562_coll
- oque-organise-par-lecole-des-beaux-arts-de-marseille-cy-lecerf-maupoix
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/69319562
+ _colloque-organise-par-lecole-des-beaux-arts-de-marseille-cy-lecerf-maupoi
+ x
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:THE LET’S GO’S + Supreme Nightclub
@@ -3015,13 +2968,13 @@ DTEND;TZID=Europe/Paris:20261106T150000
 UID:d04987905259@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/91003401_rencontres-de-la-fraap-fe
- deration-des-reseaux-et-associations-dartistes-plasticiennes-et-plasticien
- s
+ a.com/bibliotheque-lalcazar-marseille/events/91003401_rencontres-de-la-fra
+ ap-federation-des-reseaux-et-associations-dartistes-plasticiennes-et-plast
+ iciens
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/91003401_renc
- ontres-de-la-fraap-federation-des-reseaux-et-associations-dartistes-plasti
- ciennes-et-plasticiens
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/91003401
+ _rencontres-de-la-fraap-federation-des-reseaux-et-associations-dartistes-p
+ lasticiennes-et-plasticiens
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture ado
@@ -3030,11 +2983,11 @@ DTEND;TZID=Europe/Paris:20261106T183000
 UID:e0ba99d1a359@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/15337117_club-de-lecture-ado-33950
- 89
+ a.com/bibliotheque-lalcazar-marseille/events/15337117_club-de-lecture-ado-
+ 3395089
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/15337117_club
- -de-lecture-ado-3395089
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/15337117
+ _club-de-lecture-ado-3395089
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:cycle éthique de l'aphm évènement de fin d'année
@@ -3043,11 +2996,11 @@ DTEND;TZID=Europe/Paris:20261106T190000
 UID:1ee6c833a6b1@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/24809536_cycle-ethique-de-laphm-ev
- enement-de-fin-dannee
+ a.com/bibliotheque-lalcazar-marseille/events/24809536_cycle-ethique-de-lap
+ hm-evenement-de-fin-dannee
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/24809536_cycl
- e-ethique-de-laphm-evenement-de-fin-dannee
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/24809536
+ _cycle-ethique-de-laphm-evenement-de-fin-dannee
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MASTER BOOT RECORD + FULCI + Arottenbit
@@ -3059,6 +3012,16 @@ DESCRIPTION:Prix : 21€\nhttps://lemolotov.com/events/master-boot-record-
  fulci-arottenbit/
 LOCATION:Le Molotov - @ Le Dodu
 URL:https://lemolotov.com/events/master-boot-record-fulci-arottenbit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PaS SaGe #3
+DTSTART;TZID=Europe/Paris:20261106T200000
+DTEND;TZID=Europe/Paris:20261106T220000
+UID:81dd29f23ca0@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 6-10€\nhttps://lemolotov.com/events/pas-sage-3/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/pas-sage-3/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Des enfants sans histoire
@@ -3077,10 +3040,10 @@ DTEND;TZID=Europe/Paris:20261107T104500
 UID:f559381c443c@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/36241081_kamishibai-1246777
+ a.com/bibliotheque-lalcazar-marseille/events/36241081_kamishibai-1246777
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/36241081_kami
- shibai-1246777
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/36241081
+ _kamishibai-1246777
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Films Femmes Méditerranée - Regards sur la Méditerran
@@ -3090,13 +3053,13 @@ DTEND;TZID=Europe/Paris:20261107T120000
 UID:1a8602f4e660@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/2512421_festival-films-femmes-medi
- terranee-regards-sur-la-mediterranee-la-fabrication-des-recits-et-des-repr
- esentations
+ a.com/bibliotheque-lalcazar-marseille/events/2512421_festival-films-femmes
+ -mediterranee-regards-sur-la-mediterranee-la-fabrication-des-recits-et-des
+ -representations
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/2512421_festi
- val-films-femmes-mediterranee-regards-sur-la-mediterranee-la-fabrication-d
- es-recits-et-des-representations
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/2512421_
+ festival-films-femmes-mediterranee-regards-sur-la-mediterranee-la-fabricat
+ ion-des-recits-et-des-representations
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Petite Casbah
@@ -3116,11 +3079,12 @@ DTEND;TZID=Europe/Paris:20261107T170000
 UID:6ab3d954bbec@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/97936313_lalcazar-se-transforme-cr
- eez-le-futur-studio-de-creation-avec-nous-3620858
+ a.com/bibliotheque-lalcazar-marseille/events/97936313_lalcazar-se-transfor
+ me-creez-le-futur-studio-de-creation-avec-nous-3620858
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/97936313_lalc
- azar-se-transforme-creez-le-futur-studio-de-creation-avec-nous-3620858
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/97936313
+ _lalcazar-se-transforme-creez-le-futur-studio-de-creation-avec-nous-362085
+ 8
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Films Femmes Méditerranée - La jeune création libanaise
@@ -3129,11 +3093,11 @@ DTEND;TZID=Europe/Paris:20261107T170000
 UID:8f29643f3338@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/5822658_films-femmes-mediterranee-
- la-jeune-creation-libanaise
+ a.com/bibliotheque-lalcazar-marseille/events/5822658_films-femmes-mediterr
+ anee-la-jeune-creation-libanaise
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/5822658_films
- -femmes-mediterranee-la-jeune-creation-libanaise
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/5822658_
+ films-femmes-mediterranee-la-jeune-creation-libanaise
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le pays taliban
@@ -3162,10 +3126,11 @@ DTEND;TZID=Europe/Paris:20261107T193000
 UID:17110cb2347e@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/54546654_dormir-a-noailles-depuis
+ a.com/bibliotheque-lalcazar-marseille/events/54546654_dormir-a-noailles-de
+ puis
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/54546654_dorm
- ir-a-noailles-depuis
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/54546654
+ _dormir-a-noailles-depuis
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Personnages et identités
@@ -3328,11 +3293,11 @@ DTEND;TZID=Europe/Paris:20261114T170000
 UID:e16afb2513d5@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/33173195_rencontre-litteraire-avec
- -faiza-guene
+ a.com/bibliotheque-lalcazar-marseille/events/33173195_rencontre-litteraire
+ -avec-faiza-guene
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/33173195_renc
- ontre-litteraire-avec-faiza-guene
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/33173195
+ _rencontre-litteraire-avec-faiza-guene
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites Flash
@@ -3363,10 +3328,10 @@ DTEND;TZID=Europe/Paris:20261114T170000
 UID:753e5d5ec9b2@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/6584324_jouons-9142301
+ a.com/bibliotheque-lalcazar-marseille/events/6584324_jouons-9142301
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/6584324_jouon
- s-9142301
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/6584324_
+ jouons-9142301
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le rouge-gorge de Cempuis
@@ -3421,11 +3386,11 @@ DTEND;TZID=Europe/Paris:20261117T160000
 UID:883f133f56fd@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/84960348_lecture-dessinee-marc-blo
- ch-lhistorien-combattant
+ a.com/bibliotheque-lalcazar-marseille/events/84960348_lecture-dessinee-mar
+ c-bloch-lhistorien-combattant
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/84960348_lect
- ure-dessinee-marc-bloch-lhistorien-combattant
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/84960348
+ _lecture-dessinee-marc-bloch-lhistorien-combattant
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Éveil musical
@@ -3434,10 +3399,11 @@ DTEND;TZID=Europe/Paris:20261118T103000
 UID:8065abfd0f21@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/32333505_eveil-musical-5030115
+ a.com/bibliotheque-lalcazar-marseille/events/32333505_eveil-musical-503011
+ 5
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/32333505_evei
- l-musical-5030115
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/32333505
+ _eveil-musical-5030115
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Aide aux devoirs
@@ -3446,10 +3412,11 @@ DTEND;TZID=Europe/Paris:20261118T173000
 UID:4cf8f1491a6b@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/51333308_aide-aux-devoirs-1432396
+ a.com/bibliotheque-lalcazar-marseille/events/51333308_aide-aux-devoirs-143
+ 2396
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/51333308_aide
- -aux-devoirs-1432396
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51333308
+ _aide-aux-devoirs-1432396
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ciné-jeune
@@ -3458,10 +3425,10 @@ DTEND;TZID=Europe/Paris:20261118T154000
 UID:c197125030ba@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/25513586_cine-jeune-6609983
+ a.com/bibliotheque-lalcazar-marseille/events/25513586_cine-jeune-6609983
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/25513586_cine
- -jeune-6609983
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/25513586
+ _cine-jeune-6609983
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -3470,10 +3437,11 @@ DTEND;TZID=Europe/Paris:20261118T173000
 UID:45c9caf299be@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/43862616_club-de-lecture-8489214
+ a.com/bibliotheque-lalcazar-marseille/events/43862616_club-de-lecture-8489
+ 214
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/43862616_club
- -de-lecture-8489214
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/43862616
+ _club-de-lecture-8489214
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -3482,10 +3450,11 @@ DTEND;TZID=Europe/Paris:20261118T170000
 UID:0fad5442d055@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/67093975_lectures-en-salle-5513746
+ a.com/bibliotheque-lalcazar-marseille/events/67093975_lectures-en-salle-55
+ 13746
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/67093975_lect
- ures-en-salle-5513746
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/67093975
+ _lectures-en-salle-5513746
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Santé mentale: analyse d'un concept à la mode
@@ -3494,11 +3463,11 @@ DTEND;TZID=Europe/Paris:20261118T190000
 UID:21b12969a8d9@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/29756227_rencontre-avec-les-amis-d
- u-monde-diplomatique
+ a.com/bibliotheque-lalcazar-marseille/events/29756227_rencontre-avec-les-a
+ mis-du-monde-diplomatique
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/29756227_renc
- ontre-avec-les-amis-du-monde-diplomatique
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/29756227
+ _rencontre-avec-les-amis-du-monde-diplomatique
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maghreb des anthropologues : acteurs\, pratiques et espaces
@@ -3541,11 +3510,11 @@ DTEND;TZID=Europe/Paris:20261120T183000
 UID:77bc555f0f54@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/15479094_club-de-lecture-ado-82667
- 90
+ a.com/bibliotheque-lalcazar-marseille/events/15479094_club-de-lecture-ado-
+ 8266790
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/15479094_club
- -de-lecture-ado-8266790
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/15479094
+ _club-de-lecture-ado-8266790
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MARCUS GAD & Tribe
@@ -3564,11 +3533,11 @@ DTEND;TZID=Europe/Paris:20261121T160000
 UID:f493f36c9f17@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/97299850_atelier-creatif-broderie-
- japonaise-sashiko
+ a.com/bibliotheque-lalcazar-marseille/events/97299850_atelier-creatif-brod
+ erie-japonaise-sashiko
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/97299850_atel
- ier-creatif-broderie-japonaise-sashiko
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/97299850
+ _atelier-creatif-broderie-japonaise-sashiko
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier coupé-décalé
@@ -3598,11 +3567,11 @@ DTEND;TZID=Europe/Paris:20261121T193000
 UID:4a19bb3235fa@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/48089034_autour-de-la-mediterranne
- e
+ a.com/bibliotheque-lalcazar-marseille/events/48089034_autour-de-la-mediter
+ rannee
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/48089034_auto
- ur-de-la-mediterrannee
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/48089034
+ _autour-de-la-mediterrannee
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SPIDER ZED
@@ -3644,10 +3613,11 @@ DTEND;TZID=Europe/Paris:20261124T171500
 UID:c1ad2d62949c@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/93720966_manipulason-du-papier
+ a.com/bibliotheque-lalcazar-marseille/events/93720966_manipulason-du-papie
+ r
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/93720966_mani
- pulason-du-papier
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/93720966
+ _manipulason-du-papier
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CINE PHILO - Je verrai toujours vos visages
@@ -3656,11 +3626,11 @@ DTEND;TZID=Europe/Paris:20261124T210000
 UID:f51c678083f0@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/90923745_cine-philo-je-verrai-touj
- ours-vos-visages
+ a.com/bibliotheque-lalcazar-marseille/events/90923745_cine-philo-je-verrai
+ -toujours-vos-visages
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/90923745_cine
- -philo-je-verrai-toujours-vos-visages
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/90923745
+ _cine-philo-je-verrai-toujours-vos-visages
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GVLLOW + Ohm Sweet Ohm
@@ -3679,10 +3649,11 @@ DTEND;TZID=Europe/Paris:20261125T173000
 UID:8c653a058916@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/42222264_aide-aux-devoirs-7847405
+ a.com/bibliotheque-lalcazar-marseille/events/42222264_aide-aux-devoirs-784
+ 7405
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/42222264_aide
- -aux-devoirs-7847405
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/42222264
+ _aide-aux-devoirs-7847405
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -3691,10 +3662,11 @@ DTEND;TZID=Europe/Paris:20261125T173000
 UID:d6ec63885429@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/13345264_club-de-lecture-2916546
+ a.com/bibliotheque-lalcazar-marseille/events/13345264_club-de-lecture-2916
+ 546
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/13345264_club
- -de-lecture-2916546
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/13345264
+ _club-de-lecture-2916546
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -3703,10 +3675,11 @@ DTEND;TZID=Europe/Paris:20261125T170000
 UID:4373fb2eaf02@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/65578504_lectures-en-salle-9375917
+ a.com/bibliotheque-lalcazar-marseille/events/65578504_lectures-en-salle-93
+ 75917
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/65578504_lect
- ures-en-salle-9375917
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/65578504
+ _lectures-en-salle-9375917
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Projection Escales INA - Un grand marché au bord de l'eau
@@ -3715,11 +3688,11 @@ DTEND;TZID=Europe/Paris:20261125T180000
 UID:6586b71a30e1@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/24981445_projection-escales-ina-un
- -grand-marche-au-bord-de-leau
+ a.com/bibliotheque-lalcazar-marseille/events/24981445_projection-escales-i
+ na-un-grand-marche-au-bord-de-leau
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/24981445_proj
- ection-escales-ina-un-grand-marche-au-bord-de-leau
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/24981445
+ _projection-escales-ina-un-grand-marche-au-bord-de-leau
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L’héritage de Castel : le nouvel opéra municipal (1919-1924)
@@ -3728,11 +3701,11 @@ DTEND;TZID=Europe/Paris:20261125T190000
 UID:c91cadf6b09b@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/89766287_lheritage-de-castel-le-no
- uvel-opera-municipal-1919-1924
+ a.com/bibliotheque-lalcazar-marseille/events/89766287_lheritage-de-castel-
+ le-nouvel-opera-municipal-1919-1924
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/89766287_lher
- itage-de-castel-le-nouvel-opera-municipal-1919-1924
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/89766287
+ _lheritage-de-castel-le-nouvel-opera-municipal-1919-1924
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:6 + (1+1+1) / Morellet mis à neuf
@@ -3764,11 +3737,11 @@ DTEND;VALUE=DATE:20261206
 UID:7300441b9286@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/46911674_primed-le-festival-de-la-
- mediterranee-en-images
+ a.com/bibliotheque-lalcazar-marseille/events/46911674_primed-le-festival-d
+ e-la-mediterranee-en-images
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/46911674_prim
- ed-le-festival-de-la-mediterranee-en-images
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/46911674
+ _primed-le-festival-de-la-mediterranee-en-images
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -3846,10 +3819,11 @@ DTEND;TZID=Europe/Paris:20261202T173000
 UID:88bb99ab48f3@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/26320356_aide-aux-devoirs-9461522
+ a.com/bibliotheque-lalcazar-marseille/events/26320356_aide-aux-devoirs-946
+ 1522
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/26320356_aide
- -aux-devoirs-9461522
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/26320356
+ _aide-aux-devoirs-9461522
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ciné-jeune
@@ -3858,10 +3832,10 @@ DTEND;TZID=Europe/Paris:20261202T164500
 UID:b09e17e371cc@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/94564445_cine-jeune-5746194
+ a.com/bibliotheque-lalcazar-marseille/events/94564445_cine-jeune-5746194
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/94564445_cine
- -jeune-5746194
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/94564445
+ _cine-jeune-5746194
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -3870,10 +3844,11 @@ DTEND;TZID=Europe/Paris:20261202T173000
 UID:ba3a121c6138@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/83227827_club-de-lecture-6427185
+ a.com/bibliotheque-lalcazar-marseille/events/83227827_club-de-lecture-6427
+ 185
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/83227827_club
- -de-lecture-6427185
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/83227827
+ _club-de-lecture-6427185
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -3882,10 +3857,11 @@ DTEND;TZID=Europe/Paris:20261202T170000
 UID:83dc3b837dc3@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/50725798_lectures-en-salle-8235300
+ a.com/bibliotheque-lalcazar-marseille/events/50725798_lectures-en-salle-82
+ 35300
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/50725798_lect
- ures-en-salle-8235300
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/50725798
+ _lectures-en-salle-8235300
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
@@ -3904,11 +3880,11 @@ DTEND;TZID=Europe/Paris:20261204T183000
 UID:2e3e76eeb2c3@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/71916418_club-de-lecture-ado-44845
- 19
+ a.com/bibliotheque-lalcazar-marseille/events/71916418_club-de-lecture-ado-
+ 4484519
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/71916418_club
- -de-lecture-ado-4484519
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/71916418
+ _club-de-lecture-ado-4484519
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Éveil musical
@@ -3917,10 +3893,11 @@ DTEND;TZID=Europe/Paris:20261205T103000
 UID:f0ce12a79cc1@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/60187133_eveil-musical-9524766
+ a.com/bibliotheque-lalcazar-marseille/events/60187133_eveil-musical-952476
+ 6
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/60187133_evei
- l-musical-9524766
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/60187133
+ _eveil-musical-9524766
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite multisensorielle de l'exposition « Méditerranées »
@@ -3941,11 +3918,11 @@ DTEND;TZID=Europe/Paris:20261205T160000
 UID:40f02d785873@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/39586095_atelier-creatif-broderie-
- noel
+ a.com/bibliotheque-lalcazar-marseille/events/39586095_atelier-creatif-brod
+ erie-noel
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/39586095_atel
- ier-creatif-broderie-noel
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/39586095
+ _atelier-creatif-broderie-noel
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier danse contemporaine - Nawal Aït Benalla
@@ -4010,10 +3987,11 @@ DTEND;TZID=Europe/Paris:20261209T173000
 UID:38cd9ae45e21@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/85885623_aide-aux-devoirs-9103464
+ a.com/bibliotheque-lalcazar-marseille/events/85885623_aide-aux-devoirs-910
+ 3464
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/85885623_aide
- -aux-devoirs-9103464
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/85885623
+ _aide-aux-devoirs-9103464
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -4022,10 +4000,11 @@ DTEND;TZID=Europe/Paris:20261209T173000
 UID:29676ca99613@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/41766417_club-de-lecture-7807462
+ a.com/bibliotheque-lalcazar-marseille/events/41766417_club-de-lecture-7807
+ 462
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/41766417_club
- -de-lecture-7807462
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/41766417
+ _club-de-lecture-7807462
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -4034,10 +4013,11 @@ DTEND;TZID=Europe/Paris:20261209T170000
 UID:82619cc58b94@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/35508461_lectures-en-salle-2215270
+ a.com/bibliotheque-lalcazar-marseille/events/35508461_lectures-en-salle-22
+ 15270
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/35508461_lect
- ures-en-salle-2215270
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/35508461
+ _lectures-en-salle-2215270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Projection Escales INA - Kamal Jumblatt
@@ -4046,11 +4026,11 @@ DTEND;TZID=Europe/Paris:20261209T180000
 UID:bc3984af8cfe@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/2212213_projection-escales-ina-kam
- al-jumblatt
+ a.com/bibliotheque-lalcazar-marseille/events/2212213_projection-escales-in
+ a-kamal-jumblatt
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/2212213_proje
- ction-escales-ina-kamal-jumblatt
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/2212213_
+ projection-escales-ina-kamal-jumblatt
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mémoires minoritaires en Méditerranée : traces\, silences\, rep
@@ -4060,11 +4040,11 @@ DTEND;TZID=Europe/Paris:20261210T190000
 UID:f05928dce2d5@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/81390229_memoires-minoritaires-en-
- mediterranee-traces-silences-representations
+ a.com/bibliotheque-lalcazar-marseille/events/81390229_memoires-minoritaire
+ s-en-mediterranee-traces-silences-representations
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/81390229_memo
- ires-minoritaires-en-mediterranee-traces-silences-representations
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/81390229
+ _memoires-minoritaires-en-mediterranee-traces-silences-representations
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Café-philo - la Liberté
@@ -4073,10 +4053,11 @@ DTEND;TZID=Europe/Paris:20261212T120000
 UID:ca37f0552790@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/87536211_cafe-philo-la-liberte
+ a.com/bibliotheque-lalcazar-marseille/events/87536211_cafe-philo-la-libert
+ e
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/87536211_cafe
- -philo-la-liberte
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/87536211
+ _cafe-philo-la-liberte
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kamishibaï
@@ -4085,10 +4066,10 @@ DTEND;TZID=Europe/Paris:20261212T104500
 UID:22f80142ca27@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/17086084_kamishibai-2171879
+ a.com/bibliotheque-lalcazar-marseille/events/17086084_kamishibai-2171879
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/17086084_kami
- shibai-2171879
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/17086084
+ _kamishibai-2171879
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
@@ -4107,11 +4088,11 @@ DTEND;TZID=Europe/Paris:20261212T190000
 UID:59d2900b7b5c@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/47477664_les-chauves-souris-526740
- 0
+ a.com/bibliotheque-lalcazar-marseille/events/47477664_les-chauves-souris-5
+ 267400
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/47477664_les-
- chauves-souris-5267400
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/47477664
+ _les-chauves-souris-5267400
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hiver 95-96 un mouvement social et étudiant à Toulouse
@@ -4152,10 +4133,11 @@ DTEND;TZID=Europe/Paris:20261216T173000
 UID:cbf1b513d9ea@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/62076185_aide-aux-devoirs-2682869
+ a.com/bibliotheque-lalcazar-marseille/events/62076185_aide-aux-devoirs-268
+ 2869
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/62076185_aide
- -aux-devoirs-2682869
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/62076185
+ _aide-aux-devoirs-2682869
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ciné-jeune
@@ -4164,10 +4146,10 @@ DTEND;TZID=Europe/Paris:20261216T153000
 UID:34311eb1adc1@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/6203534_cine-jeune-9712203
+ a.com/bibliotheque-lalcazar-marseille/events/6203534_cine-jeune-9712203
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/6203534_cine-
- jeune-9712203
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/6203534_
+ cine-jeune-9712203
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le bal des gourmands
@@ -4186,10 +4168,11 @@ DTEND;TZID=Europe/Paris:20261216T173000
 UID:3548b7b215d9@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/29945415_club-de-lecture-2195939
+ a.com/bibliotheque-lalcazar-marseille/events/29945415_club-de-lecture-2195
+ 939
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/29945415_club
- -de-lecture-2195939
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/29945415
+ _club-de-lecture-2195939
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -4198,10 +4181,11 @@ DTEND;TZID=Europe/Paris:20261216T170000
 UID:048dec5fef13@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/59359082_lectures-en-salle-8947503
+ a.com/bibliotheque-lalcazar-marseille/events/59359082_lectures-en-salle-89
+ 47503
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/59359082_lect
- ures-en-salle-8947503
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/59359082
+ _lectures-en-salle-8947503
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:On n'attend pas - des soirées photographiques avec Arina Essipowi
@@ -4211,10 +4195,10 @@ DTEND;TZID=Europe/Paris:20261216T210000
 UID:adfd391ea3be@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/61522880_on-nattend-pas
+ a.com/bibliotheque-lalcazar-marseille/events/61522880_on-nattend-pas
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/61522880_on-n
- attend-pas
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/61522880
+ _on-nattend-pas
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture ado
@@ -4223,11 +4207,11 @@ DTEND;TZID=Europe/Paris:20261218T183000
 UID:71c5835afeaf@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/90083088_club-de-lecture-ado-17026
- 90
+ a.com/bibliotheque-lalcazar-marseille/events/90083088_club-de-lecture-ado-
+ 1702690
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/90083088_club
- -de-lecture-ado-1702690
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/90083088
+ _club-de-lecture-ado-1702690
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures aux tout-petits
@@ -4236,11 +4220,11 @@ DTEND;TZID=Europe/Paris:20261219T103000
 UID:a60c8d6fda23@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/76307805_lectures-aux-tout-petits-
- 7483089
+ a.com/bibliotheque-lalcazar-marseille/events/76307805_lectures-aux-tout-pe
+ tits-7483089
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/76307805_lect
- ures-aux-tout-petits-7483089
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/76307805
+ _lectures-aux-tout-petits-7483089
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -4271,10 +4255,10 @@ DTEND;TZID=Europe/Paris:20261222T163000
 UID:76a4223f44dd@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/46498766_cine-jeune-5176
+ a.com/bibliotheque-lalcazar-marseille/events/46498766_cine-jeune-5176
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/46498766_cine
- -jeune-5176
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/46498766
+ _cine-jeune-5176
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -4283,10 +4267,11 @@ DTEND;TZID=Europe/Paris:20261223T170000
 UID:baa5510d4654@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/8650300_lectures-en-salle-4717232
+ a.com/bibliotheque-lalcazar-marseille/events/8650300_lectures-en-salle-471
+ 7232
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/8650300_lectu
- res-en-salle-4717232
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/8650300_
+ lectures-en-salle-4717232
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ciné-jeune
@@ -4295,10 +4280,10 @@ DTEND;TZID=Europe/Paris:20261224T154500
 UID:839e107eec83@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/49955377_cine-jeune-7534611
+ a.com/bibliotheque-lalcazar-marseille/events/49955377_cine-jeune-7534611
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/49955377_cine
- -jeune-7534611
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/49955377
+ _cine-jeune-7534611
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures aux tout-petits
@@ -4307,11 +4292,11 @@ DTEND;TZID=Europe/Paris:20261226T103000
 UID:c64a7fcd6306@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/18162275_lectures-aux-tout-petits-
- 6813692
+ a.com/bibliotheque-lalcazar-marseille/events/18162275_lectures-aux-tout-pe
+ tits-6813692
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/18162275_lect
- ures-aux-tout-petits-6813692
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/18162275
+ _lectures-aux-tout-petits-6813692
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le goûter à histoires
@@ -4360,10 +4345,10 @@ DTEND;TZID=Europe/Paris:20261229T164500
 UID:adfe1f5d4f50@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/74747936_cine-jeune-4904262
+ a.com/bibliotheque-lalcazar-marseille/events/74747936_cine-jeune-4904262
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/74747936_cine
- -jeune-4904262
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/74747936
+ _cine-jeune-4904262
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier Flip-Book : Premiers pas dans l'animation
@@ -4372,11 +4357,11 @@ DTEND;TZID=Europe/Paris:20261230T120000
 UID:4634851a7e76@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/31266745_atelier-flip-book-premier
- s-pas-dans-lanimation
+ a.com/bibliotheque-lalcazar-marseille/events/31266745_atelier-flip-book-pr
+ emiers-pas-dans-lanimation
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/31266745_atel
- ier-flip-book-premiers-pas-dans-lanimation
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/31266745
+ _atelier-flip-book-premiers-pas-dans-lanimation
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le banquet des images
@@ -4389,26 +4374,17 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-banquet-des-images/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Gâteaux d’art
-DTSTART;VALUE=DATE:20261230
-DTEND;VALUE=DATE:20270104
-UID:f6f28f9d0352@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/gateaux-dart/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/gateaux-dart/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lectures en salle
 DTSTART;TZID=Europe/Paris:20261230T163000
 DTEND;TZID=Europe/Paris:20261230T170000
 UID:1f2e250422c7@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/56292444_lectures-en-salle-7200832
+ a.com/bibliotheque-lalcazar-marseille/events/56292444_lectures-en-salle-72
+ 00832
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/56292444_lect
- ures-en-salle-7200832
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/56292444
+ _lectures-en-salle-7200832
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A déterminer
@@ -4417,10 +4393,10 @@ DTEND;TZID=Europe/Paris:20261230T200000
 UID:7d6410f3513d@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/69013579_a-determiner-775623
+ a.com/bibliotheque-lalcazar-marseille/events/69013579_a-determiner-775623
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/69013579_a-de
- terminer-775623
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/69013579
+ _a-determiner-775623
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le banquet des images
@@ -4439,10 +4415,20 @@ DTEND;TZID=Europe/Paris:20261231T154500
 UID:a86ae9078be5@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/82063545_cine-jeune-1708712
+ a.com/bibliotheque-lalcazar-marseille/events/82063545_cine-jeune-1708712
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/82063545_cine
- -jeune-1708712
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/82063545
+ _cine-jeune-1708712
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gâteaux d’art
+DTSTART;TZID=Europe/Paris:20270102T153000
+DTEND;TZID=Europe/Paris:20270102T170000
+UID:601cdb67f1c6@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/gateaux-dart/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/gateaux-dart/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le goûter des images
@@ -4464,6 +4450,16 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
  bre/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gâteaux d’art
+DTSTART;TZID=Europe/Paris:20270103T153000
+DTEND;TZID=Europe/Paris:20270103T170000
+UID:8b9c6d09b9bc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/gateaux-dart/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/gateaux-dart/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le goûter des images
@@ -4600,6 +4596,20 @@ DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MASTERCLASS ouverte à tous autour de "Linda veut du poulet ! " (2
+ 023\, 76 min)
+DTSTART;TZID=Europe/Paris:20270202T140000
+DTEND;TZID=Europe/Paris:20270202T170000
+UID:6ee67bfbd9d5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/20075925_projection-rencontre
+ -6437893
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/20075925
+ _projection-rencontre-6437893
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
@@ -4789,11 +4799,11 @@ DTEND;TZID=Europe/Paris:20270306T200000
 UID:8877806d2032@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/3182083_on-ne-laisse-pas-bebe-dans
- -un-coin
+ a.com/bibliotheque-lalcazar-marseille/events/3182083_on-ne-laisse-pas-bebe
+ -dans-un-coin
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/3182083_on-ne
- -laisse-pas-bebe-dans-un-coin
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/3182083_
+ on-ne-laisse-pas-bebe-dans-un-coin
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
@@ -5262,10 +5272,10 @@ DTEND;TZID=Europe/Paris:20270703T180000
 UID:e1a47d9f46b6@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/4318409_drive-my-car-1397716
+ a.com/bibliotheque-lalcazar-marseille/events/4318409_drive-my-car-1397716
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/4318409_drive
- -my-car-1397716
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/4318409_
+ drive-my-car-1397716
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
@@ -5307,10 +5317,11 @@ DTEND;TZID=Europe/Paris:20270911T170000
 UID:5f7b5e4aeb04@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-marseille/events/41887281_au-nom-du-peuple-italien
+ a.com/bibliotheque-lalcazar-marseille/events/41887281_au-nom-du-peuple-ita
+ lien
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-marseille/events/41887281_au-n
- om-du-peuple-italien
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/41887281
+ _au-nom-du-peuple-italien
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre

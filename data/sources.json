@@ -364,7 +364,7 @@
    },
    "last_ok": "2026-10-10",
    "last_error": null,
-   "last_event_count": 33,
+   "last_event_count": 34,
    "content_hash": "1aa3299977bde28d",
    "consecutive_failures": 0,
    "regenerations": 0,
@@ -442,7 +442,7 @@
    "last_ok": "2026-10-10",
    "last_error": null,
    "last_event_count": 5,
-   "content_hash": "fd8193617a6ab808",
+   "content_hash": "d773a0d0b2546cab",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -749,7 +749,7 @@
    "last_ok": "2026-10-10",
    "last_error": null,
    "last_event_count": 6,
-   "content_hash": "6ffa799c18b5ee55",
+   "content_hash": "664b7bad5e783bea",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -817,7 +817,7 @@
    "last_ok": "2026-10-10",
    "last_error": null,
    "last_event_count": 2,
-   "content_hash": "4a3581fc1f525e1d",
+   "content_hash": "5abfbd952a2d18c6",
    "consecutive_failures": 0,
    "regenerations": 1,
    "next_generation": null
@@ -1172,8 +1172,237 @@
    },
    "last_ok": "2026-10-10",
    "last_error": null,
-   "last_event_count": 95,
-   "content_hash": "99b841b56e80e0c3",
+   "last_event_count": 92,
+   "content_hash": "a9071b169bfabb06",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "la-camaraderie": {
+   "venue_id": "la-camaraderie",
+   "source": {
+    "url": "https://www.lacamaraderie.net/agenda",
+    "kind": "html",
+    "confidence": 0.45,
+    "reasoning": "The venue's own site has a dedicated /agenda page listing events with category filters (Concert, Atelier, Débat, Marché, Projection, Théâtre, Expo, Autre). A direct fetch showed it renders events server-side (e.g. \"5 dim. juil. - Économie sociale & solidaire...\"), though the one visible event shown in the crawl was past (July 2026) and no hidden JSON API was found (no WordPress REST, no Nuxt API events route). This is still the best available source since no API endpoint or third-party agenda for this specific venue was found; confidence is moderate because the fetch excerpt only captured past events in the snippet, but the live page should list upcoming ones below.",
+    "sample_titles": [],
+    "fallback_url": null,
+    "instagram": "la.camaraderie13",
+    "facebook": null
+   },
+   "discovered": "2026-10-10",
+   "schema_record": null,
+   "last_ok": "2026-10-10",
+   "last_error": null,
+   "last_event_count": 0,
+   "content_hash": "013f6009319bc9d0",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": "2026-10-17"
+  },
+  "twali": {
+   "venue_id": "twali",
+   "source": {
+    "url": "https://www.twalimarseille.fr/evenements",
+    "kind": "html",
+    "confidence": 0.45,
+    "reasoning": "The venue's own site has a dedicated 'Calendrier' page (Squarespace-based) listing events with dates, titles and ICS links per event. No JSON API was found (WP endpoints 404, no JS payload signal). However, the events shown in the pre-scan (Kemia Party, Brunch, Afters Musicales Aflam) are all dated April 2025, which is in the past relative to today (2026-10-10), indicating the page may not have been updated recently. Still, this is the best available server-rendered listing page from the venue itself, as no other agenda endpoint exists on the site.",
+    "sample_titles": [
+     "AFTERS MUSICALES AFLAM x MAعNA",
+     "BRUNCH",
+     "KEMIA PARTY"
+    ],
+    "fallback_url": null,
+    "instagram": "twali.marseille",
+    "facebook": "twalibelsunce"
+   },
+   "discovered": "2026-10-10",
+   "schema_record": null,
+   "last_ok": "2026-10-10",
+   "last_error": null,
+   "last_event_count": 0,
+   "content_hash": "9cbc2a9c8decf928",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": "2026-10-17"
+  },
+  "l-embobineuse": {
+   "venue_id": "l-embobineuse",
+   "source": {
+    "url": "https://www.lembobineuse.biz/events/upcoming",
+    "kind": "html",
+    "confidence": 0.92,
+    "reasoning": "The pre-scan shows this page is server-rendered with 22 JSON-LD events and clear upcoming date strings starting from today (2026-10-10) onward, listing concerts chronologically with titles, dates and ticket prices. It is the venue's official \"Agenda\" (upcoming events) page, superior to the \"Archives\" page which mixes past and future events without filtering. No JSON API was found (js_payload:false, no WordPress/events-calendar plugin), so the HTML listing is the best available source.",
+    "sample_titles": [
+     "Au tréfond de la spirale",
+     "From Kraut to Transe",
+     "SHABBA! Souvenez vous l'hiver dernier",
+     "HEAT collectif Pas de blague sur la chaleur cette fois..",
+     "Soirée de soutien à la Salle Gueule"
+    ],
+    "fallback_url": null,
+    "instagram": "lembobineusemarseille",
+    "facebook": null
+   },
+   "discovered": "2026-10-10",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "a.link-unstyled",
+       "item_mode": "wrapper",
+       "fields": {
+        "title": {
+         "selector": "div.card-title-block",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "time",
+         "attr": "datetime",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "time": {
+         "selector": "span.event-datetime__time",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Induced deterministically from the repeated dated cards of the page."
+      }
+     ],
+     "notes": "Deterministic induction (no model)."
+    },
+    "created": "2026-10-10",
+    "validated_against_llm": false,
+    "agreement": 1.0,
+    "generator_model": "induction",
+    "version": 1
+   },
+   "last_ok": "2026-10-10",
+   "last_error": null,
+   "last_event_count": 11,
+   "content_hash": "93e863e2429fb340",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "la-cite-des-arts-de-la-rue": {
+   "venue_id": "la-cite-des-arts-de-la-rue",
+   "source": {
+    "url": "https://www.lacitedesartsdelarue.net/wp-json/wp/v2/event?per_page=50",
+    "kind": "json",
+    "confidence": 0.75,
+    "reasoning": "The site exposes a custom WordPress post type \"event\" via REST API. The /wp-json/wp/v2/event?per_page=50 endpoint returns up to 50 events with title, link, content, and date fields, which covers the full agenda in one call (no pagination needed given ~50 items returned). This is preferred over the HTML agenda page since it's structured JSON and the HTML page only rendered 19 date-like strings (mostly recurring visit info) with no JSON-LD events, confirming the API is the richer, authoritative source.",
+    "sample_titles": [
+     "Jeudis de L'Échelle #11 // Pö",
+     "Ceci n'est pas un requiem – Collectif Chapacans / Café Gasoil"
+    ],
+    "fallback_url": null,
+    "instagram": null,
+    "facebook": null
+   },
+   "discovered": "2026-10-10",
+   "schema_record": null,
+   "last_ok": "2026-10-10",
+   "last_error": null,
+   "last_event_count": 0,
+   "content_hash": "d41d01878736196b",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": "2026-10-17"
+  },
+  "theatre-la-criee": {
+   "venue_id": "theatre-la-criee",
+   "source": {
+    "url": "https://theatre-lacriee.com/programmation/spectacles",
+    "kind": "html",
+    "confidence": 0.85,
+    "reasoning": "The pre-scan shows this server-rendered page lists upcoming spectacles with dates and titles (e.g. Un moment suspendu, Jouer La Mouette, Morphé, Ces nains portent quoi ?), all dated after today (2026-10-10). No JSON API or client-side payload was detected, so this HTML listing page is the best available source for upcoming events.",
+    "sample_titles": [
+     "Un moment suspendu",
+     "Jouer La Mouette",
+     "Morphé",
+     "Ces nains portent quoi ?",
+     "Le clown comme un poème"
+    ],
+    "fallback_url": null,
+    "instagram": "theatrelacriee",
+    "facebook": "lacriee"
+   },
+   "discovered": "2026-10-10",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "div.gap-x-4.gap-y-12.grid > a",
+       "item_mode": "wrapper",
+       "fields": {
+        "title": {
+         "selector": "h3.font-bold.font-display.mt-2.text-3xl.uppercase",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "url": {
+         "selector": "",
+         "attr": "href",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "p.font-bold.mb-3.text-2xl",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "image": {
+         "selector": "img",
+         "attr": "src",
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Induced deterministically from the repeated dated cards of the page."
+      }
+     ],
+     "notes": "Deterministic induction (no model)."
+    },
+    "created": "2026-10-10",
+    "validated_against_llm": false,
+    "agreement": 0.859,
+    "generator_model": "induction",
+    "version": 1
+   },
+   "last_ok": "2026-10-10",
+   "last_error": null,
+   "last_event_count": 24,
+   "content_hash": "89c50176c03cbd56",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

@@ -8740,6 +8740,61 @@
    "consecutive_failures": 3,
    "posts": {},
    "fb_events": []
+  },
+  "instagram:la.camaraderie13": {
+   "kind": "instagram",
+   "handle": "la.camaraderie13",
+   "url": "https://www.instagram.com/la.camaraderie13/",
+   "last_fetched": "2026-10-10",
+   "last_ok": null,
+   "last_error": "apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
+   "posts": {},
+   "fb_events": []
+  },
+  "instagram:twali.marseille": {
+   "kind": "instagram",
+   "handle": "twali.marseille",
+   "url": "https://www.instagram.com/twali.marseille/",
+   "last_fetched": "2026-10-10",
+   "last_ok": null,
+   "last_error": "apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
+   "posts": {},
+   "fb_events": []
+  },
+  "facebook:twalibelsunce": {
+   "kind": "facebook",
+   "handle": "twalibelsunce",
+   "url": "https://www.facebook.com/twalibelsunce/",
+   "last_fetched": "2026-10-10",
+   "last_ok": null,
+   "last_error": "apify~facebook-posts-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
+   "posts": {},
+   "fb_events": []
+  },
+  "facebook-events:twalibelsunce": {
+   "kind": "facebook-events",
+   "handle": "twalibelsunce",
+   "url": "https://www.facebook.com/twalibelsunce/upcoming_hosted_events",
+   "last_fetched": "2026-10-10",
+   "last_ok": null,
+   "last_error": "apify~facebook-events-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
+   "posts": {},
+   "fb_events": []
+  },
+  "instagram:lembobineusemarseille": {
+   "kind": "instagram",
+   "handle": "lembobineusemarseille",
+   "url": "https://www.instagram.com/lembobineusemarseille/",
+   "last_fetched": "2026-10-10",
+   "last_ok": null,
+   "last_error": "apify~instagram-api-scraper: HTTP 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+   "consecutive_failures": 1,
+   "posts": {},
+   "fb_events": []
   }
  }
 }

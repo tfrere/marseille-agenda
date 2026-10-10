@@ -29,18 +29,6 @@ URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
  es-collections-modernes-et-contemporaines?museum=musee-cantini
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Art nouveau - Art déco. Marseille au cœur des styles
-DTSTART;VALUE=DATE:20260508
-DTEND;VALUE=DATE:20270426
-UID:858604a2310a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/art-nouveau-art-deco-marseille-au-
- coeur-des-styles?museum=musee-borely
-LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/art-nouveau-art-deco-marseille-au-coeur-de
- s-styles?museum=musee-borely
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20270104
@@ -122,20 +110,6 @@ LOCATION:La Colorada
 URL:https://www.instagram.com/p/DdW7GkytFy7/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261023
-UID:5bfad284f53d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:08 - 16 OCTOBRE
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261017
@@ -144,45 +118,6 @@ CATEGORIES:cinema
 DESCRIPTION:https://www.cinehorizontes.com/
 LOCATION:Les Variétés
 URL:https://www.cinehorizontes.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261023
-UID:a6e28b4a6afc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261011
-UID:b6ae7b2cd94e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
-  propose de découvrir un ensemble d'activités créatives en lien avec la
-  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
- llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
- afriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Festival actoral
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261011
-UID:1eb3c372bf2b@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Théâtre\, danse\, performances... une immersion au cœur de 
- la création contemporaine\, avec 14 rendez-vous à la Friche pour cette 2
- 6e édition ! Une proposition de Actoral\nhttps://www.lafriche.org/eveneme
- nts/festival-actoral-5/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/festival-actoral-5/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -285,17 +220,6 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/8473914_
  lectures-aux-tout-petits-7599984
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Festival des sciences de Marseille
-DTSTART;TZID=Europe/Paris:20261010T100000
-DTEND;TZID=Europe/Paris:20261010T180000
-UID:17c71f1cb9ef@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/festival-des-scien
- ces-de-marseille/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/festival-des-sciences-de-marseille/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20261010T103000
 DTEND;TZID=Europe/Paris:20261010T111500
@@ -358,6 +282,20 @@ LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/60758388
  _lalcazar-se-transforme-creez-le-futur-studio-de-creation-avec-nous-606830
  3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;TZID=Europe/Paris:20261010T140000
+DTEND;TZID=Europe/Paris:20261010T153000
+UID:ee036d2b8729@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
@@ -466,6 +404,19 @@ LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/imaginaires-documentaires-hotel-metalurg/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival actoral
+DTSTART;TZID=Europe/Paris:20261010T193000
+DTEND;TZID=Europe/Paris:20261010T213000
+UID:509f99a02170@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Théâtre\, danse\, performances... une immersion au cœur de 
+ la création contemporaine\, avec 14 rendez-vous à la Friche pour cette 2
+ 6e édition ! Une proposition de Actoral\nhttps://www.lafriche.org/eveneme
+ nts/festival-actoral-5/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/festival-actoral-5/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La tsigane sur la route avec Tamèrantong !
 DTSTART;TZID=Europe/Paris:20261010T200000
 DTEND;TZID=Europe/Paris:20261010T220000
@@ -488,6 +439,17 @@ DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/psyapero-29-by-level
  -up/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/psyapero-29-by-level-up/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Au tréfond de la spirale
+DTSTART;TZID=Europe/Paris:20261010T210000
+DTEND;TZID=Europe/Paris:20261010T230000
+UID:5ae4b3d3189d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/10/10/deeptriskell-ad
+ iciatz
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/10/10/deeptriskell-adiciatz
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A5KM B2b IA5KM + Acidpach\, Anduj & Nxd
@@ -975,6 +937,18 @@ URL:https://lemolotov.com/events/jim-youngers-spirit-release-party-claque-
  krack-head/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Un moment suspendu
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+UID:a0eaaf2385bb@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/un-moment
+ -suspendu-vitez
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/un-moment-suspend
+ u-vitez
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:L’Entente - La face cachée d’Alexandrie
 DTSTART;TZID=Europe/Paris:20261016T100000
 DTEND;TZID=Europe/Paris:20261016T114000
@@ -1306,6 +1280,18 @@ DESCRIPTION:Projection dans le cadre du festival AFLAM · En présence du
  o-r-y/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/dial-h-i-s-t-o-r-y/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Kraut to Transe
+DTSTART;TZID=Europe/Paris:20261017T210000
+DTEND;TZID=Europe/Paris:20261017T230000
+UID:91a4e0dda971@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/10/17/societeetrange-
+ visionfortune-transeargwez
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/10/17/societeetrange-visionfo
+ rtune-transeargwez
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MASSALIA SKA CITY : SKA REGGAE & SOUL NIGHT
@@ -1653,20 +1639,6 @@ URL:https://www.videodrome2.fr/%e2%98%85-jeune-public-atelier-stop-motion-
  4/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;TZID=Europe/Paris:20261021T153000
-DTEND;TZID=Europe/Paris:20261021T173000
-UID:c8e96dc1060c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
-  propose de découvrir un ensemble d'activités créatives en lien avec la
-  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
- llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
- afriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Les petites Variations #1 & #2
 DTSTART;TZID=Europe/Paris:20261021T153000
 DTEND;TZID=Europe/Paris:20261021T161500
@@ -1793,20 +1765,6 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/le-grand-kami/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-grand-kami/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;TZID=Europe/Paris:20261022T153000
-DTEND;TZID=Europe/Paris:20261022T173000
-UID:fac2ac963e4e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
-  propose de découvrir un ensemble d'activités créatives en lien avec la
-  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
- llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
- afriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21e Festival Films Femmes Méditerranée - Présentation de la pro
@@ -1952,6 +1910,16 @@ DESCRIPTION:https://www.videodrome2.fr/corps-troubles-peaux-dargent-3-flux
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/corps-troubles-peaux-dargent-3-flux-ecume-e
  mbruns/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SHABBA! Souvenez vous l'hiver dernier
+DTSTART;TZID=Europe/Paris:20261023T210000
+DTEND;TZID=Europe/Paris:20261023T230000
+UID:f4148ca4cb80@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/10/23/shabbaradio
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/10/23/shabbaradio
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club Cabaret
@@ -2717,6 +2685,16 @@ URL:https://www.videodrome2.fr/meme-pas-peur-12-le-messie-du-mal-de-willar
  d-huyck-gloria-katz/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:HEAT collectif Pas de blague sur la chaleur cette fois..
+DTSTART;TZID=Europe/Paris:20261031T213000
+DTEND;TZID=Europe/Paris:20261031T233000
+UID:1c4bec400098@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/10/31/heatcollectif
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/10/31/heatcollectif
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
 DTSTART;TZID=Europe/Paris:20261101T100000
 DTEND;TZID=Europe/Paris:20261101T180000
@@ -2840,32 +2818,6 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/19012756
  _cine-jeune-5841505
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Club de lecture
-DTSTART;TZID=Europe/Paris:20261104T160000
-DTEND;TZID=Europe/Paris:20261104T173000
-UID:d9970b9a9a19@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/25008583_club-de-lecture-2755
- 521
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/25008583
- _club-de-lecture-2755521
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lectures en salle
-DTSTART;TZID=Europe/Paris:20261104T163000
-DTEND;TZID=Europe/Paris:20261104T170000
-UID:31a37b7d750f@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/7442278_lectures-en-salle-533
- 6648
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/7442278_
- lectures-en-salle-5336648
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Nature des anarchistes - Colloque international pluridisciplina
@@ -3078,6 +3030,18 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/54546654
  _dormir-a-noailles-depuis
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Soirée de soutien à la Salle Gueule
+DTSTART;TZID=Europe/Paris:20261107T180000
+DTEND;TZID=Europe/Paris:20261107T200000
+UID:6fe94fb51582@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/07/soireedesoutien
+ alasallegueule
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/11/07/soireedesoutienalasalle
+ gueule
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Personnages et identités
 DTSTART;TZID=Europe/Paris:20261107T180000
 DTEND;TZID=Europe/Paris:20261107T193000
@@ -3133,6 +3097,17 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/up-town-music-band-24/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Jouer La Mouette
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261114
+UID:45461e5037e2@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/jouer-la-
+ mouette
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/jouer-la-mouette
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cycle 1 - Les jardins méditerranéens
 DTSTART;TZID=Europe/Paris:20261109T110000
 DTEND;TZID=Europe/Paris:20261109T123000
@@ -3142,6 +3117,28 @@ DESCRIPTION:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens
  /
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ces nains portent quoi ?
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261116
+UID:bef6cfeb89ea@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/ces-nains
+ -portent-quoi
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/ces-nains-portent
+ -quoi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morphé
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261115
+UID:b9ca604d3b61@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/morphe
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/morphe
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
@@ -3291,6 +3288,16 @@ URL:https://www.cira-marseille.info/wp-content/uploads/2026/08/7-Causerie-
  novembre-2026-M-Agostini-Cempuis.pdf
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Soin énergisant en cours
+DTSTART;TZID=Europe/Paris:20261114T210000
+DTEND;TZID=Europe/Paris:20261114T230000
+UID:df13300acd27@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/14/ule-et-autres
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/11/14/ule-et-autres
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:THE UPSESSIONS
 DTSTART;TZID=Europe/Paris:20261115T200000
 DTEND;TZID=Europe/Paris:20261115T220000
@@ -3336,6 +3343,17 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/84960348
  _lecture-dessinee-marc-bloch-lhistorien-combattant
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le 6ème jour
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261126
+UID:fa44788545b0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-6eme-j
+ our
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/le-6eme-jour
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Éveil musical
@@ -3415,6 +3433,17 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/29756227
  _rencontre-avec-les-amis-du-monde-diplomatique
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boat People
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+UID:29b6afbeee5a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/boat-peop
+ le
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/boat-people
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Maghreb des anthropologues : acteurs\, pratiques et espaces
 DTSTART;TZID=Europe/Paris:20261119T090000
 DTEND;TZID=Europe/Paris:20261119T180000
@@ -3425,6 +3454,16 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/maghreb-des-anthro
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/maghreb-des-anthropologues-acteurs-pratiqu
  es-et-espaces/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Musique saillante
+DTSTART;TZID=Europe/Paris:20261119T200000
+DTEND;TZID=Europe/Paris:20261119T220000
+UID:01e6de9c7f3a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/19/toru-convulsif
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/11/19/toru-convulsif
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MASSIMO SILVERIO + Misé Babilha
@@ -3470,6 +3509,18 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/marcus-gad-tribe-2/
 LOCATION:Le Molotov - @ Le Dodu
 URL:https://lemolotov.com/events/marcus-gad-tribe-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le clown comme un poème
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+UID:6d45e6034123@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-clown-
+ comme-un-poeme
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/le-clown-comme-un
+ -poeme
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier créatif - Broderie japonaise Sashiko
@@ -3527,6 +3578,18 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/spider-zed/
 LOCATION:Le Molotov - @ Le Dodu
 URL:https://lemolotov.com/events/spider-zed/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beat binaire désarticulé
+DTSTART;TZID=Europe/Paris:20261121T210000
+DTEND;TZID=Europe/Paris:20261121T230000
+UID:552239aae48c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/21/frontpageleslie
+ -neinaction-manoirmolle
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/11/21/frontpageleslie-neinact
+ ion-manoirmolle
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
@@ -3653,6 +3716,16 @@ LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
 URL:https://musees.marseille.fr/morellet
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Françé
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261129
+UID:14c06e7c9382@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/france
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/france
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Allo\, à l’eau ?! - Exposition sonore à Saint-Germain-de-Calbe
  rte
 DTSTART;TZID=Europe/Paris:20261127T100000
@@ -3664,6 +3737,16 @@ DESCRIPTION:https://lafabulerie.com/agenda/allo-a-leau-exposition-sonore-a
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/allo-a-leau-exposition-sonore-a-saint-g
  ermain-de-calberte/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NoéNoé ou encore NoéNoé
+DTSTART;TZID=Europe/Paris:20261127T210000
+DTEND;TZID=Europe/Paris:20261127T230000
+UID:00aa7b4c29a9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/27/noenoe
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/11/27/noenoe
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Primed : le festival de la Méditerranée en Images
@@ -3711,6 +3794,18 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Deux salles\, deux ambiances
+DTSTART;TZID=Europe/Paris:20261128T210000
+DTEND;TZID=Europe/Paris:20261128T230000
+UID:bd9c5a3e04cf@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/28/beauwanzer-matt
+ hieufuentes
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/11/28/beauwanzer-matthieufuen
+ tes
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:#Faire Famille - Machines à Histoires et Zelie – Les résidence
  s de la Martinerie
 DTSTART;TZID=Europe/Paris:20261130T090000
@@ -3735,6 +3830,18 @@ DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Carnaval des Animaux
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+UID:d578521ab2e0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-carnav
+ al-des-animaux
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/le-carnaval-des-a
+ nimaux
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite de l'appartement témoin
@@ -3822,6 +3929,17 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/71916418
  _club-de-lecture-ado-4484519
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:La BOUM BOOM BUM
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+UID:070c754269ed@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/la-boum-b
+ oom-bum
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/la-boum-boom-bum
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Éveil musical
 DTSTART;TZID=Europe/Paris:20261205T100000
 DTEND;TZID=Europe/Paris:20261205T103000
@@ -3882,6 +4000,17 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:From Houston with love
+DTSTART;TZID=Europe/Paris:20261205T210000
+DTEND;TZID=Europe/Paris:20261205T230000
+UID:3c304e9b2816@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/12/05/johnnascus-and-
+ friends
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/12/05/johnnascus-and-friends
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
 DTSTART;TZID=Europe/Paris:20261206T100000
 DTEND;TZID=Europe/Paris:20261206T180000
@@ -3906,6 +4035,18 @@ URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Un moment suspendu
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261212
+UID:ba931d17109e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/un-moment
+ -suspendu-criee
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/un-moment-suspend
+ u-criee
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
 DTSTART;TZID=Europe/Paris:20261208T100000
 DTEND;TZID=Europe/Paris:20261208T120000
@@ -3914,6 +4055,17 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/atelier-decriture/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rhapsody in blue
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+UID:feae4a24a127@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/rhapsody-
+ in-blue
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/rhapsody-in-blue
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Aide aux devoirs
@@ -3980,6 +4132,17 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/81390229
  _memoires-minoritaires-en-mediterranee-traces-silences-representations
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Résistantes
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+UID:e0b761eb9988@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/les-resis
+ tantes
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/les-resistantes
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Café-philo - la Liberté
@@ -4062,29 +4225,16 @@ LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/atelier-decriture/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Aide aux devoirs
-DTSTART;TZID=Europe/Paris:20261216T143000
-DTEND;TZID=Europe/Paris:20261216T173000
-UID:cbf1b513d9ea@marseille-agenda
+SUMMARY:Le Château des Carpathes
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261220
+UID:4ff01f6746f6@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/62076185_aide-aux-devoirs-268
- 2869
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/62076185
- _aide-aux-devoirs-2682869
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-jeune
-DTSTART;TZID=Europe/Paris:20261216T150000
-DTEND;TZID=Europe/Paris:20261216T153000
-UID:34311eb1adc1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/6203534_cine-jeune-9712203
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/6203534_
- cine-jeune-9712203
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-chatea
+ u-des-carpathes
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/le-chateau-des-ca
+ rpathes
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le bal des gourmands
@@ -4095,32 +4245,6 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/le-bal-des-gourmands/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-bal-des-gourmands/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Club de lecture
-DTSTART;TZID=Europe/Paris:20261216T160000
-DTEND;TZID=Europe/Paris:20261216T173000
-UID:3548b7b215d9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/29945415_club-de-lecture-2195
- 939
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/29945415
- _club-de-lecture-2195939
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lectures en salle
-DTSTART;TZID=Europe/Paris:20261216T163000
-DTEND;TZID=Europe/Paris:20261216T170000
-UID:048dec5fef13@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/59359082_lectures-en-salle-89
- 47503
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/59359082
- _lectures-en-salle-8947503
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:On n'attend pas - des soirées photographiques avec Arina Essipowi
@@ -4136,6 +4260,18 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/61522880
  _on-nattend-pas
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Un moment suspendu
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261220
+UID:9e2c539dedfd@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/un-moment
+ -suspendu-astronef
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/un-moment-suspend
+ u-astronef
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Club de lecture ado
 DTSTART;TZID=Europe/Paris:20261218T170000
 DTEND;TZID=Europe/Paris:20261218T183000
@@ -4149,17 +4285,15 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/90083088
  _club-de-lecture-ado-1702690
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lectures aux tout-petits
-DTSTART;TZID=Europe/Paris:20261219T100000
-DTEND;TZID=Europe/Paris:20261219T103000
-UID:a60c8d6fda23@marseille-agenda
+SUMMARY:Dame Neige
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+UID:61c369a0355b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/76307805_lectures-aux-tout-pe
- tits-7483089
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/76307805
- _lectures-aux-tout-petits-7483089
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/dame-neig
+ e
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/dame-neige
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -4182,56 +4316,6 @@ DESCRIPTION:https://mucem.org/evenement/visites-guidees-en-lsf-de-manger-l
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/visites-guidees-en-lsf-de-manger-les-image
  s/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-jeune
-DTSTART;TZID=Europe/Paris:20261222T150000
-DTEND;TZID=Europe/Paris:20261222T163000
-UID:76a4223f44dd@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/46498766_cine-jeune-5176
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/46498766
- _cine-jeune-5176
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lectures en salle
-DTSTART;TZID=Europe/Paris:20261223T163000
-DTEND;TZID=Europe/Paris:20261223T170000
-UID:baa5510d4654@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/8650300_lectures-en-salle-471
- 7232
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/8650300_
- lectures-en-salle-4717232
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-jeune
-DTSTART;TZID=Europe/Paris:20261224T150000
-DTEND;TZID=Europe/Paris:20261224T154500
-UID:839e107eec83@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/49955377_cine-jeune-7534611
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/49955377
- _cine-jeune-7534611
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lectures aux tout-petits
-DTSTART;TZID=Europe/Paris:20261226T100000
-DTEND;TZID=Europe/Paris:20261226T103000
-UID:c64a7fcd6306@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/18162275_lectures-aux-tout-pe
- tits-6813692
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/18162275
- _lectures-aux-tout-petits-6813692
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le goûter à histoires
@@ -4272,31 +4356,6 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/gateaux-dart/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/gateaux-dart/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-jeune
-DTSTART;TZID=Europe/Paris:20261229T150000
-DTEND;TZID=Europe/Paris:20261229T164500
-UID:adfe1f5d4f50@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/74747936_cine-jeune-4904262
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/74747936
- _cine-jeune-4904262
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier Flip-Book : Premiers pas dans l'animation
-DTSTART;TZID=Europe/Paris:20261230T103000
-DTEND;TZID=Europe/Paris:20261230T120000
-UID:4634851a7e76@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/31266745_atelier-flip-book-pr
- emiers-pas-dans-lanimation
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/31266745
- _atelier-flip-book-premiers-pas-dans-lanimation
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le banquet des images
@@ -4407,6 +4466,18 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-gouter-des-images/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:L'Ecole des femmes
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270125
+UID:f819037dc316@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/lecole-de
+ s-femmes-2627
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/lecole-des-femmes
+ -2627
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270109T103000
 DTEND;TZID=Europe/Paris:20270109T111500
@@ -4415,6 +4486,18 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Chant des Oiseaux
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+UID:82dcf5c5c37f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-chant-
+ des-oiseaux
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/le-chant-des-oise
+ aux
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 3 - Watteau\, un peintre à la mode
@@ -4463,6 +4546,17 @@ URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Gorfou-Tornade
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270128
+UID:e712b2347b13@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/gorfou-to
+ rnade
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/gorfou-tornade
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
 DTSTART;TZID=Europe/Paris:20270123T160000
 DTEND;TZID=Europe/Paris:20270123T173000
@@ -4496,6 +4590,29 @@ DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:L'hors-présence ou Chimères du pays de Morsan
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270131
+UID:5cf6f57d658c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/lhors-pre
+ sence
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/lhors-presence
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gorfou-Tornade
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270131
+UID:5b9e543adcec@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/gorfou-to
+ rnade-astronef
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/gorfou-tornade-as
+ tronef
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire
@@ -4547,6 +4664,28 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/20075925
  _projection-rencontre-6437893
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Fusées
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270207
+UID:713a495f6e20@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/fusees
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/fusees
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Peau des autres
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270207
+UID:16d3720f5314@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/la-peau-d
+ es-autres
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/la-peau-des-autre
+ s
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
 DTSTART;TZID=Europe/Paris:20270206T160000
 DTEND;TZID=Europe/Paris:20270206T173000
@@ -4591,6 +4730,17 @@ DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Comme un vertige...
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270214
+UID:8b8b0844c8cd@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/comme-un-
+ vertige
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/comme-un-vertige
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:On ne laisse pas Bébé dans un coin : Dirty Dancing\, un film fé
@@ -4739,20 +4889,6 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/lou-petit/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/lou-petit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:On ne laisse pas Bébé dans un coin : Dirty Dancing\, un film fé
- ministe
-DTSTART;TZID=Europe/Paris:20270306T170000
-DTEND;TZID=Europe/Paris:20270306T200000
-UID:8877806d2032@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/3182083_on-ne-laisse-pas-bebe
- -dans-un-coin
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/3182083_
- on-ne-laisse-pas-bebe-dans-un-coin
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre

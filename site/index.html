@@ -71,6 +71,9 @@
   .search input::placeholder { color: var(--muted); }
   body[data-view="agenda"] .subtabs, body[data-view="agenda"] .sub .search, body[data-view="agenda"] .liste { display: none; }
   body[data-view="liste"] .nav, body[data-view="liste"] .agendaView { display: none; }
+  /* Carte is independent of the facets: no filter bar, no sub row */
+  body[data-view="carte"] .filters, body[data-view="carte"] .sub, body[data-view="carte"] .liste, body[data-view="carte"] .agendaView { display: none; }
+  body:not([data-view="carte"]) .carteView { display: none; }
   /* meta line: venues button, freshness, info popover */
   .meta { display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
   .meta .lnk { font-size: 12px; }
@@ -174,6 +177,33 @@
   .ev.cancelled .n { text-decoration: line-through; }
   /* mobile mini-month */
   .mini, .miniLead, .miniCards { display: none; }
+  /* ---- Carte: venues sorted by bike time (left) + Leaflet map (right) ---- */
+  body[data-view="carte"] main { overflow: hidden; }
+  .carteView { flex: 1; display: flex; min-height: 0; }
+  .clist { width: 330px; flex: none; overflow: auto; border-right: 1px solid var(--line); padding: 12px 16px 24px; }
+  .clist .lead { margin-bottom: 2px; }
+  .cnote { margin: 0 0 6px; font-size: 12px; color: var(--muted); }
+  .clist .lrow { cursor: pointer; }
+  .ctime { flex: none; font-weight: 600; font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .ctime.na { color: var(--muted); font-weight: 400; }
+  /* own stacking context: Leaflet panes use z-index up to 1000 and must stay under the modal and panels */
+  .cmap { flex: 1; min-width: 0; position: relative; z-index: 0; isolation: isolate; background: var(--cell); }
+  .cmap .cfail { padding: 32px 16px; text-align: center; color: var(--muted); }
+  .cmap.leaflet-container { font: inherit; }
+  .cmap .leaflet-popup-content-wrapper, .cmap .leaflet-popup-tip, .cmap .leaflet-tooltip { background: var(--panel); color: var(--fg); }
+  .cmap .leaflet-tooltip { border-color: var(--line); }
+  .cmap .leaflet-popup-content { margin: 12px 14px; }
+  .chome { font-weight: 600; }
+  .cpop { --c: var(--c-autre); min-width: 200px; }
+  .cpop .ccat { display: flex; align-items: center; gap: 6px; color: var(--c); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+  .cpop .cname { font-weight: 650; font-size: 15px; line-height: 1.25; margin: 3px 0 4px; }
+  .cpop .cbike { font-size: 12.5px; margin-bottom: 8px; }
+  .cpop .cev { display: flex; flex-direction: column; align-items: flex-start; gap: 1px; width: 100%; text-align: left; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: none; padding: 6px 0; }
+  .cpop .cev .t { color: var(--muted); font-size: 11.5px; }
+  .cpop .cev .n { font-weight: 600; font-size: 13px; line-height: 1.3; }
+  .cpop .cev:hover .n { text-decoration: underline; }
+  .cpop .cmuted { color: var(--muted); font-size: 12.5px; margin: 4px 0; }
+  .cpop a { display: inline-block; margin-top: 6px; font-size: 12px; color: var(--muted); }
   /* ---- event modal: centered dialog with previous / next navigation ---- */
   .modal { position: fixed; inset: 0; z-index: 30; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,.4); padding: 24px 72px; }
   .modal[hidden] { display: none; }
@@ -279,6 +309,11 @@
     .mnav .pos, .mnav .arrow { position: static; transform: none; }
     .mnav .arrow { width: 56px; height: 44px; border-radius: 8px; }
     .tip { right: 0; left: auto; }
+    /* carte on mobile: map on top, venue list below, the whole view scrolls */
+    body[data-view="carte"] main { overflow: auto; }
+    .carteView { flex-direction: column; flex: none; }
+    .cmap { order: -1; flex: none; height: 58vh; }
+    .clist { width: auto; overflow: visible; border-right: 0; padding: 10px 12px 40px; }
   }
 </style>
 </head>
@@ -289,6 +324,7 @@
     <div class="tabs" role="tablist" id="tabs">
       <button class="tab on" role="tab" data-view="liste" aria-selected="true">Liste</button>
       <button class="tab" role="tab" data-view="agenda" aria-selected="false">Agenda</button>
+      <button class="tab" role="tab" data-view="carte" aria-selected="false">Carte</button>
     </div>
   </div>
   <div class="filters">
@@ -348,6 +384,14 @@
     <div class="mini" id="mini" role="grid" aria-label="Jours du mois"></div>
     <div class="lead miniLead" id="miniLead"></div>
     <div class="cards miniCards" id="miniCards"></div>
+  </section>
+  <section class="carteView" id="carteView" aria-label="Carte des lieux">
+    <div class="clist">
+      <div class="lead" id="carteLead"></div>
+      <p class="cnote" id="carteNote"></p>
+      <ul class="lrows" id="carteList" aria-label="Lieux par temps de trajet à vélo"></ul>
+    </div>
+    <div class="cmap" id="cmap" role="region" aria-label="Carte"></div>
   </section>
 </main>
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Détail de l'événement" hidden>
@@ -491,7 +535,7 @@
 
   // ---- State <-> URL hash -----------------------------------------------------------------
 
-  // Single source of truth. Routes: #liste/aujourdhui | #liste/semaine | #liste/expos | #liste/jour?day=YYYY-MM-DD | #agenda?m=YYYY-MM
+  // Single source of truth. Routes: #liste/aujourdhui | #liste/semaine | #liste/expos | #liste/jour?day=YYYY-MM-DD | #agenda?m=YYYY-MM | #carte
   // Query params: type, area, venue, free, special, q (Liste only), ev (open event), lieux=1 (venues panel).
   const state = { view: 'liste', tab: 'aujourdhui', day: null, month: currentMonth, types: new Set(), areas: new Set(), venues: new Set(), free: false, special: false, q: '', ev: null, lieux: false };
 
@@ -500,7 +544,7 @@
     const p = new URLSearchParams(qs);
     const list = (k) => (p.get(k) || '').split(',').filter(Boolean);
     const [root, sub] = path.split('/');
-    if (root === 'agenda') { state.view = 'agenda'; state.tab = 'aujourdhui'; }
+    if (root === 'agenda' || root === 'carte') { state.view = root; state.tab = 'aujourdhui'; }
     else { state.view = 'liste'; state.tab = root === 'expos' ? 'expos' : (TABS[sub] || sub === 'jour') ? sub : 'aujourdhui'; } // legacy #expos
     state.day = state.tab === 'jour' && /^\d{4}-\d{2}-\d{2}$/.test(p.get('day') || '') ? p.get('day') : null;
     if (state.tab === 'jour' && !state.day) state.tab = 'aujourdhui';
@@ -530,7 +574,7 @@
     if (state.ev) p.set('ev', state.ev);
     if (state.lieux) p.set('lieux', '1');
     const qs = p.toString().replace(/%2C/g, ',');
-    const path = state.view === 'agenda' ? 'agenda' : `liste/${state.tab}`;
+    const path = state.view === 'liste' ? `liste/${state.tab}` : state.view;
     const url = `${location.pathname}${location.search}#${path}${qs ? '?' + qs : ''}`;
     if (push) history.pushState(null, '', url); else history.replaceState(null, '', url);
   }
@@ -1059,7 +1103,7 @@
   function render() {
     renderTabs();
     renderSubtabs(); renderTypes(); renderAreas(); renderVenues(); renderMore(); renderRecap(); renderFiltersBtn();
-    if (state.view === 'liste') renderListe(); else renderAgenda();
+    if (state.view === 'liste') renderListe(); else if (state.view === 'agenda') renderAgenda(); else renderCarte();
     if (state.lieux) renderLieux();
     syncPanels();
   }
@@ -1155,6 +1199,7 @@
   // desktop agenda = the month's events by date and time (bars once).
   function modalSequence() {
     if (state.view === 'liste') return [...document.querySelectorAll('#listBody .card')].map(n => byUid.get(n.dataset.uid));
+    if (state.view === 'carte') return carteSeq;
     if (MOBILE.matches) return [...document.querySelectorAll('#miniCards .card')].map(n => byUid.get(n.dataset.uid));
     return visible().sort((a, b) => a.start_date.localeCompare(b.start_date) || byTime(a, b));
   }
@@ -1268,6 +1313,189 @@
     else if (modalUid) closeModal(false);
     if (state.lieux) { if (!$('lieuxPanel').classList.contains('open')) openLieux(false); }
     else closeLieux(false);
+  }
+
+  // ---- Carte view: venues on a map, bike time from home -----------------------------------
+
+  const HOME = { name: '12 rue du Soleil', lat: 43.2788, lng: 5.3593 };
+  const LEAFLET = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/';
+  // OSRM with a real bicycle profile (the one behind openstreetmap.org), CORS-enabled; Open-Meteo for altitudes.
+  const BIKE_ROUTER = 'https://routing.openstreetmap.de/routed-bike/table/v1/driving';
+  const ELEVATION = 'https://api.open-meteo.com/v1/elevation';
+  // OSRM's own durations assume a sporty ~25 km/h; urban pace with lights and traffic is closer to 16.5 km/h
+  // (same calibration as marseille-tes-lieux), plus ~5 s per metre climbed and a small credit for descents.
+  const BIKE_KMH = 16.5;
+  const BIKE_CACHE_KEY = 'agenda.bike.v1';
+  const mapVenues = venues.filter(v => v.lat != null && v.lng != null);
+  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const catColor = (c) => cssVar(`--c-${c || 'autre'}`) || cssVar('--c-autre');
+  const upcomingAt = (id) => events.filter(e => e.venue_id === id && (e.end_date || e.start_date) >= todayStr)
+    .sort((a, b) => a.start_date.localeCompare(b.start_date) || byTime(a, b));
+  const fmtMins = (m) => m < 60 ? `${m} min` : `${Math.floor(m / 60)} h${m % 60 ? ' ' + String(m % 60).padStart(2, '0') : ''}`;
+  const fmtKm = (km) => `${km.toLocaleString('fr-FR', { maximumFractionDigits: 1 })} km`;
+  let bike = {}, bikeState = 'idle'; // venue id -> { go, back, km }; idle | loading | ok | error
+  let leafletP = null, cmap = null, carteSeq = [];
+  const cmarkers = {};
+
+  function loadLeaflet() {
+    leafletP ||= new Promise((resolve, reject) => {
+      const css = document.createElement('link');
+      css.rel = 'stylesheet'; css.href = LEAFLET + 'leaflet.min.css';
+      document.head.appendChild(css);
+      const s = document.createElement('script');
+      s.src = LEAFLET + 'leaflet.min.js';
+      s.onload = () => resolve(window.L);
+      s.onerror = () => { leafletP = null; reject(new Error('leaflet')); };
+      document.head.appendChild(s);
+    });
+    return leafletP;
+  }
+
+  function bikeMins(distM, climbM) {
+    const flat = distM / 1000 / BIKE_KMH * 3600;
+    const sec = flat + Math.max(0, climbM) * 5 - Math.min(flat * 0.1, Math.max(0, -climbM));
+    return Math.max(1, Math.round(Math.max(60, sec) / 60));
+  }
+  async function fetchJson(u) {
+    const r = await fetch(u);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  }
+  // One request for every home -> venue distance, one for the way back (one-way streets differ), one for altitudes.
+  // The climb is counted between the two endpoints only. Results are cached per (home, venue) coordinates.
+  async function computeBike() {
+    let cache = {};
+    try { cache = JSON.parse(localStorage.getItem(BIKE_CACHE_KEY)) || {}; } catch (e) { /* ignore */ }
+    const key = (v) => `${HOME.lat},${HOME.lng}>${v.lat},${v.lng}`;
+    const missing = mapVenues.filter(v => !cache[key(v)]?.elev);
+    if (missing.length) {
+      const pts = [HOME, ...missing];
+      const base = `${BIKE_ROUTER}/${pts.map(p => `${p.lng},${p.lat}`).join(';')}?annotations=distance`;
+      const [go, back, alt] = await Promise.all([
+        fetchJson(`${base}&sources=0`),
+        fetchJson(`${base}&destinations=0`),
+        fetchJson(`${ELEVATION}?latitude=${pts.map(p => p.lat).join(',')}&longitude=${pts.map(p => p.lng).join(',')}`).catch(() => null),
+      ]);
+      if (go.code !== 'Ok' || back.code !== 'Ok') throw new Error(go.code || back.code);
+      missing.forEach((v, i) => {
+        const dGo = go.distances[0][i + 1], dBack = back.distances[i + 1][0];
+        if (dGo == null || dBack == null) return;
+        const dz = alt ? alt.elevation[i + 1] - alt.elevation[0] : 0;
+        cache[key(v)] = { go: bikeMins(dGo, dz), back: bikeMins(dBack, -dz), km: dGo / 1000, elev: !!alt };
+      });
+      try { localStorage.setItem(BIKE_CACHE_KEY, JSON.stringify(cache)); } catch (e) { /* ignore */ }
+    }
+    return Object.fromEntries(mapVenues.filter(v => cache[key(v)]).map(v => [v.id, cache[key(v)]]));
+  }
+
+  function bikeLine(id) {
+    if (bikeState === 'idle' || bikeState === 'loading') return 'calcul du trajet à vélo...';
+    const b = bike[id];
+    if (!b) return 'trajet à vélo indisponible';
+    return `${fmtMins(b.go)} à vélo · ${fmtKm(b.km)}${Math.abs(b.back - b.go) >= 2 ? ` · retour ${fmtMins(b.back)}` : ''}`;
+  }
+
+  function popupNode(v) {
+    const ups = upcomingAt(v.id);
+    const div = document.createElement('div');
+    div.className = 'cpop';
+    div.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+    div.innerHTML = `<div class="ccat"><span class="dot"></span>${esc([CATEGORIES[v.category] || v.category, areaName(venueArea[v.id])].filter(Boolean).join(' · '))}</div>
+      <div class="cname">${esc(v.name)}</div>
+      <div class="cbike">${esc(bikeLine(v.id))}</div>
+      <div class="cevs"></div>
+      ${v.website ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">site du lieu</a>` : ''}`;
+    const box = div.querySelector('.cevs');
+    if (!ups.length) box.innerHTML = '<p class="cmuted">Aucun événement à venir</p>';
+    for (const e of ups.slice(0, 3)) {
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'cev'; b.dataset.uid = e.uid;
+      const when = isRange(e) ? fmtRange(e) : `${fmtDate(e.start_date)}${timeLabel(e) ? ' · ' + timeLabel(e) : ''}`;
+      b.innerHTML = `<span class="t">${esc(when)}</span><span class="n">${esc(e.title)}</span>`;
+      b.onclick = () => { carteSeq = ups; openModal(e); };
+      box.appendChild(b);
+    }
+    if (ups.length > 3) box.insertAdjacentHTML('beforeend', `<p class="cmuted">+ ${ups.length - 3} autres (flèches dans la fiche)</p>`);
+    return div;
+  }
+
+  function initMap(L) {
+    $('cmap').innerHTML = '';
+    cmap = L.map('cmap', { zoomControl: true });
+    cmap.attributionControl.setPrefix(false);
+    const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark ? 'dark_all' : 'light_all'}/{z}/{x}/{y}{r}.png`,
+      { subdomains: 'abcd', maxZoom: 20, attribution: '© OpenStreetMap · © CARTO' }).addTo(cmap);
+    L.circleMarker([HOME.lat, HOME.lng], { radius: 8, color: cssVar('--bg'), weight: 3, fillColor: cssVar('--fg'), fillOpacity: 1 })
+      .bindTooltip(HOME.name, { permanent: true, direction: 'right', offset: [8, 0], className: 'chome' })
+      .addTo(cmap);
+    for (const v of mapVenues) {
+      cmarkers[v.id] = L.circleMarker([v.lat, v.lng], { radius: 7, color: cssVar('--bg'), weight: 2, fillColor: catColor(v.category), fillOpacity: .95 })
+        .bindTooltip(v.name, { direction: 'top', offset: [0, -6] })
+        .bindPopup(() => popupNode(v), { maxWidth: 280 })
+        .addTo(cmap);
+    }
+    cmap.fitBounds(L.latLngBounds([[HOME.lat, HOME.lng], ...mapVenues.map(v => [v.lat, v.lng])]), { padding: [30, 30] });
+  }
+
+  function focusVenue(id) {
+    const v = venueById[id];
+    if (!cmap) return;
+    if (MOBILE.matches) $('main').scrollTo({ top: 0, behavior: 'smooth' });
+    cmap.flyTo([v.lat, v.lng], Math.max(cmap.getZoom(), 15), { duration: .6 });
+    cmap.once('moveend', () => cmarkers[id].openPopup());
+  }
+
+  function renderCarteList() {
+    $('carteLead').textContent = `À vélo depuis le ${HOME.name}`;
+    $('carteNote').textContent = {
+      idle: 'Calcul des trajets...', loading: 'Calcul des trajets...',
+      error: 'Trajets à vélo indisponibles (service de calcul injoignable).',
+      ok: `Itinéraire vélo OpenStreetMap, rythme urbain ~${BIKE_KMH.toLocaleString('fr-FR')} km/h, dénivelé compté entre départ et arrivée.`,
+    }[bikeState];
+    const list = $('carteList');
+    const rows = [...mapVenues].sort((a, b) => (bike[a.id]?.go ?? Infinity) - (bike[b.id]?.go ?? Infinity) || a.name.localeCompare(b.name, 'fr'));
+    syncNodes(list, rows.map(v => v.id),
+      (id) => {
+        const v = venueById[id];
+        const li = document.createElement('li');
+        li.className = 'lrow';
+        li.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+        li.innerHTML = `<span class="dot"></span>
+          <div class="ltxt"><button type="button" class="lnk lname">${esc(v.name)}</button><div class="lsub"></div></div>
+          <span class="ctime"></span>`;
+        li.onclick = () => focusVenue(id);
+        return li;
+      },
+      (li, id) => {
+        const v = venueById[id], n = upcomingAt(id).length, b = bike[id];
+        li.classList.toggle('muted', !n);
+        li.querySelector('.lsub').textContent = [CATEGORIES[v.category] || v.category, n ? `${n} à venir` : 'rien à venir'].join(' · ');
+        const t = li.querySelector('.ctime');
+        t.textContent = b ? fmtMins(b.go) : bikeState === 'loading' ? '...' : '-';
+        t.classList.toggle('na', !b);
+        t.title = b ? bikeLine(id) : '';
+      });
+    for (const id of rows.map(v => v.id)) list.appendChild(list.querySelector(`[data-key="${id}"]`));
+  }
+
+  async function renderCarte() {
+    if (bikeState === 'idle') {
+      bikeState = 'loading';
+      computeBike()
+        .then(b => { bike = b; bikeState = 'ok'; })
+        .catch(() => { bikeState = 'error'; })
+        .finally(() => { if (state.view === 'carte') renderCarteList(); });
+    }
+    renderCarteList();
+    let L;
+    try { L = await loadLeaflet(); } catch (e) {
+      $('cmap').innerHTML = '<p class="cfail">Carte indisponible : la librairie de carte n\'a pas pu être chargée.</p>';
+      return;
+    }
+    if (state.view !== 'carte') return;
+    if (!cmap) initMap(L);
+    cmap.invalidateSize();
   }
 
   // ---- Wiring -----------------------------------------------------------------------------

@@ -134,6 +134,47 @@
       "web": false,
       "instagram": "lacoloradamarsella",
       "facebook": "lacoloradamarsella"
+    },
+    {
+      "name": "La Camaraderie",
+      "category": "bars",
+      "lat": 43.3121,
+      "lng": 5.3848,
+      "website": "https://www.lacamaraderie.net/agenda",
+      "instagram": "la.camaraderie13"
+    },
+    {
+      "name": "Twali",
+      "category": "bars",
+      "lat": 43.3021,
+      "lng": 5.3792,
+      "website": "https://www.twalimarseille.fr/evenements",
+      "instagram": "twali.marseille",
+      "facebook": "twalibelsunce"
+    },
+    {
+      "name": "L'Embobineuse",
+      "category": "culture",
+      "lat": 43.3112,
+      "lng": 5.3832,
+      "website": "https://www.lembobineuse.biz/events/upcoming",
+      "instagram": "lembobineusemarseille"
+    },
+    {
+      "name": "La Cité des arts de la rue",
+      "category": "culture",
+      "lat": 43.3528,
+      "lng": 5.3647,
+      "website": "https://www.lacitedesartsdelarue.net/agenda/",
+      "social": false
+    },
+    {
+      "name": "Théâtre La Criée",
+      "category": "culture",
+      "lat": 43.2924,
+      "lng": 5.368,
+      "website": "https://theatre-lacriee.com/programmation/spectacles",
+      "social": false
     }
   ]
 }

@@ -175,6 +175,15 @@
       "lng": 5.368,
       "website": "https://theatre-lacriee.com/programmation/spectacles",
       "social": false
+    },
+    {
+      "name": "Frac Sud",
+      "category": "culture",
+      "lat": 43.3053,
+      "lng": 5.3678,
+      "website": "https://fracsud.org/?page=tout_agenda&id_rubrique=1",
+      "location_filter": "frac sud",
+      "social": false
     }
   ]
 }

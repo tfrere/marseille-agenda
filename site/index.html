@@ -177,7 +177,7 @@
   .ev.cancelled .n { text-decoration: line-through; }
   /* mobile mini-month */
   .mini, .miniLead, .miniCards { display: none; }
-  /* ---- Carte: venues sorted by bike time (left) + Leaflet map (right) ---- */
+  /* ---- Carte: venues sorted by bike time (left) + MapLibre map (right) ---- */
   body[data-view="carte"] main { overflow: hidden; }
   .carteView { flex: 1; display: flex; min-height: 0; }
   .clist { width: 330px; flex: none; overflow: auto; border-right: 1px solid var(--line); padding: 12px 16px 24px; }
@@ -186,14 +186,23 @@
   .clist .lrow { cursor: pointer; }
   .ctime { flex: none; font-weight: 600; font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
   .ctime.na { color: var(--muted); font-weight: 400; }
-  /* own stacking context: Leaflet panes use z-index up to 1000 and must stay under the modal and panels */
+  /* own stacking context: map markers and popups must stay under the modal and panels */
   .cmap { flex: 1; min-width: 0; position: relative; z-index: 0; isolation: isolate; background: var(--cell); }
   .cmap .cfail { padding: 32px 16px; text-align: center; color: var(--muted); }
-  .cmap.leaflet-container { font: inherit; }
-  .cmap .leaflet-popup-content-wrapper, .cmap .leaflet-popup-tip, .cmap .leaflet-tooltip { background: var(--panel); color: var(--fg); }
-  .cmap .leaflet-tooltip { border-color: var(--line); }
-  .cmap .leaflet-popup-content { margin: 12px 14px; }
-  .chome { font-weight: 600; }
+  .cmap .maplibregl-popup-content { background: var(--panel); color: var(--fg); border-radius: 8px; box-shadow: var(--shadow); padding: 12px 14px; font: inherit; }
+  .cmap .maplibregl-popup-anchor-bottom .maplibregl-popup-tip, .cmap .maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip, .cmap .maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip { border-top-color: var(--panel); }
+  .cmap .maplibregl-popup-anchor-top .maplibregl-popup-tip, .cmap .maplibregl-popup-anchor-top-left .maplibregl-popup-tip, .cmap .maplibregl-popup-anchor-top-right .maplibregl-popup-tip { border-bottom-color: var(--panel); }
+  .cmap .maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: var(--panel); }
+  .cmap .maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: var(--panel); }
+  .cmap .maplibregl-popup-close-button { border: 0; background: none; padding: 2px 8px; font-size: 18px; color: var(--muted); }
+  /* markers: the element's own transform is owned by MapLibre, only ::after may be transformed */
+  .cmap .cmk { width: 14px; height: 14px; padding: 0; border-radius: 50%; background: var(--c); border: 2px solid var(--bg); box-shadow: 0 1px 3px rgba(0,0,0,.35); cursor: pointer; }
+  .cmap .cmk:hover, .cmap .cmk:focus-visible { z-index: 2; }
+  .cmap .cmk::after, .cmap .chomemk::after { content: attr(data-name); position: absolute; white-space: nowrap; background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; font-size: 12px; font-weight: 600; pointer-events: none; }
+  .cmap .cmk::after { bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%); opacity: 0; transition: opacity .1s; }
+  .cmap .cmk:hover::after, .cmap .cmk:focus-visible::after { opacity: 1; }
+  .cmap .chomemk { width: 16px; height: 16px; border-radius: 50%; background: var(--fg); border: 3px solid var(--bg); box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  .cmap .chomemk::after { left: calc(100% + 6px); top: 50%; transform: translateY(-50%); }
   .cpop { --c: var(--c-autre); min-width: 200px; }
   .cpop .ccat { display: flex; align-items: center; gap: 6px; color: var(--c); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
   .cpop .cname { font-weight: 650; font-size: 15px; line-height: 1.25; margin: 3px 0 4px; }
@@ -1318,7 +1327,10 @@
   // ---- Carte view: venues on a map, bike time from home -----------------------------------
 
   const HOME = { name: '12 rue du Soleil', lat: 43.2788, lng: 5.3593 };
-  const LEAFLET = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/';
+  // MapLibre 5 (single UMD file with an inlined worker; v6 is ESM-only with a separate worker) + OpenFreeMap
+  // vector styles: open source, OpenStreetMap data, no API key and no request quota.
+  const MAPLIBRE = 'https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.24.0/';
+  const MAP_STYLE = `https://tiles.openfreemap.org/styles/${window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'positron'}`;
   // OSRM with a real bicycle profile (the one behind openstreetmap.org), CORS-enabled; Open-Meteo for altitudes.
   const BIKE_ROUTER = 'https://routing.openstreetmap.de/routed-bike/table/v1/driving';
   const ELEVATION = 'https://api.open-meteo.com/v1/elevation';
@@ -1327,28 +1339,25 @@
   const BIKE_KMH = 16.5;
   const BIKE_CACHE_KEY = 'agenda.bike.v1';
   const mapVenues = venues.filter(v => v.lat != null && v.lng != null);
-  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
-  const catColor = (c) => cssVar(`--c-${c || 'autre'}`) || cssVar('--c-autre');
   const upcomingAt = (id) => events.filter(e => e.venue_id === id && (e.end_date || e.start_date) >= todayStr)
     .sort((a, b) => a.start_date.localeCompare(b.start_date) || byTime(a, b));
   const fmtMins = (m) => m < 60 ? `${m} min` : `${Math.floor(m / 60)} h${m % 60 ? ' ' + String(m % 60).padStart(2, '0') : ''}`;
   const fmtKm = (km) => `${km.toLocaleString('fr-FR', { maximumFractionDigits: 1 })} km`;
   let bike = {}, bikeState = 'idle'; // venue id -> { go, back, km }; idle | loading | ok | error
-  let leafletP = null, cmap = null, carteSeq = [];
-  const cmarkers = {};
+  let maplibreP = null, cmap = null, cpopup = null, carteSeq = [];
 
-  function loadLeaflet() {
-    leafletP ||= new Promise((resolve, reject) => {
+  function loadMaplibre() {
+    maplibreP ||= new Promise((resolve, reject) => {
       const css = document.createElement('link');
-      css.rel = 'stylesheet'; css.href = LEAFLET + 'leaflet.min.css';
+      css.rel = 'stylesheet'; css.href = MAPLIBRE + 'maplibre-gl.css';
       document.head.appendChild(css);
       const s = document.createElement('script');
-      s.src = LEAFLET + 'leaflet.min.js';
-      s.onload = () => resolve(window.L);
-      s.onerror = () => { leafletP = null; reject(new Error('leaflet')); };
+      s.src = MAPLIBRE + 'maplibre-gl.js';
+      s.onload = () => resolve(window.maplibregl);
+      s.onerror = () => { maplibreP = null; reject(new Error('maplibre')); };
       document.head.appendChild(s);
     });
-    return leafletP;
+    return maplibreP;
   }
 
   function bikeMins(distM, climbM) {
@@ -1419,31 +1428,43 @@
     return div;
   }
 
-  function initMap(L) {
-    $('cmap').innerHTML = '';
-    cmap = L.map('cmap', { zoomControl: true });
-    cmap.attributionControl.setPrefix(false);
-    const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark ? 'dark_all' : 'light_all'}/{z}/{x}/{y}{r}.png`,
-      { subdomains: 'abcd', maxZoom: 20, attribution: '© OpenStreetMap · © CARTO' }).addTo(cmap);
-    L.circleMarker([HOME.lat, HOME.lng], { radius: 8, color: cssVar('--bg'), weight: 3, fillColor: cssVar('--fg'), fillOpacity: 1 })
-      .bindTooltip(HOME.name, { permanent: true, direction: 'right', offset: [8, 0], className: 'chome' })
-      .addTo(cmap);
-    for (const v of mapVenues) {
-      cmarkers[v.id] = L.circleMarker([v.lat, v.lng], { radius: 7, color: cssVar('--bg'), weight: 2, fillColor: catColor(v.category), fillOpacity: .95 })
-        .bindTooltip(v.name, { direction: 'top', offset: [0, -6] })
-        .bindPopup(() => popupNode(v), { maxWidth: 280 })
-        .addTo(cmap);
-    }
-    cmap.fitBounds(L.latLngBounds([[HOME.lat, HOME.lng], ...mapVenues.map(v => [v.lat, v.lng])]), { padding: [30, 30] });
+  // The popup is rebuilt on every opening so it shows the bike time once it has been computed.
+  function openVenuePopup(maplibregl, id) {
+    const v = venueById[id];
+    if (cpopup) cpopup.remove();
+    cpopup = new maplibregl.Popup({ offset: 12, maxWidth: '280px', focusAfterOpen: false })
+      .setLngLat([v.lng, v.lat]).setDOMContent(popupNode(v)).addTo(cmap);
   }
 
-  function focusVenue(id) {
+  function initMap(maplibregl) {
+    $('cmap').innerHTML = '';
+    const bounds = new maplibregl.LngLatBounds([HOME.lng, HOME.lat], [HOME.lng, HOME.lat]);
+    for (const v of mapVenues) bounds.extend([v.lng, v.lat]);
+    cmap = new maplibregl.Map({ container: 'cmap', style: MAP_STYLE, bounds, fitBoundsOptions: { padding: 40 }, attributionControl: { compact: true } });
+    cmap.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+    const home = document.createElement('div');
+    home.className = 'chomemk';
+    home.dataset.name = HOME.name;
+    new maplibregl.Marker({ element: home }).setLngLat([HOME.lng, HOME.lat]).addTo(cmap);
+    for (const v of mapVenues) {
+      const el = document.createElement('button');
+      el.type = 'button';
+      el.className = 'cmk';
+      el.dataset.name = v.name;
+      el.setAttribute('aria-label', v.name);
+      el.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+      el.addEventListener('click', (ev) => { ev.stopPropagation(); openVenuePopup(maplibregl, v.id); });
+      new maplibregl.Marker({ element: el }).setLngLat([v.lng, v.lat]).addTo(cmap);
+    }
+  }
+
+  async function focusVenue(id) {
     const v = venueById[id];
     if (!cmap) return;
+    const maplibregl = await loadMaplibre();
     if (MOBILE.matches) $('main').scrollTo({ top: 0, behavior: 'smooth' });
-    cmap.flyTo([v.lat, v.lng], Math.max(cmap.getZoom(), 15), { duration: .6 });
-    cmap.once('moveend', () => cmarkers[id].openPopup());
+    cmap.flyTo({ center: [v.lng, v.lat], zoom: Math.max(cmap.getZoom(), 15), duration: 600 });
+    cmap.once('moveend', () => openVenuePopup(maplibregl, id));
   }
 
   function renderCarteList() {
@@ -1488,14 +1509,16 @@
         .finally(() => { if (state.view === 'carte') renderCarteList(); });
     }
     renderCarteList();
-    let L;
-    try { L = await loadLeaflet(); } catch (e) {
-      $('cmap').innerHTML = '<p class="cfail">Carte indisponible : la librairie de carte n\'a pas pu être chargée.</p>';
-      return;
+    try {
+      const maplibregl = await loadMaplibre();
+      if (state.view !== 'carte') return;
+      if (!cmap) initMap(maplibregl);
+      cmap.resize();
+    } catch (e) {
+      // Library blocked by the network, or no WebGL in this browser.
+      cmap = null;
+      $('cmap').innerHTML = '<p class="cfail">Carte indisponible dans ce navigateur.</p>';
     }
-    if (state.view !== 'carte') return;
-    if (!cmap) initMap(L);
-    cmap.invalidateSize();
   }
 
   // ---- Wiring -----------------------------------------------------------------------------

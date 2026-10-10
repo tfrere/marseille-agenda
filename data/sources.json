@@ -1307,10 +1307,10 @@
   "la-cite-des-arts-de-la-rue": {
    "venue_id": "la-cite-des-arts-de-la-rue",
    "source": {
-    "url": "https://www.lacitedesartsdelarue.net/wp-json/wp/v2/event?per_page=50",
-    "kind": "json",
+    "url": "https://www.lacitedesartsdelarue.net/agenda/",
+    "kind": "html",
     "confidence": 0.75,
-    "reasoning": "The site exposes a custom WordPress post type \"event\" via REST API. The /wp-json/wp/v2/event?per_page=50 endpoint returns up to 50 events with title, link, content, and date fields, which covers the full agenda in one call (no pagination needed given ~50 items returned). This is preferred over the HTML agenda page since it's structured JSON and the HTML page only rendered 19 date-like strings (mostly recurring visit info) with no JSON-LD events, confirming the API is the richer, authoritative source.",
+    "reasoning": "Manual override: the WordPress REST endpoint (/wp-json/wp/v2/event) only exposes the publication date, not the event dates, so it can never yield a dated event. The HTML agenda page lists upcoming events under 'À venir' with 'Début : <date>' / 'Fin : <date>' / 'Heure' fields.",
     "sample_titles": [
      "Jeudis de L'Échelle #11 // Pö",
      "Ceci n'est pas un requiem – Collectif Chapacans / Café Gasoil"
@@ -1327,7 +1327,7 @@
    "content_hash": "d41d01878736196b",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": "2026-10-17"
+   "next_generation": null
   },
   "theatre-la-criee": {
    "venue_id": "theatre-la-criee",

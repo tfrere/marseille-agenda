@@ -4,8 +4,8 @@
  "sources_ok": 49,
  "sources_skipped_unchanged": 0,
  "events_published": 465,
- "events_new": 36,
- "events_rejected_grounding": 93,
+ "events_new": 3,
+ "events_rejected_grounding": 94,
  "events_rejected_verifier": 5,
  "events_uncertain": 0,
  "alerts": [
@@ -19,31 +19,31 @@
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-10-12: The item 'Permanence de Mille Bâbords et de sa médiathèque' represents opening hours / drop-in hours for the venue and its media library, not a distinct public event."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-10-12: The entry 'Permanence de Mille Bâbords et de sa médiathèque' designates the regular opening/drop-in hours of the venue and its media library, not a public event."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Festival Aflam |\\xa013ème édition' 2026-10-14: The extracted start_date is 2026-10-14, but the excerpt states the event starts on 2026-10-13: \"du mardi 13 octobre 2026 au mercredi 14 octobre 2026\"."
+   "message": "verifier rejected 'Festival Aflam |\\xa013ème édition' 2026-10-14: The extracted start_date 2026-10-14 contradicts the excerpt, which states the festival runs 'du mardi 13 octobre 2026 au mercredi 14 octobre 2026' (start date is 2026-10-13)."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected \"L'Appel des chantiers - festival de documentaires de création |\\xa08ème édition\" 2026-10-25: The extracted start_date is 2026-10-25, but the excerpt explicitly states the event runs 'du samedi 24 octobre 2026 au dimanche 25 octobre 2026'."
+   "message": "verifier rejected \"L'Appel des chantiers - festival de documentaires de création |\\xa08ème édition\" 2026-10-25: The excerpt specifies the start date as 'samedi 24 octobre 2026' ('du samedi 24 octobre 2026 au dimanche 25 octobre 2026'), contradicting the extracted start_date of 2026-10-25."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cycle cinéma | Cinéma expérimental :\\xa0Cinédanse' 2026-10-29: The extracted start date 2026-10-29 is incorrect; the excerpt specifies that the event runs 'du mardi 27 octobre 2026 au jeudi 29 octobre 2026'."
+   "message": "verifier rejected 'Cycle cinéma | Cinéma expérimental :\\xa0Cinédanse' 2026-10-29: The excerpt states the event runs 'du mardi 27 octobre 2026 au jeudi 29 octobre 2026', contradicting the extracted start date of 2026-10-29."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The excerpt states 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027', so the cycle's start date is 2026-09-30, not 2027-01-20 (which is the end date)."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The start date is incorrect: the excerpt states \"du [2026-09-30T00:00:00+00:00] mercredi 30 septembre 2026 au [2027-01-20T00:00:00+00:00] mercredi 20 janvier 2027\", so 2027-01-20 is the end date, not the start date."
   },
   {
    "level": "warning",
@@ -55,38 +55,26 @@
    "level": "warning",
    "venue_id": "la-camaraderie",
    "source_url": "https://www.lacamaraderie.net/agenda",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-10-17"
+   "message": "no upcoming event on source at last check; next generation attempt 2026-10-17"
   },
   {
    "level": "warning",
    "venue_id": "twali",
    "source_url": "https://www.twalimarseille.fr/evenements",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-10-17"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.lembobineuse.biz/events/upcoming",
-   "message": "schema induced without a model: 11 cards matched by 'a.link-unstyled', 11 upcoming events, coverage 1.00, quality 1.00, machine-readable dates"
+   "message": "no upcoming event on source at last check; next generation attempt 2026-10-17"
   },
   {
    "level": "warning",
    "venue_id": "la-cite-des-arts-de-la-rue",
-   "source_url": "https://www.lacitedesartsdelarue.net/wp-json/wp/v2/event?per_page=50",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-10-17"
-  },
-  {
-   "level": "warning",
-   "venue_id": "theatre-la-criee",
-   "source_url": "https://theatre-lacriee.com/programmation/spectacles",
-   "message": "schema induced without a model: 28 cards matched by 'div.gap-x-4.gap-y-12.grid > a', 24 upcoming events, coverage 0.77, quality 0.86"
+   "source_url": "https://www.lacitedesartsdelarue.net/agenda/",
+   "message": "schema induced without a model: 5 cards matched by 'div.vsel-content', 3 upcoming events, coverage 0.60, quality 0.80"
   }
  ],
- "llm_calls": 67,
+ "llm_calls": 8,
  "posts_analyzed": 0,
  "apify_runs": 0,
  "images_published": 410,
  "images_failed": 0,
- "credits_remaining_usd": 0.7194,
- "run_cost_usd": 0.5366
+ "credits_remaining_usd": 50.6407,
+ "run_cost_usd": 0.0
 }

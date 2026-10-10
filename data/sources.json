@@ -266,7 +266,7 @@
    "last_ok": "2026-10-10",
    "last_error": null,
    "last_event_count": 174,
-   "content_hash": "84b56e40d00a8ea5",
+   "content_hash": "f604a6f46c931df0",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -442,7 +442,7 @@
    "last_ok": "2026-10-10",
    "last_error": null,
    "last_event_count": 5,
-   "content_hash": "d773a0d0b2546cab",
+   "content_hash": "f005b90ab63efbf7",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1320,11 +1320,61 @@
     "facebook": null
    },
    "discovered": "2026-10-10",
-   "schema_record": null,
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "div.vsel-content",
+       "item_mode": "wrapper",
+       "fields": {
+        "title": {
+         "selector": "h2.vsel-meta-title",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "image": {
+         "selector": "img",
+         "attr": "src",
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": "div.vsel-meta-location",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Induced deterministically from the repeated dated cards of the page."
+      }
+     ],
+     "notes": "Deterministic induction (no model)."
+    },
+    "created": "2026-10-10",
+    "validated_against_llm": false,
+    "agreement": 0.8,
+    "generator_model": "induction",
+    "version": 1
+   },
    "last_ok": "2026-10-10",
    "last_error": null,
-   "last_event_count": 0,
-   "content_hash": "d41d01878736196b",
+   "last_event_count": 3,
+   "content_hash": "bafb79bbb1dda7b7",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

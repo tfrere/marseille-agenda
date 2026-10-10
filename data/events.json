@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T11:50:51+02:00",
+ "generated_at": "2026-10-10T12:01:20+02:00",
  "today": "2026-10-10",
  "venues": [
   {
@@ -40,7 +40,7 @@
    "lat": 43.3105,
    "lng": 5.3906,
    "website": "https://www.lafriche.org/agenda/",
-   "event_count": 37
+   "event_count": 35
   },
   {
    "id": "mac-musee-d-art-contemporain",
@@ -160,7 +160,7 @@
    "lat": 43.299,
    "lng": 5.3767,
    "website": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "event_count": 96
+   "event_count": 95
   },
   {
    "id": "la-colorada",
@@ -210,7 +210,7 @@
    "lat": 43.3528,
    "lng": 5.3647,
    "website": "https://www.lacitedesartsdelarue.net/agenda/",
-   "event_count": 0
+   "event_count": 3
   },
   {
    "id": "theatre-la-criee",
@@ -237,7 +237,7 @@
    "end_date": "2027-06-20",
    "end_time": "00:00:00",
    "location_name": null,
-   "url": "https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-photos?museum=musee-dhistoire-de-marseille-0",
+   "url": "https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-photos",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -249,7 +249,7 @@
    "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "Marseille vue par les Detaille - 164 ans de photos (https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-photos?museum=musee-dhistoire-de-marseille-0) Du [2025-10-31T08:00:00Z] 31 octobre 2025 au [2027-06-20T16:00:00Z] 20 juin 2027 Découvrir l'exposition (https://musees.marseille.fr"
+    "Marseille vue par les Detaille - 164 ans de photos (https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-photos) Musée d'Histoire de Marseille - (MHM) (https://musees.marseille.fr/liste-des-expositions) - Du [2025-10-31T08:00:00Z] 31 octobre 2025 au [2027-06-20T16:00:00Z] 20 juin 20"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Marseille vue par les Detaille - 164 ans de photos' runs 'Du [2025-10-31T08:00:00Z] 31 octobre 2025 au [2027-06-20T16:00:00Z] 20 juin 2027'.",
@@ -271,7 +271,7 @@
    "end_date": "2027-04-25",
    "end_time": "00:00:00",
    "location_name": null,
-   "url": "https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines?museum=musee-cantini",
+   "url": "https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -283,7 +283,7 @@
    "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "\"Par une langue échappée\", nouveau parcours des collections modernes et contemporaines (https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines?museum=musee-cantini) Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027 "
+    "\"Par une langue échappée\", nouveau parcours des collections modernes et contemporaines (https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines) Musée Cantini (https://musees.marseille.fr/liste-des-expositions) - Du [2026-05-08T07:00:00Z] 08 ma"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition is explicitly announced with dates 'Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027' and matching URL.",
@@ -571,76 +571,6 @@
    "last_seen": "2026-10-10",
    "lat": 43.2965,
    "lng": 5.378
-  },
-  {
-   "uid": "7a2208c7c4a5",
-   "venue_id": "friche-la-belle-de-mai",
-   "venue_name": "Friche la Belle de Mai",
-   "category": "culture",
-   "title": "Unworlding",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-09",
-   "start_time": null,
-   "end_date": "2026-10-23",
-   "end_time": null,
-   "location_name": null,
-   "url": "https://www.lafriche.org/evenements/unworlding/",
-   "price": "Gratuit !",
-   "summary": "Une exposition et une série de dialogues publics réunissant artistes et écrivain·es afin de repenser les structures et les relations dans un contexte d’effondrement social et institutionnel. Une proposition de The Racial Imaginary Institute",
-   "status": "scheduled",
-   "event_type": "Exposition",
-   "free": null,
-   "recurring": true,
-   "image": "img/7a2208c7c4a5.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/07/visuel-DP-500x300.jpg",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "source_kind": "html",
-   "evidence": [
-    "[2026-10-09] (https://www.lafriche.org/evenements/unworlding/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Unworlding (https://www.lafriche.org/evenements/unworlding/) Exposition collective Une exposition et une série de dialogues publics réunissant artistes et écrivain·es afi",
-    "same entry listed on every day from 2026-10-09 to 2026-10-23"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The excerpt confirms the exhibition 'Unworlding' at Friche la Belle de Mai on 2026-10-09 ('[2026-10-09] ... Unworlding ... Exposition collective').",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "lat": 43.3105,
-   "lng": 5.3906
-  },
-  {
-   "uid": "a377d3389957",
-   "venue_id": "friche-la-belle-de-mai",
-   "venue_name": "Friche la Belle de Mai",
-   "category": "culture",
-   "title": "Le mauvais œil 88 : Kikifruit",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-10-09",
-   "start_time": "10:00:00",
-   "end_date": "2026-10-23",
-   "end_time": null,
-   "location_name": null,
-   "url": "https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/",
-   "price": "Gratuit !",
-   "summary": "Exposition de microédition Une proposition de Le Dernier Cri",
-   "status": "scheduled",
-   "event_type": "Exposition, Littérature Édition",
-   "free": null,
-   "recurring": true,
-   "image": "img/a377d3389957.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/08/MINIATURE-YOUTUBE-–-1-500x300.png",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "source_kind": "html",
-   "evidence": [
-    "[2026-10-09] (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Littérature Édition (https://www.lafriche.org/agenda/?categorie=litterature-edition) Le mauvais œil 88 : Kikifruit (https://www.lafriche.org/evenements/",
-    "same entry listed on every day from 2026-10-09 to 2026-10-23"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The excerpt confirms the exhibition 'Le mauvais œil 88 : Kikifruit' on [2026-10-09] starting at '10h' at URL 'https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/'.",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "lat": 43.3105,
-   "lng": 5.3906
   },
   {
    "uid": "f2e397279b66",
@@ -2726,38 +2656,38 @@
    "lng": 5.3767
   },
   {
-   "uid": "e861fc055bf0",
-   "venue_id": "alcazar",
-   "venue_name": "Alcazar",
+   "uid": "eec1bb1fd6e6",
+   "venue_id": "la-cite-des-arts-de-la-rue",
+   "venue_name": "La Cité des arts de la rue",
    "category": "culture",
-   "title": "Rencontre autour du don d'organe",
+   "title": "Mal de Me.r – Ana Gabi",
    "title_truncated": false,
    "title_completed_from": null,
    "start_date": "2026-10-15",
-   "start_time": "17:00:00",
-   "end_date": "2026-10-15",
-   "end_time": "19:00:00",
-   "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheque-lalcazar-marseille/events/57922455_rencontre-autour-du-don-dorgane",
+   "start_time": "18:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": "Lieu: à la Cité des arts de la rue",
+   "url": null,
    "price": null,
-   "summary": "Événement des bibliothèques de Marseille",
+   "summary": null,
    "status": "scheduled",
    "event_type": null,
    "free": null,
    "recurring": false,
-   "image": "img/e861fc055bf0.webp",
-   "image_source": "https://img.openagenda.com/main/1fa9d19baee84fd29800c721bce22a1a.thumb.image.jpg",
-   "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "source_kind": "json",
+   "image": "img/eec1bb1fd6e6.webp",
+   "image_source": "https://www.lacitedesartsdelarue.net/wp-content/uploads/2026/08/1.jpg.webp",
+   "source_url": "https://www.lacitedesartsdelarue.net/agenda/",
+   "source_kind": "html",
    "evidence": [
-    "Rencontre autour du don d'organe | 2026-10-15 | 17:00"
+    "Mal de Me.r – Ana Gabi Date : 15 octobre 2026 Heure : 18h00 Lieu: à la Cité des arts de la rue Après une présentation à la Biennale d’Aix, issue d’une résidence croisée entre Aix-Marseille Université et Lieux Publics en avril 2026, le projet Mal de Me.r, d’Ana Gabi, entame une nouvelle étape de trav"
    ],
-   "verifier": null,
-   "verifier_reason": null,
-   "first_seen": "2026-09-13",
-   "last_seen": "2026-10-09",
-   "lat": 43.299,
-   "lng": 5.3767
+   "verifier": "accept",
+   "verifier_reason": "The excerpt explicitly confirms 'Date : 15 octobre 2026' and 'Heure : 18h00' for the event 'Mal de Me.r – Ana Gabi'.",
+   "first_seen": "2026-10-10",
+   "last_seen": "2026-10-10",
+   "lat": 43.3528,
+   "lng": 5.3647
   },
   {
    "uid": "fa967f2959c7",
@@ -7765,6 +7695,40 @@
    "lng": 5.3832
   },
   {
+   "uid": "3e565155df43",
+   "venue_id": "la-cite-des-arts-de-la-rue",
+   "venue_name": "La Cité des arts de la rue",
+   "category": "culture",
+   "title": "Un Dimanche aux Aygalades X Vide-Cafoutch – novembre 2026",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-11-01",
+   "start_time": "10:00:00",
+   "end_date": null,
+   "end_time": "15:00:00",
+   "location_name": "Lieu: à la Cité des arts de la rue",
+   "url": null,
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/3e565155df43.webp",
+   "image_source": "https://www.lacitedesartsdelarue.net/wp-content/uploads/2026/08/lieux-publics-75.jpg.webp",
+   "source_url": "https://www.lacitedesartsdelarue.net/agenda/",
+   "source_kind": "html",
+   "evidence": [
+    "Un Dimanche aux Aygalades X Vide-Cafoutch – novembre 2026 Date : 1 novembre 2026 Heure : 10h00 / 15h00 Lieu: à la Cité des arts de la rue C’est LE rendez-vous mensuel de la Cité des arts de la rue. Au programme, le Marché de la Cascade (un marché de producteurs locaux), des visites guidées, des cycl"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The event is explicitly listed for '1 novembre 2026' from '10h00 / 15h00' at 'Lieu: à la Cité des arts de la rue'.",
+   "first_seen": "2026-10-10",
+   "last_seen": "2026-10-10",
+   "lat": 43.3528,
+   "lng": 5.3647
+  },
+  {
    "uid": "8d03ccd90d76",
    "venue_id": "mucem",
    "venue_name": "Mucem",
@@ -11573,6 +11537,40 @@
    "last_seen": "2026-10-10",
    "lat": 43.3112,
    "lng": 5.3832
+  },
+  {
+   "uid": "f1e18323c009",
+   "venue_id": "la-cite-des-arts-de-la-rue",
+   "venue_name": "La Cité des arts de la rue",
+   "category": "culture",
+   "title": "Un Dimanche aux Aygalades – décembre 2026",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-06",
+   "start_time": "10:00:00",
+   "end_date": null,
+   "end_time": "15:00:00",
+   "location_name": "Lieu: à la Cité des arts de la rue",
+   "url": null,
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/f1e18323c009.webp",
+   "image_source": "https://www.lacitedesartsdelarue.net/wp-content/uploads/2026/08/lieux-publics-24.jpg.webp",
+   "source_url": "https://www.lacitedesartsdelarue.net/agenda/",
+   "source_kind": "html",
+   "evidence": [
+    "Un Dimanche aux Aygalades – décembre 2026 Date : 6 décembre 2026 Heure : 10h00 / 15h00 Lieu: à la Cité des arts de la rue C’est LE rendez-vous mensuel de la Cité des arts de la rue. Au programme, le Marché de la Cascade (un marché de producteurs locaux), des visites guidées, des cycles de conférence"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Un Dimanche aux Aygalades – décembre 2026' on 'Date : 6 décembre 2026' from '10h00 / 15h00'.",
+   "first_seen": "2026-10-10",
+   "last_seen": "2026-10-10",
+   "lat": 43.3528,
+   "lng": 5.3647
   },
   {
    "uid": "050c89846a3c",

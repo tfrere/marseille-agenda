@@ -10,10 +10,10 @@ DTEND;VALUE=DATE:20270621
 UID:b7f440cd17df@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/marseille-vue-par-les-detaille-164
- -ans-de-photos?museum=musee-dhistoire-de-marseille-0
+ -ans-de-photos
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-
- photos?museum=musee-dhistoire-de-marseille-0
+ photos
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:"Par une langue échappée"\, nouveau parcours des collections mod
@@ -23,10 +23,10 @@ DTEND;VALUE=DATE:20270426
 UID:a09713f21970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/par-une-langue-echappee-nouveau-pa
- rcours-des-collections-modernes-et-contemporaines?museum=musee-cantini
+ rcours-des-collections-modernes-et-contemporaines
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
- es-collections-modernes-et-contemporaines?museum=musee-cantini
+ es-collections-modernes-et-contemporaines
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -118,32 +118,6 @@ CATEGORIES:cinema
 DESCRIPTION:https://www.cinehorizontes.com/
 LOCATION:Les Variétés
 URL:https://www.cinehorizontes.com/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261024
-UID:7a2208c7c4a5@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261024
-UID:a377d3389957@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FamilyTech
@@ -888,17 +862,14 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/57922455
  _rencontre-autour-du-don-dorgane
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rencontre autour du don d'organe
-DTSTART;TZID=Europe/Paris:20261015T170000
-DTEND;TZID=Europe/Paris:20261015T190000
-UID:e861fc055bf0@marseille-agenda
+SUMMARY:Mal de Me.r – Ana Gabi
+DTSTART;TZID=Europe/Paris:20261015T180000
+DTEND;TZID=Europe/Paris:20261015T200000
+UID:eec1bb1fd6e6@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/57922455_rencontre-autour-du-
- don-dorgane
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/57922455
- _rencontre-autour-du-don-dorgane
+DESCRIPTION:
+LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
+ e
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival des Cinémas d’Afrique du Pays d’Apt | Conférence de
@@ -2695,6 +2666,16 @@ LOCATION:L'Embobineuse
 URL:https://www.lembobineuse.biz/events/2026/10/31/heatcollectif
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Un Dimanche aux Aygalades X Vide-Cafoutch – novembre 2026
+DTSTART;TZID=Europe/Paris:20261101T100000
+DTEND;TZID=Europe/Paris:20261101T150000
+UID:3e565155df43@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:
+LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
+ e
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
 DTSTART;TZID=Europe/Paris:20261101T100000
 DTEND;TZID=Europe/Paris:20261101T180000
@@ -4009,6 +3990,16 @@ DESCRIPTION:https://www.lembobineuse.biz/events/2026/12/05/johnnascus-and-
  friends
 LOCATION:L'Embobineuse
 URL:https://www.lembobineuse.biz/events/2026/12/05/johnnascus-and-friends
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Un Dimanche aux Aygalades – décembre 2026
+DTSTART;TZID=Europe/Paris:20261206T100000
+DTEND;TZID=Europe/Paris:20261206T150000
+UID:f1e18323c009@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:
+LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
+ e
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre

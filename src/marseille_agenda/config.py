@@ -64,10 +64,11 @@ def load_settings() -> Settings:
         verifier_model=os.environ.get("VERIFIER_MODEL", "google/gemini-3.8-flash"),
         discover_model=os.environ.get("DISCOVER_MODEL", "anthropic/claude-sonnet-5"),
         search_model=os.environ.get("SEARCH_MODEL", "openai/gpt-5.4-mini"),
-        # Benchmarked on tests/test_live.py: Qwen3-VL reads flyers deterministically and returns the
-        # nested structure; DeepSeek V4.1 Flash drops nested lists as an extractor but is a perfect
-        # verifier (flat output). Both are ~20x cheaper than Sonnet.
-        vision_model=os.environ.get("VISION_MODEL", "qwen/qwen3-vl-32b-instruct"),
+        # Benchmarked on tests/test_live.py: Mistral Small 3.2 reads flyers deterministically and returns
+        # the nested structure (3/3; Qwen3.7 Plus 1/3, Qwen3-VL 32B was retired by OpenRouter on 2026-10-09);
+        # DeepSeek V4.1 Flash drops nested lists as an extractor but is a perfect verifier (flat output).
+        # Both are ~20x cheaper than Sonnet.
+        vision_model=os.environ.get("VISION_MODEL", "mistralai/mistral-small-3.2-24b-instruct"),
         vision_verifier_model=os.environ.get("VISION_VERIFIER_MODEL", "deepseek/deepseek-v4.1-flash"),
         apify_token=os.environ.get("APIFY_API_KEY") or os.environ.get("APIFY_TOKEN") or None,
         data_dir=Path(os.environ.get("DATA_DIR", ROOT / "data")),

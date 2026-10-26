@@ -1,1346 +1,320 @@
 {
- "run_date": "2026-10-10",
- "sources_total": 49,
- "sources_ok": 48,
+ "run_date": "2026-10-26",
+ "sources_total": 50,
+ "sources_ok": 49,
  "sources_skipped_unchanged": 0,
- "events_published": 488,
- "events_new": 26,
- "events_rejected_grounding": 94,
- "events_rejected_verifier": 5,
- "events_uncertain": 0,
+ "events_published": 457,
+ "events_new": 156,
+ "events_rejected_grounding": 202,
+ "events_rejected_verifier": 16,
+ "events_uncertain": 5,
  "alerts": [
   {
    "level": "warning",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-10-17"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-02"
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-10-12: \"Permanence de Mille Bâbords et de sa médiathèque\" designates the regular venue and media library opening hours / drop-in duty rather than a distinct public event."
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.facebook.com/Intermediaire.live/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "videodrome-2",
-   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Festival Aflam |\\xa013ème édition' 2026-10-14: The extracted start_date is 2026-10-14, but the text explicitly states the festival runs 'du mardi 13 octobre 2026 au mercredi 14 octobre 2026'."
-  },
-  {
-   "level": "warning",
-   "venue_id": "videodrome-2",
-   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected \"L'Appel des chantiers - festival de documentaires de création |\\xa08ème édition\" 2026-10-25: The excerpt states the festival runs 'du samedi 24 octobre 2026 au dimanche 25 octobre 2026', contradicting the extracted start_date of 2026-10-25."
-  },
-  {
-   "level": "warning",
-   "venue_id": "videodrome-2",
-   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cycle cinéma | Cinéma expérimental :\\xa0Cinédanse' 2026-10-29: The excerpt states the cycle runs \"du mardi 27 octobre 2026 au jeudi 29 octobre 2026\", so the start date is 2026-10-27, not 2026-10-29."
-  },
-  {
-   "level": "warning",
-   "venue_id": "videodrome-2",
-   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date is 2027-01-20, but the excerpt states the cycle runs 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027', making 2027-01-20 the end date."
-  },
-  {
-   "level": "warning",
-   "venue_id": "alcazar",
-   "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "message": "rejected 'test' 2028-07-06: start_date 2028-07-06 is implausibly far in the future"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-10-26: \"Permanence de Mille Bâbords et de sa médiathèque\" corresponds to opening hours of the venue and its library rather than a dated public event."
   },
   {
    "level": "error",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 28x: apify~facebook-posts-scraper: not_available"
+   "venue_id": "les-varietes",
+   "source_url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
+   "message": "source failed, last verified state kept: unhealthy schema: 2/3 items failed to parse"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
+   "message": "schema unhealthy: 2/3 items failed to parse"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
+   "message": "schema not validated (agreement 0.00); attempts=[{'items': 1, 'events': 0, 'valid': 0, 'failures': 1, 'agreement': 0.0, 'time_gaps': 0}, {'items': 1, 'events': 0, 'valid': 0, 'failures': 1, 'agreement': 0.0, 'time_gaps': 0}, {'items': 1, 'events': 0, 'valid': 0, 'failures': 0, 'agreement': 0.0, 'time_gaps': 0}]"
+  },
+  {
+   "level": "warning",
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected 'Cycle cinéma | Cinéma expérimental :\\xa0Cinédanse' 2026-10-29: The excerpt specifies the date range as \"du mardi 27 octobre 2026 au jeudi 29 octobre 2026\", contradicting the extracted start date of 2026-10-29 (which is the end date)."
+  },
+  {
+   "level": "warning",
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected 'Même Pas Peur ! #12 | Halloween' 2026-10-31: The excerpt has timestamp '[2026-10-31T00:00:00+01:00] samedi 31 octobre 2026' with no event start time of 01:00:00 (the extracted time appears to mistakenly derive from the +01:00 timezone offset)."
+  },
+  {
+   "level": "warning",
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date 2027-01-20 is the end date; the excerpt states \"du [2026-09-30T00:00:00+00:00] mercredi 30 septembre 2026 au [2027-01-20T00:00:00+00:00] mercredi 20 janvier 2027\"."
   },
   {
    "level": "warning",
    "venue_id": "la-camaraderie",
    "source_url": "https://www.lacamaraderie.net/agenda",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-10-17"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-02"
   },
   {
    "level": "warning",
    "venue_id": "twali",
    "source_url": "https://www.twalimarseille.fr/evenements",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-10-17"
+   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-02"
   },
   {
    "level": "warning",
-   "venue_id": "twali",
-   "source_url": "https://www.instagram.com/twali.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "frac-sud",
+   "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
+   "message": "schema induced without a model: 113 cards matched by 'span.avec_logo.intitules', 3 upcoming events, coverage 1.00, quality 0.99"
   },
   {
    "level": "warning",
-   "venue_id": "twali",
-   "source_url": "https://www.instagram.com/twali.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "frac-sud",
+   "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
+   "message": "rejected 'Grands évènements culturels et biennales' 2026-12-17: weekday mismatch: evidence says vendredi but 2026-12-17 is a jeudi"
   },
   {
    "level": "warning",
-   "venue_id": "twali",
-   "source_url": "https://www.instagram.com/twali.marseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "frac-sud",
+   "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The extracted start date is in 2027, whereas the excerpt explicitly dates the event to 2026: 'Du 15 mars à 18h00 au 16 mars 2026 à 21h00' and 'Dimanche 15 mars 2026'."
   },
   {
    "level": "warning",
-   "venue_id": "twali",
-   "source_url": "https://www.facebook.com/twalibelsunce/",
-   "message": "facebook post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram verifier rejected 'MATCH Dialogues – Session 1' 2026-10-27: The post announces an online-only event: \"💻 En ligne - lien en bio !\" / \"To join us, register via the link in bio\", so it does not take place at Friche la Belle de Mai — that venue appears only as one of the partner logos on the flyer. The date (mardi 27 octobre 2026, a Tuesday) and time (16h–18h CET) do match, but the location is wrong."
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram verifier rejected 'CHRONIQUES – la Biennale des Imaginaires Numériques' 2026-10-24: The extracted event is the whole biennale, which is not located at Friche la Belle de Mai: the flyer states \"Divers lieux\" and the caption lists \"📍 Marseille, Aix-en-Provence, Avignon, Arles, Istres et Port-de-Bouc\". Friche only hosts part of the programme (\"Vernissage de Souffles terrestres au Centre de la Vieille Charité, puis de Désobéir à l'ère numérique ... à la Friche la Belle de Mai\"), so the given venue merely shares the multi-site event."
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from Venice: Function name was ```json final_result( but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from DeepInfra: Function name was ```json  but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from Venice: Function name was ```json final_result( but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 404, model_name: qwen/qwen3-vl-32b-instruct, body: {'message': 'Qwen3 VL 32B Instruct was deprecated on Oct 9, 2026. We recommend migrating to Qwen3.7 Plus (openrouter.ai/qwen/qwen3.7-plus).', 'code': 404}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.facebook.com/friche.labelledemai/",
+   "message": "facebook verifier rejected 'MATCH Dialogues #1' 2026-10-27: The event is explicitly an online session, not one held at the given venue: the caption states \"💻 En ligne - lien en bio !\" and the flyer says \"To join us, register via the link in bio\", so Friche la Belle de Mai merely shares/hosts the announcement rather than being the location. (Date \"Mardi 27 octobre\" 2026 and time \"16h – 18h (CET)\" do match the extracted values.)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.facebook.com/friche.labelledemai/",
+   "message": "facebook verifier rejected 'RÉSISTANCES NUMÉRIQUES' 2026-10-22: The post announces recurring opening hours, not a dated event: \"Du mercredi au vendredi de 15h30 à 17h30 | Samedi de 14h à 15h30 - Hors vacances scolaires\" — a weekly schedule template with no concrete date, so the extracted single start_date 2026-10-22 (a jeudi) and end_date 2026-12-31 are fabricated."
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.facebook.com/friche.labelledemai/",
+   "message": "facebook verifier rejected 'FAMILYTECH' 2026-10-25: The caption describes a recurring series with no concrete date — \"FAMILYTECH / Plusieurs samedis de 15h30 à 17h30 - hors vacances scolaires\" — yet the extracted start_date 2026-10-25 is a dimanche (Sunday), contradicting the stated \"samedis\"."
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.facebook.com/friche.labelledemai/",
+   "message": "facebook verifier rejected 'NUMÉRITECH' 2026-10-25: The caption announces a recurring series with no concrete date — \"📡 NUMÉRITECH / Plusieurs amedis de 15h30 à 17h30 - hors vacances scolaires\" (i.e. several Saturdays) — yet the extractor invented a single start date of 2026-10-25, which is a dimanche (Sunday), contradicting the stated weekday; the end date 2026-12-31 is likewise unsupported."
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.facebook.com/friche.labelledemai/",
+   "message": "facebook rejected 'festival en ribambelle' 2026-10-17: title not found in caption: 'festival en ribambelle'"
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.facebook.com/friche.labelledemai/",
+   "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook verifier uncertain 'LA COLÈRE NOUS APPARTIENT : RÉCITS DE JUSTICE EXTRA-PÉNALE' 2026-10-26: The only readable text on the flyer is \"PRÉSENTATION DU LIVRE 'LA COLÈRE NOUS APPARTIENT : RÉCITS DE JUSTICE EXTRA-PÉNALE' EN PRÉSENCE DES AUTEURS DU COLLECTIF GARE\" — no date, time or venue is legible, so the extracted start_date 2026-10-26 (marked from_image) cannot be confirmed or contradicted from the post."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook rejected 'Projection à 20 h' 2026-11-11: weekday mismatch: evidence says mardi but 2026-11-11 is a mercredi"
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook rejected 'Écoute de podcast à 19 h 15' 2026-11-12: weekday mismatch: evidence says mercredi but 2026-11-12 is a jeudi"
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook rejected 'Présentation à 19 h' 2026-11-25: weekday mismatch: evidence says mardi but 2026-11-25 is a mercredi"
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook verifier rejected 'Braderie à partir de 10 h' 2026-11-07: The flyer announces \"SAMEDI 10 OCTOBRE BRADERIE À PARTIR DE 10 H\" and the caption reads \"Programme d'octobre\" — i.e. samedi 10 octobre 2026, which is BEFORE the post's publication date of lundi 2026-10-12, and nothing on the flyer supports the extracted start_date 2026-11-07 (the \"27 octobre\" on the flyer is a separate \"MARDI 27 OCTOBRE PRÉSENTATION À 19 H\", not the braderie)."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook verifier rejected 'Tables ouvertes à partir de 14 h 30' 2026-11-07: The flyer places this event on \"SAMEDI 10 OCTOBRE\" (\"TABLES RONDES À PARTIR DE 14 H 30\"), not on 2026-11-07; moreover 10 October 2026 precedes the post's publication date of 2026-10-12, so the extracted start_date contradicts the flyer."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook verifier rejected 'Vire livres au mur à partir de 14 h 30' 2026-11-07: The flyer places \"VIRE LIVRES AU MUR\" under \"SAMEDI 10 OCTOBRE\" (with \"TABLES RONDES À PARTIR DE 14 H 30\"), not on 2026-11-07; moreover 10 October 2026 is before the publication date of 12 October 2026, so the event had already passed."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook verifier rejected 'Présentation à 20 h' 2026-11-07: The flyer reads \"VENDREDI 2 OCTOBRE PRÉSENTATION À 20 H\" — a Friday 2 October, not the extracted samedi 7 November; moreover 2 October 2026 falls before the post's publication date (12 October 2026), so the announced date is contradicted and already past."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook verifier uncertain 'Potlatch' 2026-10-26: The post has no caption and the single flyer shows only the words \"POTLATCH\" and \"SUNDANCES 2026\" — there is no day, date, time or venue anywhere, so the extracted start_date 2026-10-26 (which is merely today's date) is unsupported and unverifiable. The date is genuinely ambiguous, so the event cannot be accepted."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook verifier uncertain 'Brecht et les mauvais temps nouveaux' 2026-10-26: The flyer only announces \"Rencontre avec Olivier Neveux\" (a book event for \"Brecht et les mauvais temps nouveaux\") and shows no date at all; the caption is empty, so the extracted start_date 2026-10-26 (which is simply today) is unsupported and the date is genuinely ambiguous."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook verifier uncertain 'Rencontre avec Olivier Neveux' 2026-10-26: The flyer is legible but carries no date at all — it only reads \"MANIFESTEN\", \"La fabrique éditions\", \"Brecht et les mauvais temps nouveaux\" and \"Rencontre avec Olivier Neveux\" — so the extracted start_date 2026-10-26 (which is simply today's date) is unsupported by the post, and the caption is empty (\"(no caption)\"). The date is therefore genuinely ambiguous rather than contradicted."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook post analysis error: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "transit-librairie",
+   "source_url": "https://www.facebook.com/transit.librairie/",
+   "message": "facebook verifier uncertain 'Paroles de Citoyennes au Congrès ouvrier de 1879 à Marseille' 2026-10-26: The flyer shows only the title \"Paroles de Citoyennes au Congrès ouvrier de 1879 à Marseille\" with no date, time or weekday anywhere, and the post has \"(no caption)\", so the extracted start_date 2026-10-26 is unsupported by the post and the date is genuinely ambiguous."
+  },
+  {
+   "level": "warning",
+   "venue_id": "transit-librairie",
+   "source_url": "https://www.facebook.com/transit.librairie/",
+   "message": "facebook verifier rejected 'Monde diplomatique manière de voir : Iran' 2026-10-26: The only evidence is a magazine cover reading \"MONDE diplomatique MANIÈRE DE VOIR / IRAN Guerres, révoltes, espérances\" — a publication cover, not an announcement of a dated public event; there is no caption, no date, no time and no mention of Transit librairie, so the extracted 2026-10-26 date is unsupported."
+  },
+  {
+   "level": "warning",
+   "venue_id": "transit-librairie",
+   "source_url": "https://www.facebook.com/transit.librairie/",
+   "message": "8 new facebook post(s) left for the next run (time budget spent)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "social",
+   "source_url": "",
+   "message": "time budget spent: 26 social source(s) wait for the next run (instagram:l_intermediaire, facebook:Intermediaire.live, instagram:labaleinemarseille, facebook:labaleinemarseille, instagram:cinemalesvarietes.marseille, facebook:lesvarietesmarseille, instagram:cinemalegyptis, facebook:cinemalegyptis, instagram:lafabulerie, facebook:Fabulerie, instagram:lacoloradamarsella, instagram:la.camaraderie13, instagram:twali.marseille, facebook:twalibelsunce, instagram:lembobineusemarseille, facebook-events:manifesten, facebook-events:friche.labelledemai, facebook-events:transit.librairie, facebook-events:Intermediaire.live, facebook-events:labaleinemarseille, facebook-events:lesvarietesmarseille, facebook-events:cinemalegyptis, facebook-events:Fabulerie, facebook:lacoloradamarsella, facebook-events:lacoloradamarsella, facebook-events:twalibelsunce)"
   }
  ],
- "llm_calls": 5,
- "posts_analyzed": 0,
- "apify_runs": 29,
- "images_published": 430,
- "images_failed": 0,
- "credits_remaining_usd": 50.5895,
- "run_cost_usd": 0.017
+ "llm_calls": 233,
+ "posts_analyzed": 47,
+ "apify_runs": 4,
+ "images_published": 402,
+ "images_failed": 3,
+ "credits_remaining_usd": 16.7496,
+ "run_cost_usd": 1.0348
 }

@@ -4,8 +4,8 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": null,
-   "last_ok": "2026-09-20",
+   "last_fetched": "2026-10-26",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -110,6 +110,272 @@
      "image_urls": [
       "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/808265457_2361471191256991_1543356742886073466_n.png?stp=c0.0.1414.776a_dst-jpg_tt6&cstp=mx1414x776&ctp=s526x296&_nc_cat=105&ccb=1-7&_nc_sid=1abd25&_nc_ohc=KRWwkzFoEBsQ7kNvwHl5UPT&_nc_oc=AdpeHkW85NowV2guwLlS_6lP3xoPpLgS_jXyKtFdSxytY7SCEC9DVq0OnHWsc_hPRylw2l3YCgbavS5767ettMAu&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=rJI-dMzBhv7Oyfp82E-CTg&_nc_ss=73289&oh=00_AQJOEXtwLzgUPT-1nUVttZytuCkK1GEqeckq6L4MPc_MLQ&oe=6AAEB34C"
      ]
+    },
+    "1096024123300114": {
+     "id": "1096024123300114",
+     "url": "https://www.facebook.com/events/1096024123300114/",
+     "published": "2026-10-20",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "LA COLÈRE NOUS APPARTIENT : RÉCITS DE JUSTICE EXTRA-PÉNALE",
+       "start_date": "2026-10-26",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "PRÉSENTATION DU LIVRE \"LA COLÈRE NOUS APPARTIENT : RÉCITS DE JUSTICE EXTRA-PÉNALE\""
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The only readable text on the flyer is \"PRÉSENTATION DU LIVRE 'LA COLÈRE NOUS APPARTIENT : RÉCITS DE JUSTICE EXTRA-PÉNALE' EN PRÉSENCE DES AUTEURS DU COLLECTIF GARE\" — no date, time or venue is legible, so the extracted start_date 2026-10-26 (marked from_image) cannot be confirmed or contradicted from the post."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-phx1-1.xx.fbcdn.net/v/t39.99422-6/852587018_1609263550672718_2685743231027503244_n.png?stp=c0.600.1448.1448a_dst-jpg_tt6&cstp=mx1448x1448&ctp=s565x565&_nc_cat=108&ccb=1-7&_nc_sid=1abd25&_nc_ohc=ooNP5_8CYpsQ7kNvwEZqfhY&_nc_oc=AdrjMZOu3360nwxKlTU4zsOHorLJcx-o0lXR4Iu8By5-l2tb1PRvPO_05yLRC6UPEPW3gJ1ceTyz2IiHsr7ggsXM&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=Qje-DAaQmHZZ_uwnAMJhNQ&_nc_ss=70180&oh=00_AQMEWlHd3s5hjAyk5QVzj_3v13zm3B1LjlLYhW5RLKYbuA&oe=6AE4FA5D"
+     ]
+    },
+    "1695458885923073": {
+     "id": "1695458885923073",
+     "url": "https://www.facebook.com/manifesten/posts/2234772630805333:2234772630805333",
+     "published": "2026-10-12",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any upcoming events at the venue. It appears to be an announcement of adherence to something in 2026.",
+     "image_urls": [
+      "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/841453757_1102293395882896_2500297318456300896_n.png?stp=dst-jpg_tt6&cstp=mx1448x2048&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=BITb4hCnU6wQ7kNvwGKwb71&_nc_oc=AdoWaz-rai889-fYgqVI9IdjKrsk6y2JFTdb9cVf5aAse9855gE6XCssYfBAIpuyCfA&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=6M51pNDUd3Dqmb37zE4xIA&_nc_ss=70180&oh=00_AQMy53K-uZKhwN3G5XwkkIW_nckOnGwzA_aSNBnHw3Ikyw&oe=6AE4F7A4"
+     ]
+    },
+    "1695455399256755": {
+     "id": "1695455399256755",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid02o67xoiNwK8sKu4WBGboMXQRGvpu5GtJoFNSC2YRJthiW3MdmhdJ7W9tbbRa5AmNEl",
+     "published": "2026-10-12",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any upcoming events at the venue. It only provides a link to a website.",
+     "image_urls": [
+      "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/841453757_1102293395882896_2500297318456300896_n.png?stp=dst-jpg_tt6&cstp=mx1448x2048&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=BITb4hCnU6wQ7kNvwGKwb71&_nc_oc=AdoWaz-rai889-fYgqVI9IdjKrsk6y2JFTdb9cVf5aAse9855gE6XCssYfBAIpuyCfA&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=6M51pNDUd3Dqmb37zE4xIA&_nc_ss=70180&oh=00_AQMy53K-uZKhwN3G5XwkkIW_nckOnGwzA_aSNBnHw3Ikyw&oe=6AE4F7A4"
+     ]
+    },
+    "1695451605923801": {
+     "id": "1695451605923801",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid02Sd7iY9ochfXvnomDvQkYWdJzBrxyuZjkcfNzA1EwVysHSjvdsJkyznN1Nm4qa4iVl",
+     "published": "2026-10-12",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Cantine Manifestin",
+       "start_date": "2026-10-30",
+       "start_time": "19:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Manifesten",
+       "url": null,
+       "price": "Prix libre",
+       "summary": "Repas vegan en soutien à Hellelyette Bess, militante anarchiste.",
+       "status": "scheduled",
+       "evidence": [
+        "30/10 à partir de 19H30",
+        "Cantine de soutien pour Hellelyette Bess, militante anarchiste",
+        "Repas vegan ou pas Prix libre"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Flyer announces \"30/10 à partir de 19H30\" at \"À MANIFESTEN 59 rue Thiers 13001 Marseille\", matching the extracted date/time/venue; the caption \"Manifestin ! ... le 30 octobre\" is a forward-looking announcement, and 2026-10-30 is indeed a Friday, consistent with the publication date of 2026-10-12."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/848413508_2155958821998390_199273430690679232_n.png?stp=dst-jpg_tt6&cstp=mx1448x2048&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=C0ti1OSg5NAQ7kNvwGC7Sz9&_nc_oc=Adq5u48Q5sGGUgte0pWWsAuRRf91L4bLs4YmDvwOHO4ihGhdKDc2me5EoyILPGnk8eI&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=RKuqbEDjaRjqQogkGR_lDQ&_nc_ss=73180&oh=00_AQNpFtUcfiKEOW6JtGMGedEogfF2NXwwXAVza1uzG6hRJQ&oe=6AE4FF40"
+     ]
+    },
+    "1691732542962374": {
+     "id": "1691732542962374",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid02vVs1aSuCHWoZnjxgikYTqmnaV9Mz1Kf8zBg3PxMYA6RGVhzyyWoyXwG5BjASGov8l",
+     "published": "2026-10-09",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post only contains a link to a subscription page, with no details about specific upcoming events.",
+     "image_urls": [
+      "https://external-atl3-2.xx.fbcdn.net/emg1/v/t13/17986650834749548193?url=https%3A%2F%2Fcdn.helloasso.com%2Fimg%2Fphotos%2Fadhesions%2Fcropped-image-5ca1dca192b344e994a22953323d7877.jpeg&fb_obo=1&utld=helloasso.com&_nc_sid=c97757&_nc_ht=external-atl3-2.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&ccb=18-1&_nc_gid=RKuqbEDjaRjqQogkGR_lDQ&_nc_zt=3&oh=06_Q3_EAZSf9Vgh4DtYMbNK4C-Vn96s_mMyCRl5NIEsD7NBnm2J&oe=6AE0EFFD"
+     ]
+    },
+    "1690865159715779": {
+     "id": "1690865159715779",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid02P1YPVzq1KYb9fXjgNzafc2J8tzf9D1UGJsSEWwFLSt5yu3L11w5fPC2T6zetUUDcl",
+     "published": "2026-10-08",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any specific upcoming events at the venue; it is an advertisement for membership.",
+     "image_urls": [
+      "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/838939238_1747374956543293_6443482673327103131_n.png?stp=dst-jpg_tt6&cstp=mx1344x1904&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=BQd1mDeL6AgQ7kNvwHfleZw&_nc_oc=AdrApdnI17pzlEoE7IEH1iTytN89wORGL-bAlI420Anj4yAmI6NFoUGncNbH51SScAU&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=BqSEY_guw2D9D1QalF-Fyw&_nc_ss=70180&oh=00_AQNOISIZ1RFfshQyDPjfBL8u2rL-pnTeZK2F1RtoHhmLBQ&oe=6AE50BCC"
+     ]
+    },
+    "1687467146722247": {
+     "id": "1687467146722247",
+     "url": "https://www.facebook.com/manifesten/posts/1075324762003164:1075324762003164",
+     "published": "2026-10-05",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [],
+     "notes": "The event 'Fenwick' is in the past.",
+     "image_urls": [
+      "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.99422-6/836663842_1417948013180964_8016394795621793423_n.png?stp=dst-jpg_tt6&cstp=mx1414x2000&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=jUAYlGCkdPgQ7kNvwGDRaGw&_nc_oc=AdrXRB260ToR5uKY-PRWMuvc_2ZfjkhH0dvh0DmcNDQkuHWsquJXhslCWECSzY0OgzY&_nc_zt=14&_nc_ht=scontent.fagc1-1.fna&_nc_gid=BqSEY_guw2D9D1QalF-Fyw&_nc_ss=70180&oh=00_AQN07mMG7IhN9cxjObW_-NOdVbQ8euYc0RzlsmB3QEvnFQ&oe=6AE50ACD"
+     ]
+    },
+    "1684374030364892": {
+     "id": "1684374030364892",
+     "url": "https://www.facebook.com/manifesten/posts/922320784002486:922320784002486",
+     "published": "2026-10-02",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The events are in the past.",
+     "image_urls": [
+      "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.99422-6/821523627_1865829881054579_7680000982403737175_n.png?stp=dst-jpg_tt6&cstp=mx1414x2000&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=pMzRKuJ5me0Q7kNvwEFUnhl&_nc_oc=AdrRr68moQ9TtFFPanvnUZzxHV-BE5h7UnHl_c3JsTx7shl9sL_onOXCseNoeFdMIQI&_nc_zt=14&_nc_ht=scontent.fagc1-1.fna&_nc_gid=BqSEY_guw2D9D1QalF-Fyw&_nc_ss=70180&oh=00_AQOZcnIARwD-9xDtgEkWLbW9XfQm8BMsf779Mrhvu4uGPA&oe=6AE5007C"
+     ]
+    },
+    "4105567663074416": {
+     "id": "4105567663074416",
+     "url": "https://www.facebook.com/events/4105567663074416/",
+     "published": "2026-09-29",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Potlatch",
+       "start_date": "2026-10-26",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Potlatch",
+        "Sundances 2026"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The post has no caption and the single flyer shows only the words \"POTLATCH\" and \"SUNDANCES 2026\" — there is no day, date, time or venue anywhere, so the extracted start_date 2026-10-26 (which is merely today's date) is unsupported and unverifiable. The date is genuinely ambiguous, so the event cannot be accepted."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent.fwbw1-1.fna.fbcdn.net/v/t39.99422-6/826111637_39586461440952178_4267466839455492058_n.png?stp=c60.0.583.583a_dst-jpg_tt6&cstp=mx583x583&ctp=s565x565&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=1abd25&_nc_ohc=lpxNdIhkoyIQ7kNvwGvZQE1&_nc_oc=Adq8esyGlr5DQsO7O7TjSYAcaWaBgGWBqnXQVOGCEwwohzPNq7-zU5zDX1PVqlIM6t4&_nc_zt=14&_nc_ht=scontent.fwbw1-1.fna&_nc_gid=laoDfV3Lw-sXKqG-iyPYBQ&_nc_ss=70180&oh=00_AQN-lsDJGeorKBT9LlSED6kxxkegWDhzutPD17rOf41zBg&oe=6AE4DBA7"
+     ]
+    },
+    "1680863974049231": {
+     "id": "1680863974049231",
+     "url": "https://www.facebook.com/manifesten/posts/1734878904471662:1734878904471662",
+     "published": "2026-09-29",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [],
+     "notes": "The event 'Fenwick' is in the past.",
+     "image_urls": [
+      "https://scontent.fwbw1-1.fna.fbcdn.net/v/t39.99422-6/827539089_1511048994380470_994050639773947725_n.png?stp=dst-jpg_tt6&cstp=mx1414x2000&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=HF9sFwHeHFcQ7kNvwFbx9qq&_nc_oc=AdrKX0OprKDYYiIj6obQrXQA8yzopl6sf0WTUl15Jicz7d_jtMlPjXRQS411fv4EcQ8&_nc_zt=14&_nc_ht=scontent.fwbw1-1.fna&_nc_gid=laoDfV3Lw-sXKqG-iyPYBQ&_nc_ss=70180&oh=00_AQNXDZPyThvzPKmwsOTNCdtmenC49SKO8VHHQEAXHs_ZlA&oe=6AE4F444"
+     ]
+    },
+    "1912493466802057": {
+     "id": "1912493466802057",
+     "url": "https://www.facebook.com/events/1912493466802057/",
+     "published": "2026-09-28",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Brecht et les mauvais temps nouveaux",
+       "start_date": "2026-10-26",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Brecht et les mauvais temps nouveaux"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The flyer only announces \"Rencontre avec Olivier Neveux\" (a book event for \"Brecht et les mauvais temps nouveaux\") and shows no date at all; the caption is empty, so the extracted start_date 2026-10-26 (which is simply today) is unsupported and the date is genuinely ambiguous."
+      },
+      {
+       "title": "Rencontre avec Olivier Neveux",
+       "start_date": "2026-10-26",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Rencontre avec Olivier Neveux"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The flyer is legible but carries no date at all — it only reads \"MANIFESTEN\", \"La fabrique éditions\", \"Brecht et les mauvais temps nouveaux\" and \"Rencontre avec Olivier Neveux\" — so the extracted start_date 2026-10-26 (which is simply today's date) is unsupported by the post, and the caption is empty (\"(no caption)\"). The date is therefore genuinely ambiguous rather than contradicted."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent.fabe1-1.fna.fbcdn.net/v/t39.99422-6/826638729_2374868696591175_820729925388047327_n.png?stp=c0.522.1414.1414a_dst-jpg_tt6&cstp=mx1414x1414&ctp=s565x565&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=1abd25&_nc_ohc=aH8Uq5-nltIQ7kNvwFDu13F&_nc_oc=Adp8nJQ_0UXFo2mNhecF4sYI_fTWAsAE01KIQHlZOpCYKDJMCEDv_y1BqZ617G8qYtw&_nc_zt=14&_nc_ht=scontent.fabe1-1.fna&_nc_gid=laoDfV3Lw-sXKqG-iyPYBQ&_nc_ss=70180&oh=00_AQMxt7cOfkuaaR862-iBOnKe8ahxl3rja1BO9kWUMW9hzw&oe=6AE4EC2B"
+     ]
+    },
+    "1086200131050062": {
+     "id": "1086200131050062",
+     "url": "https://www.facebook.com/events/1086200131050062/",
+     "published": "2026-09-28",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The event 'Fenwick' is in the past.",
+     "image_urls": [
+      "https://scontent-den2-1.xx.fbcdn.net/v/t39.99422-6/825279611_2260658831361880_483050900034004355_n.png?stp=c0.0.1414.1094a_dst-jpg_tt6&cstp=mx1414x1094&ctp=s526x395&_nc_cat=111&ccb=1-7&_nc_sid=1abd25&_nc_ohc=u9WvNKArWvEQ7kNvwE_QLSP&_nc_oc=Ado0cISIoS9iEiC_ZyT0Eie5A-8jF-XwlGvaTB6a3ykBcRCNFd16tkBPN9eD7ozWEHQcL0Q1ep5HflMeuV1hKPVb&_nc_zt=14&_nc_ht=scontent-den2-1.xx&_nc_gid=jG6Pg7tPRxWAjuEk2Rh9-g&_nc_ss=70180&oh=00_AQNhcaNvsLlmBhAD5HvO8Ti12XXvV0PT6A1jNgNkX8MQTA&oe=6AE4E1CC"
+     ]
+    },
+    "1107649401722547": {
+     "id": "1107649401722547",
+     "url": "https://www.facebook.com/events/1107649401722547/",
+     "published": "2026-09-28",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "All events are in the past.",
+     "image_urls": [
+      "https://scontent-den2-1.xx.fbcdn.net/v/t39.99422-6/825278599_1131369029314785_8665576926630217033_n.png?stp=c0.187.1448.1448a_dst-jpg_tt6&cstp=mx1448x1448&ctp=s565x565&_nc_cat=105&ccb=1-7&_nc_sid=1abd25&_nc_ohc=vfOkJZx1qvAQ7kNvwHQ8Nj6&_nc_oc=Adpzt4P8rLiHAzBvXYsOV1gX2XCy8xcy3b8_-Mkgb05LnTyMBeEdku1VKMWxuNv8Z2rsKhTETzvHa7wnDNl99tB-&_nc_zt=14&_nc_ht=scontent-den2-1.xx&_nc_gid=jG6Pg7tPRxWAjuEk2Rh9-g&_nc_ss=70180&oh=00_AQO1oovonI3GxtwhfI1k8M4d1GnnnobkY_nauFh8S5yBjA&oe=6AE4E983"
+     ]
+    },
+    "1679927694142859": {
+     "id": "1679927694142859",
+     "url": "https://www.facebook.com/manifesten/posts/pfbid0m5GU7KMMEFmyGNM56F8TqY7AByFWnnCQyLe8rkmR6PHxZyuwdwtVhMWNNYgUMN6fl",
+     "published": "2026-09-28",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The event 'Fenwick' is in the past.",
+     "image_urls": [
+      "https://scontent-den2-1.xx.fbcdn.net/v/t39.99422-6/827539089_1511048994380470_994050639773947725_n.png?stp=dst-jpg_tt6&cstp=mx1414x2000&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HF9sFwHeHFcQ7kNvwFuS-Aw&_nc_oc=AdqNbGOVQ2WCXwe8M1s1BAYFaxPVG9hH9_BSaYQLffNf8ukjD8ra8dFti9cD8wIf9pU92DKWPr9HB-cHXsIamawb&_nc_zt=14&_nc_ht=scontent-den2-1.xx&_nc_gid=jG6Pg7tPRxWAjuEk2Rh9-g&_nc_ss=70180&oh=00_AQMT-qW8ZT_KcOGVtK0Nrjs4d6alfGW_o-QzdSL3gyUdVA&oe=6AE4F444",
+      "https://scontent-den2-1.xx.fbcdn.net/v/t39.99422-6/827912536_1086780474092810_4283437226607192485_n.png?stp=dst-jpg_tt6&cstp=mx1414x2000&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DnD7xCtZOYgQ7kNvwGu-36n&_nc_oc=AdpgXydQ87XrqAoqSCQQR46zVYIgbtEdrqOq0lIC7RCI-OSP6wkAl1JirGm44TrVx5QkMsBf9EunquR7mki-sCZ1&_nc_zt=14&_nc_ht=scontent-den2-1.xx&_nc_gid=jG6Pg7tPRxWAjuEk2Rh9-g&_nc_ss=70180&oh=00_AQNWgdWOb60V6suVem5UM7-2H1xKFDxmBjDo7yWIQe9GIA&oe=6AE4E9CC"
+     ]
     }
    },
    "fb_events": []
@@ -145,8 +411,8 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": null,
-   "last_ok": "2026-09-20",
+   "last_fetched": "2026-10-26",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1193,6 +1459,326 @@
      "image_urls": [
       "https://instagram.fcvj2-1.fna.fbcdn.net/v/t39.30808-6/814754761_1537469898408078_3833804919704108046_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk4OTQzNDIwNjQ2MzUyNDczOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=BM7ZxyNSCA4Q7kNvwH_Fsny&_nc_oc=AdolnZwAJa20KV2ptiYLKr1INMI0cDojXcGGxLyzomP2NHWnDT24hAPWsgCqzQYjTz_v3BxLqB4ZPDY6YfFjnTqF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcvj2-1.fna&_nc_gid=C6Z8mF4UfBHEoPLJv6LnQg&_nc_ss=7a22e&oh=00_AQK27J7CENg4LdAwQIAMztIdB1pPJ2SppZAV-q27AoqgCg&oe=6AB5500C"
      ]
+    },
+    "4015858145218804737": {
+     "id": "4015858145218804737",
+     "url": "https://www.instagram.com/p/De7MbTGIDwB/",
+     "published": "2026-10-25",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "MATCH Dialogues – Session 1",
+       "start_date": "2026-10-27",
+       "start_time": "16:00:00",
+       "end_date": null,
+       "end_time": "18:00:00",
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "MATCH Dialogues – Session 1",
+        "Mardi 27 octobre",
+        "16h – 18h (CET)"
+       ],
+       "from_image": false,
+       "verifier": "reject",
+       "verifier_reason": "The post announces an online-only event: \"💻 En ligne - lien en bio !\" / \"To join us, register via the link in bio\", so it does not take place at Friche la Belle de Mai — that venue appears only as one of the partner logos on the flyer. The date (mardi 27 octobre 2026, a Tuesday) and time (16h–18h CET) do match, but the location is wrong."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-waw2-1.cdninstagram.com/v/t39.30808-6/844826601_1562427779245623_4844792402870416467_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=NDAxNTg1ODEyNTYyMzAwOTQ0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=khr_wDDeDkUQ7kNvwGwE9nK&_nc_oc=AdrVo-2T7xv48EK94abBcmTLfbtVuDLAfVrLwbcgBZJsYIX11-sZrDwrXvoNqZtGlqk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=Q6XDPEItSNp-hfUZSEyxFA&_nc_ss=7a20f&oh=00_AQNp6z4ZvfV8AsLrg5wM_pPVKzZTAo8c1LE_sa7HHQJguw&oe=6AE4F33A",
+      "https://scontent-waw2-2.cdninstagram.com/v/t39.30808-6/844557351_1562427785912289_8205212246340094676_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAxNTg1ODEyNTg2NjI4NjUzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=du3yeG87BIMQ7kNvwHYkZ70&_nc_oc=AdobE57aoAt2v_hMMSo7IoHfcUW6ybDjHojx0_P4ebJy83vFJUpY_EAPyo4-qLx5OQs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_gid=Q6XDPEItSNp-hfUZSEyxFA&_nc_ss=7a20f&oh=00_AQOrboM8fnmBiwSWg7sNcgB9DL01pGwLn9NEeW0e5OO-Rg&oe=6AE4D9BB",
+      "https://scontent-waw2-2.cdninstagram.com/v/t39.30808-6/843591922_1562427775912290_2493324065271114641_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAxNTg1ODEyNTU5Nzg5MDg2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=G3PXZ7G1iIIQ7kNvwHPvjF_&_nc_oc=AdoN-MzfmKs3RXXxXTJbN0bAKMUB0nX5u6ITsaQdSFj3kB-MBfbsA0fpVQ8c40LhSG4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_gid=Q6XDPEItSNp-hfUZSEyxFA&_nc_ss=7a20f&oh=00_AQMsiKIyoqJoHWshwOrQiHPUsXc6Bu9iCmXNoNYGtA_OzA&oe=6AE4FA71",
+      "https://scontent-waw2-2.cdninstagram.com/v/t39.30808-6/843573208_1562427782578956_4202046263767691388_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAxNTg1ODEyNTc1NzI1MjA5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3fCflMwb2TcQ7kNvwFKobwF&_nc_oc=AdohUo_j2aNl-61YcW3tHyNOh5xHl2bMs-C6Kyu_6VNJEW84zzS1zN97KN2YWSJHwQo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_gid=Q6XDPEItSNp-hfUZSEyxFA&_nc_ss=7a20f&oh=00_AQMW0HX0zJF2qvhWqOXhF9fxYuDFN2rwm4ed5Ijly0_V5w&oe=6AE4FEA0"
+     ]
+    },
+    "4011481598273606341": {
+     "id": "4011481598273606341",
+     "url": "https://www.instagram.com/p/DerpUKIHVLF/",
+     "published": "2026-10-19",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "CHRONIQUES – la Biennale des Imaginaires Numériques",
+       "start_date": "2026-10-24",
+       "start_time": null,
+       "end_date": "2027-01-17",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Pour sa 5e édition, CHRONIQUES explore les « Résistances », notamment avec ses partenaires méditerranéens B’Sarya for Arts (Égypte), la Fondation Hiba (Maroc) et le Festival Interférence (Tunisie) 🌍",
+        "🗓️ 24 oct - 17 jan",
+        "CHRONIQUES La Biennale des Imaginaires Numériques"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The extracted event is the whole biennale, which is not located at Friche la Belle de Mai: the flyer states \"Divers lieux\" and the caption lists \"📍 Marseille, Aix-en-Provence, Avignon, Arles, Istres et Port-de-Bouc\". Friche only hosts part of the programme (\"Vernissage de Souffles terrestres au Centre de la Vieille Charité, puis de Désobéir à l'ère numérique ... à la Friche la Belle de Mai\"), so the given venue merely shares the multi-site event."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-icn2-1.cdninstagram.com/v/t39.30808-6/855436499_1529087519248114_4613152352659839402_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAxMTQ4MTU2MjcyMjY3NjE1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ajVgBnhFxX4Q7kNvwFRGnwE&_nc_oc=AdqbanN9Umu0NlY76FuWYnZfmxJ3xMy5gOakCJXeNypR2ADWZrrD2s5aHs2JZ1aDYUg&_nc_ad=z-m&_nc_cid=1753&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=p5WJYM1kjlLykAxfQrbkjg&_nc_ss=7a20f&oh=00_AQOSZiKucjkG2z9sWZv_1f6jAqomyhujyD75gTPejm7PZg&oe=6AE5030F",
+      "https://scontent-icn2-1.cdninstagram.com/v/t39.30808-6/855519783_1529087525914780_4021260413727233278_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=NDAxMTQ4MTU1OTk3MTIxNDUzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=KanXj-xWMnIQ7kNvwGNLgJ_&_nc_oc=Adq08cPzkokMpigHdM0wVzlYvGoTo1g2A0pJoqSpBeJ26TsosREq67mS5c9xR4kj0L0&_nc_ad=z-m&_nc_cid=1753&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=p5WJYM1kjlLykAxfQrbkjg&_nc_ss=7a20f&oh=00_AQNSJvt17ZV4FiRRASllIhtN9dls2ZkfaX0DzFYfLU3YTg&oe=6AE4FB83",
+      "https://scontent-icn2-1.cdninstagram.com/v/t39.30808-6/856232287_1529087529248113_4979180906805963369_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=NDAxMTQ4MTU2MDc1OTc0MDU4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eWb73rCzaY0Q7kNvwFLA2Fz&_nc_oc=AdoOuqq4YC54a5Si_LXxFAh4r8K0-kkUZqqQQzwI2ASLX08TmsJe_cF4yzF5Y-BCo-U&_nc_ad=z-m&_nc_cid=1753&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=p5WJYM1kjlLykAxfQrbkjg&_nc_ss=7a20f&oh=00_AQP5gDNBYIiwagXOeWun2LVoR4CGAXdzp3r4Ox0luLMTfQ&oe=6AE4E6E0",
+      "https://scontent-icn2-1.cdninstagram.com/v/t39.30808-6/856348762_1529087489248117_4208589411975132251_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=NDAxMTQ4MTU2MjI4NjUwMTQzOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=KIZyCfbrzvkQ7kNvwHkgvoC&_nc_oc=AdpWuwL9y9LNo2N_nP1tORIQuAjWYoeRagf7VuuGiw97q3xdFqWyxmMb3w1R_1P0GqQ&_nc_ad=z-m&_nc_cid=1753&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=p5WJYM1kjlLykAxfQrbkjg&_nc_ss=7a20f&oh=00_AQMJI2aRXEWc4qsltjk7e_9Fp9bH_M7N3tvNtEnLY6mYcQ&oe=6AE4D740"
+     ]
+    },
+    "4004714731696758184": {
+     "id": "4004714731696758184",
+     "url": "https://www.instagram.com/p/DeTmtShjx2o/",
+     "published": "2026-10-10",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "HUMAN COMPUTERS - Une",
+       "start_date": "2026-10-28",
+       "start_time": "18:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Une rencontre autour de l’enchevêtrement qui s’est noué entre informatique et capitalisme, avec l’organisation du travail pour prisme d’analyse principal.",
+       "status": "scheduled",
+       "evidence": [
+        "HUMAN COMPUTERS - Une",
+        "Mercredi 28 octobre 2026",
+        "18h30"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces \"HUMAN COMPUTERS\" as a \"Rencontre\" on \"Mercredi 28 octobre 2026\" at \"18h30\", a future dated public event (post published 2026-10-10) at the Librairie de la Friche, i.e. Friche la Belle de Mai; 28 October 2026 is indeed a Wednesday and nothing indicates cancellation."
+      },
+      {
+       "title": "Cicatrices.",
+       "start_date": "2026-10-29",
+       "start_time": "18:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Comment la vulnérabilité fait monde avec Constant Spina.",
+       "status": "scheduled",
+       "evidence": [
+        "Cicatrices.",
+        "Jeudi 29 octobre 2026",
+        "18h30"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer's monthly programme lists \"Jeu. 29 ... Cicatrices. Comment la vulnérabilité fait monde avec Constant Spina ... 18h30 Rencontre\" within \"Du 17 au 29 octobre 2026\", matching the extracted date/time (29 Oct 2026 is indeed a jeudi) and it is a dated public event at the Librairie de la Friche, after the 10 Oct publication date."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-cdg4-2.cdninstagram.com/v/t39.30808-6/839960225_1625296642626541_4525415125623116179_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAwNDcxNDcxMDY5MTY5MDAwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DEU10hD8pnUQ7kNvwGG3iUR&_nc_oc=AdrTMK7evkhY8pB-gPEVGh_DsHk0GqAXLoQjUZVKWcg80wmGGB37VoI5200t4NOoYGX0HJgSzDI7iCfNP4mWSlKu&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_gid=ooW-40Vh6EZ9MNBplrNdEA&_nc_ss=7a20f&oh=00_AQPSCuS_0eGE2LrMWPS6TCGbZCC1uiwy8C80jTmLjeB_8g&oe=6AE4F82F",
+      "https://scontent-cdg4-3.cdninstagram.com/v/t39.30808-6/841386297_1625949519227920_1071003190117993907_n.jpg?stp=c0.0.1638.2047a_dst-jpg_e35_s1638x2047_tt6&_nc_cat=111&ig_cache_key=NDAwNDcxNDcxMDg1OTUwNzQ3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sDO_LokqcWYQ7kNvwHYpT9z&_nc_oc=AdpUy_AiWNWDNZJSi6yJBsYTwweD7yJZH1MC6HUWMFCkKw0_rhMQCpvhOWEpnWBqDCXoDp-AiBfi4lkQ5h6ERJz8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-3.cdninstagram.com&_nc_gid=ooW-40Vh6EZ9MNBplrNdEA&_nc_ss=7a20f&oh=00_AQODgdeH9RWYCpwxfFfQU8xwfGNtvk0eBvMEzc5e7WBogg&oe=6AE4DAB3",
+      "https://scontent-cdg4-1.cdninstagram.com/v/t39.30808-6/839932858_1625296645959874_7904154774565357151_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=NDAwNDcxNDcxMTQzODMxMzU1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=R4dSmqj9A3wQ7kNvwGYtw66&_nc_oc=Adr6olGxrUL764k0BdEWBCaETm9pizuf8xpsGKUzVpfRFZAxUncMdhsmGe95_OfAjHRAlnrnBC5IPZg0LHh64sAb&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_gid=ooW-40Vh6EZ9MNBplrNdEA&_nc_ss=7a20f&oh=00_AQOWlMbLJBa3xYTfEr7dEVhnxmG5G2Ja0e5HL3oKD1gijQ&oe=6AE5036B",
+      "https://scontent-cdg4-1.cdninstagram.com/v/t39.30808-6/840002102_1625296679293204_7090564080242488415_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=NDAwNDcxNDcxMDY1ODE4NTE2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=pxldhQvzANoQ7kNvwH5l2JS&_nc_oc=AdqelH2GcSKzQvD8iZjN7jaipOvTVwCSyhEr5GYEoH01_Hlnm_zWI9BNrSLIEkUhelxahqEAzVutiRgGZVPw2CNc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_gid=ooW-40Vh6EZ9MNBplrNdEA&_nc_ss=7a20f&oh=00_AQOtYMVyLWRUCc2sfLhLzzhx1z9CX_ugvK7zE07tsfsBrw&oe=6AE4D846"
+     ]
+    },
+    "4006256769224459367": {
+     "id": "4006256769224459367",
+     "url": "https://www.instagram.com/p/DeZFU44oMRn/",
+     "published": "2026-10-12",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "En Ribambelle !",
+       "start_date": "2026-10-17",
+       "start_time": null,
+       "end_date": "2026-11-07",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Du 17 octobre au 7 novembre 2026",
+        "En Ribambelle !"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces a dated public festival: \"Du 17 octobre au 7 novembre 2026\" / \"En Ribambelle !\" with \"sept spectacles à la Friche\", matching the given venue Friche la Belle de Mai. The post is a forward-looking weekly agenda (12→18 octobre 2026) published 2026-10-12, so the event is on/after publication, and no weekday is written on the flyer to contradict 2026-10-17 (a samedi)."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/841064057_1562181999270201_3163078020367260158_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=NDAwNjI1NjczODQyMTQ1Nzk5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FgTTomLXeRsQ7kNvwHlJ4Gc&_nc_oc=AdoBEbX7EJndFkHtGHWdado9TTS14GWTn_XH4aOWTylEXfChAIE2LBfVvl259v4Sxv08A1uzQFWjfAVeInuHFe3P&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=R182jQ7Pmf70RclpPxkngA&_nc_ss=7a20f&oh=00_AQPefoT8xPMHfyFbLZMinBbsoxFpe1l8K3jeZ4rzQQ5M_g&oe=6AE4E267",
+      "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/837714588_1562182009270200_3595386625318228242_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=NDAwNjI1NjczODk1ODMyNjk2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=RpArKpFtCLkQ7kNvwHvKyeU&_nc_oc=Adp3-XMN0XNSNR--3x-mLDF3767D1B3P9wrEsHHD0qZaydRVROTtDFxJn8SwZiUO7968C9ziyJoG9nfY1Htm38xe&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=R182jQ7Pmf70RclpPxkngA&_nc_ss=7a20f&oh=00_AQPsavmCInl6p0JYY8xsxTei1r9hpa47pba3lqSe-hKJrA&oe=6AE4E8DE",
+      "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/847762500_1562181932603541_1709005362918866734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=NDAwNjI1Njc0MDAwNjkwNTc2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=e-1Ibic8jU4Q7kNvwER_Kz4&_nc_oc=Adrm4eXw75rZ5VBw9mRQKrGAUionlJ_Q2wEIFaIaM1hq7EV0myU-dN21hK1-q5HRIbhgt8L_lxAK50alz0QZGGCq&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=R182jQ7Pmf70RclpPxkngA&_nc_ss=7a20f&oh=00_AQMt4DyQ5PQ7_ZRRrWHI6_0gfId375H_gRuCOdUbEAM0TQ&oe=6AE4D61E",
+      "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/846375260_1562182002603534_2431206973381220563_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=NDAwNjI1NjczOTUxMjAxMjc2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2HYsLBZ1x1EQ7kNvwEvjZYP&_nc_oc=AdoMVMhWQ7rJy2k61Wf-HjgdM2tzJB8SMYDdmsyjWkH7KOr-97UCPqtWImArt9yWnSr6ziDm2QyKfEe3LzEl0Aho&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=R182jQ7Pmf70RclpPxkngA&_nc_ss=7a20f&oh=00_AQNe00BhihWLgaxn9QvDks744khtI_dTvdwyJe00Dbo_4w&oe=6AE4D991"
+     ]
+    },
+    "4004201235313657517": {
+     "id": "4004201235313657517",
+     "url": "https://www.instagram.com/p/DeRx87wDQat/",
+     "published": "2026-10-09",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "Event is in the past.",
+     "image_urls": [
+      "https://scontent-nrt1-2.cdninstagram.com/v/t39.30808-6/842935173_1558441622977572_4858692561706458240_n.jpg?stp=c0.125.1000.1250a_dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAwNDIwMTIzNTMxMzY1NzUxNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HskQ903woNIQ7kNvwGRA_Ci&_nc_oc=Adp0R2hn1yB0GLY7R9Ap1yrdLcUMnQWgc_E2sFS9X-BBVbkfSiZ7qNi7n4KqLflM-8Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_gid=cPq-bjvWwNZ5pr12mtETMQ&_nc_ss=7a20f&oh=00_AQMNpEbtheV2jRuWfBkvrN2W5QGdvZtONjevDMR2cRnbtQ&oe=6AE50336"
+     ]
+    },
+    "4008338484506703959": {
+     "id": "4008338484506703959",
+     "url": "https://www.instagram.com/p/Degep1UjLhX/",
+     "published": "2026-10-15",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "Event is in the past.",
+     "image_urls": [
+      "https://scontent-mad1-1.cdninstagram.com/v/t39.30808-6/844758087_1562314262590308_4553711965598847574_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=NDAwODMzODQ4NDUwNjcwMzk1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Mn4nX16rDAsQ7kNvwGJ0W1W&_nc_oc=Adr87IyHIqox9-RfeMYasOO1jKhIJSVwFUEiVTAJrDNag2gDiNOk6jeoXSpteY41Uk0xk7jWxH0mTp6gMxHO_8SE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_gid=OxupoAPt8k9D9MGLYDBNcw&_nc_ss=7a20f&oh=00_AQNeaN5UOIcblW5-NIOQPL_kjG5ltInXLx5Id6apNV64aQ&oe=6AE50A7B"
+     ]
+    },
+    "4007221211377423476": {
+     "id": "4007221211377423476",
+     "url": "https://www.instagram.com/p/DecgnXoj9R0/",
+     "published": "2026-10-13",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Désobéir à l’ère numérique",
+       "start_date": "2026-10-24",
+       "start_time": null,
+       "end_date": "2026-12-13",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Exposition sur les tactiques de résistance face aux technologies de captation.",
+       "status": "scheduled",
+       "evidence": [
+        "Désobéir à l’ère numérique",
+        "Vernissage le 24 octobre",
+        "Expositions visibles jusqu’au 13 décembre"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future event at the given venue: \"À la Friche, découvrez deux expositions\" with \"Vernissage le 24 octobre\" and \"Expositions visibles jusqu'au 13 décembre\" — 24 October 2026 is indeed a samedi and falls after the 2026-10-13 publication date, and nothing indicates cancellation or a different venue."
+      },
+      {
+       "title": "Cartographie sensible et mémoires recomposées",
+       "start_date": "2026-10-24",
+       "start_time": null,
+       "end_date": "2026-12-13",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Exposition sur les récits traversés par la mémoire, l’exil et les traces des conflits.",
+       "status": "scheduled",
+       "evidence": [
+        "Cartographie sensible et mémoires recomposées",
+        "Vernissage le 24 octobre",
+        "Expositions visibles jusqu’au 13 décembre"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The post is a forward-looking announcement (\"Vernissage le 24 octobre\", \"Expositions visibles jusqu'au 13 décembre\") published 2026-10-13, so the 24 October start is after publication and the year 2026 is consistent; the venue matches (\"À la Friche, découvrez deux expositions\") and the free entry matches \"Entrée libre\"."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fhnd3-1.fna.fbcdn.net/v/t39.30808-6/843509688_1562330622588672_1498365853640518099_n.jpg?stp=c0.30.1800.1137a_dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzIyMTE5NzI2Nzc1MTY3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTgwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=AMXhynPV0QUQ7kNvwGd_TJ5&_nc_oc=AdpXXhUZHoKfhOfmTnmLrsmrWo8H1KYlqPFu7cA07mGH298Ef9sRZyfxo8rWI1dLk4C080RinSs89GTmp0M37OvE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fhnd3-1.fna&_nc_gid=kaohyoF470LpftHtCjHp2Q&_nc_ss=7a20f&oh=00_AQNUU3szarLJJXBssJtdALHUSne224wAApbDht19Whe-7w&oe=6AE4F187",
+      "https://instagram.fhnd3-2.fna.fbcdn.net/v/t39.30808-6/844137600_1562330615922006_5660422874492459180_n.jpg?stp=c0.30.1800.1137a_dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzIyMTE5NjU5NjY4NjY1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTgwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nA05we_4_fkQ7kNvwFMKAY-&_nc_oc=Adp24nmbTDFAtKiHtf2G2S2h13ltNwsfhYlCUCPDPC7i-dfx8eZfJWQyXK3rlT-z0-H5qqngAYogc7nsL3QN2x3l&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fhnd3-2.fna&_nc_gid=kaohyoF470LpftHtCjHp2Q&_nc_ss=7a20f&oh=00_AQPtaMLIWa9RMSsow1kDNS87g9Hqtlxz6E7uTKRxjtW8Gg&oe=6AE4D62B",
+      "https://instagram.fhnd3-2.fna.fbcdn.net/v/t39.30808-6/844252664_1562330619255339_8245853864988986086_n.jpg?stp=c43.0.1713.1083a_dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzIyMTE5Njc0NzY2ODAxMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTgwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=rKG273eP_3UQ7kNvwFLNZV0&_nc_oc=AdrpMwJdMmCyslld7X4NrcaRGBhUPNGt4c3nIAQJJbgApKoDWGD01h_3oDCOqCdtaJiwzySL55Ba3Xd1hpJSZMAo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fhnd3-2.fna&_nc_gid=kaohyoF470LpftHtCjHp2Q&_nc_ss=7a20f&oh=00_AQMAFeThJFSQud_a4jRPXPd55SwNaE3HkwKbcDPvLUW6dw&oe=6AE4E143"
+     ]
+    },
+    "4009286580697249261": {
+     "id": "4009286580697249261",
+     "url": "https://www.instagram.com/p/Dej2OctMzXt/",
+     "published": "2026-10-16",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any specific upcoming events at the venue. It is a general message about the venue's activities and support for young people.",
+     "image_urls": [
+      "https://instagram.fhnd3-2.fna.fbcdn.net/v/t51.82787-15/849753065_18641431078056042_3173240616112213091_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAwOTI4NjU4MDY5NzI0OTI2MTE4NjQxNDMxMDc1MDU2MDQy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=CNrFkUZoQY8Q7kNvwEKYl-j&_nc_oc=Adp8UiuVV-bRzAOjXcu9U6DWHz7nuaxYF3G4Gqu-tYaq_FXsc-K8xmXoeildvh2LYdk7WJ_kP5lRWfdZhbQ3VlRP&_nc_ad=z-m&_nc_cid=1700&_nc_zt=23&_nc_ht=instagram.fhnd3-2.fna&_nc_gid=cfMC8-6qx3HF7VE-tdFjZQ&_nc_ss=7a20f&oh=00_AQN9aObUDSs_2FLepdu_iMZ9sFCiInjLv4io1KOaKJd13Q&oe=6AE4F949"
+     ]
+    },
+    "4009231133810341347": {
+     "id": "4009231133810341347",
+     "url": "https://www.instagram.com/p/DejpnlxM7Xj/",
+     "published": "2026-10-16",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "LA VIE FARPAITE",
+       "start_date": "2026-10-24",
+       "start_time": "14:00:00",
+       "end_date": "2026-12-13",
+       "end_time": "22:00:00",
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Exposition visible les après-midis jusqu’au dimanche 13 décembre",
+       "status": "scheduled",
+       "evidence": [
+        "Vernissage samedi 24 octobre de 14h à 22h",
+        "Exposition visible les après-midis jusqu’au dimanche 13 décembre"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future event: \"Vernissage samedi 24 octobre de 14h à 22h\" and \"Exposition visible les après-midis jusqu'au dimanche 13 décembre\". 2026-10-24 is indeed a samedi and 2026-12-13 a dimanche, both on/after the 2026-10-16 publication, and the venue matches \"la Friche la Belle de Mai\"."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fcdg2-1.fna.fbcdn.net/v/t51.82787-15/851503270_18641366941056042_4137789156647183141_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=NDAwOTIzMTEzMzgxMDM0MTM0NzE4NjQxMzY2OTM4MDU2MDQy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=49Tx9CgDbCoQ7kNvwGpfaJB&_nc_oc=Adq0ZALp_tdi8ofXbxGGMHUcHW5i5FGHaka64zq57foyDpBUPNhxWsufJ2kSD-KLk3NQXXxo36ipTnz2wktGta58&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcdg2-1.fna&_nc_gid=evDRW7fovbeElMZ5PMJmAQ&_nc_ss=7a20f&oh=00_AQPsz24QawwAwURgS88lCluqLiRq_0EEjX0if8_h2oW0zw&oe=6AE4F95A"
+     ]
+    },
+    "4007690727269976431": {
+     "id": "4007690727269976431",
+     "url": "https://www.instagram.com/p/DeeLXuYjclv/",
+     "published": "2026-10-14",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Ce soir je mange avec...Madame Rocchi",
+       "start_date": "2026-10-28",
+       "start_time": "19:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Ce soir je mange avec…Madame Rocchi le mercredi 28 octobre 2026 à 19h30 - Les grandes Tables de la @frichelabelledemai"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future event: \"Ce soir je mange avec…Madame Rocchi le mercredi 28 octobre 2026 à 19h30 - Les grandes Tables de la @frichelabelledemai\". 2026-10-28 is indeed a mercredi (post published mercredi 2026-10-14, so the event is after publication), the time 19h30 matches, and Les Grandes Tables is the restaurant at Friche la Belle de Mai. It is a dated public dinner-conversation (25 €, reservation phone given), not a recap or cancellation."
+      }
+     ],
+     "notes": "The other events were not announced in the caption.",
+     "image_urls": [
+      "https://instagram.fkix1-1.fna.fbcdn.net/v/t51.82787-15/847847903_18218313421357611_2313473024102647623_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzY4ODYzNzI1MDk5NjgxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9xVSbnkjOyMQ7kNvwGv45hW&_nc_oc=AdpBsTrfX5brYQY40F94RLvmuueCm0bPtrMcdG5SFMRR5CIpjCtwL196NqrCHPqNHukncJiGxeFbHms0XPUkI0Ef&_nc_ad=z-m&_nc_cid=1698&_nc_zt=23&_nc_ht=instagram.fkix1-1.fna&_nc_gid=wDrWVGB-EghVC3eE2W-KpA&_nc_ss=7a20f&oh=00_AQOuA8Hp7QsAbBm_yFMFAY3j5jq8ekXZZuzuWd9R9cG5Tg&oe=6AE4E095",
+      "https://instagram.fkix1-1.fna.fbcdn.net/v/t51.82787-15/849745639_18218313382357611_1115870977580012590_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzY4ODYzNzQ4NTg3MjYwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=c08bihoGmUYQ7kNvwHpMqpL&_nc_oc=AdpzjAeDUJYbnS8rJ3DOQO_P6mBLONoIWGiC65yuyioHh_ZPlTW2ftt1ZoKad6Dfa7L_pzAEKrN0ZgTaGYfONOuU&_nc_ad=z-m&_nc_cid=1698&_nc_zt=23&_nc_ht=instagram.fkix1-1.fna&_nc_gid=wDrWVGB-EghVC3eE2W-KpA&_nc_ss=7a20f&oh=00_AQOCmhmSA1sn0oEtNVKy3WPxlJoo5nvjmbyyLkLruDmwiQ&oe=6AE4F977",
+      "https://instagram.fkix1-1.fna.fbcdn.net/v/t51.82787-15/848892552_18218313400357611_7553197368929008999_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzY4ODYzNzc2MjYzMjQ0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=H3Pw-qqOU70Q7kNvwHIsJLi&_nc_oc=Adq3nm7dKwcmLsCOju0evO8PGoJ1XSsOiu-UMNC_sNpXseWkAAx8E3gO5KK7KuxSj7D__515JHM1WN78EOeKeu2u&_nc_ad=z-m&_nc_cid=1698&_nc_zt=23&_nc_ht=instagram.fkix1-1.fna&_nc_gid=wDrWVGB-EghVC3eE2W-KpA&_nc_ss=7a20f&oh=00_AQNyAuKvkHfjQh9oeJZbKkJ7PpdxKBJ3P73JTd2b-fA2ow&oe=6AE50374",
+      "https://instagram.fkix1-1.fna.fbcdn.net/v/t51.82787-15/848677224_18218313397357611_1465660700575938_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzY4ODYzODg2MTQ3NTkzNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=d_ZRBnEITlEQ7kNvwHY9gup&_nc_oc=Adp_DBdIxiPaR6VZZkHMfYDFXq9ZCVFvsp_9aH7HKhD4KsecHg0fFMhxt1mFxiUfa_4WE-oeCEnX2ATgoNIt7A6p&_nc_ad=z-m&_nc_cid=1698&_nc_zt=23&_nc_ht=instagram.fkix1-1.fna&_nc_gid=wDrWVGB-EghVC3eE2W-KpA&_nc_ss=7a20f&oh=00_AQOw0p4kQmN3xC5UwPi3llCCpZayhZ6Pc-HZluNClmVevQ&oe=6AE50C6C"
+     ]
     }
    },
    "fb_events": []
@@ -1201,8 +1787,8 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": null,
-   "last_ok": "2026-09-20",
+   "last_fetched": "2026-10-26",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2067,6 +2653,412 @@
      "image_urls": [
       "https://scontent-mia3-3.xx.fbcdn.net/v/t39.99422-6/796468043_2300042907194954_6209559315670093865_n.png?stp=dst-jpg_tt6&cstp=mx1440x960&ctp=p180x540&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=BoVKyO-vJ0EQ7kNvwEw3nFg&_nc_oc=AdooZhOAkbjiZUNtB_sBdQJrxoAyVLsyCdIB5lRnB1KyT4gRdwR6vlsdTLdPu0lECmQ&_nc_zt=14&_nc_ht=scontent-mia3-3.xx&_nc_gid=p3cmRuF9IVT-EAmucSIppw&_nc_ss=73289&oh=00_AQKY-GLkt8qq5PafPwd3SUJUgSPoLx6nv6FXRYwubI0QTA&oe=6AB53B4A"
      ]
+    },
+    "1575826577905743": {
+     "id": "1575826577905743",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02vy4Dtuq5SyoRJLMAXp4Ag77PGUhsrCQ9aDC6BRLYpECaKXFD2HqJXHqseXjMqhWgl",
+     "published": "2026-10-25",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "MATCH Dialogues #1",
+       "start_date": "2026-10-27",
+       "start_time": "16:00:00",
+       "end_date": null,
+       "end_time": "18:00:00",
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "MATCH Dialogues #1\nCreative Practice, Climate and Community Gardens",
+        "Date: 27 October\nTime: 15.00 - 17.00 WET / 16.00 - 18.00 CET / 17.00 - 19.00 EET"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The event is explicitly an online session, not one held at the given venue: the caption states \"💻 En ligne - lien en bio !\" and the flyer says \"To join us, register via the link in bio\", so Friche la Belle de Mai merely shares/hosts the announcement rather than being the location. (Date \"Mardi 27 octobre\" 2026 and time \"16h – 18h (CET)\" do match the extracted values.)"
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/865970427_39697574446524340_8785557535586935116_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=moMH0oLdO-gQ7kNvwGxWrxG&_nc_oc=Adq_qVZ4DnhZpQ7kftNbAceRQngMHsCXDdSVD6kKElclCbQ5zRoaTttYZFt0qiqk1L0&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQNuLEuNTi58y415DGLdaQq0UtKXp-HiTN0zV1tirlgEcg&oe=6AE4D58D",
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/858765576_2346416756156977_3390182840704248072_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YMSm_vbaVboQ7kNvwHv1C6V&_nc_oc=AdrmBP64rpT9M7aVznnKOmTSiUnBRoxThorsE0678Y_grgKCYZwfuyN1oyeH1qYc_4Y&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQMghzz-8zHpUyQCZvHKp0esoBJcA7sOrmKEnVhYrqK5SQ&oe=6AE4FBDB",
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/858366257_1664870078529596_651828536901661609_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bmomCBNTd40Q7kNvwEZtz1f&_nc_oc=AdqelmGkzfhRid-iEmp-VaHAsVG-uidil4As28KvmIWdBypRLEcfA0HBybBodo_aETk&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQPkUiicyOUj2qa8FY_PZk5fAtYrom9SOWFbJtrL1a23og&oe=6AE4F9AD",
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/857523143_3202498063433453_4546487400226224969_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=FL_jlySSQ4EQ7kNvwFqQqUT&_nc_oc=Adql2K-BU8mM0UrUNLfKKVlTbUPDQvbjWZ7roJK9sCvr6groyflTx4zahv0OQEPPVTk&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQMufN4485A4usdl0HMPpHqLkL-eXdJXRdmhipgcZJRCrQ&oe=6AE4D487"
+     ]
+    },
+    "1573713938117007": {
+     "id": "1573713938117007",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02esxwDKNfTfVh1PHhUyhrbxPM7VCDGu5dte1KdogpkJkoveceNdFda1EMCNPRJNF5l",
+     "published": "2026-10-23",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [],
+     "notes": "All events are in the past.",
+     "image_urls": [
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/858569741_2561478337607308_8108203233482544754_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fOxVOntWUJsQ7kNvwECMXyK&_nc_oc=AdqrruHpJaTh6oIqDh9TyqfR9rNSBAJMVq9rsWvq2mgFc3gqq5OlSXskOvm0aFX1XFs&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQPb9xCfmnO2vlf97fLQuH9ZbBPc8kTAWFsMhFNeXml-0g&oe=6AE4FE7B",
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/858972598_1535947238296536_7762000215096853539_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=N1TpNJTcKUwQ7kNvwG88dEw&_nc_oc=Adpwx_EsQF-ZXDCDWs-IlTknxl3cCoRqH2cp8IPKc03TIPqfyl7dWNCwUhVx8xaqqBo&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQNN68cyiGa42Nqxtg9mF-b2ciFanYftw_bwQgU5CwPtnQ&oe=6AE500BF",
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/857775603_1826902645132841_1960424405939497982_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ACWpir-_l8wQ7kNvwFqOC5Z&_nc_oc=AdoMcYlRMdju5OSDWWc6ddHLVN0FqCNJU5e3TmpRzxXGZ7X1PIdxISWcbDysAGjumcU&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQPXkeZIQ21ZAnohZ30MTn61uvyG-jbeGCsLxQ-Zthbz-w&oe=6AE50BC6",
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/855267362_1148981660992279_4465838673392773686_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=x5jqCDaqgIgQ7kNvwHDB0ff&_nc_oc=AdppwGd3VDFs7RUa4ltODRkFgES2Ish4oNSWnQxAKwwKWAYs0jnyzG5jHnUz54hxcCo&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQMK2APEttu1S3Vy4-xj7HoMoPjaR3Ad7ui5lvkrT_LKgA&oe=6AE50AC3"
+     ]
+    },
+    "1571307655024302": {
+     "id": "1571307655024302",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02J4RqYRGcUdNrnB6yNRk8Zv98xpW4T53WxEqiwfbQxhGtg1AD3YKwPJfHVaeiUYYGl",
+     "published": "2026-10-21",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "RÉSISTANCES NUMÉRIQUES",
+       "start_date": "2026-10-22",
+       "start_time": "15:30:00",
+       "end_date": "2026-12-31",
+       "end_time": "17:30:00",
+       "location_name": "Medialab",
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Explorez les cultures numériques et questionnez les technologies dans le cadre de la Biennale des Imaginaires Numériques.",
+       "status": "scheduled",
+       "evidence": [
+        "Du mercredi au vendredi de 15h30 à 17h30 | Samedi de 14h à 15h30",
+        "Gratuit sans réservation"
+       ],
+       "from_image": false,
+       "verifier": "reject",
+       "verifier_reason": "The post announces recurring opening hours, not a dated event: \"Du mercredi au vendredi de 15h30 à 17h30 | Samedi de 14h à 15h30 - Hors vacances scolaires\" — a weekly schedule template with no concrete date, so the extracted single start_date 2026-10-22 (a jeudi) and end_date 2026-12-31 are fabricated."
+      },
+      {
+       "title": "FAMILYTECH",
+       "start_date": "2026-10-25",
+       "start_time": "15:30:00",
+       "end_date": "2026-12-31",
+       "end_time": "17:30:00",
+       "location_name": "Medialab",
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Ateliers pour enfants à partir de 7 ans, accompagnés d'un adulte.",
+       "status": "scheduled",
+       "evidence": [
+        "Plusieurs samedis de 15h30 à 17h30 - hors vacances scolaires",
+        "Ateliers gratuits sur réservation : publics@chroniques.org"
+       ],
+       "from_image": false,
+       "verifier": "reject",
+       "verifier_reason": "The caption describes a recurring series with no concrete date — \"FAMILYTECH / Plusieurs samedis de 15h30 à 17h30 - hors vacances scolaires\" — yet the extracted start_date 2026-10-25 is a dimanche (Sunday), contradicting the stated \"samedis\"."
+      },
+      {
+       "title": "NUMÉRITECH",
+       "start_date": "2026-10-25",
+       "start_time": "15:30:00",
+       "end_date": "2026-12-31",
+       "end_time": "17:30:00",
+       "location_name": "Medialab",
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Ateliers pour publics à partir de 16 ans.",
+       "status": "scheduled",
+       "evidence": [
+        "Plusieurs amedis de 15h30 à 17h30 - hors vacances scolaires",
+        "Ateliers gratuits sur réservation : publics@chroniques.org"
+       ],
+       "from_image": false,
+       "verifier": "reject",
+       "verifier_reason": "The caption announces a recurring series with no concrete date — \"📡 NUMÉRITECH / Plusieurs amedis de 15h30 à 17h30 - hors vacances scolaires\" (i.e. several Saturdays) — yet the extractor invented a single start date of 2026-10-25, which is a dimanche (Sunday), contradicting the stated weekday; the end date 2026-12-31 is likewise unsupported."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/855970032_2050084732351137_8308450976472357834_n.png?stp=dst-jpg_tt6&cstp=mx2000x1333&ctp=p180x540&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=z7C750b8RcgQ7kNvwFGGyUL&_nc_oc=AdpO_vHj2k0j4C0Wm6JjYG4IhDOrSEY1URr3xsqa1TDQwdnuQBf150NN-3cYqsw4YuI&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=X2A9wpDBZS9RgWT4PTUZBA&_nc_ss=70180&oh=00_AQPt2zwdYmlH_p2VgIOV8jXmulxpDP1109VMLdT68gQHqg&oe=6AE509FE"
+     ]
+    },
+    "1570734975081570": {
+     "id": "1570734975081570",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02RRmV2DudM7aVnNu9RLRVtsaJ42cuGND43cTrEKRzDAyDDUGTebMNpcFhSSz4ys9bl",
+     "published": "2026-10-20",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [],
+     "notes": "The event 'D’AUTRES REGARDS' is in the past.",
+     "image_urls": [
+      "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.99422-6/855519797_1413126457599466_270156416913253601_n.png?stp=dst-jpg_tt6&cstp=mx1000x1500&ctp=p526x296&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CYvVKEI5QK4Q7kNvwFXLSOy&_nc_oc=AdquuBa49tKTDbfWaVv1jLu_0oqwroZDVST-7NF8rM3fE0POLro0c43AgtuDmhvchyQ&_nc_zt=14&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=GQeEulgqQWLWvTI0TOcEGg&_nc_ss=70180&oh=00_AQPOcUeczyo2-YR8XDJdEkonDBpZUxI9Awm4_VdNLJW84w&oe=6AE4D827"
+     ]
+    },
+    "1569578371863897": {
+     "id": "1569578371863897",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02d4U7RYJNerW2sFEvhNdcxVbpchsa2ZGb1xpTFmKUjshijuzau9yn5MiXgeTshQgCl",
+     "published": "2026-10-19",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any specific upcoming events at the venue; it only provides a general agenda for the week.",
+     "image_urls": [
+      "https://scontent.ftol2-1.fna.fbcdn.net/v/t39.99422-6/854188347_1430262605121882_4294301865971613822_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wSURcSg7w9oQ7kNvwENBgzm&_nc_oc=AdpQWkrrjw85L15TDa4xdu3tvskT0046I9bFA-GoibLR8gVawz0eiu5Urq5hPmvreys&_nc_zt=14&_nc_ht=scontent.ftol2-1.fna&_nc_gid=GQeEulgqQWLWvTI0TOcEGg&_nc_ss=70180&oh=00_AQP1MYLCqD5vOkkpOcReQL9ZatAwG_sS5Qg-s_J2nwXRig&oe=6AE4EC6B",
+      "https://scontent.ftol2-1.fna.fbcdn.net/v/t39.99422-6/857445610_1116409040758699_3937702438345735281_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_RfUn81qJDIQ7kNvwEhMtVm&_nc_oc=Adr8dsSqQYGrRR98AJSSQxyPrRZ_efe1QcE2VoNB8el-f15AH-2Vf4BQxMehYtxgjtg&_nc_zt=14&_nc_ht=scontent.ftol2-1.fna&_nc_gid=GQeEulgqQWLWvTI0TOcEGg&_nc_ss=70180&oh=00_AQNev0OH1XIRgPzH_UT7gP7QyL5CWbNj6OTJJWoYfLv03Q&oe=6AE4FE5F",
+      "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.99422-6/851273926_1643424550519451_7282350365075821714_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=THZeL2ij408Q7kNvwGet_6g&_nc_oc=AdopXB9D9m4RMgHtoMXRhutXF6ls6vDFqEUKWmWzLFJezE-uuM0jSSW9r3S-zSfPu7s&_nc_zt=14&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=GQeEulgqQWLWvTI0TOcEGg&_nc_ss=70180&oh=00_AQPWos0WFjYCO1sDVhyyieHq8YGLwLV4qPu5ZByBPTBecg&oe=6AE50093",
+      "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.99422-6/856055617_4103909329906748_4942485132093923390_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qyWib7ZG2-gQ7kNvwHI8S_t&_nc_oc=AdrxJH0rRp5f5qhBE41v7luYYbefdZsL_zzNRwuFcP4wsLDE46iDy0OeFsnJVB47djI&_nc_zt=14&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=GQeEulgqQWLWvTI0TOcEGg&_nc_ss=70180&oh=00_AQNxsMVy5jF53zP3Ye9txPBP_XL9cI52ZSueSjBxP2bfRw&oe=6AE50948"
+     ]
+    },
+    "1567272435427824": {
+     "id": "1567272435427824",
+     "url": "https://www.facebook.com/reel/1504885334808577/",
+     "published": "2026-10-17",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "LA VIE FARPAITE 🤖",
+       "start_date": "2026-10-24",
+       "start_time": null,
+       "end_date": "2026-12-13",
+       "end_time": null,
+       "location_name": null,
+       "url": "https://urls.fr/l2VLuK",
+       "price": null,
+       "summary": "Exposition présentant une partie rarement montrée du fonds de LFKs.",
+       "status": "scheduled",
+       "evidence": [
+        "Vernissage samedi 24 octobre de 14h à 22h",
+        "Exposition visible jusqu'au dimanche 13 décembre"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces an upcoming exhibition at the Friche (\"L'exposition se déploie simultanément au R3 de la Tour et dans les Cathédrales\"), with \"Vernissage samedi 24 octobre de 14h à 22h\" (24 Oct 2026 is indeed a Saturday, after the 17 Oct publication) and \"Exposition visible jusqu'au dimanche 13 décembre\" (13 Dec 2026 is indeed a Sunday). No contradiction with the extracted dates, venue or status."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent.fdtw2-1.fna.fbcdn.net/v/t15.5256-10/849894914_1215855341061114_552947578874926687_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=PraxuKdnraUQ7kNvwFtn7UT&_nc_oc=AdpguqUmLBFhHSdJJHTHD5PGCz1z01SKwwRozhdWf_zV9XUMrj-RmhBzwzMF_9NN8Yo&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=GQeEulgqQWLWvTI0TOcEGg&_nc_ss=70180&oh=00_AQOjOycZXMDSXwXcgBTm-qCes2tG__R7j6dHMH6dWIcbxg&oe=6AE504B5"
+     ]
+    },
+    "1566636472158087": {
+     "id": "1566636472158087",
+     "url": "https://www.facebook.com/reel/1437408201149955/",
+     "published": "2026-10-16",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any specific upcoming events at the venue; it is a general message about the venue's activities and support for young people.",
+     "image_urls": [
+      "https://scontent-dfw5-2.xx.fbcdn.net/v/t15.5256-10/848311913_1651277920030138_921956084861827125_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=-7gU6dtUyuoQ7kNvwFV_VSV&_nc_oc=AdoTAYHH2vBdJ856JOo2U9DBWM_ymeL6KbIxlDnyxOoTu1auDVGUIbu0AG2AbfmXxf1X48KM567dQffkqpD3Uwe-&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=HH-MFmygUYDRPaUbGAPhoA&_nc_ss=70180&oh=00_AQN5ksh_inN4AqwxUg1ek_CpujfARJz51QDuHJ3yRBsfBw&oe=6AE50B3B"
+     ]
+    },
+    "1566599978828403": {
+     "id": "1566599978828403",
+     "url": "https://www.facebook.com/reel/1750835213708556/",
+     "published": "2026-10-16",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any specific upcoming events at the venue; it is a general statement of support for youth activities.",
+     "image_urls": [
+      "https://scontent-dfw5-2.xx.fbcdn.net/v/t51.82787-10/854337685_18641404462056042_339678645931623546_n.jpg?stp=dst-jpg_tt6&cstp=mx1170x2080&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=atY_lO1fKOoQ7kNvwEjxs3d&_nc_oc=AdqdFaqy_MElZOEX4yfsLWx_ljqv7BL29cL3VoskYcSIW4FZyRcIeiVV5SRJVQYJsVY2-t6p7_eYnv5tDKF_jEwO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=HH-MFmygUYDRPaUbGAPhoA&_nc_ss=70180&oh=00_AQMum0pZSScn0bbC5R7e2K12eQ2grV7ACocNeEqHRPwjFw&oe=6AE4F8F9"
+     ]
+    },
+    "1564667415688326": {
+     "id": "1564667415688326",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02iyPTRvAhjh6PBjTCTdw8gthtY78PkiqEBbVbtks39SfNf7Uq8VdZvEfBHDnsjE7el",
+     "published": "2026-10-14",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/848273079_1665727978507961_5092925378775095774_n.png?stp=dst-jpg_tt6&cstp=mx1000x1500&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9pP70Uecg7QQ7kNvwF8qMrH&_nc_oc=AdoW62pQnwRRFBTGcpKBoH0uVwRaO5eBkSGNcBtHpMnZnY1wLc9Bf3CTT_MyETAMf9E&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=EulR8vzLrY3uNC4NVw5BZA&_nc_ss=70180&oh=00_AQMPkC-jdqvS1sZqnYE0RPs0niqmddrxkxneoPJG89-Smw&oe=6AE50BB8"
+     ]
+    },
+    "1563639309124470": {
+     "id": "1563639309124470",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L6jNfUkgb4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl",
+     "published": "2026-10-13",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Désobéir à l’ère numérique",
+       "start_date": "2026-10-24",
+       "start_time": null,
+       "end_date": "2026-12-13",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Désobéir à l’ère numérique",
+        "Vernissage le 24 octobre",
+        "Exposition visible jusqu’au 13 décembre"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "Announcement (not a recap): \"Vernissage le 24 octobre\" / \"Exposition visible jusqu'au 13 décembre\" at \"À la Friche\" — a dated public exhibition opening after the post's publication (2026-10-13), and 2026-10-24 is indeed a samedi, consistent with the extracted start date; no time is stated so none is contradicted, and nothing indicates cancellation."
+      },
+      {
+       "title": "Cartographie sensible et mémoires recomposées",
+       "start_date": "2026-10-24",
+       "start_time": null,
+       "end_date": "2026-12-13",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Cartographie sensible et mémoires recomposées",
+        "Vernissage le 24 octobre",
+        "Exposition visible jusqu’au 13 décembre"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The post announces an upcoming exhibition at the Friche: \"Vernissage le 24 octobre\" and \"Exposition visible jusqu'au 13 décembre\", matching the extracted start 2026-10-24 (a Saturday, after the 2026-10-13 publication) and end 2026-12-13; it is a dated public event, not a recap, and no cancellation is mentioned."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/847866383_1790940628696989_344230444316873680_n.png?stp=dst-jpg_tt6&cstp=mx1800x1198&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=otV4GyXAH1YQ7kNvwFAexPn&_nc_oc=Ado91OwHtXrN0BoffVoPK4Wp5eXfsqc1CaQV2Xif5jRTxo7NOtGK7Q0mDUjSZ35n1UA&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=EulR8vzLrY3uNC4NVw5BZA&_nc_ss=70180&oh=00_AQPwcghG8hK8lhkRC4MfpMjJpfNpiItd1_xQnTcuTQ1eXQ&oe=6AE4E437",
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/845564361_1084566071149280_6862326413813142799_n.png?stp=dst-jpg_tt6&cstp=mx1800x1083&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=M5F4QfG9TSwQ7kNvwEKIKRq&_nc_oc=AdoLwQieKiPlatxAiE_hHtEh7zWiEBXTZsnReniAX7z00Etbjsp7Da3dEJSACHHpMlk&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=EulR8vzLrY3uNC4NVw5BZA&_nc_ss=70180&oh=00_AQNiWq-do5GnD-pNR20Gx3TqQPUiRdTy2w0d-m_TI5IfxQ&oe=6AE4F805",
+      "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/849694783_1442566961272666_7372468543058965329_n.png?stp=dst-jpg_tt6&cstp=mx1800x1198&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EB9OGnWdFdwQ7kNvwGlotW7&_nc_oc=AdqFnpzcBGMUys7ZnwWxMH_1thgWzPzzr3WtfQMq6vRxzbJ1Wp7mQigXU-NssEgoEHg&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=EulR8vzLrY3uNC4NVw5BZA&_nc_ss=70180&oh=00_AQNH9WqAVh4FjqL5VCMseWxM6Bw96dnaV652MthHipMYEg&oe=6AE4D693"
+     ]
+    },
+    "1562182692603465": {
+     "id": "1562182692603465",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid07BQyAdJynoVujkvTE5eETUSRx7gcUy2vML34Qc5qdXoj5266KWVJMvrHiUzPm24Cl",
+     "published": "2026-10-12",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "En Ribambelle !",
+       "start_date": "2026-10-17",
+       "start_time": null,
+       "end_date": "2026-11-07",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Du 17 octobre au 7 novembre 2026"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces an upcoming festival: \"En Ribambelle !\" with \"Du 17 octobre au 7 novembre 2026\", a \"proposition du Théâtre Massalia\" held \"à la Friche\" — a dated public event starting after the 2026-10-12 publication date, and 17 October 2026 is indeed a samedi."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/841664187_2337456020389702_6193185495751020523_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lMXPRA7ERKoQ7kNvwH5cPd9&_nc_oc=AdrTaLU0ZaXxb4jUTFpfikfh92niJj1Rn4ZQ1ZvKWptj1ZdAP4G1rNObzTi1o97a4Bc&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=EulR8vzLrY3uNC4NVw5BZA&_nc_ss=70180&oh=00_AQORy2E6tumYygzc6H0OQsMmPzgfCaPBbuJLJDVy2o57rg&oe=6AE4FA58",
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/846738118_1262084819433177_4628586702368828066_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mGQKgSa1HjEQ7kNvwFAMyJ2&_nc_oc=AdonlLJgFRPbhwetW3M3VRCHus1bccb2_yOTwM2HIOMHoGvE5se44yx7zt2MyNbQ7OU&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=EulR8vzLrY3uNC4NVw5BZA&_nc_ss=70180&oh=00_AQO1pu0QiUuyHoCPWPk_o-RNLFIPCswpq9hqo1K_7YqGrA&oe=6AE4F6CC",
+      "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/844826586_1083051607854817_3113680154624822974_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ib4_RxXIdgEQ7kNvwG2gt38&_nc_oc=Adp6ZMXU4Hm5GyS41dl9rPmwxbDUucrHckVly9GU3ZxAXjijPDORVYNo79ioMuntFvw&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=EulR8vzLrY3uNC4NVw5BZA&_nc_ss=70180&oh=00_AQNZSh0BLg2y2O-c-syMqxIXFNRuI4pyexqU0qkvQKT-DA&oe=6AE4FC2D",
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/840579123_1376300324292780_1586243147401482176_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1uJTNDmoDE4Q7kNvwETk4gP&_nc_oc=AdpxyljMndc6rYnI1OjWPLPAX3vFJ8EpMLsQ-BDeunCbBIOBX8C578tWKSrWhZl52Rg&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=EulR8vzLrY3uNC4NVw5BZA&_nc_ss=70180&oh=00_AQPKH-m1bqLTZ3TGQ9gzT0r5KcpFWiW6FKicbNusFkoLLw&oe=6AE4DA3A"
+     ]
+    },
+    "1559373439551057": {
+     "id": "1559373439551057",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02r1WHY3yPDKJmqdxkzff6FBPxcwfCnuGFbzeUDEKvzYTo7AuLb5MfJ63FsyyDoR9rl",
+     "published": "2026-10-09",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [],
+     "notes": "The post announces an event that has already taken place.",
+     "image_urls": [
+      "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/843264573_1648134266949238_5567891913695979501_n.png?stp=dst-jpg_tt6&cstp=mx1000x1500&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eWWVupsHMzsQ7kNvwEHwzik&_nc_oc=Adr_P1JQo6e2e0_LllNv2SW20FbVU8Gjaqy0gAotFCwJ3r9UO-koMNrr6adWg-k--gp4Cus2DfEiI18za-WaEqqi&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=SvSlu2qAI2lanN3FEhbILg&_nc_ss=70180&oh=00_AQM0psW1VETFeIA1_6KObjqRaiTCzdwlkqem5cw-j0I7uA&oe=6AE4E819"
+     ]
+    },
+    "1558613189627082": {
+     "id": "1558613189627082",
+     "url": "https://www.facebook.com/reel/1122209653604560/",
+     "published": "2026-10-08",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The event 'LE GRAND WEEK-END' is in the past.",
+     "image_urls": [
+      "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/840499581_1138947292412740_7508195060834934022_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=iEG2qSZg6NoQ7kNvwFBuTse&_nc_oc=AdrJtBvJURnbOcV4RgzgzWkkCu7WVLkkhDkJrC0o9kTTXuH8Q9MNNHX4lXY7ix1APNGjSwkyHYjBOfJBNUF3KuWF&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=SvSlu2qAI2lanN3FEhbILg&_nc_ss=70180&oh=00_AQPwAIAdCxyw5AjQO6XxvdVrSKAXupQM5HF1ojSqE3zkWw&oe=6AE4E14F"
+     ]
+    },
+    "1556437733177961": {
+     "id": "1556437733177961",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid0312Bj5FmrECMnk9e6twVHxYb6gCE4ebo3Bc1oomZk6pk6AUaLBhkmC4ihWNgLHHzWl",
+     "published": "2026-10-06",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any specific upcoming events at the venue; it is a general promotional post about the library and its activities.",
+     "image_urls": [
+      "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/825351440_1916995042599701_3602156930730966529_n.png?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XpMAw8TxpoEQ7kNvwGZHDv6&_nc_oc=AdpYa7ZBmgFL6u942ZYA8a3og-I1IYWVbh2HXNqpnYzYd2PYPv3RuWzgiQEzuttSjZ7j0WEQ2vvk-exryozvl5yj&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=SvSlu2qAI2lanN3FEhbILg&_nc_ss=70180&oh=00_AQNzpUloYqlDlegkreI7AT7J6EgSVAsoLNmGasyqlm8-2w&oe=6AE4EACA",
+      "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/839129665_963485836748809_4608127417589625905_n.png?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GNt1bAQCpDwQ7kNvwH85_HY&_nc_oc=Ador11_eTtKzmlsTzZgO0yfkpax2-pFBGZ_2OTYqS0wjy0RwnNOwfQRgghcaONBozyedmvh0tLjCYXacNCisRjbM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=SvSlu2qAI2lanN3FEhbILg&_nc_ss=70180&oh=00_AQPdEczeHQwNlChBLBewsSylmmETqwclGvMCK2vPlcQ1Gw&oe=6AE4FBB1",
+      "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/835748944_1585498743051594_483138702223277920_n.png?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PAKn5Yr29eYQ7kNvwH7jc4C&_nc_oc=AdrtjW_IwF-Nr-8W2jKqfGCt4o-hXMhM18YJ8CUkODe9Aj5cVF0CDRR2JXCE4q6eqpKuJux3i_OY14w1cSztqU3Z&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=SvSlu2qAI2lanN3FEhbILg&_nc_ss=70180&oh=00_AQPHRKReCbXViw95xw8ZLVvwGVJk2Yj6Kiy1eP42ulgxDA&oe=6AE50920",
+      "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/839724988_940119925424424_1149676044572420408_n.png?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6U34r9zBDFMQ7kNvwE79ZuW&_nc_oc=AdoA-T1996TQzH_qBsuvfB8XtHa2-JUcfutgDt7bv3CXrCrWuNRTPnZbqauNWr8DJznC2B_aBx7-ZPcNFaY03q9l&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=SvSlu2qAI2lanN3FEhbILg&_nc_ss=70180&oh=00_AQNzmxFpKHyLUpNdn3FyhB9upk-oSoeicULuLCFlbo3I0Q&oe=6AE4E554"
+     ]
+    },
+    "1555587816596286": {
+     "id": "1555587816596286",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid03y6r6sjTzZLNwNh1LmLRkRDDVX9w5M35Fg5dGbTVgokkUsS7mQ69mCQEP8HsXbPvl",
+     "published": "2026-10-05",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any upcoming events at the venue.",
+     "image_urls": [
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/837663322_1454724636551255_6821485256881850463_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eLeEuIIIyNEQ7kNvwHvg5UI&_nc_oc=Adpg4fUC8V2c_Ng0hea1Rya5mz8_iIVZ3FbdkfiJB3kFfktqITNwVrjZKIH-Q3OjA7k&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=QrEEPAD5S_JQvMrb_23Ayg&_nc_ss=70180&oh=00_AQPRcdqLehgFzOF_BUZ23z_YztagMah_citL7u29FC4eMw&oe=6AE4ECFC",
+      "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/837012453_3679648078865931_5711352010599996274_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qjACS0Xs_csQ7kNvwHAV0J1&_nc_oc=AdqG4q-E3V72r68k6vNOS2uGH_wF4kxhmkKQ0LQPU9cNfNVCfqt2BxVO5wwGBlpUiqQ&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=QrEEPAD5S_JQvMrb_23Ayg&_nc_ss=70180&oh=00_AQMMjPZhWOMfH5qyFYJGWCgajQFxnVLWYN_xJdqGuvf4gg&oe=6AE4F35B",
+      "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/836512022_1746399509769351_9071172361428311056_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9nY8wdBvM4sQ7kNvwGr9qLy&_nc_oc=AdrIfyyoX2Fgl8DORXy6jQgmxDwZF39Y0o0EqoHTOmBsCJrr-tt_UZqynJ_zLvvg4Mw&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=QrEEPAD5S_JQvMrb_23Ayg&_nc_ss=70180&oh=00_AQOl2_J7A6DiMKqJ2wwekRqCpfeA4w22BO99LnM5bKRQRg&oe=6AE4FB66",
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/835450112_1571019688129328_7234482127650923534_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Amcv_l6iZ2YQ7kNvwHiCdwu&_nc_oc=Adq64EGPuZEfLICeVRd0whFHCdgXe3xMgYe7s8Ptieoa9vNQEReF8rUEdMybhhQmD8M&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=QrEEPAD5S_JQvMrb_23Ayg&_nc_ss=70180&oh=00_AQPVAJPFNAoEBBXu23RHnDRYh7P1DPUVMUCQ8aeKKJNKGg&oe=6AE5094E"
+     ]
+    },
+    "1552460450242356": {
+     "id": "1552460450242356",
+     "url": "https://www.facebook.com/reel/1026996080390163/",
+     "published": "2026-10-02",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any specific upcoming events at the venue.",
+     "image_urls": [
+      "https://scontent-lga3-1.xx.fbcdn.net/v/t15.5256-10/834273869_1795802204966497_3895930185498267946_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=fIrsrBPqraYQ7kNvwEdDtli&_nc_oc=AdqxeIkSNPCJ9SAs3r5ZP0uLHvXVmdsROyrFYdt3w7U-UUzepb43OKJkkKTfxDsYSZU&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=QrEEPAD5S_JQvMrb_23Ayg&_nc_ss=70180&oh=00_AQPB4d13oIlk5om_NyWNaGZYxZ15wW8JYNbpd_b6gu5jFg&oe=6AE4E2FB"
+     ]
+    },
+    "1552437036911364": {
+     "id": "1552437036911364",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/1752791029329624:1752791029329624",
+     "published": "2026-10-02",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any upcoming events at the venue.",
+     "image_urls": [
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/830574996_1111186211608359_2603662462951326556_n.png?stp=dst-png&cstp=mx2460x936&ctp=p180x540&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=fo4Bw0eWN90Q7kNvwEIgIL2&_nc_oc=AdrgS5EBfc3zIx6LCwdof7NTEViam9FSrqTP3BuDmRBRwAFq8vjYgOKUHesCwF6bTBA&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=QrEEPAD5S_JQvMrb_23Ayg&_nc_ss=70180&oh=00_AQNNaT34lJ0o__Ut9nKKZIOG60ZiYPnFYrLvmtzDAhhTOQ&oe=6AE4D761"
+     ]
+    },
+    "1396372759283531": {
+     "id": "1396372759283531",
+     "url": "https://www.facebook.com/events/1396372759283531/",
+     "published": "2026-10-01",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The event 'GRAND WEEK-END' is in the past.",
+     "image_urls": [
+      "https://scontent.fmkc1-1.fna.fbcdn.net/v/t39.30808-6/825268009_1551309313690803_8525517584110755815_n.jpg?stp=c458.0.1005.1005a_dst-jpg_tt6&cstp=mx1005x1005&ctp=s565x565&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=1abd25&_nc_ohc=UvBXK2He0_4Q7kNvwEg27al&_nc_oc=AdoRwGLftrsOz31lmiXXDSEC-6MZ8VmrtxObnlhtkQQNx6NftZkel1g0a72_b3T7gwnF5qCIPCi6cyHgLqXd2tOx&_nc_zt=23&_nc_ht=scontent.fmkc1-1.fna&_nc_gid=BZfH7jaDPGpvSxgAxW4Qug&_nc_ss=70180&oh=00_AQOKns1Q71gwr_H-joip1tKCBpdf9gBzTjjHnay-AA4NBA&oe=6AE509B1"
+     ]
+    },
+    "1550231147131953": {
+     "id": "1550231147131953",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid022LCNyXy9okRqSRPDgms1xXg5DG4ys8zW87AzLYGU41GNmm9UNsxpdLxzxvKKyh9pl",
+     "published": "2026-09-30",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [],
+     "notes": "The event 'PLEXUS ROUGE' is in the past.",
+     "image_urls": [
+      "https://scontent.fmkc1-1.fna.fbcdn.net/v/t39.99422-6/829324827_1747668469656162_8620749577626611033_n.png?stp=dst-jpg_tt6&cstp=mx2048x1213&ctp=p843x403&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=AxinS8vz0PIQ7kNvwGM2KY9&_nc_oc=Ados4BfvNfaObeesRpEsV5mvac6zBnWJXO_SnMaCh7Ao1FMPcG0K-EymgEOp_67W7xPKLZ3VrAo2NfOLUCVcH9Rb&_nc_zt=14&_nc_ht=scontent.fmkc1-1.fna&_nc_gid=BZfH7jaDPGpvSxgAxW4Qug&_nc_ss=70180&oh=00_AQOqbYelParanrALaG9Fy8-yhQcalnabm3295xuwGnmcag&oe=6AE4DA41"
+     ]
     }
    },
    "fb_events": []
@@ -2132,7 +3124,7 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": null,
+   "last_fetched": "2026-10-26",
    "last_ok": "2026-09-20",
    "last_error": null,
    "consecutive_failures": 0,
@@ -2399,6 +3391,80 @@
      "events": [],
      "notes": "no caption and no readable image",
      "image_urls": []
+    },
+    "1153114774056566": {
+     "id": "1153114774056566",
+     "url": "https://www.facebook.com/events/1153114774056566/",
+     "published": "2026-10-25",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Paroles de Citoyennes au Congrès ouvrier de 1879 à Marseille",
+       "start_date": "2026-10-26",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Paroles de Citoyennes au Congrès ouvrier de 1879 à Marseille"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The flyer shows only the title \"Paroles de Citoyennes au Congrès ouvrier de 1879 à Marseille\" with no date, time or weekday anywhere, and the post has \"(no caption)\", so the extracted start_date 2026-10-26 is unsupported by the post and the date is genuinely ambiguous."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-phl2-1.xx.fbcdn.net/v/t39.30808-6/860179877_1733332202136150_4620406094064374466_n.jpg?stp=c0.289.607.608a_dst-jpg_tt6&cstp=mx607x608&ctp=s565x565&_nc_cat=103&ccb=1-7&_nc_sid=1abd25&_nc_ohc=nHh80fWaPRAQ7kNvwH-bXnK&_nc_oc=Ado_KkgutM7K7_86RSRJZrY5OoGgQVcSd07m1GAdymGeiCf78qDHqpNaaFroWux2M9wepD_8FdaL1zNbt_j5leVW&_nc_zt=23&_nc_ht=scontent-phl2-1.xx&_nc_gid=uM5WJYQqI3ChEqyEXGgZ_w&_nc_ss=70180&oh=00_AQM9Qz9Og4slKj-SOPcAQPxVCzLOG8kVcW7R5JuB3QlLyg&oe=6AE4F616"
+     ]
+    },
+    "1730895652379805": {
+     "id": "1730895652379805",
+     "url": "https://www.facebook.com/transit.librairie/posts/pfbid0HmW6gEBi1m8AxsgZNFbEVEr1uw8V7SYiQsqNShPciwvDXV9WMXTHVegiZ7uFxyjal",
+     "published": "2026-10-23",
+     "analyzed": "2026-10-26",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post mentions the cancellation of an event and refers to other meetings but does not provide specific details about upcoming events at the venue.",
+     "image_urls": [
+      "https://scontent-phl2-1.xx.fbcdn.net/v/t39.30808-6/857761693_1727825429353494_8805661411796556010_n.webp?stp=c0.0.780.351a_dst-png&cstp=mx780x351&ctp=s526x296&_nc_cat=110&ccb=1-7&_nc_sid=1abd25&_nc_ohc=MFfBawuN_fkQ7kNvwGlR8oZ&_nc_oc=AdphxouLN-wdQTfROOgwMTiXrcEueRi5FfGXc0TvjYJ4vPGN_tlzFPDgFrjW0BlwXsPeF20bok_ES988VQA7ekQE&_nc_zt=23&_nc_ht=scontent-phl2-1.xx&_nc_gid=uM5WJYQqI3ChEqyEXGgZ_w&_nc_ss=70180&oh=00_AQOdZFMa3cXmACQ2fIN0pbDKNpHYgSogBOZjUDhvAvzaxA&oe=6AE50E85"
+     ]
+    },
+    "1097096503135369": {
+     "id": "1097096503135369",
+     "url": "https://www.facebook.com/events/1097096503135369/",
+     "published": "2026-10-21",
+     "analyzed": "2026-10-26",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Monde diplomatique manière de voir : Iran",
+       "start_date": "2026-10-26",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Image shows the cover of the magazine with the title 'IRAN' and the subtitle 'Guerres, révoltes, espoirs'."
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The only evidence is a magazine cover reading \"MONDE diplomatique MANIÈRE DE VOIR / IRAN Guerres, révoltes, espérances\" — a publication cover, not an announcement of a dated public event; there is no caption, no date, no time and no mention of Transit librairie, so the extracted 2026-10-26 date is unsupported."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-phl2-1.xx.fbcdn.net/v/t39.30808-6/854564405_1728582042611166_4489262778009756377_n.jpg?stp=dst-jpg_tt6&cstp=mx600x600&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=1abd25&_nc_ohc=8QHV8RAqroIQ7kNvwFK_Md7&_nc_oc=AdrhyFuU3UJ-yL3hgR_OuFoIoz9IySk82cI7cVl2XGvhriCLW6oQ2bS07KuDdX3aCbjccG2YEC589PBqdQo0T4fi&_nc_zt=23&_nc_ht=scontent-phl2-1.xx&_nc_gid=uM5WJYQqI3ChEqyEXGgZ_w&_nc_ss=70180&oh=00_AQMXjRsyqdmNWF0z2xnzI83diw2zew-9zlOQXVB9rMinsA&oe=6AE4E679"
+     ]
     }
    },
    "fb_events": []

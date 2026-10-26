@@ -75,10 +75,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 2,
-   "content_hash": "02a564a0954ecab4",
+   "last_event_count": 3,
+   "content_hash": "e561cad7e8567230",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -103,13 +103,13 @@
    },
    "discovered": "2026-09-12",
    "schema_record": null,
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "last_event_count": 0,
-   "content_hash": "9f9456b7849d0fd1",
+   "content_hash": "228a2c1c0822255a",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": "2026-10-17"
+   "next_generation": "2026-11-02"
   },
   "mucem": {
    "venue_id": "mucem",
@@ -263,10 +263,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 174,
-   "content_hash": "f604a6f46c931df0",
+   "last_event_count": 179,
+   "content_hash": "7bb3435a70295e67",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -362,10 +362,10 @@
     "generator_model": "manual",
     "version": 2
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 34,
-   "content_hash": "1aa3299977bde28d",
+   "last_event_count": 35,
+   "content_hash": "d06b008780101441",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -439,10 +439,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "last_event_count": 5,
-   "content_hash": "f005b90ab63efbf7",
+   "content_hash": "89d1c8f283f3cca8",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -524,10 +524,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "last_event_count": 30,
-   "content_hash": "3afe0e68abeb4ecf",
+   "content_hash": "186106032e75745b",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -609,10 +609,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 2,
-   "content_hash": "73ea70d72f2366fb",
+   "last_event_count": 1,
+   "content_hash": "d53f4e66c7cf1657",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -677,7 +677,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "last_event_count": 2,
    "content_hash": "2420947ff1163957",
@@ -746,10 +746,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 6,
-   "content_hash": "664b7bad5e783bea",
+   "last_event_count": 13,
+   "content_hash": "cbdd2451e2e0f6da",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -815,10 +815,10 @@
     "version": 2
    },
    "last_ok": "2026-10-10",
-   "last_error": null,
+   "last_error": "unhealthy schema: 2/3 items failed to parse",
    "last_event_count": 2,
    "content_hash": "ef3a4133cfecc5ba",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "regenerations": 1,
    "next_generation": null
   },
@@ -899,10 +899,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 13,
-   "content_hash": "cb3927397eddc6e6",
+   "last_event_count": 14,
+   "content_hash": "263a1e7351d6b411",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -977,10 +977,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 13,
-   "content_hash": "85415196d26bc67d",
+   "last_event_count": 9,
+   "content_hash": "afa4326edd1fe601",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1062,10 +1062,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 35,
-   "content_hash": "32d9818099c954ac",
+   "last_event_count": 29,
+   "content_hash": "4ed2ca34b0f24313",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1170,10 +1170,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 92,
-   "content_hash": "9fecbf89ceec812f",
+   "last_event_count": 67,
+   "content_hash": "294b9987ee9cedf9",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1192,13 +1192,13 @@
    },
    "discovered": "2026-10-10",
    "schema_record": null,
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "last_event_count": 0,
    "content_hash": "013f6009319bc9d0",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": "2026-10-17"
+   "next_generation": "2026-11-02"
   },
   "twali": {
    "venue_id": "twali",
@@ -1218,13 +1218,13 @@
    },
    "discovered": "2026-10-10",
    "schema_record": null,
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "last_event_count": 0,
-   "content_hash": "9cbc2a9c8decf928",
+   "content_hash": "b33dd4376554a709",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": "2026-10-17"
+   "next_generation": "2026-11-02"
   },
   "l-embobineuse": {
    "venue_id": "l-embobineuse",
@@ -1296,10 +1296,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
-   "last_event_count": 11,
-   "content_hash": "93e863e2429fb340",
+   "last_event_count": 8,
+   "content_hash": "890633d0470e13c1",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1371,10 +1371,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "last_event_count": 3,
-   "content_hash": "bafb79bbb1dda7b7",
+   "content_hash": "824638c394405695",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1449,10 +1449,81 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "last_event_count": 24,
-   "content_hash": "89c50176c03cbd56",
+   "content_hash": "0820550c85efa553",
+   "consecutive_failures": 0,
+   "regenerations": 0,
+   "next_generation": null
+  },
+  "frac-sud": {
+   "venue_id": "frac-sud",
+   "source": {
+    "url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
+    "kind": "html",
+    "confidence": 0.75,
+    "reasoning": "The pre-scan shows this page is server-rendered HTML with the richest list of upcoming events (147 date-like strings), including multiple events dated after today (2026-10-26), such as 28 October 2026 and 21 November 2026. The main agenda page (?page=tout_agenda) duplicates some of this but is sparser; this dedicated events page is the most complete and current listing of upcoming happenings at Frac Sud.",
+    "sample_titles": [
+     "Projection du film Résonances",
+     "{Fictions libres} Paul Venner & Léo Hulin et {Pas à pas}",
+     "Artagon Marseille au Frac Sud - Lectures et performances par Mélio Villemot",
+     "Présentation / signature de J.voit double, d’Alexandre Gérard",
+     "Quoi qu’on vous dise, n’y croyez pas - Phraseomancie"
+    ],
+    "fallback_url": null,
+    "instagram": "fracsud",
+    "facebook": "Fracsudcitedelartcontemporain"
+   },
+   "discovered": "2026-10-26",
+   "schema_record": {
+    "schema": {
+     "rules": [
+      {
+       "kind": "html",
+       "container_selector": null,
+       "exclude_selectors": [],
+       "item_selector": "span.avec_logo.intitules",
+       "item_mode": "wrapper",
+       "fields": {
+        "title": {
+         "selector": "span.titre",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        },
+        "location": {
+         "selector": "span.lieu",
+         "attr": null,
+         "regex": null,
+         "constant": null,
+         "join": null
+        }
+       },
+       "date_format": null,
+       "notes": "Induced deterministically from the repeated dated cards of the page."
+      }
+     ],
+     "notes": "Deterministic induction (no model)."
+    },
+    "created": "2026-10-26",
+    "validated_against_llm": false,
+    "agreement": 0.989,
+    "generator_model": "induction",
+    "version": 1
+   },
+   "last_ok": "2026-10-26",
+   "last_error": null,
+   "last_event_count": 1,
+   "content_hash": "004a41b59f5b4691",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null

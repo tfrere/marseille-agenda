@@ -11,6 +11,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import re
+import time
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 from pathlib import Path
@@ -139,6 +140,10 @@ class SocialOutcome:
     rejected_verifier: int = 0
     uncertain: int = 0
     notes: list[str] = field(default_factory=list)
+    deferred: int = 0
+    """New posts left for the next run because the run's time budget was spent."""
+    skipped: bool = False
+    """Not fetched at all (time budget spent before its turn); cached events are still returned."""
 
 
 def due(src: SocialSource, today: date) -> bool:
@@ -160,18 +165,27 @@ def fetch_window(src: SocialSource, today: date) -> date:
 
 
 class SocialRunner:
-    def __init__(self, settings: Settings, today: date, *, extractor, verifier, allow_llm: bool, verify: bool):
+    def __init__(self, settings: Settings, today: date, *, extractor, verifier, allow_llm: bool, verify: bool,
+                 deadline: float | None = None):
         self.settings = settings
         self.today = today
         self.extractor = extractor
         self.verifier = verifier
         self.allow_llm = allow_llm
         self.verify = verify
+        self.deadline = deadline
+        """time.monotonic() after which no fetch or post analysis starts (a run cut by the CI timeout saves nothing)."""
+
+    def out_of_time(self) -> bool:
+        return self.deadline is not None and time.monotonic() >= self.deadline
 
     async def process(self, venue: Venue, src: SocialSource, client: httpx.Client) -> SocialOutcome:
         out = SocialOutcome()
         new_posts: list[SocialPost] = []
-        if due(src, self.today):
+        prev_ok = src.last_ok
+        if due(src, self.today) and self.out_of_time():
+            out.skipped = True
+        elif due(src, self.today):
             try:
                 new_posts = await asyncio.to_thread(self.fetch, src)
                 out.fetched = True
@@ -191,6 +205,10 @@ class SocialRunner:
             return out
 
         await self.analyze_new_posts(venue, src, new_posts, client, out)
+        if out.deferred:
+            # Keep the fetch window anchored before the deferred posts so the next fetch returns them again.
+            src.last_ok = prev_ok
+            out.notes.append(f"{out.deferred} new {src.kind} post(s) left for the next run (time budget spent)")
         self.prune(src)
         out.events = rebuild(src, self.today)
         return out
@@ -230,11 +248,16 @@ class SocialRunner:
             return
         sem = asyncio.Semaphore(3)
 
-        async def one(post: SocialPost) -> PostRecord:
+        async def one(post: SocialPost) -> PostRecord | None:
             async with sem:
+                if self.out_of_time():
+                    out.deferred += 1
+                    return None  # not recorded: it comes back as "new" on the next fetch
                 return await self.analyze_post(venue, src, post, client, out)
 
         for rec in await asyncio.gather(*[one(p) for p in pending], return_exceptions=True):
+            if rec is None:
+                continue
             if isinstance(rec, BaseException):
                 log.error("[%s] %s post analysis failed: %s", venue.id, src.key, rec)
                 out.notes.append(f"{src.kind} post analysis error: {type(rec).__name__}: {rec}")

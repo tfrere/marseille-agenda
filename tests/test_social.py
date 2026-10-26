@@ -237,7 +237,7 @@ async def test_social_only_venue_publishes_and_caches_post_analysis(tmp_path, fa
     report = await pipeline.Runner(settings, today).run(venues, sources, state, sf)
     assert report.sources_total == 3 and report.sources_ok == 3 and report.apify_runs == 3
     assert report.posts_analyzed == 3 and sorted(fakes.extracted) == ["1315686150601111", "3456789012345678901", "3456789012345678902"]
-    assert fakes.verified == ["concert de soutien avec Les Fauves Sonores", 'Projection-débat "Terres communes"']
+    assert sorted(fakes.verified) == ['Projection-débat "Terres communes"', "concert de soutien avec Les Fauves Sonores"]
     kinds = sorted((e.source_kind, e.title) for e in state.events.values())
     assert kinds == [
         ("facebook", "Assemblée générale de rentrée"),
@@ -257,7 +257,7 @@ async def test_social_only_venue_publishes_and_caches_post_analysis(tmp_path, fa
     # Next day: posts are fetched again (daily) but nothing is re-analysed; the events tab waits a week.
     fakes.actors.clear(); fakes.extracted.clear(); fakes.verified.clear()
     report2 = await pipeline.Runner(settings, today + timedelta(days=1)).run(venues, sources, state, sf)
-    assert [a for a, _ in fakes.actors] == [apify.IG_ACTOR, apify.FB_POSTS_ACTOR]
+    assert sorted(a for a, _ in fakes.actors) == sorted([apify.IG_ACTOR, apify.FB_POSTS_ACTOR])
     assert fakes.extracted == [] and report2.posts_analyzed == 0 and report2.llm_calls == 0
     assert len(state.events) == 4
     ig_input = next(i for a, i in fakes.actors if a == apify.IG_ACTOR)
@@ -287,6 +287,35 @@ async def test_apify_failure_keeps_cached_events_and_alerts_after_two_failures(t
     r2 = await pipeline.Runner(settings, today + timedelta(days=2)).run(venues, sources, state, sf)
     assert len(state.events) == 1 and r2.sources_ok == 0
     assert any("fetch failed 2x" in a.message for a in r2.alerts if a.level == "error")
+
+
+@pytest.mark.asyncio
+async def test_spent_time_budget_defers_social_work_and_keeps_cached_events(tmp_path, fakes, monkeypatch):
+    today = date(2026, 9, 12)
+    settings = _settings(tmp_path)
+    venues = [Venue(name="Manifesten", web=False, instagram="manifesten")]
+    sources, state, sf = SourcesFile(), State(), SocialFile()
+    await pipeline.Runner(settings, today).run(venues, sources, state, sf)
+    src = sf.sources["instagram:manifesten"]
+    assert len(state.events) == 1 and src.last_fetched == today
+
+    # Budget already spent: the due source is neither fetched nor analysed, stays due, and its cached event stays.
+    fakes.actors.clear(); fakes.extracted.clear()
+    tomorrow = today + timedelta(days=1)
+    report = await pipeline.Runner(settings, tomorrow, deadline=0.0).run(venues, sources, state, sf)
+    assert fakes.actors == [] and fakes.extracted == [] and len(state.events) == 1
+    assert src.last_fetched == today and social.due(src, tomorrow)
+    assert any("time budget spent" in a.message for a in report.alerts)
+
+    # Budget spent after the fetch: new posts are deferred, not recorded, and the fetch window does not move.
+    analysed_before = set(src.posts)
+    src.posts.clear(); src.last_ok = today - timedelta(days=20)
+    runner = pipeline.Runner(settings, tomorrow)
+    clock = iter([False] + [True] * 100)
+    monkeypatch.setattr(runner.social, "out_of_time", lambda: next(clock))
+    report = await runner.run(venues, sources, state, sf)
+    assert fakes.extracted == [] and src.posts == {} and src.last_ok == today - timedelta(days=20)
+    assert analysed_before and any("left for the next run" in a.message for a in report.alerts)
 
 
 @pytest.mark.asyncio

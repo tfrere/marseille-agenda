@@ -12,7 +12,8 @@ from .config import Settings
 
 log = logging.getLogger(__name__)
 
-DETERMINISTIC = ModelSettings(temperature=0.0, max_tokens=8000)
+# Some vision calls hung for 3+ minutes on a slow OpenRouter provider; a timed-out post is retried next run.
+DETERMINISTIC = ModelSettings(temperature=0.0, max_tokens=8000, timeout=90)
 
 
 def fetch_credits(settings: Settings) -> float | None:

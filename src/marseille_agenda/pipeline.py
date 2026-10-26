@@ -9,6 +9,9 @@ For each venue in venues.json:
   4. schema unhealthy     -> regenerate (LLM), then re-discover after repeated failures
   5. deterministic checks -> adversarial verifier on NEW html events only (LLM, cheap)
      titles the listing cut short are completed from the event's own page (prefix-verified)
+  Then the Instagram / Facebook sources (Apify + vision model on new posts), stalest first, until
+  the run's time budget is spent: what is left waits for the next run instead of the CI timeout
+  killing the job before anything is saved.
   6. merge into data/state.json, publish data/events.json + events.ics + report.json
   7. cache each published event's visual as site/img/<uid>.webp (no LLM, skip with --no-images)
 
@@ -22,6 +25,7 @@ import asyncio
 import json
 import logging
 import sys
+import time
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 from urllib.parse import urlsplit, urlunsplit
@@ -43,7 +47,7 @@ from .images import sync_images
 from .output import load_state, published_events, save_state, write_events_json, write_ics, write_report
 from .schema import Alert, Event, RunReport, State, Venue, VenuesFile
 from .schema_gen import build_generator, generate_schema
-from .social import SocialFile, SocialRunner, load_social, save_social, venue_social_sources
+from .social import SocialFile, SocialRunner, SocialSource, load_social, save_social, venue_social_sources
 from .social_extract import build_post_extractor, build_post_verifier
 from .validate import check_event
 from .verify import build_verifier, verify_event
@@ -54,6 +58,8 @@ FAILURES_BEFORE_REDISCOVER = 3
 EMPTY_SOURCE_RETRY_DAYS = 7
 INDUCTION_MIN_QUALITY = 0.8  # below this the induced schema is discarded and the generator agent takes over
 MIN_HTML_TEXT_CHARS = 300
+SOCIAL_SOURCES_IN_PARALLEL = 3
+DEFAULT_BUDGET_MINUTES = 40  # the CI job is killed at 60 min; images, commit and deploy come after the run
 
 
 def load_venues(settings: Settings) -> list[Venue]:
@@ -102,8 +108,10 @@ def to_event(ex: SchemaEvent, venue: Venue, source_url: str, kind: str, today: d
 
 
 class Runner:
-    def __init__(self, settings: Settings, today: date, *, verify: bool = True, allow_llm: bool = True, enrich: bool = True):
+    def __init__(self, settings: Settings, today: date, *, verify: bool = True, allow_llm: bool = True, enrich: bool = True,
+                 deadline: float | None = None):
         self.settings = settings
+        self.deadline = deadline
         self.today = today
         self.verify = verify
         self.allow_llm = allow_llm and settings.has_llm
@@ -111,6 +119,7 @@ class Runner:
         """Complete truncated titles from the events' own pages (deterministic, a few fetches)."""
         self._agents: dict[str, object] = {}
         self._social: SocialRunner | None = None
+        self.social_skipped: list[str] = []
 
     def agent(self, name: str):
         if name not in self._agents:
@@ -133,7 +142,7 @@ class Runner:
     def social(self) -> SocialRunner:
         if self._social is None:
             llm = self.allow_llm
-            self._social = SocialRunner(self.settings, self.today, allow_llm=llm, verify=self.verify,
+            self._social = SocialRunner(self.settings, self.today, allow_llm=llm, verify=self.verify, deadline=self.deadline,
                                         extractor=self.agent("post_extractor") if llm else None,
                                         verifier=self.agent("post_verifier") if llm and self.verify else None)
         return self._social
@@ -374,37 +383,54 @@ class Runner:
 
     # ------------------------------------------------------------------ social sources
 
-    async def process_social(self, venue: Venue, sources: SourcesFile, social: SocialFile, state: State,
-                             client: httpx.Client, report: RunReport) -> None:
-        for src in venue_social_sources(venue, sources.sources.get(venue.id), social):
-            report.sources_total += 1
-            out = await self.social.process(venue, src, client)
-            report.llm_calls += out.llm_calls
-            report.posts_analyzed += out.posts_analyzed
-            report.apify_runs += int(out.fetched)
-            report.events_rejected_grounding += out.rejected_checks
-            report.events_rejected_verifier += out.rejected_verifier
-            report.events_uncertain += out.uncertain
-            kind = "facebook" if src.kind.startswith("facebook") else "instagram"
-            events: list[Event] = []
-            for ev, verdict, reason in out.events:
-                e = to_event(ev, venue, src.url, kind, self.today, verdict, reason)
-                prev = state.events.get(e.uid)
-                if prev is not None and prev.source_url != src.url and prev.last_seen == self.today:
-                    continue  # already published from another source this run (the website is canonical)
-                events.append(e)
-            events, dropped = publishable(venue, events)
-            if dropped:
-                log.info("[%s] %s: %d regular screening(s) left out by the %s rule", venue.id, src.key, dropped, venue.category)
-            if out.error is None:
-                report.sources_ok += 1
-            alerts = merge_source(state, src.url, venue.id, events, self.today, None, None)
-            if out.error:
-                alerts.append(Alert(level="error", venue_id=venue.id, source_url=src.url, message=out.error))
-            report.alerts.extend(alerts)
-            for n in out.notes:
-                report.alerts.append(Alert(level="warning", venue_id=venue.id, source_url=src.url, message=n))
-            log.info("[%s] %s: %d event(s), %d post(s) analysed", venue.id, src.key, len(events), out.posts_analyzed)
+    async def process_social(self, work: list[tuple[Venue, SocialSource]], state: State, client: httpx.Client,
+                             report: RunReport) -> None:
+        # Stalest first: a run cut short by the time budget must not starve the same sources every day.
+        work = sorted(work, key=lambda vs: vs[1].last_fetched or date.min)
+        sem = asyncio.Semaphore(SOCIAL_SOURCES_IN_PARALLEL)
+
+        async def one(venue: Venue, src: SocialSource) -> None:
+            async with sem:
+                await self.process_social_source(venue, src, state, client, report)
+
+        await asyncio.gather(*[one(v, s) for v, s in work])
+        if self.social_skipped:
+            msg = f"time budget spent: {len(self.social_skipped)} social source(s) wait for the next run ({', '.join(self.social_skipped)})"
+            log.info(msg)
+            report.alerts.append(Alert(level="warning", venue_id="social", source_url="", message=msg))
+
+    async def process_social_source(self, venue: Venue, src: SocialSource, state: State, client: httpx.Client,
+                                    report: RunReport) -> None:
+        report.sources_total += 1
+        out = await self.social.process(venue, src, client)
+        if out.skipped:
+            self.social_skipped.append(src.key)
+        report.llm_calls += out.llm_calls
+        report.posts_analyzed += out.posts_analyzed
+        report.apify_runs += int(out.fetched)
+        report.events_rejected_grounding += out.rejected_checks
+        report.events_rejected_verifier += out.rejected_verifier
+        report.events_uncertain += out.uncertain
+        kind = "facebook" if src.kind.startswith("facebook") else "instagram"
+        events: list[Event] = []
+        for ev, verdict, reason in out.events:
+            e = to_event(ev, venue, src.url, kind, self.today, verdict, reason)
+            prev = state.events.get(e.uid)
+            if prev is not None and prev.source_url != src.url and prev.last_seen == self.today:
+                continue  # already published from another source this run (the website is canonical)
+            events.append(e)
+        events, dropped = publishable(venue, events)
+        if dropped:
+            log.info("[%s] %s: %d regular screening(s) left out by the %s rule", venue.id, src.key, dropped, venue.category)
+        if out.error is None:
+            report.sources_ok += 1
+        alerts = merge_source(state, src.url, venue.id, events, self.today, None, None)
+        if out.error:
+            alerts.append(Alert(level="error", venue_id=venue.id, source_url=src.url, message=out.error))
+        report.alerts.extend(alerts)
+        for n in out.notes:
+            report.alerts.append(Alert(level="warning", venue_id=venue.id, source_url=src.url, message=n))
+        log.info("[%s] %s: %d event(s), %d post(s) analysed", venue.id, src.key, len(events), out.posts_analyzed)
 
     def _empty_ok(self, record: SourceRecord, doc: SourceDocument, out: VenueOutcome) -> VenueOutcome:
         """Successful run with zero events (source confirmed empty)."""
@@ -437,6 +463,7 @@ class Runner:
                            events_rejected_verifier=0, events_uncertain=0)
         before = set(state.events)
         expire_past(state, self.today)
+        social_work: list[tuple[Venue, SocialSource]] = []
         with make_client() as client:
             for venue in venues:
                 if not venue.enabled:
@@ -461,11 +488,14 @@ class Runner:
                     for n in outcome.notes:
                         report.alerts.append(Alert(level="warning", venue_id=venue.id, source_url=source_url, message=n))
                 if social is not None and self.settings.has_social and venue.social:
-                    await self.process_social(venue, sources, social, state, client, report)
+                    social_work += [(venue, src) for src in venue_social_sources(venue, sources.sources.get(venue.id), social)]
                 elif not venue.social:
                     gone = forget_events(state, venue.id, {"instagram", "facebook"})
                     if gone:
                         log.info("[%s] social disabled: %d social event(s) forgotten", venue.id, gone)
+            # Websites first (fast, mostly model-free) so the agenda is fresh even when the social backlog is not.
+            if social_work:
+                await self.process_social(social_work, state, client, report)
         state.last_run = self.today
         report.events_published = len(state.events)
         report.events_new = len(set(state.events) - before)
@@ -482,6 +512,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--today", help="override today's date (YYYY-MM-DD)")
     parser.add_argument("--no-images", action="store_true", help="skip downloading event visuals into site/img/")
     parser.add_argument("--no-enrich", action="store_true", help="do not fetch event pages to complete truncated titles")
+    parser.add_argument("--budget-minutes", type=float, default=DEFAULT_BUDGET_MINUTES,
+                        help="no social fetch or post analysis starts after this many minutes (0 = no limit)")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -512,7 +544,9 @@ def main(argv: list[str] | None = None) -> int:
     if not settings.has_social:
         log.info("APIFY_API_KEY not set: Instagram / Facebook sources skipped")
 
-    runner = Runner(settings, today, verify=not args.no_verify, allow_llm=not args.no_llm, enrich=not args.no_enrich)
+    deadline = time.monotonic() + args.budget_minutes * 60 if args.budget_minutes > 0 else None
+    runner = Runner(settings, today, verify=not args.no_verify, allow_llm=not args.no_llm, enrich=not args.no_enrich,
+                    deadline=deadline)
     credits_before = fetch_credits(settings)
     try:
         report = asyncio.run(runner.run(venues, sources, state, social))

@@ -1,31 +1,31 @@
 {
- "run_date": "2026-10-26",
+ "run_date": "2026-10-27",
  "sources_total": 50,
- "sources_ok": 49,
+ "sources_ok": 50,
  "sources_skipped_unchanged": 0,
- "events_published": 457,
- "events_new": 156,
- "events_rejected_grounding": 202,
- "events_rejected_verifier": 16,
- "events_uncertain": 5,
+ "events_published": 483,
+ "events_new": 30,
+ "events_rejected_grounding": 207,
+ "events_rejected_verifier": 11,
+ "events_uncertain": 7,
  "alerts": [
   {
    "level": "warning",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-02"
+   "message": "no upcoming event on source at last check; next generation attempt 2026-11-02"
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-10-26: \"Permanence de Mille Bâbords et de sa médiathèque\" corresponds to opening hours of the venue and its library rather than a dated public event."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-02: \"Permanence de Mille Bâbords et de sa médiathèque\" refers to venue/library opening hours (permanence d'accueil et d'ouverture au public), not a distinct public event."
   },
   {
-   "level": "error",
-   "venue_id": "les-varietes",
-   "source_url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
-   "message": "source failed, last verified state kept: unhealthy schema: 2/3 items failed to parse"
+   "level": "warning",
+   "venue_id": "mille-babords",
+   "source_url": "https://www.millebabords.org/spip.php?rubrique2",
+   "message": "verifier uncertain 'Permanence RESF 13 jeunes majeurs et familles sans papiers' 2026-11-04: The excerpt gives '04 novembre 14:30' with no year and no weekday to confirm the inferred year 2026."
   },
   {
    "level": "warning",
@@ -35,45 +35,45 @@
   },
   {
    "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
-   "message": "schema not validated (agreement 0.00); attempts=[{'items': 1, 'events': 0, 'valid': 0, 'failures': 1, 'agreement': 0.0, 'time_gaps': 0}, {'items': 1, 'events': 0, 'valid': 0, 'failures': 1, 'agreement': 0.0, 'time_gaps': 0}, {'items': 1, 'events': 0, 'valid': 0, 'failures': 0, 'agreement': 0.0, 'time_gaps': 0}]"
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected 'Cycle cinéma | Cinéma expérimental :\\xa0Cinédanse' 2026-10-29: The excerpt specifies the cycle runs 'du mardi 27 octobre 2026 au jeudi 29 octobre 2026', but start_date was incorrectly extracted as '2026-10-29' instead of '2026-10-27'."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cycle cinéma | Cinéma expérimental :\\xa0Cinédanse' 2026-10-29: The excerpt specifies the date range as \"du mardi 27 octobre 2026 au jeudi 29 octobre 2026\", contradicting the extracted start date of 2026-10-29 (which is the end date)."
+   "message": "verifier rejected 'Même Pas Peur ! #12 | Halloween' 2026-10-31: The excerpt gives no start time (listing only '[2026-10-31T00:00:00+01:00] samedi 31 octobre 2026'), contradicting the extracted start time of 01:00:00."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Même Pas Peur ! #12 | Halloween' 2026-10-31: The excerpt has timestamp '[2026-10-31T00:00:00+01:00] samedi 31 octobre 2026' with no event start time of 01:00:00 (the extracted time appears to mistakenly derive from the +01:00 timezone offset)."
+   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the cycle runs \"du mercredi 11 novembre 2026 au jeudi 12 novembre 2026\", making the start date 2026-11-11, contradicting the extracted start date of 2026-11-12."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date 2027-01-20 is the end date; the excerpt states \"du [2026-09-30T00:00:00+00:00] mercredi 30 septembre 2026 au [2027-01-20T00:00:00+00:00] mercredi 20 janvier 2027\"."
+   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt lists `samedi 14 novembre 2026` with no start time; the extracted time `01:00:00` appears to be a hallucination/parsing artifact of the timezone offset `+01:00`."
+  },
+  {
+   "level": "warning",
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date is 2027-01-20, which is the end date; the excerpt states \"du [2026-09-30T00:00:00+00:00] mercredi 30 septembre 2026 au [2027-01-20T00:00:00+00:00] mercredi 20 janvier 2027\"."
   },
   {
    "level": "warning",
    "venue_id": "la-camaraderie",
    "source_url": "https://www.lacamaraderie.net/agenda",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-02"
+   "message": "no upcoming event on source at last check; next generation attempt 2026-11-02"
   },
   {
    "level": "warning",
    "venue_id": "twali",
    "source_url": "https://www.twalimarseille.fr/evenements",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-02"
-  },
-  {
-   "level": "warning",
-   "venue_id": "frac-sud",
-   "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "schema induced without a model: 113 cards matched by 'span.avec_logo.intitules', 3 upcoming events, coverage 1.00, quality 0.99"
+   "message": "no upcoming event on source at last check; next generation attempt 2026-11-02"
   },
   {
    "level": "warning",
@@ -85,236 +85,206 @@
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The extracted start date is in 2027, whereas the excerpt explicitly dates the event to 2026: 'Du 15 mars à 18h00 au 16 mars 2026 à 21h00' and 'Dimanche 15 mars 2026'."
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly states the year is 2026 ('au 16 mars 2026 à 21h00', 'Dimanche 15 mars 2026'), not 2027. Furthermore, relative to today (2026-10-27), this is a past event."
   },
   {
    "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram verifier rejected 'MATCH Dialogues – Session 1' 2026-10-27: The post announces an online-only event: \"💻 En ligne - lien en bio !\" / \"To join us, register via the link in bio\", so it does not take place at Friche la Belle de Mai — that venue appears only as one of the partner logos on the flyer. The date (mardi 27 octobre 2026, a Tuesday) and time (16h–18h CET) do match, but the location is wrong."
+   "venue_id": "l-intermediaire",
+   "source_url": "https://www.facebook.com/Intermediaire.live/",
+   "message": "facebook verifier rejected 'KILL TH THRILL (Indus post punk Marseille légende)' 2026-10-27: Neither the caption nor the flyer contains any date or venue: the flyer only reads \"KILL THE THRILL / DARK AMBIENT INDUS - MARSEILLE LÉGENDE / featuring Joe Goldring\" and \"AVIDE AMANT - POST-PUNK NOISE - RENNES\", and the caption is pure band bio (\"La sortie de leur album Autophagie en 2024 a marqué le grand retour...\"). The extracted start_date 2026-10-27 is simply the current day, with no textual support (publication was 2026-10-03), and no mention of L'Intermédiaire anywhere."
   },
   {
    "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram verifier rejected 'CHRONIQUES – la Biennale des Imaginaires Numériques' 2026-10-24: The extracted event is the whole biennale, which is not located at Friche la Belle de Mai: the flyer states \"Divers lieux\" and the caption lists \"📍 Marseille, Aix-en-Provence, Avignon, Arles, Istres et Port-de-Bouc\". Friche only hosts part of the programme (\"Vernissage de Souffles terrestres au Centre de la Vieille Charité, puis de Désobéir à l'ère numérique ... à la Friche la Belle de Mai\"), so the given venue merely shares the multi-site event."
+   "venue_id": "l-intermediaire",
+   "source_url": "https://www.facebook.com/Intermediaire.live/",
+   "message": "facebook verifier rejected 'AVIDE AMANT (Rennes)' 2026-10-27: Neither the caption nor the flyer contains any date: the caption only describes the two bands (\"KILL TH THRILL ... AVIDE AMANT (Rennes)\") and the flyer shows only band names and genres, so the extracted start_date 2026-10-27 (which is simply today's date) is unsupported by the post."
   },
   {
    "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from Venice: Function name was ```json final_result( but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from DeepInfra: Function name was ```json  but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from Venice: Function name was ```json final_result( but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook verifier rejected 'MATCH Dialogues #1' 2026-10-27: The event is explicitly an online session, not one held at the given venue: the caption states \"💻 En ligne - lien en bio !\" and the flyer says \"To join us, register via the link in bio\", so Friche la Belle de Mai merely shares/hosts the announcement rather than being the location. (Date \"Mardi 27 octobre\" 2026 and time \"16h – 18h (CET)\" do match the extracted values.)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook verifier rejected 'RÉSISTANCES NUMÉRIQUES' 2026-10-22: The post announces recurring opening hours, not a dated event: \"Du mercredi au vendredi de 15h30 à 17h30 | Samedi de 14h à 15h30 - Hors vacances scolaires\" — a weekly schedule template with no concrete date, so the extracted single start_date 2026-10-22 (a jeudi) and end_date 2026-12-31 are fabricated."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook verifier rejected 'FAMILYTECH' 2026-10-25: The caption describes a recurring series with no concrete date — \"FAMILYTECH / Plusieurs samedis de 15h30 à 17h30 - hors vacances scolaires\" — yet the extracted start_date 2026-10-25 is a dimanche (Sunday), contradicting the stated \"samedis\"."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook verifier rejected 'NUMÉRITECH' 2026-10-25: The caption announces a recurring series with no concrete date — \"📡 NUMÉRITECH / Plusieurs amedis de 15h30 à 17h30 - hors vacances scolaires\" (i.e. several Saturdays) — yet the extractor invented a single start date of 2026-10-25, which is a dimanche (Sunday), contradicting the stated weekday; the end date 2026-12-31 is likewise unsupported."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook rejected 'festival en ribambelle' 2026-10-17: title not found in caption: 'festival en ribambelle'"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
+   "venue_id": "l-intermediaire",
+   "source_url": "https://www.facebook.com/Intermediaire.live/",
    "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier uncertain 'LA COLÈRE NOUS APPARTIENT : RÉCITS DE JUSTICE EXTRA-PÉNALE' 2026-10-26: The only readable text on the flyer is \"PRÉSENTATION DU LIVRE 'LA COLÈRE NOUS APPARTIENT : RÉCITS DE JUSTICE EXTRA-PÉNALE' EN PRÉSENCE DES AUTEURS DU COLLECTIF GARE\" — no date, time or venue is legible, so the extracted start_date 2026-10-26 (marked from_image) cannot be confirmed or contradicted from the post."
+   "venue_id": "la-baleine",
+   "source_url": "https://www.instagram.com/labaleinemarseille/",
+   "message": "instagram rejected 'LES RECOMMENCEMENTS' 2026-10-27: evidence not found verbatim in caption: '▶️ mer 27 à 19h10'"
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook rejected 'Projection à 20 h' 2026-11-11: weekday mismatch: evidence says mardi but 2026-11-11 is a mercredi"
+   "venue_id": "la-baleine",
+   "source_url": "https://www.instagram.com/labaleinemarseille/",
+   "message": "instagram rejected 'Mothership' 2026-11-12: evidence not found verbatim in caption: 'Le 12 novembre, le cinéma @labaleinemarseille, partenaire du festival, accueille'"
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook rejected 'Écoute de podcast à 19 h 15' 2026-11-12: weekday mismatch: evidence says mercredi but 2026-11-12 is a jeudi"
+   "venue_id": "la-baleine",
+   "source_url": "https://www.instagram.com/labaleinemarseille/",
+   "message": "instagram rejected 'Mothership' 2026-11-12: evidence not found verbatim in caption: 'Le 12 novembre, le cinéma @labaleinemarseille, partenaire du festival, accueille'; duplicate of another event in this answer (same title and date)"
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook rejected 'Présentation à 19 h' 2026-11-25: weekday mismatch: evidence says mardi but 2026-11-25 is a mercredi"
+   "venue_id": "la-baleine",
+   "source_url": "https://www.instagram.com/labaleinemarseille/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier rejected 'Braderie à partir de 10 h' 2026-11-07: The flyer announces \"SAMEDI 10 OCTOBRE BRADERIE À PARTIR DE 10 H\" and the caption reads \"Programme d'octobre\" — i.e. samedi 10 octobre 2026, which is BEFORE the post's publication date of lundi 2026-10-12, and nothing on the flyer supports the extracted start_date 2026-11-07 (the \"27 octobre\" on the flyer is a separate \"MARDI 27 OCTOBRE PRÉSENTATION À 19 H\", not the braderie)."
+   "venue_id": "la-baleine",
+   "source_url": "https://www.instagram.com/labaleinemarseille/",
+   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from Venice: Function name was ```jsonfinal_result but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier rejected 'Tables ouvertes à partir de 14 h 30' 2026-11-07: The flyer places this event on \"SAMEDI 10 OCTOBRE\" (\"TABLES RONDES À PARTIR DE 14 H 30\"), not on 2026-11-07; moreover 10 October 2026 precedes the post's publication date of 2026-10-12, so the extracted start_date contradicts the flyer."
+   "venue_id": "l-intermediaire",
+   "source_url": "https://www.instagram.com/l_intermediaire/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier rejected 'Vire livres au mur à partir de 14 h 30' 2026-11-07: The flyer places \"VIRE LIVRES AU MUR\" under \"SAMEDI 10 OCTOBRE\" (with \"TABLES RONDES À PARTIR DE 14 H 30\"), not on 2026-11-07; moreover 10 October 2026 is before the publication date of 12 October 2026, so the event had already passed."
+   "venue_id": "la-baleine",
+   "source_url": "https://www.facebook.com/labaleinemarseille/",
+   "message": "facebook verifier uncertain 'Aboard the Aquarius' 2026-11-14: The flyer's date line is cut off at the left edge (\"...NOVEMBRE | 19h | 21h15\"), so the day number \"14\" cannot be verified, and the only legible date reference is the range \"plat solidaire à La Baleine du 9 au 15 novembre\", which makes the single extracted date 2026-11-14 genuinely ambiguous; the times 19h/21h15 do match."
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier rejected 'Présentation à 20 h' 2026-11-07: The flyer reads \"VENDREDI 2 OCTOBRE PRÉSENTATION À 20 H\" — a Friday 2 October, not the extracted samedi 7 November; moreover 2 October 2026 falls before the post's publication date (12 October 2026), so the announced date is contradicted and already past."
+   "venue_id": "la-baleine",
+   "source_url": "https://www.facebook.com/labaleinemarseille/",
+   "message": "facebook rejected 'LES DIABLES de Ken Russel (1971)' 2026-10-30: evidence not found verbatim in caption: \"The Director's Cut, restaurée et remastérisée 4k! Séance spéciale en présence de\""
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier uncertain 'Potlatch' 2026-10-26: The post has no caption and the single flyer shows only the words \"POTLATCH\" and \"SUNDANCES 2026\" — there is no day, date, time or venue anywhere, so the extracted start_date 2026-10-26 (which is merely today's date) is unsupported and unverifiable. The date is genuinely ambiguous, so the event cannot be accepted."
+   "venue_id": "la-baleine",
+   "source_url": "https://www.facebook.com/labaleinemarseille/",
+   "message": "facebook verifier uncertain 'SONS' 2026-11-13: The flyer only reads \"NOVEMBRE | 20h\" with no day number, so the extracted start_date 2026-11-13 is unsupported; the title is also cut off (\"S\" + \"HILL (2019)\"), making the date genuinely ambiguous."
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier uncertain 'Brecht et les mauvais temps nouveaux' 2026-10-26: The flyer only announces \"Rencontre avec Olivier Neveux\" (a book event for \"Brecht et les mauvais temps nouveaux\") and shows no date at all; the caption is empty, so the extracted start_date 2026-10-26 (which is simply today) is unsupported and the date is genuinely ambiguous."
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook verifier uncertain 'Rencontre avec Olivier Neveux' 2026-10-26: The flyer is legible but carries no date at all — it only reads \"MANIFESTEN\", \"La fabrique éditions\", \"Brecht et les mauvais temps nouveaux\" and \"Rencontre avec Olivier Neveux\" — so the extracted start_date 2026-10-26 (which is simply today's date) is unsupported by the post, and the caption is empty (\"(no caption)\"). The date is therefore genuinely ambiguous rather than contradicted."
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
+   "venue_id": "la-baleine",
+   "source_url": "https://www.facebook.com/labaleinemarseille/",
    "message": "facebook post analysis error: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+   "venue_id": "la-baleine",
+   "source_url": "https://www.facebook.com/labaleinemarseille/",
+   "message": "facebook post analysis error: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
   },
   {
    "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+   "venue_id": "la-baleine",
+   "source_url": "https://www.facebook.com/labaleinemarseille/",
+   "message": "facebook post analysis error: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
   },
   {
    "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook verifier uncertain 'Paroles de Citoyennes au Congrès ouvrier de 1879 à Marseille' 2026-10-26: The flyer shows only the title \"Paroles de Citoyennes au Congrès ouvrier de 1879 à Marseille\" with no date, time or weekday anywhere, and the post has \"(no caption)\", so the extracted start_date 2026-10-26 is unsupported by the post and the date is genuinely ambiguous."
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook verifier uncertain 'NOE' 2026-11-03: The attached flyer is a cropped fragment: only \"nov. 2026\" is legible, the day number is cut off, and the large title fragment reads \"BE\" rather than \"NOE\", so the extracted date \"3 nov. 2026\" and title cannot be confirmed from the post. No caption and no venue mention (\"AFLAM\" only) to corroborate Les Variétés."
   },
   {
    "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook verifier rejected 'Monde diplomatique manière de voir : Iran' 2026-10-26: The only evidence is a magazine cover reading \"MONDE diplomatique MANIÈRE DE VOIR / IRAN Guerres, révoltes, espérances\" — a publication cover, not an announcement of a dated public event; there is no caption, no date, no time and no mention of Transit librairie, so the extracted 2026-10-26 date is unsupported."
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook verifier rejected 'Venez rencontrer les deux auteurs de « Stephen King La Totale »' 2026-11-24: The caption explicitly says \"ce mardi 27 novembre dès 19h\", but the extracted start_date is 2026-11-24 — a different day (and 27 November 2026 is actually a Friday, not a mardi), so the written date contradicts the extracted value."
   },
   {
    "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "8 new facebook post(s) left for the next run (time budget spent)"
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook verifier rejected 'Projection à 19h45 de La part des ténèbres de Georges A. Romero' 2026-11-24: The caption dates the event \"ce mardi 27 novembre dès 19h\", but the extracted start_date is 2026-11-24 — a different day. Moreover, 27 November 2026 is a Friday, so the written weekday \"mardi\" cannot match the year 2026, making the extracted date contradict the caption."
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook verifier uncertain 'Soirée Mauvais Genres' 2026-10-27: The flyer is cropped and unreadable for dating: only fragments \"SOIREE MAUVAIS GENRES\", \"BRES\", \"Totale\" avec les ... Franck Lafond ... vages ... du film\" are visible, with no date, time or weekday anywhere, and there is no caption. The extracted start_date 2026-10-27 is simply the current day and cannot be confirmed from the post; the logo shown is \"LES SAUVAGES\" (a production company), not the venue Les Variétés."
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook verifier uncertain 'FESTIV Aflam' 2026-11-07: The single attached image is a photo of a person against a tiled wall with only fragmentary text (\"Aflam\", \"FESTIV\"); the claimed date \"7 novembre 2026\" is not legible on the flyer and there is no caption, so the extracted date cannot be verified from the post."
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook verifier uncertain 'LUX' 2026-11-01: The only image is cropped: it shows \"AVANT 1ÈRE\" and a truncated title \"UX\" (LUX), with the date/time line cut off (only a stray \"h\" and \"ouilh\" fragment visible). No caption exists, so the extracted start_date 2026-11-01 (a dimanche) cannot be confirmed or contradicted from the post — the flyer is unreadable for the decisive date."
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook rejected 'AVANT 1ÈRE' 2026-10-27: weekday mismatch: evidence says lundi but 2026-10-27 is a mardi"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook post analysis error: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+  },
+  {
+   "level": "warning",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.instagram.com/cinemalegyptis/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.instagram.com/cinemalegyptis/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.instagram.com/cinemalegyptis/",
+   "message": "16 new instagram post(s) left for the next run (time budget spent)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
+   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
+   "message": "4 new instagram post(s) left for the next run (time budget spent)"
   },
   {
    "level": "warning",
    "venue_id": "social",
    "source_url": "",
-   "message": "time budget spent: 26 social source(s) wait for the next run (instagram:l_intermediaire, facebook:Intermediaire.live, instagram:labaleinemarseille, facebook:labaleinemarseille, instagram:cinemalesvarietes.marseille, facebook:lesvarietesmarseille, instagram:cinemalegyptis, facebook:cinemalegyptis, instagram:lafabulerie, facebook:Fabulerie, instagram:lacoloradamarsella, instagram:la.camaraderie13, instagram:twali.marseille, facebook:twalibelsunce, instagram:lembobineusemarseille, facebook-events:manifesten, facebook-events:friche.labelledemai, facebook-events:transit.librairie, facebook-events:Intermediaire.live, facebook-events:labaleinemarseille, facebook-events:lesvarietesmarseille, facebook-events:cinemalegyptis, facebook-events:Fabulerie, facebook:lacoloradamarsella, facebook-events:lacoloradamarsella, facebook-events:twalibelsunce)"
+   "message": "time budget spent: 23 social source(s) wait for the next run (facebook:cinemalegyptis, instagram:lafabulerie, facebook:Fabulerie, instagram:lacoloradamarsella, instagram:la.camaraderie13, instagram:twali.marseille, facebook:twalibelsunce, instagram:lembobineusemarseille, facebook-events:manifesten, facebook-events:friche.labelledemai, facebook-events:transit.librairie, facebook-events:Intermediaire.live, facebook-events:labaleinemarseille, facebook-events:lesvarietesmarseille, facebook-events:cinemalegyptis, facebook-events:Fabulerie, facebook:lacoloradamarsella, facebook-events:lacoloradamarsella, facebook-events:twalibelsunce, facebook:manifesten, instagram:frichelabelledemai, facebook:friche.labelledemai, facebook:transit.librairie)"
   }
  ],
- "llm_calls": 233,
- "posts_analyzed": 47,
- "apify_runs": 4,
- "images_published": 402,
- "images_failed": 3,
- "credits_remaining_usd": 16.7496,
- "run_cost_usd": 1.0348
+ "llm_calls": 202,
+ "posts_analyzed": 80,
+ "apify_runs": 7,
+ "images_published": 420,
+ "images_failed": 0,
+ "credits_remaining_usd": 16.1575,
+ "run_cost_usd": 0.5863
 }

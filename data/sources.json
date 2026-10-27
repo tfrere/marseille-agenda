@@ -75,7 +75,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 3,
    "content_hash": "e561cad7e8567230",
@@ -103,7 +103,7 @@
    },
    "discovered": "2026-09-12",
    "schema_record": null,
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 0,
    "content_hash": "228a2c1c0822255a",
@@ -263,10 +263,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
-   "last_event_count": 179,
-   "content_hash": "7bb3435a70295e67",
+   "last_event_count": 178,
+   "content_hash": "f7b07966bd2d1f8b",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -362,10 +362,10 @@
     "generator_model": "manual",
     "version": 2
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
-   "last_event_count": 35,
-   "content_hash": "d06b008780101441",
+   "last_event_count": 36,
+   "content_hash": "6aed4451e572cb65",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -439,10 +439,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 5,
-   "content_hash": "89d1c8f283f3cca8",
+   "content_hash": "6e48de5432bab883",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -524,10 +524,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 30,
-   "content_hash": "186106032e75745b",
+   "content_hash": "6e4d496d3ea44bd5",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -609,10 +609,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
-   "last_event_count": 1,
-   "content_hash": "d53f4e66c7cf1657",
+   "last_event_count": 2,
+   "content_hash": "f414501cb95f5a04",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -677,7 +677,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 2,
    "content_hash": "2420947ff1163957",
@@ -746,7 +746,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 13,
    "content_hash": "cbdd2451e2e0f6da",
@@ -777,14 +777,21 @@
        "kind": "html",
        "container_selector": null,
        "exclude_selectors": [],
-       "item_selector": "div.bloc",
+       "item_selector": "#cnt5287",
        "item_mode": "wrapper",
        "fields": {
         "title": {
-         "selector": "strong",
+         "selector": "",
+         "attr": null,
+         "regex": "(Films Femmes M[ée]diterran[ée]e)",
+         "constant": null,
+         "join": null
+        },
+        "date": {
+         "selector": "",
          "attr": null,
          "regex": null,
-         "constant": null,
+         "constant": "05 - 13 NOVEMBRE 2026",
          "join": null
         },
         "url": {
@@ -794,8 +801,8 @@
          "constant": null,
          "join": null
         },
-        "date": {
-         "selector": "",
+        "summary": {
+         "selector": "p:nth-of-type(2)",
          "attr": null,
          "regex": null,
          "constant": null,
@@ -803,23 +810,23 @@
         }
        },
        "date_format": null,
-       "notes": "Induced deterministically from the repeated dated cards of the page."
+       "notes": ""
       }
      ],
-     "notes": "Deterministic induction (no model)."
+     "notes": ""
     },
-    "created": "2026-10-06",
-    "validated_against_llm": false,
-    "agreement": 0.96,
-    "generator_model": "induction",
-    "version": 2
+    "created": "2026-10-27",
+    "validated_against_llm": true,
+    "agreement": 1.0,
+    "generator_model": "anthropic/claude-sonnet-5",
+    "version": 3
    },
-   "last_ok": "2026-10-10",
-   "last_error": "unhealthy schema: 2/3 items failed to parse",
-   "last_event_count": 2,
-   "content_hash": "ef3a4133cfecc5ba",
-   "consecutive_failures": 1,
-   "regenerations": 1,
+   "last_ok": "2026-10-27",
+   "last_error": null,
+   "last_event_count": 1,
+   "content_hash": "9ca985ede5a50e09",
+   "consecutive_failures": 0,
+   "regenerations": 2,
    "next_generation": null
   },
   "le-gyptis": {
@@ -899,10 +906,10 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 14,
-   "content_hash": "263a1e7351d6b411",
+   "content_hash": "971e60f70c4b91ec",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -977,7 +984,7 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 9,
    "content_hash": "afa4326edd1fe601",
@@ -1062,10 +1069,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
-   "last_event_count": 29,
-   "content_hash": "4ed2ca34b0f24313",
+   "last_event_count": 38,
+   "content_hash": "4e7d47ac999a7116",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1170,7 +1177,7 @@
     "generator_model": "anthropic/claude-sonnet-5",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 67,
    "content_hash": "294b9987ee9cedf9",
@@ -1192,10 +1199,10 @@
    },
    "discovered": "2026-10-10",
    "schema_record": null,
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 0,
-   "content_hash": "013f6009319bc9d0",
+   "content_hash": "d992e6a272fb8e94",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": "2026-11-02"
@@ -1218,7 +1225,7 @@
    },
    "discovered": "2026-10-10",
    "schema_record": null,
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 0,
    "content_hash": "b33dd4376554a709",
@@ -1296,10 +1303,10 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
-   "last_event_count": 8,
-   "content_hash": "890633d0470e13c1",
+   "last_event_count": 9,
+   "content_hash": "f6421279e94cc111",
    "consecutive_failures": 0,
    "regenerations": 0,
    "next_generation": null
@@ -1371,7 +1378,7 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 3,
    "content_hash": "824638c394405695",
@@ -1449,7 +1456,7 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 24,
    "content_hash": "0820550c85efa553",
@@ -1520,7 +1527,7 @@
     "generator_model": "induction",
     "version": 1
    },
-   "last_ok": "2026-10-26",
+   "last_ok": "2026-10-27",
    "last_error": null,
    "last_event_count": 1,
    "content_hash": "004a41b59f5b4691",

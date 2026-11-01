@@ -4,10 +4,10 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-10-31",
+   "last_fetched": "2026-11-01",
    "last_ok": "2026-10-26",
-   "last_error": "apify~facebook-posts-scraper: HTTP 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n",
-   "consecutive_failures": 3,
+   "last_error": "apify~facebook-posts-scraper: no_items",
+   "consecutive_failures": 4,
    "posts": {
     "1660677512734544": {
      "id": "1660677512734544",
@@ -395,8 +395,8 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1961,8 +1961,8 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3334,6 +3334,18 @@
       "https://scontent-det1-1.xx.fbcdn.net/v/t39.99422-6/867687613_1801177361127600_7366340428561959623_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=WvNhq9yB_HkQ7kNvwGhlbjK&_nc_oc=Adrjfq4-7g0CgNYK0PQlYkyLpyi6N41f_K8dEP6yb72ATu3E4DvD5KhH7cZlF1SGIhA&_nc_zt=14&_nc_ht=scontent-det1-1.xx&_nc_gid=PYxbHypOH52P8nyNodXJJA&_nc_ss=70180&oh=00_AQSlVCzASPcgk5schFXiqQULPbzbzjzuuqgt6nFREm2iQA&oe=6AE9FDC4",
       "https://scontent-det1-1.xx.fbcdn.net/v/t39.99422-6/864869687_1101536435850183_3697795504610694980_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Qd4JdMY-w1EQ7kNvwFMmSyK&_nc_oc=Adr91u3m3OOPQ77Nx1qQNSWNOXBu0bTz0cmkoMQvYbdlTxwFN-2G7cFRDsNGxkt2YvA&_nc_zt=14&_nc_ht=scontent-det1-1.xx&_nc_gid=PYxbHypOH52P8nyNodXJJA&_nc_ss=70180&oh=00_AQR64nYAc8hNp7V3qBpo90_v5nsE2_vgiB7iPEwEBf9NiA&oe=6AE9F39E"
      ]
+    },
+    "1581624163992651": {
+     "id": "1581624163992651",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02BakSB86hbzUgA5BEJRXBgtGvz8YDKS8HgdWjTzBFtm8DX9fbin48kMmXhQnSmSs6l",
+     "published": "2026-10-30",
+     "analyzed": "2026-11-01",
+     "is_announcement": true,
+     "events": [],
+     "notes": "The event 'CINÉDRAG 🎃' is in the past and has been removed.",
+     "image_urls": [
+      "https://scontent.fosu2-2.fna.fbcdn.net/v/t39.99422-6/874666729_1922289965403534_1494463368177338213_n.png?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PE7G8ER7lGgQ7kNvwEn9tJt&_nc_oc=AdofCGuWmZP_kpod9KtZ-Q_T6O1N3TAYx-EKi29pf1igg6aPOWJ8L8qjATNQo7gPtzIth_dnX1WvMsZ3TUYlnYhu&_nc_zt=14&_nc_ht=scontent.fosu2-2.fna&_nc_gid=x1yLJgXLNEc5zoIHPswNLA&_nc_ss=70180&oh=00_AQT2buYzpv5Hrerhmlu7SQ6I7cjd43X58xjtrR-r_qngVA&oe=6AECA23D"
+     ]
     }
    },
    "fb_events": []
@@ -3353,8 +3365,8 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3992,8 +4004,8 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -5001,8 +5013,8 @@
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -5167,6 +5179,18 @@
      "image_urls": [
       "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/865990537_1721848539949391_8134920979309332061_n.png?stp=dst-jpg_tt6&cstp=mx2048x787&ctp=p180x540&_nc_cat=102&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=VlbO4ZfEG7cQ7kNvwGP-cCn&_nc_oc=Ado_-N_KrDZCfqyvqfkbI_0cM53BrTDmC6BO6s1R4bJ2PseEeLZolcczBVVIN_w0zY8&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=HId_KvNyQBeNQNJJNgvWCA&_nc_ss=73180&oh=00_AQRWx8-MkpLKwGWh-lV6aMvy6MNweDGKqq_7piSy2otGuw&oe=6AEA1B3F"
      ]
+    },
+    "1721849763282602": {
+     "id": "1721849763282602",
+     "url": "https://www.facebook.com/Intermediaire.live/posts/1950483273023957:1950483273023957",
+     "published": "2026-10-27",
+     "analyzed": "2026-11-01",
+     "is_announcement": false,
+     "events": [],
+     "notes": "All events are in the past.",
+     "image_urls": [
+      "https://scontent.fiow1-1.fna.fbcdn.net/v/t39.30808-6/870533330_1721849766615935_2866753335562953475_n.png?stp=dst-png&cstp=mx2048x787&ctp=p180x540&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=k0gx_8mWx2QQ7kNvwHKoJ-W&_nc_oc=AdrkC7d8v9IAJHsI3XHkr6UuF_hXqF1brYZVCVNeSaN8fe0ae82r8goPoKUtwMFny1c&_nc_zt=23&_nc_ht=scontent.fiow1-1.fna&_nc_gid=Jcsb4exafWe_4h2DoutBvA&_nc_ss=70180&oh=00_AQRV1CBM4RLqt2Gfyx_cJjN6lmftVF1wA6uo19PIwHza4Q&oe=6AEC9898"
+     ]
     }
    },
    "fb_events": []
@@ -5202,8 +5226,8 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -6247,8 +6271,8 @@
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -7595,6 +7619,38 @@
       "https://scontent-phl2-1.xx.fbcdn.net/v/t39.99422-6/868008038_1138930922002689_8558882024282610426_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5x1SJooTSe0Q7kNvwEOwdBn&_nc_oc=AdraIivZVv-OJDFLI3zl9RRcOKWoZH3VRTcumzvvNGlVC2nx0HwyNBRXacdJr2izmW8&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=i35gDYxx7PxSiVbX83gp_A&_nc_ss=70180&oh=00_AQSxgMMRxi0ZOS8lVfAfIGOafF6zabrXdEBSoCgdqaM6NQ&oe=6AEA04E7",
       "https://scontent-phl2-1.xx.fbcdn.net/v/t39.99422-6/870303698_1824524665511396_605882777123569985_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VHrt9TzjN3IQ7kNvwE0FCZ9&_nc_oc=AdodC515mCce_1yndl_VMDPpU8TAnUepKeRjY5d370ihoMw2tTfUu0CEsTPO5k_Y_vE&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=i35gDYxx7PxSiVbX83gp_A&_nc_ss=70180&oh=00_AQS_fsq0w0xVgjozGJX5tFaAcu7d2JufV1VxV57XsALr_w&oe=6AEA0DB8"
      ]
+    },
+    "961881103253099": {
+     "id": "961881103253099",
+     "url": "https://www.facebook.com/events/961881103253099/",
+     "published": "2026-10-31",
+     "analyzed": "2026-11-01",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "INSCIENCE POLITIQUE",
+       "start_date": "2026-12-04",
+       "start_time": "18:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "DECEMBRE | 18h",
+        "INSCIENCE POLITIQUE"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The flyer only shows \"DECEMBRE | 18h\" with the day number cropped off the left edge, so the extracted start_date 2026-12-04 (a vendredi) cannot be confirmed from the post; the day of the month is genuinely unreadable."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-den2-1.xx.fbcdn.net/v/t39.99422-6/866591991_3451049405194675_7290186448682182786_n.png?stp=c459.0.1080.1080a_dst-jpg_tt6&cstp=mx1080x1080&ctp=s565x565&_nc_cat=102&ccb=1-7&_nc_sid=1abd25&_nc_ohc=63x4CUf0SbAQ7kNvwGwdzNY&_nc_oc=AdqS-Fk6o-ekkasAgLvRdqKXz5sjtZqvNu954MFkrYeNLio_emBDnL2sZIY0NZFaO0o&_nc_zt=14&_nc_ht=scontent-den2-1.xx&_nc_gid=Npfin_LNv0qHK23LeQTpUA&_nc_ss=70180&oh=00_AQS8Cy41KvvXU_I1-uDuwk4QzkdyoFUuBihwAbyG8a6Lsw&oe=6AECBADC"
+     ]
     }
    },
    "fb_events": []
@@ -7825,8 +7881,8 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -8678,8 +8734,8 @@
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -9331,8 +9387,8 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -10408,6 +10464,90 @@
      "image_urls": [
       "https://scontent-itm1-1.cdninstagram.com/v/t51.82787-15/841296884_18202491121378716_3001622701154005838_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAwNDE2NDI1OTQ3ODEyMzkwNzE4MjAyNDkxMTE4Mzc4NzE2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=QbAV-UGE_g0Q7kNvwEeuhC7&_nc_oc=AdrasS6KZfBrBQHxHXB7sSJREfhF0rdGLOe9PjHwL6pEg94jvqaQCZkTu8USsVRm0NqoFczWT7yHKlTR_2zP4AKq&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-itm1-1.cdninstagram.com&_nc_gid=YIRd2QcxGY9hxuNKfRYN5g&_nc_ss=7f20f&oh=00_AQRF4Vf4HMlkabM0WKEnt0R8h6YsGNoOYCe91NqLuDHFjA&oe=6AEB5988"
      ]
+    },
+    "4018757620572049934": {
+     "id": "4018757620572049934",
+     "url": "https://www.instagram.com/p/DfFfsN8l1IO/",
+     "published": "2026-10-29",
+     "analyzed": "2026-11-01",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "LES ROCHES ROUGES de Bruno Dumont",
+       "start_date": "2026-11-07",
+       "start_time": "18:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "OCAP",
+       "url": "https://www.ticketingcine.com/?EMS1207#showmovie?id=EG461",
+       "price": null,
+       "summary": "Le réalisateur de 'P\"tit Quinquin\" nous plonge dans une fable, portée par des enfants de 5 ans et fait de la baie varoise une gigantesque maquette du monde où ses personnages évoluent comme dans un western.",
+       "status": "scheduled",
+       "evidence": [
+        "📆 sam 7 : 18h OCAP / dim 8 : 16h",
+        "Le réalisateur de \"P\"tit Quinquin\" nous plonge dans une fable, portée par des enfants de 5 ans et fait de la baie varoise une gigantesque maquette du monde où ses personnages évoluent comme dans un western."
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The post is a forward-looking announcement (\"✨ PROCHAINEMENT AU GYPTIS\") of a dated public film screening, giving \"📆 sam 7 : 18h OCAP / dim 8 : 16h\", which matches the extracted Saturday 2026-11-07 at 18:00 (2026-11-01 is a Sunday, so 07 Nov is indeed a samedi). No cancellation/postponement is mentioned, and the ticketing link is provided."
+      },
+      {
+       "title": "LES ROCHES ROUGES de Bruno Dumont",
+       "start_date": "2026-11-08",
+       "start_time": "16:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://www.ticketingcine.com/?EMS1207#showmovie?id=EG461",
+       "price": null,
+       "summary": "Le réalisateur de 'P\"tit Quinquin\" nous plonge dans une fable, portée par des enfants de 5 ans et fait de la baie varoise une gigantesque maquette du monde où ses personnages évoluent comme dans un western.",
+       "status": "scheduled",
+       "evidence": [
+        "📆 sam 7 : 18h OCAP / dim 8 : 16h",
+        "Le réalisateur de \"P\"tit Quinquin\" nous plonge dans une fable, portée par des enfants de 5 ans et fait de la baie varoise une gigantesque maquette du monde où ses personnages évoluent comme dans un western."
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"✨ PROCHAINEMENT AU GYPTIS\" and gives \"📆 sam 7 : 18h OCAP / dim 8 : 16h\", so the 8 Nov 2026 16:00 screening falls on the stated Sunday, after the 29 Oct publication, at Le Gyptis; no cancellation is mentioned and the booking link matches."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fmad7-1.fna.fbcdn.net/v/t51.82787-15/874101813_18204921313378716_7231359243338392762_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAxODc1NzYyMDU3MjA0OTkzNDE4MjA0OTIxMzEwMzc4NzE2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=OeWTWOHAdyQQ7kNvwFhNqBG&_nc_oc=AdrXbmxc-ULTXGt_iBsKIMDlZy42OKQYnKk5cQH1ZbrPEBxF2V0HbrgZ9aqMTrPWSCY&_nc_ad=z-m&_nc_cid=1006&_nc_zt=23&_nc_ht=instagram.fmad7-1.fna&_nc_gid=sLmLuYQrALwGUPq4oUqquQ&_nc_ss=7320f&oh=00_AQR-7ZRGqdLoCdKqbOpwDqNEBpAVFD8dlhM6ZqQiR9J5SQ&oe=6AEC9D62"
+     ]
+    },
+    "4019180430322054558": {
+     "id": "4019180430322054558",
+     "url": "https://www.instagram.com/p/DfG_06NjDWe/",
+     "published": "2026-10-30",
+     "analyzed": "2026-11-01",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "PILLEURS DE TERRE",
+       "start_date": "2026-11-06",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "GRATUIT",
+       "summary": "Projection du film 'Pilleurs de Terre' suivie d'un débat animé par Terre de Liens PACA.",
+       "status": "scheduled",
+       "evidence": [
+        "📆 Vendredi 6 novembre à 19h",
+        "Projection dans le cadre du Festival Alimenterre",
+        "La projection sera suivie d’un débat animé par Terre de Liens PACA"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future event: \"📆 Vendredi 6 novembre à 19h\" for the screening of \"PILLEURS DE TERRE\" as part of Festival Alimenterre, \"GRATUIT\", with a following debate — 6 November 2026 is indeed a vendredi and falls after the 30 October 2026 publication date, and nothing in the post contradicts the venue, time or status."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.flhr1-2.fna.fbcdn.net/v/t51.82787-15/864931941_18204990097378716_4165272686996787115_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=NDAxOTE4MDQzMDMyMjA1NDU1ODE4MjA0OTkwMDkxMzc4NzE2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=xJPyeebjTWgQ7kNvwGbuDrS&_nc_oc=Adqs9fQTWQbTfz1DERtH_DWLkrhOXCh0EgdM2s2wmRgfsy1tSmrC0Z2Dk4Gfm5Ptxas&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.flhr1-2.fna&_nc_gid=KVxYQ_4Fy9DGptlZHlcWMg&_nc_ss=7320f&oh=00_AQQYZ5aF-dEnzonLBcQBgIF8kIaiYA6awsItkTD24ua-jw&oe=6AECB844"
+     ]
     }
    },
    "fb_events": []
@@ -10416,8 +10556,8 @@
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -11928,8 +12068,8 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -12019,6 +12159,21 @@
       "https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/846303164_18631059139063725_1920541300311163629_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=NDAwNjM0ODA1ODExNTYwODUxMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuODEwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=1z5i7esbxgwQ7kNvwFb80mX&_nc_oc=Adoh3yIVkpLFR7nqPUYQwpoL7mriWnfo-QqAXSICRzRFLRp_GZgrfgTMrVmxtgGQa7I&_nc_ad=z-m&_nc_cid=3033&_nc_zt=23&_nc_ht=scontent-mad2-1.cdninstagram.com&_nc_gid=698WUPrCCmOw-mc903Z0cg&_nc_ss=7a20f&oh=00_AQTBj1SMtp0MsGSlkaJTgf2RtqDt4gZhtUDl4OrhpEa-YQ&oe=6AE75652",
       "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/846320828_18631059148063725_450556589724643965_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=NDAwNjM0ODA1ODMzMzcxNTczNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuODEwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=s_Z6LwtW6uUQ7kNvwER-jzM&_nc_oc=AdoGazLbN2MMEXVqHg9Eo6Y6-AQReLtEKS7ItE-NGirNQM9QmVyEACLrKeG5pcROxaw&_nc_ad=z-m&_nc_cid=3033&_nc_zt=23&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_gid=698WUPrCCmOw-mc903Z0cg&_nc_ss=7a20f&oh=00_AQR_vvhzYWGGvEnDir8LX9AvevZUOMiPYTpQv7z4I3b89g&oe=6AE77287"
      ]
+    },
+    "4019995924889478566": {
+     "id": "4019995924889478566",
+     "url": "https://www.instagram.com/p/DfJ5P6tjiWm/",
+     "published": "2026-10-31",
+     "analyzed": "2026-11-01",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post is a recap of a past event.",
+     "image_urls": [
+      "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/883558584_18637895551063725_2308940961719619131_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=NDAxOTk5NTkxNTY3MDQyODM3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTYwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=P46bBeSvDJsQ7kNvwHnNAlu&_nc_oc=AdrdhXY3uwf1VAZjW2n9WOaQhVpDPcrF2ij49IUlJuH1FNWQjMWz6YNK3qNV4Ps58Vo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_gid=pMymFf25ov34d8YCVlKX4w&_nc_ss=7320f&oh=00_AQQQzbfa-i6Q5Utxx3z-n9p2t_q4lolPyCjJE6YVmKPA7Q&oe=6AECBA70",
+      "https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/883299851_18637895548063725_7656705997051169557_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=NDAxOTk5NTkxNTk4MDgwOTQ1OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTYwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=qdJUcitdf5MQ7kNvwG54mX9&_nc_oc=AdoBYUNWJ0kXcNpTuBOIGBdBvSKqlXG5HGUgRWw-BVV1PdQC9UL-DGD-Ws3RhSfIeVo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mad2-1.cdninstagram.com&_nc_gid=pMymFf25ov34d8YCVlKX4w&_nc_ss=7320f&oh=00_AQSOarczTb4sbrAbVGVMKW4ac_8c2VYg5X7MayvgRxsBnQ&oe=6AECB774",
+      "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/883626864_18637895560063725_8765422283388097448_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAxOTk5NTkxNTgxMzAyNjc0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTYwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=dx1PT4PDiKgQ7kNvwHUTrP4&_nc_oc=AdpcTTWk1daHN5XxppUshdYYPmq0pDN5p89sYA6gdvXR2QFlY6w3Jt-iw6nb8V-M-tM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_gid=pMymFf25ov34d8YCVlKX4w&_nc_ss=7320f&oh=00_AQQxcH7mC4WSHR-FnvX5ttMcpVslckdAKSGVhMVSyUdARg&oe=6AEC987C",
+      "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/883558644_18637895638063725_1145203864184410906_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAxOTk5NTkxNTgyMTM5NjI3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=r6NLPoXqat8Q7kNvwGM92ec&_nc_oc=Adr1cU7MAQBur6AZHIV7JrG2jwC4xGi4x7qJSsWKmbTynUMEutsax2XcscZWoQ4Lb5g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_gid=pMymFf25ov34d8YCVlKX4w&_nc_ss=7320f&oh=00_AQTV7ygLWsbHqzvfXhNuYK-wnzzidqmi8IYv6gn-I1LxBA&oe=6AECA2A2"
+     ]
     }
    },
    "fb_events": []
@@ -12027,8 +12182,8 @@
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -13414,8 +13569,8 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14431,6 +14586,39 @@
      "image_urls": [
       "https://instagram.fbri7-1.fna.fbcdn.net/v/t51.82787-15/872247188_17939007999393865_9138147063492869432_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNzk4NjYzODc2MTMxNTU3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTEzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xVZPQCiwgukQ7kNvwGsxKND&_nc_oc=Adqj3E__98PM3QNsz3g67fSDB5ShjHOnAI8CakvkLxVFFyBes9n3GFSbVJ2tcPzyObQ&_nc_ad=z-m&_nc_cid=1093&_nc_zt=23&_nc_ht=instagram.fbri7-1.fna&_nc_gid=XntBmUG1VbTgHqFF87RGgQ&_nc_ss=7320f&oh=00_AQQpwBu9pRm6Lc3lHPBOrXocapZ-X7QX1TxdDSKO_pZfLg&oe=6AEB3D0C"
      ]
+    },
+    "4019617862283518129": {
+     "id": "4019617862283518129",
+     "url": "https://www.instagram.com/p/DfIjSYeOWCx/",
+     "published": "2026-10-30",
+     "analyzed": "2026-11-01",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Cueca Chilena: Histoire, méthodologie et exécution",
+       "start_date": "2026-11-07",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "La Colorada",
+       "url": null,
+       "price": "Prix libre",
+       "summary": "Un stage dédié à l'analyse, la compréhension et l'interprétation de la musique traditionnelle chilienne.",
+       "status": "scheduled",
+       "evidence": [
+        "Sábado 7 de noviembre, 19:00 h (Precio libre).",
+        "Cueca Chilena: Histoire, méthodologie et exécution",
+        "La Colorada"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"Este sábado 7 de noviembre, Fernando 'Tano' Ponce imparte el stage de Cueca Chilena... en La Colorada\" with \"⏰ Sábado 7 de noviembre, 19:00 h (Precio libre)\" and \"📍 76 rue Consolat, 13001, Marsella\", matching the flyer (\"7 samedi Novembre 19h./PRIX LIBRE\", \"LA COLORADA 76 rue Consolat. 13001\"). The post is published 2026-10-30, the event is 2026-11-07 which is indeed a Saturday, and nothing indicates cancellation."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-dus1-1.cdninstagram.com/v/t51.82787-15/877713045_18638395114006492_7483768411045727411_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=NDAxOTYxNzg2MjI4MzUxODEyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=KfvrMZ93V_kQ7kNvwEvOmmE&_nc_oc=AdrPFziJSjtuci7K7t3pz_O5UR2Tn00kI8N8PCuVY8eE_mM4aPFOw7zyT5dOM-jW54Obee11Pvx3WN94mffP5pMH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_gid=QJaM6bwCdrhUO7H8gbTIhg&_nc_ss=7320f&oh=00_AQTM4sLRcLLBIUUZbKRU269Mg8v3470dgubqonS3ftWcrQ&oe=6AEC8D89"
+     ]
     }
    },
    "fb_events": []
@@ -14439,10 +14627,10 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-10-31",
+   "last_fetched": "2026-11-01",
    "last_ok": null,
    "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 31,
+   "consecutive_failures": 32,
    "posts": {},
    "fb_events": []
   },
@@ -14461,8 +14649,8 @@
    "kind": "instagram",
    "handle": "la.camaraderie13",
    "url": "https://www.instagram.com/la.camaraderie13/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14754,6 +14942,37 @@
      "image_urls": [
       "https://scontent-cdg4-3.cdninstagram.com/v/t51.71878-15/831437213_1783173726056750_1106592701448041278_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzk5OTE2MTc0Mzk5NTcyMTU5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=9VCQcXqgh0gQ7kNvwH7oVLW&_nc_oc=AdrhUiMfVmJsbozCw-su-Ggq-LeHArG6zb88mnLWnYAqlBDUz6_au8Y0X3YtBvHeKEK85RPTI1_eMnDNEiifXbCO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-3.cdninstagram.com&_nc_gid=o455gJo2tAmBEpubiPjOyQ&_nc_ss=7320f&oh=00_AQTsV8mcfHIES5QBlD0zUjsRhFjx7CybI-8OcRq078bQEQ&oe=6AE9E9E3"
      ]
+    },
+    "4020173349680612032": {
+     "id": "4020173349680612032",
+     "url": "https://www.instagram.com/p/DfKhlybNILA/",
+     "published": "2026-10-31",
+     "analyzed": "2026-11-01",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Exposition Sadek Lamri",
+       "start_date": "2026-11-11",
+       "start_time": "18:00:00",
+       "end_date": "2026-11-25",
+       "end_time": null,
+       "location_name": "La Camaraderie",
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "EXPOSITION SADEK LAMRI DU 11 AU 25 NOVEMBRE VERNISSAGE LE 11 NOVEMBRE À PARTIR DE 18H"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces a future dated event at the given venue: \"EXPOSITION ... DU 11 AU 25 NOVEMBRE\" with \"VERNISSAGE LE 11 NOVEMBRE À PARTIR DE 18H\" at \"La Camaraderie, 76 78 RUE BELLE DE MAI, 13003 MARSEILLE\". The post (2026-10-31) precedes the 2026-11-11 start, no weekday is written to contradict, and nothing indicates cancellation."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-msp1-1.cdninstagram.com/v/t51.82787-15/867377162_18641880682028202_8256142958177527941_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=NDAyMDE3MzM0OTY4MDYxMjAzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bFCit5CGXvQQ7kNvwHeOjVm&_nc_oc=AdrqLX824mqdZ_Z3acKVNiRDZnjuE4a1pwtmvLpSwvV_2fjnacvQIGP2zQjmjUiNAx0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_gid=F6PcP33vnr5o9sQXXM5G7Q&_nc_ss=7320f&oh=00_AQTcLxhKrgT9vnaVRRZRJX6W4v8pJ7pZ1-5oLgTG7NZVQA&oe=6AECB81B"
+     ]
     }
    },
    "fb_events": []
@@ -14762,8 +14981,8 @@
    "kind": "instagram",
    "handle": "twali.marseille",
    "url": "https://www.instagram.com/twali.marseille/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14871,8 +15090,8 @@
    "kind": "facebook",
    "handle": "twalibelsunce",
    "url": "https://www.facebook.com/twalibelsunce/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14951,8 +15170,8 @@
    "kind": "instagram",
    "handle": "lembobineusemarseille",
    "url": "https://www.instagram.com/lembobineusemarseille/",
-   "last_fetched": "2026-10-31",
-   "last_ok": "2026-10-31",
+   "last_fetched": "2026-11-01",
+   "last_ok": "2026-11-01",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -15180,6 +15399,39 @@
      "notes": "The event mentioned in the post is in the past.",
      "image_urls": [
       "https://scontent-waw2-1.cdninstagram.com/v/t51.82787-15/841736163_18472048447185934_2240484475564300492_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=NDAwMzMzMTUxOTQ4NTQ2MTg4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=N01-ahImB70Q7kNvwEHGeyA&_nc_oc=AdpynapulI6zw3hwMxxaPxli5_V26nLLJmqvUDT0TWj1iv68LsyoUv0X-moMGBLaIPs&_nc_ad=z-m&_nc_cid=1479&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=ZSDKd-Nugenr52HPnQiUKg&_nc_ss=7320f&oh=00_AQQK3Tfuaws5OZfRzhx30QMZhmkEC2jNCp_rtFrSZc3Jcg&oe=6AE8B02B"
+     ]
+    },
+    "4019272909727492638": {
+     "id": "4019272909727492638",
+     "url": "https://www.instagram.com/p/DfHU2qXqGoe/",
+     "published": "2026-10-30",
+     "analyzed": "2026-11-01",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "MEHDI BLACK WIND on tour",
+       "start_date": "2026-11-13",
+       "start_time": "21:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "L’Embobineuse",
+       "url": null,
+       "price": "9 € + 2 € adh",
+       "summary": "Concert de rap live avec Mehdi Black Wind, Blaze 5th, Ruama, et Arthur Mgz, avec une prise de parole du Comité de soutien de Zaid.",
+       "status": "scheduled",
+       "evidence": [
+        "Ven. 13.11 · 21h · L’Embobineuse",
+        "MEHDI BLACK WIND (Maroc) — live rap",
+        "BLAZE 5th (Mozambique) — live rap"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption announces a future date matching the flyer: \"Ven. 13.11 · 21h · L'Embobineuse\" and the flyer reads \"13 NOV 2026\"; 2026-11-13 is indeed a Friday, the venue matches, and nothing indicates cancellation or a past event."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fthe9-2.fna.fbcdn.net/v/t51.82787-15/876736518_18639876679004579_6732375446531037000_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=NDAxOTI3MjkwOTcyNzQ5MjYzOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5BBdiLqPjG4Q7kNvwEH-Rd-&_nc_oc=Ado18b3ghPnCnhy5ux4up6LNGHZynJRLBj5afiNltle4a7LiQ5Plf-cfXvAT0WTJ-Vg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fthe9-2.fna&_nc_gid=h5VeaO5dfqElJiDgudJ27g&_nc_ss=7320f&oh=00_AQQk9h_JyE2e9YxO49TwoTJnozdaOqEAvHO1miygFHjmZw&oe=6AEC9DCA"
      ]
     }
    },

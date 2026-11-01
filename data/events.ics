@@ -10,10 +10,10 @@ DTEND;VALUE=DATE:20270621
 UID:b7f440cd17df@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/marseille-vue-par-les-detaille-164
- -ans-de-photos
+ -ans-de-photos?museum=musee-dhistoire-de-marseille-0
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-
- photos
+ photos?museum=musee-dhistoire-de-marseille-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:"Par une langue échappée"\, nouveau parcours des collections mod
@@ -23,10 +23,10 @@ DTEND;VALUE=DATE:20270426
 UID:a09713f21970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/par-une-langue-echappee-nouveau-pa
- rcours-des-collections-modernes-et-contemporaines
+ rcours-des-collections-modernes-et-contemporaines?museum=musee-cantini
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
- es-collections-modernes-et-contemporaines
+ es-collections-modernes-et-contemporaines?museum=musee-cantini
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -125,19 +125,11 @@ DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261108
 UID:1190260eebaa@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://www.instagram.com/p/DeZFU44oMRn/
+DESCRIPTION:https://www.facebook.com/friche.labelledemai/posts/pfbid07BQyA
+ dJynoVujkvTE5eETUSRx7gcUy2vML34Qc5qdXoj5266KWVJMvrHiUzPm24Cl
 LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DeZFU44oMRn/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Baby populaire
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261101
-UID:b84b4fa27a0f@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/baby-populaire/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/baby-populaire/
+URL:https://www.facebook.com/friche.labelledemai/posts/pfbid07BQyAdJynoVuj
+ kvTE5eETUSRx7gcUy2vML34Qc5qdXoj5266KWVJMvrHiUzPm24Cl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
@@ -145,11 +137,11 @@ DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261214
 UID:a8ce05c3d37b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Exposition sur les récits traversés par la mémoire\, l’ex
- il et les traces des conflits.\nPrix : Gratuit\nhttps://www.instagram.com/
- p/DecgnXoj9R0/
+DESCRIPTION:https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L
+ 6jNfUkgb4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl
 LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DecgnXoj9R0/
+URL:https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L6jNfUkgb
+ 4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Désobéir à l’ère numérique
@@ -157,11 +149,11 @@ DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261214
 UID:6f14ee909a1a@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Exposition sur les tactiques de résistance face aux technolog
- ies de captation.\nPrix : Gratuit\nhttps://www.instagram.com/p/DecgnXoj9R0
- /
+DESCRIPTION:https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L
+ 6jNfUkgb4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl
 LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DecgnXoj9R0/
+URL:https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L6jNfUkgb
+ 4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LA VIE FARPAITE 🤖
@@ -173,147 +165,6 @@ DESCRIPTION:Exposition présentant une partie rarement montrée du fonds d
  e LFKs.\nhttps://urls.fr/l2VLuK
 LOCATION:Friche la Belle de Mai
 URL:https://urls.fr/l2VLuK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Liteul Pipol
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261101
-UID:ea517c51e725@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Dans un coin de monde peuplé de petits êtres malicieux\, une
-  danseuse\, géante parmi eux\, tisse une chrysalide faite de fils blancs.
-  Des marionnettes de bois surgissent\, révèlent un monde inconnu qui se 
- prépare à une métamorphose. Une prop...\nhttps://www.lafriche.org/evene
- ments/liteul-pipol/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/liteul-pipol/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Terre ludique
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261102
-UID:5ff77146bda1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
- jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
-  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
- venements/terre-ludique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/terre-ludique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261113
-UID:f200a42b5ade@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261113
-UID:8c00976c86ad@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Baby populaire - En Ribambelle !
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261101
-UID:0b05f861795f@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/baby-populaire-en-rimbabelle/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/baby-populaire-en-rimbabelle/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cartographie sensible et mémoires recomposées
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261113
-UID:caf95961083e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
- ontre-récits face aux logiques d’effacement culturel\, politique ou col
- onial\, tout en révélant la fragilité des représentations contemporain
- es. Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/car
- tographie-sensible-et-memoires-recomposees/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-
- recomposees/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ce que nous voyons nous regarde
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261113
-UID:11e51351ab3d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition collective de 16 installations en provenance de
-  8 pays de méditerranée qui invitent à reconnaître\, derrière chaque 
- image\, une présence humaine\, politique\, irréductible. Une proposition
-  de Instants Vidéo\nhttps://www.lafriche.org/evenements/ce-que-nous-voyon
- s-nous-regarde/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Désobéir à l’ère numérique
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261113
-UID:44a70f996a90@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les artistes de cette exposition investissent les failles des 
- systèmes numériques contemporains pour en révéler les mécanismes invi
- sibles\, devenant ainsi matériaux à détourner\, perturber ou infiltrer.
-  Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/desobe
- ir-a-lere-numerique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/desobeir-a-lere-numerique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La vie farpaite
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261113
-UID:36f04f50aeb9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une proposition de LFKs-La Fabriks\nPrix : Gratuit !\nhttps://
- www.lafriche.org/evenements/la-vie-farpaite/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/la-vie-farpaite/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visites Flash
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261102
-UID:b0a54b2fecf8@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visites-flash/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/visites-flash/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261101
-UID:136aa3b26976@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
-  propose de découvrir un ensemble d'activités créatives en lien avec la
-  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
- llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
- afriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -408,20 +259,6 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/visites-flash/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rouge courroux
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-UID:71eebb071990@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Cette réinterprétation chorégraphique et musicale du Petit 
- Chaperon rouge raconte l’histoire d’une enfant déterminée qui transf
- orme sa colère en force pour s’affirmer et dire non. Toute de rouge vê
- tue\, elle traverse toute seule la forêt...\nhttps://www.lafriche.org/eve
- nements/rouge-courroux/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/rouge-courroux/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Unworlding
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261115
@@ -436,16 +273,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Confetti Malaise + Cockroach + DJ Set Discorde Crew
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-UID:8072a67e11da@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/DfAT0GhkcFL/
-LOCATION:L'Intermédiaire
-URL:https://www.instagram.com/p/DfAT0GhkcFL/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Día de Muertos
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
@@ -454,71 +281,6 @@ CATEGORIES:bars
 DESCRIPTION:https://www.instagram.com/p/DfCwY9Lokz7/
 LOCATION:La Colorada
 URL:https://www.instagram.com/p/DfCwY9Lokz7/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lectures aux tout-petits
-DTSTART;TZID=Europe/Paris:20261031T100000
-DTEND;TZID=Europe/Paris:20261031T103000
-UID:8a2d97aeffbf@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/41282392_lectures-aux-tout-pe
- tits-1842999
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/41282392
- _lectures-aux-tout-petits-1842999
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Calentado Colombien
-DTSTART;TZID=Europe/Paris:20261031T120000
-DTEND;TZID=Europe/Paris:20261031T140000
-UID:6b82508b7cdc@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Dégustation de calentado colombien\, un classique de la cuisi
- ne colombienne.\nPrix : Version végétarienne : 10 €\, Version avec via
- nde : 12 €\nhttps://www.instagram.com/p/DfCUxr5IjBQ/
-LOCATION:La Colorada - La Colorada
-URL:https://www.instagram.com/p/DfCUxr5IjBQ/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A scanner darkly
-DTSTART;TZID=Europe/Paris:20261031T140000
-DTEND;TZID=Europe/Paris:20261031T160000
-UID:65e7b32e23d2@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-territoire-marseille/events/20143267_a-scanner-dark
- ly
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-territoire-marseille/events/20
- 143267_a-scanner-darkly
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bibliomusée
-DTSTART;TZID=Europe/Paris:20261031T140000
-DTEND;TZID=Europe/Paris:20261031T151500
-UID:2ab589e81123@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/17198488_bibliomusee-9537076
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/17198488
- _bibliomusee-9537076
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:L’Alcazar se transforme : Créez le futur Studio de Création av
- ec nous !
-DTSTART;TZID=Europe/Paris:20261031T140000
-DTEND;TZID=Europe/Paris:20261031T170000
-UID:fefb1d7e7749@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/63786025_lalcazar-se-transfor
- me-creez-le-futur-studio-de-creation-avec-nous-1301786
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/63786025
- _lalcazar-se-transforme-creez-le-futur-studio-de-creation-avec-nous-130178
- 6
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
@@ -589,206 +351,31 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cafecito con Chisme
-DTSTART;TZID=Europe/Paris:20261031T140000
-DTEND;TZID=Europe/Paris:20261031T160000
-UID:bad19ce24f1a@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/De_0_qAiAXB/
-LOCATION:La Colorada - La Colorada
-URL:https://www.instagram.com/p/De_0_qAiAXB/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visite flash
-DTSTART;TZID=Europe/Paris:20261031T150000
-DTEND;TZID=Europe/Paris:20261031T160000
-UID:50fdb5c8b974@marseille-agenda
+SUMMARY:Terre ludique
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+UID:a43bbb175e06@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
-  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
+ jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
+  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
+ venements/terre-ludique/
 LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-flash-16/
+URL:https://www.lafriche.org/evenements/terre-ludique/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:NumériTech
-DTSTART;TZID=Europe/Paris:20261031T153000
-DTEND;TZID=Europe/Paris:20261031T173000
-UID:77fff4b2e483@marseille-agenda
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261116
+UID:f90bf1dd5d64@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:À partir de la pratique des jeux vidéo\, des ateliers pour e
- xplorer de manière créative les nouvelles technologies pour mieux les co
- mprendre et les réinventer. Une proposition de CHRONIQUES\nPrix : Gratuit
-  !\nhttps://www.lafriche.org/evenements/numeritech-9/
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/numeritech-9/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[halloween!] E.T L'EXTRA-TERRESTRE de Steven Spielberg (1982)
-DTSTART;TZID=Europe/Paris:20261031T160000
-DTEND;TZID=Europe/Paris:20261031T180000
-UID:d3ab785721f0@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ Séance spéciale Halloween ! ▉ Jeu en salle et distribu
- tion de bonbons ▉ Film en VF\, pour tous·tes à partir de 7 ans ! Samed
- i 31 octobre | 16h 𝗘.𝗧 𝗟'𝗘𝗫𝗧𝗥𝗔-𝗧𝗘𝗥𝗥
- 𝗘𝗦𝗧𝗥𝗘 de Steven Spielberg États-Unis - 2\nhttps://marseill
- ecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier de Cempasúchil en papier
-DTSTART;TZID=Europe/Paris:20261031T160000
-DTEND;TZID=Europe/Paris:20261031T173000
-UID:5717fd695045@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Atelier de création de fleurs cempasúchil en papier pour l'a
- utel des morts.\nPrix : Prix Libre\nhttps://www.instagram.com/p/DeuVj-tIWH
- F/
-LOCATION:La Colorada
-URL:https://www.instagram.com/p/DeuVj-tIWHF/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les yeux sans visage
-DTSTART;TZID=Europe/Paris:20261031T173000
-DTEND;TZID=Europe/Paris:20261031T193000
-UID:7204c01311a0@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.instagram.com/p/DfH4A-xCBiw/
-LOCATION:Les Variétés
-URL:https://www.instagram.com/p/DfH4A-xCBiw/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Même Pas Peur ! #12 | La Nuit des démons de Kevin Tenney
-DTSTART;TZID=Europe/Paris:20261031T180000
-DTEND;TZID=Europe/Paris:20261031T200000
-UID:665411f5f1a7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/meme-pas-peur-12-la-nuit-des-demons
- -de-kevin-tenney/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/meme-pas-peur-12-la-nuit-des-demons-de-kevi
- n-tenney/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un 31 octobre péruvien
-DTSTART;TZID=Europe/Paris:20261031T190000
-DTEND;TZID=Europe/Paris:20261031T210000
-UID:a4bec3e20a57@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/De9FAK9CH-I/
-LOCATION:La Colorada
-URL:https://www.instagram.com/p/De9FAK9CH-I/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CINÉDRAG HALLOWEEN 🕷️
-DTSTART;TZID=Europe/Paris:20261031T193000
-DTEND;TZID=Europe/Paris:20261031T213000
-UID:4599674216e7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Une soirée d'Halloween avec des performances\, la projection 
- du film 'Carrie au bal du diable'\, et des mini-jeux.\nPrix : TARIF UNIQUE
-  : 10€\nhttps://www.instagram.com/p/De3cKWoj4GS/
-LOCATION:Le Gyptis - Le Gyptis
-URL:https://www.instagram.com/p/De3cKWoj4GS/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Carrie au bal du diable
-DTSTART;TZID=Europe/Paris:20261031T193000
-DTEND;TZID=Europe/Paris:20261031T213000
-UID:cf39879e48a6@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Venez costuméxs pour le bal de fin d’année !\nhttps://cine
- malegyptis.org/films/carrie-au-bal-du-diable/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/carrie-au-bal-du-diable/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CINÉDRAG 🎃
-DTSTART;TZID=Europe/Paris:20261031T200000
-DTEND;TZID=Europe/Paris:20261031T220000
-UID:1fb49dbcc95f@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film 'Carrie au bal de fin d’année' pour une 
- soirée d'Halloween horrifique.\nPrix : Tarif unique de 10€\nhttps://www
- .instagram.com/p/DfIY_C7AqCs/
-LOCATION:Le Gyptis
-URL:https://www.instagram.com/p/DfIY_C7AqCs/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VIOFLESH + Beloog-A + Guest
-DTSTART;TZID=Europe/Paris:20261031T203000
-DTEND;TZID=Europe/Paris:20261031T223000
-UID:f349639b5215@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 14€\nhttps://lemolotov.com/events/vioflesh-guest/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/vioflesh-guest/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Même Pas Peur ! #12 | Le Messie du Mal de Willard Huyck\, Gloria 
- Katz
-DTSTART;TZID=Europe/Paris:20261031T203000
-DTEND;TZID=Europe/Paris:20261031T223000
-UID:adbe697e8322@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/meme-pas-peur-12-le-messie-du-mal-d
- e-willard-huyck-gloria-katz/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/meme-pas-peur-12-le-messie-du-mal-de-willar
- d-huyck-gloria-katz/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Douce soeur (dj set)
-DTSTART;TZID=Europe/Paris:20261031T210000
-DTEND;TZID=Europe/Paris:20261031T230000
-UID:3505cc0d6b24@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.instagram.com/p/Dd__GHjDoAA/
-LOCATION:L'Embobineuse
-URL:https://www.instagram.com/p/Dd__GHjDoAA/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Heat - HALLOQWEEN 2
-DTSTART;TZID=Europe/Paris:20261031T210000
-DTEND;TZID=Europe/Paris:20261031T230000
-UID:bfe62a1faf43@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.instagram.com/p/Dd__GHjDoAA/
-LOCATION:L'Embobineuse
-URL:https://www.instagram.com/p/Dd__GHjDoAA/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HALLOQWEEN 2
-DTSTART;TZID=Europe/Paris:20261031T213000
-DTEND;TZID=Europe/Paris:20261031T020000
-UID:e26602d9f39e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une soirée Halloween avec des DJ sets et des costumes iconiqu
- es.\nPrix : 8€ early bird /10€ late + 2€ d’adhésion\nhttps://www.
- instagram.com/p/DeZkjn2oeGi/
-LOCATION:L'Embobineuse - L'EMBOBINEUS
-URL:https://www.instagram.com/p/DeZkjn2oeGi/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HEAT collectif Pas de blague sur la chaleur cette fois..
-DTSTART;TZID=Europe/Paris:20261031T213000
-DTEND;TZID=Europe/Paris:20261031T233000
-UID:1c4bec400098@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.lembobineuse.biz/events/2026/10/31/heatcollectif
-LOCATION:L'Embobineuse
-URL:https://www.lembobineuse.biz/events/2026/10/31/heatcollectif
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:À MORT LA MUERTE 4 – Le Twerkistan
-DTSTART;TZID=Europe/Paris:20261031T230000
-DTEND;TZID=Europe/Paris:20261031T050000
-UID:c955d3ce0ee9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:
-LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
- e
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un Dimanche aux Aygalades X Vide-Cafoutch – novembre 2026
@@ -810,6 +397,74 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
  bre/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cartographie sensible et mémoires recomposées
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261116
+UID:1f7d8346565d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
+ ontre-récits face aux logiques d’effacement culturel\, politique ou col
+ onial\, tout en révélant la fragilité des représentations contemporain
+ es. Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/car
+ tographie-sensible-et-memoires-recomposees/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-
+ recomposees/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ce que nous voyons nous regarde
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261116
+UID:d1ea49b3a90f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition collective de 16 installations en provenance de
+  8 pays de méditerranée qui invitent à reconnaître\, derrière chaque 
+ image\, une présence humaine\, politique\, irréductible. Une proposition
+  de Instants Vidéo\nhttps://www.lafriche.org/evenements/ce-que-nous-voyon
+ s-nous-regarde/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Désobéir à l’ère numérique
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261116
+UID:7b1c374112e9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Les artistes de cette exposition investissent les failles des 
+ systèmes numériques contemporains pour en révéler les mécanismes invi
+ sibles\, devenant ainsi matériaux à détourner\, perturber ou infiltrer.
+  Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/desobe
+ ir-a-lere-numerique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/desobeir-a-lere-numerique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La vie farpaite
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261116
+UID:725092bb2d1f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
+ même devenu une œuvre\, à découvrir dans les Cathédrales. Une proposi
+ tion de LFKs-La Fabriks\nPrix : Gratuit !\nhttps://www.lafriche.org/evenem
+ ents/la-vie-farpaite/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/la-vie-farpaite/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261116
+UID:733d5a6d6c87@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Portes ouvertes de l'exposition « Manger les images »
@@ -1143,18 +798,16 @@ URL:https://www.videodrome2.fr/la-vie-farpaite-idm-inner-direct-metaphysic
  s-partie-1/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[ciné-club] LE CORSET de Louis Clichy | dans le cadre de Cinéman
- imé
+SUMMARY:LE CORSET de Louis Clichy
 DTSTART;TZID=Europe/Paris:20261104T183000
 DTEND;TZID=Europe/Paris:20261104T203000
-UID:152996db8135@marseille-agenda
+UID:2c09d5d2fc78@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:▉ Dans le cadre de Cinémanimé\, en partenariat avec Les Ec
- rans du Sud et en présence d'intervenant·es de l'association SudAnim. 
- ▉ Tarif unique pour les 15/25 : 5€ ! Projection ouverte à tous·tes !
-  ▉ En\nhttps://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
+DESCRIPTION:Projection du film "Le Corset" de Louis Clichy dans le cadre d
+ u festival Cinémanimé.\nPrix : Tarif unique pour les 15/25 : 5€. Proje
+ ction ouverte à tous·tes !\nhttps://fb.me/e/bC2j668a3
+LOCATION:La Baleine
+URL:https://fb.me/e/bC2j668a3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SOIRÉE DE SOUTIEN AUX LYCÉENS MOBILISÉS
@@ -1647,6 +1300,19 @@ URL:https://www.lembobineuse.biz/events/2026/11/07/soireedesoutienalasalle
  gueule
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LES ROCHES ROUGES de Bruno Dumont
+DTSTART;TZID=Europe/Paris:20261107T180000
+DTEND;TZID=Europe/Paris:20261107T200000
+UID:f2132f2683f5@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Le réalisateur de 'P"tit Quinquin" nous plonge dans une fable
+ \, portée par des enfants de 5 ans et fait de la baie varoise une gigante
+ sque maquette du monde où ses personnages évoluent comme dans un western
+ .\nhttps://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
+LOCATION:Le Gyptis - OCAP
+URL:https://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Personnages et identités
 DTSTART;TZID=Europe/Paris:20261107T180000
 DTEND;TZID=Europe/Paris:20261107T193000
@@ -1666,6 +1332,18 @@ CATEGORIES:cinema
 DESCRIPTION:https://www.videodrome2.fr/gaming-et-politique-plateau-radio/
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/gaming-et-politique-plateau-radio/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cueca Chilena: Histoire\, méthodologie et exécution
+DTSTART;TZID=Europe/Paris:20261107T190000
+DTEND;TZID=Europe/Paris:20261107T210000
+UID:d11dfcde556d@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Un stage dédié à l'analyse\, la compréhension et l'interpr
+ étation de la musique traditionnelle chilienne.\nPrix : Prix libre\nhttps
+ ://www.instagram.com/p/DfIjSYeOWCx/
+LOCATION:La Colorada - La Colorada
+URL:https://www.instagram.com/p/DfIjSYeOWCx/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IANWILL + Perseide + Maze’D + Ghetto Paradise
@@ -1738,6 +1416,19 @@ DESCRIPTION:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadi
  ne/
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadine/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LES ROCHES ROUGES de Bruno Dumont
+DTSTART;TZID=Europe/Paris:20261108T160000
+DTEND;TZID=Europe/Paris:20261108T180000
+UID:d74cacc6b0e5@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Le réalisateur de 'P"tit Quinquin" nous plonge dans une fable
+ \, portée par des enfants de 5 ans et fait de la baie varoise une gigante
+ sque maquette du monde où ses personnages évoluent comme dans un western
+ .\nhttps://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
+LOCATION:Le Gyptis
+URL:https://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:UP TOWN MUSIC BAND #24
@@ -1850,7 +1541,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ces nains portent quoi ?
 DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
 UID:8bac291e3733@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Un théâtre d'objets au milieu de cartons transformés en arc
@@ -2031,6 +1722,16 @@ DESCRIPTION:Précédée à 15h d’un atelier de magie\, dès 8 ans (sur i
  /
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/kiki-la-petite-sorciere/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exposition Sadek Lamri
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261126
+UID:5958845d1d72@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:https://www.instagram.com/p/DfKhlybNILA/
+LOCATION:La Camaraderie - La Camaraderie
+URL:https://www.instagram.com/p/DfKhlybNILA/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Vénus Électrique
@@ -2288,6 +1989,18 @@ URL:https://www.lembobineuse.biz/events/2026/11/13/mehdi-black-wind-blaze-
  5th-amaru-arthur-mgz
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MEHDI BLACK WIND on tour
+DTSTART;TZID=Europe/Paris:20261113T210000
+DTEND;TZID=Europe/Paris:20261113T230000
+UID:2ed524c6d199@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Concert de rap live avec Mehdi Black Wind\, Blaze 5th\, Ruama
+ \, et Arthur Mgz\, avec une prise de parole du Comité de soutien de Zaid.
+ \nPrix : 9 € + 2 € adh\nhttps://www.instagram.com/p/DfHU2qXqGoe/
+LOCATION:L'Embobineuse - L’Embobineuse
+URL:https://www.instagram.com/p/DfHU2qXqGoe/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[séance spéciale] LES RECOMMENCEMENTS d'I. Ingold & V. Perelmute
  r | en sa présence
 DTSTART;TZID=Europe/Paris:20261113T210000
@@ -2452,6 +2165,17 @@ URL:https://mucem.org/evenement/atelier-gaga-danse-et-choregraphie-pulsati
  ons-3/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261114T150000
+DTEND;TZID=Europe/Paris:20261114T160000
+UID:6b4f89f8ec66@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Le rouge-gorge de Cempuis
 DTSTART;TZID=Europe/Paris:20261114T170000
 DTEND;TZID=Europe/Paris:20261114T190000
@@ -2560,6 +2284,19 @@ DESCRIPTION:EXTRA invite Kendal pour un all night long au Petit Cab\, entr
  TRA\nhttps://www.lafriche.org/evenements/kendal-all-night-long-petit-cab/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/kendal-all-night-long-petit-cab/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Terre ludique
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+UID:8892197ea8ba@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
+ jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
+  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
+ venements/terre-ludique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/terre-ludique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un dimanche à Rome : Vers un avenir radieux

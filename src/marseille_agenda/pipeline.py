@@ -261,7 +261,8 @@ class Runner:
 
         # Fetch.
         try:
-            doc = await asyncio.to_thread(fetch_document, record.source.url, record.source.kind, client)
+            doc = await asyncio.to_thread(fetch_document, record.source.url, record.source.kind, client,
+                                        load_more=record.load_more)
         except Exception as exc:  # noqa: BLE001
             record.consecutive_failures += 1
             record.last_error = f"fetch: {exc}"

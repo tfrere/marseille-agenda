@@ -3,12 +3,17 @@
 from __future__ import annotations
 
 import hashlib
+import logging
 import re
 from dataclasses import dataclass, field
 from urllib.parse import urljoin
 
 import httpx
 from bs4 import BeautifulSoup, NavigableString, Tag
+
+from .extraction_schema import LoadMore
+
+log = logging.getLogger(__name__)
 
 USER_AGENT = "Mozilla/5.0 (compatible; marseille-agenda/0.1; +https://github.com/tfrere/marseille-agenda)"
 
@@ -178,17 +183,56 @@ def make_client() -> httpx.Client:
     )
 
 
-def fetch_document(url: str, kind: str, client: httpx.Client | None = None) -> SourceDocument:
+def fetch_document(url: str, kind: str, client: httpx.Client | None = None, load_more: LoadMore | None = None) -> SourceDocument:
     own = client is None
     client = client or make_client()
     try:
         resp = client.get(url)
         resp.raise_for_status()
         body = resp.text
+        if load_more and kind == "html":
+            body = append_more_pages(client, body, load_more)
     finally:
         if own:
             client.close()
     return document_from_body(url, kind, body)
+
+
+def append_more_pages(client: httpx.Client, body: str, spec: LoadMore) -> str:
+    """Follow a listing's "see more" button and append each returned fragment before </body>.
+
+    A failing page keeps what was gathered so far: the first batch alone is still a valid listing.
+    """
+    cursor_re = re.compile(spec.cursor_regex)
+    fragments: list[str] = []
+    seen: set[str] = set()
+    for _ in range(spec.max_pages):
+        matches = cursor_re.findall(fragments[-1] if fragments else body)
+        if not matches:
+            break
+        cursor = matches[-1] if isinstance(matches[-1], str) else matches[-1][0]
+        if cursor in seen:
+            break
+        seen.add(cursor)
+        try:
+            resp = client.post(spec.url, data={k: v.replace("{cursor}", cursor) for k, v in spec.form.items()})
+            resp.raise_for_status()
+            data = resp.json()
+        except (httpx.HTTPError, ValueError) as exc:
+            log.warning("load more %s after %s failed: %s", spec.url, cursor, exc)
+            break
+        fragment = str(data.get(spec.html_key) or "")
+        if not fragment.strip():
+            break
+        fragments.append(fragment)
+        if spec.more_key is not None and not data.get(spec.more_key):
+            break
+    if not fragments:
+        return body
+    log.info("load more %s: %d extra page(s)", spec.url, len(fragments))
+    extra = "\n".join(fragments)
+    i = body.lower().rfind("</body>")
+    return body[:i] + extra + body[i:] if i >= 0 else body + extra
 
 
 def document_from_body(url: str, kind: str, body: str) -> SourceDocument:

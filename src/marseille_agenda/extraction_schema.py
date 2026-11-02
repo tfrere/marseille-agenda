@@ -101,6 +101,24 @@ class DiscoveredSource(BaseModel):
     facebook: str | None = Field(default=None, description="Facebook page slug of the venue if seen during discovery (the part after facebook.com/).")
 
 
+class LoadMore(BaseModel):
+    """A listing that server-renders only its first batch, the rest coming from a "see more" button
+    (WordPress admin-ajax and the like). Set by hand in data/sources.json, never by the discovery agent.
+
+    Each page is a POST of `form` where "{cursor}" is replaced by the last `cursor_regex` match (group 1)
+    in the HTML so far; the response is JSON whose `html_key` holds a fragment with the listing's own
+    markup, appended to the page so the source's schema reads it like the first batch.
+    """
+
+    url: str
+    form: dict[str, str]
+    cursor_regex: str
+    html_key: str = "html"
+    more_key: str | None = "has_more"
+    """Boolean key telling whether another page exists; null = stop on the first empty fragment."""
+    max_pages: int = 12
+
+
 class SourceRecord(BaseModel):
     venue_id: str
     source: DiscoveredSource
@@ -115,6 +133,7 @@ class SourceRecord(BaseModel):
     regenerations: int = 0
     next_generation: date | None = None
     """When the source listed no upcoming events, schema generation is postponed until this date."""
+    load_more: LoadMore | None = None
 
 
 class SourcesFile(BaseModel):

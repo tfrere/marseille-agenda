@@ -50,7 +50,7 @@ def offline_fetch(monkeypatch):
         "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100": (FIXTURES / "mucem" / "evenement_upcoming.json").read_text(encoding="utf-8"),
     }
 
-    def fake_fetch(url, kind, client=None):
+    def fake_fetch(url, kind, client=None, load_more=None):
         from marseille_agenda.fetch import document_from_body
         if url not in bodies:
             raise ConnectionError(f"offline: {url}")
@@ -108,7 +108,7 @@ async def test_fetch_failure_keeps_previous_state(tmp_path, offline_fetch, today
     tomorrow = today + timedelta(days=1)
     still_upcoming = {uid for uid, e in state.events.items() if (e.end_date or e.start_date) >= tomorrow}
 
-    def broken(url, kind, client=None):
+    def broken(url, kind, client=None, load_more=None):
         raise ConnectionError("boom")
 
     monkeypatch.setattr(pipeline, "fetch_document", broken)
@@ -194,7 +194,7 @@ async def test_client_rendered_listing_falls_back_to_the_home_page(tmp_path, tod
     bodies = {agenda: shell, home: (FIXTURES / "listings" / "molotov_agenda.html").read_text(encoding="utf-8")}
     fetched: list[str] = []
 
-    def fake_fetch(url, kind, client=None):
+    def fake_fetch(url, kind, client=None, load_more=None):
         fetched.append(url)
         if url not in bodies:
             raise ConnectionError(f"offline: {url}")

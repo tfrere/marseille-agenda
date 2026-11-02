@@ -142,7 +142,7 @@ def test_json_documents_are_not_induced(today):
 async def test_pipeline_uses_induction_before_any_model(tmp_path, monkeypatch, today):
     name, url = PAGES["molotov"]
     body = (LISTINGS / name).read_text(encoding="utf-8")
-    monkeypatch.setattr(pipeline, "fetch_document", lambda u, kind, client=None: document_from_body(u, kind, body))
+    monkeypatch.setattr(pipeline, "fetch_document", lambda u, kind, client=None, load_more=None: document_from_body(u, kind, body))
     settings = Settings(
         openrouter_api_key=None, extractor_model="x", verifier_model="x", discover_model="x", search_model="x",
         vision_model="x", vision_verifier_model="x", apify_token=None,
@@ -163,7 +163,7 @@ async def test_pipeline_uses_induction_before_any_model(tmp_path, monkeypatch, t
 async def test_pipeline_induces_run_mode_and_applies_the_location_filter(tmp_path, monkeypatch, today):
     name, url = PAGES["millebabords"]
     body = (LISTINGS / name).read_text(encoding="utf-8")
-    monkeypatch.setattr(pipeline, "fetch_document", lambda u, kind, client=None: document_from_body(u, kind, body))
+    monkeypatch.setattr(pipeline, "fetch_document", lambda u, kind, client=None, load_more=None: document_from_body(u, kind, body))
     settings = Settings(
         openrouter_api_key=None, extractor_model="x", verifier_model="x", discover_model="x", search_model="x",
         vision_model="x", vision_verifier_model="x", apify_token=None,

@@ -81,7 +81,8 @@
    "content_hash": "029305f117a0ac9c",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "manifesten": {
    "venue_id": "manifesten",
@@ -109,7 +110,8 @@
    "content_hash": "e4117147278b0c7b",
    "consecutive_failures": 1,
    "regenerations": 0,
-   "next_generation": "2026-11-02"
+   "next_generation": "2026-11-02",
+   "load_more": null
   },
   "mucem": {
    "venue_id": "mucem",
@@ -269,7 +271,8 @@
    "content_hash": "75f2c3cc3dc23023",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "friche-la-belle-de-mai": {
    "venue_id": "friche-la-belle-de-mai",
@@ -368,7 +371,19 @@
    "content_hash": "e52efa2a6e703abd",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": {
+    "url": "https://www.lafriche.org/wp/wp-admin/admin-ajax.php",
+    "form": {
+     "action": "get_next_events",
+     "data[date]": "{cursor}",
+     "load_next": "true"
+    },
+    "cursor_regex": "data-date=\"(\\d{4}-\\d{2}-\\d{2})\"",
+    "html_key": "html",
+    "more_key": "has_more",
+    "max_pages": 16
+   }
   },
   "mac-musee-d-art-contemporain": {
    "venue_id": "mac-musee-d-art-contemporain",
@@ -445,7 +460,8 @@
    "content_hash": "f0375edb17950780",
    "consecutive_failures": 1,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "le-molotov": {
    "venue_id": "le-molotov",
@@ -530,7 +546,8 @@
    "content_hash": "e132801f88a2c7f1",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "mille-babords": {
    "venue_id": "mille-babords",
@@ -615,7 +632,8 @@
    "content_hash": "2dd4a552ea3a0340",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "cira-marseille": {
    "venue_id": "cira-marseille",
@@ -683,7 +701,8 @@
    "content_hash": "2420947ff1163957",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "transit-librairie": {
    "venue_id": "transit-librairie",
@@ -752,7 +771,8 @@
    "content_hash": "01e4b5d86fd3794f",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "les-varietes": {
    "venue_id": "les-varietes",
@@ -827,7 +847,8 @@
    "content_hash": "9ca985ede5a50e09",
    "consecutive_failures": 0,
    "regenerations": 2,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "le-gyptis": {
    "venue_id": "le-gyptis",
@@ -912,7 +933,8 @@
    "content_hash": "49dc7de7f3e27689",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "la-fabulerie": {
    "venue_id": "la-fabulerie",
@@ -990,7 +1012,8 @@
    "content_hash": "3bcc885d57600294",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "videodrome-2": {
    "venue_id": "videodrome-2",
@@ -1075,7 +1098,8 @@
    "content_hash": "2b52a77c94cd0ce4",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "alcazar": {
    "venue_id": "alcazar",
@@ -1183,7 +1207,8 @@
    "content_hash": "4982088f88d80534",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "la-camaraderie": {
    "venue_id": "la-camaraderie",
@@ -1205,7 +1230,8 @@
    "content_hash": "d992e6a272fb8e94",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": "2026-11-09"
+   "next_generation": "2026-11-09",
+   "load_more": null
   },
   "twali": {
    "venue_id": "twali",
@@ -1231,7 +1257,8 @@
    "content_hash": "d3a1eaa16bf05a70",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": "2026-11-09"
+   "next_generation": "2026-11-09",
+   "load_more": null
   },
   "l-embobineuse": {
    "venue_id": "l-embobineuse",
@@ -1309,7 +1336,8 @@
    "content_hash": "85215104d8d1c42d",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "la-cite-des-arts-de-la-rue": {
    "venue_id": "la-cite-des-arts-de-la-rue",
@@ -1384,7 +1412,8 @@
    "content_hash": "060e1839772f4ee3",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "theatre-la-criee": {
    "venue_id": "theatre-la-criee",
@@ -1462,7 +1491,8 @@
    "content_hash": "ed6fa6ad24f6eef6",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   },
   "frac-sud": {
    "venue_id": "frac-sud",
@@ -1533,7 +1563,8 @@
    "content_hash": "004a41b59f5b4691",
    "consecutive_failures": 0,
    "regenerations": 0,
-   "next_generation": null
+   "next_generation": null,
+   "load_more": null
   }
  }
 }

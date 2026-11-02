@@ -19,6 +19,7 @@ from typing import Literal
 
 import httpx
 from pydantic import BaseModel, Field
+from pydantic_ai.exceptions import ModelHTTPError, UnexpectedModelBehavior
 
 from . import apify
 from .apify import ApifyError, FacebookEvent, SocialPost
@@ -41,6 +42,9 @@ FB_EVENTS_INTERVAL_DAYS = 7
 """The structured events tab is the priciest actor; events are announced weeks ahead anyway."""
 FB_EVENTS_PER_FETCH = 20
 FAILURES_BEFORE_ALERT = 2
+POST_ATTEMPTS = 3
+"""Analyses a post may fail on its own (unreadable output, token limit, rejected request) before
+it is recorded as abandoned instead of being fetched and paid for again every run."""
 
 
 class StoredEvent(PostEvent):
@@ -61,6 +65,20 @@ class PostRecord(BaseModel):
     the events it announced; CDN URLs expire within days, so it is cached at publication time."""
 
 
+class PostFailure(BaseModel):
+    attempts: int
+    last: date
+    error: str
+
+
+def post_specific(exc: BaseException) -> bool:
+    """Would analysing this post fail again? Out of credits, rate limits, provider outages and
+    network errors are the run's problem, not the post's, and never count towards abandoning it."""
+    if isinstance(exc, UnexpectedModelBehavior):
+        return True
+    return isinstance(exc, ModelHTTPError) and exc.status_code in (400, 413, 422)
+
+
 class SocialSource(BaseModel):
     kind: SocialKind
     handle: str
@@ -71,6 +89,8 @@ class SocialSource(BaseModel):
     last_error: str | None = None
     consecutive_failures: int = 0
     posts: dict[str, PostRecord] = Field(default_factory=dict)
+    failed_posts: dict[str, PostFailure] = Field(default_factory=dict)
+    """Posts whose analysis failed because of the post itself; abandoned after POST_ATTEMPTS."""
     fb_events: list[FacebookEvent] = Field(default_factory=list)
 
     @property
@@ -142,6 +162,9 @@ class SocialOutcome:
     notes: list[str] = field(default_factory=list)
     deferred: int = 0
     """New posts left for the next run because the run's time budget was spent."""
+    unavailable: int = 0
+    """New posts whose analysis failed for a reason unrelated to the post (credits, outage)."""
+    abandoned: int = 0
     skipped: bool = False
     """Not fetched at all (time budget spent before its turn); cached events are still returned."""
 
@@ -205,9 +228,10 @@ class SocialRunner:
             return out
 
         await self.analyze_new_posts(venue, src, new_posts, client, out)
-        if out.deferred:
-            # Keep the fetch window anchored before the deferred posts so the next fetch returns them again.
+        if out.deferred or out.unavailable:
+            # Keep the fetch window anchored before the pending posts so the next fetch returns them again.
             src.last_ok = prev_ok
+        if out.deferred:
             out.notes.append(f"{out.deferred} new {src.kind} post(s) left for the next run (time budget spent)")
         self.prune(src)
         out.events = rebuild(src, self.today)
@@ -255,14 +279,37 @@ class SocialRunner:
                     return None  # not recorded: it comes back as "new" on the next fetch
                 return await self.analyze_post(venue, src, post, client, out)
 
-        for rec in await asyncio.gather(*[one(p) for p in pending], return_exceptions=True):
+        results = await asyncio.gather(*[one(p) for p in pending], return_exceptions=True)
+        for post, rec in zip(pending, results):
             if rec is None:
                 continue
             if isinstance(rec, BaseException):
-                log.error("[%s] %s post analysis failed: %s", venue.id, src.key, rec)
-                out.notes.append(f"{src.kind} post analysis error: {type(rec).__name__}: {rec}")
+                self.record_failure(venue, src, post, rec, out)
                 continue
+            src.failed_posts.pop(post.id, None)
             src.posts[rec.id] = rec
+        if out.unavailable:
+            out.notes.append(f"{out.unavailable} new {src.kind} post(s) left for the next run (model unavailable)")
+
+    def record_failure(self, venue: Venue, src: SocialSource, post: SocialPost, exc: BaseException,
+                       out: SocialOutcome) -> None:
+        error = f"{type(exc).__name__}: {exc}"[:300]
+        log.error("[%s] %s post %s analysis failed: %s", venue.id, src.key, post.id, error)
+        if not post_specific(exc):
+            out.unavailable += 1
+            return
+        prev = src.failed_posts.get(post.id)
+        attempts = (prev.attempts if prev else 0) + 1
+        if attempts < POST_ATTEMPTS:
+            src.failed_posts[post.id] = PostFailure(attempts=attempts, last=self.today, error=error)
+            out.notes.append(f"{src.kind} post analysis error ({attempts}/{POST_ATTEMPTS}): {error}")
+            return
+        src.failed_posts.pop(post.id, None)
+        src.posts[post.id] = PostRecord(id=post.id, url=post.url, published=post.published_date, analyzed=self.today,
+                                        is_announcement=False, image_urls=post.image_urls,
+                                        notes=f"abandoned after {attempts} failed analyses: {error}")
+        out.abandoned += 1
+        out.notes.append(f"{src.kind} post {post.url} abandoned after {attempts} failed analyses: {error}")
 
     async def analyze_post(self, venue: Venue, src: SocialSource, post: SocialPost, client: httpx.Client,
                            out: SocialOutcome) -> PostRecord:
@@ -302,6 +349,10 @@ class SocialRunner:
         limit = self.today - timedelta(days=POST_RETENTION_DAYS)
         for pid in [pid for pid, p in src.posts.items() if p.published < limit]:
             del src.posts[pid]
+        # Past the fetch window a failed post is never returned again.
+        stale = self.today - timedelta(days=FETCH_WINDOW_MAX_DAYS)
+        for pid in [pid for pid, f in src.failed_posts.items() if f.last < stale]:
+            del src.failed_posts[pid]
 
 
 # ------------------------------------------------------------------ rebuild published events

@@ -1,5 +1,6 @@
 """Pipeline behaviour without any LLM: schemas already known, fetch replaced by fixtures."""
 
+import dataclasses
 import json
 from datetime import date, timedelta
 from pathlib import Path
@@ -247,3 +248,39 @@ def test_state_roundtrip(tmp_path, offline_fetch, today):
     pipeline.save_sources(settings, sources)
     reloaded = pipeline.load_sources(settings)
     assert reloaded.sources["mucem"].schema_record.schema_.rules[0].kind == "json"
+
+
+async def test_verifier_outage_holds_new_events_back_without_failing_the_run(tmp_path, offline_fetch, today, monkeypatch):
+    from pydantic_ai.exceptions import ModelHTTPError
+
+    async def no_credits(*a, **k):
+        raise ModelHTTPError(402, "x", {"message": "requires more credits"})
+
+    monkeypatch.setattr(pipeline, "verify_event", no_credits)
+    def amis(state):
+        return {e.title for e in state.events.values() if e.venue_id == "amis-du-monde-diplomatique"}
+
+    unverified = State()
+    await pipeline.Runner(_settings(tmp_path), today, verify=False).run(VENUES, _sources(today), unverified)
+    state = State()
+    settings = dataclasses.replace(_settings(tmp_path), openrouter_api_key="test", verifier_model="openai/x")
+    report = await pipeline.Runner(settings, today, verify=True, enrich=False).run(VENUES, _sources(today), state)
+    assert report.sources_ok == 2
+    held = amis(unverified) - amis(state)
+    assert held and amis(state) < amis(unverified)
+    assert any("wait for the verifier: ModelHTTPError" in a.message for a in report.alerts)
+
+
+async def test_one_venue_crashing_does_not_stop_the_run(tmp_path, offline_fetch, today, monkeypatch):
+    runner = pipeline.Runner(_settings(tmp_path), today, allow_llm=False)
+    real = runner.process_venue
+
+    async def crashy(venue, *a):
+        if venue.id == "amis-du-monde-diplomatique":
+            raise RuntimeError("boom")
+        return await real(venue, *a)
+
+    monkeypatch.setattr(runner, "process_venue", crashy)
+    report = await runner.run(VENUES, _sources(today), State())
+    assert report.sources_ok == 1
+    assert any("boom" in a.message for a in report.alerts if a.level == "error")

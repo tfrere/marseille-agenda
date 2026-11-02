@@ -351,3 +351,45 @@ def test_run_actor_treats_no_results_as_empty_and_other_errors_as_failure():
 def test_platform_image_text_is_carried_as_a_hint():
     posts = apify.facebook_posts(_items("facebook_posts.json"))
     assert posts[0].image_text.startswith("TERRES COMMUNES")
+
+
+@pytest.mark.asyncio
+async def test_post_failing_on_its_own_is_abandoned_but_outages_never_count(tmp_path, fakes, monkeypatch):
+    from pydantic_ai.exceptions import ModelHTTPError, UnexpectedModelBehavior
+
+    today = date(2026, 9, 12)
+    settings = _settings(tmp_path)
+    venues = [Venue(name="Manifesten", web=False, instagram="manifesten")]
+    sources, state, sf = SourcesFile(), State(), SocialFile()
+    bad = "3456789012345678902"
+    failure: list[BaseException] = [ModelHTTPError(402, "x", {"message": "requires more credits"})]
+    real_extract = social.extract_post
+
+    async def flaky(agent, deps):
+        if deps.post.id == bad:
+            fakes.extracted.append(deps.post.id)
+            raise failure[0]
+        return await real_extract(agent, deps)
+
+    monkeypatch.setattr(social, "extract_post", flaky)
+    src = lambda: sf.sources["instagram:manifesten"]  # noqa: E731
+
+    # Out of credits: not the post's fault, nothing counted, the fetch window stays put.
+    report = await pipeline.Runner(settings, today).run(venues, sources, state, sf)
+    assert bad not in src().posts and src().failed_posts == {} and src().last_ok is None
+    assert any("model unavailable" in a.message for a in report.alerts)
+
+    failure[0] = UnexpectedModelBehavior("Exceeded maximum output retries (1)")
+    for day in (1, 2):
+        await pipeline.Runner(settings, today + timedelta(days=day)).run(venues, sources, state, sf)
+        assert bad not in src().posts and src().failed_posts[bad].attempts == day
+    report = await pipeline.Runner(settings, today + timedelta(days=3)).run(venues, sources, state, sf)
+    rec = src().posts[bad]
+    assert not rec.is_announcement and rec.notes.startswith("abandoned after 3 failed analyses")
+    assert src().failed_posts == {} and any("abandoned" in a.message for a in report.alerts)
+
+    fakes.extracted.clear()
+    await pipeline.Runner(settings, today + timedelta(days=4)).run(venues, sources, state, sf)
+    assert bad not in fakes.extracted
+    social.save_social(tmp_path / "social.json", sf)
+    assert social.load_social(tmp_path / "social.json").sources["instagram:manifesten"].posts[bad].notes == rec.notes

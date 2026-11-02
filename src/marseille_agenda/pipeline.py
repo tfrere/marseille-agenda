@@ -362,7 +362,12 @@ class Runner:
                 async with sem:
                     return ev, await verify_event(self.agent("verifier"), ev, doc, venue.name, self.today)
 
-            for ev, vres in await asyncio.gather(*[check(ev) for ev in to_verify]):
+            unverified: list[str] = []
+            for res in await asyncio.gather(*[check(ev) for ev in to_verify], return_exceptions=True):
+                if isinstance(res, BaseException):
+                    unverified.append(f"{type(res).__name__}: {res}"[:200])
+                    continue
+                ev, vres = res
                 out.llm_calls += vres.usage.requests
                 verdict = vres.output
                 if verdict.verdict == "accept":
@@ -373,6 +378,10 @@ class Runner:
                 else:
                     out.rejected_verifier += 1
                     out.notes.append(f"verifier rejected {ev.title!r} {ev.start_date}: {verdict.reason}")
+            if unverified:
+                # Not published until verified; they are new, so the next run checks them again.
+                log.warning("[%s] verifier failed on %d new event(s): %s", venue.id, len(unverified), unverified[0])
+                out.notes.append(f"{len(unverified)} new event(s) wait for the verifier: {unverified[0]}")
 
         record.consecutive_failures = 0
         record.last_error = None
@@ -392,7 +401,12 @@ class Runner:
 
         async def one(venue: Venue, src: SocialSource) -> None:
             async with sem:
-                await self.process_social_source(venue, src, state, client, report)
+                try:
+                    await self.process_social_source(venue, src, state, client, report)
+                except Exception as exc:  # noqa: BLE001
+                    log.exception("[%s] %s processing failed", venue.id, src.key)
+                    report.alerts.append(Alert(level="error", venue_id=venue.id, source_url=src.url,
+                                               message=f"{src.kind} source failed, cached events kept: {type(exc).__name__}: {exc}"[:300]))
 
         await asyncio.gather(*[one(v, s) for v, s in work])
         if self.social_skipped:
@@ -472,10 +486,15 @@ class Runner:
                 log.info("[%s] %s", venue.id, venue.name)
                 if venue.web:
                     report.sources_total += 1
-                    outcome = await self.process_venue(venue, sources, state, client)
-                    if self.enrich and outcome.events and any(e.title_truncated for e in outcome.events):
-                        stats = await asyncio.to_thread(complete_truncated_titles, outcome.events, state, client)
-                        log.info("[%s] truncated titles: %s", venue.id, stats.describe())
+                    try:
+                        outcome = await self.process_venue(venue, sources, state, client)
+                        if self.enrich and outcome.events and any(e.title_truncated for e in outcome.events):
+                            stats = await asyncio.to_thread(complete_truncated_titles, outcome.events, state, client)
+                            log.info("[%s] truncated titles: %s", venue.id, stats.describe())
+                    except Exception as exc:  # noqa: BLE001
+                        # One venue must never take the whole run (and everything it saves) down with it.
+                        log.exception("[%s] processing failed", venue.id)
+                        outcome = VenueOutcome(events=None, error=f"{type(exc).__name__}: {exc}"[:300])
                     report.llm_calls += outcome.llm_calls
                     report.events_rejected_grounding += outcome.rejected_checks
                     report.events_rejected_verifier += outcome.rejected_verifier

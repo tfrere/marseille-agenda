@@ -51,6 +51,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
         run: |
+          set -o pipefail
           ARGS=""
           for v in ${{ github.event.inputs.rediscover }}; do ARGS="$ARGS --rediscover $v"; done
           for v in ${{ github.event.inputs.regenerate }}; do ARGS="$ARGS --regenerate $v"; done

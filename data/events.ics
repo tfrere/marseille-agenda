@@ -168,98 +168,6 @@ URL:https://urls.fr/l2VLuK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261114
-UID:22d8dae397e8@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261114
-UID:c2f19321b78d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cartographie sensible et mémoires recomposées
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261114
-UID:27432c3de0c8@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
- ontre-récits face aux logiques d’effacement culturel\, politique ou col
- onial\, tout en révélant la fragilité des représentations contemporain
- es. Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/car
- tographie-sensible-et-memoires-recomposees/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-
- recomposees/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ce que nous voyons nous regarde
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261114
-UID:36f15c025d66@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition collective de 16 installations en provenance de
-  8 pays de méditerranée qui invitent à reconnaître\, derrière chaque 
- image\, une présence humaine\, politique\, irréductible. Une proposition
-  de Instants Vidéo\nhttps://www.lafriche.org/evenements/ce-que-nous-voyon
- s-nous-regarde/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Désobéir à l’ère numérique
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261114
-UID:138823a41213@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les artistes de cette exposition investissent les failles des 
- systèmes numériques contemporains pour en révéler les mécanismes invi
- sibles\, devenant ainsi matériaux à détourner\, perturber ou infiltrer.
-  Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/desobe
- ir-a-lere-numerique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/desobeir-a-lere-numerique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La vie farpaite
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261114
-UID:d2131cc10a12@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
- même devenu une œuvre\, à découvrir dans les Cathédrales. Une proposi
- tion de LFKs-La Fabriks\nPrix : Gratuit !\nhttps://www.lafriche.org/evenem
- ents/la-vie-farpaite/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/la-vie-farpaite/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visites Flash
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261102
-UID:e4656f2803db@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visites-flash/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/visites-flash/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261115
 UID:99ad9702e16d@marseille-agenda
@@ -271,16 +179,6 @@ DESCRIPTION:Une exposition et une série de dialogues publics réunissant
  he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Día de Muertos
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261102
-UID:d8bc9af1908b@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/DfCwY9Lokz7/
-LOCATION:La Colorada
-URL:https://www.instagram.com/p/DfCwY9Lokz7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
@@ -351,19 +249,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Terre ludique
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-UID:a43bbb175e06@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
- jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
-  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
- venements/terre-ludique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/terre-ludique/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Unworlding
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261116
@@ -376,27 +261,6 @@ DESCRIPTION:Une exposition et une série de dialogues publics réunissant
  he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un Dimanche aux Aygalades X Vide-Cafoutch – novembre 2026
-DTSTART;TZID=Europe/Paris:20261101T100000
-DTEND;TZID=Europe/Paris:20261101T163000
-UID:3e565155df43@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:
-LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
- e
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Dimanche entrée libre
-DTSTART;TZID=Europe/Paris:20261101T100000
-DTEND;TZID=Europe/Paris:20261101T180000
-UID:8d03ccd90d76@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
- bre/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
@@ -467,76 +331,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Portes ouvertes de l'exposition « Manger les images »
-DTSTART;TZID=Europe/Paris:20261101T140000
-DTEND;TZID=Europe/Paris:20261101T180000
-UID:9ab6caed422c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/portes-ouvertes-de
- -lexposition-manger-les-images/
-LOCATION:Mucem - J4 / Salle d'exposition - R+2
-URL:https://mucem.org/evenement/portes-ouvertes-de-lexposition-manger-les-
- images/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:25 ans du Polygone étoilé : Sweetie et Un été à P2B
-DTSTART;TZID=Europe/Paris:20261101T180000
-DTEND;TZID=Europe/Paris:20261101T200000
-UID:5a5b6f3bb583@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Dans le cadre des 25 ans du Polygone Étoilé\nhttps://cinemal
- egyptis.org/films/25-ans-du-polygone-etoile-sweetie-et-un-ete-a-p2b/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/25-ans-du-polygone-etoile-sweetie-et-
- un-ete-a-p2b/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pour fêter ces 25 années de création\, le Polygone Étoilé vou
- s invite à découvrir deux courts-métrages pour une séance unique au ta
- rif de 3\,50€
-DTSTART;TZID=Europe/Paris:20261101T180000
-DTEND;TZID=Europe/Paris:20261101T200000
-UID:cca4eb54ea9d@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection de deux courts-métrages : 'Sweetie' de Zoé Fillou
- x et 'Un été à P2B' de Marta Anatra et Lo Thivolle.\nPrix : 3\,50€\nh
- ttps://www.instagram.com/p/De03TGhiUi5/
-LOCATION:Le Gyptis - Le Gyptis
-URL:https://www.instagram.com/p/De03TGhiUi5/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:F(L)EMME | Web-série intégrale
-DTSTART;TZID=Europe/Paris:20261101T193000
-DTEND;TZID=Europe/Paris:20261101T213000
-UID:0e5b13b21a85@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/flemme-web-serie-integrale/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/flemme-web-serie-integrale/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:EYEHATEGOD + Mezcal Wizard
-DTSTART;TZID=Europe/Paris:20261101T203000
-DTEND;TZID=Europe/Paris:20261101T223000
-UID:0b439d5691f7@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/eyehategod-mezcal-w
- izard/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/eyehategod-mezcal-wizard/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:F(L)EMME | Web-série intégrale (rediffusion)
-DTSTART;TZID=Europe/Paris:20261101T210000
-DTEND;TZID=Europe/Paris:20261101T230000
-UID:c8cf0d7ec549@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/flemme-web-serie-integrale-rediffus
- ion/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/flemme-web-serie-integrale-rediffusion/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Labo des désirs
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261107
@@ -548,6 +342,18 @@ DESCRIPTION:Projet participatif et convivial de création et programmation
  w.lafriche.org/evenements/labo-des-desirs-3/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/labo-des-desirs-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261117
+UID:302ecd546f9e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 1 - Les jardins méditerranéens
@@ -689,6 +495,20 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261116
+UID:7c47596f93c2@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/unworlding/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ateliers : Cartographier nos territoires avec Nadin Nadine
 DTSTART;TZID=Europe/Paris:20261104T100000
 DTEND;TZID=Europe/Paris:20261104T120000
@@ -699,6 +519,62 @@ DESCRIPTION:https://lafabulerie.com/agenda/cartographier-nos-territoires-a
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
  n-nadine/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cartographie sensible et mémoires recomposées
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261116
+UID:0a9a100cea51@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
+ ontre-récits face aux logiques d’effacement culturel\, politique ou col
+ onial\, tout en révélant la fragilité des représentations contemporain
+ es. Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/car
+ tographie-sensible-et-memoires-recomposees/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-
+ recomposees/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ce que nous voyons nous regarde
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261116
+UID:3cc575126532@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition collective de 16 installations en provenance de
+  8 pays de méditerranée qui invitent à reconnaître\, derrière chaque 
+ image\, une présence humaine\, politique\, irréductible. Une proposition
+  de Instants Vidéo\nhttps://www.lafriche.org/evenements/ce-que-nous-voyon
+ s-nous-regarde/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Désobéir à l’ère numérique
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261116
+UID:bb464e2d5c5d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Les artistes de cette exposition investissent les failles des 
+ systèmes numériques contemporains pour en révéler les mécanismes invi
+ sibles\, devenant ainsi matériaux à détourner\, perturber ou infiltrer.
+  Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/desobe
+ ir-a-lere-numerique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/desobeir-a-lere-numerique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La vie farpaite
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261116
+UID:1548239e3401@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
+ même devenu une œuvre\, à découvrir dans les Cathédrales. Une proposi
+ tion de LFKs-La Fabriks\nPrix : Gratuit !\nhttps://www.lafriche.org/evenem
+ ents/la-vie-farpaite/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/la-vie-farpaite/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le corset
@@ -957,18 +833,17 @@ URL:https://www.lembobineuse.biz/events/2026/11/05/soiree-de-soutien-au-mo
  uvement-social
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[cinéFID] CHICKEN SOUP de Caroline Milcent | en présence de la r
- éalisatrice
+SUMMARY:CHICKEN SOUP de Caroline Milcent
 DTSTART;TZID=Europe/Paris:20261105T200000
 DTEND;TZID=Europe/Paris:20261105T220000
-UID:fa31631cd65f@marseille-agenda
+UID:23b9e86d8aa4@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:▉ Séance spéciale en présence de la réalisatrice. ▉ S
- éance Happy Hours ! Tarif unique : 6\,5€ et happy hours au bar pour tou
- s·tes les détenteur·ices d’un ticket du jour. ▉ En partenariat avec
-  le FIDMar\nhttps://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
+DESCRIPTION:Projection du film 'Chicken Soup' de Caroline Milcent\, suivie
+  d'une séance Happy Hours.\nPrix : Tarif unique : 6\,5€ et happy hours 
+ au bar pour tous·tes les détenteur·ices d’un ticket du jour.\nhttps:/
+ /fb.me/e/6ZqdawMT3
+LOCATION:La Baleine
+URL:https://fb.me/e/6ZqdawMT3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:THE LET’S GO’S + Supreme Nightclub
@@ -1499,6 +1374,16 @@ DESCRIPTION:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens
  /
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Souvenirs d'enfance
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261116
+UID:6f9a614a5f54@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.instagram.com/p/DfNT_hfjSZ9/
+LOCATION:La Baleine - La Baleine
+URL:https://www.instagram.com/p/DfNT_hfjSZ9/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Marché paysan
@@ -2332,6 +2217,18 @@ URL:https://www.lembobineuse.biz/events/2026/11/15/prolongation-dun-long-w
  eek-end
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lancement de la Pépinière Culture
+DTSTART;TZID=Europe/Paris:20261116T140000
+DTEND;TZID=Europe/Paris:20261116T160000
+UID:1a5e7db3e969@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Réunion d'informations autour du lancement de la pépinière 
+ culturelle Une proposition de AMI\nPrix : Gratuit !\nhttps://www.lafriche.
+ org/evenements/lancement-de-la-pepiniere-culture/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/lancement-de-la-pepiniere-culture/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
  Âge européen et byzantin\, du Ve au XVe siècle.
 DTSTART;TZID=Europe/Paris:20261116T140000
@@ -2343,6 +2240,18 @@ DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20261116T160000
+DTEND;TZID=Europe/Paris:20261116T200000
+UID:83bc2762ddf5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Comment réussir à se parler ?
@@ -5083,6 +4992,17 @@ DESCRIPTION:https://mucem.org/evenement/un-dimanche-au-caire-les-femmes-du
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/un-dimanche-au-caire-les-femmes-du-bus-678
  /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UP TOWN MUSIC BAND #26
+DTSTART;TZID=Europe/Paris:20270314T183000
+DTEND;TZID=Europe/Paris:20270314T203000
+UID:6a99701131c8@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/up-town-music-band-2
+ 6/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/up-town-music-band-26/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire

@@ -1,61 +1,73 @@
 {
- "run_date": "2026-11-01",
+ "run_date": "2026-11-02",
  "sources_total": 50,
- "sources_ok": 48,
+ "sources_ok": 46,
  "sources_skipped_unchanged": 0,
- "events_published": 497,
- "events_new": 13,
+ "events_published": 489,
+ "events_new": 11,
  "events_rejected_grounding": 190,
- "events_rejected_verifier": 6,
- "events_uncertain": 1,
+ "events_rejected_verifier": 8,
+ "events_uncertain": 0,
  "alerts": [
+  {
+   "level": "error",
+   "venue_id": "manifesten",
+   "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
+   "message": "source failed, last verified state kept: schema generation failed"
+  },
   {
    "level": "warning",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-11-02"
+   "message": "generation error: ModelHTTPError: status_code: 500, model_name: anthropic/claude-sonnet-5, body: {'message': 'Internal Server Error', 'code': 500}"
+  },
+  {
+   "level": "error",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "source_url": "https://musees.marseille.fr/",
+   "message": "source failed, last verified state kept: fetch: timed out"
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-02: \"Permanence de Mille Bâbords et de sa médiathèque\" represents the regular opening hours / drop-in desk of the venue and its media library rather than a dated public event. Additionally, the excerpt lists only \"02 novembre\" without any year or weekday to confirm the inferred date."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-02: \"Permanence de Mille Bâbords et de sa médiathèque\" corresponds to venue/library opening hours rather than a public event, and the excerpt contains no year or weekday to confirm the date."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'La vie farpaite |\\xa0films du collectif LFKs' 2026-11-05: The cycle starts on 2026-11-03, not 2026-11-05: excerpt states \"du [2026-11-03T00:00:00+00:00] mardi 3 novembre 2026 au [2026-11-05T00:00:00+00:00] jeudi 5 novembre 2026\"."
+   "message": "verifier rejected 'La vie farpaite |\\xa0films du collectif LFKs' 2026-11-05: The excerpt states 'du mardi 3 novembre 2026 au jeudi 5 novembre 2026', meaning the start date is 2026-11-03, contradicting the extracted start_date of 2026-11-05."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The extracted start date '2026-11-12' contradicts the excerpt, which states the cycle runs 'du mercredi 11 novembre 2026 au jeudi 12 novembre 2026'."
+   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the event runs \"du [2026-11-11T00:00:00+00:00] mercredi 11 novembre 2026 au [2026-11-12T00:00:00+00:00] jeudi 12 novembre 2026\", contradicting the extracted start_date of 2026-11-12."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt specifies no start time for the event on \"samedi 14 novembre 2026\"; the extracted start_time of \"01:00:00\" is an artifact of parsing the timezone offset (+01:00)."
+   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The extracted start time of 01:00:00 contradicts the excerpt, which contains no screening time; it is a timezone artifact from the date-only placeholder `[2026-11-14T00:00:00+01:00]`."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The excerpt states the cycle runs \"du mercredi 30 septembre 2026 au mercredi 20 janvier 2027\", meaning 2027-01-20 is the end date, not the start date (2026-09-30)."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The excerpt states the cycle runs 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027', making 2026-09-30 the start date and 2027-01-20 the end date, not the start date."
   },
   {
    "level": "warning",
    "venue_id": "la-camaraderie",
    "source_url": "https://www.lacamaraderie.net/agenda",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-11-02"
+   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-09"
   },
   {
    "level": "warning",
    "venue_id": "twali",
    "source_url": "https://www.twalimarseille.fr/evenements",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-11-02"
+   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-09"
   },
   {
    "level": "warning",
@@ -67,25 +79,19 @@
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly states 'Du 15 mars à 18h00 au 16 mars 2026 à 21h00' and 'Dimanche 15 mars 2026', contradicting the extracted 2027 dates and placing the event in the past (today is 2026-11-01)."
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt states the event took place in 2026 ('Du 15 mars à 18h00 au 16 mars 2026 à 21h00', 'Dimanche 15 mars 2026'), contradicting the extracted start date of 2027-03-15."
   },
   {
    "level": "error",
    "venue_id": "manifesten",
    "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook fetch failed 4x: apify~facebook-posts-scraper: no_items"
+   "message": "facebook fetch failed 5x: apify~facebook-posts-scraper: no_items"
   },
   {
    "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from Venice: Function name was ```json final_result( but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from Venice: Function name was ```json final_result( but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
+   "venue_id": "la-baleine",
+   "source_url": "https://www.facebook.com/labaleinemarseille/",
+   "message": "facebook verifier rejected 'LE CORSET de Louis Clichy' 2026-11-04: The caption lists the screenings as \"Mer 4 à 18h30 ; Ven 6 à 17h ; sam 7 à 11h & 16h10 ; dim 8 à 11h\", so the final day (dim 8, the extracted end_date 2026-11-08) is at 11h, not 16h10 — the extracted end_time 16:10 actually belongs to sam 7, contradicting the end_date/end_time pairing."
   },
   {
    "level": "warning",
@@ -95,52 +101,40 @@
   },
   {
    "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook verifier uncertain 'INSCIENCE POLITIQUE' 2026-12-04: The flyer only shows \"DECEMBRE | 18h\" with the day number cropped off the left edge, so the extracted start_date 2026-12-04 (a vendredi) cannot be confirmed from the post; the day of the month is genuinely unreadable."
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from DeepInfra: Function name was ```json -i final_result.json <<EOF  but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
   },
   {
    "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.facebook.com/cinemalegyptis/",
    "message": "facebook post analysis error: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
   },
   {
+   "level": "error",
+   "venue_id": "la-colorada",
+   "source_url": "https://www.facebook.com/lacoloradamarsella/",
+   "message": "facebook fetch failed 33x: apify~facebook-posts-scraper: not_available"
+  },
+  {
    "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+   "venue_id": "la-fabulerie",
+   "source_url": "https://www.instagram.com/lafabulerie/",
+   "message": "instagram verifier rejected 'LA FABULERIE' 2026-11-02: The caption places the event at another venue: \"Rendez-vous jusqu'au 3 décembre au Tiers lieu éducatif Les Temps de l'Enfant à Marseille\" — La Fabulerie is only the co-creator of the installations, not the location. The extracted start_date 2026-11-02 is also unsupported: the post gives only an end date (\"jusqu'au 3 décembre\")."
   },
   {
    "level": "warning",
    "venue_id": "la-colorada",
    "source_url": "https://www.instagram.com/lacoloradamarsella/",
    "message": "instagram post analysis error: ModelHTTPError: status_code: 400, model_name: mistralai/mistral-small-3.2-24b-instruct, body: Upstream error from Venice: Function name was ```json final_result( but must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64."
-  },
-  {
-   "level": "error",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 32x: apify~facebook-posts-scraper: not_available"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-fabulerie",
-   "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram post analysis error: UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   }
  ],
- "llm_calls": 36,
+ "llm_calls": 51,
  "posts_analyzed": 10,
  "apify_runs": 18,
- "images_published": 433,
+ "images_published": 426,
  "images_failed": 0,
- "credits_remaining_usd": 6.1188,
- "run_cost_usd": 0.1244
+ "credits_remaining_usd": 2.8949,
+ "run_cost_usd": null
 }

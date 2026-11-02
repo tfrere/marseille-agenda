@@ -23,10 +23,10 @@ DTEND;VALUE=DATE:20270426
 UID:a09713f21970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/par-une-langue-echappee-nouveau-pa
- rcours-des-collections-modernes-et-contemporaines?museum=musee-cantini
+ rcours-des-collections-modernes-et-contemporaines
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
- es-collections-modernes-et-contemporaines?museum=musee-cantini
+ es-collections-modernes-et-contemporaines
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -168,88 +168,6 @@ URL:https://urls.fr/l2VLuK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261115
-UID:99ad9702e16d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cartographie sensible et mémoires recomposées
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261115
-UID:9d2cfef52c92@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
- ontre-récits face aux logiques d’effacement culturel\, politique ou col
- onial\, tout en révélant la fragilité des représentations contemporain
- es. Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/car
- tographie-sensible-et-memoires-recomposees/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-
- recomposees/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ce que nous voyons nous regarde
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261115
-UID:ebed18ee3d60@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition collective de 16 installations en provenance de
-  8 pays de méditerranée qui invitent à reconnaître\, derrière chaque 
- image\, une présence humaine\, politique\, irréductible. Une proposition
-  de Instants Vidéo\nhttps://www.lafriche.org/evenements/ce-que-nous-voyon
- s-nous-regarde/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Désobéir à l’ère numérique
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261115
-UID:bc08dc6c90ad@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les artistes de cette exposition investissent les failles des 
- systèmes numériques contemporains pour en révéler les mécanismes invi
- sibles\, devenant ainsi matériaux à détourner\, perturber ou infiltrer.
-  Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/desobe
- ir-a-lere-numerique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/desobeir-a-lere-numerique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La vie farpaite
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261115
-UID:363b6a3012f6@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
- même devenu une œuvre\, à découvrir dans les Cathédrales. Une proposi
- tion de LFKs-La Fabriks\nPrix : Gratuit !\nhttps://www.lafriche.org/evenem
- ents/la-vie-farpaite/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/la-vie-farpaite/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261115
-UID:b149658fb9ce@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261116
 UID:f90bf1dd5d64@marseille-agenda
@@ -354,44 +272,6 @@ DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
  -kikifruit/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cycle 1 - Les jardins méditerranéens
-DTSTART;TZID=Europe/Paris:20261102T140000
-DTEND;TZID=Europe/Paris:20261102T153000
-UID:e21fdc28b548@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens
- /
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marché paysan
-DTSTART;TZID=Europe/Paris:20261102T160000
-DTEND;TZID=Europe/Paris:20261102T200000
-UID:4e7df89ad73f@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
- ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
-  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/marche-paysan/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Avant-première et rencontre : L'ARABE
-DTSTART;TZID=Europe/Paris:20261102T194500
-DTEND;TZID=Europe/Paris:20261102T214500
-UID:b6a1bf3df654@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Avant-première en partenariat avec AFLAM. Suivie d'une rencon
- tre avec le réalisateur Malek Bensmail et l'actrice Hiam Abbass. L'ARABE 
- de Malek Bensmail - 1h46 - (DZ) - VOstfr avec Ahmed Benaissa\, Hiam\nhttps
- ://lesvarietes-marseille.com/FR/fiche-film-cinema/MG9X4C/l-arabe-the-arab.
- html
-LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
-URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MG9X4C/l-arabe-
- the-arab.html
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La vie farpaite | films du collectif LFKs
@@ -523,7 +403,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
 DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261214
 UID:0a9a100cea51@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
@@ -538,7 +418,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ce que nous voyons nous regarde
 DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20270118
 UID:3cc575126532@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Une exposition collective de 16 installations en provenance de
@@ -552,7 +432,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Désobéir à l’ère numérique
 DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261214
 UID:bb464e2d5c5d@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Les artistes de cette exposition investissent les failles des 
@@ -566,7 +446,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La vie farpaite
 DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261214
 UID:1548239e3401@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
@@ -1119,6 +999,18 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/5822658_
  films-femmes-mediterranee-la-jeune-creation-libanaise
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Un animal\, des animaux
+DTSTART;TZID=Europe/Paris:20261107T150000
+DTEND;TZID=Europe/Paris:20261107T170000
+UID:3b83678c8a60@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.facebook.com/friche.labelledemai/posts/pfbid02wz9G
+ LuYA6Gq4JEQgdk4krucpjXf4h5kbaePgsYaeCsnRZiYHEB1J12RPZoABSgvvl
+LOCATION:Friche la Belle de Mai
+URL:https://www.facebook.com/friche.labelledemai/posts/pfbid02wz9GLuYA6Gq4
+ JEQgdk4krucpjXf4h5kbaePgsYaeCsnRZiYHEB1J12RPZoABSgvvl
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visite flash
 DTSTART;TZID=Europe/Paris:20261107T150000
 DTEND;TZID=Europe/Paris:20261107T160000
@@ -1538,18 +1430,15 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/atelier-sauve-qui-pousse/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[FFM] ANNA de Monica Guerritore | avant-première en présence de 
- la réalisatrice
+SUMMARY:ANNA
 DTSTART;TZID=Europe/Paris:20261111T140000
 DTEND;TZID=Europe/Paris:20261111T160000
-UID:7d3a6385dfff@marseille-agenda
+UID:3464f91fd164@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:▉ Avant-première en présence de la réalisatrice (sous ré
- serve). Mercredi 11 novembre | 14h 𝗔𝗡𝗡𝗔 de Monica Guerritore 1
- h51 - Italie - 2026 Avec Monica Guerritore\, Tommaso Ragno\, Lucia Mascino
-  Dans la n\nhttps://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
+DESCRIPTION:Avant-première du film de Monica Guerritore sur Anna Magnani.
+ \nhttps://fb.me/e/k8Ttsh5oq
+LOCATION:La Baleine
+URL:https://fb.me/e/k8Ttsh5oq
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Gyptis x "Chaos Magique" par L'Idéaliste : KIKI LA PETITE SORC
@@ -1603,8 +1492,8 @@ UID:533fa1240ac4@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:Précédée à 15h d’un atelier de magie\, dès 8 ans (sur i
  nscription : ateliersducinema@lafriche.org – 12 places) et d’un goûte
- r offert à 16h.\nhttps://cinemalegyptis.org/films/kiki-la-petite-sorciere
- /
+ r offert à 16h · Les 50 premières places seront offertes par le festiva
+ l\nhttps://cinemalegyptis.org/films/kiki-la-petite-sorciere/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/kiki-la-petite-sorciere/
 END:VEVENT
@@ -2116,8 +2005,10 @@ DTEND;TZID=Europe/Paris:20261114T220000
 UID:33894b0fcebb@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:Projection suivie d’un débat en partenariat avec le festiva
- l du Printemps du Film Engagé\nhttps://cinemalegyptis.org/films/un-pays-q
- ui-se-tient-sage/
+ l du Printemps du Film Engagé · La projection sera suivie d’un débat 
+ en présence de Laurence Blisson du Syndicat de la Magistrature et Frédé
+ rique Chartier du Syndicat des Avocats...\nhttps://cinemalegyptis.org/film
+ s/un-pays-qui-se-tient-sage/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/un-pays-qui-se-tient-sage/
 END:VEVENT
@@ -2193,6 +2084,18 @@ DESCRIPTION:https://mucem.org/evenement/un-dimanche-a-rome-vers-un-avenir-
  radieux/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/un-dimanche-a-rome-vers-un-avenir-radieux/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tiq & Sterevoid & friends
+DTSTART;TZID=Europe/Paris:20261115T200000
+DTEND;TZID=Europe/Paris:20261115T010000
+UID:9d6b84693531@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Tiq (dj Neue K + dj Lichene) and Stereovoid will perform minim
+ al synth\, dark wave\, and post punk music.\nPrix : prix libre€ + 2€ a
+ dh.\nhttps://www.instagram.com/p/DfPrTmftFKE/
+LOCATION:L'Embobineuse - L'EMBOBINEUSE
+URL:https://www.instagram.com/p/DfPrTmftFKE/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:THE UPSESSIONS
@@ -2753,6 +2656,18 @@ DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/21/frontpageleslie
 LOCATION:L'Embobineuse
 URL:https://www.lembobineuse.biz/events/2026/11/21/frontpageleslie-neinact
  ion-manoirmolle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SAM 21 NOV - 21H
+DTSTART;TZID=Europe/Paris:20261121T210000
+DTEND;TZID=Europe/Paris:20261121T230000
+UID:aa71bd5e258e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Soirée musicale avec Front Page Leslie\, Nein Action et Manoi
+ r Molle.\nPrix : 9€ + 2€ adh.\nhttps://www.instagram.com/p/DfPrp2Nhr0C
+ /
+LOCATION:L'Embobineuse
+URL:https://www.instagram.com/p/DfPrp2Nhr0C/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
@@ -4683,6 +4598,17 @@ URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Peut-on encore défendre la démocratie ?
+DTSTART;TZID=Europe/Paris:20270208T190000
+DTEND;TZID=Europe/Paris:20270208T203000
+UID:169f6ffceed3@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/peut-on-encore-def
+ endre-la-democratie/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/peut-on-encore-defendre-la-democratie/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Comme un vertige...
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270214
@@ -4775,6 +4701,17 @@ DESCRIPTION:https://mucem.org/evenement/cycle-4-linvention-du-visible-espa
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-4-linvention-du-visible-espace-corps
  -lumiere-et-sciences-du-regard-en-italie-du-trecento-au-cinquecento/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Comment nourrir sans mourir ?
+DTSTART;TZID=Europe/Paris:20270215T190000
+DTEND;TZID=Europe/Paris:20270215T203000
+UID:1b390c7013c0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/comment-nourrir-sa
+ ns-mourir/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/comment-nourrir-sans-mourir/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ma mini-ferme
@@ -4889,6 +4826,17 @@ LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/la-commission-denquete/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Peut-on décoloniser l’écologie ?
+DTSTART;TZID=Europe/Paris:20270301T190000
+DTEND;TZID=Europe/Paris:20270301T203000
+UID:b33963c7d9f0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/peut-on-decolonise
+ r-lecologie/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/peut-on-decoloniser-lecologie/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lou tout petit
 DTSTART;TZID=Europe/Paris:20270303T150000
 DTEND;TZID=Europe/Paris:20270303T153500
@@ -4939,6 +4887,17 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
  bre/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Femmes libres\, femmes périmées
+DTSTART;TZID=Europe/Paris:20270308T190000
+DTEND;TZID=Europe/Paris:20270308T203000
+UID:deefcd33a277@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/femmes-libres-femm
+ es-perimees/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/femmes-libres-femmes-perimees/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MØL * WARM UP HEADBANG FESTIVAL*
@@ -5003,6 +4962,17 @@ DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/up-town-music-band-2
  6/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/up-town-music-band-26/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La bataille du rire
+DTSTART;TZID=Europe/Paris:20270315T190000
+DTEND;TZID=Europe/Paris:20270315T210000
+UID:0c923cff9397@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/la-bataille-du-rir
+ e/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/la-bataille-du-rire/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire

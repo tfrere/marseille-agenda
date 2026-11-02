@@ -4,10 +4,10 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-11-02",
+   "last_fetched": "2026-11-03",
    "last_ok": "2026-10-26",
    "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 5,
+   "consecutive_failures": 6,
    "posts": {
     "1660677512734544": {
      "id": "1660677512734544",
@@ -378,6 +378,7 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:manifesten": {
@@ -389,14 +390,15 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": []
   },
   "instagram:frichelabelledemai": {
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -1965,6 +1967,89 @@
      "image_urls": [
       "https://scontent-cdg6-1.cdninstagram.com/v/t39.30808-6/863989060_1579067204248347_925022023335348821_n.jpg?stp=c0.64.1536.1920a_dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=NDAxNzk4NDg5MzI4NDQzMTI5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=V-en1NQ1SFkQ7kNvwG80b7j&_nc_oc=AdrbmDFhNSBrqPeLA1XaXA72a_VXk4MQt40DXuv9UsON2bSz_XiS1DChDvQkUKzq6RZOoh-SNPRPNSbIqYGCVzmL&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg6-1.cdninstagram.com&_nc_gid=UNWFY7EL1-31qaMT8havPA&_nc_ss=7320f&oh=00_AQSWDYkmAGOUTWJpIGFCJRp0JAS6mN7gfGAXWEmIDsFlbQ&oe=6AEDE44E"
      ]
+    },
+    "4021656300306920259": {
+     "id": "4021656300306920259",
+     "url": "https://www.instagram.com/p/DfPyxj0gXND/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Mawahub : nouveaux récits de l'entrepreneuriat culturel algérien",
+       "start_date": "2026-11-03",
+       "start_time": "09:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Mawahub : nouveaux récits de l'entrepreneuriat culturel algérien",
+        "Mardi 3 novembre 2026",
+        "9h-13h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces a dated public event: \"Rencontre\" \"Mardi 3 novembre 2026\" \"Mawahub : nouveaux récits de l'entrepreneuriat culturel algérien\" with \"9h-13h\" and \"Gratuit sur inscription\". The date matches the written weekday (3 Nov 2026 is a Tuesday), falls on/after the 2026-11-02 publication, and the post is a forward-looking weekly agenda (2→8 novembre 2026), not a recap."
+      },
+      {
+       "title": "Rendez-vous Transmission avec Ugo Arsac",
+       "start_date": "2026-11-03",
+       "start_time": "17:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Rendez-vous Transmission avec Ugo Arsac",
+        "Mardi 3 novembre 2026",
+        "17h-19h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Flyer reads \"Rendez-vous Transmission avec Ugo Arsac\", \"Mardi 3 novembre 2026\", \"17h-19h\", matching the extracted date/time; it is an announced public \"Rencontre\" (\"Gratuit sur inscription\") within the week's agenda (2→8 novembre 2026), published the day before, and nothing indicates cancellation."
+      },
+      {
+       "title": "Un animal, des animals",
+       "start_date": "2026-11-07",
+       "start_time": "15:00:00",
+       "end_date": null,
+       "end_time": "19:00:00",
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Un animal, des animals",
+        "Samedi 7 novembre 2026",
+        "15h / 19h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The 4th flyer announces \"Théâtre — Samedi 7 novembre 2026 — Un animal, des animals — 15h / 19h\", matching the extracted date and time; the post is a forward-looking \"AGENDA DE LA SEMAINE\" (2 → 8 novembre 2026) published 2026-11-02, and 2026-11-07 is indeed a samedi, so it is an upcoming dated public event at the Friche."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ams4-1.cdninstagram.com/v/t39.30808-6/886059714_1584860407002360_8961227367100574989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAyMTY1NjI3OTU1MzQ3NTkwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xL5QBT2xK3QQ7kNvwEOnvsM&_nc_oc=AdrCgu7o8OFLjS5VMmt_PJcZFcNCDwwcFRoylKUO1sqdmfWHvL21D-3E4_NlBte3qRjGrhZ22X_FWyRTGbyZ9gfA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_gid=moRY4m8YQRoKZtRx0vL68Q&_nc_ss=7320f&oh=00_AQSSrfGBfbmwTJerDHq9ZoTOe40TuJObk9Gy51C9gbheVw&oe=6AEEF370",
+      "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/885185302_1584860413669026_8990004638008643838_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=NDAyMTY1NjI3OTEzNDA3MDg1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=n2IGD3ypPAgQ7kNvwHvUmQz&_nc_oc=AdrqYIuJKK-lnTkCgSaDLFzZmIoiveQ0xEemr4PyN9EDFI5nUhqb6OxN1viebRZHc2GrbZfVAqEz97sKWeZE4066&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=moRY4m8YQRoKZtRx0vL68Q&_nc_ss=7320f&oh=00_AQSIIh1A9AX-gq2rSPBqxZpuXA3z2h613494NvtM2cWaLQ&oe=6AEF049A",
+      "https://scontent-ams4-1.cdninstagram.com/v/t39.30808-6/886263549_1584860403669027_8069622703666364125_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAyMTY1NjI3OTk2NDU1MDIwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=oBvYj-khtAsQ7kNvwHd-TIP&_nc_oc=AdqvLIJwkOssrmGGvxWBeZeZDlpvk4KO2pUlViS2eqLtgwZAVt11KvudIa2KqzTWJO2OkRk04w_cIoWQvtD9elR3&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_gid=moRY4m8YQRoKZtRx0vL68Q&_nc_ss=7320f&oh=00_AQSBM-JmSXx41UxmL0NpLqgObFiImTkN3Ach7rCzQSGDHQ&oe=6AEEDD99",
+      "https://scontent-ams4-1.cdninstagram.com/v/t39.30808-6/884531317_1584860410335693_5049839208229954785_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=NDAyMTY1NjI3OTA1ODYwNjEyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VPjJazWlHsIQ7kNvwF8-yKE&_nc_oc=Adr0W6vVMJgRO-9KsMOIrbBmUcceC2MdWymITCdgmbZjGL32TgvYym9aSXYWk85SPsLBwMTFnZYGXYIMYSVu8Mqi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_gid=moRY4m8YQRoKZtRx0vL68Q&_nc_ss=7320f&oh=00_AQQJ5-P7zp5LFk0x55nPcwq7c1nFLlzhjQoZlr5Hrw-K2w&oe=6AEED5F0"
+     ]
+    }
+   },
+   "failed_posts": {
+    "4021473237913299322": {
+     "attempts": 1,
+     "last": "2026-11-03",
+     "error": "UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
     }
    },
    "fb_events": []
@@ -1973,8 +2058,8 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3358,8 +3443,85 @@
      "image_urls": [
       "https://scontent.fosu2-2.fna.fbcdn.net/v/t39.99422-6/874666729_1922289965403534_1494463368177338213_n.png?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PE7G8ER7lGgQ7kNvwEn9tJt&_nc_oc=AdofCGuWmZP_kpod9KtZ-Q_T6O1N3TAYx-EKi29pf1igg6aPOWJ8L8qjATNQo7gPtzIth_dnX1WvMsZ3TUYlnYhu&_nc_zt=14&_nc_ht=scontent.fosu2-2.fna&_nc_gid=x1yLJgXLNEc5zoIHPswNLA&_nc_ss=70180&oh=00_AQT2buYzpv5Hrerhmlu7SQ6I7cjd43X58xjtrR-r_qngVA&oe=6AECA23D"
      ]
+    },
+    "1584935220328212": {
+     "id": "1584935220328212",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02wz9GLuYA6Gq4JEQgdk4krucpjXf4h5kbaePgsYaeCsnRZiYHEB1J12RPZoABSgvvl",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Mawahub : nouveaux récits de l'entrepreneuriat culturel algérien",
+       "start_date": "2026-11-03",
+       "start_time": "09:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Mawahub : nouveaux récits de l'entrepreneuriat culturel algérien",
+        "Mardi 3 novembre 2026",
+        "9h-13h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer states \"Mardi 3 novembre 2026\" and \"9h-13h\", matching the extracted date/time (2026-11-03 is indeed a mardi, and it is on/after the 2026-11-02 publication date); it is a dated public \"Rencontre\" in the Friche's own weekly agenda, with no cancellation notice."
+      },
+      {
+       "title": "Rendez-vous Transmission avec Ugo Arsac",
+       "start_date": "2026-11-03",
+       "start_time": "17:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Rendez-vous Transmission avec Ugo Arsac",
+        "Mardi 3 novembre 2026",
+        "17h-19h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer explicitly states \"Rendez-vous Transmission avec Ugo Arsac\", \"Mardi 3 novembre 2026\" and \"17h-19h\", matching the extracted date/time; 2026-11-03 is indeed a mardi and falls after the 2026-11-02 publication date. It is a dated public event in the Friche's own weekly agenda (\"AGENDA DE LA SEMAINE\", \"2 → 8 NOVEMBRE 2026\"), not a recap or cancellation."
+      },
+      {
+       "title": "Un animal, des animaux",
+       "start_date": "2026-11-07",
+       "start_time": "15:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Un animal, des animaux",
+        "Samedi 7 novembre 2026",
+        "15h / 19h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces a dated public theatre performance: \"Théâtre — Samedi 7 novembre 2026 — Un animal, des animaux ... 15h / 19h\", posted in the Friche's own \"AGENDA DE LA SEMAINE\" (2 → 8 novembre 2026) published 2026-11-02, so the date is on/after publication and 7 November 2026 is indeed a samedi; no cancellation or venue contradiction (Théâtre Massalia is hosted at the Friche)."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/866435396_1618312123108102_3912148364747045697_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=sLxoVlIyL-oQ7kNvwElEj5o&_nc_oc=AdovuZYUF7vbivD4gj4lHZoTKoAk_nzMIrTS1dsL8IyzDWLbxxpJLq5SFFykZvBjiMFF1i4tepqiqytldovMZhG4&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=kGmRP82O46nOIDBmNAtzfA&_nc_ss=70180&oh=00_AQQlReKC-2DAtYZ7eb9bomCeMmWDeD16sEeTIGLYJKVGPg&oe=6AEEE82E",
+      "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/885721409_968626682988735_4754869046371783565_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dkpD0ZWvyvsQ7kNvwEydN31&_nc_oc=Adr80IJlTSGCTO3drS9hit_gaei8Roy86F4ZuDG_egIL74QqkMpmPC7BxO4S1RmUtav3t9RvMEd0_Fj1MX9BwJ-N&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=kGmRP82O46nOIDBmNAtzfA&_nc_ss=70180&oh=00_AQTcIPaQKancGVlub0l2L_UEk18wqv_OCYlA8WHZa1jBeA&oe=6AEEE70E",
+      "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/871567461_2286889928821008_2463091980780771988_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dkPPwhofhKAQ7kNvwHAqDmT&_nc_oc=AdqF4Ah64oHT89I6Hrc4WzecvJldOfdKmSxFIIkocJH8gy0CIYBKrATVfrplxIvsQ6yetabaUxvHAo4Ra7QnE3Nb&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=kGmRP82O46nOIDBmNAtzfA&_nc_ss=70180&oh=00_AQTmzYyMf1MBh1fE6mpfZWU5GAULB8ENSfvFoFKFkUuszQ&oe=6AEF057A",
+      "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/884079930_2212822249590325_1191837636468824755_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jqNZCDU5alMQ7kNvwGBlVdv&_nc_oc=AdqC_BCVU7UGr069Gk6rRFMmM9I8e-QSvmwRbbUoJz0PycZa82dZe033JjI7ccvCvXZFePJhwKyvf6ELYZfJQVd5&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=kGmRP82O46nOIDBmNAtzfA&_nc_ss=70180&oh=00_AQSUDXYYkNG6BUbswOpBPeOLZe_LOTKV5kl8OeIIV7olnQ&oe=6AEEDD63"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:friche.labelledemai": {
@@ -3371,14 +3533,15 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:transit.librairie": {
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3951,8 +4114,40 @@
      "image_urls": [
       "https://scontent-atl3-1.xx.fbcdn.net/v/t51.82787-15/876299965_18186290431413308_2919346176249333730_n.jpg?stp=dst-jpg_tt6&cstp=mx2049x1629&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DVHz58G9cU8Q7kNvwGPtic7&_nc_oc=Adr81AAGXlCQFXGRyzox-JimhW752SuMIRWDyZOwRtTBJGP-TZh2P9rLbu-4ti08tyMqfQ0NbnnzOusLYGhX0KTT&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=pezZIg4QIl9n86ksQLyi5g&_nc_ss=70180&oh=00_AQQo4cUcQiDnc_OqZLdTwqp2dctapkK_fBLdIG0Yuxy5hA&oe=6AEB6949"
      ]
+    },
+    "2133993110524550": {
+     "id": "2133993110524550",
+     "url": "https://www.facebook.com/events/2133993110524550/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Marcher dans la blessure",
+       "start_date": "2026-11-03",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "Marcher dans la blessure"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The only image is a book cover reading \"L'AMOURIER / Marcher dans la blessure\" with no date, time or venue anywhere, and the post has \"(no caption)\"; the extracted start_date 2026-11-03 (flagged from_image) is unsupported by the post, so this is not a verifiable dated public event."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/879815266_1743648974437806_6802659090388974529_n.jpg?stp=c0.601.600.600a_dst-jpg_tt6&cstp=mx600x600&ctp=s565x565&_nc_cat=105&ccb=1-7&_nc_sid=1abd25&_nc_ohc=1NqgdyWn8XAQ7kNvwE89sW0&_nc_oc=AdqRhXKqI3IxuBnQYC-89ydKRWBWqfOznZFWSLzyEeGn8MZ4mHYLQYo8qrJAPAnfkB8&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=WAs-B0CyxO-PCrPQFZeE4A&_nc_ss=70180&oh=00_AQT8xx4VyP18kYL_5AYTrynTQ_O9ZHsQ_6YzmxewdkUVhg&oe=6AEED5A4"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:transit.librairie": {
@@ -3964,6 +4159,7 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": [
     {
      "id": "1672249714571352",
@@ -4016,8 +4212,8 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -5017,16 +5213,29 @@
      "image_urls": [
       "https://instagram.fbre4-1.fna.fbcdn.net/v/t51.82787-15/871437833_18169144429492293_5625280095920766141_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNzI5ODAxMDkxNjYzNDk1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fKwEsiHrvFcQ7kNvwEsCMsg&_nc_oc=Adp7QmrQkypZ1GdALCJV4X3C0BJcmBc4pm1t2ue2ai7uF6iwawzJNCHz8M9_Qcems8k9J6TE8t4Eih8OEjeoZdtM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbre4-1.fna&_nc_gid=lZ8Li0HMt564f1ueixAcuA&_nc_ss=7320f&oh=00_AQQO3CZAJLpNGExa5KrJXpR8J6E04jbCC1Coaoww-wwrPQ&oe=6AE8A6B6"
      ]
+    },
+    "4021176183039076710": {
+     "id": "4021176183039076710",
+     "url": "https://www.instagram.com/p/DfOFm7xTilm/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": false,
+     "events": [],
+     "notes": "recap of a past event",
+     "image_urls": [
+      "https://instagram.flpa3-1.fna.fbcdn.net/v/t51.82787-15/869846503_18077213393756624_5060862852058350757_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTE3NjE4MzAzOTA3NjcxMDE4MDc3MjEzMzkwNzU2NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzkuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=X2Sx4yatLw4Q7kNvwHN_Eb2&_nc_oc=Adrjq-yfBY4sXks6ieRALhuRBPhsSsOy4WHXQ_Tt7Ptzt5azZIErk5gUQAVUPMOsON8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.flpa3-1.fna&_nc_gid=TUS_9oBTHrDl4ZIJNXq39Q&_nc_ss=7320f&oh=00_AQS4HHr4XFR_qMpZILx8zF4MgwHGTNZ5pARSzABvsnxC6Q&oe=6AEF0718"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:Intermediaire.live": {
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -5205,6 +5414,7 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:Intermediaire.live": {
@@ -5216,6 +5426,7 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": [
     {
      "id": "1117646474143595",
@@ -5238,8 +5449,8 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -6432,14 +6643,21 @@
      ]
     }
    },
+   "failed_posts": {
+    "4021414900974502290": {
+     "attempts": 1,
+     "last": "2026-11-03",
+     "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+    }
+   },
    "fb_events": []
   },
   "facebook:labaleinemarseille": {
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -7883,8 +8101,117 @@
       "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/875194043_1811963423287339_907013606918590784_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MBf_VE61HhYQ7kNvwGypZK6&_nc_oc=Adr57rFBNm-qR9wtlUbXwc1sPX8Yesm-rylYtVbw1MJnEm98tCk1UlVHmC9Z1TeGztE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=L5lEdwXVHfQkX9hwIqewsw&_nc_ss=70180&oh=00_AQTqLwiLaf0Bm4we7ZwjUN3mhucIxziduIMu53f3erU_ew&oe=6AEDD8CC",
       "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/883647779_2518630348662265_8219447322239775180_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hKSecJahseIQ7kNvwGgSVSd&_nc_oc=AdogXdO4q6tAeebN6s2nEZULYhZDmvrja8pzf3nlHHLZ5XYGGkmywGUaaCh6RuZQ3zw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=L5lEdwXVHfQkX9hwIqewsw&_nc_ss=70180&oh=00_AQTuZUGvTuDjF30PVPVlsTY692PBj3IatvZzhEN_Y-v15w&oe=6AEE0A35"
      ]
+    },
+    "1445571474368966": {
+     "id": "1445571474368966",
+     "url": "https://www.facebook.com/events/1445571474368966/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Braderie d’affiches",
+       "start_date": "2026-11-15",
+       "start_time": "15:00:00",
+       "end_date": null,
+       "end_time": "19:00:00",
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "DIMANCHE 13 DÉCEMBRE 15H-19H",
+        "BRADERIE D’AFFICHES"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The flyer reads \"DIMANCHE 13 DÉCEMBRE 15H-19H\", i.e. Sunday 13 December 2026, but the extracted start_date is 2026-11-15 (a Sunday in November) — the day number and month contradict the flyer."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/886476167_1434993605427296_4357685415634661528_n.png?stp=c420.0.1080.1080a_dst-jpg_tt6&cstp=mx1080x1080&ctp=s565x565&_nc_cat=111&ccb=1-7&_nc_sid=1abd25&_nc_ohc=RDwHttObgc8Q7kNvwF6o-Ng&_nc_oc=Ado8Lc112M_vjDJF2HJEZcfBAdBXxcJ5eKSQsS_L5gjRJmnvekl4jJ69CG-R7fMdDvY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=k5ggvA1-grZgMy_3GImF3A&_nc_ss=70180&oh=00_AQRL7sKEXKPNkYbl8WREId6yd7OMb9xpOQPrqSo4zfOpHA&oe=6AEEF11D"
+     ]
+    },
+    "1758785319581549": {
+     "id": "1758785319581549",
+     "url": "https://www.facebook.com/labaleinemarseille/posts/pfbid02ByaMVBku9j3KGPiCLqB9NFgwGXePfsYgfSBsTVBUu2xRsp6Zyrm4d1UtY2HvXUzHl",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "L'HEURE DE LA LIBÉRATION A SONNÉ",
+       "start_date": "2026-11-08",
+       "start_time": "17:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/8LaBGAevK",
+       "price": null,
+       "summary": "Projection du film de Heiny Srour sur la révolte au Dhofar en 1965.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗟'𝗛𝗘𝗨𝗥𝗘 𝗗𝗘 𝗟𝗔 𝗟𝗜𝗕𝗘́𝗥𝗔𝗧𝗜𝗢𝗡 𝗔 𝗦𝗢𝗡𝗡𝗘́ d'Heiny Srour (1974) ▶️ Dim 8 à 17h30",
+        "Dimanche 08.11 - 17h30",
+        "L'HEURE DE LA LIBÉRATION A SONNÉ D'HEINY SROUR (1974)"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption and flyer both state \"Dimanche 08.11 - 17h30\" / \"Dim 8 à 17h30\", matching the extracted 2026-11-08 (a Sunday) at 17:30; the venue \"LA BALEINE\" appears on the flyer and the post is from labaleinemarseille, and the festival dates \"05-13 nov. 26\" confirm the year. It is a real, scheduled public film screening with no cancellation notice."
+      },
+      {
+       "title": "TO HOLD A MOUNTAIN",
+       "start_date": "2026-11-09",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/9WjuRy7bi",
+       "price": null,
+       "summary": "Projection du film de Biljana Tutorov et Petar Glomazić sur une mère bergère au Monténégro.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗧𝗢 𝗛𝗢𝗟𝗗 𝗔 𝗠𝗢𝗨𝗡𝗧𝗔𝗜𝗡 de Biljana Tutorov, Petar Glomazić ▶️ Lun 9 à 20h",
+        "LUNDI 09.11 - 20H",
+        "TO HOLD A MOUNTAIN DE BILJANA TUTOROV, PETAR GLOMAZIĆ"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Flyer and caption both state \"LUNDI 09.11 - 20H\" / \"Lun 9 à 20h\" for TO HOLD A MOUNTAIN, and 2026-11-09 is indeed a Monday, on/after the 2026-11-02 publication date; the flyer carries the \"LA BALEINE\" header matching the venue, and the event link https://fb.me/e/9WjuRy7bi matches the caption."
+      },
+      {
+       "title": "ANNA",
+       "start_date": "2026-11-11",
+       "start_time": "14:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/k8Ttsh5oq",
+       "price": null,
+       "summary": "Avant-première du film de Monica Guerritore sur Anna Magnani.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗔𝗡𝗡𝗔 de Monica Guerritore ▶️ Mer 11 à 14h",
+        "MERCREDI 11.11 - 14H",
+        "ANNA DE MONICA GUERRITORE"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer and caption both state \"MERCREDI 11.11 - 14H\" / \"𝗔𝗡𝗡𝗔 de Monica Guerritore ▶️ Mer 11 à 14h\", matching the extracted 2026-11-11 (a Wednesday) at 14:00, which falls after the 2026-11-02 publication date; the flyer carries the \"LA BALEINE\" header and the post is a dated public screening (\"Avant-première en présence de la réalisatrice (sous réserve)\"), with the link https://fb.me/e/k8Ttsh5oq matching the caption."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/870167479_1647934273691570_2111981846365347529_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bnaRRHh6D3MQ7kNvwEkFtcS&_nc_oc=AdoyU1nxB5fSnA2ZbqpuO1TTcRJ951tNZ5MNlaEQmGhJf80u7Kr_bn1thO9C9pt1sFw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=k5ggvA1-grZgMy_3GImF3A&_nc_ss=70180&oh=00_AQSTHnXEbBcRldweYpfhJxcCHd1pUaednmkYU1IJGeu8LQ&oe=6AEEEDFA",
+      "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/885485422_2333973347387271_8878215573249415213_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=a4AdcZ4IY-UQ7kNvwHlAWRy&_nc_oc=AdpYdjODqwveE5xEE_HRlKdaaYd5MjDMdcW_K0A0v9WkDqsl3OB-vP_qmjEz1icMocA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=k5ggvA1-grZgMy_3GImF3A&_nc_ss=70180&oh=00_AQSnRMgHujiIM40go30waeqyK68ltWg1xu1Fe2GOCr4-HQ&oe=6AEED7F6",
+      "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/885185328_1597212208333234_4912074134355286461_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-7tbFwdE9qIQ7kNvwHYfveS&_nc_oc=AdrWeER8bPX58CyjFjd4vBD4BIVSZeKwHQhBS4v3XAWA641lr892KyiSaxEYAMrSNis&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=k5ggvA1-grZgMy_3GImF3A&_nc_ss=70180&oh=00_AQTBMsgPK7VcWrK6EA2h-VfDHdzEY9ANXhTD9ogDAnf3eA&oe=6AEEE75D",
+      "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/886633568_1274846761493463_7434076237820962517_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GADTfT8n1RsQ7kNvwFTwdtz&_nc_oc=AdpW2APuKtCKsvM1l0BUzuYPE1NP-_qQEyz_CWVIx7QeWVgbCd5rw9A7wU3gcTqs-sw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=k5ggvA1-grZgMy_3GImF3A&_nc_ss=70180&oh=00_AQQBR8nW2CC3btnwsDTcNDPZa-LuoxIp5Mmhe2mU5n_e_A&oe=6AEED43D"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:labaleinemarseille": {
@@ -7896,6 +8223,7 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": [
     {
      "id": "1082320470870402",
@@ -8113,8 +8441,8 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -8960,14 +9288,15 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:lesvarietesmarseille": {
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -9524,8 +9853,105 @@
      "image_urls": [
       "https://scontent.fcps4-1.fna.fbcdn.net/v/t39.30808-6/859303384_1747540683987516_7558773345306039245_n.jpg?stp=dst-jpg_tt6&cstp=mx820x312&ctp=s820x312&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=X32wHfPBwGIQ7kNvwHnySLA&_nc_oc=Adpa_O53LC_XUK_DMLaYceEN0TQpLJGXrOIuZzbn2j2TXN2c4IAx7JD6xX8Gh0B9xOWSppPo-HPBZMgwhj9oi6eN&_nc_zt=23&_nc_ht=scontent.fcps4-1.fna&_nc_gid=gcsBptXxgmKiMCjWZ8LMgg&_nc_ss=70180&oh=00_AQQaQYOWHBGv_CuG_Orre6rL7EpT1jywwru54CLlTc_3EA&oe=6AE8B17B"
      ]
+    },
+    "1141383282150231": {
+     "id": "1141383282150231",
+     "url": "https://www.facebook.com/events/1141383282150231/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "HITCHCOCK VISITE LONDRES",
+       "start_date": "2026-11-03",
+       "start_time": null,
+       "end_date": "2026-11-30",
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "HITCHCOCK VISITE LONDRES",
+        "3 - 24 - 30 NOV 2026"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The attached flyer is cropped: the title block is cut off (only fragments \"H… N… ERG\" and the \"CULT & RÉTRO\" badge are legible), so the title \"HITCHCOCK VISITE LONDRES\" and the venue cannot be verified from the post. The only date evidence is \"3 - 24 - 30 NOV 2026\", which reads as three discrete screening dates rather than a continuous run from 3 to 30 November, making the extracted start/end range genuinely ambiguous."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/885667855_1755983626476555_8688910757165090537_n.jpg?stp=c459.0.1080.1080a_dst-jpg_tt6&cstp=mx1080x1080&ctp=s565x565&_nc_cat=107&ccb=1-7&_nc_sid=1abd25&_nc_ohc=8_GvHztevfUQ7kNvwE22a55&_nc_oc=AdoYUPaNGataBKxan9gQqHKnP2-gkFJ9VEVDeVukJn_j1jwf0dw5VY5Sak-jvAnSv8k&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=i31fai8Uy-oBWj7rlHDEEg&_nc_ss=70180&oh=00_AQQntdDHT2kVkRHF54igNnf-H_IeTVkuSzk00rDTVrbryg&oe=6AEEF685"
+     ]
+    },
+    "4889059497995105": {
+     "id": "4889059497995105",
+     "url": "https://www.facebook.com/events/4889059497995105/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "LUX",
+       "start_date": "2026-11-03",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "SEANCE SPECIALE",
+        "LUX"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The flyer shows only \"SEANCE SPECIALE\" and \"LUX\" (with the left edge cropped) and the caption is empty, so there is no written date anywhere to support the extracted 2026-11-03; the date is genuinely ambiguous/unreadable."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/886377603_1755987849809466_1637025984880879972_n.jpg?stp=c455.0.1070.1070a_dst-jpg_tt6&cstp=mx1070x1070&ctp=s565x565&_nc_cat=108&ccb=1-7&_nc_sid=1abd25&_nc_ohc=AekdYV8i5wkQ7kNvwFw50My&_nc_oc=AdrjB9zFWnKMyBryqXIepH7eug5sJ8GwZUXGZYCeqlAEtkBieqkcr_3NDFzSTpjfXNA&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=i31fai8Uy-oBWj7rlHDEEg&_nc_ss=70180&oh=00_AQSFe4xI2WaM8-frZM91YLQBCwaO7ZXZ2VGBftcbpvAshA&oe=6AEEFAE6"
+     ]
+    },
+    "1424529919835192": {
+     "id": "1424529919835192",
+     "url": "https://www.facebook.com/events/1424529919835192/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "TÉTUE",
+       "start_date": "2026-11-03",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "SEANCE SPECIALE",
+        "TETUE"
+       ],
+       "from_image": true,
+       "verifier": "uncertain",
+       "verifier_reason": "The only readable text is \"SÉANCE SPÉCIALE\" and \"TETUE\" on a cropped flyer; the caption is empty and no date, time or venue is visible, so the extracted start_date 2026-11-03 cannot be confirmed from the post."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/886949975_1755926936482224_7560681014477657367_n.jpg?stp=c455.0.1070.1070a_dst-jpg_tt6&cstp=mx1070x1070&ctp=s565x565&_nc_cat=108&ccb=1-7&_nc_sid=1abd25&_nc_ohc=vJ3oE9g1ATMQ7kNvwFXIqv8&_nc_oc=AdodtM_Q8abDJcPS4-Q4-FRu8hcFinNdP__ZzT5rZAvc93yjeezBwthfHYBxJNqsWAU&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=i31fai8Uy-oBWj7rlHDEEg&_nc_ss=70180&oh=00_AQQcl5aHadylRLNHxugd3UrxExMWhsgXAtIKRTpWZZv0dA&oe=6AEEE47A"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:lesvarietesmarseille": {
@@ -9537,6 +9963,7 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": [
     {
      "id": "1689635082496653",
@@ -9619,8 +10046,8 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -10780,16 +11207,93 @@
      "image_urls": [
       "https://instagram.flhr1-2.fna.fbcdn.net/v/t51.82787-15/864931941_18204990097378716_4165272686996787115_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=NDAxOTE4MDQzMDMyMjA1NDU1ODE4MjA0OTkwMDkxMzc4NzE2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=xJPyeebjTWgQ7kNvwGbuDrS&_nc_oc=Adqs9fQTWQbTfz1DERtH_DWLkrhOXCh0EgdM2s2wmRgfsy1tSmrC0Z2Dk4Gfm5Ptxas&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.flhr1-2.fna&_nc_gid=KVxYQ_4Fy9DGptlZHlcWMg&_nc_ss=7320f&oh=00_AQQYZ5aF-dEnzonLBcQBgIF8kIaiYA6awsItkTD24ua-jw&oe=6AECB844"
      ]
+    },
+    "4021473237913299322": {
+     "id": "4021473237913299322",
+     "url": "https://www.instagram.com/p/DfPJJprj-l6/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Rester debout",
+       "start_date": "2026-11-04",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Projection suivie d'une rencontre avec la réalisatrice et les femmes du film.",
+       "status": "scheduled",
+       "evidence": [
+        "Mercredi 4 novembre à 19h : Rester debout",
+        "Rester debout",
+        "Mer. 4 | 19h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"📌 Mercredi 4 novembre à 19h : Rester debout\" with \"Séance gratuite suivie d'une rencontre avec la réalisatrice\", matching the extracted date/time/price; the flyer confirms \"LE GYPTIS CINÉMA\" and \"MER. 4 | 19H\", and 4 Nov 2026 is indeed a Wednesday, after the 2 Nov publication date."
+      },
+      {
+       "title": "Pilleurs de Terre",
+       "start_date": "2026-11-06",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Projection-débat suivie d'un buffet bio et local offert.",
+       "status": "scheduled",
+       "evidence": [
+        "Vendredi 6 novembre à 19h : Pilleurs de Terre",
+        "Pilleurs de Terre",
+        "Ven. 6 | 19h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption announces \"Vendredi 6 novembre à 19h : Pilleurs de Terre\" and the flyer repeats \"VEN. 6 | 19H\"; 6 Nov 2026 is indeed a Friday, the date is after the 2 Nov publication, the venue is the poster's own \"LE GYPTIS CINÉMA\", and the séance is \"gratuite\" with no cancellation mentioned."
+      },
+      {
+       "title": "Shaun le mouton : La Bêêête d'Halloween",
+       "start_date": "2026-11-07",
+       "start_time": "14:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Projection suivie d'un atelier de fabrication en pâte à modeler.",
+       "status": "scheduled",
+       "evidence": [
+        "Samedi 7 novembre à 14h : Shaun le mouton : La Bêêête d'Halloween",
+        "Shaun le mouton : La Bêêête d'Halloween",
+        "Sam. 7 | 14h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption announces a future event at the venue: \"Samedi 7 novembre à 14h : Shaun le mouton : La Bêêête d'Halloween ... suivie d'un atelier gratuit\", matching the flyer \"SAM. 7 | 14H\" and the venue's own programme \"4 → 8 NOVEMBRE 2026\"; 7 Nov 2026 is indeed a samedi and is after the 2 Nov publication date."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/885230002_1733573415440438_4741416776179934056_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=NDAyMTQ3MzIxMDQ5OTMwMzE5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FR3zZczPv94Q7kNvwE6DQ_z&_nc_oc=AdrytmZKhWUpSerOAdZof9cdXVIjng9AYjQDCaITNzAy4XqrrsNwBoCpc-lK-KLIXT-0XY0urBcQbxZ0gdTooRrf&_nc_ad=z-m&_nc_cid=3&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_gid=rn-8Ti7m2A9w5Kwzr2rs0Q&_nc_ss=7320f&oh=00_AQQ_W4D5t-wMjWfO_E7T-3sHHWPdvPUCl8Pxjlrp8gK2Bg&oe=6AEEDE23",
+      "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/884930193_1733549475442832_4967326342872558788_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=NDAyMTQ3MzIwOTU2ODE0Njg3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=RoNmCap2cZYQ7kNvwETGQKv&_nc_oc=AdqPwSK5Bn_OaADZDhfMjJn_mCYfVFV0VJqWxOE5T9xfHxjTJejJQSUFbUDqG1mtUR2ziRdyEmC6Ld484ULywgmi&_nc_ad=z-m&_nc_cid=3&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=rn-8Ti7m2A9w5Kwzr2rs0Q&_nc_ss=7320f&oh=00_AQTWOk9Qu1Gvii8AiAR-ZpS22UdXZ-4Wjw9azUG7-fjrGA&oe=6AEEE2CD",
+      "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/884765694_1733549642109482_749327709044749914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=NDAyMTQ3MzIwOTQ4NDI4NjUyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZwP4IoJGRWAQ7kNvwHZas8N&_nc_oc=AdqTErB8cMdqjaqveOjVrSC8NAs7Jef7fcZt25vZeYInOkR4rhtP7kYptvSh21gSUPyb8toUweTO7UzZJH2D5rMZ&_nc_ad=z-m&_nc_cid=3&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_gid=rn-8Ti7m2A9w5Kwzr2rs0Q&_nc_ss=7320f&oh=00_AQS7G0ZxWElBm6ToC2seZpifx_p9liBY87rmJrdOyCyjcw&oe=6AEEE0DB",
+      "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/867085512_1733553525442427_5591068916231243738_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAyMTQ3MzIwODg4MDMxNzE0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=hxQf8lJodcYQ7kNvwEXSYX_&_nc_oc=Adpq3g3BmNpfwxeSTyp2CkJhGbkc14tFJUbmGXUMUbvAczZkCmzSHW7_pOG4c1rqJn_jTiJK5Cn8AwnTWtivqE9P&_nc_ad=z-m&_nc_cid=3&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=rn-8Ti7m2A9w5Kwzr2rs0Q&_nc_ss=7320f&oh=00_AQQOGz7kqqMTbq_0V9fSggLDgrvSWbmSw_XNONdAZLJehw&oe=6AEEF42F"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:cinemalegyptis": {
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -12175,6 +12679,117 @@
      "image_urls": [
       "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/876551270_2866132013772999_660860231826159526_n.jpg?stp=dst-jpg_tt6&cstp=mx640x360&ctp=s640x360&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=9ghw4AKzuJoQ7kNvwGvSUkc&_nc_oc=AdowEYvJuitgLZkoXbE0eOBOtMr63R8yAFa3FqbdWNyLPqoANalEraeYFhZ9QCJdWWY&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=WRbCmt0XmO9NDtXKvsQ2gg&_nc_ss=70180&oh=00_AQQcFi5oosvHXm81QM0mr3tMIpWsDMWW-CN1_xRXxLVIGA&oe=6AEB4894"
      ]
+    },
+    "1733580608773052": {
+     "id": "1733580608773052",
+     "url": "https://www.facebook.com/cinemalegyptis/posts/pfbid028Zo7nvHx2sTDpyW1pCq5YSwa1rrg5gaJnze8qip5HprMatvF1gLSp5361cD83BHGl",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Rester debout",
+       "start_date": "2026-11-04",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Séance gratuite suivie d'une rencontre avec la réalisatrice Margaïd Quioc et les trois femmes qui témoignent dans le film.",
+       "status": "scheduled",
+       "evidence": [
+        "Mercredi 4 novembre à 19h : Rester debout",
+        "Rester Debout Mer. 4 | 19h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"📌 Mercredi 4 novembre à 19h : Rester debout — Séance gratuite suivie d'une rencontre avec la réalisatrice\", matching the flyer \"RESTER DEBOUT MER. 4 | 19H\" and the weekly programme banner \"4 → 8 NOVEMBRE 2026\"; 2026-11-04 is indeed a Wednesday, after the 2026-11-02 publication date, at Le Gyptis, and no cancellation is mentioned."
+      },
+      {
+       "title": "Pilleurs de Terre",
+       "start_date": "2026-11-06",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Séance gratuite dans le cadre du festival Alimenterre - Projection-débat suivie d'un buffet bio et local offert.",
+       "status": "scheduled",
+       "evidence": [
+        "Vendredi 6 novembre à 19h : Pilleurs de Terre",
+        "Pilleurs de Terre Ven. 6 | 19h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"📌 Vendredi 6 novembre à 19h : Pilleurs de Terre\" and the flyer confirms \"PILLEURS DE TERRE VEN. 6 | 19H\"; 2026-11-06 is indeed a Friday, after the 2026-11-02 publication date, and the post is from the venue's own page (flyer header \"LE GYPTIS CINÉMA\"), with no cancellation or venue conflict."
+      },
+      {
+       "title": "Shaun le mouton : La Bêêête d'Halloween",
+       "start_date": "2026-11-07",
+       "start_time": "14:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "Gratuit",
+       "summary": "Projection dans le cadre du festival Cinémanimé, suivie d'un atelier gratuit de fabrication en pâte à modeler (dès 5 ans).",
+       "status": "scheduled",
+       "evidence": [
+        "Samedi 7 novembre à 14h : Shaun le mouton : La Bêêête d'Halloween",
+        "Shaun le mouton : La Bêêête d'Halloween Sam. 7 | 14h"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future screening at the venue itself: \"CETTE SEMAINE AU GYPTIS\" / \"Samedi 7 novembre à 14h : Shaun le mouton : La Bêêête d'Halloween\", and the flyer confirms \"SAM. 7 | 14H\" — 7 Nov 2026 is indeed a samedi, after the 2 Nov publication date, and nothing indicates cancellation or a different venue."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-mia3-3.xx.fbcdn.net/v/t39.99422-6/886608982_1148310321152562_6590241600589157662_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XggUavDCJGsQ7kNvwHpMVxy&_nc_oc=Adr5ZrH9_yfpo2tLbCl-fdyjFGQeujmbRHcVhI4IJGrr0JWH5t7zXb_1tm3miIvEtyZ5di_vMSFF_wTAoiq07aQT&_nc_zt=14&_nc_ht=scontent-mia3-3.xx&_nc_gid=cASADqD_WKik56Q_ZLk61w&_nc_ss=70180&oh=00_AQTz30xMdtOLHlbPZ3-qtdxXDaWvjxn8KdTXOIowGJ8ngg&oe=6AEEEBB3",
+      "https://scontent-mia5-1.xx.fbcdn.net/v/t39.99422-6/886167873_1505687991401952_1545534897930644666_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CsaNMWJpJFAQ7kNvwF3eU1E&_nc_oc=AdoPyavyfH7r_svcKzIABorzoXhfIAf8-Pah7koOrpzcMAJ1WVnkd_EsciFFr1WD798COt735NHGFLVDdj33HmEa&_nc_zt=14&_nc_ht=scontent-mia5-1.xx&_nc_gid=cASADqD_WKik56Q_ZLk61w&_nc_ss=70180&oh=00_AQSrmHayfUfQ9WN8XJe5VvPg-EjUOJBb48yOXgOcS0gQ0g&oe=6AEF0820",
+      "https://scontent-mia3-2.xx.fbcdn.net/v/t39.99422-6/855163302_2351645642040750_8941015477055639465_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gm7Rx0wMNooQ7kNvwHMCLFE&_nc_oc=AdqWJgNbD9vgE4EywpvpbxdjoeVwaAw2LN0LSXF2ZOeceh4OQvcukLniWxEMhhCpZXiNEFHi3MEq_Q9IdJQmfEcT&_nc_zt=14&_nc_ht=scontent-mia3-2.xx&_nc_gid=cASADqD_WKik56Q_ZLk61w&_nc_ss=70180&oh=00_AQTUnUEAYLnadCNDHD-akqAoLTDbykSXg91UZ-1beJLz5Q&oe=6AEEF96F",
+      "https://scontent-mia5-1.xx.fbcdn.net/v/t39.99422-6/884079915_1581330057129232_4135466491907317044_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=TaiBrs0TNJUQ7kNvwGpznld&_nc_oc=AdoXBlQ8CTsn16u5Ct0p9FpiSBeIcrkbyYiBEatY0makZXfTdmQmfCa4kGMuGPRJcc-xlNMIGIELuXDWpCDwXH7i&_nc_zt=14&_nc_ht=scontent-mia5-1.xx&_nc_gid=cASADqD_WKik56Q_ZLk61w&_nc_ss=70180&oh=00_AQTiH_eO2-WxaW4ibUz0ACQYpz7cGT86hGfzxZEnseVxzA&oe=6AEEFE8D"
+     ]
+    },
+    "1733384135459366": {
+     "id": "1733384135459366",
+     "url": "https://www.facebook.com/cinemalegyptis/posts/1829756784840331:1829756784840331",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Pilleurs de Terre",
+       "start_date": "2026-11-06",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "PILLEURS DE TERRE VENDREDI 6 NOVEMBRE À 19H DANS LE CADRE DU FESTIVAL ALIMENTERRE"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces \"PILLEURS DE TERRE VENDREDI 6 NOVEMBRE À 19H DANS LE CADRE DU FESTIVAL ALIMENTERRE\"; 2026-11-06 is indeed a Friday, the time 19H matches, and the date falls after the 2026-11-02 publication. Posted by the cinema's own page, so the venue Le Gyptis is consistent, and nothing indicates cancellation."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-mia5-1.xx.fbcdn.net/v/t39.99422-6/876484599_1661431295997680_8397659806042254141_n.png?stp=dst-png&cstp=mx1959x720&ctp=p180x540&_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WpOVTFZmfJIQ7kNvwED6fF_&_nc_oc=Adq47xK0QdqRdLbIOXYrqslKcVh3ym7kBUxZRFp_LWxUXIJGVd4YyKNgM8PMNUHPCNe_y9KWOwOBKZHL101QpG7m&_nc_zt=14&_nc_ht=scontent-mia5-1.xx&_nc_gid=cASADqD_WKik56Q_ZLk61w&_nc_ss=70180&oh=00_AQQRZKNqzqRtrdSPA8ohKkSlkrntE9wKQPp0eyM379xmPQ&oe=6AEF04D4"
+     ]
+    }
+   },
+   "failed_posts": {
+    "1729087339222379": {
+     "attempts": 1,
+     "last": "2026-11-03",
+     "error": "UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
     }
    },
    "fb_events": []
@@ -12188,6 +12803,7 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": [
     {
      "id": "1773116193808177",
@@ -12300,8 +12916,8 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -12439,14 +13055,15 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:Fabulerie": {
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -12694,6 +13311,7 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:Fabulerie": {
@@ -12705,6 +13323,7 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": [
     {
      "id": "3746932875454570",
@@ -13237,6 +13856,7 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:videodromedeux": {
@@ -13559,6 +14179,7 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:videodromedeux": {
@@ -13570,6 +14191,7 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": [
     {
      "id": "1474940054666714",
@@ -13832,8 +14454,8 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14882,6 +15504,25 @@
      "image_urls": [
       "https://scontent-dus1-1.cdninstagram.com/v/t51.82787-15/877713045_18638395114006492_7483768411045727411_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=NDAxOTYxNzg2MjI4MzUxODEyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=KfvrMZ93V_kQ7kNvwEvOmmE&_nc_oc=AdrPFziJSjtuci7K7t3pz_O5UR2Tn00kI8N8PCuVY8eE_mM4aPFOw7zyT5dOM-jW54Obee11Pvx3WN94mffP5pMH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_gid=QJaM6bwCdrhUO7H8gbTIhg&_nc_ss=7320f&oh=00_AQTM4sLRcLLBIUUZbKRU269Mg8v3470dgubqonS3ftWcrQ&oe=6AEC8D89"
      ]
+    },
+    "4021727433582482457": {
+     "id": "4021727433582482457",
+     "url": "https://www.instagram.com/p/DfQC8r2IJQZ/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post is a recap of a past event.",
+     "image_urls": [
+      "https://instagram.fbne13-2.fna.fbcdn.net/v/t51.82787-15/887062150_17939969010393865_3985557630464244415_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTcyNzQzMzU4MjQ4MjQ1NzE3OTM5OTY5MDA3MzkzODY1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=ruad3ntw08MQ7kNvwF0DtBy&_nc_oc=AdqkjTp31vFpHpFXM30s8opTD3RpvObYda3fPL0gj-JOvTegSqUFHSkuQ15rjX0dIfI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbne13-2.fna&_nc_gid=4JHjmcOQWvYM1Ubphku38Q&_nc_ss=7f20f&oh=00_AQTPKOjHJILi4HK246ZPdAKivNbN752Yh_QqJtDuahgFCw&oe=6AEEF6E5"
+     ]
+    }
+   },
+   "failed_posts": {
+    "4017864134346977353": {
+     "attempts": 1,
+     "last": "2026-11-03",
+     "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
     }
    },
    "fb_events": []
@@ -14890,11 +15531,12 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-02",
+   "last_fetched": "2026-11-03",
    "last_ok": null,
    "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 33,
+   "consecutive_failures": 34,
    "posts": {},
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:lacoloradamarsella": {
@@ -14906,14 +15548,15 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": []
   },
   "instagram:la.camaraderie13": {
    "kind": "instagram",
    "handle": "la.camaraderie13",
    "url": "https://www.instagram.com/la.camaraderie13/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -15238,14 +15881,15 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "instagram:twali.marseille": {
    "kind": "instagram",
    "handle": "twali.marseille",
    "url": "https://www.instagram.com/twali.marseille/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -15362,14 +16006,15 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:twalibelsunce": {
    "kind": "facebook",
    "handle": "twalibelsunce",
    "url": "https://www.facebook.com/twalibelsunce/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -15446,6 +16091,7 @@
      ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:twalibelsunce": {
@@ -15457,14 +16103,15 @@
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
+   "failed_posts": {},
    "fb_events": []
   },
   "instagram:lembobineusemarseille": {
    "kind": "instagram",
    "handle": "lembobineusemarseille",
    "url": "https://www.instagram.com/lembobineusemarseille/",
-   "last_fetched": "2026-11-02",
-   "last_ok": "2026-11-02",
+   "last_fetched": "2026-11-03",
+   "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -15726,8 +16373,107 @@
      "image_urls": [
       "https://instagram.fthe9-2.fna.fbcdn.net/v/t51.82787-15/876736518_18639876679004579_6732375446531037000_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=NDAxOTI3MjkwOTcyNzQ5MjYzOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5BBdiLqPjG4Q7kNvwEH-Rd-&_nc_oc=Ado18b3ghPnCnhy5ux4up6LNGHZynJRLBj5afiNltle4a7LiQ5Plf-cfXvAT0WTJ-Vg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fthe9-2.fna&_nc_gid=h5VeaO5dfqElJiDgudJ27g&_nc_ss=7320f&oh=00_AQQk9h_JyE2e9YxO49TwoTJnozdaOqEAvHO1miygFHjmZw&oe=6AEC9DCA"
      ]
+    },
+    "4021624983972658434": {
+     "id": "4021624983972658434",
+     "url": "https://www.instagram.com/p/DfPrp2Nhr0C/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "SAM 21 NOV - 21H",
+       "start_date": "2026-11-21",
+       "start_time": "21:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": "9€ + 2€ adh.",
+       "summary": "Soirée musicale avec Front Page Leslie, Nein Action et Manoir Molle.",
+       "status": "scheduled",
+       "evidence": [
+        "SAM 21 NOV - 21H",
+        "✹ FRONT PAGE LESLIE | pop psychédélique désaxée | Belgique",
+        "✹ NEIN ACTION | expé atmosphérique | Suisse"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "Caption announces a future date: \"SAM 21 NOV - 21H\" at \"11 Boulevard Bouès, 13003 Marseille\" (L'Embobineuse), with lineup \"FRONT PAGE LESLIE ... NEIN ACTION ... MANOIR MOLLE\" and price \"9€ + 2€ adh.\"; 2026-11-21 is indeed a samedi and falls after the 2026-11-02 publication date, and the flyer repeats \"SAM 21 NOV\", \"21H\", \"9€+2€ADH\" and the same address."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.ffab1-1.fna.fbcdn.net/v/t51.82787-15/883558837_18477479515185934_83688625658775196_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTYyNDk4Mzk3MjY1ODQzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8tJahSv3Yl0Q7kNvwHo3TSo&_nc_oc=AdrTmoy35U9CXqGxkf4ExSLhpLlU4oK05WUtQXjZk23zK185PfPPZY2zSG-NGamM0UhqhFmEoGllfPJh1w_AO3Zz&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ffab1-1.fna&_nc_gid=CkBuQUiOHvw9ohLhXJTlJw&_nc_ss=7320f&oh=00_AQRUvrmL6OyYBPmXoywO9ye5lzxVoTL05CEnrvtlMD9r1g&oe=6AEEE026"
+     ]
+    },
+    "4021634283650452081": {
+     "id": "4021634283650452081",
+     "url": "https://www.instagram.com/p/DfPtxLNhIpx/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "JEUDI 05 NOV - 20H - GREVE GENERALE + SOIRÉE DE SOUTIEN AU MOUVEMENT SOCIAL",
+       "start_date": "2026-11-05",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "L'EMBO",
+       "url": null,
+       "price": "5€ + 2€ adh.",
+       "summary": "Soirée de soutien au mouvement social avec des performances de ROK&DUDU, CONTOUR DIRECT, et LA LUTTE ENCHANTEE.",
+       "status": "scheduled",
+       "evidence": [
+        "JEUDI 05 NOV - 20H - GREVE GENERALE + SOIRÉE DE SOUTIEN AU MOUVEMENT SOCIAL",
+        "5€ + 2€ adh."
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption reads \"JEUDI 05 NOV - 20H\" with \"11 Boulevard Bouès, 13003 Marseille\" (L'EMBO / L'Embobineuse), and 2026-11-05 is indeed a jeudi, on/after the publication date 2026-11-02, with the flyer's \"20H-01H\" matching the extracted 20:00 start; price \"5€ + 2€ adh.\" matches the flyer's \"5€/PRIX LIBRE + 2E D'ADHÉSION\". (The flyer's \"5/NOV/27\" looks like a year typo, since 2027-11-05 is a Friday, which would contradict the written \"JEUDI\".) No cancellation/postponement mentioned; it is a dated public concert/soirée, not a recap."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fhnd7-1.fna.fbcdn.net/v/t51.82787-15/883558925_18477482212185934_8416913389573069904_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTYzNDI4MzY1MDQ1MjA4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OCMTxOR6CKEQ7kNvwFa2lRN&_nc_oc=Adomx7mbaRYG84WQ4S0mIyzWOv2W2zZ1dFYxiIfwPhCRxBCy-i3qgdMeATGVxO91ASg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fhnd7-1.fna&_nc_gid=Bm3NErngFwpxJl2qKUvlAg&_nc_ss=7320f&oh=00_AQQ459-QKYdNrFHtXMazMAhB4omhhc4AG_TaqaSSBctWCg&oe=6AEEF626"
+     ]
+    },
+    "4021623455269278340": {
+     "id": "4021623455269278340",
+     "url": "https://www.instagram.com/p/DfPrTmftFKE/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-03",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Tiq & Sterevoid & friends",
+       "start_date": "2026-11-15",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": "01:00:00",
+       "location_name": "L'EMBOBINEUSE",
+       "url": null,
+       "price": "prix libre€ + 2€ adh.",
+       "summary": "Tiq (dj Neue K + dj Lichene) and Stereovoid will perform minimal synth, dark wave, and post punk music.",
+       "status": "scheduled",
+       "evidence": [
+        "DIM 15 NOV - 20H",
+        "✹ TIQ ( dj Neue K + dj Lichene) | minimal synth, dark wave, post punk | Berlin",
+        "✹ STEREOVOID | minimal synth"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption reads \"DIM 15 NOV - 20H\" and the flyer reads \"15/11 2026 ... L'EMBOBINEUSE ... 20h - 01h PRIX LIBRE\"; 2026-11-15 is indeed a dimanche, it is after the 2026-11-02 publication date, the venue/address (11 Boulevard Bouès, 13003 Marseille) matches L'Embobineuse, and the flyer end time 01h matches the extracted 01:00."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fmxp12-1.fna.fbcdn.net/v/t51.82787-15/883374880_18477478972185934_1516537482190318147_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTYyMzQ1NTI2OTI3ODM0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EWnLnKVXDSQQ7kNvwH9gSmB&_nc_oc=Adow7YOeUF_RX6r_8J4idVHnkVcz8LBxthEiKZeQYJVfvzTujfiiExA_w_kJqegAMGY&_nc_ad=z-m&_nc_cid=1093&_nc_zt=23&_nc_ht=instagram.fmxp12-1.fna&_nc_gid=S3LYecaKxg9SJE1UrnPCsA&_nc_ss=7320f&oh=00_AQStCdur_UqtbreU4OxE_OhQD2AjOWFQiH_E3LZW1y09Ww&oe=6AEEEA27"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   }
  }

@@ -1,19 +1,19 @@
 {
  "run_date": "2026-11-03",
  "sources_total": 50,
- "sources_ok": 46,
+ "sources_ok": 49,
  "sources_skipped_unchanged": 0,
- "events_published": 490,
- "events_new": 6,
- "events_rejected_grounding": 194,
- "events_rejected_verifier": 4,
- "events_uncertain": 3,
+ "events_published": 484,
+ "events_new": 0,
+ "events_rejected_grounding": 191,
+ "events_rejected_verifier": 0,
+ "events_uncertain": 0,
  "alerts": [
   {
    "level": "error",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "source failed, last verified state kept: fetch: The read operation timed out"
+   "message": "source failed, last verified state kept: discovery: ModelHTTPError: status_code: 402, model_name: anthropic/claude-sonnet-5, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}"
   },
   {
    "level": "warning",
@@ -38,12 +38,6 @@
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
    "message": "2 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
-  },
-  {
-   "level": "error",
-   "venue_id": "cira-marseille",
-   "source_url": "https://www.cira-marseille.info/2025/08/a-venir/",
-   "message": "source failed, last verified state kept: fetch: The read operation timed out"
   },
   {
    "level": "warning",
@@ -80,91 +74,13 @@
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
    "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
-  },
-  {
-   "level": "error",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook fetch failed 6x: apify~facebook-posts-scraper: no_items"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram verifier rejected 'Rester debout' 2026-11-04: The post is a programme for \"LE GYPTIS CINÉMA\" (\"CETTE SEMAINE AU GYPTIS\", \"Mercredi 4 novembre à 19h : Rester debout\"), i.e. the screening happens at Cinéma Le Gyptis, not at the given venue Friche la Belle de Mai, which merely shares the post. (Date/weekday and time themselves are consistent: 4 November 2026 is indeed a mercredi, 19h.)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram verifier rejected 'Pilleurs de Terre' 2026-11-06: The post is Le Gyptis's own programme (\"CETTE SEMAINE AU GYPTIS\", flyer logo \"LE GYPTIS CINÉMA\") and the screening takes place at that cinema, not at the given venue Friche la Belle de Mai. The date/time themselves are consistent (\"Vendredi 6 novembre à 19h : Pilleurs de Terre\", \"VEN. 6 | 19H\", 6 Nov 2026 being a Friday)."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error (1/3): UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook verifier rejected 'Marcher dans la blessure' 2026-11-03: The only image is a book cover reading \"L'AMOURIER / Marcher dans la blessure\" with no date, time or venue anywhere, and the post has \"(no caption)\"; the extracted start_date 2026-11-03 (flagged from_image) is unsupported by the post, so this is not a verifiable dated public event."
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook verifier rejected 'Braderie d’affiches' 2026-11-15: The flyer reads \"DIMANCHE 13 DÉCEMBRE 15H-19H\", i.e. Sunday 13 December 2026, but the extracted start_date is 2026-11-15 (a Sunday in November) — the day number and month contradict the flyer."
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook verifier uncertain 'TÉTUE' 2026-11-03: The only readable text is \"SÉANCE SPÉCIALE\" and \"TETUE\" on a cropped flyer; the caption is empty and no date, time or venue is visible, so the extracted start_date 2026-11-03 cannot be confirmed from the post."
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook verifier uncertain 'LUX' 2026-11-03: The flyer shows only \"SEANCE SPECIALE\" and \"LUX\" (with the left edge cropped) and the caption is empty, so there is no written date anywhere to support the extracted 2026-11-03; the date is genuinely ambiguous/unreadable."
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook verifier uncertain 'HITCHCOCK VISITE LONDRES' 2026-11-03: The attached flyer is cropped: the title block is cut off (only fragments \"H… N… ERG\" and the \"CULT & RÉTRO\" badge are legible), so the title \"HITCHCOCK VISITE LONDRES\" and the venue cannot be verified from the post. The only date evidence is \"3 - 24 - 30 NOV 2026\", which reads as three discrete screening dates rather than a continuous run from 3 to 30 November, making the extracted start/end range genuinely ambiguous."
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error (1/3): UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "error",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 34x: apify~facebook-posts-scraper: not_available"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error (1/3): UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error (1/3): UnexpectedModelBehavior: Exceeded maximum output retries (2)"
   }
  ],
- "llm_calls": 46,
- "posts_analyzed": 18,
- "apify_runs": 18,
- "images_published": 427,
- "images_failed": 1,
+ "llm_calls": 0,
+ "posts_analyzed": 0,
+ "apify_runs": 0,
+ "images_published": 421,
+ "images_failed": 0,
  "credits_remaining_usd": -0.1503,
- "run_cost_usd": 0.0886
+ "run_cost_usd": 0.0
 }

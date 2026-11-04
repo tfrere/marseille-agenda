@@ -1,12 +1,12 @@
 {
- "run_date": "2026-11-03",
+ "run_date": "2026-11-04",
  "sources_total": 50,
- "sources_ok": 49,
+ "sources_ok": 47,
  "sources_skipped_unchanged": 0,
- "events_published": 484,
- "events_new": 0,
- "events_rejected_grounding": 191,
- "events_rejected_verifier": 0,
+ "events_published": 481,
+ "events_new": 8,
+ "events_rejected_grounding": 194,
+ "events_rejected_verifier": 1,
  "events_uncertain": 0,
  "alerts": [
   {
@@ -19,7 +19,7 @@
    "level": "warning",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.lafriche.org/agenda/",
-   "message": "116 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "message": "117 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
   },
   {
    "level": "warning",
@@ -38,6 +38,12 @@
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
    "message": "2 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+  },
+  {
+   "level": "warning",
+   "venue_id": "le-gyptis",
+   "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
+   "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
   },
   {
    "level": "warning",
@@ -74,13 +80,67 @@
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
    "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+  },
+  {
+   "level": "error",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook fetch failed 7x: apify~facebook-posts-scraper: no_items"
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram verifier rejected 'Rester debout' 2026-11-04: The post announces the screening at a different venue than the one given: the caption opens with \"CETTE SEMAINE AU GYPTIS\" and the flyer is branded \"LE GYPTIS CINÉMA\", i.e. the event (\"Mercredi 4 novembre à 19h : Rester debout\") takes place at Cinéma Le Gyptis, not at Friche la Belle de Mai. The date/time themselves are consistent (mer. 4 nov. 2026 is a Wednesday, 19h, after the 2026-11-02 publication)."
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error (2/3): UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-baleine",
+   "source_url": "https://www.instagram.com/labaleinemarseille/",
+   "message": "instagram post analysis error (2/3): UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "error",
+   "venue_id": "la-colorada",
+   "source_url": "https://www.facebook.com/lacoloradamarsella/",
+   "message": "facebook fetch failed 35x: apify~facebook-posts-scraper: not_available"
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-camaraderie",
+   "source_url": "https://www.instagram.com/la.camaraderie13/",
+   "message": "1 new instagram post(s) left for the next run (model unavailable)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.facebook.com/cinemalegyptis/",
+   "message": "facebook post analysis error (2/3): UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-colorada",
+   "source_url": "https://www.instagram.com/lacoloradamarsella/",
+   "message": "instagram post analysis error (2/3): UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "l-embobineuse",
+   "source_url": "https://www.instagram.com/lembobineusemarseille/",
+   "message": "1 new instagram post(s) left for the next run (model unavailable)"
   }
  ],
- "llm_calls": 0,
- "posts_analyzed": 0,
- "apify_runs": 0,
+ "llm_calls": 15,
+ "posts_analyzed": 6,
+ "apify_runs": 17,
  "images_published": 421,
  "images_failed": 0,
- "credits_remaining_usd": -0.1503,
- "run_cost_usd": 0.0
+ "credits_remaining_usd": -0.1952,
+ "run_cost_usd": 0.0449
 }

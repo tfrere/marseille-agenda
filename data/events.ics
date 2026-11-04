@@ -4,18 +4,6 @@ PRODID:-//marseille-agenda//tfrere//FR
 X-WR-CALNAME:Marseille - agenda des lieux
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
-SUMMARY:Marseille vue par les Detaille - 164 ans de photos
-DTSTART;VALUE=DATE:20251031
-DTEND;VALUE=DATE:20270621
-UID:b7f440cd17df@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/marseille-vue-par-les-detaille-164
- -ans-de-photos?museum=musee-dhistoire-de-marseille-0
-LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/marseille-vue-par-les-detaille-164-ans-de-
- photos?museum=musee-dhistoire-de-marseille-0
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:"Par une langue échappée"\, nouveau parcours des collections mod
  ernes et contemporaines
 DTSTART;VALUE=DATE:20260508
@@ -165,118 +153,6 @@ DESCRIPTION:Exposition présentant une partie rarement montrée du fonds d
  e LFKs.\nhttps://urls.fr/l2VLuK
 LOCATION:Friche la Belle de Mai
 URL:https://urls.fr/l2VLuK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Labo des désirs
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261107
-UID:3cd367744d81@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Projet participatif et convivial de création et programmation
-  collective ouvert à tous·tes une semaine par mois. Une proposition de r
- ésident·es et associations du quartier\nPrix : Entrée libre\nhttps://ww
- w.lafriche.org/evenements/labo-des-desirs-3/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/labo-des-desirs-3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261117
-UID:302ecd546f9e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La vie farpaite | films du collectif LFKs
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-UID:0356f9e50f45@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/la-vie-farpaite-films-du-collectif-
- lfks/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/la-vie-farpaite-films-du-collectif-lfks/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mawahub : nouveaux récits de l’entrepreneuriat culturel algéri
- en
-DTSTART;TZID=Europe/Paris:20261103T090000
-DTEND;TZID=Europe/Paris:20261103T130000
-UID:a6f36731126b@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Dix porteuses et porteurs de projets algériens des industries
-  culturelles et créatives présentent leurs projets à la Friche\, dans l
- e cadre d’une semaine d’immersion à Marseille du programme d’incuba
- tion Mawahub. Une proposition de Instit...\nPrix : Entrée libre\nhttps://
- www.lafriche.org/evenements/mawahub-nouveaux-recits-de-lentrepreneuriat-cu
- lturel-algerien/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/mawahub-nouveaux-recits-de-lentrep
- reneuriat-culturel-algerien/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier d'écriture
-DTSTART;TZID=Europe/Paris:20261103T100000
-DTEND;TZID=Europe/Paris:20261103T120000
-UID:5d3666aa95df@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/atelier-decriture/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visite de l'appartement témoin
-DTSTART;TZID=Europe/Paris:20261103T140000
-DTEND;TZID=Europe/Paris:20261103T153000
-UID:4abfdd9478cc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visite-des-reserve
- s-du-mucem/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/visite-des-reserves-du-mucem/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rendez-vous Transmission avec Ugo Arsac
-DTSTART;TZID=Europe/Paris:20261103T170000
-DTEND;TZID=Europe/Paris:20261103T190000
-UID:3796475a2a1c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Un temps d’échange intimiste pour artistes et porteurs de p
- rojets Une proposition de AMI\nPrix : Gratuit !\nhttps://www.lafriche.org/
- evenements/rdv-transmission-rencontre-avec-ugo-arsac/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/rdv-transmission-rencontre-avec-ug
- o-arsac/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Randonnée en bibliothèque avec Uy-Vinh Landru
-DTSTART;TZID=Europe/Paris:20261103T173000
-DTEND;TZID=Europe/Paris:20261103T190000
-UID:56f3bdced63f@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/59190913_randonnee-en-bibliot
- heque-avec-uy-vinh-landru
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/59190913
- _randonnee-en-bibliotheque-avec-uy-vinh-landru
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La vie farpaite | De la vie des enfants au XXIème siècle
-DTSTART;TZID=Europe/Paris:20261103T193000
-DTEND;TZID=Europe/Paris:20261103T213000
-UID:efae00488ea7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/la-vie-farpaite-de-la-vie-des-enfan
- ts-au-xxieme-siecle/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/la-vie-farpaite-de-la-vie-des-enfants-au-xx
- ieme-siecle/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Petits Mercredis
@@ -477,7 +353,7 @@ DTSTART;TZID=Europe/Paris:20261104T183000
 DTEND;TZID=Europe/Paris:20261104T203000
 UID:2c09d5d2fc78@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Projection du film "Le Corset" de Louis Clichy dans le cadre d
+DESCRIPTION:Projection du film 'Le Corset' de Louis Clichy dans le cadre d
  u festival Cinémanimé.\nPrix : Tarif unique pour les 15/25 : 5€. Proje
  ction ouverte à tous·tes !\nhttps://fb.me/e/bC2j668a3
 LOCATION:La Baleine
@@ -636,10 +512,10 @@ DTSTART;TZID=Europe/Paris:20261105T200000
 DTEND;TZID=Europe/Paris:20261105T220000
 UID:23b9e86d8aa4@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Projection du film 'Chicken Soup' de Caroline Milcent\, suivie
-  d'une séance Happy Hours.\nPrix : Tarif unique : 6\,5€ et happy hours 
- au bar pour tous·tes les détenteur·ices d’un ticket du jour.\nhttps:/
- /fb.me/e/6ZqdawMT3
+DESCRIPTION:Projection du film 'Chicken Soup' de Caroline Milcent avec pr
+ ésence de la réalisatrice et happy hours au bar.\nPrix : Tarif unique : 
+ 6\,5€ et happy hours au bar pour tous·tes les détenteur·ices d’un t
+ icket du jour.\nhttps://fb.me/e/6ZqdawMT3
 LOCATION:La Baleine
 URL:https://fb.me/e/6ZqdawMT3
 END:VEVENT
@@ -787,6 +663,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/des-enfants-sans-histoire/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/des-enfants-sans-histoire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Live set d'Isam Elias
+DTSTART;TZID=Europe/Paris:20261106T220000
+DTEND;TZID=Europe/Paris:20261106T230000
+UID:4f5b6065c58e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/live-set-disam-eli
+ as/
+LOCATION:Mucem - J4 / Forum
+URL:https://mucem.org/evenement/live-set-disam-elias/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club Cabaret
@@ -1103,6 +990,26 @@ LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadine/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Petite Casbah
+DTSTART;TZID=Europe/Paris:20261108T103000
+DTEND;TZID=Europe/Paris:20261108T123000
+UID:80f35acaadf7@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://mucem.org/evenement/petite-casbah/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/petite-casbah/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le pays taliban
+DTSTART;TZID=Europe/Paris:20261108T140000
+DTEND;TZID=Europe/Paris:20261108T160000
+UID:0149ec33d764@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/le-pays-taliban/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/le-pays-taliban/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LES ROCHES ROUGES de Bruno Dumont
 DTSTART;TZID=Europe/Paris:20261108T160000
 DTEND;TZID=Europe/Paris:20261108T180000
@@ -1114,6 +1021,31 @@ DESCRIPTION:Le réalisateur de 'P"tit Quinquin" nous plonge dans une fable
  .\nhttps://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
 LOCATION:Le Gyptis
 URL:https://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personnages et identités
+DTSTART;TZID=Europe/Paris:20261108T160000
+DTEND;TZID=Europe/Paris:20261108T180000
+UID:7806b32069cf@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/personnages-et-ide
+ ntites/
+LOCATION:Mucem - J4 / Auditorium
+URL:https://mucem.org/evenement/personnages-et-identites/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:L'HEURE DE LA LIBÉRATION À SONNÉ
+DTSTART;TZID=Europe/Paris:20261108T173000
+DTEND;TZID=Europe/Paris:20261108T193000
+UID:356c1e8125c7@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection du film 'L'Heure de la Libération à Sonné' d'Hei
+ ny Srour (1974) en présence de Yorgo Scheib.\nhttps://www.facebook.com/la
+ baleinemarseille/posts/pfbid033U4787DCR877Hd6LW2BBPAWwK8XhVizXUUJHmcqmuqfX
+ of6z8urfXv8b7Tcm2BPJl
+LOCATION:La Baleine
+URL:https://www.facebook.com/labaleinemarseille/posts/pfbid033U4787DCR877H
+ d6LW2BBPAWwK8XhVizXUUJHmcqmuqfXof6z8urfXv8b7Tcm2BPJl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:UP TOWN MUSIC BAND #24
@@ -2498,6 +2430,17 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/atelier-coupe-decale/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:La Commission d’enquête avec J'crains dégun
+DTSTART;TZID=Europe/Paris:20261121T143000
+DTEND;TZID=Europe/Paris:20261121T180000
+UID:9decdf13ebae@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/la-commission-denq
+ uete-avec-jcrains-degun/
+LOCATION:Mucem - Hors les murs
+URL:https://mucem.org/evenement/la-commission-denquete-avec-jcrains-degun/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
 DTSTART;TZID=Europe/Paris:20261121T160000
 DTEND;TZID=Europe/Paris:20261121T173000
@@ -3014,6 +2957,18 @@ URL:https://mucem.org/evenement/atelier-danses-traditionnelles-tunisiennes
  /
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tic-Tac
+DTSTART;TZID=Europe/Paris:20261128T160000
+DTEND;TZID=Europe/Paris:20261128T170000
+UID:c9a80021b317@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/90213228_tic-tac-3484615
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/90213228
+ _tic-tac-3484615
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire
 DTSTART;TZID=Europe/Paris:20261128T160000
 DTEND;TZID=Europe/Paris:20261128T170000
@@ -3407,8 +3362,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
  Âge européen et byzantin\, du Ve au XVe siècle.
-DTSTART;TZID=Europe/Paris:20261207T110000
-DTEND;TZID=Europe/Paris:20261207T123000
+DTSTART;TZID=Europe/Paris:20261207T140000
+DTEND;TZID=Europe/Paris:20261207T153000
 UID:9595377e3ef1@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
@@ -4869,17 +4824,6 @@ DESCRIPTION:https://mucem.org/evenement/un-dimanche-au-caire-les-femmes-du
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/un-dimanche-au-caire-les-femmes-du-bus-678
  /
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:UP TOWN MUSIC BAND #26
-DTSTART;TZID=Europe/Paris:20270314T183000
-DTEND;TZID=Europe/Paris:20270314T203000
-UID:6a99701131c8@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/up-town-music-band-2
- 6/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/up-town-music-band-26/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La bataille du rire

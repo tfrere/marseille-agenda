@@ -4,10 +4,10 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-11-03",
+   "last_fetched": "2026-11-04",
    "last_ok": "2026-10-26",
    "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 6,
+   "consecutive_failures": 7,
    "posts": {
     "1660677512734544": {
      "id": "1660677512734544",
@@ -397,8 +397,8 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2043,12 +2043,26 @@
       "https://scontent-ams4-1.cdninstagram.com/v/t39.30808-6/886263549_1584860403669027_8069622703666364125_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAyMTY1NjI3OTk2NDU1MDIwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=oBvYj-khtAsQ7kNvwHd-TIP&_nc_oc=AdqvLIJwkOssrmGGvxWBeZeZDlpvk4KO2pUlViS2eqLtgwZAVt11KvudIa2KqzTWJO2OkRk04w_cIoWQvtD9elR3&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_gid=moRY4m8YQRoKZtRx0vL68Q&_nc_ss=7320f&oh=00_AQSBM-JmSXx41UxmL0NpLqgObFiImTkN3Ach7rCzQSGDHQ&oe=6AEEDD99",
       "https://scontent-ams4-1.cdninstagram.com/v/t39.30808-6/884531317_1584860410335693_5049839208229954785_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=NDAyMTY1NjI3OTA1ODYwNjEyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VPjJazWlHsIQ7kNvwF8-yKE&_nc_oc=Adr0W6vVMJgRO-9KsMOIrbBmUcceC2MdWymITCdgmbZjGL32TgvYym9aSXYWk85SPsLBwMTFnZYGXYIMYSVu8Mqi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_gid=moRY4m8YQRoKZtRx0vL68Q&_nc_ss=7320f&oh=00_AQQJ5-P7zp5LFk0x55nPcwq7c1nFLlzhjQoZlr5Hrw-K2w&oe=6AEED5F0"
      ]
+    },
+    "4022396134596817659": {
+     "id": "4022396134596817659",
+     "url": "https://www.instagram.com/p/DfSa_kMjDL7/",
+     "published": "2026-11-03",
+     "analyzed": "2026-11-04",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post announces an event but does not provide a specific date or time for the event.",
+     "image_urls": [
+      "https://scontent-fra3-2.cdninstagram.com/v/t39.30808-6/886634028_1585915470230187_7176888984208039379_n.jpg?stp=c0.0.1364.1706a_dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=NDAyMjM5NjEyMTA0MDg0ODk2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qM2VbdPfIicQ7kNvwFdk87L&_nc_oc=Adqpb7DNo6olc76JJfD2ZZxOo8DsxlWp2HCkGprvuizVyRM50aXFWw4_2atLvw6FNfc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_gid=5N8GW1C6j5Wj1cUqjCBZmQ&_nc_ss=7a20f&oh=00_AQTvnUVXcvQDsE9khL4g2nb46ZFl2dqwdr6prB6gI5KPbQ&oe=6AF09FD4",
+      "https://scontent-fra3-1.cdninstagram.com/v/t39.30808-6/880750954_1585915473563520_9033004342690557891_n.jpg?stp=c0.0.1092.1364a_dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAyMjM5NjEyMDQyMDA5ODQ3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=87yv9VUPvRAQ7kNvwHKTt-m&_nc_oc=Adp1NoZiqNZgshBOEocyg8VxRcqTG6ZnkvSEM5lkfvCEhEuYtl5uAOLAk-zKFbT7bZw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_gid=5N8GW1C6j5Wj1cUqjCBZmQ&_nc_ss=7a20f&oh=00_AQTEtc8NrELq5VhhYhl8aQwn5gOgLRAtwyACGmdyFDwH5Q&oe=6AF080DE",
+      "https://scontent-fra5-1.cdninstagram.com/v/t39.30808-6/886520171_1585915486896852_7880387353386984290_n.jpg?stp=c0.0.1364.1706a_dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=NDAyMjM5NjEyMjM0OTQ2NzE0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YIrgjNtPbCkQ7kNvwEjdMI6&_nc_oc=Adp1GjLeru56kzmABLO6GTLOzRdnNAb7LJuXyqVlx4H7hGio7GHzlbls-ujrrAdKpNc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_gid=5N8GW1C6j5Wj1cUqjCBZmQ&_nc_ss=7a20f&oh=00_AQQv0Yt9lwWqQY44sTiZu2oX6-AlgPzrFQ2vMvqXmd7G9g&oe=6AF090FC"
+     ]
     }
    },
    "failed_posts": {
     "4021473237913299322": {
-     "attempts": 1,
-     "last": "2026-11-03",
+     "attempts": 2,
+     "last": "2026-11-04",
      "error": "UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
     }
    },
@@ -2058,8 +2072,8 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3519,6 +3533,20 @@
       "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/871567461_2286889928821008_2463091980780771988_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dkPPwhofhKAQ7kNvwHAqDmT&_nc_oc=AdqF4Ah64oHT89I6Hrc4WzecvJldOfdKmSxFIIkocJH8gy0CIYBKrATVfrplxIvsQ6yetabaUxvHAo4Ra7QnE3Nb&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=kGmRP82O46nOIDBmNAtzfA&_nc_ss=70180&oh=00_AQTmzYyMf1MBh1fE6mpfZWU5GAULB8ENSfvFoFKFkUuszQ&oe=6AEF057A",
       "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/884079930_2212822249590325_1191837636468824755_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jqNZCDU5alMQ7kNvwGBlVdv&_nc_oc=AdqC_BCVU7UGr069Gk6rRFMmM9I8e-QSvmwRbbUoJz0PycZa82dZe033JjI7ccvCvXZFePJhwKyvf6ELYZfJQVd5&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=kGmRP82O46nOIDBmNAtzfA&_nc_ss=70180&oh=00_AQSUDXYYkNG6BUbswOpBPeOLZe_LOTKV5kl8OeIIV7olnQ&oe=6AEEDD63"
      ]
+    },
+    "1586029946885406": {
+     "id": "1586029946885406",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid0KrWg3c7Cim1XexaXZw74joJjpw5jCuUeRpagSouUmxrWErKEffgTaJJqrrwk2kZJl",
+     "published": "2026-11-03",
+     "analyzed": "2026-11-04",
+     "is_announcement": false,
+     "events": [],
+     "notes": "No events announced at the venue.",
+     "image_urls": [
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/887316629_1426900469095989_4051615475952446366_n.png?stp=dst-jpg_tt6&cstp=mx1365x1706&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=G9E-XfGpbroQ7kNvwFnVcjf&_nc_oc=AdqgNMYorslRzfPZSySRCzFgZafIWpUFR7WP7Y9MIWYSzpZXin5oZhV8FNOzmkjQJMbpxHoMncxjIHIvh8CdgaqW&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=xDD-7DH1sCfdkTJcpNc0zA&_nc_ss=70180&oh=00_AQScXppyDwSgearoVnQjx63607Hl6q54gUWggZx6n2qm6w&oe=6AF0A805",
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/877719835_1663136008589972_4147816770807272171_n.png?stp=dst-jpg_tt6&cstp=mx1092x1365&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=iBew4pl2Z6MQ7kNvwGmTKmY&_nc_oc=AdrWGbgK3hBVNpz1A9fBlc5-WTy2do51aQJjDz6QxFwnbk3bj0J__jbcsVHgrkf7dcEASkKcXxBUnMCmOF-y-D42&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=xDD-7DH1sCfdkTJcpNc0zA&_nc_ss=70180&oh=00_AQQ7pZP95Mu9FfNKhRvzMua6bbNi712muC5g2-IJufVZcA&oe=6AF0AEA1",
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/886519606_2176442076282581_8487330964535082908_n.png?stp=dst-jpg_tt6&cstp=mx1365x1706&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uycdExqHyd0Q7kNvwGylTHl&_nc_oc=AdrgYjH1rXRSYzOS55qSzTKD4IGxmJfkKZ5dq-F0ed9HJ6GxGUALxURoV2p_3QSfk22Yg82SP6pkI_-Ba70ltvHG&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=xDD-7DH1sCfdkTJcpNc0zA&_nc_ss=70180&oh=00_AQRz2qt6RAvft2Se3HqLVAO9SRWARXUQx7yDLnsIT0_RgQ&oe=6AF0980A"
+     ]
     }
    },
    "failed_posts": {},
@@ -3540,8 +3568,8 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -4212,8 +4240,8 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -5234,10 +5262,10 @@
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-11-03",
+   "last_fetched": "2026-11-04",
    "last_ok": "2026-11-03",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: no_items",
+   "consecutive_failures": 1,
    "posts": {
     "27367697112904947": {
      "id": "27367697112904947",
@@ -5449,8 +5477,8 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -6641,12 +6669,104 @@
       "https://scontent-nrt6-1.cdninstagram.com/v/t39.30808-6/885312780_1757839426342805_1134967987551485012_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=NDAyMDgxODA5MTU2MjY0ODU4OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZlHmyW_qjkgQ7kNvwHA2mNm&_nc_oc=AdoRdDJECdmSYxmW1tRyqJUUeRyKIfsInnz96bk_pnUUQyDPayAMPe2z7NPHVYoHhNY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt6-1.cdninstagram.com&_nc_gid=JwfqGi-OCitJjNxauFrqmA&_nc_ss=7320f&oh=00_AQR1OEAqSpEGQSuj_2U6cwGMTJUxiByMTdLKKuNKUTI1nA&oe=6AEE0139",
       "https://scontent-nrt1-1.cdninstagram.com/v/t39.30808-6/882748411_1757839423009472_6622121824655268896_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=NDAyMDgxODA5MDEyODE4Mjc2OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=hn3i-bScpjYQ7kNvwHweRDq&_nc_oc=Adpar5u-1VCbZkaPnJ-OfAbvltUkxEYAth5n7FW7MQxSIJkBjqbGtlSrZS6Gkr4X-2g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt1-1.cdninstagram.com&_nc_gid=JwfqGi-OCitJjNxauFrqmA&_nc_ss=7320f&oh=00_AQSe1NbKEeI5Rpp_X5uXZd7MTxAPFE9cxkEgVZr2Q_wS6A&oe=6AEDFD54"
      ]
+    },
+    "4022275182923665191": {
+     "id": "4022275182923665191",
+     "url": "https://www.instagram.com/p/DfR_ffLCM8n/",
+     "published": "2026-11-03",
+     "analyzed": "2026-11-04",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "LE CORSET de Louis Clichy",
+       "start_date": "2026-11-04",
+       "start_time": "18:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/bC2j668a3",
+       "price": "5€",
+       "summary": "Projection de LE CORSET de Louis Clichy dans le cadre du festival Cinémanimé, en partenariat avec Les Ecrans du Sud et en présence d'intervenant·es de l'association SudAnim. Tarif unique pour les 15/25 : 5€. Projection ouverte à tous·tes !",
+       "status": "scheduled",
+       "evidence": [
+        "𝗟𝗘 𝗖𝗢𝗥𝗦𝗘𝗧 de Louis Clichy ▶️ Mer 4 à 18h30",
+        "Mercredi 04.11 · 18h30",
+        "𝗟𝗘 𝗖𝗢𝗥𝗦𝗘𝗧 de Louis Clichy"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"𝗟𝗘 𝗖𝗢𝗥𝗦𝗘𝗧 de Louis Clichy ▶️ Mer 4 à 18h30\" and the flyer confirms \"MERCREDI 04.11 · 18H30\" under the \"La BALEINE cinema · bistrot\" header; 2026-11-04 is indeed a Wednesday and falls on/after the 2026-11-03 publication date, with no cancellation or venue conflict."
+      },
+      {
+       "title": "CHICKEN SOUP de Caroline Milcent",
+       "start_date": "2026-11-05",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/6ZqdawMT3",
+       "price": "6,5€",
+       "summary": "Projection de CHICKEN SOUP de Caroline Milcent en présence de Caroline Milcent et en partenariat avec l'Atelier des Artistes en Exil. Tarif unique : 6,5€ et happy hours au bar pour tous·tes les détenteur·ices d’un ticket du jour.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗖𝗛𝗜𝗖𝗞𝗘𝗡 𝗦𝗢𝗨𝗣 de Caroline Milcent ▶️ Jeu 5 à 20h",
+        "Jeudi 05.11 · 20h",
+        "𝗖𝗛𝗜𝗖𝗞𝗘𝗡 𝗦𝗢𝗨𝗣 de Caroline Milcent"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer states \"JEUDI 05.11 · 20H\" and the caption \"𝗖𝗛𝗜𝗖𝗞𝗘𝗡 𝗦𝗢𝗨𝗣 de Caroline Milcent ▶️ Jeu 5 à 20h\", matching the extracted 2026-11-05 20:00 (Nov 5, 2026 is indeed a Thursday), and the post is a forward-looking \"Agenda de la semaine ... du 4 au 10 novembre\" at La Baleine with the same link (https://fb.me/e/6ZqdawMT3) and price \"Tarif unique : 6,5€\"."
+      },
+      {
+       "title": "L'HEURE DE LA LIBÉRATION À SONNÉ d'Heiny Srour (1974)",
+       "start_date": "2026-11-08",
+       "start_time": "17:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/9WjuRy7bi",
+       "price": null,
+       "summary": "Projection de L'HEURE DE LA LIBÉRATION À SONNÉ d'Heiny Srour (1974) en présence de Yorgo Scheib, programmateur et réalisateur. En partenariat avec Aflam.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗟'𝗛𝗘𝗨𝗥𝗘 𝗗𝗘 𝗟𝗔 𝗟𝗜𝗕𝗘́𝗥𝗔𝗧𝗜𝗢𝗡 𝗔 𝗦𝗢𝗡𝗡𝗘́ d'Heiny Srour (1974) ▶️ Dim 8 à 17h30"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces an upcoming screening: \"𝗟'𝗛𝗘𝗨𝗥𝗘 𝗗𝗘 𝗟𝗔 𝗟𝗜𝗕𝗘́𝗥𝗔𝗧𝗜𝗢𝗡 𝗔 𝗦𝗢𝗡𝗡𝗘́ d'Heiny Srour (1974) ▶️ Dim 8 à 17h30\" with link https://fb.me/e/9WjuRy7bi, and 2026-11-08 is indeed a Sunday, matching the written weekday; the post is an agenda of the week 4–10 November at \"La Baleine\" (flyers branded \"La BALEINE cinema · bistrot\"), not a recap, and no cancellation is mentioned."
+      },
+      {
+       "title": "TO HOLD A MOUNTAIN de Biljana Tutorov, Petar Glomazić",
+       "start_date": "2026-11-09",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/9WjuRy7bi",
+       "price": null,
+       "summary": "Projection de TO HOLD A MOUNTAIN de Biljana Tutorov, Petar Glomazić.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗧𝗢 𝗛𝗢𝗟𝗗 𝗔 𝗠𝗢𝗨𝗡𝗧𝗔𝗜𝗡 de Biljana Tutorov, Petar Glomazić ▶️ Lun 9 à 20h"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces the upcoming screening \"𝗧𝗢 𝗛𝗢𝗟𝗗 𝗔 𝗠𝗢𝗨𝗡𝗧𝗔𝗜𝗡 de Biljana Tutorov, Petar Glomazić ▶️ Lun 9 à 20h\" with the matching link https://fb.me/e/9WjuRy7bi, and 9 November 2026 is indeed a Monday (post published 3 Nov, agenda \"du 4 au 10 novembre\"), at La Baleine (\"Toujours à La Baleine\")."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-fco2-1.cdninstagram.com/v/t39.30808-6/886083908_1760240476102700_3807686330550834277_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAyMjI3NTEzMjU1ODQxNDMzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=RSF46xXvsNQQ7kNvwFAuqav&_nc_oc=Adrm2CnHuP-JFN8soJpdKaexoHZJoLnQdq-JkW_Z9tL-Eu8ATzZy4Zj8qbaKtQiZmJc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=LbDm7xyea_72cji2g7tryw&_nc_ss=7a20f&oh=00_AQSAGF1OLW4TnK6lYigxqup12GBEuZ3vlONHl9uuXZbVbQ&oe=6AF0A595",
+      "https://scontent-fco2-1.cdninstagram.com/v/t39.30808-6/886057298_1760240556102692_8760116340029620719_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=NDAyMjI3NTEyOTU2MzcwMDM1OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0B_Vq7Ma3dsQ7kNvwGPyPE0&_nc_oc=AdoHBxh_VhLGmPWMQak2OkTyJ7bZaRUFndARS70pZRVkhWFQlwMHCxAw1M2g1C-6cTs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=LbDm7xyea_72cji2g7tryw&_nc_ss=7a20f&oh=00_AQTW14kLnsa3oF818WY3qMShbjr8qnMXcec2C8pYUq776Q&oe=6AF07A1E",
+      "https://scontent-fco2-1.cdninstagram.com/v/t39.30808-6/879798391_1760240509436030_6071001714317399776_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAyMjI3NTEyOTkyNDQzMDcxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8ZJpMNtbQrMQ7kNvwFtBei1&_nc_oc=AdqYWVv_SbBrihJvtTTBk--AvEfrrdysOj8oh2yFKaS8MZWEQlbttHA6kL_f35jTgv8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=LbDm7xyea_72cji2g7tryw&_nc_ss=7a20f&oh=00_AQSmA51JD6sEqP9QZadeXVdHYt2MBl7bjoIqRDjVweUN7g&oe=6AF08E02",
+      "https://scontent-fco2-1.cdninstagram.com/v/t39.30808-6/864244850_1760240622769352_8349593146257192612_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAyMjI3NTEyOTQ3MTQ2Mjk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jdt5TkTdH6oQ7kNvwEmHgtp&_nc_oc=Adpu3nlb9F8ExQqNS_-wTiwTBf-cGoI3E_oY6tHhESComZ_vTWhMLyqGpJe7gkwh8tI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=LbDm7xyea_72cji2g7tryw&_nc_ss=7a20f&oh=00_AQTCzz6mBaFBip5wCj6f8SdJHeemvIZYN6_WL9c25taWMQ&oe=6AF0A496"
+     ]
     }
    },
    "failed_posts": {
     "4021414900974502290": {
-     "attempts": 1,
-     "last": "2026-11-03",
+     "attempts": 2,
+     "last": "2026-11-04",
      "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
     }
    },
@@ -6656,8 +6776,8 @@
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -8209,6 +8329,108 @@
       "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/885185328_1597212208333234_4912074134355286461_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-7tbFwdE9qIQ7kNvwHYfveS&_nc_oc=AdrWeER8bPX58CyjFjd4vBD4BIVSZeKwHQhBS4v3XAWA641lr892KyiSaxEYAMrSNis&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=k5ggvA1-grZgMy_3GImF3A&_nc_ss=70180&oh=00_AQTBMsgPK7VcWrK6EA2h-VfDHdzEY9ANXhTD9ogDAnf3eA&oe=6AEEE75D",
       "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/886633568_1274846761493463_7434076237820962517_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GADTfT8n1RsQ7kNvwFTwdtz&_nc_oc=AdpW2APuKtCKsvM1l0BUzuYPE1NP-_qQEyz_CWVIx7QeWVgbCd5rw9A7wU3gcTqs-sw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=k5ggvA1-grZgMy_3GImF3A&_nc_ss=70180&oh=00_AQQBR8nW2CC3btnwsDTcNDPZa-LuoxIp5Mmhe2mU5n_e_A&oe=6AEED43D"
      ]
+    },
+    "1760251919434889": {
+     "id": "1760251919434889",
+     "url": "https://www.facebook.com/labaleinemarseille/posts/pfbid0YdW6wULwsQUi8td1AnH8gti3WHXf99ix3AnuYLLmxnrbneFF8gFMD11Z9sgUWwWbl",
+     "published": "2026-11-03",
+     "analyzed": "2026-11-04",
+     "is_announcement": false,
+     "events": [],
+     "notes": "no caption and no readable image",
+     "image_urls": []
+    },
+    "1760241209435960": {
+     "id": "1760241209435960",
+     "url": "https://www.facebook.com/labaleinemarseille/posts/pfbid033U4787DCR877Hd6LW2BBPAWwK8XhVizXUUJHmcqmuqfXof6z8urfXv8b7Tcm2BPJl",
+     "published": "2026-11-03",
+     "analyzed": "2026-11-04",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "LE CORSET de Louis Clichy",
+       "start_date": "2026-11-04",
+       "start_time": "18:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/bC2j668a3",
+       "price": "Tarif unique pour les 15/25 : 5€. Projection ouverte à tous·tes !",
+       "summary": "Projection du film 'Le Corset' de Louis Clichy dans le cadre du festival Cinémanimé.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗟𝗘 𝗖𝗢𝗥𝗦𝗘𝗧 de Louis Clichy ▶️ Mer 4 à 18h30",
+        "Mercredi 04.11 - 18h30",
+        "LE CORSET DE LOUIS CLICHY"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"𝗟𝗘 𝗖𝗢𝗥𝗦𝗘𝗧 de Louis Clichy ▶️ Mer 4 à 18h30\" and the flyer reads \"MERCREDI 04.11 - 18H30\", matching the extracted 2026-11-04 (a mercredi) at 18:30; the post is La Baleine's own weekly agenda (\"Toujours à La Baleine\") published 2026-11-03, so the screening is a future dated public event at the correct venue, not cancelled."
+      },
+      {
+       "title": "CHICKEN SOUP de Caroline Milcent",
+       "start_date": "2026-11-05",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/6ZqdawMT3",
+       "price": "Tarif unique : 6,5€ et happy hours au bar pour tous·tes les détenteur·ices d’un ticket du jour.",
+       "summary": "Projection du film 'Chicken Soup' de Caroline Milcent avec présence de la réalisatrice et happy hours au bar.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗖𝗛𝗜𝗖𝗞𝗘𝗡 𝗦𝗢𝗨𝗣 de Caroline Milcent ▶️ Jeu 5 à 20h",
+        "Jeudi 05.11 - 20h",
+        "CHICKEN SOUP DE CAROLINE MILCENT"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future screening: \"[cinéFID] 📽️ 𝗖𝗛𝗜𝗖𝗞𝗘𝗡 𝗦𝗢𝗨𝗣 de Caroline Milcent ▶️ Jeu 5 à 20h\", and the flyer confirms \"JEUDI 05.11 - 20H\" — 2026-11-05 is indeed a Thursday, after the 2026-11-03 publication date, at La Baleine (\"Toujours à La Baleine\"), with no cancellation mentioned."
+      },
+      {
+       "title": "L'HEURE DE LA LIBÉRATION À SONNÉ",
+       "start_date": "2026-11-08",
+       "start_time": "17:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Projection du film 'L'Heure de la Libération à Sonné' d'Heiny Srour (1974) en présence de Yorgo Scheib.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗟'𝗛𝗘𝗨𝗥𝗘 𝗗𝗘 𝗟𝗔 𝗟𝗜𝗕𝗘́𝗥𝗔𝗧𝗜𝗢𝗡 𝗔 𝗦𝗢𝗡𝗡𝗘́ d'Heiny Srour (1974) ▶️ Dim 8 à 17h30"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces an upcoming screening: \"𝗟'𝗛𝗘𝗨𝗥𝗘 𝗗𝗘 𝗟𝗔 𝗟𝗜𝗕𝗘́𝗥𝗔𝗧𝗜𝗢𝗡 𝗔 𝗦𝗢𝗡𝗡𝗘́ d'Heiny Srour (1974) ▶️ Dim 8 à 17h30\", and 2026-11-08 is indeed a dimanche, on/after the 2026-11-03 publication date. It is a dated public event at the venue itself (\"Toujours à La Baleine\"), not a recap, and no cancellation is mentioned."
+      },
+      {
+       "title": "TO HOLD A MOUNTAIN",
+       "start_date": "2026-11-09",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/9WjuRy7bi",
+       "price": null,
+       "summary": "Projection du film 'To Hold a Mountain' de Biljana Tutorov et Petar Glomazić.",
+       "status": "scheduled",
+       "evidence": [
+        "𝗧𝗢 𝗛𝗢𝗟𝗗 𝗔 𝗠𝗢𝗨𝗡𝗧𝗔𝗜𝗡 de Biljana Tutorov, Petar Glomazić ▶️ Lun 9 à 20h"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"𝗧𝗢 𝗛𝗢𝗟𝗗 𝗔 𝗠𝗢𝗨𝗡𝗧𝗔𝗜𝗡 de Biljana Tutorov, Petar Glomazić ▶️ Lun 9 à 20h\" inside an \"[Agenda de la semaine] 📆 Les films et événements du 4 au 10 novembre !\" post; 9 November 2026 is indeed a lundi, it is after the publication date (2026-11-03), and \"Toujours à La Baleine\" with #LaBaleine #Marseille confirms the venue."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-phl2-1.xx.fbcdn.net/v/t39.99422-6/875656269_1020446934420540_1677175635492244202_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VUXK6M-7m-YQ7kNvwHG7pTE&_nc_oc=Adr1p0YZy4tzpk2PXn9dbav3-HOTQFEkUt9LjKhUCEd-FLZuSs0nJpQkcXXCsqaHsAsrxi-NmuZFRFCHOh8KbpAl&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=h1pdZZuVskarGvjyZdT09A&_nc_ss=70180&oh=00_AQSdJn6pttoEbbbcJjfL8qTCmzvsGFh_xoEm02RmTYhxYA&oe=6AF09344",
+      "https://scontent-phl2-1.xx.fbcdn.net/v/t39.99422-6/887901927_2270259273907156_3959161773750263978_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Fn-FxeGiR8EQ7kNvwGjtW-3&_nc_oc=AdqTT-d16jxkyqikhALpUXmGZhZZLUk7bMgjqR78QLCLj1b2Y2aljw16pIkpgmqL0Sqz9GputPDmZJ6UIotw42vR&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=h1pdZZuVskarGvjyZdT09A&_nc_ss=70180&oh=00_AQQ7-iBR0O4PG4wJ1iU9ybejSmfx3sgE5Xc634W76kjdEw&oe=6AF07D2E",
+      "https://scontent-phl2-1.xx.fbcdn.net/v/t39.99422-6/879457152_2599991350499212_6889336079669696733_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aAkl-zgiA2cQ7kNvwF5q3P0&_nc_oc=AdovISurL06UXitrN_MJaTC4P94IdksNK1w0HD3KHR5p-zA9eblGvowAvIMw9veKJt6vOS7d4PPj0xG1S1CsnOP8&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=h1pdZZuVskarGvjyZdT09A&_nc_ss=70180&oh=00_AQQkI-J5aJWgCumiYdIbYLCXAombmLsO3EsdPysVavvA7A&oe=6AF0A547",
+      "https://scontent-phl2-1.xx.fbcdn.net/v/t39.99422-6/886810395_4421519691431909_2428713762193668974_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UQyP3PqWfI0Q7kNvwG7FYVK&_nc_oc=AdqJEiJEY8r1JI-lw4JScP6mjaBozB2SNAyw_F7hA1s3LW40HrbIEsTk10afx5HoAg9oEhReOSC-U2r9poywbjSs&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=h1pdZZuVskarGvjyZdT09A&_nc_ss=70180&oh=00_AQQKKS7n3Haz1kUBjkZl4PMcJVX2iCBCMS7od8zAn4l5Hg&oe=6AF0AA92"
+     ]
     }
    },
    "failed_posts": {},
@@ -8441,8 +8663,8 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -9295,8 +9517,8 @@
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -10046,8 +10268,8 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -11292,8 +11514,8 @@
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -12787,9 +13009,9 @@
    },
    "failed_posts": {
     "1729087339222379": {
-     "attempts": 1,
-     "last": "2026-11-03",
-     "error": "UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+     "attempts": 2,
+     "last": "2026-11-04",
+     "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
     }
    },
    "fb_events": []
@@ -12916,8 +13138,8 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -13062,8 +13284,8 @@
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14454,8 +14676,8 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -15520,8 +15742,8 @@
    },
    "failed_posts": {
     "4017864134346977353": {
-     "attempts": 1,
-     "last": "2026-11-03",
+     "attempts": 2,
+     "last": "2026-11-04",
      "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
     }
    },
@@ -15531,10 +15753,10 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-03",
+   "last_fetched": "2026-11-04",
    "last_ok": null,
    "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 34,
+   "consecutive_failures": 35,
    "posts": {},
    "failed_posts": {},
    "fb_events": []
@@ -15555,7 +15777,7 @@
    "kind": "instagram",
    "handle": "la.camaraderie13",
    "url": "https://www.instagram.com/la.camaraderie13/",
-   "last_fetched": "2026-11-03",
+   "last_fetched": "2026-11-04",
    "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,
@@ -15888,8 +16110,8 @@
    "kind": "instagram",
    "handle": "twali.marseille",
    "url": "https://www.instagram.com/twali.marseille/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -16013,8 +16235,8 @@
    "kind": "facebook",
    "handle": "twalibelsunce",
    "url": "https://www.facebook.com/twalibelsunce/",
-   "last_fetched": "2026-11-03",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-04",
+   "last_ok": "2026-11-04",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -16110,7 +16332,7 @@
    "kind": "instagram",
    "handle": "lembobineusemarseille",
    "url": "https://www.instagram.com/lembobineusemarseille/",
-   "last_fetched": "2026-11-03",
+   "last_fetched": "2026-11-04",
    "last_ok": "2026-11-03",
    "last_error": null,
    "consecutive_failures": 0,

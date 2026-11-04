@@ -103,9 +103,11 @@ DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270621
 UID:5ea844f05bff@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence
+DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence?museum=muse
+ um-dhistoire-naturelle-de-marseille-mhnm
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/dinosaures-de-provence
+URL:https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dhist
+ oire-naturelle-de-marseille-mhnm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:En Ribambelle !
@@ -155,6 +157,16 @@ LOCATION:Friche la Belle de Mai
 URL:https://urls.fr/l2VLuK
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Souffles terrestres
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261214
+UID:aa4d4ed7bbb1@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://musees.marseille.fr/souffles-terrestres
+LOCATION:[mac] Musée d'art contemporain
+URL:https://musees.marseille.fr/souffles-terrestres
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Les Petits Mercredis
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
@@ -181,6 +193,31 @@ DESCRIPTION:Une exposition et une série de dialogues publics réunissant
  he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Labo des désirs
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261107
+UID:7d696e7e68f4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Projet participatif et convivial de création et programmation
+  collective ouvert à tous·tes une semaine par mois. Une proposition de r
+ ésident·es et associations du quartier\nPrix : Entrée libre\nhttps://ww
+ w.lafriche.org/evenements/labo-des-desirs-3/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/labo-des-desirs-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261126
+UID:47435b944c38@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ateliers : Cartographier nos territoires avec Nadin Nadine
@@ -394,6 +431,20 @@ DESCRIPTION:https://transit-librairie.org/Presentation-de-Andromaque-dans-
 LOCATION:Transit librairie
 URL:https://transit-librairie.org/Presentation-de-Andromaque-dans-une-berl
  ine-rouge-de-Nantene-Traore
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ce soir je mange avec… Sophie Beau
+DTSTART;TZID=Europe/Paris:20261104T193000
+DTEND;TZID=Europe/Paris:20261104T213000
+UID:5943d2edf5bb@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Deuxième repas de cette série culinaire qui part à la renco
+ ntre des cuisiniers et cuisinières dont les recettes font vivre un hérit
+ age chargé d'histoires\, de gestes et de souvenirs ! Une proposition de L
+ es Grandes Tables\nhttps://www.lafriche.org/evenements/ce-soir-je-mange-av
+ ec-sophie-beau/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/ce-soir-je-mange-avec-sophie-beau/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La vie farpaite | IDM (Inner Direct Metaphysics) - Partie 3
@@ -1224,6 +1275,17 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/lancement-de-la-pepiniere-culture/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Permanence des Amoureux au ban public
+DTSTART;TZID=Europe/Paris:20261110T173000
+DTEND;TZID=Europe/Paris:20261110T193000
+UID:be72a359fe63@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42402
+LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42402
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Acousmodrome | Séance d'écoute
 DTSTART;TZID=Europe/Paris:20261110T193000
 DTEND;TZID=Europe/Paris:20261110T213000
@@ -1367,6 +1429,21 @@ DESCRIPTION:Cette année\, Un festival de magie au féminin\nhttps://cinem
  alegyptis.org/films/la-venus-electrique/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/la-venus-electrique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ce soir je mange avec… Nelly Flecher
+DTSTART;TZID=Europe/Paris:20261111T193000
+DTEND;TZID=Europe/Paris:20261111T213000
+UID:3d185b42225e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Troisième repas de cette série culinaire qui part à la renc
+ ontre des cuisiniers et cuisinières dont les recettes font vivre un héri
+ tage chargé d'histoires\, de gestes et de souvenirs ! Une proposition de 
+ Les Grandes Tables\nhttps://www.lafriche.org/evenements/ce-soir-je-mange-a
+ vec-nelly-flecher/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/ce-soir-je-mange-avec-nelly-fleche
+ r/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Alternative Fantasy | La Casa Lobo de Cristobal Leon et Joaquín 
@@ -1789,6 +1866,18 @@ URL:https://mucem.org/evenement/atelier-gaga-danse-et-choregraphie-pulsati
  ons-3/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Il est où le bonheur ?
+DTSTART;TZID=Europe/Paris:20261114T150000
+DTEND;TZID=Europe/Paris:20261114T180000
+UID:c7906e47b379@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une demi journée pour réfléchir ensemble. Une proposition d
+ e Mad Mars et AFD\nhttps://www.lafriche.org/evenements/il-est-ou-le-bonheu
+ r/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/il-est-ou-le-bonheur/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visite flash
 DTSTART;TZID=Europe/Paris:20261114T150000
 DTEND;TZID=Europe/Paris:20261114T160000
@@ -2071,6 +2160,18 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/84960348
  _lecture-dessinee-marc-bloch-lhistorien-combattant
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Micrographia
+DTSTART;TZID=Europe/Paris:20261117T190000
+DTEND;TZID=Europe/Paris:20261117T200000
+UID:4aee9823ae27@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Micrographia est un duo de piano à quatre mains augmenté\, i
+ maginé par Alvise Sinivia et Frédéric Blondy. Une proposition de GMEM\n
+ https://www.lafriche.org/evenements/micrographia/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/micrographia/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Présentation de "SALAM MANIFESTO "
 DTSTART;TZID=Europe/Paris:20261117T190000
 DTEND;TZID=Europe/Paris:20261117T210000
@@ -2092,6 +2193,47 @@ DESCRIPTION:https://www.videodrome2.fr/magma-24-ecrits-sur-du-vent-rose-is
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/magma-24-ecrits-sur-du-vent-rose-is-a-rose-
  is-a-rose-is-a-rose/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Petits Mercredis
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+UID:fdf39eed005b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
+ el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
+ fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
+ ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
+ s-mercredis-13/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite Toute petite expo
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+UID:431d8509bebb@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:L'équipe de médiation donne rendez-vous aux petit·es visite
+ ur·euses de 18 mois à 3 ans et à leurs accompagnant·es pour découvrir
+  les deux expositions de CHRONIQUES\, la Biennale des Imaginaires Numériq
+ ues.\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/visite-toute-p
+ etite-expo-9/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-toute-petite-expo-9/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite À petits pas
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+UID:1dcbd09451b3@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Avec vos petit·es de 3 à 5 ans\, passez un moment avec l’
+ équipe de médiation culturelle pour découvrir les deux expositions de C
+ HRONIQUES\, la Biennale des Imaginaires Numériques.\nPrix : Gratuit !\nht
+ tps://www.lafriche.org/evenements/visite-a-petits-pas-5/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-a-petits-pas-5/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le 6ème jour
@@ -2143,6 +2285,19 @@ URL:https://www.videodrome2.fr/%e2%98%85-jeune-public-atelier-dinitiation-
  au-cinema/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hola Frida
+DTSTART;TZID=Europe/Paris:20261118T141500
+DTEND;TZID=Europe/Paris:20261118T161500
+UID:0fff0e8d4afa@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection gratuite dans le cadre du Festival des Solidarités
+ \, porté par la Mairie des 2ème et 3ème arrondissements de Marseille Ap
+ rès la séance\, des ateliers seront proposés par l’association APF Fr
+ ance handicap\nhttps://cinemalegyptis.org/films/hola-frida-2/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/hola-frida-2/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Aide aux devoirs
 DTSTART;TZID=Europe/Paris:20261118T143000
 DTEND;TZID=Europe/Paris:20261118T173000
@@ -2154,6 +2309,20 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51333308
  _aide-aux-devoirs-1432396
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261122
+UID:f0f189db4219@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -2271,6 +2440,19 @@ LOCATION:Transit librairie
 URL:https://transit-librairie.org/Presentation-de-La-Palestine-en-proces
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boat People
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+UID:c2ed91a542d0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Quand deux langues\, deux mondes différents se rencontrent : 
+ que veut dire « accueillir\, cohabiter et aider » ? Une proposition de L
+ a Criée\, Théâtre national de Marseille\nhttps://www.lafriche.org/evene
+ ments/boat-people/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/boat-people/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Musique saillante
 DTSTART;TZID=Europe/Paris:20261119T200000
 DTEND;TZID=Europe/Paris:20261119T220000
@@ -2371,6 +2553,18 @@ LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/14-images-la-quatorzaine-du-doc/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Club Cabaret
+DTSTART;TZID=Europe/Paris:20261120T230000
+DTEND;TZID=Europe/Paris:20261120T050000
+UID:ca02bf6e83a9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le rendez-vous émergence & découverte des musiques électron
+ iques Une proposition de Cabaret Aléatoire\nhttps://www.lafriche.org/even
+ ements/club-cabaret-9/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/club-cabaret-9/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Le clown comme un poème
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
@@ -2409,6 +2603,19 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/97299850
  _atelier-creatif-broderie-japonaise-sashiko
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:J’crains dégun
+DTSTART;TZID=Europe/Paris:20261121T140000
+DTEND;TZID=Europe/Paris:20261121T000000
+UID:3eba8a444e7c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une journée pour s'armer\, s'émerveiller et se révolter ens
+ emble. Une proposition de CIDFF Phocéen\, Planning Familial 13 et Solidar
+ ité femmes 13\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/jcra
+ ins-degun-4/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/jcrains-degun-4/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La Commission d’enquête
 DTSTART;TZID=Europe/Paris:20261121T140000
 DTEND;TZID=Europe/Paris:20261121T180000
@@ -2439,6 +2646,30 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/la-commission-denq
  uete-avec-jcrains-degun/
 LOCATION:Mucem - Hors les murs
 URL:https://mucem.org/evenement/la-commission-denquete-avec-jcrains-degun/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261121T150000
+DTEND;TZID=Europe/Paris:20261121T160000
+UID:de3a06e79681@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NumériTech
+DTSTART;TZID=Europe/Paris:20261121T153000
+DTEND;TZID=Europe/Paris:20261121T173000
+UID:fb9c150fb122@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:À partir de la pratique des jeux vidéo\, des ateliers pour e
+ xplorer de manière créative les nouvelles technologies pour mieux les co
+ mprendre et les réinventer. Une proposition de CHRONIQUES\nPrix : Gratuit
+  !\nhttps://www.lafriche.org/evenements/numeritech-9/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/numeritech-9/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
@@ -2472,6 +2703,22 @@ UID:75e9873cf723@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:
 LOCATION:Frac Sud - Frac Sud - plateau explorations
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pour la joie. Une ode à la résistance poétique et politique
+DTSTART;TZID=Europe/Paris:20261121T180000
+DTEND;TZID=Europe/Paris:20261121T200000
+UID:a5500dde33bc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Et si la joie était notre prochaine révolution ? Un ouvrage 
+ collectif pour réenchanter les luttes et replacer le plaisir\, la fête e
+ t la création au cœur de l’émancipation. Une proposition de Librairie
+  de la Friche\, Les Liens qui Libèrent...\nPrix : Gratuit !\nhttps://www.
+ lafriche.org/evenements/pour-la-joie-une-ode-a-la-resistance-poetique-et-p
+ olitique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/pour-la-joie-une-ode-a-la-resistan
+ ce-poetique-et-politique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SPIDER ZED
@@ -2531,6 +2778,34 @@ LOCATION:L'Embobineuse
 URL:https://www.instagram.com/p/DfPrp2Nhr0C/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Origins invite BSLS Marseille
+DTSTART;TZID=Europe/Paris:20261121T230000
+DTEND;TZID=Europe/Paris:20261121T050000
+UID:2864bd5813b2@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:ORIGINS présente ETERNAL DOOM : une nuit immersive entre tech
+ no\, industrial\, hard techno\, acid et trance. Une expérience radicale e
+ n NO PHOTO / NO VIDEO\, portée par 4 artistes. Une proposition de Cabaret
+  Aléatoire\nhttps://www.lafriche.org/evenements/origins-invite-bsls-marse
+ ille/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/origins-invite-bsls-marseille/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dreamachine Festival
+DTSTART;TZID=Europe/Paris:20261121T233000
+DTEND;TZID=Europe/Paris:20261121T043000
+UID:50026ed56cec@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Dreamachine clôture son festival au Petit Cab avec DeserTGirl
+ Z\, KENNYMPHE\, Nacre et Nyctalope pour une nuit queer\, électronique et 
+ sans concession\, entre hardcore\, bass music\, expérimentations club et 
+ énergie émancipatrice. Une propositi...\nhttps://www.lafriche.org/evenem
+ ents/dreamachine-festival-petit-cab/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/dreamachine-festival-petit-cab/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
   de la Martinerie
 DTSTART;TZID=Europe/Paris:20261122T163000
@@ -2569,6 +2844,20 @@ URL:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien-hotel-t
  erminus-partie-1/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:JEST #6 : Jamais d’Eux Sans Toi
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261129
+UID:2ee448883d81@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le festival JEST est un temps de rencontres artistiques d’un
+  nouveau genre dédié à la création et l'expérimentation musicale. All
+ iant exigence artistique et éclectisme\, le festival fait rayonner autant
+  la scène locale qu’internationale à...\nhttps://www.lafriche.org/even
+ ements/jest-6-jamais-deux-sans-toi/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/jest-6-jamais-deux-sans-toi/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Marcel Ophuls\, cinéaste et historien | Hôtel Terminus – Parti
  e 2
 DTSTART;TZID=Europe/Paris:20261122T200000
@@ -2593,6 +2882,18 @@ DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20261123T160000
+DTEND;TZID=Europe/Paris:20261123T200000
+UID:aa022c2f7701@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Infos\, médias : où est passé le pluralisme ?
@@ -2695,6 +2996,20 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/gvllow-guest/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Les Petits Mercredis
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+UID:3df0a06068bb@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
+ el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
+ fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
+ ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
+ s-mercredis-13/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A scanner darkly
 DTSTART;TZID=Europe/Paris:20261125T140000
 DTEND;TZID=Europe/Paris:20261125T160000
@@ -2719,6 +3034,20 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/42222264
  _aide-aux-devoirs-7847405
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261129
+UID:a213f00bdaa2@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -2807,6 +3136,34 @@ LOCATION:[mac] Musée d'art contemporain - Musée d'art contemporain [mac]
 URL:https://musees.marseille.fr/morellet
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le mauvais œil 89 : Daisuke Ichiba
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20270126
+UID:dc5faad7179b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-89
+ -daisuke-ichiba/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-89-daisuke-ichiba/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GuérillIA. Mener la bataille culturelle de l’intelligence artif
+ icielle
+DTSTART;TZID=Europe/Paris:20261126T180000
+DTEND;TZID=Europe/Paris:20261126T200000
+UID:723128a467a7@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Dans cet essai paru aux Éditions du Seuil\, Christophe Payet 
+ invite à s'emparer de l'IA face aux géants de la tech. Une proposition d
+ e FIVIA\, CHRONIQUES et Librairie de la Friche\nPrix : Gratuit !\nhttps://
+ www.lafriche.org/evenements/guerillia-mener-la-bataille-culturelle-de-lint
+ elligence-artificielle/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/guerillia-mener-la-bataille-cultur
+ elle-de-lintelligence-artificielle/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Présentation de "Nouvelle cartographie électorale de la France"
 DTSTART;TZID=Europe/Paris:20261126T190000
 DTEND;TZID=Europe/Paris:20261126T210000
@@ -2876,6 +3233,20 @@ URL:https://lafabulerie.com/agenda/allo-a-leau-exposition-sonore-a-saint-g
  ermain-de-calberte/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:#Plus20 – Marseille\, ville coopérative ?
+DTSTART;TZID=Europe/Paris:20261127T140000
+DTEND;TZID=Europe/Paris:20261127T210000
+UID:73309523534c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Les coopérations à Marseille seront au cœur de la 9e éditi
+ on de #Plus20\, l'évènement annuel de combo. Une proposition de combo\nP
+ rix : Gratuit !\nhttps://www.lafriche.org/evenements/plus20-marseille-vill
+ e-cooperative/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/plus20-marseille-ville-cooperative
+ /
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Hola Frida
 DTSTART;TZID=Europe/Paris:20261127T141500
 DTEND;TZID=Europe/Paris:20261127T161500
@@ -2920,6 +3291,31 @@ DESCRIPTION:Azurcore Booking presents the 10th Hardcore Series featuring R
  GA/
 LOCATION:L'Intermédiaire - L'Intermédiaire
 URL:https://www.instagram.com/p/Deo2K7nKNGA/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Club Cabaret
+DTSTART;TZID=Europe/Paris:20261127T230000
+DTEND;TZID=Europe/Paris:20261127T050000
+UID:897d3477068a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le rendez-vous émergence & découverte des musiques électron
+ iques Une proposition de Cabaret Aléatoire\nhttps://www.lafriche.org/even
+ ements/club-cabaret-9/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/club-cabaret-9/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FamilyTech
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+UID:d9acb8ad495a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Création d'hologrammes\, fabrication de vos propres fanzines
+ \, mapping video et plein d'autres surprises vous attendent ! Une proposit
+ ion de CHRONIQUES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/f
+ amilytech-10/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/familytech-10/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Primed : le festival de la Méditerranée en Images
@@ -3065,6 +3461,18 @@ URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20261130T160000
+DTEND;TZID=Europe/Paris:20261130T200000
+UID:a0b1ccf2a99b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pédocriminalité\, des faits divers aux crimes systémiques
 DTSTART;TZID=Europe/Paris:20261130T190000
 DTEND;TZID=Europe/Paris:20261130T203000
@@ -3114,6 +3522,47 @@ LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Les Petits Mercredis
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+UID:dbf56dee2739@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
+ el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
+ fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
+ ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
+ s-mercredis-13/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite Toute petite expo
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+UID:73b018541ecc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:L'équipe de médiation donne rendez-vous aux petit·es visite
+ ur·euses de 18 mois à 3 ans et à leurs accompagnant·es pour découvrir
+  les deux expositions de CHRONIQUES\, la Biennale des Imaginaires Numériq
+ ues.\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/visite-toute-p
+ etite-expo-9/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-toute-petite-expo-9/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite À petits pas
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+UID:98d7ec5f3cd2@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Avec vos petit·es de 3 à 5 ans\, passez un moment avec l’
+ équipe de médiation culturelle pour découvrir les deux expositions de C
+ HRONIQUES\, la Biennale des Imaginaires Numériques.\nPrix : Gratuit !\nht
+ tps://www.lafriche.org/evenements/visite-a-petits-pas-5/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-a-petits-pas-5/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ateliers & Médiation #Faire Famille – Machines à Histoires et 
  Zelie – Les résidences de la Martinerie
 DTSTART;VALUE=DATE:20261202
@@ -3150,6 +3599,20 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/94564445
  _cine-jeune-5746194
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261206
+UID:077c3fca4c7c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -3236,6 +3699,55 @@ LOCATION:Le Molotov - @ Le Dodu
 URL:https://lemolotov.com/events/krav-boca-wake-the-dead/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dakeez à Marseille
+DTSTART;TZID=Europe/Paris:20261204T203000
+DTEND;TZID=Europe/Paris:20261204T230000
+UID:eb47dc47bed8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le phénomène DAKEEZ poursuit son ascension avec une premièr
+ e tournée solo et une date au Cabaret ! Une proposition de Cabaret Aléat
+ oire\nhttps://www.lafriche.org/evenements/dakeez-marseille/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/dakeez-marseille/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arch Club
+DTSTART;TZID=Europe/Paris:20261204T233000
+DTEND;TZID=Europe/Paris:20261204T043000
+UID:929574b8bd8a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Arch débarque à Marseille avec une nuit entre rap new-gen\, 
+ électronique expérimentale et énergie club au Petit Cab. Une propositio
+ n de EXTRA\nhttps://www.lafriche.org/evenements/arch-club-petit-cab/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/arch-club-petit-cab/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FamilyTech
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+UID:60bc31d51fe3@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Création d'hologrammes\, fabrication de vos propres fanzines
+ \, mapping video et plein d'autres surprises vous attendent ! Une proposit
+ ion de CHRONIQUES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/f
+ amilytech-10/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/familytech-10/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:À quoi rêvent les méduses
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+UID:0785c889f1d8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Danse rêvée pour tout-petits dès 2 ans. Une proposition de 
+ Théâtre Massalia\nhttps://www.lafriche.org/evenements/a-quoi-revent-les-
+ meduses/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/a-quoi-revent-les-meduses/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La BOUM BOOM BUM
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
@@ -3308,6 +3820,17 @@ URL:https://mucem.org/evenement/atelier-danse-contemporaine-nawal-ait-bena
  lla/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261205T150000
+DTEND;TZID=Europe/Paris:20261205T160000
+UID:70a0a9ca82e9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire
 DTSTART;TZID=Europe/Paris:20261205T160000
 DTEND;TZID=Europe/Paris:20261205T170000
@@ -3337,6 +3860,19 @@ DESCRIPTION:https://www.lembobineuse.biz/events/2026/12/05/johnnascus-and-
  friends
 LOCATION:L'Embobineuse
 URL:https://www.lembobineuse.biz/events/2026/12/05/johnnascus-and-friends
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Terre ludique
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+UID:26e96bb368bb@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
+ jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
+  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
+ venements/terre-ludique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/terre-ludique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un Dimanche aux Aygalades – décembre 2026
@@ -3371,6 +3907,18 @@ DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20261207T160000
+DTEND;TZID=Europe/Paris:20261207T200000
+UID:5c1b482def64@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Traite et servitude humaine\, un mal indéracinable ?
@@ -3418,6 +3966,20 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/this-will-destroy-you-cahill-costello/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Les Petits Mercredis
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+UID:61c6206001f8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
+ el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
+ fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
+ ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
+ s-mercredis-13/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rhapsody in blue
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
@@ -3440,6 +4002,20 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/85885623
  _aide-aux-devoirs-9103464
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261213
+UID:af753958572c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture
@@ -3515,6 +4091,31 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 20€\nhttps://lemolotov.com/events/tara/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/tara/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Club Infiné Invite Nathan Fake Live + Guests
+DTSTART;TZID=Europe/Paris:20261211T230000
+DTEND;TZID=Europe/Paris:20261211T050000
+UID:9e676fd4d8a5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Bi:Pole invite Club InFiné au Petit Cab pour une nuit immersi
+ ve avec Nathan Fake en live\, entre techno\, hypnose\, émotion et percuss
+ ions. Une proposition de EXTRA\nhttps://www.lafriche.org/evenements/club-i
+ nfine-invite-nathan-fake-live-guests/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/club-infine-invite-nathan-fake-liv
+ e-guests/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:En apparence
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+UID:4ba0546244a4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Concert théâtralisé dès 6 ans Une proposition de Théâtre
+  Massalia\nhttps://www.lafriche.org/evenements/en-apparence/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/en-apparence/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Résistantes
@@ -3600,6 +4201,30 @@ URL:https://mucem.org/evenement/atelier-danses-traditionnelles-georgiennes
  /
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261212T150000
+DTEND;TZID=Europe/Paris:20261212T160000
+UID:c104f5656b5e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NumériTech
+DTSTART;TZID=Europe/Paris:20261212T153000
+DTEND;TZID=Europe/Paris:20261212T173000
+UID:2a729298c4dc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:À partir de la pratique des jeux vidéo\, des ateliers pour e
+ xplorer de manière créative les nouvelles technologies pour mieux les co
+ mprendre et les réinventer. Une proposition de CHRONIQUES\nPrix : Gratuit
+  !\nhttps://www.lafriche.org/evenements/numeritech-9/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/numeritech-9/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
 DTSTART;TZID=Europe/Paris:20261212T160000
 DTEND;TZID=Europe/Paris:20261212T173000
@@ -3632,6 +4257,16 @@ DESCRIPTION:
 LOCATION:CIRA Marseille
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Théâtre de lumière et jeu d'ombre
+DTSTART;TZID=Europe/Paris:20261213T200000
+DTEND;TZID=Europe/Paris:20261213T220000
+UID:3904bbea2453@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.lembobineuse.biz/events/2026/12/13/lascelerate
+LOCATION:L'Embobineuse
+URL:https://www.lembobineuse.biz/events/2026/12/13/lascelerate
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
  Âge européen et byzantin\, du Ve au XVe siècle.
 DTSTART;TZID=Europe/Paris:20261214T140000
@@ -3643,6 +4278,18 @@ DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
  -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20261214T160000
+DTEND;TZID=Europe/Paris:20261214T200000
+UID:f0fcdb187774@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IA\, on n’arrête (pas) le progrès
@@ -3664,6 +4311,33 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/atelier-decriture/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tomber sans bruit
+DTSTART;TZID=Europe/Paris:20261215T190000
+DTEND;TZID=Europe/Paris:20261215T200000
+UID:22308b39e7aa@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Réalisé à partir d’archives sonores et visuelles\, Tomber
+  Sans Bruit s’inspire librement du drame industriel et social d’un gra
+ nd groupe français\, leader de l’habillement : Vivarte. Une proposition
+  de GMEM\nhttps://www.lafriche.org/evenements/tomber-sans-bruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/tomber-sans-bruit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Petits Mercredis
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+UID:9bb1513beb8a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
+ el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
+ fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
+ ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
+ s-mercredis-13/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Château des Carpathes
@@ -3710,6 +4384,20 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/le-bal-des-gourmands/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-bal-des-gourmands/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261220
+UID:a76f58b17e83@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:On n'attend pas - des soirées photographiques avec Arina Essipowi
@@ -3782,6 +4470,33 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/90083088
  _club-de-lecture-ado-1702690
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mad Rey B2b Mezigue : All Night Long
+DTSTART;TZID=Europe/Paris:20261218T233000
+DTEND;TZID=Europe/Paris:20261218T043000
+UID:f714778e2fbb@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:EXTRA réunit Mad Rey et Mézigue en b2b pour une nuit entre h
+ ouse\, grooves percussifs\, textures électroniques et instincts club au P
+ etit Cab. Une proposition de Bi:Pole\nhttps://www.lafriche.org/evenements/
+ mad-rey-b2b-mezigue-all-night-long/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/mad-rey-b2b-mezigue-all-night-long
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FamilyTech
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+UID:e1349bfd321c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Création d'hologrammes\, fabrication de vos propres fanzines
+ \, mapping video et plein d'autres surprises vous attendent ! Une proposit
+ ion de CHRONIQUES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/f
+ amilytech-10/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/familytech-10/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dame Neige
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
@@ -3850,6 +4565,33 @@ LOCATION:Le Molotov - @ Le Dodu
 URL:https://lemolotov.com/events/2l/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dj Schnake : All Night Long
+DTSTART;TZID=Europe/Paris:20261219T233000
+DTEND;TZID=Europe/Paris:20261219T043000
+UID:75e97909236e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:EXTRA invite DJ Schnake pour son premier all night long à Mar
+ seille\, entre hard music\, kicks ravageurs et énergie 100 % Chipiecore. 
+ Une proposition de EXTRA\nhttps://www.lafriche.org/evenements/dj-schnake-a
+ ll-night-long-petit-cab/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/dj-schnake-all-night-long-petit-ca
+ b/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Terre ludique
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+UID:f7c7e1cfaff1@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
+ jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
+  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
+ venements/terre-ludique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/terre-ludique/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Un dimanche à Téhéran : Persepolis
 DTSTART;TZID=Europe/Paris:20261220T150000
 DTEND;TZID=Europe/Paris:20261220T170000
@@ -3858,6 +4600,43 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-dimanche-a-teheran-persepolis/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/un-dimanche-a-teheran-persepolis/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20261221T160000
+DTEND;TZID=Europe/Paris:20261221T200000
+UID:5f4419416ebf@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261227
+UID:ef8475769735@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261226T150000
+DTEND;TZID=Europe/Paris:20261226T160000
+UID:936a982806a2@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le goûter à histoires
@@ -3900,6 +4679,18 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/gateaux-dart/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Marché paysan
+DTSTART;TZID=Europe/Paris:20261228T160000
+DTEND;TZID=Europe/Paris:20261228T200000
+UID:57be34ea747e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
+ ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
+  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Le banquet des images
 DTSTART;TZID=Europe/Paris:20261230T110000
 DTEND;TZID=Europe/Paris:20261230T130000
@@ -3908,6 +4699,20 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/le-banquet-des-images/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-banquet-des-images/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20270103
+UID:01f6842d0fcd@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -3977,6 +4782,19 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-gouter-des-images/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Terre ludique
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+UID:fadf4b751d24@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
+ jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
+  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
+ venements/terre-ludique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/terre-ludique/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
 DTSTART;TZID=Europe/Paris:20270103T100000
 DTEND;TZID=Europe/Paris:20270103T180000
@@ -4018,6 +4836,46 @@ DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/lecole-de
 LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/lecole-des-femmes
  -2627
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270110
+UID:5b8accbdb7c1@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FamilyTech
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+UID:c60109ec7f15@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Création d'hologrammes\, fabrication de vos propres fanzines
+ \, mapping video et plein d'autres surprises vous attendent ! Une proposit
+ ion de CHRONIQUES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/f
+ amilytech-10/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/familytech-10/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Cryptozoologue
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+UID:057a402a588a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Dans ce spectacle déambulatoire\, chacun\, chacune est invit
+ é·e à expérimenter et à prendre soin de ces êtres hybrides entre vé
+ gétal et numérique. Une proposition de Théâtre Massalia\nhttps://www.l
+ afriche.org/evenements/le-cryptozoologue/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-cryptozoologue/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -4098,6 +4956,20 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/queer-attitude-amour-gloire-et-combat/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270117
+UID:a4e8186b092d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La Commission d’enquête
 DTSTART;TZID=Europe/Paris:20270116T140000
 DTEND;TZID=Europe/Paris:20270116T180000
@@ -4119,6 +4991,30 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/atelier-afrovibe/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20270116T150000
+DTEND;TZID=Europe/Paris:20270116T160000
+UID:0a3b757e34ff@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NumériTech
+DTSTART;TZID=Europe/Paris:20270116T153000
+DTEND;TZID=Europe/Paris:20270116T173000
+UID:f9cf7da3f4d5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:À partir de la pratique des jeux vidéo\, des ateliers pour e
+ xplorer de manière créative les nouvelles technologies pour mieux les co
+ mprendre et les réinventer. Une proposition de CHRONIQUES\nPrix : Gratuit
+  !\nhttps://www.lafriche.org/evenements/numeritech-9/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/numeritech-9/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire
 DTSTART;TZID=Europe/Paris:20270116T160000
 DTEND;TZID=Europe/Paris:20270116T170000
@@ -4127,6 +5023,19 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Terre ludique
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+UID:cca028a7c279@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
+ jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
+  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
+ venements/terre-ludique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/terre-ludique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 3 - Watteau\, un peintre à la mode
@@ -4174,6 +5083,60 @@ DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/gorfou-to
  rnade
 LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/gorfou-tornade
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270124
+UID:e33d3f136108@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:55ASKY + 1ère partie
+DTSTART;TZID=Europe/Paris:20270122T193000
+DTEND;TZID=Europe/Paris:20270122T223000
+UID:42a424f6abb2@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:EXTRA invite 55ASKY au Petit Cab pour un headline show de 70 m
+ inutes entre hyperpop\, digicore\, rap et électro alternative. Une propos
+ ition de EXTRA\nhttps://www.lafriche.org/evenements/55asky-1ere-partie-pet
+ it-cab/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/55asky-1ere-partie-petit-cab/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FamilyTech
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+UID:5f514d2e9cdd@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Création d'hologrammes\, fabrication de vos propres fanzines
+ \, mapping video et plein d'autres surprises vous attendent ! Une proposit
+ ion de CHRONIQUES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/f
+ amilytech-10/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/familytech-10/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jouer le jeu
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+UID:e82acb9af5ce@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Dans un dialogue entre un enfant et un adulte\, un jeu s’inv
+ ente pour retarder le moment de partir. L’enfant en imagine les règles 
+ petit à petit. L’objectif est juste de s’amuser encore\, de convoquer
+  la danse\, le chant\, le plaisir d’être...\nhttps://www.lafriche.org/e
+ venements/jouer-le-jeu/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/jouer-le-jeu/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Commission d’enquête
@@ -4264,6 +5227,31 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/lhors-presence
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270131
+UID:82061b4f2dff@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:En liesse
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270131
+UID:7bc22a322a71@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Duo de cirque sur rolla bolla dès 10 ans Une proposition de T
+ héâtre Massalia\nhttps://www.lafriche.org/evenements/en-liesse/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/en-liesse/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gorfou-Tornade
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270131
@@ -4287,6 +5275,32 @@ DESCRIPTION:★ ☆ HIP-HOP / FUNK / SOUL / LATIN / AFROBEAT ★ ☆ Move
  rls \nhttps://www.facebook.com/events/3746932875454570/
 LOCATION:La Fabulerie - Zoumaï
 URL:https://www.facebook.com/events/3746932875454570/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sam Quealy
+DTSTART;TZID=Europe/Paris:20270129T190000
+DTEND;TZID=Europe/Paris:20270129T223000
+UID:15b78200b91c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Sam Quealy débarque au Petit Cab pour une performance explosi
+ ve mêlant disco\, pop alternative\, danse\, mode et théâtralité punk. 
+ Une proposition de EXTRA\nhttps://www.lafriche.org/evenements/sam-quealy-p
+ etit-cab/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/sam-quealy-petit-cab/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FamilyTech
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+UID:75f4e8e37a56@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Création d'hologrammes\, fabrication de vos propres fanzines
+ \, mapping video et plein d'autres surprises vous attendent ! Une proposit
+ ion de CHRONIQUES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/f
+ amilytech-10/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/familytech-10/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Commission d’enquête
@@ -4381,6 +5395,20 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/fusees
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270207
+UID:492db30eead8@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La Peau des autres
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270207
@@ -4422,6 +5450,16 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/rever-la-mediterranee/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/rever-la-mediterranee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JOZEF VAN WISSEM
+DTSTART;TZID=Europe/Paris:20270206T203000
+DTEND;TZID=Europe/Paris:20270206T223000
+UID:6ddacf5c028a@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 16€\nhttps://lemolotov.com/events/jozef-van-wissem-2/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/jozef-van-wissem-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
@@ -4493,6 +5531,31 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/comme-un-vertige
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270214
+UID:52a3d1f1a69a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Traversée
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+UID:346d9a483869@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Théâtre poétique et engagé dès 9 ans Une proposition de T
+ héâtre Massalia\nhttps://www.lafriche.org/evenements/traversee/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/traversee/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Hyperboles
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270215
@@ -4502,6 +5565,17 @@ DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/hyperbole
  s
 LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/hyperboles
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Traversée
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+UID:f5ff56e72397@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Théâtre poétique et engagé dès 9 ans Une proposition de T
+ héâtre Massalia\nhttps://www.lafriche.org/evenements/traversee/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/traversee/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'initiation à la traduction littéraire - le Grec
@@ -4587,6 +5661,45 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/comment-nourrir-sans-mourir/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270221
+UID:411093d364a5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lewis OfMan au Grand Cab
+DTSTART;TZID=Europe/Paris:20270218T193000
+DTEND;TZID=Europe/Paris:20270218T223000
+UID:e468acbf129f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Lewis OfMan revient en France en février 2027 avec son live 
+ électrisant\, entre électro-pop solaire\, groove disco et énergie conta
+ gieuse\, porté par son nouvel album 50KWTS. Une proposition de EXTRA\nhtt
+ ps://www.lafriche.org/evenements/lewis-ofman-grand-cab/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/lewis-ofman-grand-cab/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3 pM – 3 petits Moments
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270224
+UID:508ac6576366@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Duo danse et musique pour les bébés dès 6 mois Une proposit
+ ion de Théâtre Massalia\nhttps://www.lafriche.org/evenements/3-pm-3-peti
+ ts-moments/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/3-pm-3-petits-moments/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ma mini-ferme
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270308
@@ -4636,6 +5749,20 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-paysans/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270228
+UID:580a640c3a24@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Champ libre !
@@ -4720,6 +5847,20 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/lou-tout-petit/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270307
+UID:9010e066084a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lou petit
 DTSTART;TZID=Europe/Paris:20270304T150000
 DTEND;TZID=Europe/Paris:20270304T154500
@@ -4783,6 +5924,20 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/mol-warm-up-headbang-festival/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270314
+UID:1b018586b2a7@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270313T103000
 DTEND;TZID=Europe/Paris:20270313T111500
@@ -4835,6 +5990,46 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/la-bataille-du-rir
  e/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/la-bataille-du-rire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270321
+UID:2c78b7231a40@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What we talk about when we talk about skateboarding
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+UID:9244a093bb61@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Spectacle en tricks dansés dès 10 ans Une proposition de Th
+ éâtre Massalia\nhttps://www.lafriche.org/evenements/what-we-talk-about-w
+ hen-we-talk-about-skateboarding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/what-we-talk-about-when-we-talk-ab
+ out-skateboarding/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What we talk about when we talk about skateboarding
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+UID:63b38460c136@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Spectacle en tricks dansés dès 10 ans Une proposition de Th
+ éâtre Massalia\nhttps://www.lafriche.org/evenements/what-we-talk-about-w
+ hen-we-talk-about-skateboarding/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/what-we-talk-about-when-we-talk-ab
+ out-skateboarding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -4890,6 +6085,17 @@ URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Albatros
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+UID:d8177284104d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Récit en caravane dès 7 ans Une proposition de Théâtre Mas
+ salia\nhttps://www.lafriche.org/evenements/albatros/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/albatros/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sous nos yeux. Deux siècles d'archives photographiques
 DTSTART;TZID=Europe/Paris:20270324T100000
 DTEND;TZID=Europe/Paris:20270324T180000
@@ -4900,6 +6106,20 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/sous-nos-yeux-deux
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/sous-nos-yeux-deux-siecles-darchives-photo
  graphiques/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270328
+UID:576f6fd93b09@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sous nos yeux. Deux siècles d'archives photographiques
@@ -4944,6 +6164,32 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/champ-libre/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270404
+UID:d3d92f26e0ec@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sens la foudre sous ma peau
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+UID:c266940f6a18@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Générations en dialogue sur l'amour dès 14 ans Une proposit
+ ion de Théâtre Massalia\nhttps://www.lafriche.org/evenements/sens-la-fou
+ dre-sous-ma-peau/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/sens-la-foudre-sous-ma-peau/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mucem (re)Mix #3
 DTSTART;TZID=Europe/Paris:20270402T190000
 DTEND;TZID=Europe/Paris:20270402T235900
@@ -4952,6 +6198,18 @@ CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/mucem-remix-3/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/mucem-remix-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sens la foudre sous ma peau
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+UID:16065997f19d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Générations en dialogue sur l'amour dès 14 ans Une proposit
+ ion de Théâtre Massalia\nhttps://www.lafriche.org/evenements/sens-la-fou
+ dre-sous-ma-peau/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/sens-la-foudre-sous-ma-peau/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby PaySans
@@ -4988,6 +6246,20 @@ URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270411
+UID:e3dd9273c545@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Champ libre !
 DTSTART;TZID=Europe/Paris:20270410T160000
 DTEND;TZID=Europe/Paris:20270410T173000
@@ -5009,6 +6281,31 @@ DESCRIPTION:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-frer
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270418
+UID:726728bfaa47@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les séparables
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+UID:9a85b9e56ac9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Spectacle sur l'amitié dès 8 ans Une proposition de Théâtr
+ e Massalia\nhttps://www.lafriche.org/evenements/les-separables/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/les-separables/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -5039,6 +6336,20 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-paysans/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270425
+UID:4c851ff73b81@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Graines d’histoires
@@ -5090,6 +6401,20 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/raoul-lala-operati
  on-ccr/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/raoul-lala-operation-ccr/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270501
+UID:7c10888384a3@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Graines d’histoires
@@ -5146,6 +6471,20 @@ URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270509
+UID:9c19491d55ba@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Graines d’histoires
 DTSTART;TZID=Europe/Paris:20270506T160000
 DTEND;TZID=Europe/Paris:20270506T170000
@@ -5199,6 +6538,20 @@ URL:https://mucem.org/evenement/cycle-5-peinture-et-sculpture-freres-ennem
  is-ou-liens-intimes-xixe-xxe-siecles/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270516
+UID:df7722456d13@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby populaire
 DTSTART;TZID=Europe/Paris:20270515T103000
 DTEND;TZID=Europe/Paris:20270515T111500
@@ -5229,6 +6582,32 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/champ-libre/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270523
+UID:8de154ef4de5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La fabuleuse histoire de BasarKus
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+UID:524f97d68d4c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Duo d'acrobatie et de jonglage dès 3 ans Une proposition de T
+ héâtre Massalia\nhttps://www.lafriche.org/evenements/la-fabuleuse-histoi
+ re-de-basarkus/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/la-fabuleuse-histoire-de-basarkus/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Zen Zen Zen
 DTSTART;TZID=Europe/Paris:20270522T160000
 DTEND;TZID=Europe/Paris:20270522T170000
@@ -5239,6 +6618,20 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/zen-zen-zen/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270530
+UID:8c3beac20748@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Graines d’histoires
 DTSTART;TZID=Europe/Paris:20270529T160000
 DTEND;TZID=Europe/Paris:20270529T170000
@@ -5247,6 +6640,20 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/graines-dhistoires/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/graines-dhistoires/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270606
+UID:ee003cc462c4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un objet\, une histoire
@@ -5270,6 +6677,20 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270613
+UID:5be642adccc0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby PaySans
 DTSTART;TZID=Europe/Paris:20270612T103000
 DTEND;TZID=Europe/Paris:20270612T111500
@@ -5278,6 +6699,20 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-paysans/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270620
+UID:13ab0a70664b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire
@@ -5290,6 +6725,20 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270627
+UID:f4592b43f1c6@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Baby PaySans
 DTSTART;TZID=Europe/Paris:20270626T103000
 DTEND;TZID=Europe/Paris:20270626T111500
@@ -5298,6 +6747,20 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-paysans/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270704
+UID:a7ffec924d49@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Drive my Car
@@ -5323,6 +6786,62 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270711
+UID:1bcbde81644d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270718
+UID:24656c21912b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270725
+UID:b23bf5212b33@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270801
+UID:e3c9fdde5528@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
 DTSTART;TZID=Europe/Paris:20270801T100000
 DTEND;TZID=Europe/Paris:20270801T180000
@@ -5332,6 +6851,48 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/dimanche-entree-li
  bre/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270808
+UID:733f33d74a03@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270815
+UID:6f38d9a71224@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270822
+UID:74994058c556@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre

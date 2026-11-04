@@ -1,55 +1,73 @@
 {
  "run_date": "2026-11-04",
  "sources_total": 50,
- "sources_ok": 47,
+ "sources_ok": 50,
  "sources_skipped_unchanged": 0,
- "events_published": 481,
- "events_new": 8,
+ "events_published": 600,
+ "events_new": 119,
  "events_rejected_grounding": 194,
- "events_rejected_verifier": 1,
+ "events_rejected_verifier": 9,
  "events_uncertain": 0,
  "alerts": [
   {
-   "level": "error",
+   "level": "warning",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "source failed, last verified state kept: discovery: ModelHTTPError: status_code: 402, model_name: anthropic/claude-sonnet-5, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 994. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}"
+   "message": "3 consecutive failures on https://mars-infos.org/%2B-manifesten-827-%2B: re-discovering"
+  },
+  {
+   "level": "warning",
+   "venue_id": "manifesten",
+   "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
+   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-11"
   },
   {
    "level": "warning",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.lafriche.org/agenda/",
-   "message": "117 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "message": "verifier rejected 'Visite flash' 2026-11-28: The excerpt states 'Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h', indicating 30-minute tours starting at 15h, 16h, and 17h, which contradicts the extracted end_time of 16:00:00."
   },
   {
    "level": "warning",
-   "venue_id": "mac-musee-d-art-contemporain",
-   "source_url": "https://musees.marseille.fr/",
-   "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "message": "verifier rejected 'Visite flash' 2026-12-19: The excerpt states 'Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h', meaning 16h is a separate tour start time (lasting 30 minutes), contradicting the extracted end_time of 16:00:00."
   },
   {
    "level": "warning",
-   "venue_id": "le-molotov",
-   "source_url": "https://lemolotov.com/agenda/",
-   "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "message": "verifier rejected 'Visite flash' 2027-01-09: The excerpt states 'Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h', contradicting the extracted end_time of 16:00:00 (16h is the start of a subsequent 30-minute tour slot, not the end time)."
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "2 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
-   "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: \"Permanence de Mille Bâbords et de sa médiathèque\" represents the drop-in opening hours of the venue itself and its media library, not a public event."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "4 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "message": "verifier rejected 'La vie farpaite |\\xa0films du collectif LFKs' 2026-11-05: The excerpt states the cycle runs 'du mardi 3 novembre 2026 au jeudi 5 novembre 2026', contradicting the extracted start_date of 2026-11-05."
+  },
+  {
+   "level": "warning",
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the cycle runs 'du mercredi 11 novembre 2026 au jeudi 12 novembre 2026', but the extracted start_date is 2026-11-12 instead of 2026-11-11."
+  },
+  {
+   "level": "warning",
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt indicates only the date \"[2026-11-14T00:00:00+01:00] samedi 14 novembre 2026\" with no 01:00:00 start time; this appears to be a timezone parsing artifact of midnight."
+  },
+  {
+   "level": "warning",
+   "venue_id": "videodrome-2",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start date is 2027-01-20, but the excerpt states the cycle runs \"du mercredi 30 septembre 2026 au mercredi 20 janvier 2027\", making 2027-01-20 the end date rather than the start date."
   },
   {
    "level": "warning",
@@ -65,12 +83,6 @@
   },
   {
    "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.lembobineuse.biz/events/upcoming",
-   "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
-  },
-  {
-   "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
    "message": "rejected 'Grands évènements culturels et biennales' 2026-12-17: weekday mismatch: evidence says vendredi but 2026-12-17 is a jeudi"
@@ -79,68 +91,14 @@
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
-  },
-  {
-   "level": "error",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook fetch failed 7x: apify~facebook-posts-scraper: no_items"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram verifier rejected 'Rester debout' 2026-11-04: The post announces the screening at a different venue than the one given: the caption opens with \"CETTE SEMAINE AU GYPTIS\" and the flyer is branded \"LE GYPTIS CINÉMA\", i.e. the event (\"Mercredi 4 novembre à 19h : Rester debout\") takes place at Cinéma Le Gyptis, not at Friche la Belle de Mai. The date/time themselves are consistent (mer. 4 nov. 2026 is a Wednesday, 19h, after the 2026-11-02 publication)."
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram post analysis error (2/3): UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram post analysis error (2/3): UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "error",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 35x: apify~facebook-posts-scraper: not_available"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-camaraderie",
-   "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "1 new instagram post(s) left for the next run (model unavailable)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook post analysis error (2/3): UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram post analysis error (2/3): UnexpectedModelBehavior: Exceeded maximum output retries (2)"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "1 new instagram post(s) left for the next run (model unavailable)"
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt specifies the year 2026 ('au 16 mars 2026 à 21h00', 'Dimanche 15 mars 2026 à 18h'), not 2027."
   }
  ],
- "llm_calls": 15,
- "posts_analyzed": 6,
- "apify_runs": 17,
- "images_published": 421,
+ "llm_calls": 138,
+ "posts_analyzed": 0,
+ "apify_runs": 0,
+ "images_published": 535,
  "images_failed": 0,
- "credits_remaining_usd": -0.1952,
- "run_cost_usd": 0.0449
+ "credits_remaining_usd": 49.0595,
+ "run_cost_usd": 0.7435
 }

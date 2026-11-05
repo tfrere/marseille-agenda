@@ -4,10 +4,10 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-11-04",
+   "last_fetched": "2026-11-05",
    "last_ok": "2026-10-26",
    "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 7,
+   "consecutive_failures": 8,
    "posts": {
     "1660677512734544": {
      "id": "1660677512734544",
@@ -385,8 +385,8 @@
    "kind": "facebook-events",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
@@ -397,8 +397,8 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2057,23 +2057,59 @@
       "https://scontent-fra3-1.cdninstagram.com/v/t39.30808-6/880750954_1585915473563520_9033004342690557891_n.jpg?stp=c0.0.1092.1364a_dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAyMjM5NjEyMDQyMDA5ODQ3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=87yv9VUPvRAQ7kNvwHKTt-m&_nc_oc=Adp1NoZiqNZgshBOEocyg8VxRcqTG6ZnkvSEM5lkfvCEhEuYtl5uAOLAk-zKFbT7bZw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_gid=5N8GW1C6j5Wj1cUqjCBZmQ&_nc_ss=7a20f&oh=00_AQTEtc8NrELq5VhhYhl8aQwn5gOgLRAtwyACGmdyFDwH5Q&oe=6AF080DE",
       "https://scontent-fra5-1.cdninstagram.com/v/t39.30808-6/886520171_1585915486896852_7880387353386984290_n.jpg?stp=c0.0.1364.1706a_dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=NDAyMjM5NjEyMjM0OTQ2NzE0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YIrgjNtPbCkQ7kNvwEjdMI6&_nc_oc=Adp1GjLeru56kzmABLO6GTLOzRdnNAb7LJuXyqVlx4H7hGio7GHzlbls-ujrrAdKpNc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_gid=5N8GW1C6j5Wj1cUqjCBZmQ&_nc_ss=7a20f&oh=00_AQQv0Yt9lwWqQY44sTiZu2oX6-AlgPzrFQ2vMvqXmd7G9g&oe=6AF090FC"
      ]
-    }
-   },
-   "failed_posts": {
+    },
     "4021473237913299322": {
-     "attempts": 2,
-     "last": "2026-11-04",
-     "error": "UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+     "id": "4021473237913299322",
+     "url": "https://www.instagram.com/p/DfPJJprj-l6/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The announced events take place at Le Gyptis Cinéma, not at Friche la Belle de Mai.",
+     "image_urls": [
+      "https://scontent-ber1-1.cdninstagram.com/v/t39.30808-6/885230002_1733573415440438_4741416776179934056_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=NDAyMTQ3MzIxMDQ5OTMwMzE5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=QOyYfua-xT8Q7kNvwGezTRI&_nc_oc=AdoQDlYWRr8kFr1nLbPtxMJfh9AHS08jngUoCbLhSxtq-f4Ard4sYGdNNH2ZsesPaci2CBgWwARo5JoiPc4jVGQg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_gid=7IrymLjihOohcoGIecz65g&_nc_ss=7a20f&oh=00_AQQVm2L-9ZnrhAKFIfkNDxl7pZJlAuQRzFt6WH_MP_6bGg&oe=6AF1F1A3",
+      "https://scontent-ber1-1.cdninstagram.com/v/t39.30808-6/884930193_1733549475442832_4967326342872558788_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=NDAyMTQ3MzIwOTU2ODE0Njg3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4LOGUVZpJ_4Q7kNvwENZkC5&_nc_oc=AdqMoaGY6SJK0dACD3ZhKZO47sWysf5GSTHc6A_GBf3YzJwselK8tnFTuXnNCq4nN7eoYtsPxRr9RUn8PCZrvNog&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_gid=7IrymLjihOohcoGIecz65g&_nc_ss=7a20f&oh=00_AQSsrhVqDkCPpS4emlhdB1KVB2PaEElp3J4iUmVaZ2gojQ&oe=6AF1F64D",
+      "https://scontent-ber1-1.cdninstagram.com/v/t39.30808-6/884765694_1733549642109482_749327709044749914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=NDAyMTQ3MzIwOTQ4NDI4NjUyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZwP4IoJGRWAQ7kNvwEtuJXJ&_nc_oc=AdopjHBVxnboqo5pHvncF5wrS5lrvgllu-uAe9UUMZRmRnJxUFD7hPPGaQKMBCVvSGqo73hvRLDNJSf7NCLQ8Vg4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_gid=7IrymLjihOohcoGIecz65g&_nc_ss=7a20f&oh=00_AQTU3sls_7GWPsD43vyiNpCYARN_Yzm0SKJ6VpEDrowJIw&oe=6AF1F45B",
+      "https://scontent-ber1-1.cdninstagram.com/v/t39.30808-6/867085512_1733553525442427_5591068916231243738_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAyMTQ3MzIwODg4MDMxNzE0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Kl7biveP71QQ7kNvwHzWCaT&_nc_oc=AdoSA_argCqZhAWHqWyuJJnvTBPplSuN7RBeRAV5c9co4ife7Z1VgHdt8pJM1jBuTVtskEfG0bVY-pVg5KFpAtbk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_gid=7IrymLjihOohcoGIecz65g&_nc_ss=7a20f&oh=00_AQRyUHU-5uuf39aEwddq1gMNuIYUFnYZ6xpfdEFZWmU9kA&oe=6AF1CF6F"
+     ]
+    },
+    "4022803912775807216": {
+     "id": "4022803912775807216",
+     "url": "https://www.instagram.com/p/DfT3thODbDw/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post is a recap or sharing of a past residency and does not announce any upcoming public events at the venue.",
+     "image_urls": [
+      "https://instagram.fxap2-1.fna.fbcdn.net/v/t39.30808-6/859939525_1577662627722138_2361018846592874376_n.jpg?stp=c135.0.1777.1356a_dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjgwMzg2ODQwMDAyOTQ1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=je69ugb2qO4Q7kNvwHQvORs&_nc_oc=AdqzV5qzgf3sS4o2erR6DStqtcLRuToJ6YG7HtY3T_hnII4pC0klBcr3LzW-91tEcpY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fxap2-1.fna&_nc_gid=6vihlTd44-L4RyqjlqVfYA&_nc_ss=7a20f&oh=00_AQQgVMh4UDtqI6PeZcgrVDgWVDzZ1oEgrm7Sf3IflMhUWw&oe=6AF1DCA7",
+      "https://instagram.fxap2-1.fna.fbcdn.net/v/t39.30808-6/858314376_1577661541055580_5395282384793815768_n.jpg?stp=c124.0.1799.1373a_dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjgwMzg2NjMyODEwMTgyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=86S3jw57TW8Q7kNvwHYhqzF&_nc_oc=AdqoSjSLWtSMNg2Rj8h7KdzwCfFDQ6dBSvffo0I-pgBkaU_uDMR6Il5RaSdPWpmj06w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fxap2-1.fna&_nc_gid=6vihlTd44-L4RyqjlqVfYA&_nc_ss=7a20f&oh=00_AQSHKSCBhxReXnE0sY9xKncTOKURJsbB_ds-TRFvJNIVeg&oe=6AF1D66F",
+      "https://instagram.fxap2-1.fna.fbcdn.net/v/t39.30808-6/863289852_1577661577722243_5614805642032473533_n.jpg?stp=c0.141.2048.1562a_cp6_dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjgwMzg2NjY2MzYxOTcwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=kv3UN-VbV14Q7kNvwHj3sJM&_nc_oc=AdpLUFmNnCNJWA181bN3Eobi5jH9aBHYVjSTn-h6rrG-O1490veRi0lx3D9x-2yVS-I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fxap2-1.fna&_nc_gid=6vihlTd44-L4RyqjlqVfYA&_nc_ss=7a20f&oh=00_AQRcQdZgX5L8QKPbtWx4YltN20iOEt2dQAFE3JRrl7U1oQ&oe=6AF1E324",
+      "https://instagram.fxap2-1.fna.fbcdn.net/v/t39.30808-6/865652321_1577661774388890_3404074303940242498_n.jpg?stp=c128.0.1791.1367a_dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjgwMzg2ODkxMTc4OTY5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=riNfSkMDlGgQ7kNvwG3fbYO&_nc_oc=Adq-yfgOLdIXn6s8IxZhgKFBTi0MAwEdQREm988NxzcVkfkQZJxdjfCa9QyPzBp_B1g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fxap2-1.fna&_nc_gid=6vihlTd44-L4RyqjlqVfYA&_nc_ss=7a20f&oh=00_AQR7f0uc89e4RIbtrYzH6nhK8MF5u13eGVtin2bGXZqmgg&oe=6AF1CC22"
+     ]
+    },
+    "4023166259738502454": {
+     "id": "4023166259738502454",
+     "url": "https://www.instagram.com/p/DfVKGXIDOU2/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce specific upcoming events; it refers to a program that can be found in the bio.",
+     "image_urls": [
+      "https://instagram.fcia3-1.fna.fbcdn.net/v/t51.82787-15/887306398_18648572695056042_9106600721963405653_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMzE2NjI1OTczODUwMjQ1NDE4NjQ4NTcyNjkyMDU2MDQy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=Y3OwV8PbPwUQ7kNvwH-5BJn&_nc_oc=AdqNWkkZYhfQ7vjpK6v3gj1B9X7QWfLJZGeYzTEMyHfrdlzYEiZyXcAEKRqZcX7-20w&_nc_ad=z-m&_nc_cid=1007&_nc_zt=23&_nc_ht=instagram.fcia3-1.fna&_nc_gid=avIuzw_I1qq3jynAbFYspg&_nc_ss=7a20f&oh=00_AQSjwM-oFuWAjUQwGUb1XgLBbFCfuu8UA7WOw3IJy0dOcQ&oe=6AF1F070"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:friche.labelledemai": {
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3547,6 +3583,33 @@
       "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/877719835_1663136008589972_4147816770807272171_n.png?stp=dst-jpg_tt6&cstp=mx1092x1365&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=iBew4pl2Z6MQ7kNvwGmTKmY&_nc_oc=AdrWGbgK3hBVNpz1A9fBlc5-WTy2do51aQJjDz6QxFwnbk3bj0J__jbcsVHgrkf7dcEASkKcXxBUnMCmOF-y-D42&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=xDD-7DH1sCfdkTJcpNc0zA&_nc_ss=70180&oh=00_AQQ7pZP95Mu9FfNKhRvzMua6bbNi712muC5g2-IJufVZcA&oe=6AF0AEA1",
       "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/886519606_2176442076282581_8487330964535082908_n.png?stp=dst-jpg_tt6&cstp=mx1365x1706&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uycdExqHyd0Q7kNvwGylTHl&_nc_oc=AdrgYjH1rXRSYzOS55qSzTKD4IGxmJfkKZ5dq-F0ed9HJ6GxGUALxURoV2p_3QSfk22Yg82SP6pkI_-Ba70ltvHG&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=xDD-7DH1sCfdkTJcpNc0zA&_nc_ss=70180&oh=00_AQRz2qt6RAvft2Se3HqLVAO9SRWARXUQx7yDLnsIT0_RgQ&oe=6AF0980A"
      ]
+    },
+    "1587155036772897": {
+     "id": "1587155036772897",
+     "url": "https://www.facebook.com/reel/1524682369459468/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "No upcoming events announced at the venue. The post is a general announcement about a program in November without listing specific events or dates.",
+     "image_urls": [
+      "https://scontent-mia3-1.xx.fbcdn.net/v/t15.5256-10/884287998_1953199569454095_7721865002951574539_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=23U8gvYCItsQ7kNvwHS7cGM&_nc_oc=AdoHWcgdifxmaR1knPl4fk6G9QyTwPTWALtDCXnqqBZkJGs3zdtQsguOI1b4wGTN-3E&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=fTrUxStJOTnAEe307TTMRA&_nc_ss=70180&oh=00_AQSs-h2zhY1YTrvIJ6u1hKWIYxxzqPUjSYjAoesEraGIqQ&oe=6AF1DD6D"
+     ]
+    },
+    "1586575296830871": {
+     "id": "1586575296830871",
+     "url": "https://www.facebook.com/friche.labelledemai/posts/pfbid02BDTPhn89mSPQVxi6qKHmRx3LjyTSkwKcK4LKuxVhzqpRtxok7W4SdFgaHVAbhYggl",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post is a recap of a past event (a residency that took place in the spring of 2026).",
+     "image_urls": [
+      "https://scontent-mia3-1.xx.fbcdn.net/v/t39.99422-6/886725817_1792313122043255_5762362452595988712_n.png?stp=dst-jpg_tt6&cstp=mx2048x1356&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4Slsuaw9EPkQ7kNvwGrNPlu&_nc_oc=Adpk-YeqLAL2cW0bvIv2rM-CBMFuznpZxJrv836AImZgYhSTco5ThL9Ghk496y2pS3I&_nc_zt=14&_nc_ht=scontent-mia3-1.xx&_nc_gid=fTrUxStJOTnAEe307TTMRA&_nc_ss=70180&oh=00_AQRz5ptEIRyd3lN70L5PKE8W6PfhQjvs3IbFvl8xQQPsNQ&oe=6AF1EFA0",
+      "https://scontent-mia3-2.xx.fbcdn.net/v/t39.99422-6/888088900_1100889482553412_5503537686867918371_n.png?stp=dst-jpg_tt6&cstp=mx2048x1373&ctp=p394x394&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9-S-PP1W2TwQ7kNvwG4eAjR&_nc_oc=AdonchLb0hXbOedA-ssKYV-bnJSpjJ07WnbQFfPqetDUr-W4YpQmx4R9dSMk9rOWz6U&_nc_zt=14&_nc_ht=scontent-mia3-2.xx&_nc_gid=fTrUxStJOTnAEe307TTMRA&_nc_ss=70180&oh=00_AQTr4hvF6ITWMBjfwbv4TXQRXh3EfkrMSXLsAtKw8sZb-w&oe=6AF1CE2A",
+      "https://scontent-mia3-1.xx.fbcdn.net/v/t39.99422-6/888416318_1796829218212689_7758823988414742725_n.png?stp=dst-jpg_tt6&cstp=mx2048x1844&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=h8KZ1d6yZv4Q7kNvwEhF6c-&_nc_oc=Adri-fXdyQyAYyTz9b8q32nKdgBPPt0EPPfC-KSAkBGh8kIuxAEWFa4jmpiMh80kHIE&_nc_zt=14&_nc_ht=scontent-mia3-1.xx&_nc_gid=fTrUxStJOTnAEe307TTMRA&_nc_ss=70180&oh=00_AQTkoC2F2uqThZkpGMCR_je3PFhAgwe8OJ-H1AALYH4Kqw&oe=6AF1FFC8",
+      "https://scontent-mia5-1.xx.fbcdn.net/v/t39.99422-6/886707323_1936857607299169_7433743501867079215_n.png?stp=dst-jpg_tt6&cstp=mx2048x1367&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mJ9FUB26A5EQ7kNvwFDFA2k&_nc_oc=Adq9r8q5x3E0uevpPP9USyVvZgj6JB-XeXotjTIN5z5u1aUw52dG9rk3Vphvl9R2emw&_nc_zt=14&_nc_ht=scontent-mia5-1.xx&_nc_gid=fTrUxStJOTnAEe307TTMRA&_nc_ss=70180&oh=00_AQQ7ceBQ4-7LwgAAUMsujqQF4LCKXyi7o8YkiOr9-hTTxQ&oe=6AF1FB35"
+     ]
     }
    },
    "failed_posts": {},
@@ -3556,8 +3619,8 @@
    "kind": "facebook-events",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
@@ -3568,8 +3631,8 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -4182,13 +4245,28 @@
    "kind": "facebook-events",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
    "failed_posts": {},
    "fb_events": [
+    {
+     "id": "2133993110524550",
+     "url": "https://www.facebook.com/events/2133993110524550/",
+     "name": "Présentation de \"Marcher dans la blessure\" avec Ali Zare Ghanatnowi (festival de la Cimade)",
+     "start": "2026-11-12T18:00:00Z",
+     "date_sentence": "Thursday, November 12, 2026 at 7:00 PM CET",
+     "description": "Marcher dans la blessure dans le cadre du Festival de la Cimade avec Ali Zare Ghanatnowi. Un état autoritaire, un peuple martyr abreuvé de mensonges. Protester au risque d’en mourir, rester ou partir… L’auteur de cet ouvrage a été contraint à l’exil.C’est de ce déracinement forcé, et des menées d’un régime totalitaire sur les corps et le psychisme des êtres à sa merci, qu’il est question dans les quatre récits qui vous sont ici proposés. Textes éminemment sen­sibles écrits dans une langue aux contours délicats.\n\nAli Zare Ghanatnowi est né à Chiraz en Iran. Cinéaste, écrivain et artiste visuel, il vit en exil à Marseille. Pendant quatorze ans, il a dirigé une école de cinéma en Iran et a réalisé plus de vingt-quatre films (courts et longs métrages), sélectionnés et primés dans de nombreux festivals internationaux. Parallèlement, il écrit et publie des articles et des textes en persan et en français, notamment dans Le Temps (Suisse), La Croix et tient régulièrement un blog sur le site de Mediapart.",
+     "location_name": "51 boulevard de la libération, 13001 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": null,
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent.fhnd7-1.fna.fbcdn.net/v/t39.30808-6/879815266_1743648974437806_6802659090388974529_n.jpg?stp=dst-jpg_tt6&cstp=mx600x1201&ctp=s960x960&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=DDO-hL07SW8Q7kNvwGtLcG8&_nc_oc=Adpe0Xxcn9Bt7jRF6dBZ3YTbr9QorYKdTFyRblpv2x-C1DymOvyuSsT3owhDis4CJNc&_nc_zt=23&_nc_ht=scontent.fhnd7-1.fna&_nc_gid=zKQ3qwltOWngtxp1eCa_LQ&_nc_ss=73289&oh=00_AQQBCLQ4s_ErBiiwtczGVh9QcrSybKyNU3lZch3ML5eTKg&oe=6AF1E924"
+    },
     {
      "id": "1672249714571352",
      "url": "https://www.facebook.com/events/1672249714571352/",
@@ -4202,37 +4280,37 @@
      "duration": null,
      "price": null,
      "ticket_url": null,
-     "image_url": "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/862326310_1737125425090161_1826964330774480631_n.jpg?stp=dst-jpg_tt6&cstp=mx600x861&ctp=s600x861&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FYXZx1pIAuwQ7kNvwF9C_8m&_nc_oc=Adoq5j_7CvIE40RQahk-8gsqkTILm_QpusqPyKML_gr756p6Z5ImiC3fIvFlPi7GNNg&_nc_zt=23&_nc_ht=scontent-msp1-1.xx&_nc_gid=1UHJ9TPDfjmgmJLfq8Kipw&_nc_ss=70289&oh=00_AQRdr_8pLuhaZ3z3gnV29z2GUBWvXXaMlk8SzcF9vp8jeA&oe=6AE8B364"
+     "image_url": "https://scontent.fkin2-1.fna.fbcdn.net/v/t39.30808-6/862326310_1737125425090161_1826964330774480631_n.jpg?stp=dst-jpg_tt6&cstp=mx600x861&ctp=s600x861&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=t3fiWCob42IQ7kNvwE0QnT8&_nc_oc=AdphUj65LplvNh33R3SCxLbuHIA5XkFgloiXPK13QsL-AzpcBx6WpshZ4RO_bG4-Vgc&_nc_zt=23&_nc_ht=scontent.fkin2-1.fna&_nc_gid=ArJlf1hV84IctcLEdz0ZxQ&_nc_ss=70289&oh=00_AQSs07g6lTTZoQZQdefm2XPOWxgxF0D8t4W1i5fbg7cMBA&oe=6AF1EDE4"
     },
     {
-     "id": "1146836661099172",
-     "url": "https://www.facebook.com/events/1146836661099172/",
-     "name": "Présentation de l'ouvrage \"Andromaque dans une berline rouge\" avec Nanténé Traoré",
-     "start": "2026-11-04T18:00:00Z",
-     "date_sentence": "Wednesday, November 4, 2026 at 7:00 PM CET",
-     "description": "On suit Andromaque dans un monde post-catastrophe où la chaleur a rendu la surface inhabitable et forcé l’humanité à vivre dans des néopolis souterraines. Refusant à la fois le mensonge institutionnel et l’enterrement définitif sous terre, elle quitte sa maison condamnée et prend la route dans sa berline rouge vers la mer, traversant souvenirs d’enfance, amours et ruines intimes. Le texte explore le désir, la mémoire, la fuite et la persistance du fantasme comme ultime espace de liberté face à un monde qui s'effondre mais continue de prétendre tenir.\n\nNanténé Traoré est un artiste, photographe et auteur qui vit et travaille entre Bruxelles et Paris. Andromaque dans une berline rouge est son premier roman. Avant ça, il a participé à l'ouvrage collectif Pédés (2023) et a publié le recueil de poèmes La nuit t'arrache à moi en 2022.",
-     "location_name": "51 boulevard de la libération, 13001 Marseille, France",
+     "id": "1874327940423314",
+     "url": "https://www.facebook.com/events/1874327940423314/",
+     "name": "Présentation de \"La colère d’une ville. après l’effondrement, le pouvoir habitant\" avec Kevin Vacher",
+     "start": "2026-11-06T18:00:00Z",
+     "date_sentence": "Friday, November 6, 2026 at 7:00 PM CET",
+     "description": "\nLe 5 novembre 2018, deux immeubles se sont ­effondrés rue d’Aubagne, au cœur de Marseille, faisant 8 mort· es. Ce drame du mal-logement aurait pu passer sous silence, comme tant d’autres. Il est devenu un point de bifurcation de l’histoire politique et sociale de Marseille, provoquant des mobilisations de masse qui ont contribué à renverser la mairie en place depuis 23 ans. Face à l’indignité des institutions et des bailleurs, il a surtout révélé la puissance d’un pouvoir habitant et son efficacité. \n\nKevin Bhema Vacher est sociologue, militant et praticien de l’éducation populaire. Ses recherches portent sur les mouvements dits « citoyens », les classes populaires et la représentation politique.",
+     "location_name": "Solidaires 13 29 boulevard Longchamp 13001 Marseille",
      "cancelled": false,
      "is_past": false,
      "duration": null,
      "price": null,
      "ticket_url": null,
-     "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/863826370_1736184495184254_499961589791723519_n.jpg?stp=dst-jpg_tt6&cstp=mx600x976&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=x4U-YEzNe20Q7kNvwHgCueW&_nc_oc=AdqeXpsHqE10hUlRFsk9ynQtlu7OHw-W5x5RUmvPWi0gpN8RQNpmSnBrCcq0FDcy520&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=R1XnYG76GRt4rMvlVFOjOw&_nc_ss=70289&oh=00_AQT--KkcYfD8r5kWjMCpirlzVRAehhyy-caeZ49fLZoSFQ&oe=6AE8A1F1"
+     "image_url": "https://scontent.fbga1-3.fna.fbcdn.net/v/t39.30808-6/866581340_1738466724956031_2091117072951636507_n.jpg?stp=dst-jpg_tt6&cstp=mx600x926&ctp=s600x926&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=NIlHoNOB61wQ7kNvwGXlKbQ&_nc_oc=AdrMVOSGWXA0crGIOAdB4t3tZk8bsM4kW_Zj2noIJvecHVHPeKJMtDUn-GnkQSx0ohg&_nc_zt=23&_nc_ht=scontent.fbga1-3.fna&_nc_gid=fA4s8OfhS3dvsxZigTaReA&_nc_ss=70289&oh=00_AQSNOyklHFEtOWzI2uX5E8IiGZxsSoq1hKV0Fb_mprpw3A&oe=6AF1EAF8"
     },
     {
-     "id": "1153114774056566",
-     "url": "https://www.facebook.com/events/1153114774056566/",
-     "name": "Presentation de \"Paroles de citoyennes au congrès ouvrier de 1879 à Marseille\" avec Michèle Bitton",
-     "start": "2026-10-30T18:00:00Z",
-     "date_sentence": "Friday, October 30, 2026 at 7:00 PM CET",
-     "description": "Le Congrès ouvrier réuni du 20 au 31 octobre 1879 à Marseille a été le premier à se revendiquer Congrès ouvrier socialiste de France. Cent trente délégués y participèrent, dont sept femmes. Ce sont les contributions de ces sept déléguées qui sont retranscrites et présentées ici. Quatre d’entre elles - Louise Tardif, Marie Graves, Julie Martin et Louise Meunier - étaient déléguées de la Chambre syndicale des ouvrières de Marseille ; Antoinette Reydelet, de la Chambre syndicale des dévideuses lyonnaises, la citoyenne Chansard, de la Chambre syndicale des Dames réunies de Lyon et Hubertine Auclert, de la Société le Droit des femmes de Paris. À leur époque, les femmes étaient rarement admises à participer à des réunions publiques mixtes et à y prendre la parole. Les revendications de ces déléguées pour une égalité des droits sont des témoignages historiques précieux sur la condition féminine en France à la fin du XIXe siècle dans un combat qui est loin d’être achevé.\n\nMichèle Bitton est docteur en sociologie depuis 1988. Sa thèse portait sur « Le mythe juif de Lilith : de la féminité démoniaque au féminisme ». ",
-     "location_name": "51 boulevard de la libération, 13001 Marseille, France",
+     "id": "1657650919055617",
+     "url": "https://www.facebook.com/events/1657650919055617/",
+     "name": "Rencontre-Projection Les Âmes Bossales",
+     "start": "2026-11-13T19:30:00Z",
+     "date_sentence": "Friday, November 13, 2026 at 8:30 PM CET",
+     "description": "Projection-rencontre autour d'Haïti avec le film Les Âmes Bossales \n\nVenez découvrir sur grand écran un film rare et puissant qui sublime la combativité, la créativité et la dignité d’haïtiennes et d’haïtiens aujourd’hui.\n\n⭐ ⭐ ⭐ ⭐ \"Un film puissant et vibrant\" RFI\n⭐ ⭐ ⭐ ⭐ \" Des images rares\" Le Monde\n\nBande annonce : https://vimeo.com/864130122/723b5f1aa6?share=copy \n\nVendredi 13 novembre - 20h30 – Cinéma Le Chambord\n- 283 Av. du Prado, 13008 Marseille – Métro Rond-Point du Prado – Tarif unique 8,90 euros -\n\nEn présence du réalisateur François Perlier et du Dr Jonas Jolivert, Président de l’Association Franco-Haïtienne d'Échanges et de Solidarités.\n\nÉchanges avec le public animé par Julien Marchaisseau de la compagnie Rara Woulib.\n\nMini-concert de la Chorale Afrimaye avant la projection !!!\nhttps://www.facebook.com/chorale.afrimaye/?locale=fr_FR\n\nProposé par le Collectif Haïti pour Briser le Silence,\n\nen partenariat avec la Chorale Afrimaye, le Mrap Marseille, Attac Marseille, Amnesty International Marseille.\n\n👇🏼👇🏼👇🏼👇🏼\n\nLes Âmes Bossales\n\nDocumentaire - 80 minutes - 2024 - Corpus Films -\n\nhttps://www.corpusfilms.org/les-ames-bossales/ \n\nCe documentaire de François Perlier, tourné au coeur d’une Haïti meurtrie, magnifie la résistance culturelle, spirituelle et politique menée par des citoyen.ne.s isolé.e.s du reste du monde luttant à leur manière pour conserver leur dignité et faire peuple.\n\nLe film suit des visages inspirants comme Charlotte l’activiste incorruptible, Édris l’idéaliste vidéaste de l’insurrection, Foukifoura le « fou du Roi », Michou la femme courage au combat prophétique, ou encore Ramoncite le fascinant prêtre vaudou.",
+     "location_name": "Cinéma Le Chambord Officiel",
      "cancelled": false,
      "is_past": false,
      "duration": null,
      "price": null,
      "ticket_url": null,
-     "image_url": "https://scontent.fnat16-1.fna.fbcdn.net/v/t39.30808-6/860179877_1733332202136150_4620406094064374466_n.jpg?stp=dst-jpg_tt6&cstp=mx607x897&ctp=s607x897&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=F4K9BRArE6IQ7kNvwFxU34m&_nc_oc=AdobulD741e0YOOqrFxTaMxuhQwin0joBankX6sPaPZHzlBCEnrDc5HZGR8XAr-Td8c&_nc_zt=23&_nc_ht=scontent.fnat16-1.fna&_nc_gid=RdwHhAMA3o7p_QJga8RJLw&_nc_ss=70289&oh=00_AQQW09rlTOjfLLTGOISJPt8VIFJCpmSdDPWnI8X8_bcCPw&oe=6AE8B256"
+     "image_url": "https://scontent.fevn6-4.fna.fbcdn.net/v/t39.30808-6/861479381_122265328556136205_4494967739957405172_n.jpg?stp=dst-jpg_tt6&cstp=mx1672x941&ctp=s960x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=u8L_7lx6oMkQ7kNvwEDCKrp&_nc_oc=AdoS04oL7QjAil9U9Q-KEkch6P9ZrwRfF7UOmBk4sfbORSNkkDAGEoWN7Fc7KdPzfDM&_nc_zt=23&_nc_ht=scontent.fevn6-4.fna&_nc_gid=vbp7lVRSMKUH4iQoH1iwCg&_nc_ss=70289&oh=00_AQQD_5AWqM7svKPb12zvDQR2Hi0zbhybcQ0ZPkjmW0osyA&oe=6AF1E43A"
     }
    ]
   },
@@ -4240,8 +4318,8 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -5253,6 +5331,39 @@
      "image_urls": [
       "https://instagram.flpa3-1.fna.fbcdn.net/v/t51.82787-15/869846503_18077213393756624_5060862852058350757_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTE3NjE4MzAzOTA3NjcxMDE4MDc3MjEzMzkwNzU2NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzkuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=X2Sx4yatLw4Q7kNvwHN_Eb2&_nc_oc=Adrjq-yfBY4sXks6ieRALhuRBPhsSsOy4WHXQ_Tt7Ptzt5azZIErk5gUQAVUPMOsON8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.flpa3-1.fna&_nc_gid=TUS_9oBTHrDl4ZIJNXq39Q&_nc_ss=7320f&oh=00_AQS4HHr4XFR_qMpZILx8zF4MgwHGTNZ5pARSzABvsnxC6Q&oe=6AEF0718"
      ]
+    },
+    "4023106592159382188": {
+     "id": "4023106592159382188",
+     "url": "https://www.instagram.com/p/DfU8iFXMTqs/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "HARDCORE SERIES 10",
+       "start_date": "2026-11-27",
+       "start_time": "21:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "L'Intermédiaire",
+       "url": null,
+       "price": "6€ en prévente Helloasso / 8€ sur place (espèces ou CB)",
+       "summary": "Concert featuring LOSING PATIENCE, DÉFLAGRATION, and SWIRL.",
+       "status": "scheduled",
+       "evidence": [
+        "DATE : Vendredi 27 novembre – 21H",
+        "LIEU : L’Intermédiaire – 63 Place Jean Jaurès, 13006 Marseille",
+        "TARIFS : 6€ en prévente Helloasso (lien en bio) / 8€ sur place (espèces ou CB)"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces \"DATE : Vendredi 27 novembre – 21H\" at \"L'Intermédiaire – 63 Place Jean Jaurès, 13006 Marseille\", matching the flyer's \"27/11/26 – START 21H\" and \"L'INTERMEDIAIRE\"; the date is after the publication date (2026-11-04) and 2026-11-27 is indeed a Friday, and nothing indicates cancellation or a past event."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-nrt6-1.cdninstagram.com/v/t51.82787-15/885554898_17941154319395609_4609719652458737598_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=NDAyMzEwNjU5MjE1OTM4MjE4OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=d3HjZX-MDN4Q7kNvwFHeoNu&_nc_oc=AdrCqcZgQuIVG8BpFUulvtsUi8oq9-ZZvpDYPBEq_dn2ReH8-thsKmMvY0tdu5wpb5EgGxddWt7Hm99_GOqYosMb&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt6-1.cdninstagram.com&_nc_gid=SzRmPuOuPbrB12sX0E_TDQ&_nc_ss=7a20f&oh=00_AQQz6OgBJfwB964HXq9J98GJ_m7uibCAY_P8q1FKyFMP-w&oe=6AF1DEE9"
+     ]
     }
    },
    "failed_posts": {},
@@ -5262,10 +5373,10 @@
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-11-04",
+   "last_fetched": "2026-11-05",
    "last_ok": "2026-11-03",
    "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "posts": {
     "27367697112904947": {
      "id": "27367697112904947",
@@ -5449,8 +5560,8 @@
    "kind": "facebook-events",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
@@ -5460,8 +5571,8 @@
      "id": "1117646474143595",
      "url": "https://www.facebook.com/events/1117646474143595/",
      "name": "PIEDEBICHE + 21st CENTURY BEATNIXX",
-     "start": "2026-11-06T18:00:00Z",
-     "date_sentence": "Friday, November 6, 2026 at 7:00 PM CET",
+     "start": "2026-11-06T19:00:00Z",
+     "date_sentence": "Friday 6 November 2026 at 20:00 CET",
      "description": "PIEDEBICHE \n\"La musique des PIEDEBICHE parvient à marier beauté des textes -exclusivement en français- , riffs dark et batterie engagée. \nUn rythme tendu, qui tour à tour hypnotise ou libère, comme le suggère leur disque, entre l’obscur qui s’écoute et la lumière qui se danse. Entamé avec deux titres magnifiques issus de leur premier opus (« Les Illuminés » et « Ecoute » ), le concert fera la part belle aux nouvelles compositions (dont « Jardin Noir », « Frère-Sœur », « Sinon Tu Tombes »), toutes plus inventives les unes que les autres, comme si une nouvelle dimension musicale s’était imposée, tout en confirmant une singulière signature, toujours accompagnée de textes auxquels on prête attention. « Dansons » marque un des points d’orgue du set, avec Unn qui se déchaine en dansant , sur scène et parmi les premiers rangs du public, répétant un mantra « Danse » à l’infini, crié de plus en plus haut. Guitare et drums, joués avec intensité , poussés à fond, magnifient la transe créée et ressentie.\n\nLa plupart des titres sont accompagnés de visuels. Ils se fondent dans l’ univers du trio sans que les yeux ne se détournent vraiment de sa forte présence scénique. Comme une peinture qui serait jetée sur scène, on se délecte de branches d’arbres, de fleurs -magnifiques, rouges ou noires selon les titres, images fixes ou saccadées selon les moments.\n\nAprès de beaux titres (le nouveau « Pour Peu Qu’on Ose », le poétique et pacifiste « Ces Fleurs » (joué à l’archet) , « Ferme ta Gueule », leur premier single en guise de clin d’œil humoristique et autobiographique, fait toujours son effet. La projection de son clip hilarant /rafraichissant en fond d’écran rajoute à notre adhésion . Un titre communicatif qui nous renseigne, au passage , sur la musique qu’on entend : « C’est pas du punk, c’est pas du rock » ! Résultat : c’est tout simplement du PIEDEBICHE…\"\n\nExtrait de la chronique de Guy Castagne dans Dark Globe\n\n\n\n21st CENTURY BEATNIXX\nIroniques, électriques, psychédéliques et électroniques, les 21st Century Beatnixx ont été créés par Krees D. et\nTallulah X, couple moteur du défunt groupe rock BelpheGorZ (que les programmateurs de la Ferarock connaissent\npuisqu'ils avaient atteint la 8ème place de la Feraliste en juin 2019 avec leur album éponyme.) Ils nous\nentraînent dans un univers sonore de riffs toujours ingénieux, parmi lesquels éclatent des bulles de pop corrosives\net narquoises. C'est un peu comme s'ils avaient transcrit en ondes sonores l'expérience gustative explosive que\nprocurerait un chewing­gum fluo à l'acide chlorhydrique.\n\nLa virtuosité vocale de Tallulah, qui, comme à son habitude, n'en rajoute pas,\r\nse teinte d'une théâtralité mutine et un brin goguenarde, soutenue par ses\r\nprogrammations endiablées et d'une précision maniaque que les compositions\r\naux cordes d'acier de Krees épicent sans pingrerie de piments rock'n roll. On\r\nlaissera les docteurs de la foi s'écharper pour les classer dans l'électro, la pop\r\nou le rock sous la rieuse indifférence du duo concernant ce genre de débat\r\nentomologique.\r\nLes Beatnixx s'amusent et croquent sans concession un XXIème siècle où les\r\ninfluenceurs niais sont superficiels mais pas par profondeur, tandis que le\r\nmonde brûle sous les fanatismes. Ils brocardent les opportunistes qui voient\r\nles ados comme des porte­monnaies lobotomisés ou nous dépeignent un\r\nétrange complot des bébés qui, derrière leur innocence pouponne, préparent,\r\nsemble­t­il, une révolution qui ne se contentera pas d'envoyer des fleurs. Et le\r\nfutur qu'ils nous dépeignent a des airs de dystopie mélangée à une sorte de\r\nRocky Horror Picture Show survitaminé...\r\nEn ce qui concerne la production, on pourra reconnaître la touche sonore de Jearc du Local 54 Studio, qui a déjà\r\nœuvré pour plusieurs artistes marseillais ayant fréquenté la Feraliste (BelpheGorZ, No Jazz Quartet, Kino\r\nFrontera...)\r\nAlors qu'un premier quart de notre siècle angoissant et lourd de menaces est révolu, on ne pourra\r\npas reprocher aux 21st Century Beatnixx de ne pas avoir essayé de nous balancer les coups de\r\npied sonores là où il faut pour nous empêcher de nous contenter de ricaner plutôt que de nous en\r\nfoutre.\r\nEt de réaliser leur programme artistique : « faire vivre une musique où le passé se mélange au\r\nprésent pour créer un avenir...\n\nSite du groupe : https://piedebiche.fr/\n\n",
      "location_name": "L'Intermediaire Live",
      "cancelled": false,
@@ -5469,7 +5580,7 @@
      "duration": null,
      "price": null,
      "ticket_url": null,
-     "image_url": "https://scontent.fala4-1.fna.fbcdn.net/v/t39.30808-6/862730554_122206458830885518_4359171794041148288_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=TrhoqbpWkEMQ7kNvwEceU5V&_nc_oc=AdpR9qMdQakU1bZOk0GWaI-WsdfgkIJo_Q5z5qmaUsN5T9ny8sCeGSeAleCzBGlAIxo&_nc_zt=23&_nc_ht=scontent.fala4-1.fna&_nc_gid=u0_ruP0s4GuO5cqQzFXJSw&_nc_ss=70289&oh=00_AQS4Jmli-8GNiMLWEcM_H4mc8tKLTtzlGLp_z3cz-N5gTg&oe=6AE89CE7"
+     "image_url": "https://scontent.fmaa6-1.fna.fbcdn.net/v/t39.30808-6/862730554_122206458830885518_4359171794041148288_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=2tU-_a91xpkQ7kNvwEtGYGc&_nc_oc=Adrk5sbWhW9zV2YexhKALQ5CloU4dTcC8ZiUrtFejbemAJZQMDH7KVQCoxqLncrrXsQ&_nc_zt=23&_nc_ht=scontent.fmaa6-1.fna&_nc_gid=j9fbqyVR9AT1CXg8eTEqlw&_nc_ss=70289&oh=00_AQStcbq_lxeywmmrGpxbCaOiykLbBXhoKKkHS0c_UKIOpw&oe=6AF1D767"
     }
    ]
   },
@@ -5477,8 +5588,8 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -6761,23 +6872,140 @@
       "https://scontent-fco2-1.cdninstagram.com/v/t39.30808-6/879798391_1760240509436030_6071001714317399776_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAyMjI3NTEyOTkyNDQzMDcxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8ZJpMNtbQrMQ7kNvwFtBei1&_nc_oc=AdqYWVv_SbBrihJvtTTBk--AvEfrrdysOj8oh2yFKaS8MZWEQlbttHA6kL_f35jTgv8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=LbDm7xyea_72cji2g7tryw&_nc_ss=7a20f&oh=00_AQSmA51JD6sEqP9QZadeXVdHYt2MBl7bjoIqRDjVweUN7g&oe=6AF08E02",
       "https://scontent-fco2-1.cdninstagram.com/v/t39.30808-6/864244850_1760240622769352_8349593146257192612_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAyMjI3NTEyOTQ3MTQ2Mjk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jdt5TkTdH6oQ7kNvwEmHgtp&_nc_oc=Adpu3nlb9F8ExQqNS_-wTiwTBf-cGoI3E_oY6tHhESComZ_vTWhMLyqGpJe7gkwh8tI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=LbDm7xyea_72cji2g7tryw&_nc_ss=7a20f&oh=00_AQTCzz6mBaFBip5wCj6f8SdJHeemvIZYN6_WL9c25taWMQ&oe=6AF0A496"
      ]
-    }
-   },
-   "failed_posts": {
+    },
     "4021414900974502290": {
-     "attempts": 2,
-     "last": "2026-11-04",
-     "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+     "id": "4021414900974502290",
+     "url": "https://www.instagram.com/p/DfO74vLDEGS/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "L’HEURE DE LA LIBÉRATION A SONNÉ d'Heiny Srour (1974)",
+       "start_date": "2026-11-08",
+       "start_time": "17:30:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/8LaBGAevK",
+       "price": null,
+       "summary": "Projection du film d'Heiny Srour dans le cadre de Films Femmes Méditerranée, en présence de Yorgo Scheib.",
+       "status": "scheduled",
+       "evidence": [
+        "📽️ 𝗟'𝗛𝗘𝗨𝗥𝗘 𝗗𝗘 𝗟𝗔 𝗟𝗜𝗕𝗘́𝗥𝗔𝗧𝗜𝗢𝗡 𝗔 𝗦𝗢𝗡𝗡𝗘́ d'Heiny Srour (1974) ▶️ Dim 8 à 17h30",
+        "DIMANCHE 08.11. · 17H30",
+        "L’HEURE DE LA LIBÉRATION A SONNÉ d'Heiny Srour (1974)"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer and caption both state \"DIMANCHE 08.11 · 17H30\" for \"L'HEURE DE LA LIBÉRATION A SONNÉ d'Heiny Srour (1974)\", matching the extracted 2026-11-08 17:30 (08.11.2026 is indeed a Sunday, and the festival poster dates the 21st edition \"05 – 13 nov. 26\"). It is an announced public screening at La Baleine (\"La BALEINE cinema · bistrot\"), not a recap, and no cancellation is mentioned."
+      },
+      {
+       "title": "TO HOLD A MOUNTAIN de Biljana Tutorov, Petar Glomazić",
+       "start_date": "2026-11-09",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/9WjuRy7bi",
+       "price": null,
+       "summary": "Projection du film dans le cadre de Films Femmes Méditerranée, en partenariat avec plusieurs festivals.",
+       "status": "scheduled",
+       "evidence": [
+        "📽️ 𝗧𝗢 𝗛𝗢𝗟𝗗 𝗔 𝗠𝗢𝗨𝗡𝗧𝗔𝗜𝗡 de Biljana Tutorov, Petar Glomazić ▶️ Lun 9 à 20h",
+        "LUNDI 09.11. · 20H",
+        "TO HOLD A MOUNTAIN DE BILJANA TUTOROV, PETAR GLOMAZIĆ"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer and caption announce an upcoming screening: \"LUNDI 09.11 · 20H\" / \"TO HOLD A MOUNTAIN de Biljana Tutorov, Petar Glomazić ▶️ Lun 9 à 20h\", with the La Baleine logo, within the festival dated \"05 – 13 nov. 26\". 2026-11-09 is indeed a Monday and falls after the 2026-11-02 publication date; no cancellation or venue conflict is mentioned."
+      },
+      {
+       "title": "ANNA de Monica Guerritore",
+       "start_date": "2026-11-11",
+       "start_time": "14:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": "https://fb.me/e/k8Ttsh5oq",
+       "price": null,
+       "summary": "Projection du film Anna de Monica Guerritore, avant-première en présence de la réalisatrice (sous réserve).",
+       "status": "scheduled",
+       "evidence": [
+        "📽️ 𝗔𝗡𝗡𝗔 de Monica Guerritore ▶️ Mer 11 à 14h",
+        "MERCREDI 11.11. · 14H",
+        "ANNA DE MONICA GUERRITORE"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer for the third film states \"MERCREDI 11.11 · 14H\" and \"ANNA DE MONICA GUERRITORE\", matching the extracted date/time; 11 Nov 2026 is indeed a Wednesday, the date is after the 2026-11-02 publication, the flyer header reads \"La BALEINE cinema · bistrot\", and the caption link \"https://fb.me/e/k8Ttsh5oq\" matches the extracted URL with no cancellation mentioned."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-dus1-1.cdninstagram.com/v/t39.30808-6/864382273_1755318789928202_4153572254827080092_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=NDAyMTQxNDg4NTk1ODkyNjM1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=iBrrfzdaAJoQ7kNvwE2Go5m&_nc_oc=AdqBy3k-Rt6kE-GsfV72dcvWskF00ufBn1wApRHh98qgryrrQYEjz6ehQb5phbietwuYc1JXF4y7HA0lz-wsNaBH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_gid=oKNz7HEEFmyBz5-n_FNZ_A&_nc_ss=7a20f&oh=00_AQQElvJgWFaCiUv_o1tFhck1mcVidVny7FsBgSmRmgZzXA&oe=6AF1F002",
+      "https://scontent-dus1-1.cdninstagram.com/v/t39.30808-6/861704990_1755318796594868_7252955814230659415_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=NDAyMTQxNDg4NTMyMTM1ODg4MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=kYZUB3OesN4Q7kNvwEnHHrS&_nc_oc=Adq3NGnbIJKDt7QZz3bfT7UuvzFhQ2WhuAZacjdeNPRy6EakXAOOMTmWAYTg78QeGlyCFAoo4gny3AjdnyJjVb7m&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_gid=oKNz7HEEFmyBz5-n_FNZ_A&_nc_ss=7a20f&oh=00_AQTdyJfmkCvWEcI5-83v0Ku-wfVtaREcycQMaDvEoe4dsw&oe=6AF20030",
+      "https://scontent-dus1-1.cdninstagram.com/v/t39.30808-6/859726029_1755318786594869_7080770164515433370_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=NDAyMTQxNDg4NjY2MzU0NzMyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fe8SBB2VFD8Q7kNvwEuws61&_nc_oc=AdreDnFOsb93u2hluPiilTKWWdcY8gcw-eIno1UHfXXpxTWuA7iMuh8Ir98rjCjA1aClxVNB0AoZPk10dDeyUuM0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_gid=oKNz7HEEFmyBz5-n_FNZ_A&_nc_ss=7a20f&oh=00_AQSAxj6RS5Ui4WDjHNHbxob1UPuQmdELL_idPTm7MzBKAQ&oe=6AF1EA4F",
+      "https://scontent-dus1-1.cdninstagram.com/v/t39.30808-6/863953883_1755318799928201_4104121234523624774_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=NDAyMTQxNDg4NTAyNzc3NzM4MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9TobSM73ut4Q7kNvwFTouVx&_nc_oc=AdpaDOLFj-IgRmGjougR6JSdFbf9Q60FIX6RIw-O8_D2kkFmHFig1JUCNstwRLr6syhWB0uJZs1ZX__vNKd8Snsb&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_gid=oKNz7HEEFmyBz5-n_FNZ_A&_nc_ss=7a20f&oh=00_AQSqVqGprf4v5_ZV4p-PBru_0Y1Fm83utTtvsO430aCT8w&oe=6AF1CB4B"
+     ]
+    },
+    "4023196431539555534": {
+     "id": "4023196431539555534",
+     "url": "https://www.instagram.com/p/DfVQ9aziMzO/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "Post is about closures and cancellations due to a strike, not upcoming events.",
+     "image_urls": [
+      "https://scontent-gmp1-1.cdninstagram.com/v/t39.30808-6/887160909_1761802855946462_6998452231963663485_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAyMzE5NjM5MzkxNjYyMzMyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=KEIcVIrK2XAQ7kNvwFPIjU-&_nc_oc=AdoALpDxmv7PaAjl9G2GDYG54L2F6oAeT5b4jPLyR2g27y6qkaakYFAuq3lm9FtWggU&_nc_ad=z-m&_nc_cid=1753&_nc_zt=23&_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_gid=_-LVlDAPuuoFU8bYOCtNRw&_nc_ss=7a20f&oh=00_AQRAwj2zmwfFf48pKXfVwGvwU3v1LHo1SkhQrrUdnaZtMQ&oe=6AF1F68C",
+      "https://scontent-gmp1-1.cdninstagram.com/v/t39.30808-6/885721580_1761802852613129_6761951165959339093_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=NDAyMzE5NjM5NDczODcwMTQwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Nzg6vmBv0EQQ7kNvwH-Xp1H&_nc_oc=Adqk42pYy6veEQfiQrIwI8THZ6Rq0XCRopWR8_SXxFfFxjn6S1mts6-d4fatdK_1-qY&_nc_ad=z-m&_nc_cid=1753&_nc_zt=23&_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_gid=_-LVlDAPuuoFU8bYOCtNRw&_nc_ss=7a20f&oh=00_AQR_ZK1Ekic8eogQvtU0Bd3LcR9OL_JowjyKE0C5H_n7Eg&oe=6AF1F401",
+      "https://scontent-gmp1-1.cdninstagram.com/v/t39.30808-6/887604705_1761802849279796_3453559858941097461_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAyMzE5NjM5NTU2OTIxNzQyNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fD91jWtaYi8Q7kNvwFnmtpO&_nc_oc=AdpHZx1TA4z9W1kvzenU3uDkO3s-sOcCsBMLWV-ezUUhx11R1th1V0-dI0ot55Rk0Fs&_nc_ad=z-m&_nc_cid=1753&_nc_zt=23&_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_gid=_-LVlDAPuuoFU8bYOCtNRw&_nc_ss=7a20f&oh=00_AQR7gN09PS53XQTRA_kLPCI8WFhy9qaZM_hb847UlEZZqQ&oe=6AF1E7A4"
+     ]
+    },
+    "4022475062623827247": {
+     "id": "4022475062623827247",
+     "url": "https://www.instagram.com/p/DfSs8Hpj3Uv/",
+     "published": "2026-11-03",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "PROJECTION « ANNA » de Monica Guerritore",
+       "start_date": "2026-11-11",
+       "start_time": "14:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Cinéma La Baleine",
+       "url": null,
+       "price": null,
+       "summary": "Projection du film « Anna » de Monica Guerritore, explorant la vie d'Anna Magnani.",
+       "status": "scheduled",
+       "evidence": [
+        "PROJECTION « ANNA » de Monica Guerritore",
+        "📅 Mercredi 11 novembre à 14h",
+        "📍 Cinéma La Baleine @labaleinemarseille"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future screening: \"📅 Mercredi 11 novembre à 14h\" at \"📍 Cinéma La Baleine @labaleinemarseille\", matching the flyer (\"mer 11 nov. à 14h — La Baleine\"). Published mardi 2026-11-03, the date 2026-11-11 is indeed a mercredi, so the written weekday, date and time all agree and the event is after publication; no cancellation or postponement is mentioned."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fbfh8-2.fna.fbcdn.net/v/t39.30808-6/885729120_1756060169853680_5033082240959909190_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjQ3NTA2MjYyMzgyNzI0Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eL8BiUnuo48Q7kNvwGwcIfb&_nc_oc=AdoXZY2YDqTWuPTsOIMUrphP5XQ81g6F1LV35UMpnWnA9w3eWXdRZeun3Ovbiz6NQe0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbfh8-2.fna&_nc_gid=DxJp0fy22P0R9cdkk26w1w&_nc_ss=7a20f&oh=00_AQQyRi9pL9OOaxkgemGV4aQzLVcryydurdTY91bYRnzbIA&oe=6AF1D7A1"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook:labaleinemarseille": {
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -8431,6 +8659,20 @@
       "https://scontent-phl2-1.xx.fbcdn.net/v/t39.99422-6/879457152_2599991350499212_6889336079669696733_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aAkl-zgiA2cQ7kNvwF5q3P0&_nc_oc=AdovISurL06UXitrN_MJaTC4P94IdksNK1w0HD3KHR5p-zA9eblGvowAvIMw9veKJt6vOS7d4PPj0xG1S1CsnOP8&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=h1pdZZuVskarGvjyZdT09A&_nc_ss=70180&oh=00_AQQkI-J5aJWgCumiYdIbYLCXAombmLsO3EsdPysVavvA7A&oe=6AF0A547",
       "https://scontent-phl2-1.xx.fbcdn.net/v/t39.99422-6/886810395_4421519691431909_2428713762193668974_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UQyP3PqWfI0Q7kNvwG7FYVK&_nc_oc=AdqJEiJEY8r1JI-lw4JScP6mjaBozB2SNAyw_F7hA1s3LW40HrbIEsTk10afx5HoAg9oEhReOSC-U2r9poywbjSs&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=h1pdZZuVskarGvjyZdT09A&_nc_ss=70180&oh=00_AQQKKS7n3Haz1kUBjkZl4PMcJVX2iCBCMS7od8zAn4l5Hg&oe=6AF0AA92"
      ]
+    },
+    "1761820625944685": {
+     "id": "1761820625944685",
+     "url": "https://www.facebook.com/labaleinemarseille/posts/pfbid02mK2qXgs6giTZ2ws8od7TX8V9T8jLEeUbnZ7t3EVaXDHL9cVz3Pt9yK5YNkGvs4Mkl",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post announces the closure of La Baleine due to a national strike on 2026-11-05 and cancels two film screenings (one at 18h15 and another at 20h). No upcoming public events are announced at the venue.",
+     "image_urls": [
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/890636329_1829159394956511_4685487087699033950_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RQkUcfhZCdAQ7kNvwGjlt3q&_nc_oc=AdrwESszSVbsXFPOIfueulwnVmmE5vAuv8PQAKyyFkfx3ebHQVK5d_pysaBroXeEqoSQMnqWeQajMuhpPLp5HWwz&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=tA-S7U4AFWY_u8eyRTgo5A&_nc_ss=70180&oh=00_AQS_rApV3BPhxjDN2woCXGTE0U_gdQpB13FwLrIbMeHBIA&oe=6AF1CF38",
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/890198286_1863546611438801_7769590093878765311_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5Az3vXYOUewQ7kNvwED8Fcs&_nc_oc=Adq6sEOH1QCnOeVMX29vNd7QtekLs4qlQI7BRXSqOXypFjMFXmzkmQq881wktbAom0Z54kfVUlLCif5yhGrO4ect&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=tA-S7U4AFWY_u8eyRTgo5A&_nc_ss=70180&oh=00_AQSX3gv-WWvc-JVDucQSoY1z22bPyhR3_M0d8wL97CW6RQ&oe=6AF1E5E0",
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/886746043_1442924197227292_514850000518540774_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=zHIyFpauB-MQ7kNvwGTlhL-&_nc_oc=AdrwkXiZVnVNcbCawlbj_5_wywNlW1IeFDgGPoFUXVVRo8fHFVdz6ZLN-Kjm4dYlrxEiQ3J17B94WJLaBD41WTD0&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=tA-S7U4AFWY_u8eyRTgo5A&_nc_ss=70180&oh=00_AQQGz2jO_i8juAog1zWS4XH2YpDdsPVNazWlawuDk7G6_w&oe=6AF1E723"
+     ]
     }
    },
    "failed_posts": {},
@@ -8440,27 +8682,27 @@
    "kind": "facebook-events",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
    "failed_posts": {},
    "fb_events": [
     {
-     "id": "1082320470870402",
-     "url": "https://www.facebook.com/events/1082320470870402/",
-     "name": "[halloween!] E.T L'EXTRA-TERRESTRE de Steven Spielberg (1982)",
-     "start": "2026-10-31T15:00:00Z",
-     "date_sentence": "Saturday, October 31, 2026 at 4:00 PM CET",
-     "description": "▉ Séance spéciale Halloween !\n\n▉ Jeu en salle et distribution de bonbons\n\n▉ Film en VF, pour tous·tes à partir de 7 ans ! \n\n\nSamedi 31 octobre | 16h\n\n𝗘.𝗧 𝗟'𝗘𝗫𝗧𝗥𝗔-𝗧𝗘𝗥𝗥𝗘𝗦𝗧𝗥𝗘 de Steven Spielberg\nÉtats-Unis - 2h00 - 1982 - vf\n\n💫 Hors-compétition, Festival de Cannes 1982\n💫 Meilleur film dramatique - Golden Globes 1983\n💫 Oscar de la Meilleure Musique 1983\n\nLos Angeles. Un vaisseau spatial, qui loge plusieurs extraterrestres en mission d'exploration sur Terre, atterrit en pleine nuit. L'un d’entre eux s'aventure en ville et ses congénères sont bientôt contraints de l'abandonner. Poursuivie par l'armée qui l'a repère, la créature se réfugie à proximité d'une maison de banlieue. Elliott, un petit garçon, est le premier à remarquer cet être apeuré. Séduit, il décide de lui construire un abri dans l'armoire de sa chambre. Sa sœur Gertie et son frère aîné Michael sont dans la confidence.\n\n🗞️ « Revoir E.T. aujourd’hui s’affirme comme un retour aux sources de l’enfance, comme un gigantesque flash-back parfumé d’innocence où se mêlent le bonheur et la tristesse de souvenirs propres à chacun. E.T. reste et restera l’oeuvre la plus juste et la plus personnelle de son auteur : un rêve de gosse gros comme ça. » (Écran Large)\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette\n",
+     "id": "1441273271485492",
+     "url": "https://www.facebook.com/events/1441273271485492/",
+     "name": "[Journée éthique et durable] LE CORSET de Louis Clichy | 45 premières places offertes !",
+     "start": "2026-11-14T10:00:00Z",
+     "date_sentence": "Saturday, November 14, 2026 at 11:00 AM CET",
+     "description": "▉ Journée éthique et durable : les Commerces de la butte vous invitent au cinéma !\n\n▉ 45 places offertes par l'association Les Commerces de la Butte ! Retrait sur place le jour même. Dans la limite des places disponibles (tarifs habituels du cinéma pour les places suivantes).\n\n\nSamedi 14 novembre | 11h\n\n𝗟𝗘 𝗖𝗢𝗥𝗦𝗘𝗧 de Louis Clichy\nAnimation - 1h30 - 2026 - France, Blegique\n\nà partir de 7 ans\n\nDans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche... et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.\n\n🗞️ « Entre rébellion intime et fresque sociale, cette œuvre personnelle, sans être autobiographique, s’inscrit dans la lignée de Vingt Dieux par sa capacité à faire résonner avec justesse un territoire et une manière de vivre. C’est une chronique d’une sincérité rare, où le trait vibrant de l’animation parvient à saisir l’essence d’une époque et la quête identitaire d’une jeunesse qui cherche simplement sa verticale. » (Trois Couleurs)\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
      "location_name": "La Baleine Marseille",
      "cancelled": false,
      "is_past": false,
      "duration": null,
      "price": null,
      "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.fyyc2-1.fna.fbcdn.net/v/t39.30808-6/797088087_1711470937646321_4498673797179479051_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=xI6FLDThTuwQ7kNvwHEEyVY&_nc_oc=Adq7NGqVx3ZJHd1A7N85bh8IaGALqmgcCTJXqAgg2xxjjBkiD5UOdDkO6qKDUz8zMKM&_nc_zt=23&_nc_ht=scontent.fyyc2-1.fna&_nc_gid=018zNV4U7RSdN4XzU4LVIg&_nc_ss=73289&oh=00_AQQf198Ml-bVfT_6sIdK2xqOO2NHuJq1k4KuUzaAOm0iVA&oe=6AE8ADFC"
+     "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/857844683_2042075063158962_3264015914273774554_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=WlitlkY-D9oQ7kNvwGyeSw5&_nc_oc=Adq1Ui4Plj_Vw1fIIgcra6Ee2nBdNxJhS-juq63cuughU_zQX4b5Jsb0fV-I3FAf2EE&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=Og1MG6jyFZMmqvcEbrnHJA&_nc_ss=70289&oh=00_AQTGIHTsrkCNidmd0LyeGyy_bmwSrbPmmZkgRIvZv0GMXw&oe=6AF1DD84"
     },
     {
      "id": "3272802739776219",
@@ -8475,22 +8717,7 @@
      "duration": "2 hr",
      "price": null,
      "ticket_url": "https://marseillecinemalabaleine.cine.boutique/superticket/36",
-     "image_url": "https://scontent.fkin2-1.fna.fbcdn.net/v/t39.99422-6/858093693_4878650285705071_8701187977719629512_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s1998x1080&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=IHaajAx2-wwQ7kNvwEFSMNg&_nc_oc=AdodJ2dV51181zmW6F6ycGOtiJvmyOivbqe5fUNXzV8UuhWNLL2T4oWKOpT5lFHmkIg&_nc_zt=14&_nc_ht=scontent.fkin2-1.fna&_nc_gid=9FvNuC7zfBktZg_A7EQlfw&_nc_ss=7f20f&oh=00_AQRjUu7nK_Z27zZHNj6CQtDYAFZZg0xcKDwcIzlDELqutA&oe=6AE89B12"
-    },
-    {
-     "id": "2652352845222135",
-     "url": "https://www.facebook.com/events/2652352845222135/",
-     "name": "[happy hours] L'ESPÈCE EXPLOSIVE de Sarah Arnold | tarif unique : 6,5€ et happy hours au bar !",
-     "start": "2026-10-29T19:00:00Z",
-     "date_sentence": "Thursday, October 29, 2026 at 8:00 PM CET",
-     "description": "▉ Tarif unique : 6,5€\n\n▉ Happy hours au bar toute la soirée pour les détenteur·ices d'un ticket du jour\n\nJeudi 29 octobre | 20h\n\n𝗟'𝗘𝗦𝗣𝗘̀𝗖𝗘 𝗘𝗫𝗣𝗟𝗢𝗦𝗜𝗩𝗘 de Sarah Arnold\nAvec Alexis Manenti, Ella Rumpf, Vincent Dedienne\n\n1h35 - France - 2026\n\n💫 Quinzaine des Cinéastes, Festival de Cannes 2026\n\ntout public avec av.\n\nDans la campagne du Nord-Est de la France. Les sangliers qui ravagent les cultures provoquent une guerre ouverte entre chasseurs et agriculteurs. Brun, céréalier en faillite, lutte pour maintenir sa ferme à flot. Quand un notable du coin le pousse à bout, il déraille et disparaît. Un an plus tard, Fulda, un gendarme corse muté dans la région pour raisons disciplinaires, mène l’enquête. Entre intuitions fulgurantes et ratés spectaculaires, ses méthodes approximatives le mènent sur la piste des Attilas, des sangliers aux dimensions hors normes. Mais sa récente rupture amoureuse et la vodka dans laquelle flotte son cerveau n’aident pas. Heureusement, il y a Stéphane, la nouvelle psy de la gendarmerie : elle est là pour mettre un peu d’ordre dans son chaos — à moins que ce ne soit l’inverse ?\n\n🗞️ « Percutant et très drôle, L’Espèce explosive mêle un réalisme bien documenté du contexte local et un style jubilatoire visant à la distorsion, au décalage \"jazzy\" caustique du genre policier. Un parfait dosage pour une exploration ludique et dynamique très originale des contradictions humaines. » (Cineuropa)\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
-     "location_name": "La Baleine Marseille",
-     "cancelled": false,
-     "is_past": false,
-     "duration": null,
-     "price": null,
-     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/851753217_1104738415780308_3586611447099086221_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=qSwoPk-f4CsQ7kNvwGKKVVG&_nc_oc=AdqilIKchlws1TJDC5PAT5q1GOqtwkIugsvWp1pT9PAlbX8Ag_50xA2JywGX1m1LyFE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=NxfgeN-1ZnkVduCiMgdXXQ&_nc_ss=70289&oh=00_AQSPOybK2rZfyTZXmvTQGFc0WCEs5QJLD0NgSsL5ru2_DQ&oe=6AE8BA65"
+     "image_url": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.99422-6/858093693_4878650285705071_8701187977719629512_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ZWR7N04NzcgQ7kNvwFkoVx0&_nc_oc=AdqqVfln1ylyeS-I8nFe2FnRYpTpl2LDikwiy_0Z-QrHyg9iNUAH36mQ-MTQ-W85aRM&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=E3iIsWcVxQfMnmEZDUY5jw&_nc_ss=70289&oh=00_AQS7mAfSEW0aCuht7w2C94BF1eIvWuWRC7GWlXlh5QTJPA&oe=6AF1D592"
     },
     {
      "id": "1177563948277736",
@@ -8505,7 +8732,22 @@
      "duration": null,
      "price": null,
      "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.fisb1-2.fna.fbcdn.net/v/t39.99422-6/859186229_1887357589309749_8082260491408392638_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=MtMG4RqvwggQ7kNvwEsFwjh&_nc_oc=AdqKkW-9BJvo6MpODLYmxz2-YDJMscdJ6RmHHoZn56IG9slDdWz2bvzWCHrE52ezqoA&_nc_zt=14&_nc_ht=scontent.fisb1-2.fna&_nc_gid=uF2OwWjpaWIPQLt2rjPtFA&_nc_ss=73289&oh=00_AQSeNAoQ_hNknAzAwL9RHkpLS2ydswbrPov-vwtwQtlQQg&oe=6AE8C731"
+     "image_url": "https://scontent-bom2-3.xx.fbcdn.net/v/t39.99422-6/859186229_1887357589309749_8082260491408392638_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=7ns6Jd3RVtgQ7kNvwF_9N_P&_nc_oc=AdqPJXTAPRmvdNnY3V7CuBqtcCal8N-hsZ--6peoegMOzIneqGmJRqTYNVEgLXFiBDg&_nc_zt=14&_nc_ht=scontent-bom2-3.xx&_nc_gid=oYpuREtFl4PqEYRr3WfFlQ&_nc_ss=70289&oh=00_AQR2x6cnlawReSfNOtnd0i0BeADyY2WeFUvwLfWYgzDUbw&oe=6AF1C971"
+    },
+    {
+     "id": "1722025733328860",
+     "url": "https://www.facebook.com/events/1722025733328860/",
+     "name": "[FFM] ANNA de Monica Guerritore | avant-première en présence de la réalisatrice",
+     "start": "2026-11-11T13:00:00Z",
+     "date_sentence": "Wednesday 11 November 2026 at 14:00 CET",
+     "description": "▉ Avant-première en présence de la réalisatrice (sous réserve).\n\n\nMercredi 11 novembre | 14h\n\n𝗔𝗡𝗡𝗔 de Monica Guerritore\n\n1h51 - Italie - 2026 \nAvec Monica Guerritore, Tommaso Ragno, Lucia Mascino\n\nDans la nuit du 21 mars 1956, Anna Magnani attend seule l’annonce de sa victoire aux Oscars pour La Rose tatouée. Cette nuit, empreinte d’espoir et de tension, marque un tournant : le triomphe public se heurte à une fracture intime. Alors que le monde l’acclame, Anna fait face à la douloureuse séparation d’avec Roberto Rossellini. Cette rupture marque le début d’un éloignement progressif du cinéma et son retour au théâtre, un lieu plus intime et authentique. Mais surtout, elle amorce un voyage intérieur au cœur des blessures, de l’amour et de la mémoire.\n\n\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
+     "location_name": "La Baleine Marseille",
+     "cancelled": false,
+     "is_past": false,
+     "duration": null,
+     "price": null,
+     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
+     "image_url": "https://scontent.fbdj5-1.fna.fbcdn.net/v/t39.99422-6/860300573_2244094282822616_8011504884335073132_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=7TKtxA3hxboQ7kNvwGZXgfc&_nc_oc=AdqVT9lXip8NaBpVOm1giR1xpnvOV2HKuIUHx0Ixifysr64Xp_uJGvGMjRVKhkPAYX4&_nc_zt=14&_nc_ht=scontent.fbdj5-1.fna&_nc_gid=CN6XO_-h6s9mM6ymhKUu3Q&_nc_ss=70289&oh=00_AQS1iZizqonG6pA6Nsruq3ZbTx5_issUIDWW2_g5RpXYuQ&oe=6AF1ED5C"
     },
     {
      "id": "2348190802673592",
@@ -8520,22 +8762,52 @@
      "duration": null,
      "price": null,
      "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.furt1-1.fna.fbcdn.net/v/t39.99422-6/860855710_1791573692170077_6500045815544274987_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=YvrDOIjJJbAQ7kNvwGl6Wej&_nc_oc=Adp91g9FDxXqotFWo3aZytZFmcc1KLc2GeBOK7-_eu9bT_uvaO6yQo3_Uo0Xt2A9_wc&_nc_zt=14&_nc_ht=scontent.furt1-1.fna&_nc_gid=VwOWPcjSHA05L2sGjun6Fw&_nc_ss=73289&oh=00_AQQ-dBsZXUYq3oiaTR7AnM7s9R2L-EqWkCEQoblG8qY-tw&oe=6AE8ACD3"
+     "image_url": "https://scontent.fbom35-1.fna.fbcdn.net/v/t39.99422-6/860855710_1791573692170077_6500045815544274987_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=a8cAz9rkvrgQ7kNvwHBqzZR&_nc_oc=AdqyPDE0VZ4ghXWtPAiftft1GSDRVzYLO76xUNPzhZpe9hevyWC_AOThz0KhL9h2cqc&_nc_zt=14&_nc_ht=scontent.fbom35-1.fna&_nc_gid=wPqq-dH1zXShiAXQhZ0h0g&_nc_ss=70289&oh=00_AQSXFjG-nSNfPFM9fQnLqnvlSfS3NC6nYXV9Mx6yIsnGDA&oe=6AF1E753"
     },
     {
-     "id": "1722025733328860",
-     "url": "https://www.facebook.com/events/1722025733328860/",
-     "name": "[FFM] ANNA de Monica Guerritore | avant-première en présence de la réalisatrice",
-     "start": "2026-11-11T13:00:00Z",
-     "date_sentence": "Wednesday, November 11, 2026 at 2:00 PM CET",
-     "description": "▉ Avant-première en présence de la réalisatrice (sous réserve).\n\n\nMercredi 11 novembre | 14h\n\n𝗔𝗡𝗡𝗔 de Monica Guerritore\n\n1h51 - Italie - 2026 \nAvec Monica Guerritore, Tommaso Ragno, Lucia Mascino\n\nDans la nuit du 21 mars 1956, Anna Magnani attend seule l’annonce de sa victoire aux Oscars pour La Rose tatouée. Cette nuit, empreinte d’espoir et de tension, marque un tournant : le triomphe public se heurte à une fracture intime. Alors que le monde l’acclame, Anna fait face à la douloureuse séparation d’avec Roberto Rossellini. Cette rupture marque le début d’un éloignement progressif du cinéma et son retour au théâtre, un lieu plus intime et authentique. Mais surtout, elle amorce un voyage intérieur au cœur des blessures, de l’amour et de la mémoire.\n\n\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
+     "id": "4644724449146162",
+     "url": "https://www.facebook.com/events/4644724449146162/",
+     "name": "[séance spéciale] LES RECOMMENCEMENTS d'I. Ingold & V. Perelmuter | en sa présence",
+     "start": "2026-11-13T20:00:00Z",
+     "date_sentence": "Friday 13 November 2026 at 21:00 CET",
+     "description": "▉ en présence de la réalisatrice Vivianne Perelmuter et d'Alexis Nuselovici, Professeur émérite de littérature comparée à l'Université d'Aix-Marseille.\n\n\nVendredi 13 novembre | 21h\n\n𝗟𝗘𝗦 𝗥𝗘𝗖𝗢𝗠𝗠𝗘𝗡𝗖𝗘𝗠𝗘𝗡𝗧𝗦 d'Isabelle Ingold & Vivianne Peremulter\nBelgique, France - 1h27 - 2026\nDocumentaire\n\n💫 Sélection ACID, Festival de Cannes 2026\n💫 Prix du Jury - RISC (Sciences et Cinéma), Marseille 2025\n💫 Prix du Public - Escales Documentaires, La Rochelle 2025 \n💫 Burning Lights, Cinéma du Réel, Paris 2025\n💫 Au Coeur du Doc, Fema, La Rochelle 2025\n\nVétéran de la guerre du Vietnam, Al Moon vit en solitaire sur les terres de sa tribu en Californie du nord. À mesure que la violence et les destructions écologiques s’abattent sur la réserve, d’anciennes angoisses ressurgissent et poussent Al à traverser le pays pour se confronter au passé et aux hommes de son ancien bataillon. Sur la route, Al découvre une Amérique aux prises avec ses propres blessures. Les vieux démons se lèvent comme des fantômes…\n\n🗞️ « Tout en subtilité et en délicatesse, Les Recommencements nous ouvre la voie vers un homme qui s’est construit à rebours des assignations héritées – celles de son histoire personnelle et d’un pays où la violence est ancrée depuis les origines. » (Fema La Rochelle)\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette\n",
      "location_name": "La Baleine Marseille",
      "cancelled": false,
      "is_past": false,
      "duration": null,
      "price": null,
      "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.fccp1-1.fna.fbcdn.net/v/t39.99422-6/860300573_2244094282822616_8011504884335073132_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=6o42xsxclw4Q7kNvwEtrexY&_nc_oc=AdqJ15CQJOdvJhL5iPlY-6DnnPeRKnd07YnviVWEklcW8utfb5LR0syQA8d2UfZa6Mg&_nc_zt=14&_nc_ht=scontent.fccp1-1.fna&_nc_gid=SndosKpk8JfAe1FUTzHnyg&_nc_ss=70289&oh=00_AQTDLjcIk86aIAlkf3dJ2rFBHKDNM08t1rQQPPsGfEUDlQ&oe=6AE8B2DC"
+     "image_url": "https://scontent.fhyd1-7.fna.fbcdn.net/v/t39.30808-6/856081378_1741370701323011_9187211148249087946_n.jpg?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=H2CHJ4mRr30Q7kNvwFO8htm&_nc_oc=AdrFb2o4PIoOZUgBMDrkBYIglZ3oLwRB0SX-1zmfeM816cbLJMMxzrDXT9QfyNdtc6I&_nc_zt=23&_nc_ht=scontent.fhyd1-7.fna&_nc_gid=DUEA7H5qZHnrJFZ4s7hYhQ&_nc_ss=73289&oh=00_AQQ84u7qfYTLLXdO4to3ydAB40N416mBmcWKK3LSDk0l0g&oe=6AF1D11E"
+    },
+    {
+     "id": "1784338789281695",
+     "url": "https://www.facebook.com/events/1784338789281695/",
+     "name": "[Nuits Noires] MYSTERIOUS SKIN de Gregg Araki (2005) | En présence d'Emmanuel Burdeau",
+     "start": "2026-11-16T19:00:00Z",
+     "date_sentence": "Monday, November 16, 2026 at 8:00 PM CET",
+     "description": "▉ Séance spéciale en présence d'Emmanuel Burdeau, critique de cinéma. Avec le soutien des Ecrans du Sud. \n\n▉ Dans le cadre du nouveau rendez-vous 𝗡𝘂𝗶𝘁𝘀 𝗻𝗼𝗶𝗿𝗲𝘀 𝗮̀ 𝗟𝗮 𝗕𝗮𝗹𝗲𝗶𝗻𝗲.\n\n𝘌𝘹𝘱𝘭𝘰𝘳𝘦𝘻 𝘭𝘦𝘴 𝘵𝘦𝘳𝘳𝘪𝘵𝘰𝘪𝘳𝘦𝘴 𝘴𝘰𝘮𝘣𝘳𝘦𝘴 𝘦𝘵 𝘦́𝘵𝘳𝘢𝘯𝘨𝘦𝘴 𝘥𝘶 𝘤𝘪𝘯𝘦́𝘮𝘢 𝘥𝘦 𝘨𝘦𝘯𝘳𝘦, 𝘦𝘯𝘵𝘳𝘦 𝘤𝘭𝘢𝘴𝘴𝘪𝘲𝘶𝘦𝘴, 𝘥𝘦́𝘤𝘰𝘶𝘷𝘦𝘳𝘵𝘦𝘴 𝘦𝘵 𝘱𝘦́𝘱𝘪𝘵𝘦𝘴 𝘪𝘯𝘢𝘵𝘵𝘦𝘯𝘥𝘶𝘦𝘴.\n\n\nVendredi 30 octobre | 21h\n\n𝗠𝗬𝗦𝗧𝗘𝗥𝗜𝗢𝗨𝗦 𝗦𝗞𝗜𝗡 de Gregg Araki\n1h39 - 2005 - États-Unis\n\nAvec Brady Corbet, Joseph Gordon-Levitt, Elisabeth Shue\n\n💫 Mostra de Venise 2004\n💫 Festival de Sundance 2005\n\nint. -16 ans\n\nÀ huit ans, Brian se réveille dans la cave de sa maison, le nez en sang, sans souvenir de ce qui lui est arrivé. Dix ans plus tard, convaincu d’avoir été enlevé par des extraterrestres, il tente de retrouver Neil, un garçon de son ancienne équipe de baseball devenu un jeune homme magnétique et insaisissable. Avec lui, Brian cherche à dénouer le mystère de leur enfance, qui les empêche encore de vivre.\n\n🗞️ « Film funambule, Mysterious Skin ne tombe jamais du mauvais côté, ni même dans l'ambiguïté ou le flou. Gregg Araki sait ce qu'il montre, et de quel point de vue. Le sentiment de perdition est bien là, omniprésent, mais pas pour autant le dégoût de l'humanité. Mais le freudisme de Mysterious Skin n'a rien d'hollywoodien. Savoir, ce n'est pas forcément guérir. Et c'est ainsi qu'à l'éclat mélancolique du film s'ajoute, en dernier lieu, une terrible lucidité. » (Télérama)\n\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette\n\n",
+     "location_name": "La Baleine Marseille",
+     "cancelled": false,
+     "is_past": false,
+     "duration": null,
+     "price": null,
+     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
+     "image_url": "https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/854458006_1741431214650293_3398733925469787227_n.jpg?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=5VtJIA47Ft0Q7kNvwEfIgxq&_nc_oc=AdqakMmWPS1G1m_kmqZ_kV19JJgxLgR9Svc5z5LtCgh8o-I2wkQbnRlsE3jRzaWWI0c&_nc_zt=23&_nc_ht=scontent-mad2-1.xx&_nc_gid=Ygx2Z1FNGURZypu7p-8-TA&_nc_ss=70289&oh=00_AQQp9KyQnXp9HxiDUcon77Z82f3GLTGt5GdbPZJN0xdIIA&oe=6AF1EDA0"
+    },
+    {
+     "id": "1431975735052246",
+     "url": "https://www.facebook.com/events/1431975735052246/",
+     "name": "[Souvenirs d'enfance] MOTHERSHIP de Muriel Cravatte | Tarifs solidaires au profit de SOSMéditerranée",
+     "start": "2026-11-12T20:15:00Z",
+     "date_sentence": "Thursday, November 12, 2026 at 9:15 PM – 11:00 PM CET",
+     "description": "▉ Séance spéciale et plat solidaire à La Baleine du 9 au 15 novembre dans le cadre du Festival culinaire et solidaire Souvenirs d'enfance, au profit de SOS Méditerranée. \n\n▉ Tarifs spéciaux pour la projection : 12 euros (tarif plein) / 10 euros (tarif réduit) / 9 euros (tarif jeune et abonnés) ,comprenant un don à l'association de 2,50 euros.\n\n▉ Découvrez également du 9 au 15 novembre nos Boulettes de butternut et châtaignes, salade semoule, raisins secs, choux rouge au prix solidaire de 17 euros, comprenant un don à l'association de 3 euros.\n\n\nJeudi 12 novembre | 19h & 21h15\n\n𝗠𝗢𝗧𝗛𝗘𝗥𝗦𝗛𝗜𝗣 de Muriel Cravatte\nDocumentaire - 2024 - 1h20 - France, Belgique\n\n💫 Cinémed, Montpellier 2024\n💫 Corsica.doc, Ajaccio 2024\n\nEn pleine Méditerranée, l’équipage de l’Ocean Viking porte secours à des exilé·e·s qui fuient la Libye entassé·e·s sur des embarcations de fortune. Une fois sauvées et accueillies à bord, les personnes rescapées reçoivent les premiers soins puis sont accompagnées jusqu’à un port sûr. Pour que les exilé·e·s en détresse soient secouru·e·s, au nom du respect des droits humains et du droit maritime, des bras de fer entre autorités et humanitaires se jouent quotidiennement en Méditerranée centrale.\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
+     "location_name": "La Baleine Marseille",
+     "cancelled": false,
+     "is_past": false,
+     "duration": "1 hr 45 min",
+     "price": null,
+     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/superticket/36",
+     "image_url": "https://scontent.fgyd14-1.fna.fbcdn.net/v/t39.99422-6/858009236_1445233794199015_2729939140972850757_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s1998x1080&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=oArF2dBpTPMQ7kNvwHhSjUs&_nc_oc=AdpfxY-qsgLrnKwEzHIFZlEAG54gLSBgNldhQsuHaBLjW36_x6rCm-RUH9gfpisyw9w&_nc_zt=14&_nc_ht=scontent.fgyd14-1.fna&_nc_gid=3VyalcTywcE4shtc9GGabw&_nc_ss=73289&oh=00_AQSs32N_oMCbXUw5g7b4Fc_WtlzHrghMoRxzYV5_HVAHrw&oe=6AF1FA1A"
     },
     {
      "id": "1115324881196396",
@@ -8550,22 +8822,22 @@
      "duration": null,
      "price": null,
      "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.99422-6/854650739_2353595092110349_3873007675321041617_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=6M8lSG3KPfoQ7kNvwG2SDzY&_nc_oc=Adq_I16XgKUpzPQmh7fsfyJO1T3d2RuhluRGRA6DB--cxif0q_iyCpnMLOKgpBQisNA&_nc_zt=14&_nc_ht=scontent-yyz1-1.xx&_nc_gid=MbKYYNJ7e-2uOTqBnjw63A&_nc_ss=73289&oh=00_AQQZK99mmiv3Of4kra8am-LezpXK1tfxcIWanwWKYlJaMg&oe=6AE89899"
+     "image_url": "https://scontent.flpb1-2.fna.fbcdn.net/v/t39.99422-6/854650739_2353595092110349_3873007675321041617_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=aGEi9f-Su3AQ7kNvwHT9BUZ&_nc_oc=AdpD_DioErdvoWGhieL5drl9-HAbQA52SB7XW2lS4JmCuXb8Z0j1bKlF1RW7-I1iahc&_nc_zt=14&_nc_ht=scontent.flpb1-2.fna&_nc_gid=-zSNXpPRO71yoQ6qdPSlhg&_nc_ss=73289&oh=00_AQTREl7-O9MWaLgp8Gc4IONEd2rXcpNDhZVusa-m0tk8gg&oe=6AF1D319"
     },
     {
-     "id": "1431975735052246",
-     "url": "https://www.facebook.com/events/1431975735052246/",
-     "name": "[Souvenirs d'enfance] MOTHERSHIP de Muriel Cravatte | Tarifs solidaires au profit de SOSMéditerranée",
-     "start": "2026-11-12T20:15:00Z",
-     "date_sentence": "Thursday 12 November 2026 from 21:15-23:00 CET",
-     "description": "▉ Séance spéciale et plat solidaire à La Baleine du 9 au 15 novembre dans le cadre du Festival culinaire et solidaire Souvenirs d'enfance, au profit de SOS Méditerranée. \n\n▉ Tarifs spéciaux pour la projection : 12 euros (tarif plein) / 10 euros (tarif réduit) / 9 euros (tarif jeune et abonnés) ,comprenant un don à l'association de 2,50 euros.\n\n▉ Découvrez également du 9 au 15 novembre nos Boulettes de butternut et châtaignes, salade semoule, raisins secs, choux rouge au prix solidaire de 17 euros, comprenant un don à l'association de 3 euros.\n\n\nJeudi 12 novembre | 19h & 21h15\n\n𝗠𝗢𝗧𝗛𝗘𝗥𝗦𝗛𝗜𝗣 de Muriel Cravatte\nDocumentaire - 2024 - 1h20 - France, Belgique\n\n💫 Cinémed, Montpellier 2024\n💫 Corsica.doc, Ajaccio 2024\n\nEn pleine Méditerranée, l’équipage de l’Ocean Viking porte secours à des exilé·e·s qui fuient la Libye entassé·e·s sur des embarcations de fortune. Une fois sauvées et accueillies à bord, les personnes rescapées reçoivent les premiers soins puis sont accompagnées jusqu’à un port sûr. Pour que les exilé·e·s en détresse soient secouru·e·s, au nom du respect des droits humains et du droit maritime, des bras de fer entre autorités et humanitaires se jouent quotidiennement en Méditerranée centrale.\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
+     "id": "1739095080498393",
+     "url": "https://www.facebook.com/events/1739095080498393/",
+     "name": "MATRIMOINE 🇱🇧 « L'HEURE DE LA LIBÉRATION A SONNÉ » de Heiny Srour",
+     "start": "2026-11-08T16:30:00Z",
+     "date_sentence": "Sunday, November 8, 2026 at 5:30 PM CET",
+     "description": "MATRIMOINE 🇱🇧 « L'HEURE DE LA LIBÉRATION A SONNÉ » de Heiny Srour \n\nEn 1974, Heiny Srour devient la première réalisatrice arabe sélectionnée au Festival de Cannes, à la Semaine de la Critique, avec ce film. Pionnière du cinéma politique et féministe arabe, elle est à l'honneur de notre séance matrimoine.\n\nEn 1971, Heiny Srour et son équipe traversent à pied 800 km de désert et de montagnes, sous les bombardements, pour rejoindre la ligne de front du Dhofar, province d'Oman soulevée contre le sultan. Elle en rapporte le seul document au monde sur une expérience sociale laïque, démocratique et féministe en terre arabe et musulmane.\n\n— Liban, 1974, documentaire, 1h08, VOSTFR \n— En présence de Yorgo Scheib, programmateur et réalisateur \n— En partenariat avec Aflam \n\n📅 Dimanche 8 novembre à 17h30 📍 Cinéma La Baleine \n\n👉 Réservation : https://marseillecinemalabaleine.cine.boutique/?tab=schedule\n\n👉 + d'info : https://www.films-femmes-med.org/edition2026\n\n#FFM2026 #Matrimoine #FocusLiban #HeinySrour ",
      "location_name": "La Baleine Marseille",
      "cancelled": false,
      "is_past": false,
-     "duration": "1 hr 45 min",
+     "duration": null,
      "price": null,
-     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/superticket/36",
-     "image_url": "https://scontent.fbom19-3.fna.fbcdn.net/v/t39.99422-6/858009236_1445233794199015_2729939140972850757_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=KtUVywsMlRsQ7kNvwGzh9JO&_nc_oc=AdrdesuZFeEFMHiSmITBdmiaeotxtl5mU2pd_ZveO7K_uY6whDOXA84dTzTFTODv9tQ&_nc_zt=14&_nc_ht=scontent.fbom19-3.fna&_nc_gid=lnihSHZ-vl25PGzTZk5yEw&_nc_ss=70289&oh=00_AQTahzyEm-YrFqQjAAUqDuNUw2WNt1siUxqoVqrVxvFAjw&oe=6AE8BF9A"
+     "ticket_url": null,
+     "image_url": "https://scontent-nrt6-1.xx.fbcdn.net/v/t39.30808-6/861106369_1748803260579371_8602442358013628056_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1072&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Ct-z03NxzLgQ7kNvwHiTjD6&_nc_oc=AdpvfmairN2pqn2MfLzXRKyS72ULx5PSXz6aSxpJ7ZYvYnrAmggez_tHVwArfPw49A4&_nc_zt=23&_nc_ht=scontent-nrt6-1.xx&_nc_gid=kJrpPWdebTZfCnNAYaI86w&_nc_ss=73289&oh=00_AQS-DMrZNEtF5sWjylasNBsLIdui9bBGp1zNXNlT4kkKhQ&oe=6AF1D746"
     },
     {
      "id": "3986669744808224",
@@ -8580,82 +8852,37 @@
      "duration": null,
      "price": null,
      "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.fhnd7-1.fna.fbcdn.net/v/t39.99422-6/859897516_2888766984824883_3467311486151085094_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=rJwmIn4LiVgQ7kNvwFNl1SF&_nc_oc=AdptPl18gC0DZTHcTvHHJ0OxR2292eEV08qEH4SorZqjwuVbiONLsz8f0VZPQsopjFM&_nc_zt=14&_nc_ht=scontent.fhnd7-1.fna&_nc_gid=jy8Yo5C0GHwvW8u0vyr1eA&_nc_ss=73289&oh=00_AQQCdRGqKKCHZ8LD7wBJnP9fQPemRBMc5GwrcxIDLw2Q2Q&oe=6AE8B992"
+     "image_url": "https://scontent.frec45-1.fna.fbcdn.net/v/t39.99422-6/859897516_2888766984824883_3467311486151085094_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=bt2XDYkg2owQ7kNvwFvkqVK&_nc_oc=AdphLeMIPUKjzGdl-S-C6o7M7JR-c3lhMQtbuOuElZTK_R1gcwbH-iPi8EFB2FkqKtg&_nc_zt=14&_nc_ht=scontent.frec45-1.fna&_nc_gid=IU5w5qxqbXiya8R9zdWQSw&_nc_ss=73289&oh=00_AQShOYb2pF6klJM0thPE6E1M-4Elp0fXgXoM-67vzryGNg&oe=6AF1F412"
     },
     {
-     "id": "4644724449146162",
-     "url": "https://www.facebook.com/events/4644724449146162/",
-     "name": "[séance spéciale] LES RECOMMENCEMENTS d'I. Ingold & V. Perelmuter | en sa présence",
-     "start": "2026-11-13T20:00:00Z",
-     "date_sentence": "Friday, November 13, 2026 at 9:00 PM CET",
-     "description": "▉ en présence de la réalisatrice Vivianne Perelmuter et d'Alexis Nuselovici, Professeur émérite de littérature comparée à l'Université d'Aix-Marseille.\n\n\nVendredi 13 novembre | 21h\n\n𝗟𝗘𝗦 𝗥𝗘𝗖𝗢𝗠𝗠𝗘𝗡𝗖𝗘𝗠𝗘𝗡𝗧𝗦 d'Isabelle Ingold & Vivianne Peremulter\nBelgique, France - 1h27 - 2026\nDocumentaire\n\n💫 Sélection ACID, Festival de Cannes 2026\n💫 Prix du Jury - RISC (Sciences et Cinéma), Marseille 2025\n💫 Prix du Public - Escales Documentaires, La Rochelle 2025 \n💫 Burning Lights, Cinéma du Réel, Paris 2025\n💫 Au Coeur du Doc, Fema, La Rochelle 2025\n\nVétéran de la guerre du Vietnam, Al Moon vit en solitaire sur les terres de sa tribu en Californie du nord. À mesure que la violence et les destructions écologiques s’abattent sur la réserve, d’anciennes angoisses ressurgissent et poussent Al à traverser le pays pour se confronter au passé et aux hommes de son ancien bataillon. Sur la route, Al découvre une Amérique aux prises avec ses propres blessures. Les vieux démons se lèvent comme des fantômes…\n\n🗞️ « Tout en subtilité et en délicatesse, Les Recommencements nous ouvre la voie vers un homme qui s’est construit à rebours des assignations héritées – celles de son histoire personnelle et d’un pays où la violence est ancrée depuis les origines. » (Fema La Rochelle)\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette\n",
+     "id": "961881103253099",
+     "url": "https://www.facebook.com/events/961881103253099/",
+     "name": "[avp] LA CONSCIENCE POLITIQUE de Léolo Victor-Pujebet | Avec Geoffroy de Lagasnerie",
+     "start": "2026-12-12T17:00:00Z",
+     "date_sentence": "Saturday 12 December 2026 at 18:00 CET",
+     "description": "▉ Avant-première en présence de de Geoffroy de Lagasnerie et de Léolo Victor-Pujebet. \n\n▉ Dans le cadre du rendez-vous documentaire de La Baleine, en partenariat avec La Cinémathèque du documentaire.\n\n\nSamedi 12 décembre | 18h\n\n𝗟𝗔 𝗖𝗢𝗡𝗦𝗖𝗜𝗘𝗡𝗖𝗘 𝗣𝗢𝗟𝗜𝗧𝗜𝗤𝗨𝗘 de Léolo Victor-Pujebet\nFrance - 2027 - Documentaire \n1h11\n\n💫 Séance Spéciale, FIDMarseille 2026\n💫 Festival International de Cinéma Queer, Porto/Lisbonne 2026\n💫 Cinéma du Réel, Paris 2026\n\nLa Conscience Politique identifie et répond à la violence de nos institutions à travers l'œuvre du philosophe Geoffroy de Lagasnerie. Ce film est une invitation à la lutte, pensée aux côtés d’Assa Traoré, Edouard Louis, Didier Eribon et d'autres alliés, engagés pour ouvrir la voie à une émancipation collective.\n\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
      "location_name": "La Baleine Marseille",
      "cancelled": false,
      "is_past": false,
      "duration": null,
      "price": null,
      "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.fpwq4-1.fna.fbcdn.net/v/t39.30808-6/856081378_1741370701323011_9187211148249087946_n.jpg?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=I96p1M6cfw4Q7kNvwEnf6DY&_nc_oc=AdqBAA4QNeusU0hU8IclwVLIRuhb81NI_qwg_ZN6dOk9d6fdSu6zUiIk7xPBfObVCt8&_nc_zt=23&_nc_ht=scontent.fpwq4-1.fna&_nc_gid=_hXxzg9TruwymvWPX51OqQ&_nc_ss=70289&oh=00_AQSTZsYfVENy7c1ahIfLOtBeIgKa5MLfo-Iu_wfEtfEw6Q&oe=6AE8969E"
+     "image_url": "https://scontent.frba3-2.fna.fbcdn.net/v/t39.99422-6/882488371_1612378713960612_6287250997854971302_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=8F_8LUmpkAAQ7kNvwF_VcEA&_nc_oc=Adp0Wn30IQVUf4sj96Q15palUul0y1E21dnLGDhe9ThJ6M2wlK94O0mYnkTJRwxmY1U&_nc_zt=14&_nc_ht=scontent.frba3-2.fna&_nc_gid=sw3dHudtJHvsCQjcHokc5Q&_nc_ss=70289&oh=00_AQTbrptK1C73wwjD-fma6IgjL_M6iRqorIHdILllXCP1yg&oe=6AF1F992"
     },
     {
-     "id": "1784338789281695",
-     "url": "https://www.facebook.com/events/1784338789281695/",
-     "name": "[Nuits Noires] MYSTERIOUS SKIN de Gregg Araki (2005) | En présence d'Emmanuel Burdeau",
-     "start": "2026-11-16T19:00:00Z",
-     "date_sentence": "Monday 16 November 2026 at 20:00 CET",
-     "description": "▉ Séance spéciale en présence d'Emmanuel Burdeau, critique de cinéma. Avec le soutien des Ecrans du Sud. \n\n▉ Dans le cadre du nouveau rendez-vous 𝗡𝘂𝗶𝘁𝘀 𝗻𝗼𝗶𝗿𝗲𝘀 𝗮̀ 𝗟𝗮 𝗕𝗮𝗹𝗲𝗶𝗻𝗲.\n\n𝘌𝘹𝘱𝘭𝘰𝘳𝘦𝘻 𝘭𝘦𝘴 𝘵𝘦𝘳𝘳𝘪𝘵𝘰𝘪𝘳𝘦𝘴 𝘴𝘰𝘮𝘣𝘳𝘦𝘴 𝘦𝘵 𝘦́𝘵𝘳𝘢𝘯𝘨𝘦𝘴 𝘥𝘶 𝘤𝘪𝘯𝘦́𝘮𝘢 𝘥𝘦 𝘨𝘦𝘯𝘳𝘦, 𝘦𝘯𝘵𝘳𝘦 𝘤𝘭𝘢𝘴𝘴𝘪𝘲𝘶𝘦𝘴, 𝘥𝘦́𝘤𝘰𝘶𝘷𝘦𝘳𝘵𝘦𝘴 𝘦𝘵 𝘱𝘦́𝘱𝘪𝘵𝘦𝘴 𝘪𝘯𝘢𝘵𝘵𝘦𝘯𝘥𝘶𝘦𝘴.\n\n\nVendredi 30 octobre | 21h\n\n𝗠𝗬𝗦𝗧𝗘𝗥𝗜𝗢𝗨𝗦 𝗦𝗞𝗜𝗡 de Gregg Araki\n1h39 - 2005 - États-Unis\n\nAvec Brady Corbet, Joseph Gordon-Levitt, Elisabeth Shue\n\n💫 Mostra de Venise 2004\n💫 Festival de Sundance 2005\n\nint. -16 ans\n\nÀ huit ans, Brian se réveille dans la cave de sa maison, le nez en sang, sans souvenir de ce qui lui est arrivé. Dix ans plus tard, convaincu d’avoir été enlevé par des extraterrestres, il tente de retrouver Neil, un garçon de son ancienne équipe de baseball devenu un jeune homme magnétique et insaisissable. Avec lui, Brian cherche à dénouer le mystère de leur enfance, qui les empêche encore de vivre.\n\n🗞️ « Film funambule, Mysterious Skin ne tombe jamais du mauvais côté, ni même dans l'ambiguïté ou le flou. Gregg Araki sait ce qu'il montre, et de quel point de vue. Le sentiment de perdition est bien là, omniprésent, mais pas pour autant le dégoût de l'humanité. Mais le freudisme de Mysterious Skin n'a rien d'hollywoodien. Savoir, ce n'est pas forcément guérir. Et c'est ainsi qu'à l'éclat mélancolique du film s'ajoute, en dernier lieu, une terrible lucidité. » (Télérama)\n\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette\n\n",
+     "id": "1445571474368966",
+     "url": "https://www.facebook.com/events/1445571474368966/",
+     "name": "Braderie de Noël : Affiches et DVD à La Baleine !",
+     "start": "2026-12-13T14:00:00Z",
+     "date_sentence": "Sunday, December 13, 2026 at 3:00 PM CET",
+     "description": "Le 13 décembre, pour chiner ou pour offrir, La Baleine s’affiche !\n\n--------\nDimanche 13 décembre de 15h à 19h\n--------\n\nLa Baleine vide ses greniers et vous propose ses affiches et stock de DVD du distributeur Shellac à petits prix !\n\nDes années d’archives de 𝙘𝙞𝙣𝙚́𝙢𝙖 𝙖𝙧𝙩 & 𝙚𝙨𝙨𝙖𝙞 à redécouvrir, en grands ou petits formats, et le riche catalogue de Shellac, en coffrets ou DVD ! \n\nL’occasion de voyager à travers le cinéma… ou de dénicher un cadeau de Noël original, à savourer avec un bon chocolat chaud !\n\n𝗣𝗲𝘁𝗶𝘁 𝗳𝗼𝗿𝗺𝗮𝘁 : 𝟯€ | 𝗚𝗿𝗮𝗻𝗱 𝗳𝗼𝗿𝗺𝗮𝘁 : 𝟱€\nDVD et Coffrets : de 5€ à 12€\n\n\n--\nDécouvrez notre programmation détaillée",
      "location_name": "La Baleine Marseille",
      "cancelled": false,
      "is_past": false,
      "duration": null,
      "price": null,
-     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.fjai1-1.fna.fbcdn.net/v/t39.30808-6/854458006_1741431214650293_3398733925469787227_n.jpg?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=26_TE6qe5h4Q7kNvwGAg9ck&_nc_oc=Adrs0oAL8NPEC1GwwB3NuSn4nWzWMCbGqtpJo0cXLH_GZR-Kg3F9z7DjW_Yy3wZKido&_nc_zt=23&_nc_ht=scontent.fjai1-1.fna&_nc_gid=gLF_6d7zYImZO5y_QaGj8w&_nc_ss=70289&oh=00_AQQib7w-sRXoYIyR_5PL3jMz0A7pK-mziJ9uc8UlkWYP3w&oe=6AE8B320"
-    },
-    {
-     "id": "1441273271485492",
-     "url": "https://www.facebook.com/events/1441273271485492/",
-     "name": "[Journée éthique et durable] LE CORSET de Louis Clichy | 45 premières places offertes !",
-     "start": "2026-11-14T10:00:00Z",
-     "date_sentence": "Saturday, November 14, 2026 at 11:00 AM CET",
-     "description": "▉ Journée éthique et durable : les Commerces de la butte vous invitent au cinéma !\n\n▉ 45 places offertes par l'association Les Commerces de la Butte ! Retrait sur place le jour même. Dans la limite des places disponibles (tarifs habituels du cinéma pour les places suivantes).\n\n\nSamedi 14 novembre | 11h\n\n𝗟𝗘 𝗖𝗢𝗥𝗦𝗘𝗧 de Louis Clichy\nAnimation - 1h30 - 2026 - France, Blegique\n\nà partir de 7 ans\n\nDans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche... et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.\n\n🗞️ « Entre rébellion intime et fresque sociale, cette œuvre personnelle, sans être autobiographique, s’inscrit dans la lignée de Vingt Dieux par sa capacité à faire résonner avec justesse un territoire et une manière de vivre. C’est une chronique d’une sincérité rare, où le trait vibrant de l’animation parvient à saisir l’essence d’une époque et la quête identitaire d’une jeunesse qui cherche simplement sa verticale. » (Trois Couleurs)\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
-     "location_name": "La Baleine Marseille",
-     "cancelled": false,
-     "is_past": false,
-     "duration": null,
-     "price": null,
-     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.ffxe1-1.fna.fbcdn.net/v/t39.99422-6/857844683_2042075063158962_3264015914273774554_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=_FOGcqYVLlQQ7kNvwEc90PJ&_nc_oc=AdoenlCQgu9cjIWXsOBUiCwaobt9fx75PjWeEsgTiYFEyjmu-D3OS1oa_YVZrXraiC0&_nc_zt=14&_nc_ht=scontent.ffxe1-1.fna&_nc_gid=sTlDqyAddiEidlOWVZelwQ&_nc_ss=70289&oh=00_AQS-Ybb4dADxGgfanOtxmfkYWZkFzMAVxt5EyjXDSCPR0A&oe=6AE8A304"
-    },
-    {
-     "id": "1116913221034207",
-     "url": "https://www.facebook.com/events/1116913221034207/",
-     "name": "[ciné-club] LE CORSET de Louis Clichy | dans le cadre de Cinémanimé",
-     "start": "2026-11-04T17:30:00Z",
-     "date_sentence": "Wednesday, November 4, 2026 at 6:30 PM CET",
-     "description": "▉ Dans le cadre de Cinémanimé, en partenariat avec Les Ecrans du Sud et en présence d'intervenant·es de l'association SudAnim.\n\n▉ Tarif unique pour les 15/25 : 5€ ! Projection ouverte à tous·tes !\n\n▉ En présence des membres du ciné-club\n\n\nMercredi 4 novembre | 18h30\n\n𝗟𝗘 𝗖𝗢𝗥𝗦𝗘𝗧 de Louis Clichy\nAnimation - 1h30 - 2026 - France, Blegique\n\nà partir de 7 ans\n\nDans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche... et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.\n\n🗞️ « Entre rébellion intime et fresque sociale, cette œuvre personnelle, sans être autobiographique, s’inscrit dans la lignée de Vingt Dieux par sa capacité à faire résonner avec justesse un territoire et une manière de vivre. C’est une chronique d’une sincérité rare, où le trait vibrant de l’animation parvient à saisir l’essence d’une époque et la quête identitaire d’une jeunesse qui cherche simplement sa verticale. » (Trois Couleurs)\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette",
-     "location_name": "La Baleine Marseille",
-     "cancelled": false,
-     "is_past": false,
-     "duration": null,
-     "price": null,
-     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.fala11-1.fna.fbcdn.net/v/t39.99422-6/858501416_4503847789858365_2109779205571050797_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-GyNPsVNRJAQ7kNvwGoCnvx&_nc_oc=Adqgmz8i8VU_LsKbj4Y35U9IZwxAytd6xC2hH_j1zaX5F0BW8hosnon7D3P6mjKONbk&_nc_zt=14&_nc_ht=scontent.fala11-1.fna&_nc_gid=p8LKKIycjiSlU1gdgCEnnw&_nc_ss=73289&oh=00_AQRtvPo3XJPZ16eKcZXjYXjZmDbbdGRcory_D9b1GIsp7Q&oe=6AE8A240"
-    },
-    {
-     "id": "1123503523573974",
-     "url": "https://www.facebook.com/events/1123503523573974/",
-     "name": "[Nuits Noires] LES DIABLES de Ken Russel (1971) | En présence de Timothée Fauque",
-     "start": "2026-10-30T20:00:00Z",
-     "date_sentence": "Friday 30 October 2026 at 21:00 CET",
-     "description": "▉ The Director's Cut, restaurée et remastérisée 4K ! \n\n▉ Séance spéciale en présence de Tim Fauque, critique de cinéma. \n\n▉ Dans le cadre du nouveau rendez-vous 𝗡𝘂𝗶𝘁𝘀 𝗻𝗼𝗶𝗿𝗲𝘀 𝗮̀ 𝗟𝗮 𝗕𝗮𝗹𝗲𝗶𝗻𝗲.\n\n𝘌𝘹𝘱𝘭𝘰𝘳𝘦𝘻 𝘭𝘦𝘴 𝘵𝘦𝘳𝘳𝘪𝘵𝘰𝘪𝘳𝘦𝘴 𝘴𝘰𝘮𝘣𝘳𝘦𝘴 𝘦𝘵 𝘦́𝘵𝘳𝘢𝘯𝘨𝘦𝘴 𝘥𝘶 𝘤𝘪𝘯𝘦́𝘮𝘢 𝘥𝘦 𝘨𝘦𝘯𝘳𝘦, 𝘦𝘯𝘵𝘳𝘦 𝘤𝘭𝘢𝘴𝘴𝘪𝘲𝘶𝘦𝘴, 𝘥𝘦́𝘤𝘰𝘶𝘷𝘦𝘳𝘵𝘦𝘴 𝘦𝘵 𝘱𝘦́𝘱𝘪𝘵𝘦𝘴 𝘪𝘯𝘢𝘵𝘵𝘦𝘯𝘥𝘶𝘦𝘴.\n\n\nVendredi 30 octobre | 21h\n\n𝗟𝗘𝗦 𝗗𝗜𝗔𝗕𝗟𝗘𝗦 de Ken Russel\n1h54 - 1971 - Grande-Bretagne, États-Unis\n\n💫 Séance spéciale, Festival de Cannes 2026\n\nint. -16 ans\n\nUn récit historique dramatisé sur l’ascension et la chute d’Urbain Grandier, un prêtre catholique romain du XVIIe siècle accusé de sorcellerie à la suite des prétendues possessions de Loudun, en France. Les Diables met également en lumière sœur Jeanne des Anges, une religieuse sexuellement réprimée qui, sans le vouloir, déclenche les accusations\n\n🗞️ «  Les Diables demeure une expérience en tout point singulière : impure, fiévreuse, refusant obstinément toute sagesse esthétique ou morale. Une œuvre qui, jamais, ne prétend être raisonnable pour mieux révéler la brutalité d’un monde où la foi, pervertie par quelques appétits hégémoniques, en devient elle-même démoniaque. » (Seuil Critique-s)\n\n\n\n▉ INFORMATIONS PRATIQUES ▉\nLa Baleine Marseille\n59 cours Julien\n13006 Marseille\n+33 4 13 25 17 17\nMétro: Notre Dame du Mont\nTarifs cinéma : 4,5€ / 6,5€ / 7,5€ / 9,5 €\nAbonnement : 35€ les 5 places / 65€ les 10 places\nProgramme détaillé : https://labaleine.short.gy/gazette\n\n",
-     "location_name": "La Baleine Marseille",
-     "cancelled": false,
-     "is_past": false,
-     "duration": null,
-     "price": null,
-     "ticket_url": "https://marseillecinemalabaleine.cine.boutique/",
-     "image_url": "https://scontent.fyei1-3.fna.fbcdn.net/v/t39.99422-6/825268423_2106917416881592_4385972979794371565_n.png?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s960x960&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=jflQMeVbfH8Q7kNvwFakS8h&_nc_oc=AdoV0ZWzRDQUNiQoji9Z4AQ5TVqmC5mZB_odra1afKt6vHPgiXuvo0XwxJAhSd5BaSE&_nc_zt=14&_nc_ht=scontent.fyei1-3.fna&_nc_gid=i95Qh4XSFLGSILsaw10I8w&_nc_ss=70289&oh=00_AQTHRjVQRINjobVO0LdSa1Qg9JbRs0IQzSWmlY3L-n8ipA&oe=6AE8C18F"
+     "ticket_url": null,
+     "image_url": "https://scontent.fala4-1.fna.fbcdn.net/v/t39.99422-6/886476167_1434993605427296_4357685415634661528_n.png?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Rx66ERtn8OkQ7kNvwGoe2v4&_nc_oc=AdqG2-r7sJBXliJWrRBAqzH5sm6Z-Xce8jCkmx9B2URPWU2LDtbCGN3oXCZsedCe-Hc&_nc_zt=14&_nc_ht=scontent.fala4-1.fna&_nc_gid=tA4WTGlu9KtSu7cQgSs88A&_nc_ss=70289&oh=00_AQRRFV_ss9mzkjlHoy8okivOuyDf9GQmoJ9nAHzb4bY8tg&oe=6AF1CC5D"
     }
    ]
   },
@@ -8663,8 +8890,8 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -9508,6 +9735,38 @@
       "https://instagram.fktw1-1.fna.fbcdn.net/v/t39.30808-6/866020091_1752480546826863_9209491165160822069_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAxOTQyNzUxMzUxNTY5NTI2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Ipk02igPW9YQ7kNvwGd8dxq&_nc_oc=Adqj0wbbwyG6vzbLxzk7WB44QYaEDijqYPH9vZkbYtYObmVfykfaWJW5n_1DGQnTFXM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fktw1-1.fna&_nc_gid=6diUQ95Ksz2ij8SqpwJ15A&_nc_ss=7320f&oh=00_AQQPbkeQrpxqZYmkJfKpw4WrZ6zK_I3sZ0JkVbKBXfgfuA&oe=6AEB5067",
       "https://instagram.fktw4-1.fna.fbcdn.net/v/t39.30808-6/866435455_1752480540160197_3775752403359561211_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=NDAxOTQyNzUxMzI4OTE1OTM0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=JOw4o9XaFMQQ7kNvwHRU3B6&_nc_oc=AdrhSvEXW9zUmmueMqFWGGjmrQ6OSltzgMnQWuln5xVeB4_3i6A8WUgq45Ba6jwRtac&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fktw4-1.fna&_nc_gid=6diUQ95Ksz2ij8SqpwJ15A&_nc_ss=7320f&oh=00_AQRenOV9j_tvhusoNwZE1JQOFIQrTDZrD7FjCiBVULn2Hw&oe=6AEB5D30"
      ]
+    },
+    "4022959107107725828": {
+     "id": "4022959107107725828",
+     "url": "https://www.instagram.com/p/DfUa_5NFCIE/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Je Veux Bien",
+       "start_date": "2026-11-16",
+       "start_time": "19:45:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Les Variétés",
+       "url": null,
+       "price": null,
+       "summary": "Échange avec les cinéastes, la magistrate Prune Helter-Noah, la psychologue du travail Nabila Oumakhlouf et le photographe et musicien Djibril Maiga.",
+       "status": "scheduled",
+       "evidence": [
+        "LUNDI 16 NOV 19h45",
+        "ÉCHANGE avec les cinéastes, la magistrate Prune Helter-Noah, la psychologue du travail membre de Solidaire Emploi Nabila Oumakhlouf & le photographe et musicien Djibril Maiga"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces \"LUNDI 16 NOV 19h45\" for a special screening with a post-screening discussion, and the caption promotes it with \"Billetterie en caisse du cinéma et sur notre site internet\" — an upcoming, dated public event. 16 Nov 2026 is indeed a lundi, on/after the 2026-11-04 publication date, and the venue logo \"LES VARIETES CINEMA ART & ESSAI\" matches Les Variétés."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fnap4-1.fna.fbcdn.net/v/t39.30808-6/861100231_1755990293142555_6594970372533796996_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjk1OTEwNzEwNzcyNTgyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=aUyXtU8IwqwQ7kNvwGYXaOs&_nc_oc=AdpORqKv-wQcWLJNO6pVWNRMn5dpR7PQSxA6_8tSAqc4O0WSwww9zTOv7Cxd5T_tpNY&_nc_ad=z-m&_nc_cid=1007&_nc_zt=23&_nc_ht=instagram.fnap4-1.fna&_nc_gid=hZNhbCrjJDVrZN3j6DSXrg&_nc_ss=7a20f&oh=00_AQROsk3qdLrV2cFrfCnXRFHbcpBUkwjieHwWtSNXSHQwqw&oe=6AF1F8B9"
+     ]
     }
    },
    "failed_posts": {},
@@ -9517,8 +9776,8 @@
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -10180,19 +10439,34 @@
    "kind": "facebook-events",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
    "failed_posts": {},
    "fb_events": [
     {
+     "id": "1835894860928606",
+     "url": "https://www.facebook.com/events/1835894860928606/",
+     "name": "Ciné Débat - On vous croit, avec Lolita del Pino",
+     "start": "2026-11-05T18:45:00Z",
+     "date_sentence": "Thursday, November 5, 2026 at 7:45 PM CET",
+     "description": "[L'inceste, on en parle, on agit !]\n\n🎬 Ciné-débat : On vous croit, en présence de Lolita del Pino\n📅 Jeudi 5 novembre 2026 à 19h45\n📍 Cinéma les Variétés  - 37 Rue Vincent Scotto, 13001 Marseille\n🎟️ Projection suivie d’un échange avec Lolita del Pino, compositrice et créatrice de l'univers sonore du film\n\n🎥 On vous croit raconte le combat d’une mère qui cherche à protéger ses enfants et à faire entendre leur parole face au système judiciaire dysfonctionnel.\n\n🗣️ À travers ce ciné-débat, nous souhaitons mettre en avant l'importance de croire la parole des enfants, le rôle des mères protectrices et leurs combats pour obtenir justice pour leurs enfants.\n \n🤝 Ce film documentaire de Charlotte Devilliers et Arnaud Dreyfus distribué par Jour2Fête, est présenté dans le cadre de L’inceste, on en parle, on agit ! #3, les rencontres organisées par Agir avec les Bonnes Mères, Renaître après l’inceste, du 4 au 21 novembre 2026 à Marseille.\n\n👉 Programme complet : lesbonnesmeres.fr/linceste-on-en-parle-on-agit-2026/",
+     "location_name": "Cinéma les Variétés",
+     "cancelled": false,
+     "is_past": false,
+     "duration": null,
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent.fyxk1-1.fna.fbcdn.net/v/t39.30808-6/855111299_122214371072521781_1782258061860149373_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s960x960&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=0aJDNwSN75AQ7kNvwEaWjwJ&_nc_oc=AdphOhXUsCTEmbo4ucybGNNXIrQBPx7jSDDGE_5QSaZYkPr0Pgm_FsMBKq5DrCcfrnw&_nc_zt=23&_nc_ht=scontent.fyxk1-1.fna&_nc_gid=0OCZazvDFz-jI1MK3Zj4GA&_nc_ss=73289&oh=00_AQQ7sVWtEvpPzPNr-Hldf7v7mogEj9OxjMs9UFZiGYaEPg&oe=6AF1D706"
+    },
+    {
      "id": "1689635082496653",
      "url": "https://www.facebook.com/events/1689635082496653/",
      "name": "Cinéthique : « Ce qui nous mène à toi » — projection-débat sur la PMA",
      "start": "2026-11-24T18:45:00Z",
-     "date_sentence": "Tuesday, November 24, 2026 at 7:45 PM CET",
+     "date_sentence": "Tuesday 24 November 2026 at 19:45 CET",
      "description": "🎬 CINÉTHIQUE : CE QUI NOUS MÈNE À TOI\n\nUn film, puis un débat pour échanger autour de la procréation médicalement assistée.\n\nL’Espace de Réflexion Éthique PACA-Corse et l’AP-HM vous donnent rendez-vous pour la projection de « Ce qui nous mène à toi », de Khalil Cherti, avec Nina Meurisse, Sofian Khammes et Jeanne Balibar.\n\nCharlie et Hicham s’aiment et souhaitent avoir un enfant. Confrontés à l’infécondité, ils entament un parcours d’aide médicale à la procréation, entre espoirs, déceptions et bouleversements.\n\nLa projection sera suivie d’un débat animé par Nathania Cahen, journaliste du média Marcelle, en présence de :\n- François Crémieux, directeur général de l’AP-HM ;\n- Pr Blandine Courbière, cheffe du service clinique d’Aide Médicale à la Procréation à l’Hôpital de la Conception, et de membres des équipes de médecine de la reproduction.\n\n📅 Mardi 24 novembre 2026 à 19 h 45\n📍 Cinéma Les Variétés — 37 rue Vincent Scotto, 13001 Marseille\n🎟️ Tarif de la séance : 8 € sur présentation de votre inscription.\n\n👉 Inscription :\nhttps://www.eventbrite.fr/e/billets-cinethique-ce-qui-nous-mene-a-toi-2002614985330\nLe bouton « Participe » sur Facebook ne remplace pas l’inscription.\n\n▶️ Bande-annonce :\nhttps://www.allocine.fr/video/player_gen_cmedia=20645138&cfilm=1000037363.html\n\nℹ️ Renseignements : 04 91 38 44 26\nsecretariat.ee-paca-corse@ap-hm.fr\n\nUne action de Parcours d’hospitalité, programme culturel de l’AP-HM.",
      "location_name": "Cinéma les Variétés",
      "cancelled": false,
@@ -10200,14 +10474,44 @@
      "duration": null,
      "price": null,
      "ticket_url": "https://www.eventbrite.fr/e/billets-cinethique-ce-qui-nous-mene-a-toi-2002614985330",
-     "image_url": "https://scontent.ffdo5-1.fna.fbcdn.net/v/t39.99422-6/860149944_2070813083629746_4727607845487812398_n.png?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=LcxiyDYJknQQ7kNvwGcfyP9&_nc_oc=Ado-ElX3dYOPbIVtC27JJvQP6Wt0O-zvs-_l1bSdQgEMtzBIBXzHUmu9QzgSqbtma34&_nc_zt=14&_nc_ht=scontent.ffdo5-1.fna&_nc_gid=4yRwZHkuA6Z2CV3msyfXYw&_nc_ss=73289&oh=00_AQSKbNKxk9E-NmCpkGMmCC6J9eC2bxsMvsXtSvx2tHZNqg&oe=6AE8BCEF"
+     "image_url": "https://scontent.fkul8-2.fna.fbcdn.net/v/t39.99422-6/860149944_2070813083629746_4727607845487812398_n.png?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=S9ylGBpM3HUQ7kNvwFs3L9B&_nc_oc=AdquxvNhUbzENtQt1G__8smTWSR1A4V5k38fZp3CyiiEiPrnabQ15bV_Qckp_f5pVzE&_nc_zt=14&_nc_ht=scontent.fkul8-2.fna&_nc_gid=pSLn_uVhxM0O41iyue4yCQ&_nc_ss=73289&oh=00_AQS8VLWwd-8w83ObqSa5GfUCUoAAKtx_e0qPu-C7C90Aiw&oe=6AF1F76F"
+    },
+    {
+     "id": "1424529919835192",
+     "url": "https://www.facebook.com/events/1424529919835192/",
+     "name": "Séance spéciale : Mères à perpétuité",
+     "start": "2026-11-12T18:45:00Z",
+     "date_sentence": "Thursday, November 12, 2026 at 7:45 PM CET",
+     "description": "Séance spéciale en partenariat avec Le Théâtre du Gymnase en écho au spectacle \"Médée/s\" joué au Théâtre des Bernardines.\n\nSéance de Mères à perpétuité suivie d'un échange avec la réalisatrice du documentaire Sofia Fischer et de la metteuse en scène Louise Vignaud.\n\nMERES À PERPETUITE \nde Sofia Fischer - 2024 - 1h10 \n\nUn enfant est tué par sa mère tous les 10 jours en France. Comment une maman, qui a porté, mis au monde, nourri, soigné, aimé son enfant pendant plusieurs années, peut-elle basculer jusqu’à commettre un tel acte, moralement insoutenable ? Des femmes nous livrent leur histoire, celle d’un long naufrage qui conduit au tabou ultime : l’infanticide. Leur témoignage est éclairé par leur entourage, des avocats, des psychiatres. Ce film affronte avec pudeur l’inconcevable pour exposer les rouages d’un engrenage tragique. Il nous interroge tous : comment éviter que l’irréparable ne se produise ?\n\nBilletterie en caisse du cinéma et sur notre site internet",
+     "location_name": "37 rue Vincent Scotto, 13001 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": null,
+     "price": null,
+     "ticket_url": "https://lesvarietes-marseille.com/FR/fiche-film-cinema/M2EYUS/meres-a-perpetuite.html",
+     "image_url": "https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-6/886949975_1755926936482224_7560681014477657367_n.jpg?stp=dst-jpg_tt6&cstp=mx1980x1070&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=mMdiZoDQjw8Q7kNvwEqYHch&_nc_oc=AdqWZIgqTqIiMCpXTig1glpvE1txM26FhfwuexcncA93-Q62Mle1NGy0nn3RccK2pXo&_nc_zt=23&_nc_ht=scontent-gru1-2.xx&_nc_gid=Ewi-UQK1VFymP2Zqrcm2Dw&_nc_ss=70289&oh=00_AQR_szo8oEYrJy64hwXf4Z_Svqi0TKgjydjtkEVO8qpzhQ&oe=6AF1F7FA"
+    },
+    {
+     "id": "1141383282150231",
+     "url": "https://www.facebook.com/events/1141383282150231/",
+     "name": "Cyle Dietrich / Sternberg",
+     "start": "2026-11-11T12:15:00Z",
+     "date_sentence": "Nov 11 at 1:15 PM – Nov 24 at 10:00 PM CET",
+     "description": "Cycle Marlene Dietrich x Joseph Von Sternberg\n\nSHANGHAI EXPRESS\nde Josef von Sternberg USA, 1932.1h22\n\nBLONDE VENUS\nde Josef von Sternberg USA, 1932.1h32\n\nL'IMPERATRICE ROUGE\nde Josef von Sternberg USA, 1934. 1h45\n\nLA FEMME ET LE PANTIN\nde Josef von Sternberg FR, 1935.1h20\n\n",
+     "location_name": "37 rue Vincent Scotto, 13001 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": "14 days",
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent.flim40-1.fna.fbcdn.net/v/t39.30808-6/885667855_1755983626476555_8688910757165090537_n.jpg?stp=dst-jpg_tt6&cstp=mx1998x1080&ctp=s1998x1080&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=8_GvHztevfUQ7kNvwEPjPmJ&_nc_oc=Adpvmc82tyOi_BMtghkmmakDKRj-27QFcua4MSD6r5Hmr086Rtjd8UQCrUwsU-PFoHU&_nc_zt=23&_nc_ht=scontent.flim40-1.fna&_nc_gid=fgOFEEUwQTGPPNgHvTRbvg&_nc_ss=72289&oh=00_AQQRcPmdcqnDD_L1DQigKlK8P8VvQOmIpzIhQjyY6gqsww&oe=6AF1D1C5"
     },
     {
      "id": "999546599122702",
      "url": "https://www.facebook.com/events/999546599122702/",
      "name": "Cloture Cinémanimé ! Carmen, l'oiseau rebelle en avant-première",
      "start": "2026-11-11T15:00:00Z",
-     "date_sentence": "Wednesday, November 11, 2026 at 4:00 PM CET",
+     "date_sentence": "Wednesday 11 November 2026 at 16:00 CET",
      "description": "Découvrez le nouveau film de Sébastien Laudenbach (Linda veut du poulet) en avant-première le mercredi 11 novembre à 16h.\nSéance dans le cadre du Festival Cinémanimé. \n\nCARMEN, L'OISEAU REBELLE\nde Sébastien Laudenbach - 1h30 - FR - dès 8 ans\navec les voix de Camélia Jordana, Milo Machado-Graner, Soumaye Bocoum\n\nDans les ruelles de Séville, Salva, Belén et leur bande de gamins des rues vont affronter tous les dangers pour éloigner la menace qui plane sur Carmen, jeune femme libre et flamboyante. Le destin de Carmen, oiseau rebelle, est entre leurs mains.\n\nBilletterie en caisse du cinéma et sur notre site internet\n",
      "location_name": "37 rue Vincent Scotto, 13001 Marseille, France",
      "cancelled": false,
@@ -10215,52 +10519,22 @@
      "duration": null,
      "price": null,
      "ticket_url": "https://lesvarietes-marseille.com/FR/fiche-film-cinema/MPQB4Y/carmen-l-oiseau-rebelle.html",
-     "image_url": "https://scontent.fpll3-2.fna.fbcdn.net/v/t39.30808-6/863797730_1749880203753564_4201544562836306871_n.jpg?stp=dst-jpg_tt6&cstp=mx1980x1070&ctp=s1980x1070&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Lo9oUTicQrUQ7kNvwHViZQw&_nc_oc=AdqjCpRh0uNCWSMCmuAy4_NVxqv40SqjuxMY16zJdymKONLuXHMzuSk0C9xXpi61vGg&_nc_zt=23&_nc_ht=scontent.fpll3-2.fna&_nc_gid=vnukzcmOn5aeYiYF0_RRFA&_nc_ss=73289&oh=00_AQRnC6os6ynJNMhWbfC51_bDFFdg4blyI3iBwXvKRQIPjA&oe=6AE8BC3B"
+     "image_url": "https://scontent.fvga1-2.fna.fbcdn.net/v/t39.30808-6/863797730_1749880203753564_4201544562836306871_n.jpg?stp=dst-jpg_tt6&cstp=mx1980x1070&ctp=s960x960&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ROrWrxm0Y9YQ7kNvwFOu-P5&_nc_oc=AdoYHf9iwSxd2ioYwMZ0GQxlW3ePplLDw7bH8hI_zDmtV-EvC_PnQU2WkTK0tzCB4zw&_nc_zt=23&_nc_ht=scontent.fvga1-2.fna&_nc_gid=935om6KPOdIRDlfnL47a_Q&_nc_ss=73289&oh=00_AQRsPKqkqYXg9yA1AQPNlYQN5DXBxXtq5sQoiaqUEXXYgg&oe=6AF1F6BB"
     },
     {
-     "id": "1835894860928606",
-     "url": "https://www.facebook.com/events/1835894860928606/",
-     "name": "Ciné Débat - On vous croit, avec Charlotte Devillier",
-     "start": "2026-11-05T18:45:00Z",
-     "date_sentence": "Thursday, November 5, 2026 at 7:45 PM CET",
-     "description": "[L'inceste, on en parle, on agit !]\n\n🎬 Ciné-débat : On vous croit, en présence de Charlotte Devilliers\n📅 Jeudi 5 novembre 2026 à 19h45\n📍 Cinéma les Variétés  - 37 Rue Vincent Scotto, 13001 Marseille\n🎟️ Projection suivie d’un échange avec Charlotte Devilliers, co-réalisatrice du film\n\n🎥 On vous croit raconte le combat d’une mère qui cherche à protéger ses enfants et à faire entendre leur parole face au système judiciaire dysfonctionnel.\n\n🗣️ À travers ce ciné-débat, nous souhaitons mettre en avant l'importance de croire la parole des enfants, le rôle des mères protectrices et leurs combats pour obtenir justice pour leurs enfants.\n \n🤝 Ce film documentaire de Charlotte Devilliers et Arnaud Dreyfus distribué par Jour2Fête, est présenté dans le cadre de L’inceste, on en parle, on agit ! #3, les rencontres organisées par Agir avec les Bonnes Mères, Renaître après l’inceste, du 4 au 21 novembre 2026 à Marseille.\n\n👉 Programme complet : lesbonnesmeres.fr/linceste-on-en-parle-on-agit-2026/",
-     "location_name": "Cinéma les Variétés",
-     "cancelled": false,
-     "is_past": false,
-     "duration": null,
-     "price": null,
-     "ticket_url": null,
-     "image_url": "https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/855111299_122214371072521781_1782258061860149373_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s960x960&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=TKTLSyUfbcwQ7kNvwECvK9m&_nc_oc=Adqj3q2QWs0S2PsGoFaMUf90fCrCN6r9op-NZL_HNgG1uDi3i5dJgTVWN-Sua0584gc&_nc_zt=23&_nc_ht=scontent.fmnl3-3.fna&_nc_gid=n2Rkm4imavXL4dzSuTbe2Q&_nc_ss=73289&oh=00_AQQnvqFtODV1KRo0JuCRoXKwOG_T4FxbhikVpULqFR9ivw&oe=6AE89C86"
-    },
-    {
-     "id": "1792478305336240",
-     "url": "https://www.facebook.com/events/1792478305336240/",
-     "name": "HANTEES Ciné-club : Nosferatu, fantôme de la nuit",
-     "start": "2026-10-29T18:45:00Z",
-     "date_sentence": "Thursday, October 29, 2026 at 7:45 PM CET",
-     "description": "Nouveau rendez-vous du Hantées Ciné-Club.\nSéance présentée et suivie d'un échange avec Sarah Yaacoub et Fiona Pages, journalistes à La septième obsession.\n\nNOSFERATU, FANTÔME DE LA NUIT\nde Werner Herzog - DE - 1979 - 1h47 \navec Klaus Kinski, Isabelle Adjani, Bruno Ganz...\n\nInterdit - 12 ans\nAu XIXe siècle, Jonathan Harker se rend en Transylvanie pour vendre un manoir au comte Dracula. Sur la route, les villageois lui conseillent de rebrousser chemin mais le jeune homme refuse. Au moment de la signature, Dracula aperçoit un portrait de la fiancée de Harker, identique en tous points à sa défunte épouse. Jonathan est fait prisonnier et le comte se rend à Londres pour retrouver la jeune femme.\n\nBilletterie en caisse du cinéma et sur notre site internet \n",
+     "id": "4889059497995105",
+     "url": "https://www.facebook.com/events/4889059497995105/",
+     "name": "Ciné-débat : Je veux bien",
+     "start": "2026-11-16T18:45:00Z",
+     "date_sentence": "Monday 16 November 2026 at 19:45 CET",
+     "description": "Séance suivie d'un échange avec \nLes cinéastes Boris Claret, Isabelle Dario et Vincent Glenn\nLa magistrate Prune Helter-Noah\nLa psychologue du travail, membre de Solidaire Emploi, Nabila Oumakhlouf\nLe photographe et musicien Djibril Maïga\n\nJE VEUX BIEN \nde Boris Claret, Isabelle Dario, Vincent Glenn - 1h11 - FR\n\nFrance 2026 : vivre sans emploi, ça peut arriver, mais sans aucun revenu… comment dire ? Votée en décembre 2023, la loi Plein emploi conditionne l'allocation du RSA au fait d'exercer 15 heures d'activités hebdomadaires. Fortement troublés par cette idée que puissent être imposées des \"activités obligatoires\" à des millions de personnes précaires, les auteurs du film se lancent dans une enquête et partent à la rencontre de personnes concernées à différents titres par les conséquences humaines de cette loi.\n\nBilletterie en caisse du cinéma et sur notre site internet ",
      "location_name": "37 rue Vincent Scotto, 13001 Marseille, France",
      "cancelled": false,
      "is_past": false,
      "duration": null,
      "price": null,
-     "ticket_url": null,
-     "image_url": "https://scontent.ftgz1-1.fna.fbcdn.net/v/t39.30808-6/864871110_1748872373854347_7663686772355975966_n.jpg?stp=dst-jpg_tt6&cstp=mx1980x1070&ctp=s1980x1070&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=UFW0yHZl_-YQ7kNvwG4q9OZ&_nc_oc=AdoCMlirgr7c6242TGibqmydFxrKzZcWSW3Lu-vradIzTx2LWRsba5W-DeqLhMiMoGc&_nc_zt=23&_nc_ht=scontent.ftgz1-1.fna&_nc_gid=FqDsVO_GkL1z_4XJW9NTGg&_nc_ss=73289&oh=00_AQS1w5-HRIi_mbVFlzupKsyQI1FujcsyzMIhnQUyTdX-QA&oe=6AE8BBC6"
-    },
-    {
-     "id": "4442779739293562",
-     "url": "https://www.facebook.com/events/4442779739293562/",
-     "name": "Avant-première et rencontre : L'ARABE",
-     "start": "2026-11-02T18:45:00Z",
-     "date_sentence": "Monday 2 November 2026 at 19:45 CET",
-     "description": "Avant-première en partenariat avec AFLAM. \nSuivie d'une rencontre avec le réalisateur Malek Bensmail et l'actrice Hiam Abbass.\n\nL'ARABE\nde Malek Bensmail - 1h46 - (DZ) - VOstfr\navec Ahmed Benaissa, Hiam Abbass, Nabil Asli...\n\nDans l’Algérie des années de plomb, sur fond de décennie noire, Kamel, jeune journaliste, tente de faire émerger une parole enfouie. C’est à Oran qu’il rencontre Haroun, un retraité solitaire, qui lui livre une histoire sidérante : il serait le frère de « l’Arabe » assassiné dans L’Étranger d’Albert Camus. Cet Arabe, dont le nom effacé était Moussa, devient alors le point de départ d’une relecture de l’Histoire, entre mémoire coloniale, silences familiaux et violence politique.",
-     "location_name": "37 rue Vincent Scotto, 13001 Marseille, France",
-     "cancelled": false,
-     "is_past": false,
-     "duration": null,
-     "price": null,
-     "ticket_url": "https://lesvarietes-marseille.com/FR/fiche-film-cinema/MG9X4C/l-arabe-the-arab.html",
-     "image_url": "https://scontent.fbne6-1.fna.fbcdn.net/v/t39.30808-6/855003418_1742080571200194_7006480277324532476_n.jpg?stp=dst-jpg_tt6&cstp=mx1980x1070&ctp=s960x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Ky4lSDUJ8ToQ7kNvwGl_P0j&_nc_oc=AdqrJhwhNCroW5BzSjzmgUomPVD4FVFG_7n6zilZsR0QrjYcDoV1sUcUlEgHTQN1ZBs&_nc_zt=23&_nc_ht=scontent.fbne6-1.fna&_nc_gid=pQEWe0JPyqLOCmOLP0a1yw&_nc_ss=70289&oh=00_AQSNamfNuWNkDRkzIXqCdgLP3ftnjSU2GVDG3yqp1ntnXA&oe=6AE8B423"
+     "ticket_url": "https://lesvarietes-marseille.com/FR/fiche-film-cinema/MW92IK/je-veux-bien.html",
+     "image_url": "https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/886377603_1755987849809466_1637025984880879972_n.jpg?stp=dst-jpg_tt6&cstp=mx1980x1070&ctp=s960x960&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=uF_R9zKMbgYQ7kNvwGShplf&_nc_oc=AdrzA2oK9UyplbfxYs38GoV29DL4lR91wVz1DYPDqLxulwlDJlM8v9A2WSMloKAu2IE&_nc_zt=23&_nc_ht=scontent.fbkk5-4.fna&_nc_gid=OMNBSPV6zGalE60zP9wNbA&_nc_ss=73289&oh=00_AQRiWFxi2AEMsHNItK21i9TgRyBm05U9xsqTTnHpR3rVpQ&oe=6AF1D626"
     }
    ]
   },
@@ -10268,8 +10542,8 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -11514,8 +11788,8 @@
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -13005,28 +13279,221 @@
      "image_urls": [
       "https://scontent-mia5-1.xx.fbcdn.net/v/t39.99422-6/876484599_1661431295997680_8397659806042254141_n.png?stp=dst-png&cstp=mx1959x720&ctp=p180x540&_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WpOVTFZmfJIQ7kNvwED6fF_&_nc_oc=Adq47xK0QdqRdLbIOXYrqslKcVh3ym7kBUxZRFp_LWxUXIJGVd4YyKNgM8PMNUHPCNe_y9KWOwOBKZHL101QpG7m&_nc_zt=14&_nc_ht=scontent-mia5-1.xx&_nc_gid=cASADqD_WKik56Q_ZLk61w&_nc_ss=70180&oh=00_AQQRZKNqzqRtrdSPA8ohKkSlkrntE9wKQPp0eyM379xmPQ&oe=6AEF04D4"
      ]
-    }
-   },
-   "failed_posts": {
+    },
+    "2698736830564087": {
+     "id": "2698736830564087",
+     "url": "https://www.facebook.com/events/2698736830564087/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Les Rencontres du Cinéma Américain",
+       "start_date": "2026-11-22",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Cinéma Le Gyptis",
+       "url": null,
+       "price": null,
+       "summary": "Rencontres du cinéma américain au Cinéma Le Gyptis.",
+       "status": "scheduled",
+       "evidence": [
+        "22 NOVEMBRE",
+        "CINÉMA LE GYPTIS - EN RÉGION",
+        "www.cinesudaspa.org"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces a future dated event: \"22 NOVEMBRE\" at \"CINÉMA LE GYPTIS\", matching the venue Le Gyptis. 2026-11-22 is indeed a dimanche (Sunday), consistent with the written weekday, and it falls after the post's publication date (2026-11-04). No caption contradicts the extracted values, and there is no cancellation/postponement notice."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/887514982_2618989038566781_4089310782912798786_n.png?stp=c384.0.865.865a_dst-jpg_tt6&cstp=mx865x865&ctp=s565x565&_nc_cat=100&ccb=1-7&_nc_sid=1abd25&_nc_ohc=_hVwxvlSPEQQ7kNvwHl9oWf&_nc_oc=Adr04axNqixaxkUBGxbecG-aHT4ZpBmNQmJMZrdS64aOD0WoX3LZIiDMrAQm8nZ0eAU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ag-DkyEQ-ZUhFzQUat8wIA&_nc_ss=70180&oh=00_AQTGwDAkk6pbO58BKZFgaWmHE1YEFD9OEP_UoV0rcerLUw&oe=6AF1CB79"
+     ]
+    },
+    "1180233201087708": {
+     "id": "1180233201087708",
+     "url": "https://www.facebook.com/events/1180233201087708/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "19H",
+       "start_date": "2026-11-05",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "19H"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The flyer fragment shows only \"19H\" and the text \"solidarités porté par la Mairie du 2e\", pointing to the Mairie du 2e arrondissement rather than the given venue Le Gyptis, and no date is visible to support 2026-11-05 (the \"title\" is merely a time)."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/886746062_2043741556339943_8314734974339468209_n.png?stp=c857.0.870.870a_dst-jpg_tt6&cstp=mx870x870&ctp=s565x565&_nc_cat=101&ccb=1-7&_nc_sid=1abd25&_nc_ohc=6zsipCweAg0Q7kNvwEcQudq&_nc_oc=Adp6F6SNc0BvTAaOZUHo62t2S4O6Y6TPRIrwcSkFpASOhLewQbZ7R85TYO0Wycz0tHQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ag-DkyEQ-ZUhFzQUat8wIA&_nc_ss=70180&oh=00_AQSHtAB4mCDVFjOWOCquwKgpM49bSpTGG1j3Y79cBt8_AQ&oe=6AF1CB8C"
+     ]
+    },
+    "1735915651872881": {
+     "id": "1735915651872881",
+     "url": "https://www.facebook.com/cinemalegyptis/posts/1096612986333912:1096612986333912",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Pilleurs de terre",
+       "start_date": "2026-11-06",
+       "start_time": "19:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "Le Gyptis",
+       "url": null,
+       "price": null,
+       "summary": "Projection-débat dans le cadre du Festival Alimenterre, coordonné par le CFSI.",
+       "status": "scheduled",
+       "evidence": [
+        "PILLEURS DE TERRE",
+        "VENDREDI 6 NOVEMBRE À 19h",
+        "PROJECTION | DÉBAT"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces a future dated event: \"PILLEURS DE TERRE / VENDREDI 6 NOVEMBRE À 19H / PROJECTION | DÉBAT\", posted 2026-11-04 by the cinema's own page, and 6 November 2026 is indeed a Friday, matching the extracted date and time."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/891568623_1833382721133738_652284566161867008_n.png?stp=dst-png&cstp=mx2326x854&ctp=p180x540&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=8HZvFtB3uv8Q7kNvwHmESqW&_nc_oc=AdqZhCO0BQ5up-sZJfGpmZBMf8RC3V73mM6MvCESzGcyEHwCuRFe53czOZROoCPzws8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ag-DkyEQ-ZUhFzQUat8wIA&_nc_ss=70180&oh=00_AQQSH4R7dMsMQEsKvq2GKTfVC-kAvZ-wa3PmtF-Kjhz2Jw&oe=6AF1F835"
+     ]
+    },
     "1729087339222379": {
-     "attempts": 2,
-     "last": "2026-11-04",
-     "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+     "id": "1729087339222379",
+     "url": "https://www.facebook.com/reel/1092012147156014/",
+     "published": "2026-10-29",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "abandoned after 3 failed analyses: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit.",
+     "image_urls": [
+      "https://scontent.fpit1-1.fna.fbcdn.net/v/t15.5256-10/872989692_960453740050375_3691722510958053390_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=UR2LHH5hBdUQ7kNvwGYs_zW&_nc_oc=AdolPL0HOMCSYdwmK1E0UrTcWOUnqlzrLBpb7xDypp-Lub-3bY8tzPuRuZBT6ErUh44&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=NlAMZEk8wTuanhNDErdsFA&_nc_ss=70180&oh=00_AQSpHep06aiIk52UoNJ43jZmdGXA-ZIsn0DJ8Ho-cpoYqA&oe=6AF1FBDF"
+     ]
     }
    },
+   "failed_posts": {},
    "fb_events": []
   },
   "facebook-events:cinemalegyptis": {
    "kind": "facebook-events",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
    "failed_posts": {},
    "fb_events": [
+    {
+     "id": "1117507984353152",
+     "url": "https://www.facebook.com/events/1117507984353152/",
+     "name": "Le Gyptis x \"Chaos Magique\" par L'Idéaliste : KIKI LA PETITE SORCIÈRE de Hayao Miyazaki",
+     "start": "2026-11-11T14:00:00Z",
+     "date_sentence": "Wednesday 11 November 2026 from 15:00-18:30 CET",
+     "description": "Cette année, Un festival de magie au féminin\n \nLA NUIT DES FEMMES DE LA MAGIE, DE LA MUSIQUE ET UN PEU DE DÉSORDRE.\n \nEt si la magie était avant tout une affaire de regards, de corps, de récits et de perceptions ?\nPendant trois jours, ce festival propose de découvrir une magie qui s’affranchit des codes traditionnels de l’illusion pour aller à la rencontre du théâtre, du cirque, de la marionnette, de la littérature, de la performance et de la musique.\n\n---\n\n📆 Mercredi 11 novembre dès 15h\n\n15h : atelier de magie : sur inscription / à partir de 8 ans / 12 places\n16h : goûter offet\n17h : projection\n\n\nKIKI LA PETITE SORCIÈRE\nAnimation / dès 8 ans\n\nSynopsis : Chez Kiki, treize ans, on est sorcière de mère en fille. Mais pour avoir droit à ce titre, Kiki doit faire son apprentissage : elle doit quitter les siens pendant un an et leur prouver qu’elle peut vivre en toute indépendance dans une ville de son choix. Un beau soir, accompagnée de son chat Jiji, après avoir embrassé ses parents et sa grand-mère, elle enfourche son balai et met le cap vers le sud « pour voir la mer »… Le lendemain, elle atterrit dans une sympathique ville côtière. C’est là qu’elle va apprendre aux côtés d’Osono, une gentille boulangère qui lui propose un emploi de livreuse…\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nPlein tarif : 7 €\nTarif réduit (étudiants, chômeurs, RSA, + de 65 ans) : 6 €\nTarif de groupe (+ de 10 personnes) : 5 €\nTarif moins de 20 ans : 3,5 €\nToutes les séances Jeune Public sont à 3,5 € pour tous !\nAbonnement dix séances (valable 1 an) : 50 €\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat ",
+     "location_name": "136 rue Loubon, 13003 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": "3 hr 30 min",
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.99422-6/855109817_2146781172575916_1835477371061097647_n.png?stp=dst-jpg_tt6&cstp=mx2272x838&ctp=p720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=2ms1k3r2tZMQ7kNvwEdnzt5&_nc_oc=AdrUHFVdkN-BOPuHgKqHpK6IXX4YbvjHbm0OxsMubMqWLVI6FurYPeEAJkRhJJO9RIc&_nc_zt=14&_nc_ht=scontent.fhan5-8.fna&_nc_gid=Rvzrfo2Q6GqfE7aVEIVWNg&_nc_ss=73289&oh=00_AQThfo7_QBtcFd4m63S-H_QjvoFsiM-cfCYqBqsMpz0eJA&oe=6AF1D075"
+    },
+    {
+     "id": "1627205698811902",
+     "url": "https://www.facebook.com/events/1627205698811902/",
+     "name": "FESTIVAL LES FILMS DE BARBARIE par Cinema Siba",
+     "start": "2026-11-13T18:00:00Z",
+     "date_sentence": "Friday, November 13, 2026 at 7:00 PM – 9:30 PM CET",
+     "description": "📆 Vendredi 13 novembre à 19h\n\n// Suivie d'une discussion en présence des équipes des films.\nSoupe offerte à la fin 🥣. //\n\nLES FILMS DE BARBARIE 🎬\n1ère édition du festival de films en créations partagées\n\nAu programme : \n‣ Le clip de la campagne \"Droit au bus\" du C.H.O.3 - 3min\n‣ On a goûté - 11min\n‣ Where is the playa ? - 6min\n‣ Quand on est toutes mères - 17min\n\nDiscussion - 20min\n\n‣ Retour à la zone - 8min\n‣ RISKI BARCO SUERTE MALAGA - 8min\n‣ MAMIE C'EST LA STREET - 11min\n‣ Coup 2 foudre à la Belle 2 Mai - 10min\n\nDiscussion - 30min\n\nEDITO : Il y a des films qui naissent dans une salle de classe, un centre social, une structure de soin, une prison, un lieu de vie, une lutte. En deux temps trois mouvements, de l’écriture au montage, ces films à plusieurs mains donnent naissance à des formes hybrides où la spontanéité donne le ton. Ils ne ressemblent à rien de ce qu’on voit d’habitude, et ce sont ceux qu’on a envie de défendre.\nLe collectif Cinéma Siba lance la première édition du festival les films de barbarie dédié aux films d’atelier et à la création en commun. Siba, en darija marocaine, c’est ce qui échappe au contrôle : on y croit, pour les films comme pour les ateliers. Nous le plaçons au centre de notre pratique de cinéastes, et avec des groupes singuliers, nous faisons ensemble des films que nous n’aurions jamais faits seul.·es.\nCes films restent pourtant en marge des circuits, faute d’espaces pour les montrer. Voici le nôtre : une quinzaine de courts métrages fabriqués à Marseille et aux alentours, en trois séances au cinéma Le Gyptis et au Videodrome 2, en présence de celles et ceux qui les ont faits.\nOn ouvre avec « Cœur sur le bitume », des récits qui racontent la ville et toutes ses humeurs.\nLe lendemain, on se réunit à Shed Publishing pour Les récits à l'abordage : retours de pratiques des films d'atelier et de la création en commun ; un temps de partage et de discussions, avec celles et ceux qui guident des ateliers. Des questions concrètes : comment penser l’antiracisme et l’antivalidisme dès la rencontre? Comment créer hors du cadre institutionnel ? Quelle place laisse l’auteur·e dans une création collective?\nLe soir, deux séances, deux directions. « Bismillah c les ténèbres » démarre en Y : quatre mondes fantastico-dystopiques où tout part à vau-l’eau, attention aux effets spéciaux, fait main, local et sans conservateurs ! Puis « Itinéraire bis » nous met à la croisée des chemins : des pensées en errance, une fugue façon western, une arrivée d’exil, et un décollage final vers une autre planète qu’on espère moins khene*.\nMerci aux bénévoles et aux équipes des lieux qui nous accueillent et nous font confiance. On vous kiffe.\n\nElina Chared, Samy Sidali, réalisateur·.ices, et Zineb Kharroubi, distributrice au sein du collectif Cinema Siba\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nTarif unique : 3,50€\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat ",
+     "location_name": "136 rue Loubon, 13003 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": "2 hr 30 min",
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent-otp1-1.xx.fbcdn.net/v/t39.99422-6/861605929_1649008816866239_2077548834721153176_n.png?stp=dst-jpg_tt6&cstp=mx2468x908&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Sib662ASPXEQ7kNvwHD4Jrg&_nc_oc=Adrbrkw6oUrF6TOR-N2rWkt1fjffQSYv5K5xPFHh3LgK9H0NKTJKquhtPC4-kAL3SqQ&_nc_zt=14&_nc_ht=scontent-otp1-1.xx&_nc_gid=QZuKXOGN9vXC_K666DY4Fw&_nc_ss=70289&oh=00_AQQfBN9kTh7BhCXz4GFNh2bPwvh0Cgv-vJ6PCgqSywnGpw&oe=6AF1D3FE"
+    },
+    {
+     "id": "2698736830564087",
+     "url": "https://www.facebook.com/events/2698736830564087/",
+     "name": "Les 28ème rencontres du cinéma Sud-Américain ASPAS au Gyptis",
+     "start": "2026-11-21T12:30:00Z",
+     "date_sentence": "Nov 21 at 1:30 PM – Nov 22 at 7:00 PM CET",
+     "description": "Le cinéma Le Gyptis accueille pour trois séances uniques le festival ASPAS pour sa 28ème édition des rencontres du cinéma Sud-Américain 🌞\n\n\"Cette année, les Rencontres du cinéma sud-américain proposent une édition spéciale, pensée comme un temps de respiration, de réflexion et de renouveau pour notre association. Alors que l’ASPAS traverse une période de transition et s’ouvre à de\nnouvelles perspectives, nous avons souhaité revenir à ce qui constitue l’essence même de notre engagement : faire découvrir des œuvres singulières, faire entendre des voix souvent méconnues et créer des liens entre les cultures grâce au cinéma.\"\n\n👉 SAMEDI 21 NOVEMBRE\n\n‣ 16h : Projection d'une sélection de courts métrages sud-américains primés, suivie d'un temps d'échange avec le public ✨\n\nEL POLVO DE MONTAÑA (Mexique)\nDe Marlén Ríos-Farjat \n19min\n\nLA GAUCHADA (Argentine)\nDe Gastón Calivari et Juan Follonier\n11min\n\nESTAMOS EN EL MAPA (Colombie)\nDe Santiago Rodriguez Cárdenas\n10min\n\nLA CAMPAÑA (Cuba)\nDe Eduardo Del Llano Rodríguez\n30min\n\n‣ 17h30 : Set live CUMBIA EN VIVO\nDaniela Aguilar et Manuel Cedrón proposeront un set live autour de la cumbia. Un moment musical festif et dansant pour faire vibrer le public au rythme de la culture populaire latino-américaine. 🎶\n\n‣ 18h : Projection du film, suivie d'un temps d'échange avec le public.\n\nCUMBIA QUE DE TE VAS DE RONDA (Argentine)\nDe Pablo Coronel\nDocumentaire musical / 1h27 / 2020\n\nSynopsis : De Buenos Aires aux villages d’Amérique\nlatine, en passant par l’Europe et l’Asie, Pablo Coronel nous entraîne dans un voyage musical à la découverte de la cumbia, un\nrythme populaire qui traverse les frontières et rassemble les générations. Accompagné d’une équipe de musiciens et de\ncinéastes, le réalisateur part à la rencontre de pionniers et de figures emblématiques du genre, parmi lesquels Totó la Momposina, Celso Piña et Los Mirlos.\n\n👉 DIMANCHE 22 NOVEMBRE\n\n‣ 16h : Projection du film, suivie d'un temps d'échange avec le public.\n\nNOSTALGIE DE LA LUMIÈRE \nDe Patricio Guzmán\nDocumentaire / 1h30 / 2010\n\nSynopsis : Dans le désert d’Atacama, au nord du Chili, les astronomes du monde entier scrutent le ciel à la recherche des origines de l’univers. Dans cette immensité aride où le temps semble suspendu, le sol conserve également les traces du passé : vestiges des civilisations précolombiennes, restes de mineurs et ossements de victimes de la dictature de Pinochet.\nTandis que les scientifiques explorent les étoiles pour comprendre l’histoire du cosmos, des femmes parcourent inlassablement le désert à la recherche des restes de leurs proches disparus sous la\ndictature. En rapprochant l’immensité de l’univers et les blessures de l’histoire chilienne, Patricio Guzmán compose une méditation poétique sur le temps, la mémoire et la quête de vérité. Un documentaire qui fait dialoguer astronomie, archéologie et mémoire collective.\n\n+ d'INFOS : https://cinesudaspas.org\n\n---\n\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nPlein tarif : 7 €\nTarif réduit (étudiants, chômeurs, RSA, + de 65 ans) : 6 €\nTarif de groupe (+ de 10 personnes) : 5 €\nTarif moins de 20 ans : 3,5 €\nToutes les séances Jeune Public sont à 3,5 € pour tous !\nAbonnement dix séances (valable 1 an) : 50 €\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat\n\n",
+     "location_name": "136 rue Loubon, 13003 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": "2 days",
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent.fprn2-1.fna.fbcdn.net/v/t39.99422-6/887514982_2618989038566781_4089310782912798786_n.png?stp=dst-jpg_tt6&cstp=mx1600x865&ctp=s1600x865&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=_hVwxvlSPEQQ7kNvwFfo9y2&_nc_oc=AdpppBNvbTesl15MORt6AcIsKTNF4f2qsOuqoIE8TJORIG3NisIoYtQxJ0MUOWuvJsI&_nc_zt=14&_nc_ht=scontent.fprn2-1.fna&_nc_gid=tic9jt3ytYNkLUAuoet6ww&_nc_ss=73289&oh=00_AQQYZn3Xql8795ehGkSX4Fh5JNNRn9D0RV-r_xUzPhCI-A&oe=6AF1CB79"
+    },
+    {
+     "id": "1180233201087708",
+     "url": "https://www.facebook.com/events/1180233201087708/",
+     "name": "Festival des Solidarités 2026 : THE OLD OAK de Ken Loach",
+     "start": "2026-11-26T18:00:00Z",
+     "date_sentence": "Thursday, November 26, 2026 at 7:00 PM – 9:30 PM CET",
+     "description": "📆 Jeudi 26 novembre à 19h\n\nProjection gratuite dans le cadre du Festival des Solidarités, porté par la Mairie des 2ème et 3ème arrondissements de Marseille  Après la séance, des ateliers seront proposés par l'association APF France handicap\n\nTHE OLD OAK\nDrame / 1h53 / 2023\n\nSynopsis : TJ Ballantyne est le propriétaire du \"Old Oak\", un pub situé dans une petite bourgade du nord de l’Angleterre. Il y sert quotidiennement les mêmes habitués désœuvrés pour qui l’endroit est devenu le dernier lieu où se retrouver. L’arrivée de réfugiés syriens va créer des tensions dans le village. TJ va cependant se lier d’amitié avec Yara, une jeune migrante passionnée par la photographie. Ensemble, ils vont tenter de redonner vie à la communauté locale en développant une cantine pour les plus démunis, quelles que soient leurs origines.\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nGRATUIT !\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat ",
+     "location_name": "136 rue Loubon, 13003 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": "2 hr 30 min",
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent.fcaw2-1.fna.fbcdn.net/v/t39.99422-6/886746062_2043741556339943_8314734974339468209_n.png?stp=dst-jpg_tt6&cstp=mx2378x870&ctp=p720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=6zsipCweAg0Q7kNvwFzGOGJ&_nc_oc=Adr-9RIqFIQb9J1CCSgA1G3PYZEsfplMAByFRctIbxMwrgvk4czRizdwgDHl14lv0-k&_nc_zt=14&_nc_ht=scontent.fcaw2-1.fna&_nc_gid=Z8JjJ1KXxm7IeYHast4b5g&_nc_ss=73289&oh=00_AQQSdFG0Juz_GeIqDKDrei5rcEotxO9KceknfD3C2cz8pw&oe=6AF1CB8C"
+    },
+    {
+     "id": "1128388939581769",
+     "url": "https://www.facebook.com/events/1128388939581769/",
+     "name": "Festival des Solidarités 2026 : HOLA FRIDA ! de André Kadi et Karine Vezina",
+     "start": "2026-11-18T13:15:00Z",
+     "date_sentence": "Wednesday 18 November 2026 from 14:15-16:00 CET",
+     "description": "📆 Mercredi 18 novembre à 14h15\n\nProjection gratuite dans le cadre du Festival des Solidarités, porté par la Mairie des 2ème et 3ème arrondissements de Marseille  Après la séance, des ateliers seront proposés par l'association APF France handicap\n\nHOLA FRIDA ! 🎨\nAnimation / dès 6 ans\n\nSynopsis : C’est l’histoire d’une petite fille différente. Son monde, c’est Coyoacan au Mexique. Pétillante, vibrante, tout l’intéresse. Et lorsque les épreuves se présentent, elle leur fait face grâce à un imaginaire débordant. Cette petite fille s’appelle Frida Kahlo !\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nGRATUIT !\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat ",
+     "location_name": "136 rue Loubon, 13003 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": "1 hr 45 min",
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent.fpat3-2.fna.fbcdn.net/v/t39.99422-6/866955452_29096772243287179_510849957510659314_n.png?stp=dst-jpg_tt6&cstp=mx2378x870&ctp=s960x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=NIlXeSv3Q-MQ7kNvwEEM82Y&_nc_oc=AdqO9IL2_TzhukJuQ3KYn5QD1qV8KsCJ4CgZBhnJm1WD4XB0wLe1JoZCuTAzyWYXHWI&_nc_zt=14&_nc_ht=scontent.fpat3-2.fna&_nc_gid=Vc-8kcCvScVTTCQ-7Ic34Q&_nc_ss=73289&oh=00_AQQv_sfGDlC4FuY7RPKDDiirNJdotLUI7D3Xn2rx2C7VrQ&oe=6AF1CF66"
+    },
+    {
+     "id": "28779835841638704",
+     "url": "https://www.facebook.com/events/28779835841638704/",
+     "name": "Ciné-débat : UN PAYS QUI SE TIENT SAGE avec Le Printemps du Film Engagé",
+     "start": "2026-11-14T19:00:00Z",
+     "date_sentence": "Saturday, November 14, 2026 at 8:00 PM – 10:30 PM CET",
+     "description": "📆 Samedi 14 novembre à 20h\n\nProjection en partenariat avec le festival Le Printemps du Film Engagé\n\n// 🗣️ La projection sera suivie d'un débat // En présence de Laurence Blisson du Syndicat de la Magistrature et Frédérique Chartier du Syndicat des Avocats de France\n\n---\n\n📽️ UN PAYS QUI SE TIENT SAGE \nDe David Dufresne\nDocumentaire / 1h26 / 2020\n\nSynopsis : Alors que s'accroissent la colère et le mécontentement devant les injustices sociales, de nombreuses manifestations citoyennes sont l'objet d'une répression de plus en plus violente. « Un pays qui se tient sage » invite des citoyens à approfondir, interroger et confronter leurs points de vue sur l'ordre social et la légitimité de l'usage de la violence par l'État.\n\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nPlein tarif : 7 €\nTarif réduit (étudiants, chômeurs, RSA, + de 65 ans) : 6 €\nTarif de groupe (+ de 10 personnes) : 5 €\nTarif moins de 20 ans : 3,5 €\nToutes les séances Jeune Public sont à 3,5 € pour tous !\nAbonnement dix séances (valable 1 an) : 50 €\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat",
+     "location_name": "136 rue Loubon, 13003 Marseille, France",
+     "cancelled": false,
+     "is_past": false,
+     "duration": "2 hr 30 min",
+     "price": null,
+     "ticket_url": null,
+     "image_url": "https://scontent.fala4-2.fna.fbcdn.net/v/t39.99422-6/857934477_2091708031489180_8395899865707207965_n.png?stp=dst-jpg_tt6&cstp=mx2340x860&ctp=p720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=0POn0WnxvSUQ7kNvwGFtMdz&_nc_oc=AdoSX_8k4zHQH4WFzeBcUFWwoYMhyjPziJh1wn5LYDCtygt2aWxT9NDn9cqGKLcae9g&_nc_zt=14&_nc_ht=scontent.fala4-2.fna&_nc_gid=2UPZRBytCjoZiSSANO4Zyw&_nc_ss=73289&oh=00_AQSaJtD188hH2CIP4-D_WjqzFRvm6jioFbOTeXa5XtZn2A&oe=6AF1F6AF"
+    },
     {
      "id": "1773116193808177",
      "url": "https://www.facebook.com/events/1773116193808177/",
@@ -13040,37 +13507,7 @@
      "duration": "3 hr",
      "price": null,
      "ticket_url": null,
-     "image_url": "https://scontent.fsac1-2.fna.fbcdn.net/v/t39.99422-6/843353531_980624928417357_1487964664228374555_n.png?stp=dst-jpg_tt6&cstp=mx2326x854&ctp=p720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=mXJEP8sNQMEQ7kNvwHqL1mb&_nc_oc=Adq28hXG36jq1xx2SrxhmCziTLgKKCrpr9U8dNy-gFagfVf57fxvcdbd8zyvd2rJGZ4&_nc_zt=14&_nc_ht=scontent.fsac1-2.fna&_nc_gid=i-H5fug0CXdC3JV_vUwW4g&_nc_ss=73289&oh=00_AQSNxE1Cw79LO0WTZs-2mL1NS39vXdGnVRybYhO0y905RA&oe=6AE8BD7A"
-    },
-    {
-     "id": "28779835841638704",
-     "url": "https://www.facebook.com/events/28779835841638704/",
-     "name": "Ciné-débat : UN PAYS QUI SE TIENT SAGE avec Le Printemps du Film Engagé",
-     "start": "2026-11-14T19:00:00Z",
-     "date_sentence": "Saturday, November 14, 2026 at 8:00 PM – 10:30 PM CET",
-     "description": "📆 Samedi 14 novembre à 20h\n\nProjection en partenariat avec le festival Le Printemps du Film Engagé\n\n// 🗣️ La projection sera suivie d'un débat //\n\n---\n\n📽️ UN PAYS QUI SE TIENT SAGE \nDe David Dufresne\nDocumentaire / 1h26 / 2020\n\nSynopsis : Alors que s'accroissent la colère et le mécontentement devant les injustices sociales, de nombreuses manifestations citoyennes sont l'objet d'une répression de plus en plus violente. « Un pays qui se tient sage » invite des citoyens à approfondir, interroger et confronter leurs points de vue sur l'ordre social et la légitimité de l'usage de la violence par l'Etat.\n\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nPlein tarif : 7 €\nTarif réduit (étudiants, chômeurs, RSA, + de 65 ans) : 6 €\nTarif de groupe (+ de 10 personnes) : 5 €\nTarif moins de 20 ans : 3,5 €\nToutes les séances Jeune Public sont à 3,5 € pour tous !\nAbonnement dix séances (valable 1 an) : 50 €\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat",
-     "location_name": "136 rue Loubon, 13003 Marseille, France",
-     "cancelled": false,
-     "is_past": false,
-     "duration": "2 hr 30 min",
-     "price": null,
-     "ticket_url": null,
-     "image_url": "https://scontent.fdmm2-2.fna.fbcdn.net/v/t39.99422-6/857934477_2091708031489180_8395899865707207965_n.png?stp=dst-jpg_tt6&cstp=mx2340x860&ctp=p720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Bvjr5IR8078Q7kNvwFMiof8&_nc_oc=AdrFJd9lpOICdlNVvvyoOev_6g-jlhw9TdH3vklkDsLVPLYUikGfBqhrYEc7mC6eszU&_nc_zt=14&_nc_ht=scontent.fdmm2-2.fna&_nc_gid=kqs2dnT56kMifaNHiNmxLg&_nc_ss=73289&oh=00_AQQt6NfQNqgBmRzQsq4GvwIZwWGAJZasHNdwkBdzC4weQA&oe=6AE8BC2F"
-    },
-    {
-     "id": "1627205698811902",
-     "url": "https://www.facebook.com/events/1627205698811902/",
-     "name": "FESTIVAL LES FILMS DE BARBARIE par Cinema Siba",
-     "start": "2026-11-13T18:00:00Z",
-     "date_sentence": "Friday 13 November 2026 from 19:00-21:30 CET",
-     "description": "📆 Vendredi 13 novembre à 19h\n\n// Suivie d'une discussion en présence des équipes des films.\nSoupe offerte à la fin 🥣. //\n\nLES FILMS DE BARBARIE 🎬\n1ère édition du festival de films en créations partagées\n\nAu programme : \n‣ Le clip de la campagne \"Droit au bus\" du C.H.O.3 - 3min\n‣ On a goûté - 11min\n‣ Where is the playa ? - 6min\n‣ Quand on est toutes mères - 17min\n\nDiscussion - 20min\n\n‣ Retour à la zone - 8min\n‣ RISKI BARCO SUERTE MALAGA - 8min\n‣ MAMIE C'EST LA STREET - 11min\n‣ Coup 2 foudre à la Belle 2 Mai - 10min\n\nDiscussion - 30min\n\nEDITO : Il y a des films qui naissent dans une salle de classe, un centre social, une structure de soin, une prison, un lieu de vie, une lutte. En deux temps trois mouvements, de l’écriture au montage, ces films à plusieurs mains donnent naissance à des formes hybrides où la spontanéité donne le ton. Ils ne ressemblent à rien de ce qu’on voit d’habitude, et ce sont ceux qu’on a envie de défendre.\nLe collectif Cinéma Siba lance la première édition du festival les films de barbarie dédié aux films d’atelier et à la création en commun. Siba, en darija marocaine, c’est ce qui échappe au contrôle : on y croit, pour les films comme pour les ateliers. Nous le plaçons au centre de notre pratique de cinéastes, et avec des groupes singuliers, nous faisons ensemble des films que nous n’aurions jamais faits seul.·es.\nCes films restent pourtant en marge des circuits, faute d’espaces pour les montrer. Voici le nôtre : une quinzaine de courts métrages fabriqués à Marseille et aux alentours, en trois séances au cinéma Le Gyptis et au Videodrome 2, en présence de celles et ceux qui les ont faits.\nOn ouvre avec « Cœur sur le bitume », des récits qui racontent la ville et toutes ses humeurs.\nLe lendemain, on se réunit à Shed Publishing pour Les récits à l'abordage : retours de pratiques des films d'atelier et de la création en commun ; un temps de partage et de discussions, avec celles et ceux qui guident des ateliers. Des questions concrètes : comment penser l’antiracisme et l’antivalidisme dès la rencontre? Comment créer hors du cadre institutionnel ? Quelle place laisse l’auteur·e dans une création collective?\nLe soir, deux séances, deux directions. « Bismillah c les ténèbres » démarre en Y : quatre mondes fantastico-dystopiques où tout part à vau-l’eau, attention aux effets spéciaux, fait main, local et sans conservateurs ! Puis « Itinéraire bis » nous met à la croisée des chemins : des pensées en errance, une fugue façon western, une arrivée d’exil, et un décollage final vers une autre planète qu’on espère moins khene*.\nMerci aux bénévoles et aux équipes des lieux qui nous accueillent et nous font confiance. On vous kiffe.\n\nElina Chared, Samy Sidali, réalisateur·.ices, et Zineb Kharroubi, distributrice au sein du collectif Cinema Siba\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nTarif unique : 3,50€\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat ",
-     "location_name": "136 rue Loubon, 13003 Marseille, France",
-     "cancelled": false,
-     "is_past": false,
-     "duration": "2 hr 30 min",
-     "price": null,
-     "ticket_url": null,
-     "image_url": "https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.99422-6/861605929_1649008816866239_2077548834721153176_n.png?stp=dst-jpg_tt6&cstp=mx2468x908&ctp=p720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ePQfMnu9ep0Q7kNvwFqqKCn&_nc_oc=AdomnzxW0ktfbvUFMAqon53SjM6A5fwci5k91E8cZW8oUDdOPWtz8wgSIxJ4PDI5Tbo&_nc_zt=14&_nc_ht=scontent.fsgn5-11.fna&_nc_gid=n0HtF6cSlc7kvOBmVlhArg&_nc_ss=73289&oh=00_AQSLjAqRmi0EaoUEGJJz1YRhcFhkem1XaQrMw-lDKIuH9Q&oe=6AE8997E"
+     "image_url": "https://scontent-gru1-1.xx.fbcdn.net/v/t39.99422-6/843353531_980624928417357_1487964664228374555_n.png?stp=dst-jpg_tt6&cstp=mx2326x854&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=nu-UaTBODVAQ7kNvwEacT6g&_nc_oc=AdrXFd2L0S4XxlaUkAD3Hx215K_XQ1pCkKITJOJkU6_dITUBorxoQieTW9phvc8BwnI&_nc_zt=14&_nc_ht=scontent-gru1-1.xx&_nc_gid=EO0OWBOdjw8cqJIaoEEHKw&_nc_ss=70289&oh=00_AQQdljdR1c6KSG8sCGkUmEYxGVCNGun75CvGE2epNlAM2A&oe=6AF1F7FA"
     },
     {
      "id": "1429845149271311",
@@ -13085,52 +13522,7 @@
      "duration": "2 hr",
      "price": null,
      "ticket_url": null,
-     "image_url": "https://scontent.ffod1-1.fna.fbcdn.net/v/t39.99422-6/858729718_1134633799020077_2251805042074952449_n.png?stp=dst-jpg_tt6&cstp=mx2538x936&ctp=p720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=wpL8bFFmsBYQ7kNvwERT7rt&_nc_oc=AdqMVE3JM9K2BcnEXFTXsqda4F2WbNhGg1IAIyLy_chET4Pn1uAc5L-_ZUHdqd6KRt0&_nc_zt=14&_nc_ht=scontent.ffod1-1.fna&_nc_gid=0U5l9sLqBtZMwUwv484tog&_nc_ss=73289&oh=00_AQTIpgoVn2EdkRN4ZAzs3RWqtttY3y_7uN4CENAJUSWOcA&oe=6AE89422"
-    },
-    {
-     "id": "1073492452341982",
-     "url": "https://www.facebook.com/events/1073492452341982/",
-     "name": "25 ANS POLYGONE ÉTOILÉ",
-     "start": "2026-11-01T17:00:00Z",
-     "date_sentence": "Sunday, November 1, 2026 at 6:00 PM – 9:00 PM CET",
-     "description": "📆 Dimanche 1er novembre à 18h\n\n• Sweetie\nde Zoé Filloux - 30'\n\nSynopsis : \"Dans les coulisses étroites d’un théâtre érotique parisien, des femmes se préparent pour leur strip-tease. Mon amie Dona débute dans ce métier, entourée de ses nouvelles collègues.\"\n\n• Un été à P2B \nde Marta Anatra et Lo Thivolle - 63' \n\nSynopsis : La mer au loin. Les usines tout proche\nUn quartier qu'on désenclave\nUne histoire d'amitiés\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarif unique : 3,5€\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat",
-     "location_name": "136 rue Loubon, 13003 Marseille, France",
-     "cancelled": false,
-     "is_past": false,
-     "duration": "3 hr",
-     "price": null,
-     "ticket_url": null,
-     "image_url": "https://scontent.ffru5-1.fna.fbcdn.net/v/t39.99422-6/831832662_871728562596148_5595243482488806186_n.png?stp=dst-jpg_tt6&cstp=mx2478x910&ctp=p720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=a5jfkve3QZ8Q7kNvwEOi6D0&_nc_oc=AdqNCNm1tHC3OW-bERytL99_u4dDmXKjK8NI4aB3VMgWgSTOKp6FuKXLeg4H89dqE_w&_nc_zt=14&_nc_ht=scontent.ffru5-1.fna&_nc_gid=5XgFOOmpJxSLTmzKSj8SNw&_nc_ss=73289&oh=00_AQSwov-jPByyiIf2JjnNYzKw2mRzzlxxKaC75i3RkW7sqQ&oe=6AE8990B"
-    },
-    {
-     "id": "28419118594425385",
-     "url": "https://www.facebook.com/events/28419118594425385/",
-     "name": "Ciné-drag Halloween : CARRIE AU BAL DU DIABLE de Brian De Palma",
-     "start": "2026-10-31T18:30:00Z",
-     "date_sentence": "Saturday 31 October 2026 from 19:30-22:30 CET",
-     "description": "📆 Samedi 31 octobre à 19h30\n\n👰🏼‍🪩CINÉDRAG HALLOWEEN : CARRIE, TROIS DRAGS AU BAL DU DIABLE 🩸🏚️\n\n😌 Vous êtes terrifiéxs par les rituels hétérosexuels ? Le catéchisme ne vous a pas laissé de bons souvenirs ? 🤲🏻\n\n🎃 Pour Halloween, Gasparde Show, John Travelota et Marilyn Monvier vous invitent à retrouver Carrie au bal de fin d'année. Événements paranormaux, événements beaucoup trop normaux et drames sanguinolents : on sort les grands moyens pour vous faire passer une horrifique soirée.\n\nAu programme : performances, projection du film et mini-jeux.\nVenez costuméxs pour le bal de fin d’année !\n\n---\n\nCARRIE AU BAL DU DIABLE\nDe Brian De Palma\n Horreur / 1h38 / 1977 \n🚫 - de 12 ans\n\nSynopsis : Tourmentée par une mère névrosée et tyrannique, la vie n'est pas rose pour Carrie. D'autant plus qu'elle est la tête de turc des filles du collège. Elle ne fait que subir et ne peut rendre les coups, jusqu'à ce qu'elle ne se découvre un étrange pouvoir surnaturel.\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarif unique : 10€\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat",
-     "location_name": "136 rue Loubon, 13003 Marseille, France",
-     "cancelled": false,
-     "is_past": false,
-     "duration": "3 hr",
-     "price": null,
-     "ticket_url": null,
-     "image_url": "https://scontent-bom5-1.xx.fbcdn.net/v/t39.99422-6/831533231_1411167397177697_2767120496693491076_n.png?stp=dst-jpg_tt6&cstp=mx2508x922&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=7_yi0Ga0Qt0Q7kNvwEE3_fm&_nc_oc=AdquQwSNaCIX_TWtUsxMMbUWTWWYpP4qjJW9IBoH94f7U_sMfshphad66HUSxuXlwOU&_nc_zt=14&_nc_ht=scontent-bom5-1.xx&_nc_gid=H-sZ1oCNnv-vaZuIkm_xgw&_nc_ss=70289&oh=00_AQToLq9EMQ1QnBtDkavxV_3GtHmNibWFEwYIBwvXUlcSWA&oe=6AE89581"
-    },
-    {
-     "id": "1117507984353152",
-     "url": "https://www.facebook.com/events/1117507984353152/",
-     "name": "Le Gyptis x \"Chaos Magique\" par L'Idéaliste : KIKI LA PETITE SORCIÈRE de Hayao Miyazaki",
-     "start": "2026-11-11T14:00:00Z",
-     "date_sentence": "Wednesday 11 November 2026 from 15:00-18:30 CET",
-     "description": "Cette année, Un festival de magie au féminin\n \nLA NUIT DES FEMMES DE LA MAGIE, DE LA MUSIQUE ET UN PEU DE DÉSORDRE.\n \nEt si la magie était avant tout une affaire de regards, de corps, de récits et de perceptions ?\nPendant trois jours, ce festival propose de découvrir une magie qui s’affranchit des codes traditionnels de l’illusion pour aller à la rencontre du théâtre, du cirque, de la marionnette, de la littérature, de la performance et de la musique.\n\n---\n\n📆 Mercredi 11 novembre dès 15h\n\n15h : atelier de magie : sur inscription / à partir de 8 ans / 12 places\n16h : goûter offet\n17h : projection\n\n\nKIKI LA PETITE SORCIÈRE\nAnimation / dès 8 ans\n\nSynopsis : Chez Kiki, treize ans, on est sorcière de mère en fille. Mais pour avoir droit à ce titre, Kiki doit faire son apprentissage : elle doit quitter les siens pendant un an et leur prouver qu’elle peut vivre en toute indépendance dans une ville de son choix. Un beau soir, accompagnée de son chat Jiji, après avoir embrassé ses parents et sa grand-mère, elle enfourche son balai et met le cap vers le sud « pour voir la mer »… Le lendemain, elle atterrit dans une sympathique ville côtière. C’est là qu’elle va apprendre aux côtés d’Osono, une gentille boulangère qui lui propose un emploi de livreuse…\n\n---\n\nINFOS PRATIQUES\nLe Gyptis\n136, rue Loubon\n13003 MARSEILLE\n📞Téléphone\n04 95 04 96 25\n\n🎟️ Tarifs :\nPlein tarif : 7 €\nTarif réduit (étudiants, chômeurs, RSA, + de 65 ans) : 6 €\nTarif de groupe (+ de 10 personnes) : 5 €\nTarif moins de 20 ans : 3,5 €\nToutes les séances Jeune Public sont à 3,5 € pour tous !\nAbonnement dix séances (valable 1 an) : 50 €\n\n🚶‍♀️‍➡️Pour y aller :\n• En bus :\n31 et 32, arrêt place Caffo\n33 et 34, arrêt Belle de Mai Loubon\nFluobus de nuit 533\n• En vélo : borne vélo place Placide Caffo\n• En voiture : Parking à proximité gratuit place Cadenat ",
-     "location_name": "136 rue Loubon, 13003 Marseille, France",
-     "cancelled": false,
-     "is_past": false,
-     "duration": "3 hr 30 min",
-     "price": null,
-     "ticket_url": null,
-     "image_url": "https://scontent.fbkk12-3.fna.fbcdn.net/v/t39.99422-6/855109817_2146781172575916_1835477371061097647_n.png?stp=dst-jpg_tt6&cstp=mx2272x838&ctp=s960x960&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=teaT4Wtxk5oQ7kNvwGuN2aC&_nc_oc=Adq-sJpGHK0bWg9XKjp7RRBBmWNdAYLAi_n4hbw0UK3JIHQbAl3Lzwgc1mVTgSGN6jU&_nc_zt=14&_nc_ht=scontent.fbkk12-3.fna&_nc_gid=i-OzGbHgRtAK1jpKnuesuQ&_nc_ss=73289&oh=00_AQTUpiJiZCTlQZTqLKllNVS3Xpl_zs4LBWKAEA-ZgUhkrA&oe=6AE895F5"
+     "image_url": "https://scontent-waw2-1.xx.fbcdn.net/v/t39.99422-6/858729718_1134633799020077_2251805042074952449_n.png?stp=dst-jpg_tt6&cstp=mx2538x936&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=4Ho5UIgcL08Q7kNvwExs-1L&_nc_oc=AdqFW7HZPPJzUUurofHL9chzVTfH9g3_xn0XtG5p-jm7n8DRv7UhbvF0hWfB0m3j6vk&_nc_zt=14&_nc_ht=scontent-waw2-1.xx&_nc_gid=MHM4dc6cBGYdV6weu9Op1A&_nc_ss=70289&oh=00_AQRAZr9ZUwq03qRTuvjH7ZKwX8d9wVvw6VcrcKddQJZgZw&oe=6AF1CEA2"
     }
    ]
   },
@@ -13138,8 +13530,8 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -13275,6 +13667,21 @@
      "image_urls": [
       "https://instagram.fhnd3-2.fna.fbcdn.net/v/t51.82787-15/871719358_18637309252063725_7249708004155581565_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxODY4NjI0MTEzNzEyMzA5NDE4NjM3MzA5MjQ5MDYzNzI1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=OKb9q-qvPrIQ7kNvwGaTech&_nc_oc=AdrhRBrbXnVOpZsTTMX5aUhmq914-mnhK8xuedKd0nC0Hn6azXkzgl_LxoZhDTki8erDbUEaTbKQdiESrZBQIRhc&_nc_ad=z-m&_nc_cid=1700&_nc_zt=23&_nc_ht=instagram.fhnd3-2.fna&_nc_gid=inYPYKOnjKvEUhFdVgpE3A&_nc_ss=7320f&oh=00_AQQ1GPe4i3UKzUHr7JcPAzltHO8SHLK__MWY7AiDtOEwQw&oe=6AEDDBCF"
      ]
+    },
+    "4022864597945844024": {
+     "id": "4022864597945844024",
+     "url": "https://www.instagram.com/p/DfUFgmsDoE4/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": false,
+     "events": [],
+     "notes": "No upcoming events at La Fabulerie (Marseille) announced in the post. The flyer images list exhibitions and activities, but all are set to start on 2026-11-01, which is before the post publication date (2026-11-04). They may be recaps or incorrectly dated.",
+     "image_urls": [
+      "https://instagram.frao5-1.fna.fbcdn.net/v/t51.82787-15/881397136_18639358663063725_8389888303517060976_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjg1Nzc4NjgyNjg3NTE1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=PFC9gMEUub4Q7kNvwFvjPNv&_nc_oc=Adp7bA2gP9iNcL1B-iU-uOEQaa2AGWIWwJgo58WTDj6Xny1W0HeIXaI0I-6H9uJd4V0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frao5-1.fna&_nc_gid=sEM6ji2PeH50sZoAO53bjQ&_nc_ss=7a20f&oh=00_AQQH0BBmtxtPCwHEXf_Udb_-JAlhXuZOKj7l37eJKt0iJQ&oe=6AF1D813",
+      "https://instagram.frao5-1.fna.fbcdn.net/v/t51.82787-15/875104274_18639358660063725_4512722796866446650_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjg1Nzc4ODg2NTI3ODAwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=PFe8EgKqCygQ7kNvwHE3iCX&_nc_oc=AdrM9wQCfC4TBl0gzsqOo-dWztncYsUBTX0NCcfNUuZUub0UFqYJeLyYupuT1ed5gKM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frao5-1.fna&_nc_gid=sEM6ji2PeH50sZoAO53bjQ&_nc_ss=7a20f&oh=00_AQScM_g3UMtHdjBKTJAj1_iKLZJRMYYFia7lm4Z7UW32zQ&oe=6AF1D652",
+      "https://instagram.frao5-1.fna.fbcdn.net/v/t51.82787-15/880241091_18639358672063725_1286746842114888014_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjg1Nzc5MDI0MTA4NjU1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=LMBB45DKSmsQ7kNvwHkuoOG&_nc_oc=AdqRCLyI-R6nW1MSszACmA-4UQN0EF-gbHuqVq1EcZlJOcds_bg4OS3JMJYXT4wZp4Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frao5-1.fna&_nc_gid=sEM6ji2PeH50sZoAO53bjQ&_nc_ss=7a20f&oh=00_AQQsAxCALRfUdfzabypopvrVkx2iZ3wLd-Y_0wqKtupVKg&oe=6AF1E7AA",
+      "https://instagram.frao5-1.fna.fbcdn.net/v/t51.82787-15/881047915_18639358690063725_1817825374511159691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjg1Nzc5MjA4NjQxNzMxMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mVWMKZMAP3IQ7kNvwG6UT3n&_nc_oc=Adpvq47aLFsm-x49xnS4cd-8Y1cHeSkivQYxdGCbz-l-eBIfN3SbVQ7btQSoddciRIs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frao5-1.fna&_nc_gid=sEM6ji2PeH50sZoAO53bjQ&_nc_ss=7a20f&oh=00_AQTRqx08VQFje8bUdKZhASOx7DDTueR4x7uHL6RB-iG3Ag&oe=6AF1E8CC"
+     ]
     }
    },
    "failed_posts": {},
@@ -13284,8 +13691,8 @@
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -13533,15 +13940,21 @@
      ]
     }
    },
-   "failed_posts": {},
+   "failed_posts": {
+    "1917174765912777": {
+     "attempts": 1,
+     "last": "2026-11-05",
+     "error": "UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+    }
+   },
    "fb_events": []
   },
   "facebook-events:Fabulerie": {
    "kind": "facebook-events",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
@@ -13560,7 +13973,7 @@
      "duration": "3 days",
      "price": null,
      "ticket_url": null,
-     "image_url": "https://scontent.fkul8-5.fna.fbcdn.net/v/t39.30808-6/825351735_1555779399921670_6070898623945169295_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x628&ctp=s960x960&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=jGvpmCXAt4cQ7kNvwFbDY7z&_nc_oc=AdrjCl7MYhfAm1WCsu732m11XGJPBlxrE7B7E9lj1fnT3tjE-lWh4mLtSqIopOl47Gs&_nc_zt=23&_nc_ht=scontent.fkul8-5.fna&_nc_gid=aHTSkDNMHdnk9j2A1Wl8CQ&_nc_ss=70289&oh=00_AQRrmeGDd-2ZNGSraAucR_7F-0rU8rJM2AWJPaHzS_r2JQ&oe=6AE8A5A9"
+     "image_url": "https://scontent.fnak4-2.fna.fbcdn.net/v/t39.30808-6/825351735_1555779399921670_6070898623945169295_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x628&ctp=s960x960&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=GhZmY4gDJksQ7kNvwHJNhOg&_nc_oc=Adrh3eluuRAyfCwDFQQIHMVpsP4oO9IYKG5c0ruDyxaBQJKJCLqBEYZWhBezWlKGP-8&_nc_zt=23&_nc_ht=scontent.fnak4-2.fna&_nc_gid=O-2zsgHNvAsmi8bf8Wnpwg&_nc_ss=70289&oh=00_AQSk-aI4GYG0f_y91yJHY0xEmq95OuTQEHJ7zdx3XxTmyQ&oe=6AF1E029"
     }
    ]
   },
@@ -14676,8 +15089,8 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -15753,10 +16166,10 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-04",
+   "last_fetched": "2026-11-05",
    "last_ok": null,
    "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 35,
+   "consecutive_failures": 36,
    "posts": {},
    "failed_posts": {},
    "fb_events": []
@@ -15765,8 +16178,8 @@
    "kind": "facebook-events",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
@@ -15777,8 +16190,8 @@
    "kind": "instagram",
    "handle": "la.camaraderie13",
    "url": "https://www.instagram.com/la.camaraderie13/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -16101,6 +16514,71 @@
      "image_urls": [
       "https://scontent-msp1-1.cdninstagram.com/v/t51.82787-15/867377162_18641880682028202_8256142958177527941_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=NDAyMDE3MzM0OTY4MDYxMjAzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bFCit5CGXvQQ7kNvwHeOjVm&_nc_oc=AdrqLX824mqdZ_Z3acKVNiRDZnjuE4a1pwtmvLpSwvV_2fjnacvQIGP2zQjmjUiNAx0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_gid=F6PcP33vnr5o9sQXXM5G7Q&_nc_ss=7320f&oh=00_AQTcLxhKrgT9vnaVRRZRJX6W4v8pJ7pZ1-5oLgTG7NZVQA&oe=6AECB81B"
      ]
+    },
+    "4022077074597951527": {
+     "id": "4022077074597951527",
+     "url": "https://www.instagram.com/p/DfRScoapzgn/",
+     "published": "2026-11-03",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Kaz d'ailà",
+       "start_date": "2026-11-06",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "la Camaraderie",
+       "url": null,
+       "price": "Prix libre",
+       "summary": "Kaz d'ailà viendra vous faire bouléguer le tafanari à la Camaraderie.",
+       "status": "scheduled",
+       "evidence": [
+        "Ce vendredi 6 novembre, Kaz d'ailà viendra vous faire bouléguer le tafanari à la Camaraderie",
+        "🕣 Début à 20h",
+        "💶 Prix libre"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption and flyer agree: \"Ce vendredi 6 novembre, Kaz d'ailà viendra vous faire bouléguer le tafanari à la Camaraderie\", \"🕣 Début à 20h\", \"💶 Prix libre\", flyer shows \"VENDREDI 6 NOV / 20H / la camaraderie / 76 RUE BELLE DE MAI 13003\". 6 Nov 2026 is indeed a Friday, after the 3 Nov publication date, and the venue matches."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-waw2-1.cdninstagram.com/v/t51.82787-15/884550604_17920329411459408_6851655094269182240_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=NDAyMjA3NzA3NDU5Nzk1MTUyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=IKEngAqiUBQQ7kNvwFZwgkR&_nc_oc=AdpPNtj5sGZIouQy2-Zb_Wgrqnr33zWGev5dHCRNOlfi_sJLSVeGkzi8sm3qUhLlGUs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=cixL5V3DAfPqlWTgDV-MNg&_nc_ss=7a20f&oh=00_AQSCFsKdfG9IfDLtf6NsBl_R6F6Sn9pf1oN08tOaFc3L3g&oe=6AF1E612"
+     ]
+    },
+    "4022923202608161137": {
+     "id": "4022923202608161137",
+     "url": "https://www.instagram.com/p/DfUS1aiIuFx/",
+     "published": "2026-11-04",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "RDV LE 13.11 À LA CAMARADERIE ⚡",
+       "start_date": "2026-11-13",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": "00:00:00",
+       "location_name": "La Camaraderie",
+       "url": null,
+       "price": "prix libre / 8€ prix conscient",
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "RDV LE 13.11 À LA CAMARADERIE ⚡",
+        "13 novembre · 20h-00h"
+       ],
+       "from_image": false,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future event: \"𝗥𝗗𝗩 𝗟𝗘 𝟭𝟯.𝟭𝟭 𝗔̀ 𝗟𝗔 𝗖𝗔𝗠𝗔𝗥𝗔𝗗𝗘𝗥𝗜𝗘\" with \"13 novembre · 20h-00h\" and \"@la.camaraderie13 · 76-78 rue Belle de Mai, 13003 Marseille\", matching the extracted date (2026-11-13, a Friday, after the 2026-11-04 publication), time 20:00–00:00, venue La Camaraderie and price \"prix libre / 8€ prix conscient\"; no cancellation or past-event wording appears."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fsyd14-1.fna.fbcdn.net/v/t51.82787-15/886576668_18104568773649237_1412479968124732859_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjkyMzIwMjYwODE2MTEzNzE4MTA0NTY4NzcwNjQ5MjM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=xCCYsx46Pd4Q7kNvwFlYoig&_nc_oc=AdpWXmuJMfjIpzacAWF0x7ArJxqdFZ8NF1OsODOGXEysITFIfLcibG5H9M-wpd2UROY7rKkXpdQMmvo6h4E3axVu&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyd14-1.fna&_nc_gid=vI9PMPknJ8oIVmU-VJVj3g&_nc_ss=7a20f&oh=00_AQTJMAiSjS1cpoC_aB4EnDmbiHUzc8H0gGzT7rtD-IkBug&oe=6AF1E7F2"
+     ]
     }
    },
    "failed_posts": {},
@@ -16110,8 +16588,8 @@
    "kind": "instagram",
    "handle": "twali.marseille",
    "url": "https://www.instagram.com/twali.marseille/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -16235,8 +16713,8 @@
    "kind": "facebook",
    "handle": "twalibelsunce",
    "url": "https://www.facebook.com/twalibelsunce/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-04",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -16320,8 +16798,8 @@
    "kind": "facebook-events",
    "handle": "twalibelsunce",
    "url": "https://www.facebook.com/twalibelsunce/upcoming_hosted_events",
-   "last_fetched": "2026-10-29",
-   "last_ok": "2026-10-29",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {},
@@ -16332,8 +16810,8 @@
    "kind": "instagram",
    "handle": "lembobineusemarseille",
    "url": "https://www.instagram.com/lembobineusemarseille/",
-   "last_fetched": "2026-11-04",
-   "last_ok": "2026-11-03",
+   "last_fetched": "2026-11-05",
+   "last_ok": "2026-11-05",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -16692,6 +17170,72 @@
      "notes": null,
      "image_urls": [
       "https://instagram.fmxp12-1.fna.fbcdn.net/v/t51.82787-15/883374880_18477478972185934_1516537482190318147_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTYyMzQ1NTI2OTI3ODM0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EWnLnKVXDSQQ7kNvwH9gSmB&_nc_oc=Adow7YOeUF_RX6r_8J4idVHnkVcz8LBxthEiKZeQYJVfvzTujfiiExA_w_kJqegAMGY&_nc_ad=z-m&_nc_cid=1093&_nc_zt=23&_nc_ht=instagram.fmxp12-1.fna&_nc_gid=S3LYecaKxg9SJE1UrnPCsA&_nc_ss=7320f&oh=00_AQStCdur_UqtbreU4OxE_OhQD2AjOWFQiH_E3LZW1y09Ww&oe=6AEEEA27"
+     ]
+    },
+    "4021675219029964111": {
+     "id": "4021675219029964111",
+     "url": "https://www.instagram.com/p/DfP3E3QRbVP/",
+     "published": "2026-11-02",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "CONCERT DE SOUTIEN A LA LEGAL TEAM MARSEILLE",
+       "start_date": "2026-11-05",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": "L'EMBO",
+       "url": null,
+       "price": "5€ / PRIX LIBRE + 2€ D'ADHÉSION",
+       "summary": "Un concert de soutien à la Legal Team Marseille avec des performances de Rok & Dudu, Contour Direct, et La Lutte Enchantée.",
+       "status": "scheduled",
+       "evidence": [
+        "5/NOV/27  L'EMBO  20H-01H",
+        "CONCERT DE SOUTIEN A LA LEGAL TEAM MARSEILLE",
+        "Ce jeudi 5 novembre à 20h, rendez-vous à l’Embobineuse pour un concert de soutien à la Legal Team Marseille !"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The caption announces a future event: \"Ce jeudi 5 novembre à 20h, rendez-vous à l'Embobineuse pour un concert de soutien à la Legal Team Marseille !\" — posted 2026-11-02, so \"ce jeudi 5 novembre\" = 2026-11-05, a Thursday, matching the extracted date/time. The flyer's \"5/NOV/27\" is a typo (5 Nov 2027 is a Friday, contradicting the written weekday \"jeudi\"), and the flyer's \"L'EMBO / 11 BD BOUES 13003 MARSEILLE\" confirms the venue. Not a recap, not cancelled, price \"5€/PRIX LIBRE + 2€ D'ADHÉSION\" matches."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://instagram.fktw5-1.fna.fbcdn.net/v/t51.82787-15/876310575_17967819582226767_2322449268878666220_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTY3NTIxOTAyOTk2NDExMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTE4NC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2TJPDbGt-RgQ7kNvwEmMxYe&_nc_oc=AdoYjDIc6VwMNlGzlI08cJ-TzaQ6txAXSz8BG6WGlGaLXqyA0TgJbY_m4YkQ95pGqhs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fktw5-1.fna&_nc_gid=GZmc79ZH9D6ykPgIKZs80g&_nc_ss=7a20f&oh=00_AQRhllLu2It4xDYQsoKA2piEaaX9gOiPiooJdNdTDGfsAQ&oe=6AF1E78C"
+     ]
+    },
+    "4022153802622068129": {
+     "id": "4022153802622068129",
+     "url": "https://www.instagram.com/p/DfRj5K9RmWh/",
+     "published": "2026-11-03",
+     "analyzed": "2026-11-05",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "DIM 15 NOV - 20H",
+       "start_date": "2026-11-15",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": "01:00:00",
+       "location_name": null,
+       "url": null,
+       "price": "prix libre€ + 2€ adh.",
+       "summary": "Soirée musicale avec TIQ, STEREOVOID et FRANCKY LA NIGHT dans le cadre d'un événement à L'Embobineuse.",
+       "status": "scheduled",
+       "evidence": [
+        "DIM 15 NOV - 20H",
+        "TIQ ( dj Neue K + dj Lichene) | minimal synth, dark wave, post punk | Berlin",
+        "STEREOVOID | minimal synth | mars"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "Caption and flyer agree: \"DIM 15 NOV - 20H\" / \"15/11 2026\" / \"20h - 01h\" at \"L'EMBOBINEUSE\" (11 Boulevard Bouès, 13003 Marseille), a future dated public concert (published 2026-11-03, event 2026-11-15, which is indeed a dimanche), with no cancellation notice."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-mrs2-3.cdninstagram.com/v/t51.82787-15/883626901_18477609793185934_7273712436310071662_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=NDAyMjE1MzgwMjYyMjA2ODEyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=JuElnqPNeRYQ7kNvwEsyHyo&_nc_oc=Ado0HRTCcmO2UGQDDlqASvE_58PvNKsUb9mUh7oGx6N6B_fv--nxqxIwKYiK0yZAxGo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mrs2-3.cdninstagram.com&_nc_gid=KLWP6-_VrWqyx9yZsBESNA&_nc_ss=7a20f&oh=00_AQT8Yt4ntVoObeOw3hKGGB0DwjxwhnoeemNI4R8JsK8Ovw&oe=6AF202F9"
      ]
     }
    },

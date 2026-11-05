@@ -167,20 +167,6 @@ LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/souffles-terrestres
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Les Petits Mercredis
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-UID:8e8499760fac@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
- el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
- fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
- ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
- s-mercredis-13/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Unworlding
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261116
@@ -218,18 +204,6 @@ DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
  -kikifruit/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ateliers : Cartographier nos territoires avec Nadin Nadine
-DTSTART;TZID=Europe/Paris:20261104T100000
-DTEND;TZID=Europe/Paris:20261104T120000
-UID:37f477895458@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/cartographier-nos-territoires-a
- vec-nadin-nadine/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/cartographier-nos-territoires-avec-nadi
- n-nadine/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
@@ -299,42 +273,6 @@ LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/le-corset/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:★ Jeune public | De l'autre côté du ciel
-DTSTART;TZID=Europe/Paris:20261104T140000
-DTEND;TZID=Europe/Paris:20261104T160000
-UID:e251fde8f8bd@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/%e2%98%85-jeune-public-de-lautre-co
- te-du-ciel/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/%e2%98%85-jeune-public-de-lautre-cote-du-ci
- el/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Aide aux devoirs
-DTSTART;TZID=Europe/Paris:20261104T143000
-DTEND;TZID=Europe/Paris:20261104T173000
-UID:4ec81cda5533@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/56317942_aide-aux-devoirs-508
- 8389
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/56317942
- _aide-aux-devoirs-5088389
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Permanence RESF 13 jeunes majeurs et familles sans papiers
-DTSTART;TZID=Europe/Paris:20261104T143000
-DTEND;TZID=Europe/Paris:20261104T163000
-UID:f3b8806e0b4e@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.millebabords.org/spip.php?article42369
-LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
- le (pendant les travaux de MMDH\, 34 cours Julien\, 13006 Marseille)
-URL:https://www.millebabords.org/spip.php?article42369
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Entrez libres
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261108
@@ -349,19 +287,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Club de lecture
-DTSTART;TZID=Europe/Paris:20261104T160000
-DTEND;TZID=Europe/Paris:20261104T173000
-UID:d9970b9a9a19@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/25008583_club-de-lecture-2755
- 521
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/25008583
- _club-de-lecture-2755521
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Shaun le mouton : La Bêêête d’Halloween
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261108
@@ -373,90 +298,18 @@ LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/shaun-le-mouton-la-beeete-dhalloween/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:La vie farpaite | IDM (Inner Direct Metaphysics) - Parties 1 & 2
-DTSTART;TZID=Europe/Paris:20261104T170000
-DTEND;TZID=Europe/Paris:20261104T190000
-UID:32fe2f7e49a4@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/la-vie-farpaite-idm-inner-direct-me
- taphysics-partie-1/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/la-vie-farpaite-idm-inner-direct-metaphysic
- s-partie-1/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LE CORSET de Louis Clichy
-DTSTART;TZID=Europe/Paris:20261104T183000
-DTEND;TZID=Europe/Paris:20261104T203000
-UID:2c09d5d2fc78@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film 'Le Corset' de Louis Clichy dans le cadre d
- u festival Cinémanimé.\nPrix : Tarif unique pour les 15/25 : 5€. Proje
- ction ouverte à tous·tes !\nhttps://fb.me/e/bC2j668a3
-LOCATION:La Baleine
-URL:https://fb.me/e/bC2j668a3
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SOIRÉE DE SOUTIEN AUX LYCÉENS MOBILISÉS
-DTSTART;TZID=Europe/Paris:20261104T183000
-DTEND;TZID=Europe/Paris:20261104T203000
-UID:72b51641ac0b@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://lemolotov.com/events/soiree-de-soutien-aux-lyceens-mob
- ilises/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/soiree-de-soutien-aux-lyceens-mobilises/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rester debout
-DTSTART;TZID=Europe/Paris:20261104T190000
-DTEND;TZID=Europe/Paris:20261104T210000
-UID:b48d5caa2291@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection suivie d’une rencontre avec la réalisatrice et l
- es trois femmes qui témoignent.\nhttps://cinemalegyptis.org/films/rester-
- debout/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/rester-debout/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Andromaque dans une berline rouge" de Nanténé 
- Traoré
-DTSTART;TZID=Europe/Paris:20261104T190000
-DTEND;TZID=Europe/Paris:20261104T210000
-UID:260ebe132c91@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Andromaque-dans-
- une-berline-rouge-de-Nantene-Traore
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Andromaque-dans-une-berl
- ine-rouge-de-Nantene-Traore
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ce soir je mange avec… Sophie Beau
-DTSTART;TZID=Europe/Paris:20261104T193000
-DTEND;TZID=Europe/Paris:20261104T213000
-UID:5943d2edf5bb@marseille-agenda
+SUMMARY:Unworlding
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261116
+UID:fdba37cd1508@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Deuxième repas de cette série culinaire qui part à la renco
- ntre des cuisiniers et cuisinières dont les recettes font vivre un hérit
- age chargé d'histoires\, de gestes et de souvenirs ! Une proposition de L
- es Grandes Tables\nhttps://www.lafriche.org/evenements/ce-soir-je-mange-av
- ec-sophie-beau/
+DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
+ artistes et écrivain·es afin de repenser les structures et les relations
+  dans un contexte d’effondrement social et institutionnel. Une propositi
+ on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/unworlding/
 LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/ce-soir-je-mange-avec-sophie-beau/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La vie farpaite | IDM (Inner Direct Metaphysics) - Partie 3
-DTSTART;TZID=Europe/Paris:20261104T210000
-DTEND;TZID=Europe/Paris:20261104T230000
-UID:f964f34aa4fa@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/la-vie-farpaite-idm-inner-direct-me
- taphysics-partie-2/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/la-vie-farpaite-idm-inner-direct-metaphysic
- s-partie-2/
+URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Films Femmes Méditerranée
@@ -484,6 +337,18 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/69319562
  x
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261126
+UID:24a076fa0d99@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Permanence juridique et syndicale de l’Union Locale CNT 13
 DTSTART;TZID=Europe/Paris:20261105T120000
 DTEND;TZID=Europe/Paris:20261105T140000
@@ -493,6 +358,76 @@ DESCRIPTION:https://www.millebabords.org/spip.php?article42373
 LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
  le
 URL:https://www.millebabords.org/spip.php?article42373
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cartographie sensible et mémoires recomposées
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261214
+UID:7c6f376e728a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
+ ontre-récits face aux logiques d’effacement culturel\, politique ou col
+ onial\, tout en révélant la fragilité des représentations contemporain
+ es. Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/car
+ tographie-sensible-et-memoires-recomposees/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-
+ recomposees/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ce que nous voyons nous regarde
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20270118
+UID:188d8e6ef4c1@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition collective de 16 installations en provenance de
+  8 pays de méditerranée qui invitent à reconnaître\, derrière chaque 
+ image\, une présence humaine\, politique\, irréductible. Une proposition
+  de Instants Vidéo\nhttps://www.lafriche.org/evenements/ce-que-nous-voyon
+ s-nous-regarde/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Désobéir à l’ère numérique
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261214
+UID:a7d473e7d6c1@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Les artistes de cette exposition investissent les failles des 
+ systèmes numériques contemporains pour en révéler les mécanismes invi
+ sibles\, devenant ainsi matériaux à détourner\, perturber ou infiltrer.
+  Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/desobe
+ ir-a-lere-numerique/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/desobeir-a-lere-numerique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La vie farpaite
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261214
+UID:dafc084dc939@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
+ même devenu une œuvre\, à découvrir dans les Cathédrales. Une proposi
+ tion de LFKs-La Fabriks\nPrix : Gratuit !\nhttps://www.lafriche.org/evenem
+ ents/la-vie-farpaite/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/la-vie-farpaite/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entrez libres
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261108
+UID:63a14272748c@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
+  propose de découvrir un ensemble d'activités créatives en lien avec la
+  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
+ llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
+ afriche.org/evenements/entrez-libres-7/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
@@ -544,6 +479,19 @@ DESCRIPTION:[L'inceste\, on en parle\, on agit !] 🎬 Ciné-débat : On v
  seille 🎟️ \nhttps://www.facebook.com/events/1835894860928606/
 LOCATION:Les Variétés - Cinéma les Variétés
 URL:https://www.facebook.com/events/1835894860928606/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CONCERT DE SOUTIEN A LA LEGAL TEAM MARSEILLE
+DTSTART;TZID=Europe/Paris:20261105T200000
+DTEND;TZID=Europe/Paris:20261105T220000
+UID:4ed974a1e836@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un concert de soutien à la Legal Team Marseille avec des perf
+ ormances de Rok & Dudu\, Contour Direct\, et La Lutte Enchantée.\nPrix : 
+ 5€ / PRIX LIBRE + 2€ D'ADHÉSION\nhttps://www.instagram.com/p/DfP3E3QR
+ bVP/
+LOCATION:L'Embobineuse - L'EMBO
+URL:https://www.instagram.com/p/DfP3E3QRbVP/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Soirée de soutien au mouvement social GREVE GENERALE
@@ -633,19 +581,6 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/24809536
  _cycle-ethique-de-laphm-evenement-de-fin-dannee
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PIEDEBICHE + 21st CENTURY BEATNIXX
-DTSTART;TZID=Europe/Paris:20261106T190000
-DTEND;TZID=Europe/Paris:20261106T210000
-UID:384abcc668df@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:PIEDEBICHE "La musique des PIEDEBICHE parvient à marier beaut
- é des textes -exclusivement en français- \, riffs dark et batterie engag
- ée. Un rythme tendu\, qui tour à tour hypnotise ou libère\, comme le s
- \nhttps://www.facebook.com/events/1117646474143595/
-LOCATION:L'Intermédiaire - L'Intermediaire Live
-URL:https://www.facebook.com/events/1117646474143595/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pilleurs de Terre
 DTSTART;TZID=Europe/Paris:20261106T190000
 DTEND;TZID=Europe/Paris:20261106T210000
@@ -683,6 +618,30 @@ DESCRIPTION:https://www.videodrome2.fr/courtmed-2026-programme-de-courts-m
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/courtmed-2026-programme-de-courts-metrages-
  mediterraneens/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PIEDEBICHE + 21st CENTURY BEATNIXX
+DTSTART;TZID=Europe/Paris:20261106T200000
+DTEND;TZID=Europe/Paris:20261106T220000
+UID:384abcc668df@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:PIEDEBICHE "La musique des PIEDEBICHE parvient à marier beaut
+ é des textes -exclusivement en français- \, riffs dark et batterie engag
+ ée. Un rythme tendu\, qui tour à tour hypnotise ou libère\, comme le s
+ \nhttps://www.facebook.com/events/1117646474143595/
+LOCATION:L'Intermédiaire - L'Intermediaire Live
+URL:https://www.facebook.com/events/1117646474143595/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kaz d'ailà
+DTSTART;TZID=Europe/Paris:20261106T200000
+DTEND;TZID=Europe/Paris:20261106T220000
+UID:11e27592e585@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Kaz d'ailà viendra vous faire bouléguer le tafanari à la Ca
+ maraderie.\nPrix : Prix libre\nhttps://www.instagram.com/p/DfRScoapzgn/
+LOCATION:La Camaraderie - la Camaraderie
+URL:https://www.instagram.com/p/DfRScoapzgn/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MASTER BOOT RECORD + FULCI + Arottenbit
@@ -806,16 +765,6 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/2512421_
  ion-des-recits-et-des-representations
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Petite Casbah
-DTSTART;TZID=Europe/Paris:20261107T103000
-DTEND;TZID=Europe/Paris:20261107T123000
-UID:be948fc7f140@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/petite-casbah/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/petite-casbah/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:L’Alcazar se transforme : Créez le futur Studio de Création av
  ec nous !
 DTSTART;TZID=Europe/Paris:20261107T140000
@@ -878,16 +827,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/visite-flash-16/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le pays taliban
-DTSTART;TZID=Europe/Paris:20261107T153000
-DTEND;TZID=Europe/Paris:20261107T173000
-UID:77ee433ab3a4@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/le-pays-taliban/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/le-pays-taliban/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le sens de la mode
 DTSTART;TZID=Europe/Paris:20261107T160000
 DTEND;TZID=Europe/Paris:20261107T173000
@@ -936,17 +875,6 @@ LOCATION:Le Gyptis - OCAP
 URL:https://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Personnages et identités
-DTSTART;TZID=Europe/Paris:20261107T180000
-DTEND;TZID=Europe/Paris:20261107T193000
-UID:78e16aaf9a54@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/personnages-et-ide
- ntites/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/personnages-et-identites/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Gaming et Politique | Plateau radio
 DTSTART;TZID=Europe/Paris:20261107T183000
 DTEND;TZID=Europe/Paris:20261107T203000
@@ -978,17 +906,6 @@ DESCRIPTION:https://lemolotov.com/events/ianwill-perseide-mazed-ghetto-par
  adise/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/ianwill-perseide-mazed-ghetto-paradise/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Live set d'Isam Elias
-DTSTART;TZID=Europe/Paris:20261107T200000
-DTEND;TZID=Europe/Paris:20261107T213000
-UID:b0333616b9a7@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/live-set-disam-eli
- as/
-LOCATION:Mucem - J4 / Forum
-URL:https://mucem.org/evenement/live-set-disam-elias/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gaming et Politique | The King Of Kong + Fràgil Como Una Bomba
@@ -1342,6 +1259,19 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/atelier-sauve-qui-pousse/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Cyle Dietrich / Sternberg
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261125
+UID:a36df70d7f7e@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Cycle Marlene Dietrich x Joseph Von Sternberg SHANGHAI EXPRESS
+  de Josef von Sternberg USA\, 1932.1h22 BLONDE VENUS de Josef von Sternber
+ g USA\, 1932.1h32 L'IMPERATRICE ROUGE de Josef von Sternberg USA\, \nhttps
+ ://www.facebook.com/events/1141383282150231/
+LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
+URL:https://www.facebook.com/events/1141383282150231/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ANNA
 DTSTART;TZID=Europe/Paris:20261111T140000
 DTEND;TZID=Europe/Paris:20261111T160000
@@ -1491,6 +1421,17 @@ URL:https://mucem.org/evenement/musees-suspendus-anticipatoires-et-a-venir
  /
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Permanence de Mille Bâbords et de sa Médiathèque
+DTSTART;TZID=Europe/Paris:20261112T150000
+DTEND;TZID=Europe/Paris:20261112T170000
+UID:a963a73c1474@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.millebabords.org/spip.php?article42404
+LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
+ le
+URL:https://www.millebabords.org/spip.php?article42404
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ports d’attache : Football\, supporters et identités dans les 
  villes portuaires
 DTSTART;TZID=Europe/Paris:20261112T180000
@@ -1544,6 +1485,21 @@ DESCRIPTION:https://www.videodrome2.fr/alternative-fantasy-otesanek-de-jan
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/alternative-fantasy-otesanek-de-jan-svankma
  jer/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Séance spéciale : Mères à perpétuité
+DTSTART;TZID=Europe/Paris:20261112T194500
+DTEND;TZID=Europe/Paris:20261112T214500
+UID:04069740f43a@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Séance spéciale en partenariat avec Le Théâtre du Gymnase 
+ en écho au spectacle "Médée/s" joué au Théâtre des Bernardines. Séa
+ nce de Mères à perpétuité suivie d'un échange avec la réalisatrice d
+ u docum\nhttps://lesvarietes-marseille.com/FR/fiche-film-cinema/M2EYUS/mer
+ es-a-perpetuite.html
+LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
+URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/M2EYUS/meres-a-
+ perpetuite.html
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RATS DON’T SINK + Vodk47 + Bad Call
@@ -1676,6 +1632,30 @@ CATEGORIES:bars
 DESCRIPTION:https://www.instagram.com/p/DepXKMtOT_j/
 LOCATION:L'Intermédiaire - L'Intermédiaire
 URL:https://www.instagram.com/p/DepXKMtOT_j/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RDV LE 13.11 À LA CAMARADERIE ⚡
+DTSTART;TZID=Europe/Paris:20261113T200000
+DTEND;TZID=Europe/Paris:20261113T000000
+UID:7bc0815409ad@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : prix libre / 8€ prix conscient\nhttps://www.instagram
+ .com/p/DfUS1aiIuFx/
+LOCATION:La Camaraderie - La Camaraderie
+URL:https://www.instagram.com/p/DfUS1aiIuFx/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rencontre-Projection Les Âmes Bossales
+DTSTART;TZID=Europe/Paris:20261113T203000
+DTEND;TZID=Europe/Paris:20261113T223000
+UID:70539f8a1016@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:Projection-rencontre autour d'Haïti avec le film Les Âmes Bo
+ ssales Venez découvrir sur grand écran un film rare et puissant qui subl
+ ime la combativité\, la créativité et la dignité d’haïtiennes et d
+ ’ha\nhttps://www.facebook.com/events/1657650919055617/
+LOCATION:Transit librairie - Cinéma Le Chambord Officiel
+URL:https://www.facebook.com/events/1657650919055617/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La fête est politique Si jamais vous en doutiez.
@@ -2025,6 +2005,18 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/un-dimanche-a-rome-vers-un-avenir-radieux/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:DIM 15 NOV - 20H
+DTSTART;TZID=Europe/Paris:20261115T200000
+DTEND;TZID=Europe/Paris:20261115T010000
+UID:4a2da7580bbc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Soirée musicale avec TIQ\, STEREOVOID et FRANCKY LA NIGHT dan
+ s le cadre d'un événement à L'Embobineuse.\nPrix : prix libre€ + 2€
+  adh.\nhttps://www.instagram.com/p/DfRj5K9RmWh/
+LOCATION:L'Embobineuse
+URL:https://www.instagram.com/p/DfRj5K9RmWh/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tiq & Sterevoid & friends
 DTSTART;TZID=Europe/Paris:20261115T200000
 DTEND;TZID=Europe/Paris:20261115T010000
@@ -2105,6 +2097,21 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/comment-reussir-a-
  se-parler/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/comment-reussir-a-se-parler/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ciné-débat : Je veux bien
+DTSTART;TZID=Europe/Paris:20261116T194500
+DTEND;TZID=Europe/Paris:20261116T214500
+UID:853ef4de9512@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Séance suivie d'un échange avec Les cinéastes Boris Claret
+ \, Isabelle Dario et Vincent Glenn La magistrate Prune Helter-Noah La psyc
+ hologue du travail\, membre de Solidaire Emploi\, Nabila Oumakhlouf Le \nh
+ ttps://lesvarietes-marseille.com/FR/fiche-film-cinema/MW92IK/je-veux-bien.
+ html
+LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
+URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MW92IK/je-veux-
+ bien.html
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Nuits Noires] MYSTERIOUS SKIN de Gregg Araki (2005) | En présenc
@@ -2245,19 +2252,6 @@ DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-6eme-j
  our
 LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/le-6eme-jour
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Éveil musical
-DTSTART;TZID=Europe/Paris:20261118T100000
-DTEND;TZID=Europe/Paris:20261118T103000
-UID:8065abfd0f21@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/32333505_eveil-musical-503011
- 5
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/32333505
- _eveil-musical-5030115
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
@@ -2413,6 +2407,18 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/maghreb-des-anthro
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/maghreb-des-anthropologues-acteurs-pratiqu
  es-et-espaces/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open studios
+DTSTART;TZID=Europe/Paris:20261119T160000
+DTEND;TZID=Europe/Paris:20261119T200000
+UID:91774d04cd4d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Découvrez les travaux en cours des artistes en résidence. Un
+ e proposition de Triangle-Astérides\nPrix : Gratuit !\nhttps://www.lafric
+ he.org/evenements/open-studios-5/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/open-studios-5/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Informer en démocratie : enjeux et responsabilités des médias e
@@ -2588,6 +2594,19 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51839315
  _conference-la-condition-de-lexile
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les 28ème rencontres du cinéma Sud-Américain ASPAS au Gyptis
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+UID:e3a15c7c3646@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Le cinéma Le Gyptis accueille pour trois séances uniques le 
+ festival ASPAS pour sa 28ème édition des rencontres du cinéma Sud-Amér
+ icain 🌞 "Cette année\, les Rencontres du cinéma sud-américain propos
+ ent\nhttps://www.facebook.com/events/2698736830564087/
+LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
+URL:https://www.facebook.com/events/2698736830564087/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier créatif - Broderie japonaise Sashiko
@@ -3164,6 +3183,19 @@ URL:https://www.lafriche.org/evenements/guerillia-mener-la-bataille-cultur
  elle-de-lintelligence-artificielle/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival des Solidarités 2026 : THE OLD OAK de Ken Loach
+DTSTART;TZID=Europe/Paris:20261126T190000
+DTEND;TZID=Europe/Paris:20261126T210000
+UID:3e45481159c5@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:📆 Jeudi 26 novembre à 19h Projection gratuite dans le cadr
+ e du Festival des Solidarités\, porté par la Mairie des 2ème et 3ème a
+ rrondissements de Marseille Après la séance\, des ateliers seront propos
+ és\nhttps://www.facebook.com/events/1180233201087708/
+LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
+URL:https://www.facebook.com/events/1180233201087708/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Présentation de "Nouvelle cartographie électorale de la France"
 DTSTART;TZID=Europe/Paris:20261126T190000
 DTEND;TZID=Europe/Paris:20261126T210000
@@ -3285,12 +3317,11 @@ DTSTART;TZID=Europe/Paris:20261127T210000
 DTEND;TZID=Europe/Paris:20261127T230000
 UID:0e6d7744cb98@marseille-agenda
 CATEGORIES:bars
-DESCRIPTION:Azurcore Booking presents the 10th Hardcore Series featuring R
- ECLAIMED\, LOSING PATIENCE\, and SWIRL.\nPrix : 6€ en prévente Helloass
- o / 8€ sur place (espèces ou CB)\nhttps://www.instagram.com/p/Deo2K7nKN
- GA/
+DESCRIPTION:Concert featuring LOSING PATIENCE\, DÉFLAGRATION\, and SWIRL.
+ \nPrix : 6€ en prévente Helloasso / 8€ sur place (espèces ou CB)\nht
+ tps://www.instagram.com/p/DfU8iFXMTqs/
 LOCATION:L'Intermédiaire - L'Intermédiaire
-URL:https://www.instagram.com/p/Deo2K7nKNGA/
+URL:https://www.instagram.com/p/DfU8iFXMTqs/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club Cabaret
@@ -4257,6 +4288,33 @@ DESCRIPTION:
 LOCATION:CIRA Marseille
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[avp] LA CONSCIENCE POLITIQUE de Léolo Victor-Pujebet | Avec Geof
+ froy de Lagasnerie
+DTSTART;TZID=Europe/Paris:20261212T180000
+DTEND;TZID=Europe/Paris:20261212T200000
+UID:c93c12f16585@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ Avant-première en présence de de Geoffroy de Lagasnerie 
+ et de Léolo Victor-Pujebet. ▉ Dans le cadre du rendez-vous documentaire
+  de La Baleine\, en partenariat avec La Cinémathèque du documentaire. Sa
+ \nhttps://marseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Braderie de Noël : Affiches et DVD à La Baleine !
+DTSTART;TZID=Europe/Paris:20261213T150000
+DTEND;TZID=Europe/Paris:20261213T170000
+UID:4aa9560d1b08@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Le 13 décembre\, pour chiner ou pour offrir\, La Baleine s’
+ affiche ! -------- Dimanche 13 décembre de 15h à 19h -------- La Baleine
+  vide ses greniers et vous propose ses affiches et stock de DVD du dist\nh
+ ttps://www.facebook.com/events/1445571474368966/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://www.facebook.com/events/1445571474368966/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Théâtre de lumière et jeu d'ombre
 DTSTART;TZID=Europe/Paris:20261213T200000
 DTEND;TZID=Europe/Paris:20261213T220000
@@ -4540,6 +4598,17 @@ DESCRIPTION:https://mucem.org/evenement/atelier-de-dabke-traditionnelle-et
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/atelier-de-dabke-traditionnelle-et-contemp
  oraine/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261219T150000
+DTEND;TZID=Europe/Paris:20261219T160000
+UID:67b4d59c5754@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ateliers & Médiation #Faire Famille – Machines à Histoires et 
@@ -5332,6 +5401,16 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PAERISH + mirabelle
+DTSTART;TZID=Europe/Paris:20270131T203000
+DTEND;TZID=Europe/Paris:20270131T223000
+UID:ecec93e00664@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/paerish/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/paerish/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 3 - Watteau\, un peintre à la mode

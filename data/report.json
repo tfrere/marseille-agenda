@@ -1,73 +1,67 @@
 {
- "run_date": "2026-11-04",
+ "run_date": "2026-11-05",
  "sources_total": 50,
- "sources_ok": 50,
+ "sources_ok": 46,
  "sources_skipped_unchanged": 0,
- "events_published": 600,
- "events_new": 119,
- "events_rejected_grounding": 194,
- "events_rejected_verifier": 9,
+ "events_published": 616,
+ "events_new": 36,
+ "events_rejected_grounding": 193,
+ "events_rejected_verifier": 15,
  "events_uncertain": 0,
  "alerts": [
   {
    "level": "warning",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "3 consecutive failures on https://mars-infos.org/%2B-manifesten-827-%2B: re-discovering"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-11"
+   "message": "no upcoming event on source at last check; next generation attempt 2026-11-11"
   },
   {
    "level": "warning",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.lafriche.org/agenda/",
-   "message": "verifier rejected 'Visite flash' 2026-11-28: The excerpt states 'Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h', indicating 30-minute tours starting at 15h, 16h, and 17h, which contradicts the extracted end_time of 16:00:00."
+   "message": "verifier rejected 'Visite flash' 2026-11-28: The excerpt specifies visits of '30 minutes' with distinct sessions at '15h / 16h / 17h', contradicting the extracted end time of 16:00:00."
   },
   {
    "level": "warning",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.lafriche.org/agenda/",
-   "message": "verifier rejected 'Visite flash' 2026-12-19: The excerpt states 'Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h', meaning 16h is a separate tour start time (lasting 30 minutes), contradicting the extracted end_time of 16:00:00."
+   "message": "verifier rejected 'Visite flash' 2027-01-09: The extracted end_time of 16:00:00 contradicts the excerpt, which lists separate 30-minute sessions at '15h / 16h / 17h' ('Des visites commentées des expositions de 30 minutes')."
   },
   {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "message": "verifier rejected 'Visite flash' 2027-01-09: The excerpt states 'Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h', contradicting the extracted end_time of 16:00:00 (16h is the start of a subsequent 30-minute tour slot, not the end time)."
+   "level": "error",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "source_url": "https://musees.marseille.fr/",
+   "message": "source failed, last verified state kept: fetch: Server error '500 500 Service unavailable (with message)' for url 'https://musees.marseille.fr/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: \"Permanence de Mille Bâbords et de sa médiathèque\" represents the drop-in opening hours of the venue itself and its media library, not a public event."
+   "message": "verifier rejected 'Permanence juridique et syndicale de l’Union Locale CNT 13 annulée' 2026-11-05: The event is marked as 'scheduled' but the title explicitly specifies it is cancelled: 'Permanence juridique et syndicale de l’Union Locale CNT 13 annulée'."
+  },
+  {
+   "level": "warning",
+   "venue_id": "mille-babords",
+   "source_url": "https://www.millebabords.org/spip.php?rubrique2",
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: The entry 'Permanence de Mille Bâbords et de sa médiathèque' represents opening/drop-in hours for the venue and its media library rather than a discrete public event."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'La vie farpaite |\\xa0films du collectif LFKs' 2026-11-05: The excerpt states the cycle runs 'du mardi 3 novembre 2026 au jeudi 5 novembre 2026', contradicting the extracted start_date of 2026-11-05."
+   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the cycle runs 'du mercredi 11 novembre 2026 au jeudi 12 novembre 2026', but start_date was extracted as 2026-11-12 instead of 2026-11-11."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the cycle runs 'du mercredi 11 novembre 2026 au jeudi 12 novembre 2026', but the extracted start_date is 2026-11-12 instead of 2026-11-11."
+   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt gives no start time other than the date marker '[2026-11-14T00:00:00+01:00] samedi 14 novembre 2026', from which the +01:00 timezone offset was erroneously extracted as a 01:00:00 start time."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt indicates only the date \"[2026-11-14T00:00:00+01:00] samedi 14 novembre 2026\" with no 01:00:00 start time; this appears to be a timezone parsing artifact of midnight."
-  },
-  {
-   "level": "warning",
-   "venue_id": "videodrome-2",
-   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start date is 2027-01-20, but the excerpt states the cycle runs \"du mercredi 30 septembre 2026 au mercredi 20 janvier 2027\", making 2027-01-20 the end date rather than the start date."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The excerpt states the cycle runs \"du mercredi 30 septembre 2026 au mercredi 20 janvier 2027\", so the start date is 2026-09-30, not 2027-01-20 (which is the end date)."
   },
   {
    "level": "warning",
@@ -91,14 +85,86 @@
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt specifies the year 2026 ('au 16 mars 2026 à 21h00', 'Dimanche 15 mars 2026 à 18h'), not 2027."
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly states '16 mars 2026' and 'Dimanche 15 mars 2026', contradicting the extracted year 2027 (2027-03-15)."
+  },
+  {
+   "level": "error",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook fetch failed 8x: apify~facebook-posts-scraper: no_items"
+  },
+  {
+   "level": "error",
+   "venue_id": "l-intermediaire",
+   "source_url": "https://www.facebook.com/Intermediaire.live/",
+   "message": "facebook fetch failed 2x: apify~facebook-posts-scraper: no_items"
+  },
+  {
+   "level": "error",
+   "venue_id": "la-colorada",
+   "source_url": "https://www.facebook.com/lacoloradamarsella/",
+   "message": "facebook fetch failed 36x: apify~facebook-posts-scraper: not_available"
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-fabulerie",
+   "source_url": "https://www.facebook.com/Fabulerie/",
+   "message": "facebook verifier rejected \"Exposition Allo, à l'eau ?!\" 2026-11-27: The flyer places this event elsewhere: under \"Exposition Allo, à l'eau ?!\" 27/11 it reads \"Expérience téléphonique autour de l'eau / Scènes croisées / Saint-Germain-de-Calberte (34)\", i.e. in Lozère, not at La Fabulerie in Marseille — the venue is only sharing its monthly agenda."
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-fabulerie",
+   "source_url": "https://www.facebook.com/Fabulerie/",
+   "message": "facebook verifier rejected 'Exposition Bouches-à-oreilles' 2026-11-28: The flyer's \"Expositions\" list shows the 28/11 -> 29/11 \"Exposition Bouches-à-oreilles\" is located at \"Saint-Étienne-Vallée-Française (48)\" (\"On s'engraine - Le Gimstel\"), not at La Fabulerie in Marseille; the Marseille (13) edition of that exhibition runs \"01/11 -> 30/11\". The extracted event therefore takes place at a different venue than the one given."
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-fabulerie",
+   "source_url": "https://www.facebook.com/Fabulerie/",
+   "message": "facebook verifier rejected 'Résidence Emma Pujar & Dav Guedin | La Martinerie' 2026-11-05: The flyer places this event at \"Saint-Martin-de-Boubaix (48)\" in Lozère, not at the given venue La Fabulerie in Marseille — the caption only shares it (\"Pleins d'occasions de se retrouver à Marseille et en Lozère\"). The date (05/11, 18h30) matches, but the venue is wrong."
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-fabulerie",
+   "source_url": "https://www.facebook.com/Fabulerie/",
+   "message": "facebook verifier rejected 'Vernissage Nadin.Nadine' 2026-11-08: The flyer places this vernissage at \"16h à la Martinerie — Saint-Germain-de-Calberte (48)\", i.e. in Lozère, not at the given venue La Fabulerie (Marseille); the post is only La Fabulerie's shared agenda (\"Pleins d'occasions de se retrouver à Marseille et en Lozère\")."
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-fabulerie",
+   "source_url": "https://www.facebook.com/Fabulerie/",
+   "message": "facebook verifier rejected 'Résidence Emma Pujar & Dav Guedin | La Martinerie' 2026-11-09: The flyer places this event at \"Saint-Etienne-Vallée-Française (48)\" — \"09/11 Résidence Emma Pujar & Dav Guedin | La Martinerie Atelier BD-Poème(s) Avec l'école élémentaire / Saint-Etienne-Vallée-Française (48)\" — not at La Fabulerie in Marseille, which merely shares it in its November agenda; it is also a school-only workshop (\"Avec l'école élémentaire\"), not a public event."
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-fabulerie",
+   "source_url": "https://www.facebook.com/Fabulerie/",
+   "message": "facebook verifier rejected 'Résidence Emma Pujar & Dav Guedin | La Martinerie' 2026-11-13: The flyer places this event in Lozère, not at the given venue: \"13/11 Résidence Emma Pujar & Dav Guedin | La Martinerie Atelier autour de la mémoire → La Soleillade Collet-de-Dèze (48)\". La Fabulerie (Marseille) is only the account sharing its monthly agenda (\"Pleins d'occasions de se retrouver à Marseille et en Lozère\"), so the venue is wrong."
+  },
+  {
+   "level": "warning",
+   "venue_id": "la-fabulerie",
+   "source_url": "https://www.facebook.com/Fabulerie/",
+   "message": "facebook post analysis error (1/3): UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+  },
+  {
+   "level": "warning",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.facebook.com/cinemalegyptis/",
+   "message": "facebook verifier rejected '19H' 2026-11-05: The flyer fragment shows only \"19H\" and the text \"solidarités porté par la Mairie du 2e\", pointing to the Mairie du 2e arrondissement rather than the given venue Le Gyptis, and no date is visible to support 2026-11-05 (the \"title\" is merely a time)."
+  },
+  {
+   "level": "warning",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.facebook.com/cinemalegyptis/",
+   "message": "facebook post https://www.facebook.com/reel/1092012147156014/ abandoned after 3 failed analyses: UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
   }
  ],
- "llm_calls": 138,
- "posts_analyzed": 0,
- "apify_runs": 0,
- "images_published": 535,
+ "llm_calls": 73,
+ "posts_analyzed": 21,
+ "apify_runs": 27,
+ "images_published": 540,
  "images_failed": 0,
- "credits_remaining_usd": 49.0595,
- "run_cost_usd": 0.7435
+ "credits_remaining_usd": 48.8211,
+ "run_cost_usd": 0.1554
 }

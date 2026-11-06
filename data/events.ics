@@ -11,10 +11,10 @@ DTEND;VALUE=DATE:20270426
 UID:a09713f21970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/par-une-langue-echappee-nouveau-pa
- rcours-des-collections-modernes-et-contemporaines
+ rcours-des-collections-modernes-et-contemporaines?museum=musee-cantini
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
- es-collections-modernes-et-contemporaines
+ es-collections-modernes-et-contemporaines?museum=musee-cantini
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -33,9 +33,11 @@ DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20270111
 UID:e0d08c10845b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/adrien-vescovi
+DESCRIPTION:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la
+ -vieille-charite
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/adrien-vescovi
+URL:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille
+ -charite
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -58,18 +60,6 @@ CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/voix-publiques-louisa-babari
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/voix-publiques-louisa-babari
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CHANTS Afro cubanos
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20270101
-UID:fcc7ab13e10a@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Cours hebdomadaire de chants afro-cubains à La Colorada\, cha
- que jeudi à partir du 24 septembre 2026 de 19h à 20h.\nhttps://www.insta
- gram.com/p/DdQ2MPcOltW/
-LOCATION:La Colorada - La Colorada
-URL:https://www.instagram.com/p/DdQ2MPcOltW/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Error #00 avec Les
@@ -103,11 +93,9 @@ DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270621
 UID:5ea844f05bff@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence?museum=muse
- um-dhistoire-naturelle-de-marseille-mhnm
+DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dhist
- oire-naturelle-de-marseille-mhnm
+URL:https://musees.marseille.fr/dinosaures-de-provence
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:En Ribambelle !
@@ -122,49 +110,16 @@ URL:https://www.facebook.com/friche.labelledemai/posts/pfbid07BQyAdJynoVuj
  kvTE5eETUSRx7gcUy2vML34Qc5qdXoj5266KWVJMvrHiUzPm24Cl
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cartographie sensible et mémoires recomposées
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261214
-UID:a8ce05c3d37b@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L
- 6jNfUkgb4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl
-LOCATION:Friche la Belle de Mai
-URL:https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L6jNfUkgb
- 4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Désobéir à l’ère numérique
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261214
-UID:6f14ee909a1a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L
- 6jNfUkgb4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl
-LOCATION:Friche la Belle de Mai
-URL:https://www.facebook.com/friche.labelledemai/posts/pfbid02xg7L6jNfUkgb
- 4GstUu3g21NwDEts278CUuimpGC9R4GrvrQFfpS8QeCMvM8QhrREl
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA VIE FARPAITE 🤖
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261214
-UID:d25ada1adb45@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition présentant une partie rarement montrée du fonds d
- e LFKs.\nhttps://urls.fr/l2VLuK
-LOCATION:Friche la Belle de Mai
-URL:https://urls.fr/l2VLuK
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Souffles terrestres
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261214
 UID:aa4d4ed7bbb1@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/souffles-terrestres
+DESCRIPTION:https://musees.marseille.fr/souffles-terrestres?museum=centre-
+ de-la-vieille-charite
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/souffles-terrestres
+URL:https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vi
+ eille-charite
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unworlding
@@ -262,17 +217,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/la-vie-farpaite/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le corset
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261109
-UID:f9d407797eb6@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection dans le cadre de Cinémanimé\nhttps://cinemalegypt
- is.org/films/le-corset/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/le-corset/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Entrez libres
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261108
@@ -287,6 +231,17 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le corset
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261109
+UID:f9d407797eb6@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Projection dans le cadre de Cinémanimé\nhttps://cinemalegypt
+ is.org/films/le-corset/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/le-corset/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Shaun le mouton : La Bêêête d’Halloween
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261108
@@ -298,20 +253,6 @@ LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/shaun-le-mouton-la-beeete-dhalloween/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261116
-UID:fdba37cd1508@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Films Femmes Méditerranée
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261114
@@ -320,102 +261,6 @@ CATEGORIES:cinema
 DESCRIPTION:05 - 13 NOVEMBRE 2026\nhttps://www.films-femmes-med.org/
 LOCATION:Les Variétés
 URL:https://www.films-femmes-med.org/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261126
-UID:24a076fa0d99@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cartographie sensible et mémoires recomposées
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261214
-UID:7c6f376e728a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
- ontre-récits face aux logiques d’effacement culturel\, politique ou col
- onial\, tout en révélant la fragilité des représentations contemporain
- es. Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/car
- tographie-sensible-et-memoires-recomposees/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-
- recomposees/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ce que nous voyons nous regarde
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20270118
-UID:188d8e6ef4c1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition collective de 16 installations en provenance de
-  8 pays de méditerranée qui invitent à reconnaître\, derrière chaque 
- image\, une présence humaine\, politique\, irréductible. Une proposition
-  de Instants Vidéo\nhttps://www.lafriche.org/evenements/ce-que-nous-voyon
- s-nous-regarde/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Désobéir à l’ère numérique
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261214
-UID:a7d473e7d6c1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les artistes de cette exposition investissent les failles des 
- systèmes numériques contemporains pour en révéler les mécanismes invi
- sibles\, devenant ainsi matériaux à détourner\, perturber ou infiltrer.
-  Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/desobe
- ir-a-lere-numerique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/desobeir-a-lere-numerique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La vie farpaite
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261214
-UID:dafc084dc939@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
- même devenu une œuvre\, à découvrir dans les Cathédrales. Une proposi
- tion de LFKs-La Fabriks\nPrix : Gratuit !\nhttps://www.lafriche.org/evenem
- ents/la-vie-farpaite/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/la-vie-farpaite/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261108
-UID:63a14272748c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
-  propose de découvrir un ensemble d'activités créatives en lien avec la
-  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
- llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
- afriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unworlding
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261116
-UID:58dff25981ad@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Transition écologique et sociale\, pratiques responsables\, comme
@@ -432,74 +277,6 @@ LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/91003401
  _rencontres-de-la-fraap-federation-des-reseaux-et-associations-dartistes-p
  lasticiennes-et-plasticiens
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261126
-UID:422d137d64cd@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cartographie sensible et mémoires recomposées
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261214
-UID:795d6d3b9ede@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les œuvres présentées dans cette exposition proposent des c
- ontre-récits face aux logiques d’effacement culturel\, politique ou col
- onial\, tout en révélant la fragilité des représentations contemporain
- es. Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/car
- tographie-sensible-et-memoires-recomposees/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-
- recomposees/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ce que nous voyons nous regarde
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20270118
-UID:67797190d27e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition collective de 16 installations en provenance de
-  8 pays de méditerranée qui invitent à reconnaître\, derrière chaque 
- image\, une présence humaine\, politique\, irréductible. Une proposition
-  de Instants Vidéo\nhttps://www.lafriche.org/evenements/ce-que-nous-voyon
- s-nous-regarde/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Désobéir à l’ère numérique
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261214
-UID:473cee04289b@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Les artistes de cette exposition investissent les failles des 
- systèmes numériques contemporains pour en révéler les mécanismes invi
- sibles\, devenant ainsi matériaux à détourner\, perturber ou infiltrer.
-  Une proposition de CHRONIQUES\nhttps://www.lafriche.org/evenements/desobe
- ir-a-lere-numerique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/desobeir-a-lere-numerique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La vie farpaite
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261214
-UID:ba19f16ff279@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
- même devenu une œuvre\, à découvrir dans les Cathédrales. Une proposi
- tion de LFKs-La Fabriks\nPrix : Gratuit !\nhttps://www.lafriche.org/evenem
- ents/la-vie-farpaite/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/la-vie-farpaite/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture ado
@@ -739,7 +516,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites Flash
 DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20261112
 UID:87a6d2ebc970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visites-flash/

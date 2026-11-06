@@ -1,12 +1,12 @@
 {
  "run_date": "2026-11-06",
  "sources_total": 50,
- "sources_ok": 46,
+ "sources_ok": 49,
  "sources_skipped_unchanged": 0,
  "events_published": 613,
- "events_new": 17,
- "events_rejected_grounding": 194,
- "events_rejected_verifier": 8,
+ "events_new": 0,
+ "events_rejected_grounding": 192,
+ "events_rejected_verifier": 6,
  "events_uncertain": 0,
  "alerts": [
   {
@@ -19,37 +19,31 @@
    "level": "warning",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.lafriche.org/agenda/",
-   "message": "verifier rejected 'Visite flash' 2027-01-09: The excerpt lists 30-minute tours starting at three separate times ('Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h'), which contradicts the extracted end time of 16:00:00."
-  },
-  {
-   "level": "error",
-   "venue_id": "mac-musee-d-art-contemporain",
-   "source_url": "https://musees.marseille.fr/",
-   "message": "source failed, last verified state kept: fetch: timed out"
+   "message": "verifier rejected 'Visite flash' 2027-01-09: The excerpt states 'Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h', indicating three distinct 30-minute tour slots rather than an event ending at 16:00:00."
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: \"Permanence de Mille Bâbords et de sa médiathèque\" represents the regular opening hours/drop-in session of the venue and its media library rather than a distinct public event."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: The entry 'Permanence de Mille Bâbords et de sa médiathèque' corresponds to the venue and media library's regular opening hours rather than a public event, and the excerpt provides no year or weekday for '09 novembre'."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the cycle runs \"du mercredi 11 novembre 2026 au jeudi 12 novembre 2026\", contradicting the extracted start_date of 2026-11-12."
+   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The cycle runs \"du mercredi 11 novembre 2026 au jeudi 12 novembre 2026\", making the start date 2026-11-11, not 2026-11-12."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt contains no start time for this event ('samedi 14 novembre 2026'); the extracted time '01:00:00' is an artifact from the '+01:00' timezone offset."
+   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt gives `[2026-11-14T00:00:00+01:00] samedi 14 novembre 2026` with no start time of 01:00:00; extracting 01:00:00 is an artifact of the `+01:00` timezone offset."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The excerpt states the cycle runs 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027', so the start date is 2026-09-30, not 2027-01-20 (which is the end date)."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date of 2027-01-20 is actually the end date of the cycle; the excerpt specifies 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027'."
   },
   {
    "level": "warning",
@@ -64,6 +58,12 @@
    "message": "no upcoming event on source at last check; next generation attempt 2026-11-09"
   },
   {
+   "level": "error",
+   "venue_id": "l-embobineuse",
+   "source_url": "https://www.lembobineuse.biz/events/upcoming",
+   "message": "source failed, last verified state kept: fetch: _ssl.c:983: The handshake operation timed out"
+  },
+  {
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
@@ -73,44 +73,14 @@
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly states the year is 2026 ('Du 15 mars à 18h00 au 16 mars 2026 à 21h00'), which contradicts the extracted date of 2027-03-15 and makes this a past event relative to today (2026-11-06)."
-  },
-  {
-   "level": "error",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook fetch failed 9x: apify~facebook-posts-scraper: no_items"
-  },
-  {
-   "level": "error",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.facebook.com/Intermediaire.live/",
-   "message": "facebook fetch failed 3x: apify~facebook-posts-scraper: no_items"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram verifier rejected 'UN PAYS QUI SE TIENT SAGE' 2026-11-14: The caption places the screening at a different venue than the one given: \"Réserve vite ta place sur le site du Gyptis !\" — the event is at Le Gyptis (its own ticketing site), not at Friche la Belle de Mai. The date/time themselves are consistent (\"Samedi 14 novembre à 20h (1h26)\", and 2026-11-14 is indeed a samedi)."
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram verifier rejected 'Mères à perpétuité' 2026-11-12: The screening is at Les Variétés (flyer: \"LES VARIETES CINEMA ART ET ESSAI\"), while the caption states it is only \"en partenariat avec Le Théâtre du Gymnase\" — the extracted location_name \"Théâtre du Gymnase\" is the partner venue, not the venue hosting the event."
-  },
-  {
-   "level": "error",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 37x: apify~facebook-posts-scraper: not_available"
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly states the year 2026: 'Du 15 mars à 18h00 au 16 mars 2026 à 21h00', which contradicts the extracted date 2027-03-15 and indicates the event has already occurred relative to today (2026-11-06)."
   }
  ],
- "llm_calls": 35,
- "posts_analyzed": 9,
- "apify_runs": 17,
- "images_published": 544,
+ "llm_calls": 6,
+ "posts_analyzed": 0,
+ "apify_runs": 0,
+ "images_published": 527,
  "images_failed": 0,
- "credits_remaining_usd": 47.0247,
- "run_cost_usd": 0.0797
+ "credits_remaining_usd": 45.2671,
+ "run_cost_usd": 0.0326
 }

@@ -2313,7 +2313,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Voix Publiques - Louisa Babari' at Musée d'art contemporain [mac] from 19 septembre 2026 to 03 janvier 2027.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -6452,7 +6452,7 @@
    "end_date": "2027-04-25",
    "end_time": "00:00:00",
    "location_name": null,
-   "url": "https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines",
+   "url": "https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines?museum=musee-cantini",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -6464,12 +6464,12 @@
    "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "\"Par une langue échappée\", nouveau parcours des collections modernes et contemporaines (https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines) Musée Cantini (https://musees.marseille.fr/liste-des-expositions) - Du [2026-05-08T07:00:00Z] 08 ma"
+    "\"Par une langue échappée\", nouveau parcours des collections modernes et contemporaines (https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-des-collections-modernes-et-contemporaines?museum=musee-cantini) Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027 "
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition is explicitly announced with dates 'Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027' and matching URL.",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -6486,7 +6486,7 @@
    "end_date": "2027-01-10",
    "end_time": "00:00:00",
    "location_name": null,
-   "url": "https://musees.marseille.fr/adrien-vescovi",
+   "url": "https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille-charite",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -6498,12 +6498,12 @@
    "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "Dormir comme le soleil - Adrien Vescovi (https://musees.marseille.fr/adrien-vescovi) Centre de la Vieille Charité - (CVC) (https://musees.marseille.fr/liste-des-expositions) - Du [2026-05-16T07:00:00Z] 16 mai 2026 au [2027-01-10T17:00:00Z] 10 janvier 2027 Découvrir l'exposition (https://musees.marse"
+    "Dormir comme le soleil - Adrien Vescovi (https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille-charite) Du [2026-05-16T07:00:00Z] 16 mai 2026 au [2027-01-10T17:00:00Z] 10 janvier 2027 Découvrir l'exposition (https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille-char"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition is confirmed in the source excerpt: 'Du [2026-05-16T07:00:00Z] 16 mai 2026 au [2027-01-10T17:00:00Z] 10 janvier 2027' with URL 'https://musees.marseille.fr/adrien-vescovi'.",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -6588,7 +6588,7 @@
    "end_date": "2027-06-20",
    "end_time": "00:00:00",
    "location_name": null,
-   "url": "https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dhistoire-naturelle-de-marseille-mhnm",
+   "url": "https://musees.marseille.fr/dinosaures-de-provence",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -6600,12 +6600,12 @@
    "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "Dinosaures de Provence (https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dhistoire-naturelle-de-marseille-mhnm) Du [2026-10-10T07:00:00Z] 10 octobre 2026 au [2027-06-20T16:00:00Z] 20 juin 2027 Découvrir l'exposition (https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dh"
+    "Dinosaures de Provence (https://musees.marseille.fr/dinosaures-de-provence) Muséum d'histoire naturelle de Marseille - (MHNM) (https://musees.marseille.fr/liste-des-expositions) - Du [2026-10-10T07:00:00Z] 10 octobre 2026 au [2027-06-20T16:00:00Z] 20 juin 2027 Découvrir l'exposition (https://musees."
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Dinosaures de Provence' running 'Du [2026-10-10T07:00:00Z] 10 octobre 2026 au [2027-06-20T16:00:00Z] 20 juin 2027' at Muséum d'histoire naturelle de Marseille.",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -9014,13 +9014,12 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] (https://www.lafriche.org/evenements/entrez-libres-7/) Biennale des Imaginaires Numériques (https://www.lafriche.org/temps-forts/biennale-des-imaginaires-numeriques-3/) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Numérique (https://www.lafriche.org/agenda/?catego",
-    "same entry listed on every day from 2026-11-04 to 2026-11-07"
+    "[2026-11-06] (https://www.lafriche.org/evenements/entrez-libres-7/) Biennale des Imaginaires Numériques (https://www.lafriche.org/temps-forts/biennale-des-imaginaires-numeriques-3/) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Numérique (https://www.lafriche.org/agenda/?catego"
    ],
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is scheduled for 2026-11-04 from '15h30-17h30' with URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9763,7 +9762,7 @@
    "source_url": "https://transit-librairie.org/-Evenements-",
    "source_kind": "html",
    "evidence": [
-    "Jeudi 12 novembre à 19h Présentation de \"Marcher dans la blessure\" dans le cadre du Festival de la Cimade (https://transit-librairie.org/Presentation-de-Marcher-dans-la-blessure-dans-le-cadre-du-Festival-de-la-Cimade) avec Ali Zare Ghanatnowi. Marcher dans la blessure dans le cadre du Festival de la"
+    "Jeudi 12 novembre à 19h Présentation de \"Marcher dans la blessure\" dans le cadre du Festival de la Cimade (https://transit-librairie.org/Presentation-de-Marcher-dans-la-blessure-dans-le-cadre-du-Festival-de-la-Cimade) avec Ali Zare Ghanatnowi. (https://transit-librairie.org/Presentation-de-Marcher-d"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Jeudi 12 novembre à 19h' matching 2026-11-12 19:00:00 and includes the expected title and URL.",
@@ -9831,7 +9830,7 @@
    "source_url": "https://transit-librairie.org/-Evenements-",
    "source_kind": "html",
    "evidence": [
-    "Mardi 17 novembre à 19 h Présentation de \"SALAM MANIFESTO \" (https://transit-librairie.org/Presentation-de-SALAM-MANIFESTO) Avec Faïza Guène Librairie Transit - 51 Bd de la Libération - Marseille, 13001 Dans SALAM MANIFESTO Faïza Guène ouvre une conversation nécessaire et urgente : souvenirs, récits"
+    "Mardi 17 novembre à 19 h Présentation de \"SALAM MANIFESTO \" (https://transit-librairie.org/Presentation-de-SALAM-MANIFESTO) Avec Faïza Guène Dans SALAM MANIFESTO Faïza Guène ouvre une conversation nécessaire et urgente : souvenirs, récits personnels, réflexions politiques et méditations sur la langu"
    ],
    "verifier": "accept",
    "verifier_reason": "Matches excerpt 'Mardi 17 novembre à 19 h Présentation de \"SALAM MANIFESTO \"' at the given URL.",
@@ -10019,7 +10018,7 @@
    "title_truncated": false,
    "title_completed_from": null,
    "start_date": "2026-11-04",
-   "start_time": "14:00:00",
+   "start_time": "16:00:00",
    "end_date": "2026-11-08",
    "end_time": null,
    "location_name": null,
@@ -10035,13 +10034,12 @@
    "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] Cinémanimé (https://cinemalegyptis.org/films/le-corset/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Séance spéciale (https://cinemalegyptis.org/seances-et-evenement/?categorie=seance-speciale) Jeune public 14h Le corset (https://cinemalegyptis.org/films/le-cor",
-    "same entry listed on every day from 2026-11-04 to 2026-11-08"
+    "[2026-11-07] Cinémanimé (https://cinemalegyptis.org/films/le-corset/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Séance spéciale (https://cinemalegyptis.org/seances-et-evenement/?categorie=seance-speciale) Jeune public 16h Le corset (https://cinemalegyptis.org/films/le-cor"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 4 novembre' at 14h for 'Le corset' with URL 'https://cinemalegyptis.org/films/le-corset/'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -10054,7 +10052,7 @@
    "title_truncated": false,
    "title_completed_from": null,
    "start_date": "2026-11-04",
-   "start_time": "16:00:00",
+   "start_time": "17:00:00",
    "end_date": "2026-11-07",
    "end_time": null,
    "location_name": null,
@@ -10070,13 +10068,12 @@
    "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] Cinémanimé (https://cinemalegyptis.org/films/shaun-le-mouton-la-beeete-dhalloween/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Séance spéciale (https://cinemalegyptis.org/seances-et-evenement/?categorie=seance-speciale) Jeune public 16h Shaun le mouton : La Bê",
-    "same entry listed on every day from 2026-11-04 to 2026-11-07"
+    "[2026-11-06] Cinémanimé (https://cinemalegyptis.org/films/shaun-le-mouton-la-beeete-dhalloween/) Séance (https://cinemalegyptis.org/seances-et-evenement/?type=seance) Séance spéciale (https://cinemalegyptis.org/seances-et-evenement/?categorie=seance-speciale) Jeune public 17h Shaun le mouton : La Bê"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 4 novembre' at '16h' for 'Shaun le mouton : La Bêêête d’Halloween' with URL 'https://cinemalegyptis.org/films/shaun-le-mouton-la-beeete-dhalloween/'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -11905,7 +11902,7 @@
    "title_completed_from": null,
    "start_date": "2026-11-07",
    "start_time": "14:00:00",
-   "end_date": "2026-12-31",
+   "end_date": "2026-11-11",
    "end_time": "16:00:00",
    "location_name": "J4",
    "url": "https://mucem.org/evenement/visites-flash/",
@@ -11920,7 +11917,7 @@
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Visites Flash | 20261107 | 14:00"
+    "Visites Flash | 20261111 | 14:00"
    ],
    "verifier": null,
    "verifier_reason": null,
@@ -14316,13 +14313,13 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] (https://www.lafriche.org/evenements/unworlding/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Unworlding (https://www.lafriche.org/evenements/unworlding/) Exposition collective Une exposition et une série de dialogues publics réunissant artistes et écrivain·es afi",
-    "same entry listed on every day from 2026-11-04 to 2026-11-15"
+    "[2026-11-06] (https://www.lafriche.org/evenements/unworlding/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Unworlding (https://www.lafriche.org/evenements/unworlding/) Exposition collective Une exposition et une série de dialogues publics réunissant artistes et écrivain·es afi",
+    "same entry listed on every day from 2026-11-06 to 2026-11-15"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition 'Unworlding' is confirmed for [2026-11-04] and 'prolongée jusqu'au 15 novembre' with matching URL.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14351,13 +14348,13 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] (https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-recomposees/) Biennale des Imaginaires Numériques (https://www.lafriche.org/temps-forts/biennale-des-imaginaires-numeriques-3/) Saison Méditerranée (https://www.lafriche.org/temps-forts/saison-mediterranee/) Expositi",
-    "same entry listed on every day from 2026-11-04 to 2026-12-13"
+    "[2026-11-06] (https://www.lafriche.org/evenements/cartographie-sensible-et-memoires-recomposees/) Biennale des Imaginaires Numériques (https://www.lafriche.org/temps-forts/biennale-des-imaginaires-numeriques-3/) Saison Méditerranée (https://www.lafriche.org/temps-forts/saison-mediterranee/) Expositi",
+    "same entry listed on every day from 2026-11-06 to 2026-12-13"
    ],
    "verifier": "accept",
    "verifier_reason": "The event 'Cartographie sensible et mémoires recomposées' is confirmed for 2026-11-04 with hours '14h-19h' and matching URL.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14386,13 +14383,13 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] (https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/) Festival Les Instants Vidéo (https://www.lafriche.org/temps-forts/festival-les-instants-video-2/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Numérique (https://www.lafriche.org/agenda/?categor",
-    "same entry listed on every day from 2026-11-04 to 2027-01-17"
+    "[2026-11-06] (https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/) Festival Les Instants Vidéo (https://www.lafriche.org/temps-forts/festival-les-instants-video-2/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Numérique (https://www.lafriche.org/agenda/?categor",
+    "same entry listed on every day from 2026-11-06 to 2027-01-17"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Ce que nous voyons nous regarde' starting on [2026-11-04] with hours '14h-19h' at URL https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14421,13 +14418,13 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] (https://www.lafriche.org/evenements/desobeir-a-lere-numerique/) Biennale des Imaginaires Numériques (https://www.lafriche.org/temps-forts/biennale-des-imaginaires-numeriques-3/) Saison Méditerranée (https://www.lafriche.org/temps-forts/saison-mediterranee/) Exposition (https://www.lafr",
-    "same entry listed on every day from 2026-11-04 to 2026-12-13"
+    "[2026-11-06] (https://www.lafriche.org/evenements/desobeir-a-lere-numerique/) Biennale des Imaginaires Numériques (https://www.lafriche.org/temps-forts/biennale-des-imaginaires-numeriques-3/) Saison Méditerranée (https://www.lafriche.org/temps-forts/saison-mediterranee/) Exposition (https://www.lafr",
+    "same entry listed on every day from 2026-11-06 to 2026-12-13"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition 'Désobéir à l’ère numérique' is scheduled for 2026-11-04 from '14h-19h' at URL https://www.lafriche.org/evenements/desobeir-a-lere-numerique/.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14456,13 +14453,13 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] (https://www.lafriche.org/evenements/la-vie-farpaite/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) La vie farpaite (https://www.lafriche.org/evenements/la-vie-farpaite/) Après 20 ans à la Friche, le grand atelier de LFKs est lui-même devenu une œuvre, à découvrir ",
-    "same entry listed on every day from 2026-11-04 to 2026-12-13"
+    "[2026-11-06] (https://www.lafriche.org/evenements/la-vie-farpaite/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) La vie farpaite (https://www.lafriche.org/evenements/la-vie-farpaite/) Après 20 ans à la Friche, le grand atelier de LFKs est lui-même devenu une œuvre, à découvrir ",
+    "same entry listed on every day from 2026-11-06 to 2026-12-13"
    ],
    "verifier": "accept",
    "verifier_reason": "The event 'La vie farpaite' is confirmed for 'mercredi 4 novembre' [2026-11-04] from '14h-19h' at the extracted URL.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15215,13 +15212,12 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] (https://www.lafriche.org/evenements/labo-des-desirs-3/) Théâtre (https://www.lafriche.org/agenda/?categorie=theatre) Danse (https://www.lafriche.org/agenda/?categorie=danse) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Labo des désirs (https://www.lafriche.org/ev",
-    "same entry listed on every day from 2026-11-04 to 2026-11-06"
+    "[2026-11-06] (https://www.lafriche.org/evenements/labo-des-desirs-3/) Théâtre (https://www.lafriche.org/agenda/?categorie=theatre) Danse (https://www.lafriche.org/agenda/?categorie=danse) Atelier /stage (https://www.lafriche.org/agenda/?categorie=atelier) Labo des désirs (https://www.lafriche.org/ev"
    ],
    "verifier": "accept",
    "verifier_reason": "Verified in source: 'mercredi 4 novembre', 'Labo des désirs', '10h-20h', with URL 'https://www.lafriche.org/evenements/labo-des-desirs-3/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15250,13 +15246,13 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-04] (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Le mauvais œil 88 : Kikifruit (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition de microédition Une proposition de Le Derni",
-    "same entry listed on every day from 2026-11-04 to 2026-11-25"
+    "[2026-11-06] (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Le mauvais œil 88 : Kikifruit (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition de microédition Une proposition de Le Derni",
+    "same entry listed on every day from 2026-11-06 to 2026-11-25"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition 'Le mauvais œil 88 : Kikifruit' is scheduled starting 2026-11-04 at 10h ('10h', 'Gratuit !').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15862,7 +15858,7 @@
    "free": null,
    "recurring": false,
    "image": "img/3df0a06068bb.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/09/Seance-6-500x300.png",
+   "image_source": "https://www.lafriche.org/app/uploads/2026/09/Seance-5-bis-500x300.png",
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
@@ -16136,7 +16132,7 @@
    "free": null,
    "recurring": false,
    "image": "img/dbf56dee2739.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/09/Seance-6-500x300.png",
+   "image_source": "https://www.lafriche.org/app/uploads/2026/09/Seance-5-bis-500x300.png",
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
@@ -16511,7 +16507,7 @@
    "free": null,
    "recurring": false,
    "image": "img/61c6206001f8.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/09/Seance-6-500x300.png",
+   "image_source": "https://www.lafriche.org/app/uploads/2026/09/Seance-5-bis-500x300.png",
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
@@ -16784,7 +16780,7 @@
    "free": null,
    "recurring": false,
    "image": "img/9bb1513beb8a.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/09/Seance-6-500x300.png",
+   "image_source": "https://www.lafriche.org/app/uploads/2026/09/Seance-5-bis-500x300.png",
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
@@ -19092,7 +19088,7 @@
    "end_date": "2026-12-13",
    "end_time": "00:00:00",
    "location_name": null,
-   "url": "https://musees.marseille.fr/souffles-terrestres",
+   "url": "https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vieille-charite",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -19104,12 +19100,12 @@
    "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "Souffles terrestres (https://musees.marseille.fr/souffles-terrestres) Centre de la Vieille Charité - (CVC) (https://musees.marseille.fr/liste-des-expositions) - Du [2026-10-24T07:00:00Z] 24 octobre 2026 au [2026-12-13T17:00:00Z] 13 décembre 2026 Découvrir l'exposition (https://musees.marseille.fr/so"
+    "Souffles terrestres (https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vieille-charite) Du [2026-10-24T07:00:00Z] 24 octobre 2026 au [2026-12-13T17:00:00Z] 13 décembre 2026 Découvrir l'exposition (https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vieille-charite)"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition 'Souffles terrestres' is confirmed running 'Du [2026-10-24T07:00:00Z] 24 octobre 2026 au [2026-12-13T17:00:00Z] 13 décembre 2026' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -20997,11 +20993,11 @@
   },
   "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100": {
    "url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
-   "content_hash": "76c16b64980e8f2f",
+   "content_hash": "6b0effcdad3a5bb8",
    "last_fetched": "2026-11-06",
    "last_ok": "2026-11-06",
    "last_error": null,
-   "event_count": 179,
+   "event_count": 178,
    "uids": [
     "00c92a8eeb39",
     "0149ec33d764",
@@ -21183,7 +21179,9 @@
     "fb9f8b1fb29c",
     "ffabf27b8d4d"
    ],
-   "missing_runs": {}
+   "missing_runs": {
+    "ffabf27b8d4d": 1
+   }
   },
   "venue:manifesten": {
    "url": "venue:manifesten",
@@ -21247,11 +21245,11 @@
   },
   "https://www.lafriche.org/agenda/": {
    "url": "https://www.lafriche.org/agenda/",
-   "content_hash": "b4bd197a79159d55",
+   "content_hash": "c5d5ddcf220b2cc7",
    "last_fetched": "2026-11-06",
    "last_ok": "2026-11-06",
    "last_error": null,
-   "event_count": 150,
+   "event_count": 148,
    "uids": [
     "01f6842d0fcd",
     "057a402a588a",
@@ -21420,21 +21418,23 @@
     "fdf39eed005b"
    ],
    "missing_runs": {
-    "1548239e3401": 2,
-    "47435b944c38": 2,
-    "640b6ad39da4": 2,
-    "3cc575126532": 2,
-    "7c47596f93c2": 2,
-    "bb464e2d5c5d": 2,
-    "0a9a100cea51": 2,
-    "7d696e7e68f4": 2,
-    "a7d473e7d6c1": 1,
-    "fdba37cd1508": 1,
-    "24a076fa0d99": 1,
-    "7c6f376e728a": 1,
-    "188d8e6ef4c1": 1,
-    "63a14272748c": 1,
-    "dafc084dc939": 1
+    "a7d473e7d6c1": 2,
+    "fdba37cd1508": 2,
+    "24a076fa0d99": 2,
+    "7c6f376e728a": 2,
+    "188d8e6ef4c1": 2,
+    "63a14272748c": 2,
+    "dafc084dc939": 2,
+    "fdf39eed005b": 1,
+    "58dff25981ad": 1,
+    "422d137d64cd": 1,
+    "473cee04289b": 1,
+    "debbb9ec4a94": 1,
+    "085d4cf26050": 1,
+    "795d6d3b9ede": 1,
+    "67797190d27e": 1,
+    "ba19f16ff279": 1,
+    "b69b64c1f0ce": 1
    }
   },
   "https://www.instagram.com/frichelabelledemai/": {
@@ -21537,12 +21537,12 @@
     "ecec93e00664"
    ],
    "missing_runs": {
-    "ecec93e00664": 1
+    "ecec93e00664": 2
    }
   },
   "https://www.millebabords.org/spip.php?rubrique2": {
    "url": "https://www.millebabords.org/spip.php?rubrique2",
-   "content_hash": "79a6bd1cdb03a020",
+   "content_hash": "6d5d8ce3cd8a7a14",
    "last_fetched": "2026-11-06",
    "last_ok": "2026-11-06",
    "last_error": null,
@@ -21568,7 +21568,7 @@
   },
   "https://transit-librairie.org/-Evenements-": {
    "url": "https://transit-librairie.org/-Evenements-",
-   "content_hash": "7cdc29f3cd52cd1d",
+   "content_hash": "a73d1666cd112530",
    "last_fetched": "2026-11-06",
    "last_ok": "2026-11-06",
    "last_error": null,
@@ -21704,7 +21704,7 @@
   },
   "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html": {
    "url": "https://lesvarietes-marseille.com/FR/90/festival-cinema-varietes-marseille.html",
-   "content_hash": "845cb32d0606236f",
+   "content_hash": "5064a23d59a5316f",
    "last_fetched": "2026-11-06",
    "last_ok": "2026-11-06",
    "last_error": null,
@@ -21758,7 +21758,7 @@
    "last_fetched": "2026-11-06",
    "last_ok": "2026-11-06",
    "last_error": null,
-   "event_count": 11,
+   "event_count": 9,
    "uids": [
     "0fff0e8d4afa",
     "129877fee753",
@@ -21775,8 +21775,10 @@
     "f9d407797eb6"
    ],
    "missing_runs": {
-    "f9d407797eb6": 2,
-    "dc39d4bf208b": 2
+    "1992d6478d3a": 1,
+    "bc715ea4ff6c": 1,
+    "f504806feb17": 1,
+    "6f9aada45a3c": 1
    }
   },
   "https://www.instagram.com/cinemalegyptis/": {
@@ -21958,11 +21960,11 @@
   },
   "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300": {
    "url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "content_hash": "260792ff09d9f5ba",
+   "content_hash": "e77c83cb905eb21f",
    "last_fetched": "2026-11-06",
    "last_ok": "2026-11-06",
    "last_error": null,
-   "event_count": 56,
+   "event_count": 55,
    "uids": [
     "0fad5442d055",
     "17110cb2347e",
@@ -22021,7 +22023,9 @@
     "f51c678083f0",
     "f559381c443c"
    ],
-   "missing_runs": {}
+   "missing_runs": {
+    "c65f5539e000": 1
+   }
   },
   "https://www.instagram.com/lacoloradamarsella/": {
    "url": "https://www.instagram.com/lacoloradamarsella/",
@@ -22062,10 +22066,10 @@
   },
   "https://musees.marseille.fr/": {
    "url": "https://musees.marseille.fr/",
-   "content_hash": "6f93782e4c83ea38",
+   "content_hash": "5e602f2e1863c950",
    "last_fetched": "2026-11-06",
-   "last_ok": "2026-11-04",
-   "last_error": "fetch: timed out",
+   "last_ok": "2026-11-06",
+   "last_error": null,
    "event_count": 5,
    "uids": [
     "3b62334d0fdf",
@@ -22147,7 +22151,7 @@
    "content_hash": "a89ab35504809111",
    "last_fetched": "2026-11-06",
    "last_ok": "2026-11-06",
-   "last_error": null,
+   "last_error": "fetch: _ssl.c:983: The handshake operation timed out",
    "event_count": 10,
    "uids": [
     "00aa7b4c29a9",

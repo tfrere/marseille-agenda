@@ -54,6 +54,19 @@ def _is_range(e: Event) -> bool:
     return e.end_date is not None and e.end_date > e.start_date
 
 
+def _same_run(a: Event, b: Event) -> bool:
+    """Two date ranges of one run: same venue and last day, same title within a listing, close titles across sources.
+
+    A day-by-day listing folded on different days yields the same exhibition with different first
+    days; Facebook announces it from its opening while the agenda only shows the days ahead.
+    """
+    if a.venue_id != b.venue_id or not (_is_range(a) and _is_range(b)) or a.end_date != b.end_date:
+        return False
+    if a.source_url == b.source_url:
+        return _tokens(a.title) == _tokens(b.title)
+    return _similar_titles(a, b)
+
+
 def _inside_range(single: Event, rng: Event) -> bool:
     """A single-day event that a same-venue range with a matching title already covers.
 
@@ -75,12 +88,13 @@ def published_events(state: State) -> list[Event]:
     Cross-source duplicates carry different titles ("REBECCA, Alfred Hitchcock, 1940" on Instagram
     vs "HANTEES ciné-club : REBECCA d'Hitchcock" on Facebook), so exact uids cannot catch them.
     The state keeps every copy; only the output is folded, preferring the most structured source.
-    Single-day copies of a run that is also published as a date range are folded into the range.
+    Single-day copies of a run that is also published as a date range are folded into the range,
+    and copies of one range that differ only by their first day into the earliest of the best source.
     """
     ranked = sorted(state.events.values(), key=lambda e: (_SOURCE_RANK.get(e.source_kind, 9), _sort_key(e)))
     kept: list[Event] = []
     for e in ranked:
-        winner = next((k for k in kept if k.start_date == e.start_date and _same_event(e, k)), None)
+        winner = next((k for k in kept if (k.start_date == e.start_date and _same_event(e, k)) or _same_run(e, k)), None)
         if winner is None:
             kept.append(e)
         else:

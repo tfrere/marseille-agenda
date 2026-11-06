@@ -133,6 +133,40 @@ def _fold(run: list[E]) -> list[E]:
 _MIDNIGHT = time(0, 0)
 
 
+def continue_known_runs(events: list[E], known: list[Event]) -> list[E]:
+    """Give a run already in the state its known first day back.
+
+    Day-by-day agendas (Friche la Belle de Mai) only list the days still ahead, so a folded run
+    starts "today" on every run. Its uid would change daily: verified again, visual downloaded
+    again, and the copies of the previous days lingering for MISSING_RUNS_BEFORE_DROP runs. An
+    entry whose title and url match a known range of the same source that started earlier and is
+    still running takes that range's first day; the last days of a run (too few to be folded by
+    collapse_daily_runs) join it again. `known`: the source's events in the state.
+    """
+    runs: dict[tuple[str, str], list[Event]] = {}
+    for k in sorted(known, key=lambda k: k.start_date):
+        if k.end_date and k.end_date > k.start_date:
+            runs.setdefault((strip_accents(normalize(k.title)), k.url or ""), []).append(k)
+    out: list[E] = []
+    continued: dict[str, E] = {}
+    for e in events:
+        prev = next((k for k in runs.get((strip_accents(normalize(e.title)), e.url or ""), [])
+                     if k.start_date < e.start_date <= k.end_date + timedelta(days=MAX_CLOSED_DAYS + 1)), None)
+        if prev is None:
+            out.append(e)
+            continue
+        end = e.end_date or e.start_date
+        if prev.uid in continued:
+            run = continued[prev.uid]
+            run.end_date = max(run.end_date, end)
+            continue
+        run = e.model_copy(deep=True)
+        run.start_date, run.end_date = prev.start_date, end
+        continued[prev.uid] = run
+        out.append(run)
+    return out
+
+
 def expire_past(state: State, today: date) -> int:
     gone = [uid for uid, e in state.events.items() if not _still_upcoming(e, today)]
     for uid in gone:

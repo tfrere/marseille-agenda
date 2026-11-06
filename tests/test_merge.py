@@ -155,7 +155,7 @@ def test_published_events_folds_daily_copies_into_the_matching_range():
         ev("Un objet, une histoire - En Ribambelle !", date(2026, 11, 2)),  # after the range: kept
         ev("Un objet, une histoire - En Ribambelle !", date(2026, 10, 26), venue="friche"),  # other venue: kept
         ev("Visite flash", date(2026, 10, 26)),  # unrelated title on a covered day: kept
-        ev("Liteul Pipol", date(2026, 10, 24), end=date(2026, 10, 26)),  # another range: ranges never fold each other
+        ev("Liteul Pipol", date(2026, 10, 24), end=date(2026, 10, 26)),  # another range with another title: kept
         ev("Visites Flash", date(2026, 9, 3), end=date(2026, 10, 11), start=time(14, 0)),  # weeks-long range...
         ev("Visites guidées en LSF de Mossi", date(2026, 9, 26), start=time(14, 0)),  # ...one shared word + same time: kept
     ]:
@@ -170,6 +170,65 @@ def test_published_events_folds_daily_copies_into_the_matching_range():
         ("Un objet, une histoire - En Ribambelle !", "friche", date(2026, 10, 26), None),
         ("Visite flash", "mucem", date(2026, 10, 26), None),
         ("Un objet, une histoire - En Ribambelle !", "mucem", date(2026, 11, 2), None),
+    ]
+
+
+def test_continue_known_runs_keeps_the_first_day_of_a_run_the_listing_no_longer_shows():
+    from marseille_agenda.merge import continue_known_runs
+
+    def rng(title, start, end, url="https://x.test/e"):
+        e = _event(title, start, url=url)
+        e.end_date = end
+        return e
+
+    known = [rng("Unworlding", date(2026, 11, 4), date(2026, 11, 15)),
+             rng("Unworlding", date(2026, 11, 5), date(2026, 11, 15)),  # a copy from the next run: the earliest wins
+             rng("Entrez libres", date(2026, 11, 4), date(2026, 11, 7)),
+             rng("Expo finie", date(2026, 10, 1), date(2026, 11, 2))]
+    today = [_event("Unworlding", date(2026, 11, d)) for d in range(6, 16)]
+    today += [_event("Entrez libres", date(2026, 11, d)) for d in (6, 7)]  # the last two days: not folded
+    today += [_event("Entrez libres", date(2026, 11, d)) for d in (11, 12, 13, 14)]  # next week's session
+    today += [_event("Unworlding", date(2026, 11, d), url="https://x.test/other") for d in range(6, 9)]
+    today += [_event("Expo finie", date(2026, 11, d)) for d in range(6, 9)]  # more than 3 days after the end: new run
+    out = continue_known_runs(collapse_daily_runs(today), known)
+    assert sorted((e.title, e.url[-5:], e.start_date.day, (e.end_date or e.start_date).day) for e in out) == [
+        ("Entrez libres", "est/e", 4, 7),
+        ("Entrez libres", "est/e", 11, 14),
+        ("Expo finie", "est/e", 6, 8),
+        ("Unworlding", "est/e", 4, 15),
+        ("Unworlding", "other", 6, 8),
+    ]
+    assert continue_known_runs(today[:1], []) == today[:1]
+
+
+def test_published_events_folds_copies_of_one_run_with_different_first_days():
+    from marseille_agenda.output import published_events
+    from marseille_agenda.schema import State
+
+    def ev(title, start, end, kind="html", venue="friche"):
+        e = _event(title, start)
+        e.venue_id, e.end_date, e.source_kind = venue, end, kind
+        e.source_url = "https://x.test/agenda/" if kind == "html" else f"{kind}:friche"
+        e.uid = make_uid(venue, title, start) + kind
+        return e
+
+    end = date(2026, 12, 13)
+    st = State()
+    for e in [
+        ev("La vie farpaite", date(2026, 11, 5), end),
+        ev("La vie farpaite", date(2026, 11, 4), end),  # same listing, folded a day earlier: the earliest stays
+        ev("LA VIE FARPAITE 🤖", date(2026, 10, 24), end, kind="facebook"),  # announced from the opening: folded
+        ev("La vie farpaite", date(2026, 11, 4), date(2026, 12, 6)),  # another last day: kept
+        ev("La vie farpaite", date(2026, 11, 4), end, venue="mucem"),  # another venue: kept
+        ev("Désobéir à l’ère numérique", date(2026, 11, 4), end),  # another title: kept
+    ]:
+        st.events[f"{e.uid}-{e.end_date}"] = e
+    out = published_events(st)
+    assert sorted((e.venue_id, e.title, e.source_kind, e.start_date.day, e.end_date.day) for e in out) == [
+        ("friche", "Désobéir à l’ère numérique", "html", 4, 13),
+        ("friche", "La vie farpaite", "html", 4, 6),
+        ("friche", "La vie farpaite", "html", 4, 13),
+        ("mucem", "La vie farpaite", "html", 4, 13),
     ]
 
 

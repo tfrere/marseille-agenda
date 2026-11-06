@@ -42,7 +42,7 @@ from .fetch import SourceDocument, fetch_document, make_client
 from .induce import induce_schema, upcoming_date_count
 from .llm import fetch_credits, make_model
 from .filters import held_here, publishable
-from .merge import collapse_daily_runs, expire_past, forget_events, make_uid, merge_source
+from .merge import collapse_daily_runs, continue_known_runs, expire_past, forget_events, make_uid, merge_source
 from .images import sync_images
 from .output import load_state, published_events, save_state, write_events_json, write_ics, write_report
 from .schema import Alert, Event, RunReport, State, Venue, VenuesFile
@@ -334,6 +334,8 @@ class Runner:
 
         # Day-by-day agendas repeat running exhibitions under every date: one range entry each.
         kept = collapse_daily_runs(kept)
+        kept = continue_known_runs(kept, [e for e in state.events.values()
+                                          if e.venue_id == venue.id and e.source_url == record.source.url])
         # Category rules (cinemas: special sessions only), before paying for any verification.
         kept, dropped = publishable(venue, kept)
         if dropped:

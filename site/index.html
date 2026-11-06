@@ -72,7 +72,8 @@
   body[data-view="agenda"] .subtabs, body[data-view="agenda"] .sub .search, body[data-view="agenda"] .liste { display: none; }
   body[data-view="liste"] .nav, body[data-view="liste"] .agendaView { display: none; }
   /* Carte is independent of the facets: no filter bar, no sub row */
-  body[data-view="carte"] .filters, body[data-view="carte"] .sub, body[data-view="carte"] .liste, body[data-view="carte"] .agendaView { display: none; }
+  body[data-view="carte"] .filters, body[data-view="carte"] #subtabs, body[data-view="carte"] .sub .nav, body[data-view="carte"] .sub .search, body[data-view="carte"] .liste, body[data-view="carte"] .agendaView { display: none; }
+  body:not([data-view="carte"]) #carteTabs { display: none; }
   body:not([data-view="carte"]) .carteView { display: none; }
   /* meta line: venues button, freshness, info popover */
   .meta { display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
@@ -180,39 +181,99 @@
   /* ---- Carte: venues sorted by bike time (left) + MapLibre map (right) ---- */
   body[data-view="carte"] main { overflow: hidden; }
   .carteView { flex: 1; display: flex; min-height: 0; }
-  .clist { width: 330px; flex: none; overflow: auto; border-right: 1px solid var(--line); padding: 12px 16px 24px; }
-  .clist .lead { margin-bottom: 2px; }
+  .clist { width: 340px; flex: none; overflow: auto; border-right: 1px solid var(--line); padding: 12px 12px 24px; }
+  .clist .lead { margin: 0 0 2px; }
   .cnote { margin: 0 0 6px; font-size: 12px; color: var(--muted); }
-  .clist .lrow { cursor: pointer; }
-  .ctime { flex: none; font-weight: 600; font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .ctime.na { color: var(--muted); font-weight: 400; }
+  .cnote:empty { display: none; }
+  /* cards: an event (today / this week) or a venue ("Tout"); headers are days or genres */
+  .ccards { list-style: none; margin: 4px 0 0; padding: 0; }
+  .chead { position: sticky; top: -12px; z-index: 1; display: flex; align-items: center; gap: 6px; margin: 0 -12px; padding: 14px 12px 6px; background: var(--bg); color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+  .chead .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+  .chead .k { margin-left: auto; font-weight: 500; letter-spacing: 0; text-transform: none; }
+  .ccard { --c: var(--c-autre); display: flex; gap: 10px; margin: 0 -6px 2px; padding: 7px 6px; border-radius: 8px; cursor: pointer; transition: background .12s; }
+  .ccard:hover, .ccard.hover { background: var(--cell); }
+  .ccard.on { background: color-mix(in srgb, var(--c) 14%, transparent); }
+  .ccard .cthumb { flex: none; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; border-radius: 8px; background: color-mix(in srgb, var(--c) 22%, var(--cell)) center / cover no-repeat; color: var(--c); font-size: 20px; font-weight: 700; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--fg) 8%, transparent); }
+  .ccard .cbody { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 2px; }
+  .ccard .cmeta { display: flex; align-items: center; gap: 6px; min-width: 0; color: var(--muted); font-size: 12px; }
+  .ccard .cwhen { flex: none; color: var(--fg); font-weight: 650; font-variant-numeric: tabular-nums; }
+  .ccard .cvenue { display: flex; align-items: center; gap: 5px; min-width: 0; }
+  .ccard .cvenue .dot { flex: none; width: 7px; height: 7px; border-radius: 50%; background: var(--c); }
+  .ccard .cvenue span:last-child, .ccard .cfoot { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .ccard .ctitle { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; padding: 0; border: 0; background: none; color: var(--fg); font: inherit; font-size: 13.5px; font-weight: 600; line-height: 1.3; text-align: left; cursor: pointer; }
+  .ccard button.ctitle:hover { text-decoration: underline; }
+  .ccard .cfoot { color: var(--muted); font-size: 11.5px; }
+  .ccard.cancelled .ctitle { text-decoration: line-through; }
   /* own stacking context: map markers and popups must stay under the modal and panels */
   .cmap { flex: 1; min-width: 0; position: relative; z-index: 0; isolation: isolate; background: var(--cell); }
   .cmap .cfail { padding: 32px 16px; text-align: center; color: var(--muted); }
-  .cmap .maplibregl-popup-content { background: var(--panel); color: var(--fg); border-radius: 8px; box-shadow: var(--shadow); padding: 12px 14px; font: inherit; }
-  .cmap .maplibregl-popup-anchor-bottom .maplibregl-popup-tip, .cmap .maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip, .cmap .maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip { border-top-color: var(--panel); }
-  .cmap .maplibregl-popup-anchor-top .maplibregl-popup-tip, .cmap .maplibregl-popup-anchor-top-left .maplibregl-popup-tip, .cmap .maplibregl-popup-anchor-top-right .maplibregl-popup-tip { border-bottom-color: var(--panel); }
-  .cmap .maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: var(--panel); }
-  .cmap .maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: var(--panel); }
-  .cmap .maplibregl-popup-close-button { border: 0; background: none; padding: 2px 8px; font-size: 18px; color: var(--muted); }
-  /* markers: the element's own transform is owned by MapLibre, only ::after may be transformed */
-  .cmap .cmk { width: 14px; height: 14px; padding: 0; border-radius: 50%; background: var(--c); border: 2px solid var(--bg); box-shadow: 0 1px 3px rgba(0,0,0,.35); cursor: pointer; }
-  .cmap .cmk:hover, .cmap .cmk:focus-visible { z-index: 2; }
-  .cmap .cmk::after, .cmap .chomemk::after { content: attr(data-name); position: absolute; white-space: nowrap; background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; font-size: 12px; font-weight: 600; pointer-events: none; }
-  .cmap .cmk::after { bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%); opacity: 0; transition: opacity .1s; }
-  .cmap .cmk:hover::after, .cmap .cmk:focus-visible::after { opacity: 1; }
-  .cmap .chomemk { width: 16px; height: 16px; border-radius: 50%; background: var(--fg); border: 3px solid var(--bg); box-shadow: 0 1px 4px rgba(0,0,0,.4); }
-  .cmap .chomemk::after { left: calc(100% + 6px); top: 50%; transform: translateY(-50%); }
-  .cpop { --c: var(--c-autre); min-width: 200px; }
-  .cpop .ccat { display: flex; align-items: center; gap: 6px; color: var(--c); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
-  .cpop .cname { font-weight: 650; font-size: 15px; line-height: 1.25; margin: 3px 0 4px; }
-  .cpop .cbike { font-size: 12.5px; margin-bottom: 8px; }
-  .cpop .cev { display: flex; flex-direction: column; align-items: flex-start; gap: 1px; width: 100%; text-align: left; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: none; padding: 6px 0; }
-  .cpop .cev .t { color: var(--muted); font-size: 11.5px; }
-  .cpop .cev .n { font-weight: 600; font-size: 13px; line-height: 1.3; }
-  .cpop .cev:hover .n { text-decoration: underline; }
-  .cpop .cmuted { color: var(--muted); font-size: 12.5px; margin: 4px 0; }
-  .cpop a { display: inline-block; margin-top: 6px; font-size: 12px; color: var(--muted); }
+  /* venue sheet: replaces the list in the left panel while a venue is selected */
+  .clist.detail > .lead, .clist.detail > .cnote, .clist.detail > .ccards { display: none; }
+  .clist:not(.detail) > .cdetail { display: none; }
+  .cdetail { --c: var(--c-autre); }
+  .cdetail .cback { display: inline-flex; align-items: center; gap: 6px; margin: 0 0 10px -4px; padding: 4px 8px 4px 4px; border: 0; border-radius: 6px; background: none; color: var(--muted); font: inherit; font-size: 12.5px; font-weight: 600; cursor: pointer; }
+  .cdetail .cback:hover { background: var(--cell); color: var(--fg); }
+  .cdetail .dhero { height: 150px; margin: 0 0 12px; display: flex; align-items: center; justify-content: center; border-radius: 10px; background: color-mix(in srgb, var(--c) 22%, var(--cell)) center / cover no-repeat; color: var(--c); font-size: 44px; font-weight: 700; }
+  .cdetail .ccat { display: flex; align-items: center; gap: 6px; color: var(--c); font-weight: 650; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; }
+  .cdetail .ccat .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+  .cdetail .dname { margin: 4px 0 4px; font-size: 21px; font-weight: 700; line-height: 1.2; letter-spacing: -.01em; }
+  .cdetail .dlinks { display: flex; gap: 12px; font-size: 12.5px; }
+  .cdetail .dlinks a { color: var(--muted); }
+  .cdetail .dlinks a:hover { color: var(--fg); }
+  .cdetail .cempty { margin: 6px 0; color: var(--muted); font-size: 13px; }
+  .cdetail .ccards { margin-top: 2px; }
+  /* list: one card per venue, its events of the period inside */
+  .cgroup { --c: var(--c-autre); margin: 0 -6px 4px; padding: 8px 6px; border-radius: 10px; cursor: pointer; transition: background .12s; }
+  .cgroup:hover, .cgroup.hover { background: var(--cell); }
+  .cgroup.on { background: color-mix(in srgb, var(--c) 14%, transparent); }
+  .cgroup .ghead { display: flex; align-items: center; gap: 10px; }
+  .cgroup .cthumb { width: 48px; height: 48px; }
+  .cgroup .gname { font-weight: 650; font-size: 14.5px; line-height: 1.25; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .cgroup .gmeta { display: flex; align-items: center; gap: 5px; color: var(--muted); font-size: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .cgroup .gmeta .dot { flex: none; width: 7px; height: 7px; border-radius: 50%; background: var(--c); }
+  .cgroup .grows { list-style: none; margin: 6px 0 0 58px; padding: 0; }
+  .cgroup .grow { display: flex; align-items: baseline; gap: 8px; width: 100%; padding: 3px 0; border: 0; background: none; color: var(--fg); font: inherit; text-align: left; cursor: pointer; }
+  .cgroup .grow .cwhen { flex: none; min-width: 38px; font-size: 12px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .cgroup .grow .gt { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 13px; }
+  .cgroup .grow:hover .gt { text-decoration: underline; }
+  .cgroup .grow.cancelled .gt { text-decoration: line-through; color: var(--muted); }
+  .cgroup .gmore { margin: 2px 0 0 58px; color: var(--muted); font-size: 12px; }
+  .cgroup.muted .cthumb, .cgroup.muted .gname { opacity: .55; }
+  /* venue bubbles: the marker element's own transform belongs to MapLibre, so effects go on the inner .cb */
+  .cmap .cmk { display: block; width: 46px; height: 54px; padding: 0; border: 0; background: none; cursor: pointer; }
+  .cmap .cb { position: relative; display: block; width: 100%; height: 100%; transform-origin: 50% 100%; transition: transform .15s ease, opacity .15s; }
+  .cmap .cimg { position: absolute; top: 0; left: 0; width: 46px; height: 46px; display: flex; align-items: center; justify-content: center; border: 3px solid var(--c); border-radius: 50%; background: var(--c) center / cover no-repeat; color: #fff; font-size: 17px; font-weight: 700; box-shadow: 0 0 0 2px var(--bg), 0 4px 12px rgba(0,0,0,.28); }
+  .cmap .ctail { position: absolute; left: 50%; bottom: 0; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 9px solid var(--c); transform: translateX(-50%); }
+  .cmap .cname { position: absolute; bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%); white-space: nowrap; background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 6px rgba(0,0,0,.12); pointer-events: none; opacity: 0; transition: opacity .12s; }
+  .cmap .cmk.muted .cb { opacity: .6; }
+  .cmap .cmk.off { display: none; }
+  .cmap .cmk:hover, .cmap .cmk:focus-visible, .cmap .cmk.on, .cmap .cmk.hover { z-index: 3; }
+  .cmap .cmk:hover .cb, .cmap .cmk:focus-visible .cb, .cmap .cmk.on .cb, .cmap .cmk.hover .cb { transform: scale(1.15); opacity: 1; }
+  .cmap .cmk:hover .cname, .cmap .cmk:focus-visible .cname, .cmap .cmk.on .cname, .cmap .cmk.hover .cname { opacity: 1; }
+  .cmap .cmk:focus-visible { outline: none; }
+  .cmap .cmk:focus-visible .cimg { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--fg); }
+  /* zoomed out: bubbles shrink to dots so the central cluster stays readable */
+  .cmap.compact .cmk { width: 16px; height: 16px; }
+  .cmap.compact .cb { transform-origin: 50% 50%; }
+  .cmap.compact .cimg { width: 16px; height: 16px; border-width: 0; background-image: none !important; font-size: 0; box-shadow: 0 0 0 2px var(--bg), 0 1px 4px rgba(0,0,0,.35); }
+  .cmap.compact .ctail { display: none; }
+  .cmap.compact .cmk.on .cb { transform: scale(1.4); }
+  /* home */
+  .cmap .chomemk { display: flex; align-items: center; gap: 6px; pointer-events: none; }
+  .cmap .chomemk .hic { width: 30px; height: 30px; flex: none; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--fg); color: var(--bg); box-shadow: 0 0 0 3px var(--bg), 0 4px 12px rgba(0,0,0,.35); }
+  .cmap .chomemk .hic svg { width: 16px; height: 16px; }
+  .cmap .chomemk .hl { padding: 2px 8px; border-radius: 6px; background: var(--fg); color: var(--bg); font-size: 12px; font-weight: 600; white-space: nowrap; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+  /* trip to the selected venue, in the home label: the popup stays about the venue */
+  .cmap .chomemk.trip .hl { padding: 6px 10px 8px; border-radius: 9px; box-shadow: 0 6px 18px rgba(0,0,0,.28); }
+  .cmap .chomemk .htrip:empty { display: none; }
+  .cmap .chomemk .htrip { display: block; min-width: 180px; margin-top: 5px; padding-top: 5px; border-top: 1px solid color-mix(in srgb, var(--bg) 25%, transparent); font-weight: 400; }
+  .cmap .chomemk .croute { display: flex; align-items: baseline; gap: 6px; }
+  .cmap .chomemk .cmins { font-size: 20px; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .cmap .chomemk .cdist, .cmap .chomemk .celev, .cmap .chomemk .cwait { opacity: .75; font-size: 11.5px; font-variant-numeric: tabular-nums; }
+  .cmap .chomemk .cprof { display: block; width: 100%; height: 30px; margin-top: 4px; color: var(--c, var(--bg)); }
+  /* 3D toggle, sits in a MapLibre control group */
+  .cmap .c3d { width: 29px; height: 29px; padding: 0; border: 0; border-radius: 4px; background: none; color: #333; font-size: 11.5px; font-weight: 700; }
+  .cmap .c3d.on { color: var(--accent); }
   /* ---- event modal: centered dialog with previous / next navigation ---- */
   .modal { position: fixed; inset: 0; z-index: 30; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,.4); padding: 24px 72px; }
   .modal[hidden] { display: none; }
@@ -360,6 +421,7 @@
   </div>
   <div class="sub">
     <div class="subtabs" role="tablist" id="subtabs" aria-label="Période"></div>
+    <div class="subtabs" role="tablist" id="carteTabs" aria-label="Période affichée sur la carte"></div>
     <div class="nav" id="nav">
       <button id="prev" aria-label="Mois précédent">&larr;</button>
       <div class="month" id="month" aria-live="polite"></div>
@@ -398,7 +460,8 @@
     <div class="clist">
       <div class="lead" id="carteLead"></div>
       <p class="cnote" id="carteNote"></p>
-      <ul class="lrows" id="carteList" aria-label="Lieux par temps de trajet à vélo"></ul>
+      <ul class="ccards" id="carteList" aria-label="Ce qui se passe"></ul>
+      <div class="cdetail" id="carteDetail" aria-live="polite"></div>
     </div>
     <div class="cmap" id="cmap" role="region" aria-label="Carte"></div>
   </section>
@@ -439,7 +502,7 @@
   const LONG_RUN_DAYS = 7;
   const SLOT_H = 20; // px, one row of the month grid slot model (must match --slot-h)
   const CATEGORIES = { culture: 'Culture', milite: 'Militant', cinema: 'Cinéma', bars: 'Bars', ateliers: 'Ateliers', ceramique: 'Céramique', mer: 'Mer', sport: 'Sport', coop: 'Coop', amap: 'AMAP', macon: 'Maçonnerie', autre: 'Autre' };
-  const TABS = { aujourdhui: "Aujourd'hui", semaine: 'Cette semaine', expos: 'Expositions' };
+  const TABS = { aujourdhui: "Aujourd'hui", semaine: 'Cette semaine', expos: 'Expositions', tout: 'Tout' };
   const STATUS = { cancelled: 'Annulé', postponed: 'Reporté', sold_out: 'Complet' };
   // Neighbourhood centroids; a venue belongs to the nearest one (client-side, from its lat/lng).
   const AREAS = [
@@ -544,9 +607,9 @@
 
   // ---- State <-> URL hash -----------------------------------------------------------------
 
-  // Single source of truth. Routes: #liste/aujourdhui | #liste/semaine | #liste/expos | #liste/jour?day=YYYY-MM-DD | #agenda?m=YYYY-MM | #carte
+  // Single source of truth. Routes: #liste/aujourdhui | #liste/semaine | #liste/expos | #liste/tout | #liste/jour?day=YYYY-MM-DD | #agenda?m=YYYY-MM | #carte?quand=semaine|tout
   // Query params: type, area, venue, free, special, q (Liste only), ev (open event), lieux=1 (venues panel).
-  const state = { view: 'liste', tab: 'aujourdhui', day: null, month: currentMonth, types: new Set(), areas: new Set(), venues: new Set(), free: false, special: false, q: '', ev: null, lieux: false };
+  const state = { view: 'liste', tab: 'aujourdhui', day: null, month: currentMonth, types: new Set(), areas: new Set(), venues: new Set(), free: false, special: false, q: '', ev: null, lieux: false, quand: 'aujourdhui' };
 
   function readHash() {
     const [path, qs = ''] = location.hash.replace(/^#/, '').split('?');
@@ -567,6 +630,7 @@
     state.month = /^\d{4}-\d{2}$/.test(p.get('m') || '') ? p.get('m') : currentMonth;
     state.ev = byUid.has(p.get('ev')) ? p.get('ev') : null;
     state.lieux = p.get('lieux') === '1';
+    state.quand = ['semaine', 'tout'].includes(p.get('quand')) ? p.get('quand') : 'aujourdhui';
   }
 
   // `push` adds a history entry (view / tab / panel navigation); facet tweaks replace the current one.
@@ -580,6 +644,7 @@
     if (state.view === 'liste' && state.q) p.set('q', state.q);
     if (state.view === 'liste' && state.tab === 'jour') p.set('day', state.day);
     if (state.view === 'agenda' && state.month !== currentMonth) p.set('m', state.month);
+    if (state.view === 'carte' && state.quand !== 'aujourdhui') p.set('quand', state.quand);
     if (state.ev) p.set('ev', state.ev);
     if (state.lieux) p.set('lieux', '1');
     const qs = p.toString().replace(/%2C/g, ',');
@@ -612,6 +677,7 @@
   function scoped(list, s = state) {
     if (s.view === 'agenda') { const [ms, me] = monthBounds(s.month); return list.filter(e => !isLongRun(e) && covers(e, ms, me)); }
     if (s.tab === 'expos') return list.filter(e => isLongRun(e) && e.end_date >= todayStr);
+    if (s.tab === 'tout') return list.filter(e => (e.end_date || e.start_date) >= todayStr);
     if (s.tab === 'semaine') { const w = weekWindow(); return list.filter(e => !isLongRun(e) && covers(e, w.from, w.to)); }
     const d = s.tab === 'jour' ? s.day : todayStr;
     return list.filter(e => !isLongRun(e) && covers(e, d, d));
@@ -661,7 +727,7 @@
       (k) => {
         const b = document.createElement('button');
         b.type = 'button'; b.setAttribute('role', 'tab');
-        b.innerHTML = `${esc(TABS[k])}${k === 'expos' ? '<span class="count"></span>' : ''}`;
+        b.innerHTML = `${esc(TABS[k])}${k === 'expos' || k === 'tout' ? '<span class="count"></span>' : ''}`;
         b.onclick = () => goto({ tab: k, day: null });
         return b;
       },
@@ -669,7 +735,7 @@
         const on = state.tab === k;
         b.classList.toggle('on', on);
         b.setAttribute('aria-selected', on);
-        if (k === 'expos') b.querySelector('.count').textContent = countWith({ view: 'liste', tab: 'expos' });
+        if (k === 'expos' || k === 'tout') b.querySelector('.count').textContent = countWith({ view: 'liste', tab: k });
       });
   }
 
@@ -842,12 +908,14 @@
     return { text: `termine dans ${toEnd} jours`, cls: toEnd <= LONG_RUN_DAYS ? 'soon' : '' };
   }
 
-  // Date / time line of a card. Exhibitions show their range; day cards show the time, then the event type or "gratuit".
+  // Date / time line of a card. Exhibitions show their range; day cards show the time, then the event type or "gratuit";
+  // "Tout" cards span every date, so they lead with the day (or the range).
   function cardWhen(e, ctx) {
     if (ctx === 'expos') return fmtRange(e);
     const bits = [];
+    if (ctx === 'tout') bits.push(isRange(e) ? fmtRange(e) : cap(fmtDayShort.format(dateOf(e.start_date))));
     if (hasTime(e)) bits.push(timeLabel(e));
-    if (isRange(e)) bits.push(`jusqu'au ${fmtDate(e.end_date)}`);
+    if (isRange(e) && ctx !== 'tout') bits.push(`jusqu'au ${fmtDate(e.end_date)}`);
     const extra = e.event_type || (e.free === true ? 'gratuit' : null);
     if (extra) bits.push(extra);
     return bits.join(' · ');
@@ -859,7 +927,7 @@
     n.className = 'card' + (e.status === 'cancelled' ? ' cancelled' : '');
     n.style.setProperty('--c', color(e));
     const when = cardWhen(e, ctx);
-    const hint = ctx === 'expos' ? runHint(e) : (STATUS[e.status] ? { text: STATUS[e.status], cls: 'soon' } : null);
+    const hint = ctx === 'expos' || (ctx === 'tout' && isLongRun(e)) ? runHint(e) : (STATUS[e.status] ? { text: STATUS[e.status], cls: 'soon' } : null);
     n.innerHTML = `<div class="body">
       <div class="venue"><span class="pin"></span>${esc(e.venue_name)}</div>
       <div class="title">${esc(e.title)}</div>
@@ -892,11 +960,42 @@
     const evs = visible();
     const lead = $('listLead'), body = $('listBody'), more = $('listMore');
     body.innerHTML = '';
+    more.innerHTML = '';
     more.hidden = true;
     if (state.tab === 'expos') renderExposTab(evs, lead, body);
+    else if (state.tab === 'tout') renderAllTab(evs, lead, body);
     else if (state.tab === 'semaine') renderWeekTab(evs, lead, body);
     else renderDayTab(evs, state.tab === 'jour' ? state.day : todayStr, lead, body);
-    if (state.tab !== 'expos') renderMoreExpos(more);
+    if (state.tab !== 'expos' && state.tab !== 'tout') renderMoreExpos(more);
+    if (state.tab !== 'tout' && state.q) renderSearchAll(more, evs.length);
+  }
+
+  // Everything still ahead, exhibitions included, by month; a run already open is filed under today.
+  function renderAllTab(evs, lead, body) {
+    const from = (e) => e.start_date < todayStr ? todayStr : e.start_date;
+    const sorted = [...evs].sort((a, b) => from(a).localeCompare(from(b)) || byTime(a, b) || a.title.localeCompare(b.title));
+    lead.textContent = `${evs.length ? plural(evs.length, 'événement') : 'Aucun événement'} à venir${state.q ? ` pour « ${state.q} »` : ''}`;
+    if (!evs.length) { body.innerHTML = `<div class="empty"><p>${state.q ? 'Rien ne correspond à cette recherche' : 'Rien à venir'} dans ces lieux.</p></div>`; return; }
+    const byMonth = {};
+    for (const e of sorted) (byMonth[from(e).slice(0, 7)] ||= []).push(e);
+    for (const [m, list] of Object.entries(byMonth)) {
+      body.appendChild(groupHeading(`${cap(fmtMonth.format(dateOf(m + '-01')))} (${list.length})`));
+      body.appendChild(cardsGrid(list, 'tout'));
+    }
+  }
+
+  // Day / week / exhibitions only search their own period: point to the matches further ahead.
+  function renderSearchAll(more, shown) {
+    const n = countWith({ view: 'liste', tab: 'tout' });
+    if (n <= shown) return;
+    more.hidden = false;
+    const p = document.createElement('p');
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'lnk';
+    b.textContent = `« ${state.q} » dans tout l'agenda : ${plural(n, 'événement')}`;
+    b.onclick = () => goto({ tab: 'tout', day: null });
+    p.appendChild(b);
+    more.appendChild(p);
   }
 
   function renderDayTab(evs, day, lead, body) {
@@ -1324,27 +1423,86 @@
     else closeLieux(false);
   }
 
-  // ---- Carte view: venues on a map, bike time from home -----------------------------------
+  // ---- Carte view: venues on a map, bike route and time from home -------------------------
 
   const HOME = { name: '12 rue du Soleil', lat: 43.2788, lng: 5.3593 };
   // MapLibre 5 (single UMD file with an inlined worker; v6 is ESM-only with a separate worker) + OpenFreeMap
   // vector styles: open source, OpenStreetMap data, no API key and no request quota.
   const MAPLIBRE = 'https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.24.0/';
-  const MAP_STYLE = `https://tiles.openfreemap.org/styles/${window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'positron'}`;
+  const DARK = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const MAP_STYLE = `https://tiles.openfreemap.org/styles/${DARK ? 'dark' : 'positron'}`;
+  // Terrarium elevation tiles (AWS open data, no key): hillshade always, 3D terrain behind the 3D toggle.
+  const DEM_TILES = 'https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png';
+  // Base style retouched to match the page: warm paper, tinted sea and parks. [paint property, value] per layer id.
+  const MAP_PAINT = DARK
+    ? { background: ['background-color', '#141414'], water: ['fill-color', '#15222a'], park: ['fill-color', '#172019'],
+        landcover_wood: ['fill-color', '#172019'], building: ['fill-color', '#1d1d1d'] }
+    : { background: ['background-color', '#f4f2ec'], water: ['fill-color', '#c4dae3'], park: ['fill-color', '#e0e8d6'],
+        landcover_wood: ['fill-color', '#dae5cf'], landuse_residential: ['fill-color', '#efece4'], building: ['fill-color', '#e8e4db'] };
+  const HILLSHADE = DARK
+    ? { 'hillshade-exaggeration': .45, 'hillshade-shadow-color': 'rgba(0,0,0,.65)', 'hillshade-highlight-color': 'rgba(255,255,255,.07)', 'hillshade-accent-color': 'rgba(0,0,0,.3)' }
+    : { 'hillshade-exaggeration': .35, 'hillshade-shadow-color': 'rgba(80,62,44,.42)', 'hillshade-highlight-color': 'rgba(255,255,255,.4)', 'hillshade-accent-color': 'rgba(80,62,44,.18)' };
+  const SKY = DARK
+    ? { 'sky-color': '#0d1418', 'horizon-color': '#1b1b1b', 'fog-color': '#141414', 'sky-horizon-blend': .5, 'horizon-fog-blend': .5, 'fog-ground-blend': .3 }
+    : { 'sky-color': '#b9d4e1', 'horizon-color': '#f4f2ec', 'fog-color': '#f4f2ec', 'sky-horizon-blend': .6, 'horizon-fog-blend': .6, 'fog-ground-blend': .2 };
+  const BUILDING_3D = DARK ? '#262626' : '#e3ded3';
+  const COMPACT_BELOW_ZOOM = 13.4; // bubbles become dots below this zoom
+  // Hand-picked first view, set on a map of `size` px: other sizes keep the framing by shifting the zoom.
+  const DEFAULT_VIEW = { center: [5.36484, 43.28755], zoom: 14.09, pitch: 57.5, bearing: 66.2, size: [1348, 870] };
+  // The 16 arrondissements span 5.229-5.533 E, 43.170-43.391 N; a few km of margin for the calanques and l'Estaque.
+  const MAP_BOUNDS = [[5.17, 43.13], [5.60, 43.43]];
+  const ARR_URL = 'arrondissements.geojson';
+  const ARR_INK = DARK ? '#b9c6cf' : '#14303f';
   // OSRM with a real bicycle profile (the one behind openstreetmap.org), CORS-enabled; Open-Meteo for altitudes.
-  const BIKE_ROUTER = 'https://routing.openstreetmap.de/routed-bike/table/v1/driving';
+  const BIKE_ROUTER = 'https://routing.openstreetmap.de/routed-bike';
   const ELEVATION = 'https://api.open-meteo.com/v1/elevation';
+  const PROFILE_POINTS = 50; // altitude samples per direction (Open-Meteo takes up to 100 per request)
   // OSRM's own durations assume a sporty ~25 km/h; urban pace with lights and traffic is closer to 16.5 km/h
   // (same calibration as marseille-tes-lieux), plus ~5 s per metre climbed and a small credit for descents.
   const BIKE_KMH = 16.5;
   const BIKE_CACHE_KEY = 'agenda.bike.v1';
   const mapVenues = venues.filter(v => v.lat != null && v.lng != null);
-  const upcomingAt = (id) => events.filter(e => e.venue_id === id && (e.end_date || e.start_date) >= todayStr)
+  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const catHex = (c) => cssVar(`--c-${c || 'autre'}`) || cssVar('--c-autre');
+  // Period tabs. Today and this week leave exhibitions out (as the Liste sub-tabs do); "Tout" is everything upcoming.
+  const CARTE_WHEN = { aujourdhui: "Aujourd'hui", semaine: 'Cette semaine', tout: 'Tout' };
+  const CARTE_EMPTY = { aujourdhui: "aujourd'hui", semaine: 'cette semaine', tout: 'à venir' };
+  const fmtWeekday = new Intl.DateTimeFormat('fr-FR', { weekday: 'short' });
+  // A single-day event of today is over once its end time (or start + 2 h) is behind us. Only when the data is
+  // from today: an older events.json keeps its own notion of today.
+  function overAlready(e) {
+    if (todayStr !== iso(new Date()) || isRange(e) || !hasTime(e) || e.start_date !== todayStr) return false;
+    const end = e.end_time && e.end_time.slice(0, 5) !== '00:00' ? e.end_time : null;
+    if (end && end < e.start_time) return false; // ends after midnight
+    const [h, m] = (end || e.start_time).split(':').map(Number);
+    const t = new Date(); t.setHours(h + (end ? 0 : 2), m, 0, 0);
+    return t < new Date();
+  }
+  function inPeriod(e, k) {
+    if (k === 'tout') return (e.end_date || e.start_date) >= todayStr;
+    const w = k === 'semaine' ? weekWindow() : { from: todayStr, to: todayStr };
+    return !isLongRun(e) && covers(e, w.from, w.to) && !(k === 'aujourdhui' && overAlready(e));
+  }
+  const eventsAt = (id, k = state.quand) => events.filter(e => e.venue_id === id && inPeriod(e, k))
     .sort((a, b) => a.start_date.localeCompare(b.start_date) || byTime(a, b));
+  const venueImage = (id) => eventsAt(id).find(e => e.image)?.image || null;
+  const initial = (name) => name.replace(/^[^\p{L}\p{N}]+/u, '').charAt(0).toUpperCase();
+  const lieux = (n) => `${n} lieu${n > 1 ? 'x' : ''}`;
+  // Short "when" for a list row: the time today, the weekday + time this week, the date otherwise.
+  function whenShort(e, k) {
+    const t = timeLabel(e);
+    if (isRange(e)) return `jusqu'au ${fmtDate(e.end_date)}`;
+    if (k === 'aujourdhui') return t || "aujourd'hui";
+    const day = e.start_date === todayStr ? 'auj.' : k === 'semaine' ? fmtWeekday.format(dateOf(e.start_date)) : fmtDate(e.start_date);
+    return t ? `${day} ${t}` : day;
+  }
   const fmtMins = (m) => m < 60 ? `${m} min` : `${Math.floor(m / 60)} h${m % 60 ? ' ' + String(m % 60).padStart(2, '0') : ''}`;
   const fmtKm = (km) => `${km.toLocaleString('fr-FR', { maximumFractionDigits: 1 })} km`;
+  const fmtM = (m) => `${Math.round(m)} m`;
+  const metres = (a, b) => Math.hypot((b[0] - a[0]) * LNG_SCALE, b[1] - a[1]) * 111320; // [lng, lat] pairs
   let bike = {}, bikeState = 'idle'; // venue id -> { go, back, km }; idle | loading | ok | error
-  let maplibreP = null, cmap = null, cpopup = null, carteSeq = [];
+  let maplibreP = null, cmap = null, carteSeq = [], selected = null, is3D = false, homeEl = null;
+  const markerEls = {}, routes = {}, routeData = {}; // routes: id -> Promise; routeData: id -> { state, data }
 
   function loadMaplibre() {
     maplibreP ||= new Promise((resolve, reject) => {
@@ -1360,9 +1518,11 @@
     return maplibreP;
   }
 
-  function bikeMins(distM, climbM) {
+  // ---- Bike times
+
+  function bikeMins(distM, upM, downM) {
     const flat = distM / 1000 / BIKE_KMH * 3600;
-    const sec = flat + Math.max(0, climbM) * 5 - Math.min(flat * 0.1, Math.max(0, -climbM));
+    const sec = flat + upM * 5 - Math.min(flat * 0.1, downM);
     return Math.max(1, Math.round(Math.max(60, sec) / 60));
   }
   async function fetchJson(u) {
@@ -1370,16 +1530,18 @@
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     return r.json();
   }
-  // One request for every home -> venue distance, one for the way back (one-way streets differ), one for altitudes.
-  // The climb is counted between the two endpoints only. Results are cached per (home, venue) coordinates.
+  const bikeKey = (v) => `${HOME.lat},${HOME.lng}>${v.lat},${v.lng}`;
+  function readBikeCache() { try { return JSON.parse(localStorage.getItem(BIKE_CACHE_KEY)) || {}; } catch (e) { return {}; } }
+  function writeBikeCache(cache) { try { localStorage.setItem(BIKE_CACHE_KEY, JSON.stringify(cache)); } catch (e) { /* ignore */ } }
+
+  // List estimate: one table request each way and one altitude request for every venue, climb counted between
+  // the two endpoints only. Replaced by the along-the-route figures once a venue's route has been drawn.
   async function computeBike() {
-    let cache = {};
-    try { cache = JSON.parse(localStorage.getItem(BIKE_CACHE_KEY)) || {}; } catch (e) { /* ignore */ }
-    const key = (v) => `${HOME.lat},${HOME.lng}>${v.lat},${v.lng}`;
-    const missing = mapVenues.filter(v => !cache[key(v)]?.elev);
+    const cache = readBikeCache();
+    const missing = mapVenues.filter(v => !cache[bikeKey(v)]?.elev);
     if (missing.length) {
       const pts = [HOME, ...missing];
-      const base = `${BIKE_ROUTER}/${pts.map(p => `${p.lng},${p.lat}`).join(';')}?annotations=distance`;
+      const base = `${BIKE_ROUTER}/table/v1/driving/${pts.map(p => `${p.lng},${p.lat}`).join(';')}?annotations=distance`;
       const [go, back, alt] = await Promise.all([
         fetchJson(`${base}&sources=0`),
         fetchJson(`${base}&destinations=0`),
@@ -1390,129 +1552,470 @@
         const dGo = go.distances[0][i + 1], dBack = back.distances[i + 1][0];
         if (dGo == null || dBack == null) return;
         const dz = alt ? alt.elevation[i + 1] - alt.elevation[0] : 0;
-        cache[key(v)] = { go: bikeMins(dGo, dz), back: bikeMins(dBack, -dz), km: dGo / 1000, elev: !!alt };
+        cache[bikeKey(v)] = { go: bikeMins(dGo, Math.max(0, dz), Math.max(0, -dz)), back: bikeMins(dBack, Math.max(0, -dz), Math.max(0, dz)), km: dGo / 1000, elev: !!alt };
       });
-      try { localStorage.setItem(BIKE_CACHE_KEY, JSON.stringify(cache)); } catch (e) { /* ignore */ }
+      writeBikeCache(cache);
     }
-    return Object.fromEntries(mapVenues.filter(v => cache[key(v)]).map(v => [v.id, cache[key(v)]]));
+    return Object.fromEntries(mapVenues.filter(v => cache[bikeKey(v)]).map(v => [v.id, cache[bikeKey(v)]]));
   }
 
-  function bikeLine(id) {
-    if (bikeState === 'idle' || bikeState === 'loading') return 'calcul du trajet à vélo...';
-    const b = bike[id];
-    if (!b) return 'trajet à vélo indisponible';
-    return `${fmtMins(b.go)} à vélo · ${fmtKm(b.km)}${Math.abs(b.back - b.go) >= 2 ? ` · retour ${fmtMins(b.back)}` : ''}`;
-  }
+  // ---- Routes: geometry both ways + altitude profile along each
 
-  function popupNode(v) {
-    const ups = upcomingAt(v.id);
-    const div = document.createElement('div');
-    div.className = 'cpop';
-    div.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
-    div.innerHTML = `<div class="ccat"><span class="dot"></span>${esc([CATEGORIES[v.category] || v.category, areaName(venueArea[v.id])].filter(Boolean).join(' · '))}</div>
-      <div class="cname">${esc(v.name)}</div>
-      <div class="cbike">${esc(bikeLine(v.id))}</div>
-      <div class="cevs"></div>
-      ${v.website ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">site du lieu</a>` : ''}`;
-    const box = div.querySelector('.cevs');
-    if (!ups.length) box.innerHTML = '<p class="cmuted">Aucun événement à venir</p>';
-    for (const e of ups.slice(0, 3)) {
-      const b = document.createElement('button');
-      b.type = 'button'; b.className = 'cev'; b.dataset.uid = e.uid;
-      const when = isRange(e) ? fmtRange(e) : `${fmtDate(e.start_date)}${timeLabel(e) ? ' · ' + timeLabel(e) : ''}`;
-      b.innerHTML = `<span class="t">${esc(when)}</span><span class="n">${esc(e.title)}</span>`;
-      b.onclick = () => { carteSeq = ups; openModal(e); };
-      box.appendChild(b);
+  // Evenly spaced points along a polyline, each as [lng, lat, metres from start].
+  function sampleLine(coords, n) {
+    const cum = [0];
+    for (let i = 1; i < coords.length; i++) cum.push(cum[i - 1] + metres(coords[i - 1], coords[i]));
+    const total = cum[cum.length - 1], out = [];
+    for (let k = 0, j = 0; k < n; k++) {
+      const target = total * k / (n - 1);
+      while (j < cum.length - 2 && cum[j + 1] < target) j++;
+      const seg = cum[j + 1] - cum[j], t = seg > 0 ? Math.min(1, (target - cum[j]) / seg) : 0;
+      const a = coords[j], b = coords[Math.min(j + 1, coords.length - 1)];
+      out.push([a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, target]);
     }
-    if (ups.length > 3) box.insertAdjacentHTML('beforeend', `<p class="cmuted">+ ${ups.length - 3} autres (flèches dans la fiche)</p>`);
-    return div;
+    return out;
+  }
+  // Climb and descent with light smoothing and a 2 m threshold against DEM noise (same as marseille-tes-lieux).
+  function climb(elevs) {
+    const s = elevs.map((e, i, a) => (i === 0 || i === a.length - 1) ? e : (a[i - 1] + e + a[i + 1]) / 3);
+    let up = 0, down = 0;
+    for (let i = 1; i < s.length; i++) { const d = s[i] - s[i - 1]; if (d > 2) up += d; else if (d < -2) down -= d; }
+    return { up, down };
+  }
+  function fetchRoute(id) {
+    routes[id] ||= (async () => {
+      const v = venueById[id];
+      const leg = async (a, b) => {
+        const r = await fetchJson(`${BIKE_ROUTER}/route/v1/driving/${a.lng},${a.lat};${b.lng},${b.lat}?overview=full&geometries=geojson`);
+        if (r.code !== 'Ok' || !r.routes?.length) throw new Error(r.code || 'no route');
+        return r.routes[0];
+      };
+      const [go, back] = await Promise.all([leg(HOME, v), leg(v, HOME)]);
+      const sGo = sampleLine(go.geometry.coordinates, PROFILE_POINTS), sBack = sampleLine(back.geometry.coordinates, PROFILE_POINTS);
+      const pts = [...sGo, ...sBack];
+      let elev = null;
+      try {
+        elev = (await fetchJson(`${ELEVATION}?latitude=${pts.map(p => p[1].toFixed(5)).join(',')}&longitude=${pts.map(p => p[0].toFixed(5)).join(',')}`)).elevation;
+      } catch (e) { /* flat estimate */ }
+      const summary = (r, samples, el) => {
+        const c = el ? climb(el) : { up: 0, down: 0 };
+        return { km: r.distance / 1000, mins: bikeMins(r.distance, c.up, c.down), up: c.up, down: c.down, profile: el ? samples.map((p, i) => [p[2], el[i]]) : null };
+      };
+      return {
+        coords: go.geometry.coordinates,
+        go: summary(go, sGo, elev && elev.slice(0, PROFILE_POINTS)),
+        back: summary(back, sBack, elev && elev.slice(PROFILE_POINTS)),
+      };
+    })().catch((e) => { delete routes[id]; throw e; });
+    return routes[id];
   }
 
-  // The popup is rebuilt on every opening so it shows the bike time once it has been computed.
-  function openVenuePopup(maplibregl, id) {
+  function profileSvg(profile) {
+    const W = 240, H = 36, total = profile[profile.length - 1][0] || 1;
+    const els = profile.map(p => p[1]), min = Math.min(...els), span = Math.max(25, Math.max(...els) - min);
+    const pts = profile.map(([d, e]) => `${(d / total * W).toFixed(1)},${(H - 2 - (e - min) / span * (H - 6)).toFixed(1)}`);
+    const line = `M${pts.join('L')}`;
+    return `<svg class="cprof" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Profil d'altitude de l'aller">
+      <path d="${line}L${W},${H}L0,${H}Z" fill="currentColor" fill-opacity=".16"/>
+      <path d="${line}" fill="none" stroke="currentColor" stroke-width="1.6" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>`;
+  }
+
+  function routeHtml(id) {
+    const r = routeData[id], b = bike[id];
+    if (r?.state === 'ok') {
+      const { go, back } = r.data;
+      const climbs = go.profile ? `↗ ${fmtM(go.up)}  ↘ ${fmtM(go.down)} · ` : '';
+      return `<div class="croute"><span class="cmins">${fmtMins(go.mins)}</span><span class="cdist">à vélo · ${fmtKm(go.km)}</span></div>
+        <div class="celev">${climbs}retour ${fmtMins(back.mins)}${back.profile ? ` (↗ ${fmtM(back.up)})` : ''}</div>
+        ${go.profile ? profileSvg(go.profile) : ''}`;
+    }
+    const est = b ? `<div class="croute"><span class="cmins">${fmtMins(b.go)}</span><span class="cdist">à vélo · ${fmtKm(b.km)}</span></div>` : '';
+    return `${est}<div class="cwait">${r?.state === 'error' ? 'itinéraire indisponible' : "calcul de l'itinéraire..."}</div>`;
+  }
+
+  // ---- Venue sheet (left panel) and selection
+
+  // Event row of the sheet: the whole card opens the event.
+  function eventCard(e, when, seq) {
+    const v = venueById[e.venue_id];
+    const li = document.createElement('li');
+    li.className = 'ccard';
+    li.classList.toggle('cancelled', e.status === 'cancelled');
+    li.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+    li.innerHTML = `${thumbHtml(e.image, e.title)}<span class="cbody">
+      <span class="cmeta"><span class="cwhen">${esc(when)}</span></span>
+      <button type="button" class="ctitle">${esc(e.title)}</button>
+      <span class="cfoot">${esc([STATUS[e.status], e.free ? 'gratuit' : e.price].filter(Boolean).join(' · '))}</span></span>`;
+    li.onclick = () => { carteSeq = seq; openModal(e); };
+    return li;
+  }
+  function renderDetail() {
+    const panel = document.querySelector('.clist'), box = $('carteDetail');
+    const v = selected && venueById[selected];
+    panel.classList.toggle('detail', !!v);
+    if (!v) { box.innerHTML = ''; return; }
+    const k = state.quand, now = eventsAt(v.id, k);
+    const later = k === 'tout' ? [] : eventsAt(v.id, 'tout').filter(e => !now.includes(e) && !isLongRun(e)).slice(0, 5);
+    const img = now.find(e => e.image)?.image || later.find(e => e.image)?.image;
+    box.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+    box.innerHTML = `<button type="button" class="cback">← ${k === 'tout' ? 'Tous les lieux' : CARTE_WHEN[k]}</button>
+      <div class="dhero"${img ? ` style="background-image:url('${esc(img)}')"` : ''}>${img ? '' : esc(initial(v.name))}</div>
+      <div class="ccat"><span class="dot"></span>${esc([CATEGORIES[v.category] || v.category, areaName(venueArea[v.id])].filter(Boolean).join(' · '))}</div>
+      <h2 class="dname">${esc(v.name)}</h2>
+      <div class="dlinks">${v.website ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">site du lieu ↗</a>` : ''}</div>`;
+    box.querySelector('.cback').onclick = deselect;
+    const section = (title, evs, whenK) => {
+      box.insertAdjacentHTML('beforeend', `<div class="chead"><span>${esc(title)}</span><span class="k">${evs.length || ''}</span></div>`);
+      if (!evs.length) { box.insertAdjacentHTML('beforeend', `<p class="cempty">Rien ${CARTE_EMPTY[k]} ici.</p>`); return; }
+      const ul = document.createElement('ul');
+      ul.className = 'ccards';
+      for (const e of evs) ul.appendChild(eventCard(e, whenK === 'aujourdhui' && !isRange(e) ? timeLabel(e) || "aujourd'hui" : whenShort(e, whenK), evs));
+      box.appendChild(ul);
+    };
+    section(k === 'tout' ? 'À venir' : CARTE_WHEN[k], now, k);
+    if (later.length) section('Ensuite', later, 'tout');
+  }
+
+  function setRoute(coords, color) {
+    const src = cmap?.getSource('route');
+    if (!src) return;
+    src.setData({ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: coords || [] } });
+    if (color) cmap.setPaintProperty('route-line', 'line-color', color);
+  }
+  function syncTrip() {
+    if (!homeEl) return;
+    const v = selected && venueById[selected];
+    homeEl.classList.toggle('trip', !!v);
+    if (v) homeEl.style.setProperty('--c', catHex(v.category));
+    homeEl.querySelector('.htrip').innerHTML = v ? routeHtml(v.id) : '';
+  }
+  function syncSelection() {
+    for (const [id, el] of Object.entries(markerEls)) el.classList.toggle('on', id === selected);
+    syncMarkers();
+    syncTrip();
+    if (state.view === 'carte') { renderCarteList(); renderDetail(); }
+  }
+
+  // fitBounds fits the flat footprint and only then tilts, which pushes the near side off-screen. Fit the
+  // projected points instead: a few center/zoom corrections converge under perspective.
+  function cameraFor(points, pad, maxZoom = 16) {
+    const start = { center: cmap.getCenter(), zoom: cmap.getZoom() };
+    const box = cmap.getContainer(), W = box.clientWidth, H = box.clientHeight;
+    const aw = Math.max(80, W - pad.left - pad.right), ah = Math.max(80, H - pad.top - pad.bottom);
+    for (let i = 0; i < 10; i++) {
+      const px = points.map(p => cmap.project(p)), xs = px.map(p => p.x), ys = px.map(p => p.y);
+      const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+      const zoom = Math.min(maxZoom, cmap.getZoom() + Math.log2(Math.min(aw / Math.max(1, x1 - x0), ah / Math.max(1, y1 - y0))));
+      const dx = (x0 + x1) / 2 - (pad.left + aw / 2), dy = (y0 + y1) / 2 - (pad.top + ah / 2);
+      if (Math.abs(dx) < 1 && Math.abs(dy) < 1 && Math.abs(zoom - cmap.getZoom()) < .01) break;
+      cmap.jumpTo({ center: cmap.unproject([W / 2 + dx, H / 2 + dy]), zoom });
+    }
+    const cam = { center: cmap.getCenter(), zoom: cmap.getZoom() };
+    cmap.jumpTo(start);
+    return cam;
+  }
+  function deselect() {
+    selected = null;
+    setRoute(null);
+    syncSelection();
+  }
+  function selectVenue(id) {
+    if (!cmap) return;
     const v = venueById[id];
-    if (cpopup) cpopup.remove();
-    cpopup = new maplibregl.Popup({ offset: 12, maxWidth: '280px', focusAfterOpen: false })
-      .setLngLat([v.lng, v.lat]).setDOMContent(popupNode(v)).addTo(cmap);
+    selected = id;
+    syncSelection();
+    setRoute(null);
+    document.querySelector('.clist').scrollTop = 0;
+    if (MOBILE.matches) $('main').scrollTo({ top: 0, behavior: 'smooth' });
+    // Generous room: the bubble above the venue, the trip card right of home, and some city around the route.
+    const box = $('cmap'), W = box.clientWidth, H = box.clientHeight;
+    const pad = MOBILE.matches
+      ? { top: Math.round(H * .18) + 40, bottom: Math.round(H * .2) + 40, left: Math.round(W * .12), right: Math.round(W * .12) + 40 }
+      : { top: Math.round(H * .2) + 60, bottom: Math.round(H * .18) + 60, left: Math.round(W * .14), right: Math.round(W * .14) + 200 };
+    const frame = (coords) => cmap.easeTo({ ...cameraFor([[HOME.lng, HOME.lat], ...coords], pad, 15.5), duration: 900 });
+    frame([[v.lng, v.lat]]);
+    routeData[id] ||= { state: 'loading' };
+    fetchRoute(id).then((data) => {
+      routeData[id] = { state: 'ok', data };
+      bike[id] = { go: data.go.mins, back: data.back.mins, km: data.go.km, elev: !!data.go.profile, route: true };
+      const cache = readBikeCache(); cache[bikeKey(v)] = bike[id]; writeBikeCache(cache);
+      if (selected !== id) return;
+      setRoute(data.coords, catHex(v.category));
+      frame(data.coords);
+      syncTrip();
+      renderCarteList();
+    }).catch(() => {
+      routeData[id] = { state: 'error' };
+      if (selected === id) syncTrip();
+    });
+  }
+
+  // ---- Map
+
+  class Toggle3D {
+    onAdd() {
+      this.box = document.createElement('div');
+      this.box.className = 'maplibregl-ctrl maplibregl-ctrl-group';
+      this.box.innerHTML = '<button type="button" class="c3d" aria-pressed="false" title="Relief du terrain">3D</button>';
+      this.box.firstChild.onclick = () => set3D(!is3D);
+      return this.box;
+    }
+    onRemove() { this.box.remove(); }
+  }
+  function set3D(on) {
+    if (!cmap.getSource('dem-terrain')) return;
+    is3D = on;
+    const b = $('cmap').querySelector('.c3d');
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', on);
+    cmap.setTerrain(on ? { source: 'dem-terrain', exaggeration: 1.4 } : null);
+    if (on && cmap.getPitch() < 30) cmap.easeTo({ pitch: DEFAULT_VIEW.pitch, duration: 800 });
+  }
+
+  function styleMap() {
+    for (const [id, [prop, val]] of Object.entries(MAP_PAINT)) {
+      if (cmap.getLayer(id)) try { cmap.setPaintProperty(id, prop, val); } catch (e) { /* layer without that property */ }
+    }
+    const firstSymbol = cmap.getStyle().layers.find(l => l.type === 'symbol')?.id;
+    const dem = { type: 'raster-dem', tiles: [DEM_TILES], encoding: 'terrarium', tileSize: 256, maxzoom: 14, attribution: 'Relief : Mapzen / AWS Terrain Tiles' };
+    // Separate sources for hillshade and terrain, as MapLibre recommends.
+    cmap.addSource('dem-shade', dem);
+    const { attribution, ...demTerrain } = dem;
+    cmap.addSource('dem-terrain', demTerrain);
+    cmap.addLayer({ id: 'hillshade', type: 'hillshade', source: 'dem-shade', paint: HILLSHADE }, cmap.getLayer('building') ? 'building' : firstSymbol);
+    if (cmap.getSource('openmaptiles')) {
+      cmap.addLayer({
+        id: 'building-3d', type: 'fill-extrusion', source: 'openmaptiles', 'source-layer': 'building', minzoom: 13,
+        paint: {
+          'fill-extrusion-color': BUILDING_3D,
+          // z13 tiles carry footprints without heights: a typical Marseille block height until z14 brings the real ones.
+          'fill-extrusion-height': ['interpolate', ['linear'], ['zoom'], 13, 0, 13.8, ['coalesce', ['get', 'render_height'], 12]],
+          'fill-extrusion-base': ['interpolate', ['linear'], ['zoom'], 13, 0, 13.8, ['coalesce', ['get', 'render_min_height'], 0]],
+          'fill-extrusion-opacity': .85,
+        },
+      }, firstSymbol);
+    }
+    cmap.addSource('route', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+    const round = { 'line-join': 'round', 'line-cap': 'round' };
+    cmap.addLayer({ id: 'route-casing', type: 'line', source: 'route', layout: round,
+      paint: { 'line-color': cssVar('--bg'), 'line-width': ['interpolate', ['linear'], ['zoom'], 11, 5, 16, 11], 'line-opacity': .95 } }, firstSymbol);
+    cmap.addLayer({ id: 'route-line', type: 'line', source: 'route', layout: round,
+      paint: { 'line-color': cssVar('--accent'), 'line-width': ['interpolate', ['linear'], ['zoom'], 11, 2.5, 16, 6] } }, firstSymbol);
+    try { cmap.setSky(SKY); } catch (e) { /* older renderer without sky */ }
+    if (selected && routeData[selected]?.state === 'ok') setRoute(routeData[selected].data.coords, catHex(venueById[selected].category));
+  }
+
+  // ---- Arrondissements (outlines + names, same data as marseille-tes-lieux)
+
+  const ringArea = (r) => Math.abs(r.reduce((s, [x, y], i) => { const [x2, y2] = r[(i + 1) % r.length]; return s + x * y2 - x2 * y; }, 0)) / 2;
+  function inRing([x, y], r) {
+    let inside = false;
+    for (let i = 0, j = r.length - 1; i < r.length; j = i++) {
+      const [xi, yi] = r[i], [xj, yj] = r[j];
+      if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside;
+    }
+    return inside;
+  }
+  function segDist([px, py], [ax, ay], [bx, by]) {
+    const dx = bx - ax, dy = by - ay, t = Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / (dx * dx + dy * dy || 1)));
+    return Math.hypot(px - ax - t * dx, py - ay - t * dy);
+  }
+  // Grid search for the inside point farthest from the edges: the centroid of the coastal and crescent-shaped
+  // arrondissements falls outside them or on a border.
+  function labelPoint(geom) {
+    const polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
+    const ring = polys.map(p => p[0].map(([x, y]) => [x * LNG_SCALE, y])).sort((a, b) => ringArea(b) - ringArea(a))[0];
+    const xs = ring.map(p => p[0]), ys = ring.map(p => p[1]);
+    const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys), N = 24;
+    let best = [(x0 + x1) / 2, (y0 + y1) / 2], bestD = -1;
+    for (let i = 0; i <= N; i++) for (let j = 0; j <= N; j++) {
+      const p = [x0 + (x1 - x0) * i / N, y0 + (y1 - y0) * j / N];
+      if (!inRing(p, ring)) continue;
+      let d = Infinity;
+      for (let k = 0; k < ring.length - 1; k++) d = Math.min(d, segDist(p, ring[k], ring[k + 1]));
+      if (d > bestD) { bestD = d; best = p; }
+    }
+    return [best[0] / LNG_SCALE, best[1]];
+  }
+  function addArrondissements(geo) {
+    if (!cmap || cmap.getSource('arr')) return;
+    const firstSymbol = cmap.getStyle().layers.find(l => l.type === 'symbol')?.id;
+    const under = cmap.getLayer('building-3d') ? 'building-3d' : firstSymbol;
+    const belowRoute = cmap.getLayer('route-casing') ? 'route-casing' : firstSymbol;
+    cmap.addSource('arr', { type: 'geojson', data: geo });
+    cmap.addLayer({ id: 'arr-fill', type: 'fill', source: 'arr', paint: { 'fill-color': ARR_INK, 'fill-opacity': .06 } }, under);
+    // Outlines above the 3D buildings so the blocks never hide them, under the bike route; a soft halo then a dashed stroke.
+    cmap.addLayer({ id: 'arr-halo', type: 'line', source: 'arr', layout: { 'line-join': 'round' },
+      paint: { 'line-color': cssVar('--bg'), 'line-opacity': .7, 'line-width': ['interpolate', ['linear'], ['zoom'], 11, 4, 15, 8] } }, belowRoute);
+    cmap.addLayer({ id: 'arr-line', type: 'line', source: 'arr', layout: { 'line-join': 'round' },
+      paint: { 'line-color': ARR_INK, 'line-opacity': .8, 'line-width': ['interpolate', ['linear'], ['zoom'], 11, 1.6, 15, 3.2], 'line-dasharray': [3, 1.6] } }, belowRoute);
+    const points = geo.features.map(f => ({ type: 'Feature', properties: { n: f.properties.n }, geometry: { type: 'Point', coordinates: labelPoint(f.geometry) } }));
+    cmap.addSource('arr-labels', { type: 'geojson', data: { type: 'FeatureCollection', features: points } });
+    cmap.addLayer({ id: 'arr-label', type: 'symbol', source: 'arr-labels', minzoom: 10, maxzoom: 16,
+      layout: { 'text-field': ['get', 'n'], 'text-font': ['Noto Sans Bold'], 'text-size': ['interpolate', ['linear'], ['zoom'], 11, 14, 15, 22], 'text-letter-spacing': .06, 'text-allow-overlap': true },
+      paint: { 'text-color': ARR_INK, 'text-opacity': .9, 'text-halo-color': cssVar('--bg'), 'text-halo-width': 2.5 } });
   }
 
   function initMap(maplibregl) {
     $('cmap').innerHTML = '';
-    const bounds = new maplibregl.LngLatBounds([HOME.lng, HOME.lat], [HOME.lng, HOME.lat]);
-    for (const v of mapVenues) bounds.extend([v.lng, v.lat]);
-    cmap = new maplibregl.Map({ container: 'cmap', style: MAP_STYLE, bounds, fitBoundsOptions: { padding: 40 }, attributionControl: { compact: true } });
-    cmap.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+    const box = $('cmap'), fit = Math.min(box.clientWidth / DEFAULT_VIEW.size[0], box.clientHeight / DEFAULT_VIEW.size[1]);
+    cmap = new maplibregl.Map({ container: 'cmap', style: MAP_STYLE, center: DEFAULT_VIEW.center, zoom: DEFAULT_VIEW.zoom + Math.log2(fit || 1),
+      pitch: DEFAULT_VIEW.pitch, bearing: DEFAULT_VIEW.bearing, maxPitch: 75, maxBounds: MAP_BOUNDS, minZoom: 10, attributionControl: { compact: true } });
+    cmap.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
+    cmap.addControl(new Toggle3D(), 'top-right');
+    const arrP = fetch(ARR_URL).then(r => (r.ok ? r.json() : null)).catch(() => null);
+    cmap.on('load', () => { styleMap(); arrP.then(g => g && addArrondissements(g)); });
+    const syncZoom = () => {
+      const compact = cmap.getZoom() < COMPACT_BELOW_ZOOM;
+      if (compact === $('cmap').classList.contains('compact')) return;
+      $('cmap').classList.toggle('compact', compact);
+    };
+    cmap.on('zoom', syncZoom);
+    syncZoom();
+    cmap.on('moveend', () => {
+      const c = cmap.getCenter();
+      console.info('[carte] camera', JSON.stringify({ center: [+c.lng.toFixed(5), +c.lat.toFixed(5)], zoom: +cmap.getZoom().toFixed(2), pitch: +cmap.getPitch().toFixed(1), bearing: +cmap.getBearing().toFixed(1), size: [$('cmap').clientWidth, $('cmap').clientHeight] }));
+    });
+    cmap.on('click', (ev) => { if (!ev.originalEvent.target.closest('.cmk')) deselect(); });
+
     const home = document.createElement('div');
     home.className = 'chomemk';
-    home.dataset.name = HOME.name;
-    new maplibregl.Marker({ element: home }).setLngLat([HOME.lng, HOME.lat]).addTo(cmap);
+    home.innerHTML = `<span class="hic"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3 2 11.5h3V21h5.5v-6h3v6H19v-9.5h3z"/></svg></span><span class="hl">${esc(HOME.name)}<span class="htrip" aria-live="polite"></span></span>`;
+    new maplibregl.Marker({ element: home, anchor: 'left', offset: [-15, 0] }).setLngLat([HOME.lng, HOME.lat]).addTo(cmap);
+    homeEl = home;
+
     for (const v of mapVenues) {
       const el = document.createElement('button');
       el.type = 'button';
       el.className = 'cmk';
-      el.dataset.name = v.name;
-      el.setAttribute('aria-label', v.name);
       el.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
-      el.addEventListener('click', (ev) => { ev.stopPropagation(); openVenuePopup(maplibregl, v.id); });
-      new maplibregl.Marker({ element: el }).setLngLat([v.lng, v.lat]).addTo(cmap);
+      el.innerHTML = `<span class="cb"><span class="cimg"></span><span class="ctail"></span><span class="cname">${esc(v.name)}</span></span>`;
+      el.addEventListener('click', (ev) => { ev.stopPropagation(); selected === v.id ? deselect() : selectVenue(v.id); });
+      markerEls[v.id] = el;
+      new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([v.lng, v.lat]).addTo(cmap);
+    }
+    syncMarkers();
+  }
+
+  // Bubbles follow the period: hidden when the venue has nothing in it (muted in "Tout"), poster of its first event.
+  function syncMarkers() {
+    for (const v of mapVenues) {
+      const el = markerEls[v.id];
+      if (!el) continue;
+      const evs = eventsAt(v.id), img = evs.find(e => e.image)?.image || '';
+      el.classList.toggle('off', state.quand !== 'tout' && !evs.length && v.id !== selected);
+      el.classList.toggle('muted', !evs.length);
+      el.setAttribute('aria-label', evs.length ? `${v.name}, ${whenShort(evs[0], state.quand)} : ${evs[0].title}` : v.name);
+      const box = el.querySelector('.cimg');
+      if (box.dataset.img === img) continue;
+      box.dataset.img = img;
+      box.style.backgroundImage = img ? `url("${img}")` : '';
+      box.textContent = img ? '' : initial(v.name);
     }
   }
 
-  async function focusVenue(id) {
-    const v = venueById[id];
-    if (!cmap) return;
-    const maplibregl = await loadMaplibre();
-    if (MOBILE.matches) $('main').scrollTo({ top: 0, behavior: 'smooth' });
-    cmap.flyTo({ center: [v.lng, v.lat], zoom: Math.max(cmap.getZoom(), 15), duration: 600 });
-    cmap.once('moveend', () => openVenuePopup(maplibregl, id));
+  function renderCarteTabs() {
+    syncNodes($('carteTabs'), Object.keys(CARTE_WHEN),
+      (k) => {
+        const b = document.createElement('button');
+        b.type = 'button'; b.setAttribute('role', 'tab');
+        b.innerHTML = `${esc(CARTE_WHEN[k])}<span class="count"></span>`;
+        b.onclick = () => { state.quand = k; commit(); };
+        return b;
+      },
+      (b, k) => {
+        const on = state.quand === k;
+        b.classList.toggle('on', on);
+        b.setAttribute('aria-selected', on);
+        b.querySelector('.count').textContent = mapVenues.filter(v => eventsAt(v.id, k).length).length;
+        b.title = 'Nombre de lieux avec quelque chose';
+      });
   }
 
+  // ---- List
+
+  // One card per venue with its events of the period, venues ordered by their next event ("Tout": by genre, then
+  // name). The card selects the venue; an event row opens the event.
+  const thumbHtml = (img, name) => `<span class="cthumb"${img ? ` style="background-image:url('${esc(img)}')"` : ''}>${img ? '' : esc(initial(name))}</span>`;
+  const ROWS_PER_VENUE = 3;
+  function rowWhen(e, k) {
+    if (isRange(e)) return `→ ${fmtDate(e.end_date)}`;
+    if (k === 'aujourdhui') return timeLabel(e) || 'journée';
+    return whenShort(e, k === 'tout' ? 'tout' : 'semaine');
+  }
+  function carteItems(k) {
+    if (k === 'tout') {
+      const groups = Object.keys(CATEGORIES).map(c => [c, mapVenues.filter(v => (v.category || 'autre') === c)]).filter(([, vs]) => vs.length);
+      return groups.flatMap(([c, vs]) => [{ key: `g:${c}`, cat: c, n: vs.length },
+        ...[...vs].sort((a, b) => a.name.localeCompare(b.name, 'fr')).map(v => ({ key: `v:${v.id}`, v, evs: eventsAt(v.id, k) }))]);
+    }
+    const first = (evs) => `${evs[0].start_date < todayStr ? todayStr : evs[0].start_date} ${timeKey(evs[0])}`;
+    return mapVenues.map(v => ({ key: `v:${v.id}`, v, evs: eventsAt(v.id, k) })).filter(it => it.evs.length)
+      .sort((a, b) => first(a.evs).localeCompare(first(b.evs)) || a.v.name.localeCompare(b.v.name, 'fr'));
+  }
+  function itemNode(it) {
+    const li = document.createElement('li');
+    if (it.cat) {
+      li.className = 'chead';
+      li.setAttribute('role', 'presentation');
+      li.style.setProperty('--c', `var(--c-${it.cat}, var(--c-autre))`);
+      li.innerHTML = `<span class="dot"></span><span>${esc(CATEGORIES[it.cat])}</span><span class="k"></span>`;
+      return li;
+    }
+    const v = it.v;
+    li.className = 'cgroup';
+    li.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
+    li.onclick = () => (selected === v.id ? deselect() : selectVenue(v.id));
+    li.onmouseenter = () => markerEls[v.id]?.classList.add('hover');
+    li.onmouseleave = () => markerEls[v.id]?.classList.remove('hover');
+    return li;
+  }
+  function fillItem(li, it, k, seq) {
+    if (it.cat) { li.querySelector('.k').textContent = it.n; return; }
+    const v = it.v, evs = it.evs, shown = evs.slice(0, k === 'tout' ? 1 : ROWS_PER_VENUE);
+    li.classList.toggle('on', v.id === selected);
+    li.classList.toggle('muted', !evs.length);
+    const meta = [k === 'tout' ? areaName(venueArea[v.id]) : CATEGORIES[v.category] || v.category, k === 'tout' ? '' : areaName(venueArea[v.id]),
+      bike[v.id] ? `${fmtMins(bike[v.id].go)} à vélo` : ''].filter(Boolean).join(' · ');
+    li.innerHTML = `<div class="ghead">${thumbHtml(evs.find(e => e.image)?.image, v.name)}
+        <div style="min-width:0"><div class="gname">${esc(v.name)}</div><div class="gmeta"><span class="dot"></span>${esc(meta)}</div></div></div>
+      ${shown.length ? `<ul class="grows">${shown.map(e => `<li><button type="button" class="grow${e.status === 'cancelled' ? ' cancelled' : ''}" data-uid="${esc(e.uid)}">
+        <span class="cwhen">${esc(rowWhen(e, k))}</span><span class="gt">${esc(e.title)}</span></button></li>`).join('')}</ul>` : ''}
+      ${evs.length > shown.length ? `<div class="gmore">+ ${evs.length - shown.length} ${k === 'tout' ? 'à venir' : 'autres'}</div>` : ''}
+      ${!evs.length ? '<div class="gmore">rien à venir</div>' : ''}`;
+    for (const b of li.querySelectorAll('.grow')) {
+      b.onclick = (ev) => { ev.stopPropagation(); carteSeq = seq; openModal(byUid.get(b.dataset.uid)); };
+    }
+  }
   function renderCarteList() {
-    $('carteLead').textContent = `À vélo depuis le ${HOME.name}`;
-    $('carteNote').textContent = {
-      idle: 'Calcul des trajets...', loading: 'Calcul des trajets...',
-      error: 'Trajets à vélo indisponibles (service de calcul injoignable).',
-      ok: `Itinéraire vélo OpenStreetMap, rythme urbain ~${BIKE_KMH.toLocaleString('fr-FR')} km/h, dénivelé compté entre départ et arrivée.`,
-    }[bikeState];
+    const k = state.quand, items = carteItems(k);
+    const seq = items.flatMap(it => it.evs || []);
+    const places = items.filter(it => it.v && it.evs.length).length;
+    $('carteLead').textContent = k === 'tout' ? lieux(mapVenues.length)
+      : seq.length ? `${plural(seq.length, 'événement')} dans ${lieux(places)}` : `Rien ${CARTE_EMPTY[k]}`;
+    $('carteNote').textContent = bikeState === 'error' ? 'Temps à vélo indisponibles (service de calcul injoignable).' : '';
     const list = $('carteList');
-    const rows = [...mapVenues].sort((a, b) => (bike[a.id]?.go ?? Infinity) - (bike[b.id]?.go ?? Infinity) || a.name.localeCompare(b.name, 'fr'));
-    syncNodes(list, rows.map(v => v.id),
-      (id) => {
-        const v = venueById[id];
-        const li = document.createElement('li');
-        li.className = 'lrow';
-        li.style.setProperty('--c', `var(--c-${v.category || 'autre'}, var(--c-autre))`);
-        li.innerHTML = `<span class="dot"></span>
-          <div class="ltxt"><button type="button" class="lnk lname">${esc(v.name)}</button><div class="lsub"></div></div>
-          <span class="ctime"></span>`;
-        li.onclick = () => focusVenue(id);
-        return li;
-      },
-      (li, id) => {
-        const v = venueById[id], n = upcomingAt(id).length, b = bike[id];
-        li.classList.toggle('muted', !n);
-        li.querySelector('.lsub').textContent = [CATEGORIES[v.category] || v.category, n ? `${n} à venir` : 'rien à venir'].join(' · ');
-        const t = li.querySelector('.ctime');
-        t.textContent = b ? fmtMins(b.go) : bikeState === 'loading' ? '...' : '-';
-        t.classList.toggle('na', !b);
-        t.title = b ? bikeLine(id) : '';
-      });
-    for (const id of rows.map(v => v.id)) list.appendChild(list.querySelector(`[data-key="${id}"]`));
+    syncNodes(list, items.map(it => it.key), (key) => itemNode(items.find(it => it.key === key)),
+      (li, key) => fillItem(li, items.find(it => it.key === key), k, seq));
+    for (const it of items) list.appendChild(list.querySelector(`[data-key="${CSS.escape(it.key)}"]`));
   }
 
   async function renderCarte() {
     if (bikeState === 'idle') {
       bikeState = 'loading';
       computeBike()
-        .then(b => { bike = b; bikeState = 'ok'; })
+        .then(b => { bike = { ...b, ...bike }; bikeState = 'ok'; })
         .catch(() => { bikeState = 'error'; })
         .finally(() => { if (state.view === 'carte') renderCarteList(); });
     }
+    renderCarteTabs();
     renderCarteList();
     try {
       const maplibregl = await loadMaplibre();
       if (state.view !== 'carte') return;
       if (!cmap) initMap(maplibregl);
+      syncMarkers();
+      renderDetail();
       cmap.resize();
     } catch (e) {
       // Library blocked by the network, or no WebGL in this browser.
@@ -1535,6 +2038,7 @@
       if (!pop.hidden) { closePop(); return; }
       if (!infoPop.hidden) { setInfo(false); return; }
       if (!modal.hidden) { closeModal(); return; }
+      if (state.view === 'carte' && selected) { deselect(); return; }
       if (state.lieux) closeLieux();
       return;
     }

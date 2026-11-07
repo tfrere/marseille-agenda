@@ -1,13 +1,13 @@
 {
- "run_date": "2026-11-06",
+ "run_date": "2026-11-07",
  "sources_total": 50,
- "sources_ok": 49,
+ "sources_ok": 46,
  "sources_skipped_unchanged": 0,
- "events_published": 613,
- "events_new": 0,
+ "events_published": 598,
+ "events_new": 14,
  "events_rejected_grounding": 192,
  "events_rejected_verifier": 6,
- "events_uncertain": 0,
+ "events_uncertain": 2,
  "alerts": [
   {
    "level": "warning",
@@ -19,31 +19,31 @@
    "level": "warning",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.lafriche.org/agenda/",
-   "message": "verifier rejected 'Visite flash' 2027-01-09: The excerpt states 'Des visites commentées des expositions de 30 minutes. 15h / 16h / 17h', indicating three distinct 30-minute tour slots rather than an event ending at 16:00:00."
+   "message": "verifier rejected 'Visite flash' 2027-01-09: The excerpt states tours last '30 minutes' with times at '15h / 16h / 17h', which contradicts the extracted end time of 16:00:00."
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: The entry 'Permanence de Mille Bâbords et de sa médiathèque' corresponds to the venue and media library's regular opening hours rather than a public event, and the excerpt provides no year or weekday for '09 novembre'."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: \"Permanence de Mille Bâbords et de sa médiathèque\" represents the opening/drop-in hours of the venue and its media library, not a public event."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The cycle runs \"du mercredi 11 novembre 2026 au jeudi 12 novembre 2026\", making the start date 2026-11-11, not 2026-11-12."
+   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the cycle runs \"du mercredi 11 novembre 2026 au jeudi 12 novembre 2026\", contradicting the extracted start_date of 2026-11-12."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt gives `[2026-11-14T00:00:00+01:00] samedi 14 novembre 2026` with no start time of 01:00:00; extracting 01:00:00 is an artifact of the `+01:00` timezone offset."
+   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt lists no start time for the event (only 'samedi 14 novembre 2026' with machine tag '[2026-11-14T00:00:00+01:00]'), contradicting the extracted start time of 01:00:00."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date of 2027-01-20 is actually the end date of the cycle; the excerpt specifies 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027'."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The cycle runs 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027', so the start date is 2026-09-30, not 2027-01-20 (which is the end date)."
   },
   {
    "level": "warning",
@@ -61,7 +61,7 @@
    "level": "error",
    "venue_id": "l-embobineuse",
    "source_url": "https://www.lembobineuse.biz/events/upcoming",
-   "message": "source failed, last verified state kept: fetch: _ssl.c:983: The handshake operation timed out"
+   "message": "source failed, last verified state kept: fetch: Server error '503 Service Unavailable' for url 'https://www.lembobineuse.biz/events/upcoming'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
   },
   {
    "level": "warning",
@@ -73,14 +73,50 @@
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly states the year 2026: 'Du 15 mars à 18h00 au 16 mars 2026 à 21h00', which contradicts the extracted date 2027-03-15 and indicates the event has already occurred relative to today (2026-11-06)."
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly dates the event to 2026 ('au 16 mars 2026 à 21h00' and 'Dimanche 15 mars 2026 à 18h'), contradicting the extracted year 2027, and making it a past event relative to today (2026-11-07)."
+  },
+  {
+   "level": "error",
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook fetch failed 10x: apify~facebook-posts-scraper: no_items"
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.facebook.com/friche.labelledemai/",
+   "message": "event count dropped from 5 to 2; previous events kept"
+  },
+  {
+   "level": "warning",
+   "venue_id": "transit-librairie",
+   "source_url": "https://www.facebook.com/transit.librairie/",
+   "message": "facebook verifier uncertain \"Technologie du Coup d'État: Les Programmeurs de l'Autoritarisme\" 2026-11-07: The only image is a title card reading \"TECHNOLOGIE DU COUP D'ÉTAT / LES PROGRAMMEURS DE L'AUTORITARISME\" with a \"LUX\" logo and no date, time or venue anywhere; the caption is empty, so the extracted start_date 2026-11-07 (and the venue) is unsupported by the post."
+  },
+  {
+   "level": "error",
+   "venue_id": "l-intermediaire",
+   "source_url": "https://www.facebook.com/Intermediaire.live/",
+   "message": "facebook fetch failed 4x: apify~facebook-posts-scraper: no_items"
+  },
+  {
+   "level": "warning",
+   "venue_id": "les-varietes",
+   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
+   "message": "facebook verifier uncertain 'TOUS TOI' 2026-11-11: The only readable text is \"SÉANCE SPÉCIALE\" and a partially cropped title (\"...OUS TOI\"); the caption is empty and the flyer shows no date, time or venue, so the extracted start_date 2026-11-11 (and the venue Les Variétés) is unsupported by the post."
+  },
+  {
+   "level": "error",
+   "venue_id": "la-colorada",
+   "source_url": "https://www.facebook.com/lacoloradamarsella/",
+   "message": "facebook fetch failed 38x: apify~facebook-posts-scraper: not_available"
   }
  ],
- "llm_calls": 6,
- "posts_analyzed": 0,
- "apify_runs": 0,
- "images_published": 527,
+ "llm_calls": 45,
+ "posts_analyzed": 14,
+ "apify_runs": 17,
+ "images_published": 525,
  "images_failed": 0,
- "credits_remaining_usd": 45.2671,
- "run_cost_usd": 0.0326
+ "credits_remaining_usd": 45.1823,
+ "run_cost_usd": 0.0819
 }

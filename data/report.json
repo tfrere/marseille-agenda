@@ -1,49 +1,49 @@
 {
- "run_date": "2026-11-07",
+ "run_date": "2026-11-08",
  "sources_total": 50,
- "sources_ok": 46,
+ "sources_ok": 44,
  "sources_skipped_unchanged": 0,
- "events_published": 598,
- "events_new": 14,
- "events_rejected_grounding": 192,
- "events_rejected_verifier": 6,
- "events_uncertain": 2,
+ "events_published": 570,
+ "events_new": 6,
+ "events_rejected_grounding": 183,
+ "events_rejected_verifier": 13,
+ "events_uncertain": 0,
  "alerts": [
   {
-   "level": "warning",
+   "level": "error",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "no upcoming event on source at last check; next generation attempt 2026-11-11"
+   "message": "source failed, last verified state kept: fetch: [Errno 101] Network is unreachable"
   },
   {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "message": "verifier rejected 'Visite flash' 2027-01-09: The excerpt states tours last '30 minutes' with times at '15h / 16h / 17h', which contradicts the extracted end time of 16:00:00."
+   "level": "error",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "source_url": "https://musees.marseille.fr/",
+   "message": "source failed, last verified state kept: fetch: timed out"
   },
   {
    "level": "warning",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: \"Permanence de Mille Bâbords et de sa médiathèque\" represents the opening/drop-in hours of the venue and its media library, not a public event."
+   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: \"Permanence de Mille Bâbords et de sa médiathèque\" represents the regular drop-in opening hours of the venue and its media library rather than a discrete public event."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the cycle runs \"du mercredi 11 novembre 2026 au jeudi 12 novembre 2026\", contradicting the extracted start_date of 2026-11-12."
+   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The excerpt states the cycle runs 'du mercredi 11 novembre 2026 au jeudi 12 novembre 2026', contradicting the extracted start_date of 2026-11-12."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt lists no start time for the event (only 'samedi 14 novembre 2026' with machine tag '[2026-11-14T00:00:00+01:00]'), contradicting the extracted start time of 01:00:00."
+   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt lists `[2026-11-14T00:00:00+01:00] samedi 14 novembre 2026` with no start time, contradicting the extracted start time of 01:00:00."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The cycle runs 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027', so the start date is 2026-09-30, not 2027-01-20 (which is the end date)."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The extracted start_date 2027-01-20 is the end date of the cycle; the excerpt specifies 'du mercredi 30 septembre 2026 au mercredi 20 janvier 2027'."
   },
   {
    "level": "warning",
@@ -73,50 +73,80 @@
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly dates the event to 2026 ('au 16 mars 2026 à 21h00' and 'Dimanche 15 mars 2026 à 18h'), contradicting the extracted year 2027, and making it a past event relative to today (2026-11-07)."
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt specifies the year 2026 ('au 16 mars 2026 à 21h00', 'Dimanche 15 mars 2026 à 18h'), which contradicts the extracted year 2027, and represents a past event relative to today (2026-11-08)."
   },
   {
    "level": "error",
    "venue_id": "manifesten",
    "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook fetch failed 10x: apify~facebook-posts-scraper: no_items"
-  },
-  {
-   "level": "warning",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "event count dropped from 5 to 2; previous events kept"
-  },
-  {
-   "level": "warning",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook verifier uncertain \"Technologie du Coup d'État: Les Programmeurs de l'Autoritarisme\" 2026-11-07: The only image is a title card reading \"TECHNOLOGIE DU COUP D'ÉTAT / LES PROGRAMMEURS DE L'AUTORITARISME\" with a \"LUX\" logo and no date, time or venue anywhere; the caption is empty, so the extracted start_date 2026-11-07 (and the venue) is unsupported by the post."
+   "message": "facebook fetch failed 11x: apify~facebook-posts-scraper: no_items"
   },
   {
    "level": "error",
    "venue_id": "l-intermediaire",
    "source_url": "https://www.facebook.com/Intermediaire.live/",
-   "message": "facebook fetch failed 4x: apify~facebook-posts-scraper: no_items"
-  },
-  {
-   "level": "warning",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook verifier uncertain 'TOUS TOI' 2026-11-11: The only readable text is \"SÉANCE SPÉCIALE\" and a partially cropped title (\"...OUS TOI\"); the caption is empty and the flyer shows no date, time or venue, so the extracted start_date 2026-11-11 (and the venue Les Variétés) is unsupported by the post."
+   "message": "facebook fetch failed 5x: apify~facebook-posts-scraper: no_items"
   },
   {
    "level": "error",
    "venue_id": "la-colorada",
    "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 38x: apify~facebook-posts-scraper: not_available"
+   "message": "facebook fetch failed 39x: apify~facebook-posts-scraper: not_available"
+  },
+  {
+   "level": "warning",
+   "venue_id": "twali",
+   "source_url": "https://www.instagram.com/twali.marseille/",
+   "message": "instagram verifier rejected 'Bibimbap vegan' 2026-11-09: The post is a restaurant's weekly menu (\"Menu de la semaine\") listing daily specials — \"PLAT DU JOUR • LUNDI 09/11 / Bibimbap vegan\" — i.e. a recurring food offering, not a dated public event. The date itself is consistent (lundi 09/11 = 2026-11-09, after the 2026-11-07 publication), but a plat du jour is not an event."
+  },
+  {
+   "level": "warning",
+   "venue_id": "twali",
+   "source_url": "https://www.instagram.com/twali.marseille/",
+   "message": "instagram verifier rejected 'Moussaka vegan' 2026-11-10: The post is a restaurant's weekly food menu (\"Menu de la semaine ❤️!\"), and the extracted item is simply a daily dish: \"PLAT DU JOUR • MARDI 10/11 — Moussaka vegan\". A plat du jour is a menu offer, not a dated public event, so it falls under the non-event exclusion (like opening hours or a generic offer). The date itself is consistent (mardi 10/11 = 2026-11-10, after the 2026-11-07 publication), but there is no event to list."
+  },
+  {
+   "level": "warning",
+   "venue_id": "twali",
+   "source_url": "https://www.instagram.com/twali.marseille/",
+   "message": "instagram verifier rejected 'Kefta de poisson façon tajine' 2026-11-11: The post is a weekly menu (\"Menu de la semaine ❤️!\") listing daily specials (\"PLAT DU JOUR • MERCREDI 11/11\"), i.e. a recurring restaurant menu item / generic food offer, not a dated public event. The date itself is consistent (11/11 is a mercredi), but a \"plat du jour\" is not an event."
+  },
+  {
+   "level": "warning",
+   "venue_id": "twali",
+   "source_url": "https://www.instagram.com/twali.marseille/",
+   "message": "instagram verifier rejected 'Couscous' 2026-11-12: The post is a recurring restaurant menu, not a dated public event: the caption reads \"Menu de la semaine ❤️!\" and the flyer is a \"PLAT DU JOUR · JEUDI 12/11\" daily-special card (\"Couscous / Traditionnel kefta & merguez, ou version vegan\"). A weekly menu of plats du jour is a generic/recurring offer, not an event. (The date itself is consistent: 12/11/2026 is indeed a jeudi.)"
+  },
+  {
+   "level": "warning",
+   "venue_id": "twali",
+   "source_url": "https://www.facebook.com/twalibelsunce/",
+   "message": "facebook verifier rejected 'Bibimbap vegan' 2026-11-09: The post is a restaurant's weekly menu (\"Menu de la semaine ❤️!\") listing routine daily specials (\"PLAT DU JOUR · LUNDI 09/11 — Bibimbap vegan\"), i.e. a recurring menu/offer rather than a dated public event; the date itself is consistent (09/11 is a lundi, after the 07/11 publication), but a plat du jour is not an event."
+  },
+  {
+   "level": "warning",
+   "venue_id": "twali",
+   "source_url": "https://www.facebook.com/twalibelsunce/",
+   "message": "facebook verifier rejected 'Moussaka vegan' 2026-11-10: The post is a restaurant's weekly food menu (\"Menu de la semaine ❤️!\" with \"PLAT DU JOUR · MARDI 10/11 — Moussaka vegan\"), i.e. a recurring daily-special offer rather than a dated public event; the date itself is consistent (10/11/2026 is indeed a mardi), but a plat du jour is not an event."
+  },
+  {
+   "level": "warning",
+   "venue_id": "twali",
+   "source_url": "https://www.facebook.com/twalibelsunce/",
+   "message": "facebook verifier rejected 'Kefta de poisson façon tajine' 2026-11-11: The post is a restaurant's weekly food menu (\"Menu de la semaine ❤️!\" with slides \"PLAT DU JOUR · LUNDI 09/11\", \"MARDI 10/11\", \"MERCREDI 11/11\", \"JEUDI 12/11\"), i.e. a daily dish offer, not a dated public event. The date itself is consistent (11/11 is a mercredi in 2026), but a \"plat du jour\" is a menu item, not an event."
+  },
+  {
+   "level": "warning",
+   "venue_id": "twali",
+   "source_url": "https://www.facebook.com/twalibelsunce/",
+   "message": "facebook verifier rejected 'Couscous' 2026-11-12: The post is a restaurant's weekly menu (\"Menu de la semaine ❤️!\") listing daily specials (\"PLAT DU JOUR · JEUDI 12/11 / Couscous\"), i.e. a recurring menu offer rather than a dated public event; the date itself is consistent (jeudi 12/11 = 2026-11-12, after the 2026-11-07 publication), but a plat du jour is not an event."
   }
  ],
- "llm_calls": 45,
- "posts_analyzed": 14,
+ "llm_calls": 27,
+ "posts_analyzed": 7,
  "apify_runs": 17,
- "images_published": 525,
+ "images_published": 508,
  "images_failed": 0,
- "credits_remaining_usd": 45.1823,
- "run_cost_usd": 0.0819
+ "credits_remaining_usd": 42.9475,
+ "run_cost_usd": 0.0519
 }

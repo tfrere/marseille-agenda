@@ -4,10 +4,10 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-11-07",
+   "last_fetched": "2026-11-08",
    "last_ok": "2026-10-26",
    "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 10,
+   "consecutive_failures": 11,
    "posts": {
     "1660677512734544": {
      "id": "1660677512734544",
@@ -397,8 +397,8 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -2224,8 +2224,8 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -3792,8 +3792,8 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -4510,8 +4510,8 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -5631,10 +5631,10 @@
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-11-07",
+   "last_fetched": "2026-11-08",
    "last_ok": "2026-11-03",
    "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 4,
+   "consecutive_failures": 5,
    "posts": {
     "27367697112904947": {
      "id": "27367697112904947",
@@ -5846,8 +5846,8 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -7433,6 +7433,21 @@
       "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-15/887316033_18639786160008457_3561165668038817402_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAyMzkyODM5Mzc0MjU3NDkwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nf0imHAm9lsQ7kNvwG2l5Q4&_nc_oc=AdqUS-4qj8yHYn0kcy91mVBdBixy8BWgFyOX8K-SZXBApaBtoKJ6zUib3S7PAxMmvE4YXimnAZQQCKyW0PNwkuET&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=lwMhG8VWOUA1NBCIF9j_6g&_nc_ss=7a20f&oh=00_AQTvPnlc7z0fQiPK7gK5EG13z8a_Z9a4lyqXE7NKlAGQoA&oe=6AF47089",
       "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-15/891981593_18639786310008457_5546765235748428633_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=NDAyMzkyODM5NzU2NzYyOTIxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8Vj2OuuaCNUQ7kNvwER5TMS&_nc_oc=AdrgDS2srMU6jFdJZy3TMBuNba4RnPGFJsUQe-ZCWFjRlZubjWPybB7cM6kN_fq_Qc-swCmDRonskUUkDzC6IarK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=lwMhG8VWOUA1NBCIF9j_6g&_nc_ss=7a20f&oh=00_AQRKDrVFGa1M6QZg-8mW_241P7JeIsnIC97G3JEHs2atjw&oe=6AF46D1C"
      ]
+    },
+    "4025008398173121916": {
+     "id": "4025008398173121916",
+     "url": "https://www.instagram.com/p/Dfbs9APEq18/",
+     "published": "2026-11-07",
+     "analyzed": "2026-11-08",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post does not announce any upcoming events at the venue.",
+     "image_urls": [
+      "https://instagram.fmad11-2.fna.fbcdn.net/v/t39.30808-6/863444490_1756698839790197_6217584804703677642_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNTAwODM3NTMxNDEzODM0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9Me0hWih5R4Q7kNvwGvMXVA&_nc_oc=Adox7ud2qNyeJH6C6uYZNb24z6t4Ty02mr5NOpQGk08YXXc8iQmUaGKtJoFHrM4T4Fw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fmad11-2.fna&_nc_gid=Ac4DaY0P53hLSI5ebjdUog&_nc_ss=7a20f&oh=00_AQTtNRRrgVI1DLFfti616FMf049l1Oj-JACGWx6DOUPe0g&oe=6AF5F022",
+      "https://instagram.fmad7-1.fna.fbcdn.net/v/t39.30808-6/875196533_1756698846456863_1805601815929157351_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNTAwODM3NjMyMDc5NTQwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mjoJDkelIWYQ7kNvwEuPQcw&_nc_oc=AdpMpOC4pEqQYKijwY20o6-QdbLVc58hkoHAZfn2uJK0doTe_NJjBo-ikWqDTgDv4EQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fmad7-1.fna&_nc_gid=Ac4DaY0P53hLSI5ebjdUog&_nc_ss=7a20f&oh=00_AQTdtnwMCoFJnjjpSvwRKcAogZtLJ1eNXQkNrB-EXu9iQw&oe=6AF5DB38",
+      "https://instagram.fmad11-1.fna.fbcdn.net/v/t39.30808-6/876507699_1756698836456864_1365778682686724849_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNTAwODM3NTk5MzYxOTE2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=uOWJ9Lzi2ZYQ7kNvwGN_uVc&_nc_oc=AdpflfpLSwdF1MkGgnO3wxpyU0j8n-NFtw8U1AjeBquZznyunMG7u-ov2awzFP_IK_4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fmad11-1.fna&_nc_gid=Ac4DaY0P53hLSI5ebjdUog&_nc_ss=7a20f&oh=00_AQRCijHA3g1eCsndi-ppKbdOt1yeYCEKEhln3ew0LWP87w&oe=6AF5DB43",
+      "https://instagram.fmad7-1.fna.fbcdn.net/v/t39.30808-6/861255254_1756698816456866_1695873385264618597_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNTAwODM3NTM0NzcxNDYxMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=QSKrhmeAl-wQ7kNvwHIBLAR&_nc_oc=AdpQC8hj-HUW2Fb0jVu5_s9thuh2SHunR9X36W9TzYfqfrt56rp6epzNMvOuMQUseTM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fmad7-1.fna&_nc_gid=Ac4DaY0P53hLSI5ebjdUog&_nc_ss=7a20f&oh=00_AQSi-qmooCIZ3a6GbruGXRw2978dlU76s617mfrS0RqULg&oe=6AF5DAE7"
+     ]
     }
    },
    "failed_posts": {},
@@ -7442,8 +7457,8 @@
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -9157,6 +9172,21 @@
       "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/888089750_2451355365699289_3436200651957767102_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qH-n1dVakH8Q7kNvwGsTq0-&_nc_oc=AdqyDco2tPSD9tiNWTdPh2sYxxNl2NhnVQj6pka7Xc3_lvF9YvQPO8VgzHdsu3uokiU&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=QeMqhiVpyeVwj-32Ad4dAA&_nc_ss=70180&oh=00_AQTH7w-ItZSCmXMOEpHPAmAA-DIDiekm-BZV1Zt5PSRsUQ&oe=6AF47173",
       "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/890674317_1124839990287199_6102953854996259695_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=SBhB2BaWPM0Q7kNvwF6Uvms&_nc_oc=AdrKsBKDQ_lOmFBPr0uGh8BnPHTrKSO2lZunOsIn5as3l9WQfIFqJheI_Jaalgmtrpc&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=QeMqhiVpyeVwj-32Ad4dAA&_nc_ss=70180&oh=00_AQRlAhyWDJMuOqXgQQw6hCqjF1_l9uk96Q4j1en3VcK88A&oe=6AF479F7"
      ]
+    },
+    "1764860848973996": {
+     "id": "1764860848973996",
+     "url": "https://www.facebook.com/labaleinemarseille/posts/pfbid02ZDo8HJGcywCRTxRUERxJvxpvsiaNKZ4QQcZgvSnB4sYBsDJ61pMb4aEwVFQpM3Nxl",
+     "published": "2026-11-07",
+     "analyzed": "2026-11-08",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post and attached images only showcase food and drink items, the bistro's operating hours, and a promotional offer. There are no announcements of upcoming public events at the venue.",
+     "image_urls": [
+      "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/892009694_2348020049069959_8990414698802463414_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=QUOLgOxSx1UQ7kNvwHSuJkF&_nc_oc=Ado-snnx-8pWsUvwSv7esovMiXE8te9-ETVJtrMpPxcYG9fykb-UsArqP4Rb82QIBCU&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=8r64sNrlNESuOLrbBEku_A&_nc_ss=70180&oh=00_AQRiZG79kGGmKaCOfN7Fn7XCKZUiRIr2MGK3X5PjwJo8aA&oe=6AF5D082",
+      "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/893597630_1473054098257721_644845560344479623_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XJoA7Tp9vnoQ7kNvwFDiF5Q&_nc_oc=AdrtwMqaEe32Wky004SaaHG7kBT08VmqlGtil7fK28vjEP6_Wo9CkBuHRU5G0C6tgd8&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=8r64sNrlNESuOLrbBEku_A&_nc_ss=70180&oh=00_AQT_vet1ck0PJtGVjtTN838CZO0gaLPQKJhwT8YP60CoXA&oe=6AF5CC65",
+      "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/890345700_2655272991560588_5759262945570139876_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=s9aLlOo_8ywQ7kNvwGLGxez&_nc_oc=Ado7wHY0S2D_cu_vb7FEzS-HWfyRN5SGOP6OdFh-bPbB3s5YTuWZenGQpfrGVOq9avM&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=8r64sNrlNESuOLrbBEku_A&_nc_ss=70180&oh=00_AQSqA3hMZnkwxRLUaQc8029amRbyDVXLx1Aa3slQc7DUpg&oe=6AF5EAAC",
+      "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/893938344_1393735470495058_6119615307203606605_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o9SA-E51BtUQ7kNvwGxbN2V&_nc_oc=AdpZPCxr3zzzcje3sM6Ww-qMweop8-KgmQD5gfh8r-fD-pgqjsjXINUwYJmkZ9nQWy0&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=8r64sNrlNESuOLrbBEku_A&_nc_ss=70180&oh=00_AQR7Hs3mbaw1eTPFJjNDtYoR-TXqbOhSw5YuMugXP0uqbg&oe=6AF5E386"
+     ]
     }
    },
    "failed_posts": {},
@@ -9374,8 +9404,8 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -10293,8 +10323,8 @@
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -11090,8 +11120,8 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -12404,8 +12434,8 @@
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14036,6 +14066,39 @@
      "image_urls": [
       "https://scontent.fosu2-2.fna.fbcdn.net/v/t15.5256-10/893336372_1133985715908578_6612953609484847656_n.jpg?stp=dst-jpg_tt6&cstp=mx1504x2048&ctp=s960x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=ntbcNaSeI_gQ7kNvwGVBGHm&_nc_oc=AdrvBF9f30BrOLeDAuN6VwcHhbbEbSX_OC1i0l4VT57fzUhR8OsesZiicIagrrVHx9ddnJtWvPu4UqEgj3y_rp7d&_nc_zt=23&_nc_ht=scontent.fosu2-2.fna&_nc_gid=fXAWJvjNofSV5VtFBxl1GA&_nc_ss=70180&oh=00_AQQJCrfeE58nBFAKkiVBWD-Yr6KaMV94M5hR_nDaKaGCfA&oe=6AF48643"
      ]
+    },
+    "1739826791481767": {
+     "id": "1739826791481767",
+     "url": "https://www.facebook.com/cinemalegyptis/posts/2144247286178854:2144247286178854",
+     "published": "2026-11-07",
+     "analyzed": "2026-11-08",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Un pays qui se tient sage",
+       "start_date": "2026-11-14",
+       "start_time": "20:00:00",
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Projection du film 'Un pays qui se tient sage' suivie d'un débat en partenariat avec Le Printemps du Film Engagé.",
+       "status": "scheduled",
+       "evidence": [
+        "Un pays qui se tient sage",
+        "Samedi 14 novembre 20h",
+        "Projection | Débat"
+       ],
+       "from_image": true,
+       "verifier": "accept",
+       "verifier_reason": "The flyer announces a future dated event: \"UN PAYS QUI SE TIENT SAGE / SAMEDI 14 NOVEMBRE 20H / PROJECTION | DÉBAT\", and 2026-11-14 is indeed a samedi, on/after the 2026-11-07 publication date; posted by the cinema's own page (Le Gyptis), so the venue matches."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/895876856_2034368207241414_7433592087790406696_n.png?stp=dst-png&cstp=mx2340x860&ctp=p180x540&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=3GJPNukxGHMQ7kNvwHJscEY&_nc_oc=Ador3_P3yk95Rbv5TLdomLcO6Ez986UB42-zUZknWTmsDqw-aaQGJY8rbLWQsGkZV8ZeQA4NjGmJozsZQA2pp8AX&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=XDl32vpF9KH-h3KmiBRuSg&_nc_ss=70180&oh=00_AQR1LpfKhi4Eby9hZpXM9TidVNIUpnkka7YOWLis_gajzw&oe=6AF5CDBE"
+     ]
     }
    },
    "failed_posts": {},
@@ -14178,8 +14241,8 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14330,6 +14393,20 @@
       "https://instagram.frao5-1.fna.fbcdn.net/v/t51.82787-15/880241091_18639358672063725_1286746842114888014_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjg1Nzc5MDI0MTA4NjU1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=LMBB45DKSmsQ7kNvwHkuoOG&_nc_oc=AdqRCLyI-R6nW1MSszACmA-4UQN0EF-gbHuqVq1EcZlJOcds_bg4OS3JMJYXT4wZp4Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frao5-1.fna&_nc_gid=sEM6ji2PeH50sZoAO53bjQ&_nc_ss=7a20f&oh=00_AQQsAxCALRfUdfzabypopvrVkx2iZ3wLd-Y_0wqKtupVKg&oe=6AF1E7AA",
       "https://instagram.frao5-1.fna.fbcdn.net/v/t51.82787-15/881047915_18639358690063725_1817825374511159691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMjg1Nzc5MjA4NjQxNzMxMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mVWMKZMAP3IQ7kNvwG6UT3n&_nc_oc=Adpvq47aLFsm-x49xnS4cd-8Y1cHeSkivQYxdGCbz-l-eBIfN3SbVQ7btQSoddciRIs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.frao5-1.fna&_nc_gid=sEM6ji2PeH50sZoAO53bjQ&_nc_ss=7a20f&oh=00_AQTRqx08VQFje8bUdKZhASOx7DDTueR4x7uHL6RB-iG3Ag&oe=6AF1E8CC"
      ]
+    },
+    "4025024911223207042": {
+     "id": "4025024911223207042",
+     "url": "https://www.instagram.com/p/DfbwtTNjrSC/",
+     "published": "2026-11-07",
+     "analyzed": "2026-11-08",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post announces an event happening elsewhere.",
+     "image_urls": [
+      "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/881397141_18640403251063725_3719144530414828118_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=105&ig_cache_key=NDAyNTAyMjEyNDQxMzEwNDgzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDA5Ni5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2fGOjrA2jUAQ7kNvwEKpTUO&_nc_oc=AdpCbKh3YlYFs7YuowIxAA_yT5Tv2RLfZwgA8agmOu4Nr7V-EdYzIR1NvQ_c41kGLzk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=TCgjE2sWTBnAmfIR9T9Ylw&_nc_ss=7a20f&oh=00_AQTPAvPLbBSiZ9ICZwdcfjAtacNPRZANhfC2IcWm4U6iUw&oe=6AF5E08A",
+      "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/881397147_18640403299063725_4277153998446247954_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=107&ig_cache_key=NDAyNTAyMjEzNDIyNzgwOTY3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDA5Ni5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mJ4lsrLyGaAQ7kNvwEylPkO&_nc_oc=AdpTKzCk2Ulkk9if7ils-gG_W-8NVvqvcMDqKRYXu8MUBtpuu_ZnJUCBF2s6Ml77Lc8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=TCgjE2sWTBnAmfIR9T9Ylw&_nc_ss=7a20f&oh=00_AQQgGOCRJbaW0LBFPJM8ROW3x7wsuaJL8AhhNnntQKvXNA&oe=6AF5E4B8",
+      "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/885805746_18640403323063725_6911742693473318342_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=104&ig_cache_key=NDAyNTAyMjEzNzcyNTgxNDg4MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDAzMi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OgE5WahlV-AQ7kNvwGObl93&_nc_oc=AdoSmCFluRXkJYasACmOYjHCx1aVMfhYmDlIUn6QPhkYpvktwSLvHpWnuJwtQaYMFT4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=TCgjE2sWTBnAmfIR9T9Ylw&_nc_ss=7a20f&oh=00_AQTr9qYvtXCWusdUAIl65Wi7KTNJUf9q0z2TsINUUqCKBg&oe=6AF5BE72"
+     ]
     }
    },
    "failed_posts": {},
@@ -14339,8 +14416,8 @@
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -14615,6 +14692,20 @@
       "https://scontent.fcps3-1.fna.fbcdn.net/v/t51.82787-15/875104274_18639358660063725_4512722796866446650_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Nk5MkGmIjGAQ7kNvwGzeXV5&_nc_oc=AdrM2z1FN0CGndlQQwUViMUFVMcojCKbImJ5EMCSabDbDJbd7Do2t12vTTMczelkYhT6mbNnyva3Hc__Jkoq0lYw&_nc_zt=23&_nc_ht=scontent.fcps3-1.fna&_nc_gid=n9b8bkrAjz4eC7wKwzODlQ&_nc_ss=70180&oh=00_AQQM1fepxvv3-dYXp9YFVtpMzBgzGxqaY1xolHS33geF4A&oe=6AF327D2",
       "https://scontent.fcps4-1.fna.fbcdn.net/v/t51.82787-15/880241091_18639358672063725_1286746842114888014_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LMBB45DKSmsQ7kNvwFj_2Zs&_nc_oc=Adoyl9gh8gXRjLRu108KyirJVsj75Q0BNznKz_uKueD8G_sH2xN8RlaVrqRlA6JdDChOlcCBVQhdObK30OUHBWfw&_nc_zt=23&_nc_ht=scontent.fcps4-1.fna&_nc_gid=n9b8bkrAjz4eC7wKwzODlQ&_nc_ss=70180&oh=00_AQRKTLBl_fEM5il7Jfb-F0gd8jtfJaxyus8JVdtDCW5Gww&oe=6AF3392A",
       "https://scontent.fcps4-2.fna.fbcdn.net/v/t51.82787-15/881047915_18639358690063725_1817825374511159691_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mVWMKZMAP3IQ7kNvwFbukzK&_nc_oc=AdprEsy_2_tAwwEeT4e4GX_ARExWudNGE6aDSxxSJh8lu5i3RtaQMCKK5Wq8qmLxv6k6uaryv08fcG1ZByDhMk-2&_nc_zt=23&_nc_ht=scontent.fcps4-2.fna&_nc_gid=n9b8bkrAjz4eC7wKwzODlQ&_nc_ss=70180&oh=00_AQQTPxA63femPn6ySf5VYpicgknYVEXctSmQ5q_zP5sRvg&oe=6AF33A4C"
+     ]
+    },
+    "1920535652243355": {
+     "id": "1920535652243355",
+     "url": "https://www.facebook.com/Fabulerie/posts/pfbid02CwpcEyHSJNNkw83rEa8YZKPPwwZT8tCk9pt7gwfa1ydzkDVFjZrpQdd1CQgP2vG3l",
+     "published": "2026-11-07",
+     "analyzed": "2026-11-08",
+     "is_announcement": false,
+     "events": [],
+     "notes": "The post describes an event taking place in Lozère (Sainte-Croix-Vallee-Francaise and Saint-Germain-de-Calberte) on 2026-11-08, not at La Fabulerie in Marseille. The images also do not indicate any event at La Fabulerie.",
+     "image_urls": [
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t51.82787-15/881397141_18640403251063725_3719144530414828118_n.jpg?stp=dst-jpegr_tt6&cstp=mx4096x3072&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2fGOjrA2jUAQ7kNvwFSXTCN&_nc_oc=Adp_Qu62nDx99sdTC-vWU6rQavjoc1a4oSiErsfh7kyYhtxL3MLs8r2DH-OxEMgkpVNhsIhhSHMYNXkNL8TO1ati&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-2.xx&_nc_gid=mORjGlasVZ2q8DXTLdcHTg&_nc_ss=70180&oh=00_AQSj3sJNotxeJshJ27SQcAin5L_LF4YbA2XkiYE4kfCk2g&oe=6AF5E08A",
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t51.82787-15/881397147_18640403299063725_4277153998446247954_n.jpg?stp=dst-jpegr_tt6&cstp=mx4096x3072&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mJ4lsrLyGaAQ7kNvwFWNlIP&_nc_oc=AdorZJpRfYnG280NJHnOOMFpCZEBf8JXU9l4Wvd2BWMD5fdbENzKUSoPtHhq6BsobFL_xXTFq4xkJoKWi8Ngd5cZ&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-1.xx&_nc_gid=mORjGlasVZ2q8DXTLdcHTg&_nc_ss=70180&oh=00_AQRLSetDxe15q27JYB5u8nRc4G29o-LwwdJKuNUzDk4wsw&oe=6AF5E4B8",
+      "https://scontent-atl3-2.xx.fbcdn.net/v/t51.82787-15/885805746_18640403323063725_6911742693473318342_n.jpg?stp=dst-jpegr_tt6&cstp=mx4032x3024&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=OgE5WahlV-AQ7kNvwGnDQuq&_nc_oc=AdprezrMZ6upMBapa1XKwjQ1Z0MsLFjFg1Ku246xOGOip3B6RZk_TY_53-aRMLl36MJDxk0oxTXgX1e1thA4bHEa&_nc_zt=23&se=-1&_nc_ht=scontent-atl3-2.xx&_nc_gid=mORjGlasVZ2q8DXTLdcHTg&_nc_ss=70180&oh=00_AQRLauW7Ir83HbjQ73bHF1ITzJPeAQIDBcb4wNozAq6Udg&oe=6AF5BE72"
      ]
     }
    },
@@ -15761,8 +15852,8 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -16981,10 +17072,10 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-07",
+   "last_fetched": "2026-11-08",
    "last_ok": null,
    "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 38,
+   "consecutive_failures": 39,
    "posts": {},
    "failed_posts": {},
    "fb_events": []
@@ -17005,8 +17096,8 @@
    "kind": "instagram",
    "handle": "la.camaraderie13",
    "url": "https://www.instagram.com/la.camaraderie13/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -17403,8 +17494,8 @@
    "kind": "instagram",
    "handle": "twali.marseille",
    "url": "https://www.instagram.com/twali.marseille/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -17519,6 +17610,102 @@
       "https://scontent-qro3-1.cdninstagram.com/v/t51.82787-15/882161246_18012128478003741_7411532425637028424_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=NDAyMDg4ODU0NTQ1MjQwOTY1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI5MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=R5qU3HEowc8Q7kNvwGt8niT&_nc_oc=AdpgxXIu5933AQAxfmzLpH00AK7Hz17r6q52dJoBqqhAYHfEK-vwxX-VJXJR64t7Bro&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-qro3-1.cdninstagram.com&_nc_gid=NNMNbxaY1d4P9z6T20zNkg&_nc_ss=7320f&oh=00_AQQ1k1davRQZ0xF60AfdbSyHqQOsl55W9gS3BqIo9uo6SQ&oe=6AEDF6E4",
       "https://scontent-qro1-1.cdninstagram.com/v/t51.82787-15/885053775_18012128475003741_2493087487570658093_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAyMDg4ODU0NzAxMjg2NTAyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI4NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7QOWFRn3Yg4Q7kNvwFTiury&_nc_oc=AdpCxwhBaPxJe8ar1nk4b8R-Z-sOMvwtJRZY6pPaAvGorTB75hgAveY4cfTlBF1aMOc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-qro1-1.cdninstagram.com&_nc_gid=NNMNbxaY1d4P9z6T20zNkg&_nc_ss=7320f&oh=00_AQSvO49X4kABfdIiuyyBGowQuB4TQC5UR-qrkuHcXjf0EQ&oe=6AEDF452"
      ]
+    },
+    "4025157696965055492": {
+     "id": "4025157696965055492",
+     "url": "https://www.instagram.com/p/DfcO5lkiBQE/",
+     "published": "2026-11-07",
+     "analyzed": "2026-11-08",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Bibimbap vegan",
+       "start_date": "2026-11-09",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Plat du jour: Bibimbap vegan avec légumes croquants, tofu mariné sauce soja, miel et citronnelle.",
+       "status": "scheduled",
+       "evidence": [
+        "PLAT DU JOUR • LUNDI 09/11",
+        "Bibimbap vegan",
+        "Légumes croquants, tofu mariné sauce soja, miel et citronnelle"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The post is a restaurant's weekly menu (\"Menu de la semaine\") listing daily specials — \"PLAT DU JOUR • LUNDI 09/11 / Bibimbap vegan\" — i.e. a recurring food offering, not a dated public event. The date itself is consistent (lundi 09/11 = 2026-11-09, after the 2026-11-07 publication), but a plat du jour is not an event."
+      },
+      {
+       "title": "Moussaka vegan",
+       "start_date": "2026-11-10",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Plat du jour: Moussaka vegan avec lentilles corail et sauce tomate basilic.",
+       "status": "scheduled",
+       "evidence": [
+        "PLAT DU JOUR • MARDI 10/11",
+        "Moussaka vegan",
+        "Lentilles corail, sauce tomate basilic"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The post is a restaurant's weekly food menu (\"Menu de la semaine ❤️!\"), and the extracted item is simply a daily dish: \"PLAT DU JOUR • MARDI 10/11 — Moussaka vegan\". A plat du jour is a menu offer, not a dated public event, so it falls under the non-event exclusion (like opening hours or a generic offer). The date itself is consistent (mardi 10/11 = 2026-11-10, after the 2026-11-07 publication), but there is no event to list."
+      },
+      {
+       "title": "Kefta de poisson façon tajine",
+       "start_date": "2026-11-11",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Plat du jour: Kefta de poisson façon tajine avec petits pois, carottes et olives vertes.",
+       "status": "scheduled",
+       "evidence": [
+        "PLAT DU JOUR • MERCREDI 11/11",
+        "Kefta de poisson façon tajine",
+        "Petits pois, carottes et olives vertes"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The post is a weekly menu (\"Menu de la semaine ❤️!\") listing daily specials (\"PLAT DU JOUR • MERCREDI 11/11\"), i.e. a recurring restaurant menu item / generic food offer, not a dated public event. The date itself is consistent (11/11 is a mercredi), but a \"plat du jour\" is not an event."
+      },
+      {
+       "title": "Couscous",
+       "start_date": "2026-11-12",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": "Plat du jour: Couscous traditionnel kefta & merguez, ou version vegan.",
+       "status": "scheduled",
+       "evidence": [
+        "PLAT DU JOUR • JEUDI 12/11",
+        "Couscous",
+        "Traditionnel kefta & merguez, ou version vegan"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The post is a recurring restaurant menu, not a dated public event: the caption reads \"Menu de la semaine ❤️!\" and the flyer is a \"PLAT DU JOUR · JEUDI 12/11\" daily-special card (\"Couscous / Traditionnel kefta & merguez, ou version vegan\"). A weekly menu of plats du jour is a generic/recurring offer, not an event. (The date itself is consistent: 12/11/2026 is indeed a jeudi.)"
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-cdg6-1.cdninstagram.com/v/t51.82787-15/888134620_18012986499003741_7952850867262153277_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAyNTE1NzM3NDI0MDE1MzU1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI5MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=tnpFuIZcbq8Q7kNvwErsp6b&_nc_oc=AdphjJN8ryLxNO8JmwiZiZvDHpDG6SkvPFSmuhbkSWrm_XDip3E-jc33OsjjbrMke0zEfmHq7RzxMoDmJGZVz3qj&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg6-1.cdninstagram.com&_nc_gid=fD_cFmXbpNXJHXdLcg6aXA&_nc_ss=7a20f&oh=00_AQTSHc0ajRAr7w42qpWHQ97cDJZECNKiOIbHvVq-s2zomA&oe=6AF5DF00",
+      "https://scontent-cdg6-1.cdninstagram.com/v/t51.82787-15/889838010_18012986502003741_1897543869651855393_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAyNTE1NzM4MDc4MzMwMzI5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI5MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GF0gA5hzXCIQ7kNvwG11vK5&_nc_oc=AdqDAxsLRXp06vw36or9uVQJvd9_3vogmtMuxI4FEXj96GEI8pJrhd5r6_vhBuM7KNEFfctszQMnwsZ9QPP67qOZ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg6-1.cdninstagram.com&_nc_gid=fD_cFmXbpNXJHXdLcg6aXA&_nc_ss=7a20f&oh=00_AQSUEtFbf1KG5nYi8CMdHyzHDj3LTkFJlaUyse9P7YhreQ&oe=6AF5DFCB",
+      "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-15/888990261_18012986517003741_8744301619816764820_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=NDAyNTE1NzQyMzQ4MTIyNzAwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI5MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fMhdm9mKl8wQ7kNvwFPA8MC&_nc_oc=AdrM652wDnphoLyNjpWAhqbmLDAVTh92jQ7zRvs-6j7IKbtErtbMgH1emlOUBJU45uIqrnWeAEKaMIrAz9jEbor2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_gid=fD_cFmXbpNXJHXdLcg6aXA&_nc_ss=7a20f&oh=00_AQSC0eKJP7CzUodHniLY9sTt-IStPMbq8M2bF57ZCg3Uyw&oe=6AF5C9D5",
+      "https://scontent-cdg4-1.cdninstagram.com/v/t51.82787-15/887092236_18012986541003741_5622759447036756425_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=NDAyNTE1NzQyMjg2MDY2MzE2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI4Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qrD_Wcm7gGUQ7kNvwEF5xnx&_nc_oc=AdoLWwwdV6NRg3lnL2isx2brFlbPcxCvyt8BO3JGqSYwY-EJtR3Dsh_pYqKsVinR3d9t5y68mt1AB_W0s07mlIvj&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_gid=fD_cFmXbpNXJHXdLcg6aXA&_nc_ss=7a20f&oh=00_AQQR2ePYzMJYb6xKW0UJKXQOLbcqO6k0VJpWgFuQst5NUw&oe=6AF5DC78"
+     ]
     }
    },
    "failed_posts": {},
@@ -17528,8 +17715,8 @@
    "kind": "facebook",
    "handle": "twalibelsunce",
    "url": "https://www.facebook.com/twalibelsunce/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {
@@ -17604,6 +17791,98 @@
       "https://scontent-atl3-1.xx.fbcdn.net/v/t51.82787-15/882161246_18012128478003741_7411532425637028424_n.jpg?stp=dst-jpg_tt6&cstp=mx1290x1707&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=R5qU3HEowc8Q7kNvwEmBAVp&_nc_oc=Adq1-cKp9RZn8N9ABw0HJAmfQpSk_0ilVxu61QHBEboljaHM-2Xz-CNbD2OUWHjEMnY&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=NS2drmfIOFrl1SInZvlG4g&_nc_ss=70180&oh=00_AQTmZgntwzAHLbrspnjV2iqRka3HzVIi-CPyy_N1-JM6vw&oe=6AEDF6E4",
       "https://scontent-atl3-2.xx.fbcdn.net/v/t51.82787-15/885053775_18012128475003741_2493087487570658093_n.jpg?stp=dst-jpg_tt6&cstp=mx1285x1701&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7QOWFRn3Yg4Q7kNvwFhwD9G&_nc_oc=Adr1iQELn_OGvz9zdApgVVS135oiL0nmnQr_l_sTIuh0DueO4Qfb3Yp5ADQZkDwLhr8&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=NS2drmfIOFrl1SInZvlG4g&_nc_ss=70180&oh=00_AQR1KmMc9tTnT4DOcvKinLNnxEi8wFrFmTwv_1XooDDCgA&oe=6AEDF452"
      ]
+    },
+    "1119625504165785": {
+     "id": "1119625504165785",
+     "url": "https://www.facebook.com/twalibelsunce/posts/pfbid022aHukgCnqgHX92WmXvcaiEc1jAUchsAYWD6PHn6WM2qM8XyTHYabDmgys6SRQmftl",
+     "published": "2026-11-07",
+     "analyzed": "2026-11-08",
+     "is_announcement": true,
+     "events": [
+      {
+       "title": "Bibimbap vegan",
+       "start_date": "2026-11-09",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "PLAT DU JOUR · LUNDI 09/11",
+        "Bibimbap vegan"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The post is a restaurant's weekly menu (\"Menu de la semaine ❤️!\") listing routine daily specials (\"PLAT DU JOUR · LUNDI 09/11 — Bibimbap vegan\"), i.e. a recurring menu/offer rather than a dated public event; the date itself is consistent (09/11 is a lundi, after the 07/11 publication), but a plat du jour is not an event."
+      },
+      {
+       "title": "Moussaka vegan",
+       "start_date": "2026-11-10",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "PLAT DU JOUR · MARDI 10/11",
+        "Moussaka vegan"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The post is a restaurant's weekly food menu (\"Menu de la semaine ❤️!\" with \"PLAT DU JOUR · MARDI 10/11 — Moussaka vegan\"), i.e. a recurring daily-special offer rather than a dated public event; the date itself is consistent (10/11/2026 is indeed a mardi), but a plat du jour is not an event."
+      },
+      {
+       "title": "Kefta de poisson façon tajine",
+       "start_date": "2026-11-11",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "PLAT DU JOUR · MERCREDI 11/11",
+        "Kefta de poisson façon tajine"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The post is a restaurant's weekly food menu (\"Menu de la semaine ❤️!\" with slides \"PLAT DU JOUR · LUNDI 09/11\", \"MARDI 10/11\", \"MERCREDI 11/11\", \"JEUDI 12/11\"), i.e. a daily dish offer, not a dated public event. The date itself is consistent (11/11 is a mercredi in 2026), but a \"plat du jour\" is a menu item, not an event."
+      },
+      {
+       "title": "Couscous",
+       "start_date": "2026-11-12",
+       "start_time": null,
+       "end_date": null,
+       "end_time": null,
+       "location_name": null,
+       "url": null,
+       "price": null,
+       "summary": null,
+       "status": "scheduled",
+       "evidence": [
+        "PLAT DU JOUR · JEUDI 12/11",
+        "Couscous"
+       ],
+       "from_image": true,
+       "verifier": "reject",
+       "verifier_reason": "The post is a restaurant's weekly menu (\"Menu de la semaine ❤️!\") listing daily specials (\"PLAT DU JOUR · JEUDI 12/11 / Couscous\"), i.e. a recurring menu offer rather than a dated public event; the date itself is consistent (jeudi 12/11 = 2026-11-12, after the 2026-11-07 publication), but a plat du jour is not an event."
+      }
+     ],
+     "notes": null,
+     "image_urls": [
+      "https://scontent-bos5-1.xx.fbcdn.net/v/t51.82787-15/888134620_18012986499003741_7952850867262153277_n.jpg?stp=dst-jpg_tt6&cstp=mx1290x1699&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tnpFuIZcbq8Q7kNvwEuO-Sy&_nc_oc=Adr_HJcDH__c-pCcdKW3Cef3XYt2YlKs_9_mx158GdCOFFdDr0bUwxaK8o_Cqjsr9-yQt7_GpXKPiE2hyXDAnUPo&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=4PoX9z5j0PPsvhu9LwuzIQ&_nc_ss=70180&oh=00_AQRO2TjlbFtTgOdswmzUA-ZPzVJIhiQl7XRxKssNWzjqgg&oe=6AF5DF00",
+      "https://scontent-bos5-1.xx.fbcdn.net/v/t51.82787-15/889838010_18012986502003741_1897543869651855393_n.jpg?stp=dst-jpg_tt6&cstp=mx1290x1699&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GF0gA5hzXCIQ7kNvwE8XoEz&_nc_oc=AdocD6CSesOgEpmCHvYNAbKLFqhYmwERypDqX8Nv5suMTicxGSRY_8jA8G-DMveD6ig3tTWj1O5xhIpElh5W6S4a&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=4PoX9z5j0PPsvhu9LwuzIQ&_nc_ss=70180&oh=00_AQSOL1m2UyaatUnW1nYayo0PiKuSA5u9EoIGQ7sOfjUaEw&oe=6AF5DFCB",
+      "https://scontent-bos5-1.xx.fbcdn.net/v/t51.82787-15/888990261_18012986517003741_8744301619816764820_n.jpg?stp=dst-jpg_tt6&cstp=mx1290x1699&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fMhdm9mKl8wQ7kNvwEARLAO&_nc_oc=AdrhvsWbj0vBX2peELgBaKYiBP69U3ggPSZWpv02EsemcukdytKbDdk2oRVr7FhWHBcv4dgnMOqqSh8BvuK3PwmI&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=4PoX9z5j0PPsvhu9LwuzIQ&_nc_ss=70180&oh=00_AQR6dt1tVHniHSGEaVVUkusdUtTgyxuczN37MRctqtdOAw&oe=6AF5C9D5",
+      "https://scontent-bos5-1.xx.fbcdn.net/v/t51.82787-15/887092236_18012986541003741_5622759447036756425_n.jpg?stp=dst-jpg_tt6&cstp=mx1287x1697&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qrD_Wcm7gGUQ7kNvwFaCRFc&_nc_oc=AdopjoQ_BnIzJKJTFERNxQ0eumD15ytb1R1ayS7o5fBsJF6T0G-2ZR4foOfeSMYzFyzIo_ZI9wh-APHNLPS953Bv&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=4PoX9z5j0PPsvhu9LwuzIQ&_nc_ss=70180&oh=00_AQSp9vt57D4YXj03FAzClUw1D9PwApOhvmEwzDbg1MeFMg&oe=6AF5DC78"
+     ]
     }
    },
    "failed_posts": {},
@@ -17625,8 +17904,8 @@
    "kind": "instagram",
    "handle": "lembobineusemarseille",
    "url": "https://www.instagram.com/lembobineusemarseille/",
-   "last_fetched": "2026-11-07",
-   "last_ok": "2026-11-07",
+   "last_fetched": "2026-11-08",
+   "last_ok": "2026-11-08",
    "last_error": null,
    "consecutive_failures": 0,
    "posts": {

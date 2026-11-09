@@ -11,10 +11,10 @@ DTEND;VALUE=DATE:20270426
 UID:a09713f21970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/par-une-langue-echappee-nouveau-pa
- rcours-des-collections-modernes-et-contemporaines
+ rcours-des-collections-modernes-et-contemporaines?museum=musee-cantini
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
- es-collections-modernes-et-contemporaines
+ es-collections-modernes-et-contemporaines?museum=musee-cantini
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -33,9 +33,11 @@ DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20270111
 UID:e0d08c10845b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/adrien-vescovi
+DESCRIPTION:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la
+ -vieille-charite
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/adrien-vescovi
+URL:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille
+ -charite
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -120,6 +122,18 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261126
+UID:47435b944c38@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261214
@@ -176,29 +190,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/la-vie-farpaite/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261126
-UID:47435b944c38@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le corset
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261109
-UID:f9d407797eb6@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection dans le cadre de Cinémanimé\nhttps://cinemalegypt
- is.org/films/le-corset/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/le-corset/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Films Femmes Méditerranée
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261114
@@ -219,27 +210,6 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/visites-flash/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vernissage itinérant – Nadin Nadine
-DTSTART;TZID=Europe/Paris:20261108T103000
-DTEND;TZID=Europe/Paris:20261108T123000
-UID:1fd6c6233141@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadi
- ne/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/vernissage-itinerant-nadin-nadine/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Petite Casbah
-DTSTART;TZID=Europe/Paris:20261108T103000
-DTEND;TZID=Europe/Paris:20261108T123000
-UID:80f35acaadf7@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/petite-casbah/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/petite-casbah/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ateliers de danse Dabké palestinienne
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20270201
@@ -251,77 +221,6 @@ DESCRIPTION:Ateliers hebdomadaires de danse Dabké palestinienne ouverts
 LOCATION:Friche la Belle de Mai - Studio Accrorap\, 2ᵉ étage de la Manu
  facture\, La Friche la Belle de Mai
 URL:https://www.instagram.com/p/DfZ2VvPCJDd/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le pays taliban
-DTSTART;TZID=Europe/Paris:20261108T140000
-DTEND;TZID=Europe/Paris:20261108T160000
-UID:0149ec33d764@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/le-pays-taliban/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/le-pays-taliban/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LES ROCHES ROUGES de Bruno Dumont
-DTSTART;TZID=Europe/Paris:20261108T160000
-DTEND;TZID=Europe/Paris:20261108T180000
-UID:d74cacc6b0e5@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Le réalisateur de 'P"tit Quinquin" nous plonge dans une fable
- \, portée par des enfants de 5 ans et fait de la baie varoise une gigante
- sque maquette du monde où ses personnages évoluent comme dans un western
- .\nhttps://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
-LOCATION:Le Gyptis
-URL:https://www.ticketingcine.com/?EMS1207#showmovie?id=EG461
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Personnages et identités
-DTSTART;TZID=Europe/Paris:20261108T160000
-DTEND;TZID=Europe/Paris:20261108T180000
-UID:7806b32069cf@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/personnages-et-ide
- ntites/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/personnages-et-identites/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:L'HEURE DE LA LIBÉRATION À SONNÉ
-DTSTART;TZID=Europe/Paris:20261108T173000
-DTEND;TZID=Europe/Paris:20261108T193000
-UID:356c1e8125c7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film 'L'Heure de la Libération à Sonné' d'Hei
- ny Srour (1974) en présence de Yorgo Scheib.\nhttps://www.facebook.com/la
- baleinemarseille/posts/pfbid033U4787DCR877Hd6LW2BBPAWwK8XhVizXUUJHmcqmuqfX
- of6z8urfXv8b7Tcm2BPJl
-LOCATION:La Baleine
-URL:https://www.facebook.com/labaleinemarseille/posts/pfbid033U4787DCR877H
- d6LW2BBPAWwK8XhVizXUUJHmcqmuqfXof6z8urfXv8b7Tcm2BPJl
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:UP TOWN MUSIC BAND #24
-DTSTART;TZID=Europe/Paris:20261108T183000
-DTEND;TZID=Europe/Paris:20261108T203000
-UID:3e0bde79fd16@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/up-town-music-band-2
- 4/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/up-town-music-band-24/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Collectif BiPan Marseille | La théorie du Y – Saison 2
-DTSTART;TZID=Europe/Paris:20261108T193000
-DTEND;TZID=Europe/Paris:20261108T213000
-UID:1b0d48db2fc1@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/collectif-bipan-marseille-la-theori
- e-du-y-saison-2/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/collectif-bipan-marseille-la-theorie-du-y-s
- aison-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jouer La Mouette
@@ -728,18 +627,6 @@ LOCATION:Mucem - Hors les murs
 URL:https://mucem.org/evenement/defaire-musee-en-temps-de-destruction/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Musées suspendus\, anticipatoires et à-venir
-DTSTART;TZID=Europe/Paris:20261112T093000
-DTEND;TZID=Europe/Paris:20261112T180000
-UID:41029d372f0d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/musees-suspendus-a
- nticipatoires-et-a-venir/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/musees-suspendus-anticipatoires-et-a-venir
- /
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Permanence de Mille Bâbords et de sa Médiathèque
 DTSTART;TZID=Europe/Paris:20261112T150000
 DTEND;TZID=Europe/Paris:20261112T170000
@@ -934,18 +821,6 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/defaire-musee-en-t
  emps-de-destruction/
 LOCATION:Mucem - Hors les murs
 URL:https://mucem.org/evenement/defaire-musee-en-temps-de-destruction/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Musées suspendus\, anticipatoires et à-venir
-DTSTART;TZID=Europe/Paris:20261113T093000
-DTEND;TZID=Europe/Paris:20261113T180000
-UID:e768112c325e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/musees-suspendus-a
- nticipatoires-et-a-venir/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/musees-suspendus-anticipatoires-et-a-venir
- /
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Vernissage “Huipil” - Matrimonio vivante
@@ -2138,6 +2013,19 @@ URL:https://cinemalegyptis.org/films/courts-metrages-sud-americains-primes
  /
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Courts-métrages Sud-Américains primés
+DTSTART;TZID=Europe/Paris:20261121T160000
+DTEND;TZID=Europe/Paris:20261121T180000
+UID:c582896284a7@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Dans le cadre de la 28ème édition des rencontres du cinéma 
+ Sud-Américain ASPAS\nhttps://cinemalegyptis.org/films/courts-metrages-sud
+ -americains-primes/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/courts-metrages-sud-americains-primes
+ /
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rêver la Méditerranée
 DTSTART;TZID=Europe/Paris:20261121T160000
 DTEND;TZID=Europe/Paris:20261121T173000
@@ -2193,8 +2081,9 @@ DTEND;TZID=Europe/Paris:20261121T200000
 UID:2b2d9ce52b34@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:Dans le cadre de la 28ème édition des rencontres du cinéma 
- Sud-Américain ASPAS\nhttps://cinemalegyptis.org/films/cumbia-que-te-vas-d
- e-ronda/
+ Sud-Américain ASPAS Précédé à 17h30 d’un concert de cumbia dans le 
+ hall du cinéma par Daniela Aguilar & Manuel Cedrón\nhttps://cinemalegypt
+ is.org/films/cumbia-que-te-vas-de-ronda/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/cumbia-que-te-vas-de-ronda/
 END:VEVENT
@@ -2290,9 +2179,9 @@ DTEND;TZID=Europe/Paris:20261122T180000
 UID:d33317eec82f@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:Dans le cadre de la 28ème édition des rencontres du cinéma 
- Sud-Américain ASPAS Hommage à Patricio Guzmán. Projection suivie d’un
-  temps d’échange avec le public.\nhttps://cinemalegyptis.org/films/nost
- algie-de-la-lumiere/
+ Sud-Américain ASPAS Hommage au cinéaste chilien Patricio Guzmán · Proj
+ ection suivie d’un temps d’échange avec le public\nhttps://cinemalegy
+ ptis.org/films/nostalgie-de-la-lumiere/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/nostalgie-de-la-lumiere/
 END:VEVENT
@@ -2772,18 +2661,6 @@ DESCRIPTION:Les coopérations à Marseille seront au cœur de la 9e éditi
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/plus20-marseille-ville-cooperative
  /
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Hola Frida
-DTSTART;TZID=Europe/Paris:20261127T141500
-DTEND;TZID=Europe/Paris:20261127T161500
-UID:939d1bb663e8@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Dans le cadre du Festival de solidarités porté par la Marie 
- des 2ème et 3ème arrondissements\nhttps://cinemalegyptis.org/films/hola-
- frida/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/hola-frida/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Présentation musicale brésilienne
@@ -4988,20 +4865,6 @@ URL:https://mucem.org/evenement/le-masculinisme-une-menace-a-prendre-au-se
  rieux/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MASTERCLASS ouverte à tous autour de "Linda veut du poulet ! " (2
- 023\, 76 min)
-DTSTART;TZID=Europe/Paris:20270202T140000
-DTEND;TZID=Europe/Paris:20270202T170000
-UID:6ee67bfbd9d5@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/20075925_projection-rencontre
- -6437893
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/20075925
- _projection-rencontre-6437893
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Fusées
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270207
@@ -6018,6 +5881,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/champ-libre/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/champ-libre/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LONE ASSEMBLY + Alice Kean
+DTSTART;TZID=Europe/Paris:20270425T200000
+DTEND;TZID=Europe/Paris:20270425T220000
+UID:07ecd705af2b@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 13€\nhttps://lemolotov.com/events/lone-assembly-alice
+ -kean/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/lone-assembly-alice-kean/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Raoul Lala : Opération CCR

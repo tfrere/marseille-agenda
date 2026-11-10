@@ -1,67 +1,55 @@
 {
- "run_date": "2026-11-09",
+ "run_date": "2026-11-10",
  "sources_total": 50,
  "sources_ok": 45,
  "sources_skipped_unchanged": 0,
- "events_published": 558,
- "events_new": 3,
- "events_rejected_grounding": 183,
- "events_rejected_verifier": 5,
+ "events_published": 580,
+ "events_new": 28,
+ "events_rejected_grounding": 180,
+ "events_rejected_verifier": 6,
  "events_uncertain": 0,
  "alerts": [
   {
    "level": "error",
    "venue_id": "manifesten",
    "source_url": "https://mars-infos.org/%2B-manifesten-827-%2B",
-   "message": "source failed, last verified state kept: fetch: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)"
+   "message": "source failed, last verified state kept: fetch: [Errno 101] Network is unreachable"
   },
   {
-   "level": "warning",
+   "level": "error",
    "venue_id": "mille-babords",
    "source_url": "https://www.millebabords.org/spip.php?rubrique2",
-   "message": "verifier rejected 'Permanence de Mille Bâbords et de sa médiathèque' 2026-11-09: The item is an association/library drop-in shift (opening hours): \"Permanence de Mille Bâbords et de sa médiathèque\", which is not a distinct public event."
+   "message": "source failed, last verified state kept: fetch: Server error '503 Service Unavailable' for url 'https://www.millebabords.org/spip.php?rubrique2'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The extracted start_date is 2026-11-12, but the excerpt states the cycle runs \"du mercredi 11 novembre 2026 au jeudi 12 novembre 2026\"."
+   "message": "verifier rejected 'Alternative Fantasy | cycle cinéma' 2026-11-12: The extracted start_date is 2026-11-12, but the excerpt states the event runs \"du [2026-11-11T00:00:00+00:00] mercredi 11 novembre 2026 au [2026-11-12T00:00:00+00:00] jeudi 12 novembre 2026\"."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The extracted start_time of 01:00:00 contradicts the excerpt, which lists no time other than the midnight machine date `[2026-11-14T00:00:00+01:00]` (likely a timezone offset parse error)."
+   "message": "verifier rejected 'Les Films de barbarie |\\xa0festival de courts-métrages' 2026-11-14: The excerpt has '[2026-11-14T00:00:00+01:00] samedi 14 novembre 2026' with no event start time, and extracting 01:00:00 is a timezone conversion error from midnight."
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The start date was set to the end date 2027-01-20; the excerpt states \"du [2026-09-30T00:00:00+00:00] mercredi 30 septembre 2026 au [2027-01-20T00:00:00+00:00] mercredi 20 janvier 2027\"."
+   "message": "verifier rejected 'Cœurs Sombres |\\xa0Cycle cinéma' 2027-01-20: The excerpt states the cycle runs \"du mercredi 30 septembre 2026 au mercredi 20 janvier 2027\", so 2027-01-20 is the end date, not the start date."
   },
   {
    "level": "warning",
    "venue_id": "la-camaraderie",
    "source_url": "https://www.lacamaraderie.net/agenda",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-16"
+   "message": "no upcoming event on source at last check; next generation attempt 2026-11-16"
   },
   {
    "level": "warning",
    "venue_id": "twali",
    "source_url": "https://www.twalimarseille.fr/evenements",
-   "message": "source lists no upcoming event yet; schema generation postponed to 2026-11-16"
-  },
-  {
-   "level": "error",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.lembobineuse.biz/events/upcoming",
-   "message": "source failed, last verified state kept: fetch: Server error '503 Service Unavailable' for url 'https://www.lembobineuse.biz/events/upcoming'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-  },
-  {
-   "level": "warning",
-   "venue_id": "l-embobineuse",
-   "source_url": "https://www.lembobineuse.biz/events/upcoming",
-   "message": "3 consecutive failures on https://www.lembobineuse.biz/events/upcoming: re-discovering"
+   "message": "no upcoming event on source at last check; next generation attempt 2026-11-16"
   },
   {
    "level": "warning",
@@ -73,32 +61,62 @@
    "level": "warning",
    "venue_id": "frac-sud",
    "source_url": "https://fracsud.org/Evenements-et-cycles-de-rencontres",
-   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly dates the event to 2026 ('Du 15 mars à 18h00 au 16 mars 2026 à 21h00', 'Dimanche 15 mars 2026'), contradicting the extracted start date of 2027-03-15."
+   "message": "verifier rejected 'FIDMarseille x Frac Sud' 2027-03-15: The excerpt explicitly dates the event to 2026 ('Du 15 mars à 18h00 au 16 mars 2026 à 21h00', 'Dimanche 15 mars 2026'), but the extracted start_date is 2027-03-15."
   },
   {
    "level": "error",
    "venue_id": "manifesten",
    "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook fetch failed 12x: apify~facebook-posts-scraper: HTTP 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
+   "message": "facebook fetch failed 13x: apify~facebook-posts-scraper: no_items"
   },
   {
    "level": "error",
    "venue_id": "l-intermediaire",
    "source_url": "https://www.facebook.com/Intermediaire.live/",
-   "message": "facebook fetch failed 6x: apify~facebook-posts-scraper: no_items"
+   "message": "facebook fetch failed 7x: apify~facebook-posts-scraper: no_items"
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram verifier rejected 'Kiki la petite sorcière' 2026-11-11: The post is Le Gyptis's own weekly programme (\"CETTE SEMAINE AU GYPTIS\", logo \"LE GYPTIS CINÉMA\") and the screening of \"Kiki la petite sorcière\" is announced for that cinema, not for the given venue Friche la Belle de Mai. The date/time themselves are consistent (\"Mercredi 11 novembre à 17h\" = mercredi 2026-11-11, 17h), but the event takes place at another venue than the one given."
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram verifier rejected 'Les Films de Barbarie - Cinema Siba' 2026-11-13: The post is Le Gyptis's own weekly programme (\"CETTE SEMAINE AU GYPTIS\", logo \"LE GYPTIS CINÉMA\", \"Réservez vos places maintenant sur notre site\"), and the extracted location is indeed \"Le Gyptis\" — a different venue from the one given, Friche la Belle de Mai, which at most shares it. Date/time are otherwise consistent (\"Vendredi 13 novembre à 19h\", \"VEN. 13 | 19H\", 13 Nov 2026 is a Friday), but the event does not take place at the given venue."
+  },
+  {
+   "level": "warning",
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram post analysis error (1/3): UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
   },
   {
    "level": "error",
    "venue_id": "la-colorada",
    "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 40x: apify~facebook-posts-scraper: not_available"
+   "message": "facebook fetch failed 41x: apify~facebook-posts-scraper: not_available"
+  },
+  {
+   "level": "warning",
+   "venue_id": "l-embobineuse",
+   "source_url": "https://www.instagram.com/lembobineusemarseille/",
+   "message": "instagram post analysis error (1/3): UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
+  },
+  {
+   "level": "warning",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.facebook.com/cinemalegyptis/",
+   "message": "facebook post analysis error (1/3): UnexpectedModelBehavior: Model token limit (8000) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit."
   }
  ],
- "llm_calls": 38,
- "posts_analyzed": 6,
+ "llm_calls": 66,
+ "posts_analyzed": 17,
  "apify_runs": 17,
- "images_published": 497,
- "images_failed": 2,
- "credits_remaining_usd": 40.8475,
- "run_cost_usd": 0.3822
+ "images_published": 502,
+ "images_failed": 0,
+ "credits_remaining_usd": 39.0949,
+ "run_cost_usd": 0.1084
 }

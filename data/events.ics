@@ -57,9 +57,11 @@ DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/voix-publiques-louisa-babari
+DESCRIPTION:https://musees.marseille.fr/voix-publiques-louisa-babari?museu
+ m=musee-dart-contemporain-mac-0
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
+ dart-contemporain-mac-0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Error #00 avec Les
@@ -93,9 +95,11 @@ DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270621
 UID:5ea844f05bff@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence
+DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence?museum=muse
+ um-dhistoire-naturelle-de-marseille-mhnm
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/dinosaures-de-provence
+URL:https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dhist
+ oire-naturelle-de-marseille-mhnm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Souffles terrestres
@@ -234,42 +238,6 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/jouer-la-mouette
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
-  de la Martinerie
-DTSTART;TZID=Europe/Paris:20261109T090000
-DTEND;TZID=Europe/Paris:20261109T110000
-UID:47fd829996ab@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedi
- n-emma-pujar-les-residences-de-la-martinerie/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedin-emma-p
- ujar-les-residences-de-la-martinerie/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Travail et migrations au temps de la désindustrialisation
-DTSTART;TZID=Europe/Paris:20261109T090000
-DTEND;TZID=Europe/Paris:20261109T160000
-UID:c346fc2af2e4@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/travail-et-migrati
- ons-au-temps-de-la-desindustrialisation/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/travail-et-migrations-au-temps-de-la-desin
- dustrialisation/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cycle 1 - Les jardins méditerranéens
-DTSTART;TZID=Europe/Paris:20261109T110000
-DTEND;TZID=Europe/Paris:20261109T123000
-UID:4912f9e6054e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens
- /
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/cycle-1-les-jardins-mediterraneens/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Festival Souvenirs d'enfance
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261116
@@ -278,44 +246,6 @@ CATEGORIES:cinema
 DESCRIPTION:https://www.instagram.com/p/DfNT_hfjSZ9/
 LOCATION:La Baleine - La Baleine
 URL:https://www.instagram.com/p/DfNT_hfjSZ9/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marché paysan
-DTSTART;TZID=Europe/Paris:20261109T160000
-DTEND;TZID=Europe/Paris:20261109T200000
-UID:2b6dffb6cdba@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
- ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
-  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/marche-paysan/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Festival Souvenirs d’enfance
-DTSTART;TZID=Europe/Paris:20261109T190000
-DTEND;TZID=Europe/Paris:20261109T230000
-UID:c28bcf8fbfc9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Dîner caritatif au profit de SOS MEDITERRANEE Une proposition
-  de Association Ébullition et Les Grandes Tables\nhttps://www.lafriche.or
- g/evenements/festival-souvenirs-denfance-3/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/festival-souvenirs-denfance-3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[FFM] TO HOLD A MOUNTAIN de Biljana Tutorov\, Petar Glomazic
-DTSTART;TZID=Europe/Paris:20261109T200000
-DTEND;TZID=Europe/Paris:20261109T220000
-UID:107cc5fbd91c@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ Séance spéciale. ▉ Film soutenu par la Région Sud. Lu
- ndi 9 novembre | 20h 𝗧𝗢 𝗛𝗢𝗟𝗗 𝗔 𝗠𝗢𝗨𝗡𝗧
- 𝗔𝗜𝗡 de de Biljana Tutorov\, Petar Glomazić 1h45 - Serbie\, Mont
- énégro\, France\, Croatie\, Slovénie - 2026 Documen\nhttps://marseillec
- inemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ces nains portent quoi ?
@@ -330,6 +260,16 @@ DESCRIPTION:Un théâtre d'objets au milieu de cartons transformés en arc
  es-nains-portent-quoi/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/ces-nains-portent-quoi/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:En Ribambelle !
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261116
+UID:8b4c7499e9eb@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://www.instagram.com/p/Dfh0VlNj-Yp/
+LOCATION:Friche la Belle de Mai
+URL:https://www.instagram.com/p/Dfh0VlNj-Yp/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ces nains portent quoi ?
@@ -638,6 +578,18 @@ LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
 URL:https://www.millebabords.org/spip.php?article42404
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Atelier / Taller : la colorada
+DTSTART;TZID=Europe/Paris:20261112T170000
+DTEND;TZID=Europe/Paris:20261112T190000
+UID:4ade88798db2@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Atelier d’écriture bilingue espagnol-français ouvert à to
+ us\, sans besoin d’être bilingue.\nPrix : 13 euros\nhttps://www.instagr
+ am.com/p/DfiFXeVo0Le/
+LOCATION:La Colorada - La colorada\, 76 rue consolat\, Marseille
+URL:https://www.instagram.com/p/DfiFXeVo0Le/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BIEN PLUS QU’UN MAILLOT ⚽
 DTSTART;TZID=Europe/Paris:20261112T180000
 DTEND;TZID=Europe/Paris:20261112T200000
@@ -823,14 +775,14 @@ LOCATION:Mucem - Hors les murs
 URL:https://mucem.org/evenement/defaire-musee-en-temps-de-destruction/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vernissage “Huipil” - Matrimonio vivante
+SUMMARY:Vernissage | Huipil\, Matrimoine vivant
 DTSTART;TZID=Europe/Paris:20261113T180000
 DTEND;TZID=Europe/Paris:20261113T200000
-UID:438a448b5051@marseille-agenda
+UID:5315846d69f8@marseille-agenda
 CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/DfZnMGJjsYo/
+DESCRIPTION:https://www.instagram.com/p/DfiAkUBOno3/
 LOCATION:La Colorada - La Colorada Marsella
-URL:https://www.instagram.com/p/DfZnMGJjsYo/
+URL:https://www.instagram.com/p/DfiAkUBOno3/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LA GRADIVA de Marine Atlan
@@ -1028,18 +980,15 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Journée éthique et durable] LE CORSET de Louis Clichy | 45 prem
- ières places offertes !
+SUMMARY:LE CORSET de Louis Clichy
 DTSTART;TZID=Europe/Paris:20261114T110000
 DTEND;TZID=Europe/Paris:20261114T130000
-UID:2234aa173270@marseille-agenda
+UID:d2a2d28263d7@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:▉ Journée éthique et durable : les Commerces de la butte v
- ous invitent au cinéma ! ▉ 45 places offertes par l'association Les Com
- merces de la Butte ! Retrait sur place le jour même. Dans la limite des\n
- https://marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
+DESCRIPTION:Projection du film 'Le Corset' de Louis Clichy\, suivi d'une d
+ iscussion dans le cadre de la Journée Vintage.\nhttps://fb.me/e/89oehwo1R
+LOCATION:La Baleine
+URL:https://fb.me/e/89oehwo1R
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites guidées en LSF de «Mossi\, la mode aussi »
@@ -1136,6 +1085,19 @@ DESCRIPTION:https://www.cira-marseille.info/wp-content/uploads/2026/08/7-C
 LOCATION:CIRA Marseille
 URL:https://www.cira-marseille.info/wp-content/uploads/2026/08/7-Causerie-
  novembre-2026-M-Agostini-Cempuis.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Presentation le 14 novembre à 17h30 avec Thibault Prévost et Sam
+ y Johsua
+DTSTART;TZID=Europe/Paris:20261114T173000
+DTEND;TZID=Europe/Paris:20261114T193000
+UID:353a0a271954@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.facebook.com/transit.librairie/posts/pfbid0FfdeAkh
+ Ek1XSiWUDoaKsb9EoezeQZpbJjmAKY2XxKWCBkCJ42bNk9yz6DFCBjGzbl
+LOCATION:Transit librairie
+URL:https://www.facebook.com/transit.librairie/posts/pfbid0FfdeAkhEk1XSiWU
+ DoaKsb9EoezeQZpbJjmAKY2XxKWCBkCJ42bNk9yz6DFCBjGzbl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Présentation de "Technologie du coup d’État" Les programmeurs 
@@ -1284,6 +1246,19 @@ DESCRIPTION:Projection du film primé 'La Gradiva' de Marine Atlan\, suivi
  w.instagram.com/p/DfXhKKRjjwF/
 LOCATION:La Baleine
 URL:https://www.instagram.com/p/DfXhKKRjjwF/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rendez-vous avec l'association Ahdarija | Des moutons et des homm
+ es de Karim Sayad
+DTSTART;TZID=Europe/Paris:20261115T183000
+DTEND;TZID=Europe/Paris:20261115T203000
+UID:c7a615c79953@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/rendez-vous-avec-lassociation-ahdar
+ ija-des-moutons-et-des-hommes-de-karim-sayad/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/rendez-vous-avec-lassociation-ahdarija-des-
+ moutons-et-des-hommes-de-karim-sayad/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DIM 15 NOV - 20H
@@ -1733,6 +1708,19 @@ DESCRIPTION:https://transit-librairie.org/Presentation-de-La-Palestine-en-
  proces
 LOCATION:Transit librairie
 URL:https://transit-librairie.org/Presentation-de-La-Palestine-en-proces
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DOUBLE VISION : ON LOOKING | Man Number 4 + The Rib of the Greater
+  Bay Area
+DTSTART;TZID=Europe/Paris:20261119T193000
+DTEND;TZID=Europe/Paris:20261119T213000
+UID:d89f9af4c2af@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/double-vision-on-looking-man-number
+ -4-the-rib-of-the-greater-bay-area/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/double-vision-on-looking-man-number-4-the-r
+ ib-of-the-greater-bay-area/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boat People
@@ -2673,6 +2661,16 @@ LOCATION:La Colorada - La Colorada Marsella
 URL:https://www.instagram.com/p/DfZnMGJjsYo/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FIVIA | Tech v/s Tech / Panorama
+DTSTART;TZID=Europe/Paris:20261127T190000
+DTEND;TZID=Europe/Paris:20261127T210000
+UID:0cd84edde698@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/fivia-tech-v-s-tech-panorama/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/fivia-tech-v-s-tech-panorama/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ERADIKAL INSANE + Reign + Vulher
 DTSTART;TZID=Europe/Paris:20261127T200000
 DTEND;TZID=Europe/Paris:20261127T220000
@@ -2857,6 +2855,18 @@ DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/28/beauwanzer-matt
 LOCATION:L'Embobineuse
 URL:https://www.lembobineuse.biz/events/2026/11/28/beauwanzer-matthieufuen
  tes
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ecrans d'Aflam | Treat Me Like Your Mother de Mohamad Abdouni
+DTSTART;TZID=Europe/Paris:20261129T193000
+DTEND;TZID=Europe/Paris:20261129T213000
+UID:f5e8837af3da@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/ecrans-daflam-treat-me-like-your-mo
+ ther-de-mohamad-abdouni/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/ecrans-daflam-treat-me-like-your-mother-de-
+ mohamad-abdouni/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:#Faire Famille - Machines à Histoires et Zelie – Les résidence
@@ -3097,6 +3107,17 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/iran-israel-et-la-
  bombe/
 LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/iran-israel-et-la-bombe/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RISK IT\, BREATHING\, TOWEL
+DTSTART;TZID=Europe/Paris:20261203T210000
+DTEND;TZID=Europe/Paris:20261203T230000
+UID:1eb99d6a6fb7@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:A hardcore concert featuring RISK IT\, BREATHING\, and TOWEL.
+ \nPrix : 10€\nhttps://www.instagram.com/p/DfhHw8rt8Nr/
+LOCATION:L'Intermédiaire - L'INTERMEDIAIRE
+URL:https://www.instagram.com/p/DfhHw8rt8Nr/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club de lecture ado
@@ -3388,6 +3409,18 @@ DESCRIPTION:Prix : 22€\nhttps://lemolotov.com/events/this-will-destroy-y
  ou-cahill-costello/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/this-will-destroy-you-cahill-costello/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Imaginaires Documentaires | Les Petites victoires
+DTSTART;TZID=Europe/Paris:20261208T200000
+DTEND;TZID=Europe/Paris:20261208T220000
+UID:290d68052a77@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/imaginaires-documentaires-les-petit
+ es-victoires/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/imaginaires-documentaires-les-petites-victo
+ ires/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Petits Mercredis
@@ -4002,6 +4035,21 @@ DESCRIPTION:https://mucem.org/evenement/atelier-de-dabke-traditionnelle-et
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/atelier-de-dabke-traditionnelle-et-contemp
  oraine/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Commémoration des 50 ans de la tragédie des comoriens de Majunga
+  (Madagascar)
+DTSTART;TZID=Europe/Paris:20261219T150000
+DTEND;TZID=Europe/Paris:20261219T183000
+UID:dc070e807a1f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/37356827_commemoration-des-50
+ -ans-de-la-tragedie-des-comoriens-de-majunga-madagascar
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/37356827
+ _commemoration-des-50-ans-de-la-tragedie-des-comoriens-de-majunga-madagasc
+ ar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite flash

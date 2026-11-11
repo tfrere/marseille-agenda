@@ -11,10 +11,10 @@ DTEND;VALUE=DATE:20270426
 UID:a09713f21970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/par-une-langue-echappee-nouveau-pa
- rcours-des-collections-modernes-et-contemporaines?museum=musee-cantini
+ rcours-des-collections-modernes-et-contemporaines
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
- es-collections-modernes-et-contemporaines?museum=musee-cantini
+ es-collections-modernes-et-contemporaines
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -33,11 +33,9 @@ DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20270111
 UID:e0d08c10845b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la
- -vieille-charite
+DESCRIPTION:https://musees.marseille.fr/adrien-vescovi
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille
- -charite
+URL:https://musees.marseille.fr/adrien-vescovi
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -57,11 +55,9 @@ DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270104
 UID:3b62334d0fdf@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/voix-publiques-louisa-babari?museu
- m=musee-dart-contemporain-mac-0
+DESCRIPTION:https://musees.marseille.fr/voix-publiques-louisa-babari
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/voix-publiques-louisa-babari?museum=musee-
- dart-contemporain-mac-0
+URL:https://musees.marseille.fr/voix-publiques-louisa-babari
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Error #00 avec Les
@@ -95,11 +91,9 @@ DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270621
 UID:5ea844f05bff@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence?museum=muse
- um-dhistoire-naturelle-de-marseille-mhnm
+DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dhist
- oire-naturelle-de-marseille-mhnm
+URL:https://musees.marseille.fr/dinosaures-de-provence
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Souffles terrestres
@@ -294,60 +288,6 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/morphe
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Atelier d'écriture
-DTSTART;TZID=Europe/Paris:20261110T100000
-DTEND;TZID=Europe/Paris:20261110T120000
-UID:3fea5732e3e9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/atelier-decriture/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lancement de la Pépinière Culture
-DTSTART;TZID=Europe/Paris:20261110T150000
-DTEND;TZID=Europe/Paris:20261110T170000
-UID:13a0836741a1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Réunion d'informations autour du lancement de la pépinière 
- culturelle Une proposition de AMI\nPrix : Gratuit !\nhttps://www.lafriche.
- org/evenements/lancement-de-la-pepiniere-culture/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/lancement-de-la-pepiniere-culture/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Permanence des Amoureux au ban public
-DTSTART;TZID=Europe/Paris:20261110T173000
-DTEND;TZID=Europe/Paris:20261110T193000
-UID:be72a359fe63@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.millebabords.org/spip.php?article42402
-LOCATION:Mille Bâbords - Mille Bâbords\, 61 rue Consolat\, 13001 Marseil
- le
-URL:https://www.millebabords.org/spip.php?article42402
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Acousmodrome | Séance d'écoute
-DTSTART;TZID=Europe/Paris:20261110T193000
-DTEND;TZID=Europe/Paris:20261110T213000
-UID:a24949498ce7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/acousmodrome-seance-decoute/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/acousmodrome-seance-decoute/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FLY ANAKIN & QUELLE CHRIS
-DTSTART;TZID=Europe/Paris:20261110T200000
-DTEND;TZID=Europe/Paris:20261110T220000
-UID:dd780a0ead63@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 18€\nhttps://lemolotov.com/events/fly-anakin-quelle-c
- hris/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/fly-anakin-quelle-chris/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Nelly Flecher - Figure de @radiogrenouille. Quand l’écoute est 
  l’histoire d’une vie
 DTSTART;VALUE=DATE:20261111
@@ -358,6 +298,16 @@ DESCRIPTION:Prix : 25 € hors boissons\nhttps://www.instagram.com/p/DfHnv
  OGjVmk/
 LOCATION:Friche la Belle de Mai
 URL:https://www.instagram.com/p/DfHnvOGjVmk/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rétrospective Dietrich par Sternberg
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+UID:0d790f872b1b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.instagram.com/p/DfkZH3miWCP/
+LOCATION:Les Variétés
+URL:https://www.instagram.com/p/DfkZH3miWCP/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Alternative Fantasy | cycle cinéma
@@ -407,17 +357,6 @@ LOCATION:La Baleine
 URL:https://fb.me/e/k8Ttsh5oq
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Visite flash
-DTSTART;TZID=Europe/Paris:20261111T150000
-DTEND;TZID=Europe/Paris:20261111T170000
-UID:ca34f5b41972@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
-  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-flash-16/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le Gyptis x "Chaos Magique" par L'Idéaliste : KIKI LA PETITE SORC
  IÈRE de Hayao Miyazaki
 DTSTART;TZID=Europe/Paris:20261111T150000
@@ -444,6 +383,17 @@ DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
  afriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261111T160000
+DTEND;TZID=Europe/Paris:20261111T170000
+UID:ca34f5b41972@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cloture Cinémanimé ! Carmen\, l'oiseau rebelle en avant-premièr
@@ -494,6 +444,16 @@ DESCRIPTION:Cette année\, Un festival de magie au féminin\nhttps://cinem
  alegyptis.org/films/la-venus-electrique/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/la-venus-electrique/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Palestine en procès
+DTSTART;TZID=Europe/Paris:20261111T190000
+DTEND;TZID=Europe/Paris:20261111T210000
+UID:28d7873bbcba@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://www.facebook.com/events/982486781087611/
+LOCATION:Transit librairie
+URL:https://www.facebook.com/events/982486781087611/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ce soir je mange avec… Nelly Flecher
@@ -635,18 +595,14 @@ URL:https://www.lafriche.org/evenements/la-peinture-en-lettres-histoire-re
  nouveau/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOTHERSHIP de Muriel Cravatte
+SUMMARY:MOTHERSHIP
 DTSTART;TZID=Europe/Paris:20261112T190000
-DTEND;TZID=Europe/Paris:20261112T201500
-UID:ffbe4f09dae0@marseille-agenda
+DTEND;TZID=Europe/Paris:20261112T210000
+UID:b22584ca78db@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Projection du film MOTHERSHIP de Muriel Cravatte dans le cadre
-  du Festival culinaire et solidaire Souvenirs d'enfance\, au profit de SOS
-  Méditerranée.\nPrix : 12 euros (tarif plein) / 10 euros (tarif réduit)
-  / 9 euros (tarif jeune et abonnés)\, incluant un don à SOS Méditerran
- ée de 2\,50 euros.\nhttps://www.instagram.com/p/DfZPBWcCI3M/
+DESCRIPTION:https://www.instagram.com/p/DfjUeolFNLr/
 LOCATION:La Baleine
-URL:https://www.instagram.com/p/DfZPBWcCI3M/
+URL:https://www.instagram.com/p/DfjUeolFNLr/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Présentation de "Marcher dans la blessure" dans le cadre du Festi
@@ -1596,6 +1552,17 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/43862616
  _club-de-lecture-8489214
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261118T160000
+DTEND;TZID=Europe/Paris:20261118T170000
+UID:7f66ee4d1ddd@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lectures en salle
 DTSTART;TZID=Europe/Paris:20261118T163000
 DTEND;TZID=Europe/Paris:20261118T170000
@@ -1986,19 +1953,6 @@ DESCRIPTION:À partir de la pratique des jeux vidéo\, des ateliers pour e
   !\nhttps://www.lafriche.org/evenements/numeritech-9/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/numeritech-9/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Courts métrages Sud-Américains primés
-DTSTART;TZID=Europe/Paris:20261121T160000
-DTEND;TZID=Europe/Paris:20261121T180000
-UID:f7509d1c9c6c@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Dans le cadre de la 28ème édition des rencontres du cinéma 
- Sud-Américain ASPAS\nhttps://cinemalegyptis.org/films/courts-metrages-sud
- -americains-primes/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/courts-metrages-sud-americains-primes
- /
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Courts-métrages Sud-Américains primés
@@ -2443,6 +2397,17 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/13345264
  _club-de-lecture-2916546
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261125T160000
+DTEND;TZID=Europe/Paris:20261125T170000
+UID:e8cc0d717129@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lectures en salle
 DTSTART;TZID=Europe/Paris:20261125T163000
 DTEND;TZID=Europe/Paris:20261125T170000
@@ -2661,6 +2626,18 @@ LOCATION:La Colorada - La Colorada Marsella
 URL:https://www.instagram.com/p/DfZnMGJjsYo/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Présentation de "Désastrée (poétique du nom juif)"
+DTSTART;TZID=Europe/Paris:20261127T190000
+DTEND;TZID=Europe/Paris:20261127T210000
+UID:31431a4cf799@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://transit-librairie.org/Presentation-de-Desastree-poetiq
+ ue-du-nom-juif
+LOCATION:Transit librairie
+URL:https://transit-librairie.org/Presentation-de-Desastree-poetique-du-no
+ m-juif
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FIVIA | Tech v/s Tech / Panorama
 DTSTART;TZID=Europe/Paris:20261127T190000
 DTEND;TZID=Europe/Paris:20261127T210000
@@ -2750,6 +2727,16 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AMOUR ET BARRICADES\, la Grande Crémaillère
+DTSTART;TZID=Europe/Paris:20261128T140000
+DTEND;TZID=Europe/Paris:20261128T160000
+UID:3867334fc87f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:
+LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
+ e
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier danses traditionnelles tunisiennes
@@ -3062,6 +3049,17 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/83227827
  _club-de-lecture-6427185
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261202T160000
+DTEND;TZID=Europe/Paris:20261202T170000
+UID:8e0ba6ea55e5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lectures en salle
 DTSTART;TZID=Europe/Paris:20261202T163000
 DTEND;TZID=Europe/Paris:20261202T170000
@@ -3073,6 +3071,23 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/50725798
  _lectures-en-salle-8235300
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Au-delà du virus : comprendre et faire face aux épidémies mondi
+ ales
+DTSTART;TZID=Europe/Paris:20261202T180000
+DTEND;TZID=Europe/Paris:20261202T203000
+UID:ff6bb009460e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Deux tables rondes qui croisent les regards de médecins\, ant
+ hropologues\, microbiologiste\, virologue\, psychologue\, démographe et m
+ ilitant·es pour comprendre les épidémies\, les endiguer et mieux se pr
+ éparer aux prochaines. Une proposition...\nPrix : Entrée libre\nhttps://
+ www.lafriche.org/evenements/au-dela-du-virus-comprendre-et-faire-face-aux-
+ epidemies-mondiales/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/au-dela-du-virus-comprendre-et-fai
+ re-face-aux-epidemies-mondiales/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
@@ -3488,6 +3503,17 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/41766417
  _club-de-lecture-7807462
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261209T160000
+DTEND;TZID=Europe/Paris:20261209T170000
+UID:39c6b8fde73f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lectures en salle
 DTSTART;TZID=Europe/Paris:20261209T163000
 DTEND;TZID=Europe/Paris:20261209T170000
@@ -3884,6 +3910,17 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261216T160000
+DTEND;TZID=Europe/Paris:20261216T170000
+UID:b76e557178b6@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:On n'attend pas - des soirées photographiques avec Arina Essipowi
  tsch
 DTSTART;TZID=Europe/Paris:20261216T190000
@@ -4150,6 +4187,17 @@ URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261223T160000
+DTEND;TZID=Europe/Paris:20261223T170000
+UID:6910a09a0e5d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
 DTSTART;TZID=Europe/Paris:20261226T150000
 DTEND;TZID=Europe/Paris:20261226T160000
 UID:936a982806a2@marseille-agenda
@@ -4234,6 +4282,17 @@ DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
  afriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20261230T160000
+DTEND;TZID=Europe/Paris:20261230T170000
+UID:923578184f64@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -4373,6 +4432,17 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20270106T160000
+DTEND;TZID=Europe/Paris:20270106T170000
+UID:3c7272f3fea6@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FamilyTech
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
@@ -4500,6 +4570,17 @@ DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
  afriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visite flash
+DTSTART;TZID=Europe/Paris:20270113T160000
+DTEND;TZID=Europe/Paris:20270113T170000
+UID:77d0787cbadc@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
+  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/visite-flash-16/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Commission d’enquête
@@ -6073,6 +6154,17 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-paysans/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-paysans/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UP TOWN MUSIC BAND #27
+DTSTART;TZID=Europe/Paris:20270509T183000
+DTEND;TZID=Europe/Paris:20270509T203000
+UID:b553383ce785@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/up-town-music-band-2
+ 7/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/up-town-music-band-27/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 5 - Peinture et sculpture : Frères ennemis ou liens intimes

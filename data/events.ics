@@ -91,9 +91,11 @@ DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270621
 UID:5ea844f05bff@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence
+DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence?museum=muse
+ um-dhistoire-naturelle-de-marseille-mhnm
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/dinosaures-de-provence
+URL:https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dhist
+ oire-naturelle-de-marseille-mhnm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Souffles terrestres
@@ -200,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites Flash
 DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20270101
 UID:87a6d2ebc970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visites-flash/
@@ -288,51 +290,6 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/morphe
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nelly Flecher - Figure de @radiogrenouille. Quand l’écoute est 
- l’histoire d’une vie
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-UID:516ed70965f8@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : 25 € hors boissons\nhttps://www.instagram.com/p/DfHnv
- OGjVmk/
-LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DfHnvOGjVmk/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rétrospective Dietrich par Sternberg
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-UID:0d790f872b1b@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.instagram.com/p/DfkZH3miWCP/
-LOCATION:Les Variétés
-URL:https://www.instagram.com/p/DfkZH3miWCP/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Alternative Fantasy | cycle cinéma
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-UID:1afbc88ae047@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/alternative-fantasy-cycle-cinema/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/alternative-fantasy-cycle-cinema/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier Sauve qui pousse
-DTSTART;TZID=Europe/Paris:20261111T103000
-DTEND;TZID=Europe/Paris:20261111T120000
-UID:1396defff5b3@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Un atelier qui vous apprendra tout ce qu'il vous faut pour avo
- ir des plantes en bonne santé et qui durent longtemps Une proposition de 
- Nouvelle Pousse\nhttps://www.lafriche.org/evenements/atelier-sauve-qui-pou
- sse/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/atelier-sauve-qui-pousse/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyle Dietrich / Sternberg
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261125
@@ -344,31 +301,6 @@ DESCRIPTION:Cycle Marlene Dietrich x Joseph Von Sternberg SHANGHAI EXPRESS
  ://www.facebook.com/events/1141383282150231/
 LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
 URL:https://www.facebook.com/events/1141383282150231/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ANNA
-DTSTART;TZID=Europe/Paris:20261111T140000
-DTEND;TZID=Europe/Paris:20261111T160000
-UID:3464f91fd164@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Avant-première du film de Monica Guerritore sur Anna Magnani.
- \nhttps://fb.me/e/k8Ttsh5oq
-LOCATION:La Baleine
-URL:https://fb.me/e/k8Ttsh5oq
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le Gyptis x "Chaos Magique" par L'Idéaliste : KIKI LA PETITE SORC
- IÈRE de Hayao Miyazaki
-DTSTART;TZID=Europe/Paris:20261111T150000
-DTEND;TZID=Europe/Paris:20261111T170000
-UID:c19bc1713cca@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Cette année\, Un festival de magie au féminin LA NUIT DES FE
- MMES DE LA MAGIE\, DE LA MUSIQUE ET UN PEU DE DÉSORDRE. Et si la magie é
- tait avant tout une affaire de regards\, de corps\, de récits et de perc
- \nhttps://www.facebook.com/events/1117507984353152/
-LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
-URL:https://www.facebook.com/events/1117507984353152/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
@@ -385,46 +317,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Visite flash
-DTSTART;TZID=Europe/Paris:20261111T160000
-DTEND;TZID=Europe/Paris:20261111T170000
-UID:ca34f5b41972@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
-  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-flash-16/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cloture Cinémanimé ! Carmen\, l'oiseau rebelle en avant-premièr
- e
-DTSTART;TZID=Europe/Paris:20261111T160000
-DTEND;TZID=Europe/Paris:20261111T180000
-UID:68acd53517d6@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Découvrez le nouveau film de Sébastien Laudenbach (Linda veu
- t du poulet) en avant-première le mercredi 11 novembre à 16h. Séance da
- ns le cadre du Festival Cinémanimé. CARMEN\, L'OISEAU REBELLE de Sébas
- \nhttps://lesvarietes-marseille.com/FR/fiche-film-cinema/MPQB4Y/carmen-l-o
- iseau-rebelle.html
-LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
-URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MPQB4Y/carmen-l
- -oiseau-rebelle.html
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kiki la petite sorcière
-DTSTART;TZID=Europe/Paris:20261111T170000
-DTEND;TZID=Europe/Paris:20261111T190000
-UID:533fa1240ac4@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Précédée à 15h d’un atelier de magie\, dès 8 ans (sur i
- nscription : ateliersducinema@lafriche.org – 12 places) et d’un goûte
- r offert à 16h · Les 50 premières places seront offertes par le festiva
- l\nhttps://cinemalegyptis.org/films/kiki-la-petite-sorciere/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/kiki-la-petite-sorciere/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Exposition Sadek Lamri
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261126
@@ -433,87 +325,6 @@ CATEGORIES:bars
 DESCRIPTION:https://www.instagram.com/p/DfKhlybNILA/
 LOCATION:La Camaraderie - La Camaraderie
 URL:https://www.instagram.com/p/DfKhlybNILA/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La Vénus Électrique
-DTSTART;TZID=Europe/Paris:20261111T190000
-DTEND;TZID=Europe/Paris:20261111T210000
-UID:9f8e47ea51b4@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Cette année\, Un festival de magie au féminin\nhttps://cinem
- alegyptis.org/films/la-venus-electrique/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/la-venus-electrique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La Palestine en procès
-DTSTART;TZID=Europe/Paris:20261111T190000
-DTEND;TZID=Europe/Paris:20261111T210000
-UID:28d7873bbcba@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.facebook.com/events/982486781087611/
-LOCATION:Transit librairie
-URL:https://www.facebook.com/events/982486781087611/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ce soir je mange avec… Nelly Flecher
-DTSTART;TZID=Europe/Paris:20261111T193000
-DTEND;TZID=Europe/Paris:20261111T213000
-UID:3d185b42225e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Troisième repas de cette série culinaire qui part à la renc
- ontre des cuisiniers et cuisinières dont les recettes font vivre un héri
- tage chargé d'histoires\, de gestes et de souvenirs ! Une proposition de 
- Les Grandes Tables\nhttps://www.lafriche.org/evenements/ce-soir-je-mange-a
- vec-nelly-flecher/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/ce-soir-je-mange-avec-nelly-fleche
- r/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Alternative Fantasy | La Casa Lobo de Cristobal Leon et Joaquín 
- Cociña
-DTSTART;TZID=Europe/Paris:20261111T193000
-DTEND;TZID=Europe/Paris:20261111T213000
-UID:f66aba71573d@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/alternative-fantasy-la-casa-lobo-de
- -cristobal-leon-et-joaquin-cocina/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/alternative-fantasy-la-casa-lobo-de-cristob
- al-leon-et-joaquin-cocina/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA GRADIVA de Marine Atlan
-DTSTART;TZID=Europe/Paris:20261111T201000
-DTEND;TZID=Europe/Paris:20261111T221000
-UID:adf3d7fe3435@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film primé 'La Gradiva' de Marine Atlan\, suivi
-  de discussions sur les émotions exacerbées des adolescents.\nhttps://ww
- w.instagram.com/p/DfXhKKRjjwF/
-LOCATION:La Baleine
-URL:https://www.instagram.com/p/DfXhKKRjjwF/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TISSILAWEN + Mehtoze
-DTSTART;TZID=Europe/Paris:20261111T203000
-DTEND;TZID=Europe/Paris:20261111T223000
-UID:2b82cd6c8a7f@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 20€\nhttps://lemolotov.com/events/tissilawen-mehtoze/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/tissilawen-mehtoze/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Second Major + Auto
-DTSTART;TZID=Europe/Paris:20261111T210000
-DTEND;TZID=Europe/Paris:20261111T230000
-UID:e916a7022bb1@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/Dev6AcbDBXw/
-LOCATION:L'Intermédiaire
-URL:https://www.instagram.com/p/Dev6AcbDBXw/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(Dé)faire musée en temps de destruction
@@ -595,14 +406,18 @@ URL:https://www.lafriche.org/evenements/la-peinture-en-lettres-histoire-re
  nouveau/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOTHERSHIP
+SUMMARY:[Souvenirs d'enfance] MOTHERSHIP de Muriel Cravatte | Tarifs solid
+ aires au profit de SOSMéditerranée
 DTSTART;TZID=Europe/Paris:20261112T190000
 DTEND;TZID=Europe/Paris:20261112T210000
-UID:b22584ca78db@marseille-agenda
+UID:4f86c5e101ea@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:https://www.instagram.com/p/DfjUeolFNLr/
-LOCATION:La Baleine
-URL:https://www.instagram.com/p/DfjUeolFNLr/
+DESCRIPTION:▉ Séance spéciale et plat solidaire à La Baleine du 9 au 
+ 15 novembre dans le cadre du Festival culinaire et solidaire Souvenirs d'e
+ nfance\, au profit de SOS Méditerranée. ▉ Tarifs spéciaux pour la pro
+ j\nhttps://marseillecinemalabaleine.cine.boutique/superticket/36
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/superticket/36
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Présentation de "Marcher dans la blessure" dans le cadre du Festi
@@ -656,20 +471,6 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/rats-dont-sink-vodk47-bad-call/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Souvenirs d'enfance] MOTHERSHIP de Muriel Cravatte | Tarifs solid
- aires au profit de SOSMéditerranée
-DTSTART;TZID=Europe/Paris:20261112T211500
-DTEND;TZID=Europe/Paris:20261112T231500
-UID:4f86c5e101ea@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ Séance spéciale et plat solidaire à La Baleine du 9 au 
- 15 novembre dans le cadre du Festival culinaire et solidaire Souvenirs d'e
- nfance\, au profit de SOS Méditerranée. ▉ Tarifs spéciaux pour la pro
- j\nhttps://marseillecinemalabaleine.cine.boutique/superticket/36
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/superticket/36
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Morphé
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
@@ -706,18 +507,29 @@ URL:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedin-emma-p
  ujar-les-residences-de-la-martinerie/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Phonurgia Nova Awards 2026
-DTSTART;TZID=Europe/Paris:20261113T091500
-DTEND;TZID=Europe/Paris:20261113T220000
-UID:3dc786e4ffe8@marseille-agenda
+SUMMARY:CRÉATION ÉMERGENTE 🎙️
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+UID:69139ba4ba96@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Audaces\, explorations\, art sonore et innovations narratives 
- : de la radio au podcast\, ce sont 51 œuvres qui sont diffusées dans des
-  conditions d'écoute exceptionnelles. Une proposition de Radio Grenouille
-  & Euphonia\, Logellou et GMEM\nhttps://www.lafriche.org/evenements/phonur
- gia-nova-awards-2026/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/phonurgia-nova-awards-2026/
+DESCRIPTION:Prix : Entrée libre sur inscription à l'adresse billetterie@
+ gmem.org\nhttps://www.facebook.com/friche.labelledemai/posts/pfbid0de1Jz9y
+ ZZvEXBtvSUi4Sjw8xhLaYwjC8jj3fwRXJwDnSb8sZqN9DcPMZCziAKiKvl
+LOCATION:Friche la Belle de Mai - Module
+URL:https://www.facebook.com/friche.labelledemai/posts/pfbid0de1Jz9yZZvEXB
+ tvSUi4Sjw8xhLaYwjC8jj3fwRXJwDnSb8sZqN9DcPMZCziAKiKvl
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phonurgia Nova Awards
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+UID:1a02ca3f6e76@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un marathon d'écoute de 51 créations radiophoniques et sonor
+ es venues de 30 pays.\nPrix : Entrée libre sur inscription à l'adresse b
+ illetterie@gmem.org\nhttps://www.instagram.com/p/Dfl5RbKAZ95/
+LOCATION:Friche la Belle de Mai - Module
+URL:https://www.instagram.com/p/Dfl5RbKAZ95/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(Dé)faire musée en temps de destruction
@@ -751,6 +563,19 @@ DESCRIPTION:Projection du film primé 'La Gradiva' de Marine Atlan\, suivi
  w.instagram.com/p/DfXhKKRjjwF/
 LOCATION:La Baleine
 URL:https://www.instagram.com/p/DfXhKKRjjwF/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Films de Barbarie
+DTSTART;TZID=Europe/Paris:20261113T190000
+DTEND;TZID=Europe/Paris:20261113T210000
+UID:267f2516cbd9@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Festival des films d’atelier par Cinema Siba \, collectif de
+  réalisatrices et réalisateurs. Suivie d’une discussion avec les équi
+ pes et réalisateurices des films. Soupe offerte à la fin de la séance.
+ \nhttps://cinemalegyptis.org/films/les-films-de-barbarie-cinema-siba/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/les-films-de-barbarie-cinema-siba/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Films de Barbarie – Cinema Siba
@@ -896,20 +721,6 @@ DESCRIPTION:Dans un pays en guerre\, un père raconte à sa fille un conte
  nal à Marseille\nhttps://www.lafriche.org/evenements/morphe/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/morphe/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Phonurgia Nova Awards 2026
-DTSTART;TZID=Europe/Paris:20261114T091500
-DTEND;TZID=Europe/Paris:20261114T173000
-UID:920d56364899@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Audaces\, explorations\, art sonore et innovations narratives 
- : de la radio au podcast\, ce sont 51 œuvres qui sont diffusées dans des
-  conditions d'écoute exceptionnelles. Une proposition de Radio Grenouille
-  & Euphonia\, Logellou et GMEM\nhttps://www.lafriche.org/evenements/phonur
- gia-nova-awards-2026/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/phonurgia-nova-awards-2026/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Marché aux tissus et loisirs créatifs
@@ -1760,14 +1571,16 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/15479094
  _club-de-lecture-ado-8266790
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Soirée poética n°4 TOX DETOX
+SUMMARY:4e Soirée poétique : Tox – Détox
 DTSTART;TZID=Europe/Paris:20261120T183000
 DTEND;TZID=Europe/Paris:20261120T203000
-UID:554a05e942ab@marseille-agenda
+UID:a57c16a93eac@marseille-agenda
 CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/DfZnMGJjsYo/
-LOCATION:La Colorada - La Colorada Marsella
-URL:https://www.instagram.com/p/DfZnMGJjsYo/
+DESCRIPTION:Une soirée poétique antipoétique pour détoxifier sa toxici
+ té par l'écriture\, le slam\, la musique et plus.\nPrix : Cash uniquemen
+ t\nhttps://www.instagram.com/p/Dfl5we5uunM/
+LOCATION:La Colorada - La Colorada
+URL:https://www.instagram.com/p/Dfl5we5uunM/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Des films en commun #34 | Possible + La Genèse
@@ -2304,20 +2117,17 @@ URL:https://www.videodrome2.fr/corps-troubles-peaux-dargent-4-entree-plat-
  dessert/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cinéthique : « Ce qui nous mène à toi » — projection-débat
-  sur la PMA
+SUMMARY:Cinéthique : CE QUI NOUS MENE À TOI
 DTSTART;TZID=Europe/Paris:20261124T194500
 DTEND;TZID=Europe/Paris:20261124T214500
-UID:1773cb2aa28b@marseille-agenda
+UID:987a5b52424c@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:🎬 CINÉTHIQUE : CE QUI NOUS MÈNE À TOI Un film\, puis un 
- débat pour échanger autour de la procréation médicalement assistée. L
- ’Espace de Réflexion Éthique PACA-Corse et l’AP-HM vous donnent rend
- ez-vous \nhttps://www.eventbrite.fr/e/billets-cinethique-ce-qui-nous-mene-
- a-toi-2002614985330
-LOCATION:Les Variétés - Cinéma les Variétés
-URL:https://www.eventbrite.fr/e/billets-cinethique-ce-qui-nous-mene-a-toi-
- 2002614985330
+DESCRIPTION:Cinéthique suivi d'un échange avec François Crémieux\, dir
+ ecteur des Hôpitaux de Marseille et la Professeure Blandine Courbière\, 
+ cheffe du service d'aide à la procréation. Animé par Nathania Cahen\, j
+ ou\nhttps://www.facebook.com/events/2123166005231014/
+LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
+URL:https://www.facebook.com/events/2123166005231014/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GVLLOW + Ohm Sweet Ohm
@@ -2406,6 +2216,21 @@ DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
   Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/visite-flash-16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Petite Baleine] À LA POURSUITE DE L'AFFREUNARD de B. Botella\, Z
+ . Horvath | suivi d'un atelier !
+DTSTART;TZID=Europe/Paris:20261125T160000
+DTEND;TZID=Europe/Paris:20261125T180000
+UID:6c0fdf6ba34e@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:▉ Séance suivie d'un atelier parent-enfant "Fabrique ton ma
+ sque d'affreunard !" Atelier gratuit\, sur réservation à : ylang@labalei
+ nemarseille.com Mercredi 25 novembre à 16h 𝗔̀ 𝗟𝗔 𝗣𝗢𝗨
+ 𝗥𝗦𝗨𝗜𝗧𝗘 𝗗𝗘 𝗟'𝗔𝗙𝗙𝗥𝗘𝗨\nhttps://m
+ arseillecinemalabaleine.cine.boutique/
+LOCATION:La Baleine - La Baleine Marseille
+URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lectures en salle
@@ -2626,6 +2451,20 @@ LOCATION:La Colorada - La Colorada Marsella
 URL:https://www.instagram.com/p/DfZnMGJjsYo/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Ciné-débat : OCTOBRE À PARIS de Jacques Panijel + LE REMORDS de
+  René Vautier
+DTSTART;TZID=Europe/Paris:20261127T190000
+DTEND;TZID=Europe/Paris:20261127T210000
+UID:873c0878eab0@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:📆 Vendredi 27 novembre à 19h // Projection suivie d'un dé
+ bat // En partenariat avec La fraternité de la Belle de Mai\, U.M.M.A (Un
+ ion des Marseillais·es Musulman·es Anti-islamophobie) et la FCAF (Fédé
+ r\nhttps://www.facebook.com/events/1538221004900888/
+LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
+URL:https://www.facebook.com/events/1538221004900888/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Présentation de "Désastrée (poétique du nom juif)"
 DTSTART;TZID=Europe/Paris:20261127T190000
 DTEND;TZID=Europe/Paris:20261127T210000
@@ -2842,6 +2681,21 @@ DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/28/beauwanzer-matt
 LOCATION:L'Embobineuse
 URL:https://www.lembobineuse.biz/events/2026/11/28/beauwanzer-matthieufuen
  tes
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cinekids : LE NOEL D'ERNEST ET CELESTINE
+DTSTART;TZID=Europe/Paris:20261129T153000
+DTEND;TZID=Europe/Paris:20261129T173000
+UID:33f452a8351b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Tous les derniers dimanches c'est CINEKIDS au Variétés ! Un 
+ film suivi d'un atelier en accès libre et d'un goûter offert par le Bioc
+ oop la Joliette. Dimanche 29 novembre à 15h30 Atelier "Fabrique ta d\nhtt
+ ps://lesvarietes-marseille.com/FR/fiche-film-cinema/MTS47I/le-noel-d-ernes
+ t-et-celestine.html
+LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
+URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MTS47I/le-noel-
+ d-ernest-et-celestine.html
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ecrans d'Aflam | Treat Me Like Your Mother de Mohamad Abdouni
@@ -3230,6 +3084,19 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/60187133
  _eveil-musical-9524766
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Braderie d'affiches !
+DTSTART;TZID=Europe/Paris:20261205T110000
+DTEND;TZID=Europe/Paris:20261205T130000
+UID:e2114591e495@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Notre traditionnelle braderie d'affiches est de retour ! Samed
+ i 5 décembre de 11h à 19h dans le hall du cinéma. Braderie au profit de
+  l'association Al Manba. Al Manba est un collectif no border né en \nhttp
+ s://www.facebook.com/events/4011514252489501/
+LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
+URL:https://www.facebook.com/events/4011514252489501/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite multisensorielle de l'exposition « Méditerranées »
@@ -4885,9 +4752,21 @@ CATEGORIES:culture
 DESCRIPTION:★ ☆ HIP-HOP / FUNK / SOUL / LATIN / AFROBEAT ★ ☆ Move 
  On Up\, 7$ Crew & le Festival Tighten Up! présentent “Cold Sweat! Hip-H
  op Jam & Party”. Une Jam Hip-Hop internationale - le RDV annuel des B-Gi
- rls \nhttps://www.facebook.com/events/3746932875454570/
+ rls \nhttps://l.facebook.com/l.php?u=https%3A%2F%2Fshotgun.live%2Ffr%2Feve
+ nts%2Fcold-sweat-hiphop-jam-party-2027%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZg
+ VicmlkETEzY0d0WUc5YlFGQlM1SzQzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABH3oL
+ xsGKKI8Kv0fQG0F_A5O8hmUGDokDVMcRRS-IIdEvMu1XTyfQ7Wo5q4dS_aem_Q6OMseHFysm2R
+ NaR_1TU_A&h=AUD0Q6c9sSvV6d7n-RzY_rZ4cfcLjWA5IEjBaQfteqgx1jV5eCtKhTZ2dRZK-T
+ W7YVffTLToRwHgIZzCemCMBiXngd-mLA2_ZpyYfJuqUnp_yj5ABiSnM1BqxN_oCdIqx6JfwI89
+ cUilCrvTfN4
 LOCATION:La Fabulerie - Zoumaï
-URL:https://www.facebook.com/events/3746932875454570/
+URL:https://l.facebook.com/l.php?u=https%3A%2F%2Fshotgun.live%2Ffr%2Fevent
+ s%2Fcold-sweat-hiphop-jam-party-2027%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVi
+ cmlkETEzY0d0WUc5YlFGQlM1SzQzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABH3oLxs
+ GKKI8Kv0fQG0F_A5O8hmUGDokDVMcRRS-IIdEvMu1XTyfQ7Wo5q4dS_aem_Q6OMseHFysm2RNa
+ R_1TU_A&h=AUD0Q6c9sSvV6d7n-RzY_rZ4cfcLjWA5IEjBaQfteqgx1jV5eCtKhTZ2dRZK-TW7
+ YVffTLToRwHgIZzCemCMBiXngd-mLA2_ZpyYfJuqUnp_yj5ABiSnM1BqxN_oCdIqx6JfwI89cU
+ ilCrvTfN4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sam Quealy
@@ -6524,8 +6403,8 @@ URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
-DTSTART;VALUE=DATE:20270818
-DTEND;VALUE=DATE:20270822
+DTSTART;TZID=Europe/Paris:20270818T153000
+DTEND;TZID=Europe/Paris:20270818T173000
 UID:74994058c556@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab

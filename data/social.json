@@ -4,10 +4,10 @@
    "kind": "facebook",
    "handle": "manifesten",
    "url": "https://www.facebook.com/manifesten/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-10-26",
-   "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 15,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 16,
    "posts": {
     "1660677512734544": {
      "id": "1660677512734544",
@@ -397,10 +397,10 @@
    "kind": "instagram",
    "handle": "frichelabelledemai",
    "url": "https://www.instagram.com/frichelabelledemai/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3982454633787837146": {
      "id": "3982454633787837146",
@@ -2385,10 +2385,10 @@
    "kind": "facebook",
    "handle": "friche.labelledemai",
    "url": "https://www.facebook.com/friche.labelledemai/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1532091032279298": {
      "id": "1532091032279298",
@@ -3986,10 +3986,10 @@
    "kind": "facebook",
    "handle": "transit.librairie",
    "url": "https://www.facebook.com/transit.librairie/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1684825136986857": {
      "id": "1684825136986857",
@@ -4795,10 +4795,10 @@
    "kind": "instagram",
    "handle": "l_intermediaire",
    "url": "https://www.instagram.com/l_intermediaire/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3973821047807462375": {
      "id": "3973821047807462375",
@@ -5948,10 +5948,10 @@
    "kind": "facebook",
    "handle": "Intermediaire.live",
    "url": "https://www.facebook.com/Intermediaire.live/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-03",
-   "last_error": "apify~facebook-posts-scraper: no_items",
-   "consecutive_failures": 9,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 10,
    "posts": {
     "27367697112904947": {
      "id": "27367697112904947",
@@ -6147,10 +6147,10 @@
    "kind": "instagram",
    "handle": "labaleinemarseille",
    "url": "https://www.instagram.com/labaleinemarseille/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3982247112787746827": {
      "id": "3982247112787746827",
@@ -8090,10 +8090,10 @@
    "kind": "facebook",
    "handle": "labaleinemarseille",
    "url": "https://www.facebook.com/labaleinemarseille/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "2282542679251048": {
      "id": "2282542679251048",
@@ -10217,10 +10217,10 @@
    "kind": "instagram",
    "handle": "cinemalesvarietes.marseille",
    "url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3973790853206263299": {
      "id": "3973790853206263299",
@@ -11168,10 +11168,10 @@
    "kind": "facebook",
    "handle": "lesvarietesmarseille",
    "url": "https://www.facebook.com/lesvarietesmarseille/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1690057176402534": {
      "id": "1690057176402534",
@@ -12056,10 +12056,10 @@
    "kind": "instagram",
    "handle": "cinemalegyptis",
    "url": "https://www.instagram.com/cinemalegyptis/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3975995434979684771": {
      "id": "3975995434979684771",
@@ -13508,10 +13508,10 @@
    "kind": "facebook",
    "handle": "cinemalegyptis",
    "url": "https://www.facebook.com/cinemalegyptis/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1677523864378727": {
      "id": "1677523864378727",
@@ -15425,10 +15425,10 @@
    "kind": "instagram",
    "handle": "lafabulerie",
    "url": "https://www.instagram.com/lafabulerie/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3968562240534019368": {
      "id": "3968562240534019368",
@@ -15600,10 +15600,10 @@
    "kind": "facebook",
    "handle": "Fabulerie",
    "url": "https://www.facebook.com/Fabulerie/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1855733538723567": {
      "id": "1855733538723567",
@@ -17036,10 +17036,10 @@
    "kind": "instagram",
    "handle": "lacoloradamarsella",
    "url": "https://www.instagram.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "3981145255053953289": {
      "id": "3981145255053953289",
@@ -18355,10 +18355,10 @@
    "kind": "facebook",
    "handle": "lacoloradamarsella",
    "url": "https://www.facebook.com/lacoloradamarsella/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": null,
-   "last_error": "apify~facebook-posts-scraper: not_available",
-   "consecutive_failures": 43,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 44,
    "posts": {},
    "failed_posts": {},
    "fb_events": []
@@ -18379,10 +18379,10 @@
    "kind": "instagram",
    "handle": "la.camaraderie13",
    "url": "https://www.instagram.com/la.camaraderie13/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "4011313915965590034": {
      "id": "4011313915965590034",
@@ -18801,10 +18801,10 @@
    "kind": "instagram",
    "handle": "twali.marseille",
    "url": "https://www.instagram.com/twali.marseille/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "4015968301078859997": {
      "id": "4015968301078859997",
@@ -19022,10 +19022,10 @@
    "kind": "facebook",
    "handle": "twalibelsunce",
    "url": "https://www.facebook.com/twalibelsunce/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "1106831042111898": {
      "id": "1106831042111898",
@@ -19211,10 +19211,10 @@
    "kind": "instagram",
    "handle": "lembobineusemarseille",
    "url": "https://www.instagram.com/lembobineusemarseille/",
-   "last_fetched": "2026-11-12",
+   "last_fetched": "2026-11-13",
    "last_ok": "2026-11-12",
-   "last_error": null,
-   "consecutive_failures": 0,
+   "last_error": "apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+   "consecutive_failures": 1,
    "posts": {
     "4007601936026960062": {
      "id": "4007601936026960062",

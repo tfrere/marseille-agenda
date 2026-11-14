@@ -11,10 +11,10 @@ DTEND;VALUE=DATE:20270426
 UID:a09713f21970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/par-une-langue-echappee-nouveau-pa
- rcours-des-collections-modernes-et-contemporaines?museum=musee-cantini
+ rcours-des-collections-modernes-et-contemporaines
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
- es-collections-modernes-et-contemporaines?museum=musee-cantini
+ es-collections-modernes-et-contemporaines
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -120,18 +120,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/unworlding/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261126
-UID:47435b944c38@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261214
@@ -188,14 +176,16 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/la-vie-farpaite/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Films Femmes Méditerranée
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261114
-UID:8662fa5fb983@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:05 - 13 NOVEMBRE 2026\nhttps://www.films-femmes-med.org/
-LOCATION:Les Variétés
-URL:https://www.films-femmes-med.org/
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261126
+UID:47435b944c38@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites Flash
@@ -219,17 +209,6 @@ DESCRIPTION:Ateliers hebdomadaires de danse Dabké palestinienne ouverts
 LOCATION:Friche la Belle de Mai - Studio Accrorap\, 2ᵉ étage de la Manu
  facture\, La Friche la Belle de Mai
 URL:https://www.instagram.com/p/DfZ2VvPCJDd/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Jouer La Mouette
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261114
-UID:45461e5037e2@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/jouer-la-
- mouette
-LOCATION:Théâtre La Criée
-URL:https://theatre-lacriee.com/programmation/evenements/jouer-la-mouette
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Souvenirs d'enfance
@@ -325,42 +304,6 @@ LOCATION:La Camaraderie - La Camaraderie
 URL:https://www.instagram.com/p/DfKhlybNILA/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Morphé
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-UID:3674d5c14866@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Dans un pays en guerre\, un père raconte à sa fille un conte
-  sur la naissance du monde. Une proposition de La Criée\, Théâtre Natio
- nal à Marseille\nhttps://www.lafriche.org/evenements/morphe/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/morphe/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GAOUTA (live) + Cheikha (aka Vanda Forte) · Radical Kitten · Ada
- rab
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-UID:832a6d258312@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/DeeprYkCN-Z/
-LOCATION:La Camaraderie
-URL:https://www.instagram.com/p/DeeprYkCN-Z/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
-  de la Martinerie
-DTSTART;TZID=Europe/Paris:20261113T000000
-DTEND;TZID=Europe/Paris:20261113T020000
-UID:29e3ebb22675@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedi
- n-emma-pujar-les-residences-de-la-martinerie/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedin-emma-p
- ujar-les-residences-de-la-martinerie/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:CRÉATION ÉMERGENTE 🎙️
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261115
@@ -386,170 +329,15 @@ LOCATION:Friche la Belle de Mai - Module
 URL:https://www.instagram.com/p/Dfl5RbKAZ95/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(Dé)faire musée en temps de destruction
-DTSTART;TZID=Europe/Paris:20261113T093000
-DTEND;TZID=Europe/Paris:20261113T180000
-UID:2d8f01254211@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/defaire-musee-en-t
- emps-de-destruction/
-LOCATION:Mucem - Hors les murs
-URL:https://mucem.org/evenement/defaire-musee-en-temps-de-destruction/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vernissage | Huipil\, Matrimoine vivant
-DTSTART;TZID=Europe/Paris:20261113T180000
-DTEND;TZID=Europe/Paris:20261113T200000
-UID:5315846d69f8@marseille-agenda
+SUMMARY:RADICAL KITTEN (live) + GAOUTA (live) + CHEIKHA + ADARAB
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+UID:d42c0839ab30@marseille-agenda
 CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/DfiAkUBOno3/
-LOCATION:La Colorada - La Colorada Marsella
-URL:https://www.instagram.com/p/DfiAkUBOno3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA GRADIVA de Marine Atlan
-DTSTART;TZID=Europe/Paris:20261113T182000
-DTEND;TZID=Europe/Paris:20261113T202000
-UID:746e0e631289@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film primé 'La Gradiva' de Marine Atlan\, suivi
-  de discussions sur les émotions exacerbées des adolescents.\nhttps://ww
- w.instagram.com/p/DfXhKKRjjwF/
-LOCATION:La Baleine
-URL:https://www.instagram.com/p/DfXhKKRjjwF/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les Films de Barbarie
-DTSTART;TZID=Europe/Paris:20261113T190000
-DTEND;TZID=Europe/Paris:20261113T210000
-UID:267f2516cbd9@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Festival des films d’atelier par Cinema Siba \, collectif de
-  réalisatrices et réalisateurs. Suivie d’une discussion avec les équi
- pes et réalisateurices des films. Soupe offerte à la fin de la séance.
- \nhttps://cinemalegyptis.org/films/les-films-de-barbarie-cinema-siba/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/les-films-de-barbarie-cinema-siba/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les Films de Barbarie – Cinema Siba
-DTSTART;TZID=Europe/Paris:20261113T190000
-DTEND;TZID=Europe/Paris:20261113T210000
-UID:e106c47930cb@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Festival des films d’atelier par Cinema Siba \, collectif de
-  réalisatrices et réalisateurs. Suivie d’une discussion avec les équi
- pes et réalisateurices des films. Soupe offerte à la fin de la séance.
- \nhttps://cinemalegyptis.org/films/les-films-de-barbarie-cinema-siba/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/les-films-de-barbarie-cinema-siba/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ASHEN + Ascend + Fleur.
-DTSTART;TZID=Europe/Paris:20261113T190000
-DTEND;TZID=Europe/Paris:20261113T210000
-UID:86aece2c1944@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/ashen-guest/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/ashen-guest/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La Mutante | Electronic Body Movie de Pietro Anton
-DTSTART;TZID=Europe/Paris:20261113T193000
-DTEND;TZID=Europe/Paris:20261113T213000
-UID:8f05d25e93c7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/la-mutante-electronic-body-movie-de
- -pietro-anton/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/la-mutante-electronic-body-movie-de-pietro-
- anton/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:soirée TRAD+ ELECTRO
-DTSTART;TZID=Europe/Paris:20261113T200000
-DTEND;TZID=Europe/Paris:20261113T220000
-UID:d98f226622fe@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:NKA et Levantiko pour une soirée pop-trad et électro balkano
- -gréco-anatolienne.\nhttps://www.instagram.com/p/DfZcILmu5Yz/
-LOCATION:L'Intermédiaire - L'Intermédiaire
-URL:https://www.instagram.com/p/DfZcILmu5Yz/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:RDV LE 13.11 À LA CAMARADERIE ⚡
-DTSTART;TZID=Europe/Paris:20261113T200000
-DTEND;TZID=Europe/Paris:20261113T000000
-UID:7bc0815409ad@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : prix libre / 8€ prix conscient\nhttps://www.instagram
- .com/p/DfUS1aiIuFx/
+DESCRIPTION:Concert de Radical Kitten\, Gaouta\, Cheikha et Adarab.\nPrix 
+ : prix libre (conscient)\nhttps://www.instagram.com/p/DeuJyHRCMvT/
 LOCATION:La Camaraderie - La Camaraderie
-URL:https://www.instagram.com/p/DfUS1aiIuFx/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rencontre-Projection Les Âmes Bossales
-DTSTART;TZID=Europe/Paris:20261113T203000
-DTEND;TZID=Europe/Paris:20261113T223000
-UID:70539f8a1016@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:Projection-rencontre autour d'Haïti avec le film Les Âmes Bo
- ssales Venez découvrir sur grand écran un film rare et puissant qui subl
- ime la combativité\, la créativité et la dignité d’haïtiennes et d
- ’ha\nhttps://www.facebook.com/events/1657650919055617/
-LOCATION:Transit librairie - Cinéma Le Chambord Officiel
-URL:https://www.facebook.com/events/1657650919055617/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La fête est politique Si jamais vous en doutiez.
-DTSTART;TZID=Europe/Paris:20261113T210000
-DTEND;TZID=Europe/Paris:20261113T230000
-UID:65a1fafc0ea5@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/13/mehdi-black-win
- d-blaze-5th-amaru-arthur-mgz
-LOCATION:L'Embobineuse
-URL:https://www.lembobineuse.biz/events/2026/11/13/mehdi-black-wind-blaze-
- 5th-amaru-arthur-mgz
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MEHDI BLACK WIND on tour
-DTSTART;TZID=Europe/Paris:20261113T210000
-DTEND;TZID=Europe/Paris:20261113T230000
-UID:2ed524c6d199@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Concert de rap live avec Mehdi Black Wind\, Blaze 5th\, Ruama
- \, et Arthur Mgz\, avec une prise de parole du Comité de soutien de Zaid.
- \nPrix : 9 € + 2 € adh\nhttps://www.instagram.com/p/DfHU2qXqGoe/
-LOCATION:L'Embobineuse - L’Embobineuse
-URL:https://www.instagram.com/p/DfHU2qXqGoe/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[séance spéciale] LES RECOMMENCEMENTS d'I. Ingold & V. Perelmute
- r | en sa présence
-DTSTART;TZID=Europe/Paris:20261113T210000
-DTEND;TZID=Europe/Paris:20261113T230000
-UID:0817de526e18@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ en présence de la réalisatrice Vivianne Perelmuter et d'
- Alexis Nuselovici\, Professeur émérite de littérature comparée à l'Un
- iversité d'Aix-Marseille. Vendredi 13 novembre | 21h 𝗟𝗘𝗦 𝗥
- 𝗘𝗖𝗢𝗠𝗠𝗘𝗡𝗖𝗘𝗠𝗘𝗡𝗧𝗦 d\nhttps://marsei
- llecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA FIÈVRE – MENTION TRÈS FIÈR·ES
-DTSTART;TZID=Europe/Paris:20261113T210000
-DTEND;TZID=Europe/Paris:20261113T230000
-UID:a610c2cdd801@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 12€\nhttps://lemolotov.com/events/la-fievre-mention-t
- res-fier%c2%b7es/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/la-fievre-mention-tres-fier%c2%b7es/
+URL:https://www.instagram.com/p/DeuJyHRCMvT/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FamilyTech
@@ -2522,6 +2310,18 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boum avec DJ Bubulle
+DTSTART;TZID=Europe/Paris:20261128T170000
+DTEND;TZID=Europe/Paris:20261128T190000
+UID:108770dc9b38@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/30125856_boum-avec-dj-bubulle
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/30125856
+ _boum-avec-dj-bubulle
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cercle Catalan de Marseille x Festival Òmnium de Cinéma | Carto
  graphier le désir
 DTSTART;TZID=Europe/Paris:20261128T170000
@@ -3082,6 +2882,16 @@ SUMMARY:SETH GUEKO
 DTSTART;TZID=Europe/Paris:20261205T200000
 DTEND;TZID=Europe/Paris:20261205T220000
 UID:dd6123043bf9@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 28€\nhttps://lemolotov.com/events/seth-gueko/
+LOCATION:Le Molotov - @ Le Molotov
+URL:https://lemolotov.com/events/seth-gueko/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SETH GUEKO + Boucher + L’Amir’Al
+DTSTART;TZID=Europe/Paris:20261205T200000
+DTEND;TZID=Europe/Paris:20261205T220000
+UID:e3764755a142@marseille-agenda
 CATEGORIES:bars
 DESCRIPTION:Prix : 28€\nhttps://lemolotov.com/events/seth-gueko/
 LOCATION:Le Molotov - @ Le Molotov
@@ -5088,6 +4898,18 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Les temps incertains
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270221
+UID:07c152543c89@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/les-temps
+ -incertains
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/les-temps-incerta
+ ins
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lewis OfMan au Grand Cab
 DTSTART;TZID=Europe/Paris:20270218T193000
 DTEND;TZID=Europe/Paris:20270218T223000
@@ -6328,23 +6150,9 @@ URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
-DTSTART;TZID=Europe/Paris:20270818T153000
-DTEND;TZID=Europe/Paris:20270818T173000
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270821
 UID:74994058c556@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
-  propose de découvrir un ensemble d'activités créatives en lien avec la
-  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
- llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
- afriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;TZID=Europe/Paris:20270819T153000
-DTEND;TZID=Europe/Paris:20270819T173000
-UID:f32ce30b36a2@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
   propose de découvrir un ensemble d'activités créatives en lien avec la

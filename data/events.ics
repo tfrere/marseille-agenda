@@ -257,16 +257,6 @@ URL:https://theatre-lacriee.com/programmation/evenements/ces-nains-portent
  -quoi
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Morphé
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261115
-UID:b9ca604d3b61@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/morphe
-LOCATION:Théâtre La Criée
-URL:https://theatre-lacriee.com/programmation/evenements/morphe
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyle Dietrich / Sternberg
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261125
@@ -280,20 +270,6 @@ LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
 URL:https://www.facebook.com/events/1141383282150231/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261115
-UID:3ac55a1f2e8f@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
-  propose de découvrir un ensemble d'activités créatives en lien avec la
-  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
- llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
- afriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Exposition Sadek Lamri
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261126
@@ -302,333 +278,6 @@ CATEGORIES:bars
 DESCRIPTION:https://www.instagram.com/p/DfKhlybNILA/
 LOCATION:La Camaraderie - La Camaraderie
 URL:https://www.instagram.com/p/DfKhlybNILA/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CRÉATION ÉMERGENTE 🎙️
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261115
-UID:69139ba4ba96@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Entrée libre sur inscription à l'adresse billetterie@
- gmem.org\nhttps://www.facebook.com/friche.labelledemai/posts/pfbid0de1Jz9y
- ZZvEXBtvSUi4Sjw8xhLaYwjC8jj3fwRXJwDnSb8sZqN9DcPMZCziAKiKvl
-LOCATION:Friche la Belle de Mai - Module
-URL:https://www.facebook.com/friche.labelledemai/posts/pfbid0de1Jz9yZZvEXB
- tvSUi4Sjw8xhLaYwjC8jj3fwRXJwDnSb8sZqN9DcPMZCziAKiKvl
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Phonurgia Nova Awards
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261115
-UID:1a02ca3f6e76@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Un marathon d'écoute de 51 créations radiophoniques et sonor
- es venues de 30 pays.\nPrix : Entrée libre sur inscription à l'adresse b
- illetterie@gmem.org\nhttps://www.instagram.com/p/Dfl5RbKAZ95/
-LOCATION:Friche la Belle de Mai - Module
-URL:https://www.instagram.com/p/Dfl5RbKAZ95/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:RADICAL KITTEN (live) + GAOUTA (live) + CHEIKHA + ADARAB
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261115
-UID:d42c0839ab30@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Concert de Radical Kitten\, Gaouta\, Cheikha et Adarab.\nPrix 
- : prix libre (conscient)\nhttps://www.instagram.com/p/DeuJyHRCMvT/
-LOCATION:La Camaraderie - La Camaraderie
-URL:https://www.instagram.com/p/DeuJyHRCMvT/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FamilyTech
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-UID:67d0bd2e9f23@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Création d'hologrammes\, fabrication de vos propres fanzines
- \, mapping video et plein d'autres surprises vous attendent ! Une proposit
- ion de CHRONIQUES\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/f
- amilytech-10/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/familytech-10/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Morphé
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-UID:838f225037de@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Dans un pays en guerre\, un père raconte à sa fille un conte
-  sur la naissance du monde. Une proposition de La Criée\, Théâtre Natio
- nal à Marseille\nhttps://www.lafriche.org/evenements/morphe/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/morphe/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marché aux tissus et loisirs créatifs
-DTSTART;TZID=Europe/Paris:20261114T093000
-DTEND;TZID=Europe/Paris:20261114T170000
-UID:8e56914824c4@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pour les passionné·es de couture\, de création textile ou d
- es loisirs créatifs\, le marché aux tissus Tisséade est l’événement
-  du fait-main. Une proposition de Tisséade\nPrix : Entrée libre\nhttps:/
- /www.lafriche.org/evenements/marche-aux-tissus-et-loisirs-creatifs/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/marche-aux-tissus-et-loisirs-creat
- ifs/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Baby populaire
-DTSTART;TZID=Europe/Paris:20261114T103000
-DTEND;TZID=Europe/Paris:20261114T111500
-UID:1b09793e05f7@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/baby-populaire/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/baby-populaire/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LE CORSET de Louis Clichy
-DTSTART;TZID=Europe/Paris:20261114T110000
-DTEND;TZID=Europe/Paris:20261114T130000
-UID:d2a2d28263d7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film 'Le Corset' de Louis Clichy\, suivi d'une d
- iscussion dans le cadre de la Journée Vintage.\nhttps://fb.me/e/89oehwo1R
-LOCATION:La Baleine
-URL:https://fb.me/e/89oehwo1R
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visites guidées en LSF de «Mossi\, la mode aussi »
-DTSTART;TZID=Europe/Paris:20261114T110000
-DTEND;TZID=Europe/Paris:20261114T123000
-UID:3bcbb66c5153@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/visites-guidees-en-lsf-de-mossi-la
- -mode-aussi/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/visites-guidees-en-lsf-de-mossi-la-mode-au
- ssi/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rencontre littéraire avec Faiza Guène
-DTSTART;TZID=Europe/Paris:20261114T140000
-DTEND;TZID=Europe/Paris:20261114T170000
-UID:e16afb2513d5@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/33173195_rencontre-litteraire
- -avec-faiza-guene
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/33173195
- _rencontre-litteraire-avec-faiza-guene
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La Commission d’enquête
-DTSTART;TZID=Europe/Paris:20261114T140000
-DTEND;TZID=Europe/Paris:20261114T180000
-UID:2f77be3684fc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/la-commission-denq
- uete/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/la-commission-denquete/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
-  de la Martinerie
-DTSTART;TZID=Europe/Paris:20261114T143000
-DTEND;TZID=Europe/Paris:20261114T163000
-UID:4be5d01fcc7a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedi
- n-emma-pujar-les-residences-de-la-martinerie/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedin-emma-p
- ujar-les-residences-de-la-martinerie/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier gaga danse et chorégraphie (Pulsations #3)
-DTSTART;TZID=Europe/Paris:20261114T143000
-DTEND;TZID=Europe/Paris:20261114T170000
-UID:0803ebae2c0e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/atelier-gaga-danse-et-choregraphie
- -pulsations-3/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/atelier-gaga-danse-et-choregraphie-pulsati
- ons-3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Il est où le bonheur ?
-DTSTART;TZID=Europe/Paris:20261114T150000
-DTEND;TZID=Europe/Paris:20261114T180000
-UID:c7906e47b379@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une demi journée pour réfléchir ensemble. Une proposition d
- e Mad Mars et AFD\nhttps://www.lafriche.org/evenements/il-est-ou-le-bonheu
- r/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/il-est-ou-le-bonheur/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visite flash
-DTSTART;TZID=Europe/Paris:20261114T150000
-DTEND;TZID=Europe/Paris:20261114T160000
-UID:6b4f89f8ec66@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
-  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-flash-16/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le rouge-gorge de Cempuis
-DTSTART;TZID=Europe/Paris:20261114T170000
-DTEND;TZID=Europe/Paris:20261114T190000
-UID:26c010995e1e@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.cira-marseille.info/wp-content/uploads/2026/08/7-C
- auserie-novembre-2026-M-Agostini-Cempuis.pdf
-LOCATION:CIRA Marseille
-URL:https://www.cira-marseille.info/wp-content/uploads/2026/08/7-Causerie-
- novembre-2026-M-Agostini-Cempuis.pdf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Presentation le 14 novembre à 17h30 avec Thibault Prévost et Sam
- y Johsua
-DTSTART;TZID=Europe/Paris:20261114T173000
-DTEND;TZID=Europe/Paris:20261114T193000
-UID:353a0a271954@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://www.facebook.com/transit.librairie/posts/pfbid0FfdeAkh
- Ek1XSiWUDoaKsb9EoezeQZpbJjmAKY2XxKWCBkCJ42bNk9yz6DFCBjGzbl
-LOCATION:Transit librairie
-URL:https://www.facebook.com/transit.librairie/posts/pfbid0FfdeAkhEk1XSiWU
- DoaKsb9EoezeQZpbJjmAKY2XxKWCBkCJ42bNk9yz6DFCBjGzbl
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Technologie du coup d’État" Les programmeurs 
- de l’autoritarisme
-DTSTART;TZID=Europe/Paris:20261114T173000
-DTEND;TZID=Europe/Paris:20261114T193000
-UID:46c83c4f01a7@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Technologie-du-c
- oup-d-Etat-Les-programmeurs-de-l-autoritaris
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Technologie-du-coup-d-Et
- at-Les-programmeurs-de-l-autoritaris
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les Films de barbarie | Bismillah c les ténèbres
-DTSTART;TZID=Europe/Paris:20261114T180000
-DTEND;TZID=Europe/Paris:20261114T200000
-UID:f115538f6ead@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/les-films-de-barbarie-bismillah-c-l
- es-tenebres/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/les-films-de-barbarie-bismillah-c-les-teneb
- res/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un pays qui se tient sage
-DTSTART;TZID=Europe/Paris:20261114T200000
-DTEND;TZID=Europe/Paris:20261114T220000
-UID:33894b0fcebb@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection suivie d’un débat en partenariat avec le festiva
- l du Printemps du Film Engagé · La projection sera suivie d’un débat 
- en présence de Laurence Blisson du Syndicat de la Magistrature et Frédé
- rique Chartier du Syndicat des Avocats...\nhttps://cinemalegyptis.org/film
- s/un-pays-qui-se-tient-sage/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/un-pays-qui-se-tient-sage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DREAMACHINE FESTIVAL: KEIYAA + Broodoo Ramses
-DTSTART;TZID=Europe/Paris:20261114T200000
-DTEND;TZID=Europe/Paris:20261114T220000
-UID:be10f8f0fc13@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 22€\nhttps://lemolotov.com/events/dreamachine-festiva
- l-keiyaa-broodoo-ramses/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/dreamachine-festival-keiyaa-broodoo-ramse
- s/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:RAVE FREQUENCY #3
-DTSTART;TZID=Europe/Paris:20261114T200000
-DTEND;TZID=Europe/Paris:20261114T220000
-UID:6921727b7cf0@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 5€\nhttps://lemolotov.com/events/rave-frequency-3/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/rave-frequency-3/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les Films de barbarie | Itinéraire Bis
-DTSTART;TZID=Europe/Paris:20261114T200000
-DTEND;TZID=Europe/Paris:20261114T220000
-UID:397f9360fcc0@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/les-films-de-barbarie-itineraire-bi
- s/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/les-films-de-barbarie-itineraire-bis/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA GRADIVA de Marine Atlan
-DTSTART;TZID=Europe/Paris:20261114T204000
-DTEND;TZID=Europe/Paris:20261114T224000
-UID:af612a2088e1@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film primé 'La Gradiva' de Marine Atlan\, suivi
-  de discussions sur les émotions exacerbées des adolescents.\nhttps://ww
- w.instagram.com/p/DfXhKKRjjwF/
-LOCATION:La Baleine
-URL:https://www.instagram.com/p/DfXhKKRjjwF/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Soin énergisant en cours
-DTSTART;TZID=Europe/Paris:20261114T210000
-DTEND;TZID=Europe/Paris:20261114T230000
-UID:df13300acd27@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/14/ule-et-autres
-LOCATION:L'Embobineuse
-URL:https://www.lembobineuse.biz/events/2026/11/14/ule-et-autres
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vitess to Grand V – All Live Long
-DTSTART;TZID=Europe/Paris:20261114T230000
-DTEND;TZID=Europe/Paris:20261114T050000
-UID:76a6561ff453@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Le producteur parisien revient au Cabaret Aléatoire pour un s
- et entièrement joué en live du début à la fin de la soirée ! Une prop
- osition de Cabaret Aléatoire\nhttps://www.lafriche.org/evenements/vitess-
- to-grand-v-%f0%9d%98%88%f0%9d%98%ad%f0%9d%98%ad-%f0%9d%98%93%f0%9d%98%aa%f
- 0%9d%98%b7%f0%9d%98%a6-%f0%9d%98%93%f0%9d%98%b0%f0%9d%98%af%f0%9d%98%a8/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/vitess-to-grand-v-%f0%9d%98%88%f0%
- 9d%98%ad%f0%9d%98%ad-%f0%9d%98%93%f0%9d%98%aa%f0%9d%98%b7%f0%9d%98%a6-%f0%
- 9d%98%93%f0%9d%98%b0%f0%9d%98%af%f0%9d%98%a8/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kendal All Night Long
-DTSTART;TZID=Europe/Paris:20261114T233000
-DTEND;TZID=Europe/Paris:20261114T043000
-UID:59d35eb6ff26@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:EXTRA invite Kendal pour un all night long au Petit Cab\, entr
- e trance\, italo\, progressive et nostalgie 80s/90s. Une proposition de EX
- TRA\nhttps://www.lafriche.org/evenements/kendal-all-night-long-petit-cab/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/kendal-all-night-long-petit-cab/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Terre ludique
@@ -1093,6 +742,17 @@ URL:https://www.videodrome2.fr/cine-club-mal-vu-mal-dit-21-les-mendiants-d
  e-la-vie-de-william-wellman/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:28e Rencontres du cinéma Sud-Américain
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+UID:4096fdc9596b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://drive.google.com/file/d/17RnusSeB0YFy93rk9CTFVFgVsSk3G
+ kww/view
+LOCATION:Les Variétés
+URL:https://drive.google.com/file/d/17RnusSeB0YFy93rk9CTFVFgVsSk3Gkww/view
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Boat People
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
@@ -1246,17 +906,6 @@ DESCRIPTION:Une soirée poétique antipoétique pour détoxifier sa toxici
  t\nhttps://www.instagram.com/p/Dfl5we5uunM/
 LOCATION:La Colorada - La Colorada
 URL:https://www.instagram.com/p/Dfl5we5uunM/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Des films en commun #34 | Possible + La Genèse
-DTSTART;TZID=Europe/Paris:20261120T183000
-DTEND;TZID=Europe/Paris:20261120T203000
-UID:6ac3b1db2c69@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/des-films-en-commun-34-possible-la-
- genese/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/des-films-en-commun-34-possible-la-genese/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Des films en commun #34 | Possible + La Genèse + Les Goudes
@@ -2265,6 +1914,18 @@ LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
  e
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Un lugar más grande
+DTSTART;TZID=Europe/Paris:20261128T140000
+DTEND;TZID=Europe/Paris:20261128T160000
+UID:47cf5b499df8@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Dans le cadre des Rencontres solidaires organisées par l’AS
+ PAS · Précédée d’une conférence à 13h\nhttps://cinemalegyptis.org/
+ films/un-lugar-mas-grande/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/un-lugar-mas-grande/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Atelier danses traditionnelles tunisiennes
 DTSTART;TZID=Europe/Paris:20261128T143000
 DTEND;TZID=Europe/Paris:20261128T170000
@@ -3139,6 +2800,19 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/81390229
  _memoires-minoritaires-en-mediterranee-traces-silences-representations
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CINE PHILO - Blade Runner
+DTSTART;TZID=Europe/Paris:20261210T180000
+DTEND;TZID=Europe/Paris:20261210T210000
+UID:05ddc6763574@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/57713605_cine-philo-blade-run
+ ner
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/57713605
+ _cine-philo-blade-runner
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:METAL NIGHT: BREEDING CHAOS + KVÅRK + Clone Shop + Angel Guts
@@ -4910,6 +4584,17 @@ URL:https://theatre-lacriee.com/programmation/evenements/les-temps-incerta
  ins
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Marie Stuart
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270221
+UID:5d2becbb254a@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/marie-stu
+ art
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/marie-stuart
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lewis OfMan au Grand Cab
 DTSTART;TZID=Europe/Paris:20270218T193000
 DTEND;TZID=Europe/Paris:20270218T223000
@@ -6151,7 +5836,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
 DTSTART;VALUE=DATE:20270818
-DTEND;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
 UID:74994058c556@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab

@@ -106,18 +106,16 @@ LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/souffles-terrestres
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Unworlding
+SUMMARY:Le mauvais œil 88 : Kikifruit
 DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261116
-UID:7c47596f93c2@marseille-agenda
+DTEND;VALUE=DATE:20261126
+UID:47435b944c38@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:Une exposition et une série de dialogues publics réunissant 
- artistes et écrivain·es afin de repenser les structures et les relations
-  dans un contexte d’effondrement social et institutionnel. Une propositi
- on de The Racial Imaginary Institute\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/unworlding/
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
 LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/unworlding/
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
@@ -176,18 +174,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/la-vie-farpaite/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261126
-UID:47435b944c38@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Visites Flash
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20270101
@@ -211,52 +197,6 @@ LOCATION:Friche la Belle de Mai - Studio Accrorap\, 2ᵉ étage de la Manu
 URL:https://www.instagram.com/p/DfZ2VvPCJDd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Festival Souvenirs d'enfance
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261116
-UID:6f9a614a5f54@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.instagram.com/p/DfNT_hfjSZ9/
-LOCATION:La Baleine - La Baleine
-URL:https://www.instagram.com/p/DfNT_hfjSZ9/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ces nains portent quoi ?
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261116
-UID:8bac291e3733@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Un théâtre d'objets au milieu de cartons transformés en arc
- hitectures de papier : ce spectacle visuel révèle mille secrets cachés 
- pour émerveiller les jeunes spectateur·ices. Une proposition de La Crié
- e - Théâtre national de Marseille\nhttps://www.lafriche.org/evenements/c
- es-nains-portent-quoi/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/ces-nains-portent-quoi/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:En Ribambelle !
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261116
-UID:8b4c7499e9eb@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.instagram.com/p/Dfh0VlNj-Yp/
-LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/Dfh0VlNj-Yp/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ces nains portent quoi ?
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261116
-UID:bef6cfeb89ea@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/ces-nains
- -portent-quoi
-LOCATION:Théâtre La Criée
-URL:https://theatre-lacriee.com/programmation/evenements/ces-nains-portent
- -quoi
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyle Dietrich / Sternberg
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261125
@@ -278,101 +218,6 @@ CATEGORIES:bars
 DESCRIPTION:https://www.instagram.com/p/DfKhlybNILA/
 LOCATION:La Camaraderie - La Camaraderie
 URL:https://www.instagram.com/p/DfKhlybNILA/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Terre ludique
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-UID:8892197ea8ba@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\, 
- jouets et jeux traditionnels d’ici et d’ailleurs... Une proposition de
-  l'association Terre Ludique\nPrix : Gratuit !\nhttps://www.lafriche.org/e
- venements/terre-ludique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/terre-ludique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un dimanche à Rome : Vers un avenir radieux
-DTSTART;TZID=Europe/Paris:20261115T150000
-DTEND;TZID=Europe/Paris:20261115T170000
-UID:83b4ba05d2e1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/un-dimanche-a-rome-vers-un-avenir-
- radieux/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/un-dimanche-a-rome-vers-un-avenir-radieux/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA GRADIVA de Marine Atlan
-DTSTART;TZID=Europe/Paris:20261115T173000
-DTEND;TZID=Europe/Paris:20261115T193000
-UID:fcdf4c0944da@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film primé 'La Gradiva' de Marine Atlan\, suivi
-  de discussions sur les émotions exacerbées des adolescents.\nhttps://ww
- w.instagram.com/p/DfXhKKRjjwF/
-LOCATION:La Baleine
-URL:https://www.instagram.com/p/DfXhKKRjjwF/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rendez-vous avec l'association Ahdarija | Des moutons et des homm
- es de Karim Sayad
-DTSTART;TZID=Europe/Paris:20261115T183000
-DTEND;TZID=Europe/Paris:20261115T203000
-UID:c7a615c79953@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/rendez-vous-avec-lassociation-ahdar
- ija-des-moutons-et-des-hommes-de-karim-sayad/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/rendez-vous-avec-lassociation-ahdarija-des-
- moutons-et-des-hommes-de-karim-sayad/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIM 15 NOV - 20H
-DTSTART;TZID=Europe/Paris:20261115T200000
-DTEND;TZID=Europe/Paris:20261115T010000
-UID:4a2da7580bbc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Soirée musicale avec TIQ\, STEREOVOID et FRANCKY LA NIGHT dan
- s le cadre d'un événement à L'Embobineuse.\nPrix : prix libre€ + 2€
-  adh.\nhttps://www.instagram.com/p/DfRj5K9RmWh/
-LOCATION:L'Embobineuse
-URL:https://www.instagram.com/p/DfRj5K9RmWh/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tiq & Sterevoid & friends
-DTSTART;TZID=Europe/Paris:20261115T200000
-DTEND;TZID=Europe/Paris:20261115T010000
-UID:9d6b84693531@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Tiq (dj Neue K + dj Lichene) and Stereovoid will perform minim
- al synth\, dark wave\, and post punk music.\nPrix : prix libre€ + 2€ a
- dh.\nhttps://www.instagram.com/p/DfPrTmftFKE/
-LOCATION:L'Embobineuse - L'EMBOBINEUSE
-URL:https://www.instagram.com/p/DfPrTmftFKE/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:THE UPSESSIONS
-DTSTART;TZID=Europe/Paris:20261115T200000
-DTEND;TZID=Europe/Paris:20261115T220000
-UID:8902f9038c50@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 12€\nhttps://lemolotov.com/events/the-upsessions/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/the-upsessions/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Toi toi mon toit A bas les fuites
-DTSTART;TZID=Europe/Paris:20261115T200100
-DTEND;TZID=Europe/Paris:20261115T220100
-UID:b9d800eeeb66@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/15/prolongation-du
- n-long-week-end
-LOCATION:L'Embobineuse
-URL:https://www.lembobineuse.biz/events/2026/11/15/prolongation-dun-long-w
- eek-end
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lancement de la Pépinière Culture
@@ -2315,6 +2160,18 @@ URL:https://www.lafriche.org/evenements/au-dela-du-virus-comprendre-et-fai
  re-face-aux-epidemies-mondiales/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kwibuka\, se souvenir
+DTSTART;TZID=Europe/Paris:20261202T190000
+DTEND;TZID=Europe/Paris:20261202T210000
+UID:abe7eb05274b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:En présence de la comédienne Sonia Rolland et de la co-produ
+ ctrice Amanda Herzberg\nhttps://cinemalegyptis.org/films/kwibuka-se-souven
+ ir/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/kwibuka-se-souvenir/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
 DTSTART;TZID=Europe/Paris:20261203T100000
 DTEND;TZID=Europe/Paris:20261203T120000
@@ -2371,6 +2228,19 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/71916418
  _club-de-lecture-ado-4484519
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trop chaud ! Le combat des Aînées pour le climat
+DTSTART;TZID=Europe/Paris:20261204T190000
+DTEND;TZID=Europe/Paris:20261204T210000
+UID:1e0b128dcdc2@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:En présence d’Anne Mahrer intervenante dans le film. En par
+ tenariat avec ATTAC\, la LDH\, Alternatiba\nhttps://cinemalegyptis.org/fil
+ ms/trop-chaud-le-combat-des-ainees-pour-le-climat/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/trop-chaud-le-combat-des-ainees-pour-
+ le-climat/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KRAV BOCA + Wake the Dead
@@ -2539,14 +2409,15 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SETH GUEKO
-DTSTART;TZID=Europe/Paris:20261205T200000
-DTEND;TZID=Europe/Paris:20261205T220000
-UID:dd6123043bf9@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 28€\nhttps://lemolotov.com/events/seth-gueko/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/seth-gueko/
+SUMMARY:Naissance des pieuvres
+DTSTART;TZID=Europe/Paris:20261205T180000
+DTEND;TZID=Europe/Paris:20261205T200000
+UID:3ced4afbe64a@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:Ciné-debat organisé par le ciné-club du Planning Familiale 
+ 13\nhttps://cinemalegyptis.org/films/naissance-des-pieuvres/
+LOCATION:Le Gyptis
+URL:https://cinemalegyptis.org/films/naissance-des-pieuvres/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SETH GUEKO + Boucher + L’Amir’Al
@@ -4842,6 +4713,16 @@ CATEGORIES:bars
 DESCRIPTION:https://lemolotov.com/events/mol-warm-up-headbang-festival/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/mol-warm-up-headbang-festival/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Rive
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270320
+UID:c5b0f4bc516f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/la-rive
+LOCATION:Théâtre La Criée
+URL:https://theatre-lacriee.com/programmation/evenements/la-rive
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres

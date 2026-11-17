@@ -33,9 +33,11 @@ DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20270111
 UID:e0d08c10845b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/adrien-vescovi
+DESCRIPTION:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la
+ -vieille-charite
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/adrien-vescovi
+URL:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille
+ -charite
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -101,9 +103,11 @@ DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261214
 UID:aa4d4ed7bbb1@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/souffles-terrestres
+DESCRIPTION:https://musees.marseille.fr/souffles-terrestres?museum=centre-
+ de-la-vieille-charite
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/souffles-terrestres
+URL:https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vi
+ eille-charite
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
@@ -218,85 +222,6 @@ CATEGORIES:bars
 DESCRIPTION:https://www.instagram.com/p/DfKhlybNILA/
 LOCATION:La Camaraderie - La Camaraderie
 URL:https://www.instagram.com/p/DfKhlybNILA/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lancement de la Pépinière Culture
-DTSTART;TZID=Europe/Paris:20261116T140000
-DTEND;TZID=Europe/Paris:20261116T160000
-UID:1a5e7db3e969@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Réunion d'informations autour du lancement de la pépinière 
- culturelle Une proposition de AMI\nPrix : Gratuit !\nhttps://www.lafriche.
- org/evenements/lancement-de-la-pepiniere-culture/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/lancement-de-la-pepiniere-culture/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
- Âge européen et byzantin\, du Ve au XVe siècle.
-DTSTART;TZID=Europe/Paris:20261116T140000
-DTEND;TZID=Europe/Paris:20261116T153000
-UID:715b437aa5bf@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-gen
- erale-de-lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/cycle-2-initiation-a-lhistoire-generale-de
- -lart-le-moyen-age-europeen-et-byzantin-du-ve-au-xve-siecle/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marché paysan
-DTSTART;TZID=Europe/Paris:20261116T160000
-DTEND;TZID=Europe/Paris:20261116T200000
-UID:83bc2762ddf5@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
- ur faire ses courses Une proposition de Les Grandes Tables\nPrix : Entrée
-  libre\nhttps://www.lafriche.org/evenements/marche-paysan/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/marche-paysan/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Comment réussir à se parler ?
-DTSTART;TZID=Europe/Paris:20261116T190000
-DTEND;TZID=Europe/Paris:20261116T203000
-UID:69d7d3d9abea@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/comment-reussir-a-
- se-parler/
-LOCATION:Mucem - J4 / Auditorium
-URL:https://mucem.org/evenement/comment-reussir-a-se-parler/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-débat : Je veux bien
-DTSTART;TZID=Europe/Paris:20261116T194500
-DTEND;TZID=Europe/Paris:20261116T214500
-UID:853ef4de9512@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Séance suivie d'un échange avec Les cinéastes Boris Claret
- \, Isabelle Dario et Vincent Glenn La magistrate Prune Helter-Noah La psyc
- hologue du travail\, membre de Solidaire Emploi\, Nabila Oumakhlouf Le \nh
- ttps://lesvarietes-marseille.com/FR/fiche-film-cinema/MW92IK/je-veux-bien.
- html
-LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
-URL:https://lesvarietes-marseille.com/FR/fiche-film-cinema/MW92IK/je-veux-
- bien.html
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Nuits Noires] MYSTERIOUS SKIN de Gregg Araki (2005) | En présenc
- e d'Emmanuel Burdeau
-DTSTART;TZID=Europe/Paris:20261116T200000
-DTEND;TZID=Europe/Paris:20261116T220000
-UID:34cef65f82ec@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ Séance spéciale en présence d'Emmanuel Burdeau\, critiq
- ue de cinéma. Avec le soutien des Ecrans du Sud. ▉ Dans le cadre du nou
- veau rendez-vous 𝗡𝘂𝗶𝘁𝘀 𝗻𝗼𝗶𝗿𝗲𝘀 𝗮̀ 𝗟
- 𝗮 𝗕𝗮𝗹𝗲𝗶𝗻𝗲. 𝘌𝘹𝘱𝘭𝘰𝘳𝘦𝘻 𝘭
- 𝘦𝘴 𝘵𝘦𝘳𝘳𝘪𝘵𝘰𝘪𝘳𝘦𝘴 𝘴𝘰𝘮\nhttps:
- //marseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
@@ -914,17 +839,6 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/atelier-coupe-decale/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:La Commission d’enquête avec J'crains dégun
-DTSTART;TZID=Europe/Paris:20261121T143000
-DTEND;TZID=Europe/Paris:20261121T180000
-UID:9decdf13ebae@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/la-commission-denq
- uete-avec-jcrains-degun/
-LOCATION:Mucem - Hors les murs
-URL:https://mucem.org/evenement/la-commission-denquete-avec-jcrains-degun/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Visite flash
 DTSTART;TZID=Europe/Paris:20261121T150000
 DTEND;TZID=Europe/Paris:20261121T160000
@@ -1453,6 +1367,19 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/89766287
  _lheritage-de-castel-le-nouvel-opera-municipal-1919-1924
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:On sleep or the Fear of It
+DTSTART;TZID=Europe/Paris:20261125T183000
+DTEND;TZID=Europe/Paris:20261125T203000
+UID:3c7bf01cd27d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:À propos de sommeil\, de repos\, de rêves\, mais aussi de co
+ rps\, de traumatisme et de crise politique... Une proposition de Les Renco
+ ntres à l'échelle - B/P et Librairie de la Friche\nPrix : Gratuit !\nhtt
+ ps://www.lafriche.org/evenements/on-sleep-or-the-fear-of-it/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/on-sleep-or-the-fear-of-it/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Présentation de "Odes Zaux Zoizeaux" suivi de "Climats"\, épopé
  e de Laurent Grisel
 DTSTART;TZID=Europe/Paris:20261125T190000
@@ -1610,19 +1537,6 @@ URL:https://www.lafriche.org/evenements/plus20-marseille-ville-cooperative
  /
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CINE PHILO - Blade Runner
-DTSTART;TZID=Europe/Paris:20261127T180000
-DTEND;TZID=Europe/Paris:20261127T210000
-UID:0f9e913b332a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/57713605_cine-philo-blade-run
- ner
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/57713605
- _cine-philo-blade-runner
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Présentation musicale brésilienne
 DTSTART;TZID=Europe/Paris:20261127T180000
 DTEND;TZID=Europe/Paris:20261127T200000
@@ -1751,12 +1665,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AMOUR ET BARRICADES\, la Grande Crémaillère
 DTSTART;TZID=Europe/Paris:20261128T140000
-DTEND;TZID=Europe/Paris:20261128T160000
+DTEND;TZID=Europe/Paris:20261128T020000
 UID:3867334fc87f@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:
-LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
- e
+LOCATION:La Cité des arts de la rue
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Un lugar más grande
@@ -1988,6 +1901,17 @@ URL:https://theatre-lacriee.com/programmation/evenements/le-carnaval-des-a
  nimaux
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le Miracle Kirghiz – 1964-1975 | cycle cinéma
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+UID:64fc272b7a46@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-cycle-
+ cinema/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-cycle-cinema/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visite de l'appartement témoin
 DTSTART;TZID=Europe/Paris:20261201T140000
 DTEND;TZID=Europe/Paris:20261201T153000
@@ -1997,6 +1921,21 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visite-des-reserve
  s-du-mucem/
 LOCATION:Mucem - Le Centre de Conservation et de Ressources
 URL:https://mucem.org/evenement/visite-des-reserves-du-mucem/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Miracle Kirghiz – 1964-1975  | Les Montagnes blanches (Бе
+ лые горы - Belyie gory)
+DTSTART;TZID=Europe/Paris:20261201T193000
+DTEND;TZID=Europe/Paris:20261201T213000
+UID:fd2e7110ed5e@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-les-mo
+ ntagnes-blanches-%d0%b1%d0%b5%d0%bb%d1%8b%d0%b5-%d0%b3%d0%be%d1%80%d1%8b-b
+ elyie-gory/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-les-montagnes-
+ blanches-%d0%b1%d0%b5%d0%bb%d1%8b%d0%b5-%d0%b3%d0%be%d1%80%d1%8b-belyie-go
+ ry/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[migrant'scène] PROMIS LE CIEL d'Erige Sehiri
@@ -2172,6 +2111,21 @@ LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/kwibuka-se-souvenir/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Le Miracle Kirghiz – 1964-1975  | Le Premier Maître (Перв
+ ый учитель - Pervyj Ucitel)
+DTSTART;TZID=Europe/Paris:20261202T193000
+DTEND;TZID=Europe/Paris:20261202T213000
+UID:27039f366355@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-le-pre
+ mier-maitre-%d0%bf%d0%b5%d1%80%d0%b2%d1%8b%d0%b9-%d1%83%d1%87%d0%b8%d1%82%
+ d0%b5%d0%bb%d1%8c-pervyj-ucitel/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-le-premier-mai
+ tre-%d0%bf%d0%b5%d1%80%d0%b2%d1%8b%d0%b9-%d1%83%d1%87%d0%b8%d1%82%d0%b5%d0
+ %bb%d1%8c-pervyj-ucitel/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Atelier d'écriture
 DTSTART;TZID=Europe/Paris:20261203T100000
 DTEND;TZID=Europe/Paris:20261203T120000
@@ -2193,6 +2147,32 @@ DESCRIPTION:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visit
 LOCATION:La Fabulerie
 URL:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visites-appre
  nantes-pour-les-professionnel%c2%b7les/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:De la banalité du bien
+DTSTART;TZID=Europe/Paris:20261203T180000
+DTEND;TZID=Europe/Paris:20261203T200000
+UID:c612d3d3f996@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:L’histoire de la MJC du Briançonnais raconte à elle seule 
+ la puissance de l’éducation populaire pour agir sur nos sociétés mais
+  aussi la fragilité des mondes associatifs aujourd’hui.\nPrix : Gratuit
+  !\nhttps://www.lafriche.org/evenements/de-la-banalite-du-bien/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/de-la-banalite-du-bien/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Miracle Kirghiz – 1964-1975  | Djamilia (Джамиля - Dz
+ amilja)
+DTSTART;TZID=Europe/Paris:20261203T193000
+DTEND;TZID=Europe/Paris:20261203T213000
+UID:40de6b6ff4a9@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-djamil
+ ia-%d0%b4%d0%b6%d0%b0%d0%bc%d0%b8%d0%bb%d1%8f/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-djamilia-%d0%b
+ 4%d0%b6%d0%b0%d0%bc%d0%b8%d0%bb%d1%8f/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Iran\, Israël et la bombe
@@ -2252,6 +2232,19 @@ DESCRIPTION:Prix : 23€\nhttps://lemolotov.com/events/krav-boca-wake-the-
  dead/
 LOCATION:Le Molotov - @ Le Dodu
 URL:https://lemolotov.com/events/krav-boca-wake-the-dead/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Miracle Kirghiz – 1964-1975  | Le Navire blanc (Ак кем
+ е - Belyy parokhod)
+DTSTART;TZID=Europe/Paris:20261204T193000
+DTEND;TZID=Europe/Paris:20261204T213000
+UID:03a38d3c2c61@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-le-nav
+ ire-blanc-%d0%b0%d0%ba-%d0%ba%d0%b5%d0%bc%d0%b5-belyy-parokhod/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/le-miracle-kirghiz-1964-1975-le-navire-blan
+ c-%d0%b0%d0%ba-%d0%ba%d0%b5%d0%bc%d0%b5-belyy-parokhod/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dakeez à Marseille
@@ -2582,6 +2575,18 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/rhapsody-in-blue
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze : regards et perspectives trans | 3e édition
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+UID:17b0f03c247c@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-regards-et-pers
+ pectives-trans-3e-edition/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-regards-et-perspectives
+ -trans-3e-edition/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Aide aux devoirs
 DTSTART;TZID=Europe/Paris:20261209T143000
 DTEND;TZID=Europe/Paris:20261209T173000
@@ -2657,6 +2662,19 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/2212213_
  projection-escales-ina-kamal-jumblatt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Soirée d’ouverture : L’EJ c’est le S
+  x Trans Gaze au Café Julien
+DTSTART;TZID=Europe/Paris:20261209T200000
+DTEND;TZID=Europe/Paris:20261209T220000
+UID:bb73adf00305@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-soiree-douvertu
+ re-lej-cest-le-s-x-trans-gaze-au-cafe-julien/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-soiree-douverture-lej-c
+ est-le-s-x-trans-gaze-au-cafe-julien/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mémoires minoritaires en Méditerranée : traces\, silences\, rep

@@ -33,11 +33,9 @@ DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20270111
 UID:e0d08c10845b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la
- -vieille-charite
+DESCRIPTION:https://musees.marseille.fr/adrien-vescovi
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille
- -charite
+URL:https://musees.marseille.fr/adrien-vescovi
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -103,11 +101,9 @@ DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261214
 UID:aa4d4ed7bbb1@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/souffles-terrestres?museum=centre-
- de-la-vieille-charite
+DESCRIPTION:https://musees.marseille.fr/souffles-terrestres
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vi
- eille-charite
+URL:https://musees.marseille.fr/souffles-terrestres
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le mauvais œil 88 : Kikifruit
@@ -222,100 +218,6 @@ CATEGORIES:bars
 DESCRIPTION:https://www.instagram.com/p/DfKhlybNILA/
 LOCATION:La Camaraderie - La Camaraderie
 URL:https://www.instagram.com/p/DfKhlybNILA/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier d'écriture
-DTSTART;TZID=Europe/Paris:20261117T100000
-DTEND;TZID=Europe/Paris:20261117T120000
-UID:28e3ef01cf3d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/atelier-decriture/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visites apprenantes pour les professionnel·les - Le Pop-up de La 
- Fabulerie
-DTSTART;TZID=Europe/Paris:20261117T133000
-DTEND;TZID=Europe/Paris:20261117T153000
-UID:44fad1dacb24@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visit
- es-apprenantes-pour-les-professionnel%c2%b7les/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visites-appre
- nantes-pour-les-professionnel%c2%b7les/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:RENCONTRE Raconter une vie engagée - Marc Bloch\, historien comba
- ttant
-DTSTART;TZID=Europe/Paris:20261117T140000
-DTEND;TZID=Europe/Paris:20261117T160000
-UID:883f133f56fd@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/84960348_lecture-dessinee-mar
- c-bloch-lhistorien-combattant
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/84960348
- _lecture-dessinee-marc-bloch-lhistorien-combattant
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA GRADIVA de Marine Atlan
-DTSTART;TZID=Europe/Paris:20261117T173000
-DTEND;TZID=Europe/Paris:20261117T193000
-UID:425d7f611b9b@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection du film primé 'La Gradiva' de Marine Atlan\, suivi
-  de discussions sur les émotions exacerbées des adolescents.\nhttps://ww
- w.instagram.com/p/DfXhKKRjjwF/
-LOCATION:La Baleine
-URL:https://www.instagram.com/p/DfXhKKRjjwF/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Micrographia
-DTSTART;TZID=Europe/Paris:20261117T190000
-DTEND;TZID=Europe/Paris:20261117T200000
-UID:4aee9823ae27@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Micrographia est un duo de piano à quatre mains augmenté\, i
- maginé par Alvise Sinivia et Frédéric Blondy. Une proposition de GMEM\n
- https://www.lafriche.org/evenements/micrographia/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/micrographia/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CLAPTRAP + Dourdou
-DTSTART;TZID=Europe/Paris:20261117T190000
-DTEND;TZID=Europe/Paris:20261117T210000
-UID:bb1fe5627d1f@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/claptrap-dourdou/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/claptrap-dourdou/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "SALAM MANIFESTO "
-DTSTART;TZID=Europe/Paris:20261117T190000
-DTEND;TZID=Europe/Paris:20261117T210000
-UID:0da8fff5b800@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-SALAM-MANIFESTO
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-SALAM-MANIFESTO
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MAGMA #24 | Écrits sur du vent\, Rose is a rose is a rose is a r
- ose
-DTSTART;TZID=Europe/Paris:20261117T193000
-DTEND;TZID=Europe/Paris:20261117T213000
-UID:ec05cd9c4911@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/magma-24-ecrits-sur-du-vent-rose-is
- -a-rose-is-a-rose-is-a-rose/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/magma-24-ecrits-sur-du-vent-rose-is-a-rose-
- is-a-rose-is-a-rose/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visite Toute petite expo
@@ -2704,6 +2606,17 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/57713605
  _cine-philo-blade-runner
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Ecotransféminismes [lsf]
+DTSTART;TZID=Europe/Paris:20261210T180000
+DTEND;TZID=Europe/Paris:20261210T200000
+UID:6b4d79adadbc@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-ecotransfeminis
+ mes/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-ecotransfeminismes/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:METAL NIGHT: BREEDING CHAOS + KVÅRK + Clone Shop + Angel Guts
 DTSTART;TZID=Europe/Paris:20261210T200000
 DTEND;TZID=Europe/Paris:20261210T220000
@@ -2716,6 +2629,55 @@ URL:https://lemolotov.com/events/metal-night-breeding-chaos-kvark-clone-sh
  op-angel-guts/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Duas Vezes João Liberada [Two Times João 
+ Liberada]
+DTSTART;TZID=Europe/Paris:20261210T213000
+DTEND;TZID=Europe/Paris:20261210T233000
+UID:563640ca2f63@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-duas-vezes-joao
+ -liberada-two-times-joao-liberada/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-duas-vezes-joao-liberad
+ a-two-times-joao-liberada/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Atelier de Labo-fiction au Centre LGBTQIA+
+DTSTART;TZID=Europe/Paris:20261211T120000
+DTEND;TZID=Europe/Paris:20261211T140000
+UID:271b0f298b2d@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-atelier-de-labo
+ -fiction-au-centre-lgbtqia/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-atelier-de-labo-fiction
+ -au-centre-lgbtqia/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Carte blanche au South Asian Gang [lsf]
+DTSTART;TZID=Europe/Paris:20261211T170000
+DTEND;TZID=Europe/Paris:20261211T190000
+UID:acb08c9cdf37@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-a
+ u-south-asian-gang-lsf/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-au-south-
+ asian-gang-lsf/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Carte blanche au festival 9issassna [lsf]
+DTSTART;TZID=Europe/Paris:20261211T193000
+DTEND;TZID=Europe/Paris:20261211T213000
+UID:3732cdfa951f@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-a
+ u-festival-9issassna-lsf/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-au-festiv
+ al-9issassna-lsf/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:TÄRA
 DTSTART;TZID=Europe/Paris:20261211T200000
 DTEND;TZID=Europe/Paris:20261211T220000
@@ -2724,6 +2686,19 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 20€\nhttps://lemolotov.com/events/tara/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/tara/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Porn et performance sonore de Rrrrrose Azer
+ ty
+DTSTART;TZID=Europe/Paris:20261211T220000
+DTEND;TZID=Europe/Paris:20261212T000000
+UID:0f77be37b675@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-porn-et-perform
+ ance-sonore-de-rrrrrose-azerty/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-porn-et-performance-son
+ ore-de-rrrrrose-azerty/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Club Infiné Invite Nathan Fake Live + Guests
@@ -2800,6 +2775,18 @@ URL:https://lafabulerie.com/agenda/ateliers-mediation-faire-famille-machin
  es-a-histoires-et-zelie-les-residences-de-la-martinerie/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Atelier d’écriture au Centre LBGTQIA+
+DTSTART;TZID=Europe/Paris:20261212T130000
+DTEND;TZID=Europe/Paris:20261212T150000
+UID:2bf9267a0f05@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-atelier-decritu
+ re-au-centre-lbgtqia/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-atelier-decriture-au-ce
+ ntre-lbgtqia/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La Commission d’enquête
 DTSTART;TZID=Europe/Paris:20261212T140000
 DTEND;TZID=Europe/Paris:20261212T180000
@@ -2822,10 +2809,10 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/performance-lahorde-x-bnm/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Atelier danses traditionnelles géorgiennes
+SUMMARY:Atelier danse contemporaine et danses traditionnelles géorgiennes
 DTSTART;TZID=Europe/Paris:20261212T143000
 DTEND;TZID=Europe/Paris:20261212T170000
-UID:e568000ad4af@marseille-agenda
+UID:e926305bf320@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/atelier-danses-traditionnelles-geo
  rgiennes/
@@ -2868,6 +2855,18 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/rever-la-mediterranee/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | No Ordinary Man + Cherchez le garçon [lsf]
+DTSTART;TZID=Europe/Paris:20261212T160000
+DTEND;TZID=Europe/Paris:20261212T180000
+UID:ee9c191affeb@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-no-ordinary-man
+ -cherchez-le-garcon-lsf/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-no-ordinary-man-cherche
+ z-le-garcon-lsf/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vivre en harmonie avec es chauves-souris
 DTSTART;TZID=Europe/Paris:20261212T170000
 DTEND;TZID=Europe/Paris:20261212T190000
@@ -2886,8 +2885,11 @@ DTSTART;TZID=Europe/Paris:20261212T170000
 DTEND;TZID=Europe/Paris:20261212T190000
 UID:3ffb90e7f437@marseille-agenda
 CATEGORIES:milite
-DESCRIPTION:
+DESCRIPTION:https://www.cira-marseille.info/wp-content/uploads/2026/11/8-C
+ auserie-decembre-2026-Ed.-sans-som-Hiver-95-96-Toulouse.pdf
 LOCATION:CIRA Marseille
+URL:https://www.cira-marseille.info/wp-content/uploads/2026/11/8-Causerie-
+ decembre-2026-Ed.-sans-som-Hiver-95-96-Toulouse.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[avp] LA CONSCIENCE POLITIQUE de Léolo Victor-Pujebet | Avec Geof
@@ -2904,6 +2906,44 @@ LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Carte blanche à Aymé Riandey d’ArcHIViv
+ antEs [lsf]
+DTSTART;TZID=Europe/Paris:20261212T190000
+DTEND;TZID=Europe/Paris:20261212T210000
+UID:6927eb100b7b@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-a
+ -ayme-riandey-darchivivantes-lsf/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-a-ayme-ri
+ andey-darchivivantes-lsf/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Hija de Perra : tan inmunda y tan feliz + H
+ omecoming Queenz [lsf]
+DTSTART;TZID=Europe/Paris:20261212T213000
+DTEND;TZID=Europe/Paris:20261212T233000
+UID:dcc707fb5f34@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-hija-de-perra-t
+ an-inmunda-y-tan-feliz-homecoming-queenz-lsf/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-hija-de-perra-tan-inmun
+ da-y-tan-feliz-homecoming-queenz-lsf/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Rigoloto de Marsatac
+DTSTART;TZID=Europe/Paris:20261213T143000
+DTEND;TZID=Europe/Paris:20261213T190000
+UID:55c87000ae30@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Un grand loto de Noël avec de nombreux lots à gagner ! Une p
+ roposition de Marsatac\nPrix : Gratuit !\nhttps://www.lafriche.org/eveneme
+ nts/le-rigoloto-de-marsatac/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-rigoloto-de-marsatac/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Braderie de Noël : Affiches et DVD à La Baleine !
 DTSTART;TZID=Europe/Paris:20261213T150000
 DTEND;TZID=Europe/Paris:20261213T170000
@@ -2915,6 +2955,33 @@ DESCRIPTION:Le 13 décembre\, pour chiner ou pour offrir\, La Baleine s’
  ttps://www.facebook.com/events/1445571474368966/
 LOCATION:La Baleine - La Baleine Marseille
 URL:https://www.facebook.com/events/1445571474368966/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Plateau Radio 1 : Libre antenne ! [lsf]
+DTSTART;TZID=Europe/Paris:20261213T160000
+DTEND;TZID=Europe/Paris:20261213T180000
+UID:78850fd0f2c4@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-1
+ -libre-antenne-lsf/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-1-libre-a
+ ntenne-lsf/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival Trans Gaze | Plateau radio 2 : Corps contraints avec Har
+ riet de G + Projection de Rasureitor: Peluquería disidente [lsf]
+DTSTART;TZID=Europe/Paris:20261213T183000
+DTEND;TZID=Europe/Paris:20261213T203000
+UID:8b086f1d6ce5@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-2
+ -corps-contraints-avec-harriet-de-g-projection-de-rasureitor-peluqueria-di
+ sidente-lsf/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-2-corps-c
+ ontraints-avec-harriet-de-g-projection-de-rasureitor-peluqueria-disidente-
+ lsf/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Théâtre de lumière et jeu d'ombre
@@ -3958,6 +4025,15 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/rever-la-mediterranee/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:écoféminisme
+DTSTART;TZID=Europe/Paris:20270123T170000
+DTEND;TZID=Europe/Paris:20270123T190000
+UID:feec8f483b73@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:
+LOCATION:CIRA Marseille
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cycle 3 - Watteau\, un peintre à la mode
 DTSTART;TZID=Europe/Paris:20270125T110000
 DTEND;TZID=Europe/Paris:20270125T123000
@@ -4410,6 +4486,18 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/3182083_
  on-ne-laisse-pas-bebe-dans-un-coin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le paria et le colon : une autre histoire de l’antisémitisme
+DTSTART;TZID=Europe/Paris:20270213T170000
+DTEND;TZID=Europe/Paris:20270213T190000
+UID:22816701c433@marseille-agenda
+CATEGORIES:milite
+DESCRIPTION:https://editionsacratie.com/le-paria-et-le-colon-une-autre-his
+ toire-de-lantisemitisme/
+LOCATION:CIRA Marseille
+URL:https://editionsacratie.com/le-paria-et-le-colon-une-autre-histoire-de
+ -lantisemitisme/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Baby populaire

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T06:20:04+01:00",
- "today": "2026-11-17",
+ "generated_at": "2026-11-18T06:20:48+01:00",
+ "today": "2026-11-18",
  "venues": [
   {
    "id": "amis-du-monde-diplomatique",
@@ -20,7 +20,7 @@
    "lat": 43.2966941,
    "lng": 5.3610825,
    "website": null,
-   "event_count": 159
+   "event_count": 158
   },
   {
    "id": "manifesten",
@@ -60,7 +60,7 @@
    "lat": 43.2938,
    "lng": 5.3835,
    "website": "https://lemolotov.com/agenda/",
-   "event_count": 25
+   "event_count": 24
   },
   {
    "id": "mille-babords",
@@ -80,7 +80,7 @@
    "lat": 43.3003,
    "lng": 5.3852,
    "website": "https://www.cira-marseille.info/",
-   "event_count": 1
+   "event_count": 3
   },
   {
    "id": "transit-librairie",
@@ -90,7 +90,7 @@
    "lat": 43.3025,
    "lng": 5.39,
    "website": "https://transit-librairie.org/-Evenements-",
-   "event_count": 8
+   "event_count": 7
   },
   {
    "id": "l-intermediaire",
@@ -110,7 +110,7 @@
    "lat": 43.2938,
    "lng": 5.383,
    "website": "https://labaleinemarseille.com/les-evenements/",
-   "event_count": 5
+   "event_count": 4
   },
   {
    "id": "les-varietes",
@@ -140,7 +140,7 @@
    "lat": 43.2953,
    "lng": 5.3815,
    "website": "https://lafabulerie.com/agenda/?type-projet=tout&localisation=marseille",
-   "event_count": 10
+   "event_count": 9
   },
   {
    "id": "videodrome-2",
@@ -150,7 +150,7 @@
    "lat": 43.2937,
    "lng": 5.3826,
    "website": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "event_count": 25
+   "event_count": 36
   },
   {
    "id": "alcazar",
@@ -160,7 +160,7 @@
    "lat": 43.299,
    "lng": 5.3767,
    "website": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "event_count": 49
+   "event_count": 48
   },
   {
    "id": "la-colorada",
@@ -264,7 +264,7 @@
    "verifier": "accept",
    "verifier_reason": "The exhibition is explicitly announced with dates 'Du [2026-05-08T07:00:00Z] 08 mai 2026 au [2027-04-25T16:00:00Z] 25 avril 2027' and matching URL.",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -315,7 +315,7 @@
    "end_date": "2027-01-10",
    "end_time": "00:00:00",
    "location_name": null,
-   "url": "https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille-charite",
+   "url": "https://musees.marseille.fr/adrien-vescovi",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -327,12 +327,12 @@
    "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "Dormir comme le soleil - Adrien Vescovi (https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille-charite) Du [2026-05-16T07:00:00Z] 16 mai 2026 au [2027-01-10T17:00:00Z] 10 janvier 2027 Découvrir l'exposition (https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille-char"
+    "Dormir comme le soleil - Adrien Vescovi (https://musees.marseille.fr/adrien-vescovi) Centre de la Vieille Charité - (CVC) (https://musees.marseille.fr/liste-des-expositions) - Du [2026-05-16T07:00:00Z] 16 mai 2026 au [2027-01-10T17:00:00Z] 10 janvier 2027 Découvrir l'exposition (https://musees.marse"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition is confirmed in the source excerpt: 'Du [2026-05-16T07:00:00Z] 16 mai 2026 au [2027-01-10T17:00:00Z] 10 janvier 2027' with URL 'https://musees.marseille.fr/adrien-vescovi'.",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -368,7 +368,7 @@
    "verifier": "accept",
    "verifier_reason": "The post is a forward-looking announcement (\"Début le jeudi 17 sept\", \"Début des cours : Jeudi 17 septembre 2026\") and the flyer confirms the extracted slot for that very date: \"Ce jeudi 17 septembre : cours de 17h45 à 18h45\", with the regular slot \"Dès le jeudi 24 septembre : cours de 19h00 à 20h00\" applying only from the following week. The venue matches exactly (\"La Colorada — 76 rue Consolat, 13001 Marseille\"), nothing is cancelled (\"Places limitées\" is not a sell-out), and 17 September 2026 is indeed a jeudi as written.",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -402,7 +402,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Voix Publiques - Louisa Babari' at Musée d'art contemporain [mac] from 19 septembre 2026 to 03 janvier 2027.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -438,7 +438,7 @@
    "verifier": "accept",
    "verifier_reason": "The caption announces a real, dated public event at the stated venue: \"A partir del sábado 26 de setiembre Les es parte de la familia de La Colorada\", \"Todos los sábados de 10h - 11h45\", \"Precio por curso de 15 euros\", \"📍 La Colorada Marsella, 76 rue Consolat, 13001 Marseille\". Publication date 2026-09-15 precedes the start date, and 26 September 2026 is indeed a Saturday, consistent with the written weekday; no contradiction or cancellation wording appears.",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -474,7 +474,7 @@
    "verifier": "accept",
    "verifier_reason": "Caption announces a new, dated workshop: \"Nuevo taller a La Colorada... CLUB DE DESSIN... Desde el 30 de setiembre, 2 veces por mes\", with \"Dos miércoles al mes / 17h - 18h45 / Precio: 15€\". 30 September 2026 is indeed a mercredi, matches the 17:00–18:45 slot, and the venue is La Colorada; no cancellation or recap language. Note only that the end_date 2027-01-31 is not stated in the post (the series length is open-ended), which does not contradict anything written.",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -508,7 +508,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Dinosaures de Provence' running 'Du [2026-10-10T07:00:00Z] 10 octobre 2026 au [2027-06-20T16:00:00Z] 20 juin 2027' at Muséum d'histoire naturelle de Marseille.",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -525,7 +525,7 @@
    "end_date": "2026-12-13",
    "end_time": "00:00:00",
    "location_name": null,
-   "url": "https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vieille-charite",
+   "url": "https://musees.marseille.fr/souffles-terrestres",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -537,12 +537,12 @@
    "source_url": "https://musees.marseille.fr/",
    "source_kind": "html",
    "evidence": [
-    "Souffles terrestres (https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vieille-charite) Du [2026-10-24T07:00:00Z] 24 octobre 2026 au [2026-12-13T17:00:00Z] 13 décembre 2026 Découvrir l'exposition (https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vieille-charite)"
+    "Souffles terrestres (https://musees.marseille.fr/souffles-terrestres) Centre de la Vieille Charité - (CVC) (https://musees.marseille.fr/liste-des-expositions) - Du [2026-10-24T07:00:00Z] 24 octobre 2026 au [2026-12-13T17:00:00Z] 13 décembre 2026 Découvrir l'exposition (https://musees.marseille.fr/so"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition 'Souffles terrestres' is confirmed running 'Du [2026-10-24T07:00:00Z] 24 octobre 2026 au [2026-12-13T17:00:00Z] 13 décembre 2026' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2569,
    "lng": 5.3966
   },
@@ -571,13 +571,13 @@
    "source_url": "https://www.lafriche.org/agenda/",
    "source_kind": "html",
    "evidence": [
-    "[2026-11-17] (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Le mauvais œil 88 : Kikifruit (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition de microédition Une proposition de Le Derni",
-    "same entry listed on every day from 2026-11-17 to 2026-11-25"
+    "[2026-11-18] (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition (https://www.lafriche.org/agenda/?categorie=exposition) Le mauvais œil 88 : Kikifruit (https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/) Exposition de microédition Une proposition de Le Derni",
+    "same entry listed on every day from 2026-11-18 to 2026-11-25"
    ],
    "verifier": "accept",
    "verifier_reason": "The exhibition 'Le mauvais œil 88 : Kikifruit' is scheduled starting 2026-11-04 at 10h ('10h', 'Gratuit !').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -612,7 +612,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Cartographie sensible et mémoires recomposées' is confirmed for 2026-11-04 with hours '14h-19h' and matching URL.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -647,7 +647,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the exhibition 'Ce que nous voyons nous regarde' starting on [2026-11-04] with hours '14h-19h' at URL https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -682,7 +682,7 @@
    "verifier": "accept",
    "verifier_reason": "The exhibition 'Désobéir à l’ère numérique' is scheduled for 2026-11-04 from '14h-19h' at URL https://www.lafriche.org/evenements/desobeir-a-lere-numerique/.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -717,7 +717,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'La vie farpaite' is confirmed for 'mercredi 4 novembre' [2026-11-04] from '14h-19h' at the extracted URL.",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -751,7 +751,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -787,7 +787,7 @@
    "verifier": "accept",
    "verifier_reason": "The caption announces a future event: \"À partir du dimanche 8 novembre 2026, retrouvons-nous chaque dimanche\" with \"🕑 De 14h à 16h\" and \"📍 Studio Accrorap, 2ᵉ étage de la Manufacture, La Friche la Belle de Mai\". The start date 2026-11-08 is a Sunday (matching \"dimanche 8 novembre 2026\"), is after the publication date (2026-11-06), the 14:00 time matches \"De 14h à 16h\", the venue is inside La Friche la Belle de Mai, and the post is an announcement (not a recap) with no cancellation.",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -821,7 +821,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2965,
    "lng": 5.378
   },
@@ -855,282 +855,9 @@
    "verifier": "accept",
    "verifier_reason": "The flyer announces a future dated event at the given venue: \"EXPOSITION ... DU 11 AU 25 NOVEMBRE\" with \"VERNISSAGE LE 11 NOVEMBRE À PARTIR DE 18H\" at \"La Camaraderie, 76 78 RUE BELLE DE MAI, 13003 MARSEILLE\". The post (2026-10-31) precedes the 2026-11-11 start, no weekday is written to contradict, and nothing indicates cancellation.",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3121,
    "lng": 5.3848
-  },
-  {
-   "uid": "28e3ef01cf3d",
-   "venue_id": "mucem",
-   "venue_name": "Mucem",
-   "category": "culture",
-   "title": "Atelier d'écriture",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-11-17",
-   "start_time": "10:00:00",
-   "end_date": null,
-   "end_time": "12:00:00",
-   "location_name": "Le Centre de Conservation et de Ressources",
-   "url": "https://mucem.org/evenement/atelier-decriture/",
-   "price": "Gratuit",
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": true,
-   "recurring": false,
-   "image": "img/28e3ef01cf3d.webp",
-   "image_source": "https://mucem.org/uploads/2025/10/phm-1972-150-937-476-768x510.jpg",
-   "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
-   "source_kind": "json",
-   "evidence": [
-    "Atelier d'écriture | 20261117 | 10:00"
-   ],
-   "verifier": null,
-   "verifier_reason": null,
-   "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
-   "lat": 43.2966941,
-   "lng": 5.3610825
-  },
-  {
-   "uid": "44fad1dacb24",
-   "venue_id": "la-fabulerie",
-   "venue_name": "La Fabulerie",
-   "category": "culture",
-   "title": "Visites apprenantes pour les professionnel·les - Le Pop-up de La Fabulerie",
-   "title_truncated": true,
-   "title_completed_from": "https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visites-apprenantes-pour-les-professionnel%c2%b7les/",
-   "start_date": "2026-11-17",
-   "start_time": "13:30:00",
-   "end_date": null,
-   "end_time": null,
-   "location_name": null,
-   "url": "https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visites-apprenantes-pour-les-professionnel%c2%b7les/",
-   "price": null,
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": "img/44fad1dacb24.webp",
-   "image_source": "https://lafabulerie.com/wp-content/uploads/2026/08/Carre-agenda-7.png",
-   "source_url": "https://lafabulerie.com/",
-   "source_kind": "html",
-   "evidence": [
-    "Visites apprenantes pour les... 17/11/2026 - 13h30 (https://lafabulerie.com/agenda/le-pop-up-de-la-fabulerie-visites-apprenantes-pour-les-professionnel%c2%b7les/)"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The excerpt confirms 'Visites apprenantes pour les...' on '17/11/2026 - 13h30' with the matching agenda URL.",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
-   "lat": 43.2953,
-   "lng": 5.3815
-  },
-  {
-   "uid": "883f133f56fd",
-   "venue_id": "alcazar",
-   "venue_name": "Alcazar",
-   "category": "culture",
-   "title": "RENCONTRE Raconter une vie engagée - Marc Bloch, historien combattant",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-11-17",
-   "start_time": "14:00:00",
-   "end_date": "2026-11-17",
-   "end_time": "16:00:00",
-   "location_name": "Bibliothèque de l'Alcazar",
-   "url": "https://openagenda.com/bibliotheque-lalcazar-marseille/events/84960348_lecture-dessinee-marc-bloch-lhistorien-combattant",
-   "price": null,
-   "summary": "Événement des bibliothèques de Marseille",
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": "img/883f133f56fd.webp",
-   "image_source": "https://img.openagenda.com/main/d0cd8a09b2c24ff0a8c9b46dbdc7d6f2.thumb.image.jpg",
-   "source_url": "https://openagenda.com/agendas/46688663/events.json?relative[]=upcoming&limit=300",
-   "source_kind": "json",
-   "evidence": [
-    "RENCONTRE Raconter une vie engagée - Marc Bloch, historien combattant | 2026-11-17 | 14:00"
-   ],
-   "verifier": null,
-   "verifier_reason": null,
-   "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
-   "lat": 43.299,
-   "lng": 5.3767
-  },
-  {
-   "uid": "425d7f611b9b",
-   "venue_id": "la-baleine",
-   "venue_name": "La Baleine",
-   "category": "cinema",
-   "title": "LA GRADIVA de Marine Atlan",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-11-17",
-   "start_time": "17:30:00",
-   "end_date": null,
-   "end_time": null,
-   "location_name": null,
-   "url": "https://www.instagram.com/p/DfXhKKRjjwF/",
-   "price": null,
-   "summary": "Projection du film primé 'La Gradiva' de Marine Atlan, suivi de discussions sur les émotions exacerbées des adolescents.",
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": "img/425d7f611b9b.webp",
-   "image_source": "https://scontent-mxp1-1.cdninstagram.com/v/t39.30808-6/863902465_1755431689916912_8059373596598319198_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=NDAyMzgzMDYwODQ3NjAxMDIyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0eDc5VRgpoMQ7kNvwFGLw-a&_nc_oc=AdrAh6-Tc75zn158DqKfIrwFNwrbjYIX1q4ceO1YeZuGSNojAY_rW06uvJZImy9kfl8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mxp1-1.cdninstagram.com&_nc_gid=ZMcoCHeJHCAgOpV7_mv6Mg&_nc_ss=7a20f&oh=00_AQTS3HeBv6tm-AA5qZ5j84nQd-WQIJ-rokpmrV-epqZVDg&oe=6AF34154",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "source_kind": "instagram",
-   "evidence": [
-    "🎬 𝗟𝗔 𝗚𝗥𝗔𝗗𝗜𝗩𝗔 de Marine Atlan ▶️ Mer 11 à 20h10 ; ven 13 à 18h20 ; sam 14 à 20h40 ; dim 15 à 17h30 ; mar 17 à 17h30",
-    "LA GRADIVA DE MARINE ATLAN"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The caption gives the showtimes \"Mer 11 à 20h10 ; ven 13 à 18h20 ; sam 14 à 20h40 ; dim 15 à 17h30 ; mar 17 à 17h30\", and the extracted 2026-11-17 at 17:30 corresponds exactly to \"mar 17 à 17h30\" (17 Nov 2026 is indeed a Tuesday, and all dates are after the 5 Nov publication). The flyer identifies the venue as \"LA BALEINE\" / \"BALEINE cinéma · bistrot\", matching La Baleine, and nothing indicates cancellation.",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
-   "lat": 43.2938,
-   "lng": 5.383
-  },
-  {
-   "uid": "4aee9823ae27",
-   "venue_id": "friche-la-belle-de-mai",
-   "venue_name": "Friche la Belle de Mai",
-   "category": "culture",
-   "title": "Micrographia",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-11-17",
-   "start_time": "19:00:00",
-   "end_date": null,
-   "end_time": "20:00:00",
-   "location_name": null,
-   "url": "https://www.lafriche.org/evenements/micrographia/",
-   "price": null,
-   "summary": "Micrographia est un duo de piano à quatre mains augmenté, imaginé par Alvise Sinivia et Frédéric Blondy. Une proposition de GMEM",
-   "status": "scheduled",
-   "event_type": "Musique Son",
-   "free": null,
-   "recurring": false,
-   "image": "img/4aee9823ae27.webp",
-   "image_source": "https://www.lafriche.org/app/uploads/2026/09/0111-500x300.jpg",
-   "source_url": "https://www.lafriche.org/agenda/",
-   "source_kind": "html",
-   "evidence": [
-    "[2026-11-17] (https://www.lafriche.org/evenements/micrographia/) Musique Son (https://www.lafriche.org/agenda/?categorie=musique-son) Micrographia (https://www.lafriche.org/evenements/micrographia/) Alvise Sinivia, Frédéric Blondy Micrographia est un duo de piano à quatre mains augmenté, imaginé par"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "Excerpt confirms 'Micrographia' on 'mardi 17 novembre' [2026-11-17] at '19h-20h' at URL https://www.lafriche.org/evenements/micrographia/.",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
-   "lat": 43.3105,
-   "lng": 5.3906
-  },
-  {
-   "uid": "bb1fe5627d1f",
-   "venue_id": "le-molotov",
-   "venue_name": "Le Molotov",
-   "category": "bars",
-   "title": "CLAPTRAP + Dourdou",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-11-17",
-   "start_time": "19:00:00",
-   "end_date": null,
-   "end_time": null,
-   "location_name": "@ Le Molotov",
-   "url": "https://lemolotov.com/events/claptrap-dourdou/",
-   "price": "10€",
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": null,
-   "image_source": null,
-   "source_url": "https://lemolotov.com/agenda/",
-   "source_kind": "html",
-   "evidence": [
-    "17 Nov 2026 @ Le Molotov / 19:00 Entrée : 10€ Prévente: 8€ CLAPTRAP + Dourdou Occitan (https://lemolotov.com/events/tags/occitan/), Pop (https://lemolotov.com/events/tags/pop/), Post Pop (https://lemolotov.com/events/tags/post-pop/) (https://lemolotov.com/events/claptrap-dourdou/)"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "Matches excerpt: '17 Nov 2026 @ Le Molotov / 19:00' with title 'CLAPTRAP + Dourdou'.",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
-   "lat": 43.2938,
-   "lng": 5.3835
-  },
-  {
-   "uid": "0da8fff5b800",
-   "venue_id": "transit-librairie",
-   "venue_name": "Transit librairie",
-   "category": "milite",
-   "title": "Présentation de \"SALAM MANIFESTO \"",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-11-17",
-   "start_time": "19:00:00",
-   "end_date": null,
-   "end_time": null,
-   "location_name": null,
-   "url": "https://transit-librairie.org/Presentation-de-SALAM-MANIFESTO",
-   "price": null,
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": "img/0da8fff5b800.webp",
-   "image_source": "https://transit-librairie.org/local/adapt-img/640/10x/IMG/jpg/image_2_sept__2026_17_45_42.jpg?1792780834",
-   "source_url": "https://transit-librairie.org/-Evenements-",
-   "source_kind": "html",
-   "evidence": [
-    "Mardi 17 novembre à 19 h Présentation de \"SALAM MANIFESTO \" (https://transit-librairie.org/Presentation-de-SALAM-MANIFESTO) Avec Faïza Guène (https://transit-librairie.org/Presentation-de-SALAM-MANIFESTO) Dans SALAM MANIFESTO Faïza Guène ouvre une conversation nécessaire et urgente : souvenirs, réci"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "Matches excerpt 'Mardi 17 novembre à 19 h Présentation de \"SALAM MANIFESTO \"' at the given URL.",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
-   "lat": 43.3025,
-   "lng": 5.39
-  },
-  {
-   "uid": "ec05cd9c4911",
-   "venue_id": "videodrome-2",
-   "venue_name": "Vidéodrome 2",
-   "category": "cinema",
-   "title": "MAGMA #24 | Écrits sur du vent, Rose is a rose is a rose is a rose",
-   "title_truncated": false,
-   "title_completed_from": null,
-   "start_date": "2026-11-17",
-   "start_time": "19:30:00",
-   "end_date": null,
-   "end_time": null,
-   "location_name": null,
-   "url": "https://www.videodrome2.fr/magma-24-ecrits-sur-du-vent-rose-is-a-rose-is-a-rose-is-a-rose/",
-   "price": null,
-   "summary": null,
-   "status": "scheduled",
-   "event_type": null,
-   "free": null,
-   "recurring": false,
-   "image": "img/ec05cd9c4911.webp",
-   "image_source": "https://www.videodrome2.fr/wp-content/uploads/Ouarda-ouarda-MEA-300x218.jpg",
-   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "source_kind": "html",
-   "evidence": [
-    "MAGMA #24 | Écrits sur du vent, Rose is a rose is a rose is a rose (https://www.videodrome2.fr/magma-24-ecrits-sur-du-vent-rose-is-a-rose-is-a-rose-is-a-rose/) [2026-11-17T19:30:00+01:00] mardi 17 novembre 2026 de 19h30 à 21h30 Les séances de cinéma Dans le cadre du rendez-vous Magma Ouarda Ouarda :"
-   ],
-   "verifier": "accept",
-   "verifier_reason": "The excerpt confirms 'MAGMA #24 | Écrits sur du vent, Rose is a rose is a rose is a rose' on 'mardi 17 novembre 2026 de 19h30 à 21h30'.",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
-   "lat": 43.2937,
-   "lng": 5.3826
   },
   {
    "uid": "431d8509bebb",
@@ -1162,7 +889,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite Toute petite expo' is confirmed for 'mercredi 18 novembre' (2026-11-18) at URL 'https://www.lafriche.org/evenements/visite-toute-petite-expo-9/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1196,7 +923,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite À petits pas' is confirmed for 2026-11-18 with matching URL and description ('Avec vos petit·es de 3 à 5 ans...').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1230,7 +957,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt clearly states 'Le 6ème jour' running '18 - 25 novembre 2026' with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -1264,7 +991,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'ATELIERS - #ARBORESCENCE-Dav...' on '18/11/2026 - 14h' with the matching URL.",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -1298,7 +1025,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 18 novembre 2026 de 14h00 à 16h00' for '★ Jeune public | Atelier d\\'initiation au cinéma'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1332,7 +1059,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening is confirmed for 'mercredi 18 novembre' [2026-11-18] at '14h15' with the matching URL and title 'Hola Frida'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -1366,7 +1093,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1401,7 +1128,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is scheduled for 2026-11-18 (repeated through 2026-11-21) from '15h30-17h30' with matching URL and details.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1435,7 +1162,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1469,7 +1196,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is confirmed for 2026-11-18 with time '16h / 17h' and matching URL.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1503,7 +1230,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1537,7 +1264,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1562,7 +1289,7 @@
    "free": null,
    "recurring": false,
    "image": "img/49187c538482.webp",
-   "image_source": "https://www.amis.monde-diplomatique.fr/local/cache-gd2/10/e5b7d9aa19552ad4726b33e78caebc.jpg?1791810219",
+   "image_source": "https://www.amis.monde-diplomatique.fr/local/cache-gd2/76/fbed4ce3a99ce168bf05a867671f5d.jpg?1794906031",
    "source_url": "https://www.amis.monde-diplomatique.fr/-Marseille-.html",
    "source_kind": "html",
    "evidence": [
@@ -1571,7 +1298,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Le mercredi 18 novembre, à 17 heures' under 'Prochain(s) rendez-vous', which matches 2026-11-18 at 17:00:00.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2994164,
    "lng": 5.3858632
   },
@@ -1605,7 +1332,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 18 novembre 2026 de 18h00 à 19h30' with matching URL and title.",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1639,7 +1366,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: 'mercredi 18 novembre 2026 de 19h30 à 21h00' with matching URL and title.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1673,7 +1400,7 @@
    "verifier": "accept",
    "verifier_reason": "The festival dates '19 - 22 NOVEMBRE 2026' and title '28e Rencontres du cinéma Sud-Américain' match the extracted event and source excerpt.",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2965,
    "lng": 5.378
   },
@@ -1707,7 +1434,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Boat People' running '19 - 21 novembre 2026' with the corresponding URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -1741,7 +1468,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -1775,7 +1502,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Open studios' is listed under '[2026-11-19]' with time '16h-20h' and matching URL https://www.lafriche.org/evenements/open-studios-5/.",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1809,7 +1536,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -1843,7 +1570,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Jeudi 19 novembre à 19h Présentation de \"La Palestine en procès\"' with matching URL. In 2026, November 19 is indeed a Thursday.",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -1877,7 +1604,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed by excerpt: 'jeudi 19 novembre 2026 de 19h30 à 20h50' matching the title and URL.",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -1912,7 +1639,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed by the excerpt: '[2026-11-19] Boat People' with time '20h-22h10' and URL 'https://www.lafriche.org/evenements/boat-people/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -1946,7 +1673,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '19 Novembre 2026 20h' with title 'Musique saillante' and the matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3112,
    "lng": 5.3832
   },
@@ -1980,7 +1707,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: \"19 Nov 2026 @ Le Molotov / 20:00\" for \"MASSIMO SILVERIO + Misé Babilha\" with URL https://lemolotov.com/events/massimo-silverio-mise-babilha/.",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -2015,7 +1742,7 @@
    "verifier": "accept",
    "verifier_reason": "Caption announces a future concert: \"VENDREDI 20 NOVEMBRE ... À l'intermédiaire 63 la plaine\", matching the flyer's \"LE 20/11\" and \"INTERMEDIAIRE\"; 2026-11-20 is indeed a vendredi and falls after the 2026-10-24 publication date, with no cancellation or venue conflict.",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2942,
    "lng": 5.3855
   },
@@ -2049,7 +1776,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2083,7 +1810,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2119,7 +1846,7 @@
    "verifier": "accept",
    "verifier_reason": "Caption and flyer agree: \"Quand : 20 nov. 2026\", \"À partir de : 18h30\", \"Où : à La Colorada\" / flyer \"20/11/26 18H30\" at \"76 RUE CONSOLAT 13001, MARSEILLE\". The event (2026-11-20, a Friday) is after the publication date (2026-11-11), it is a dated public soirée poétique, and nothing indicates cancellation.",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -2153,7 +1880,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the title, URL, date 'vendredi 20 novembre 2026', and start time '18h30'.",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2187,7 +1914,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists '20 Nov 2026 @ Le Dodu / 19:00' with title 'MARCUS GAD & Tribe' and matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -2216,12 +1943,12 @@
    "source_url": "https://transit-librairie.org/-Evenements-",
    "source_kind": "html",
    "evidence": [
-    "Vendredi 20 novembre à 19h Présentation de \"Tura Kan\" de Soraya Amrane (https://transit-librairie.org/Presentation-de-Tura-Kan-de-Soraya-Amrane) Avec Soraya Amrane Images réalisées entre 1969 et 2024 dans un village de la Kabylie. Celle de l’exil vécu par la génération des parents de la photographe,"
+    "Vendredi 20 novembre à 19h Présentation de \"Tura Kan\" de Soraya Amrane (https://transit-librairie.org/Presentation-de-Tura-Kan-de-Soraya-Amrane) Avec Soraya Amrane (https://transit-librairie.org/Presentation-de-Tura-Kan-de-Soraya-Amrane) Images réalisées entre 1969 et 2024 dans un village de la Kaby"
    ],
    "verifier": "accept",
    "verifier_reason": "\"Vendredi 20 novembre à 19h\" matches 2026-11-20 19:00, with correct weekday and URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -2255,7 +1982,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is clearly listed for \"vendredi 20 novembre 2026 de 20h30 à 21h50\" with matching title and URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2289,7 +2016,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '20 Nov 2026 @ Le Molotov / 22:00' for 'MENACE DRUM’N’BASS NIGHT XIII' with matching URL.",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -2323,7 +2050,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Club Cabaret' is confirmed for date [2026-11-20] with hours '23h-05h' and URL 'https://www.lafriche.org/evenements/club-cabaret-9/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2357,7 +2084,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Le clown comme un poème' is confirmed for '21 - 22 novembre 2026' with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -2391,7 +2118,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2425,7 +2152,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -2459,7 +2186,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2493,7 +2220,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'J’crains dégun' is confirmed for 'samedi 21 novembre' (2026-11-21) from '14h-00h' at the URL indicated.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2528,7 +2255,7 @@
    "verifier": "accept",
    "verifier_reason": "The flyer's \"Prochains événements\" list shows \"SAMEDI 21 ... Lecture d'Oracle SINCRONIAS par Liana Pérez 14h\" under \"Novembre 2026\", and 2026-11-21 is indeed a samedi; the venue \"La Colorada Marsella\" matches the caption's \"📍 La Colorada Marsella\", and the event (21 Nov) falls after the publication date (06 Nov 2026).",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -2562,7 +2289,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2587,7 +2314,7 @@
    "free": false,
    "recurring": false,
    "image": "img/9efc225aea61.webp",
-   "image_source": "https://mucem.org/uploads/2026/09/coupedecale-768x480.png",
+   "image_source": "https://mucem.org/uploads/2026/09/Atalier-coupe-decale-768x480.jpg",
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
@@ -2596,7 +2323,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2630,7 +2357,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is confirmed for 2026-11-21 at 15h ('15h / 16h / 17h') at the URL provided.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2664,7 +2391,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'NumériTech' on [2026-11-21] at '15h30-17h30' with URL 'https://www.lafriche.org/evenements/numeritech-9/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2698,7 +2425,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt for '[2026-11-21]' at '16h' with title 'Courts-métrages Sud-Américains primés' and matching URL.",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -2732,7 +2459,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -2766,7 +2493,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -2800,7 +2527,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Samedi 21 novembre 2026 de 18h00 à 20h00' at 'Frac Sud - plateau explorations'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3053,
    "lng": 5.3678
   },
@@ -2834,7 +2561,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the event 'Pour la joie. Une ode à la résistance poétique et politique' on [2026-11-21] from '18h-20h' at URL 'https://www.lafriche.org/evenements/pour-la-joie-une-ode-a-la-resistance-poetique-et-politique/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -2868,7 +2595,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '18h Cumbia que te vas de ronda' on [2026-11-21] (with subsequent entry confirming dimanche 22 novembre) at the provided URL.",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -2902,7 +2629,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms '21 Nov 2026 @ Le Dodu / 19:00' with title 'SPIDER ZED' and URL 'https://lemolotov.com/events/spider-zed/'.",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -2936,7 +2663,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: \"samedi 21 novembre 2026 de 19h00 à 21h15\" with the matching title and URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -2970,7 +2697,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '21 Nov 2026 @ Le Molotov / 20:30' for 'CHIMÈRES IV : LE BAL DES OMBRES'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -3004,7 +2731,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '21 Novembre 2026' at '21h' for 'Beat binaire désarticulé' with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3112,
    "lng": 5.3832
   },
@@ -3040,7 +2767,7 @@
    "verifier": "accept",
    "verifier_reason": "Caption announces a future date: \"SAM 21 NOV - 21H\" at \"11 Boulevard Bouès, 13003 Marseille\" (L'Embobineuse), with lineup \"FRONT PAGE LESLIE ... NEIN ACTION ... MANOIR MOLLE\" and price \"9€ + 2€ adh.\"; 2026-11-21 is indeed a samedi and falls after the 2026-11-02 publication date, and the flyer repeats \"SAM 21 NOV\", \"21H\", \"9€+2€ADH\" and the same address.",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3112,
    "lng": 5.3832
   },
@@ -3074,7 +2801,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Origins invite BSLS Marseille' is confirmed for 2026-11-21 from 23h to 05h with the matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3108,7 +2835,7 @@
    "verifier": "accept",
    "verifier_reason": "All details match the source excerpt, which lists 'Dreamachine Festival' on [2026-11-21] at '23h30-04h30' with the matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3142,7 +2869,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of 'Nostalgie de la lumière' is confirmed on [2026-11-22] at '16h' at cinema Le Gyptis.",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -3176,7 +2903,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt explicitly confirms 'ATELIERS - #ARBORESCENCE-Dav...' on '22/11/2026 - 16h30' with the matching URL.",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -3210,7 +2937,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Dimanche 22 novembre à 16h30' with matching URL 'https://transit-librairie.org/Presentation-de-Palestine-errante-de-Rima-Hassan'.",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -3244,7 +2971,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is clearly listed for 'dimanche 22 novembre 2026 de 17h00 à 19h30' with matching title and URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -3279,7 +3006,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'JEST #6 : Jamais d’Eux Sans Toi' is confirmed for 'dimanche 22 novembre' [2026-11-22] at '18h-21h' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3313,7 +3040,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed by excerpt: \"dimanche 22 novembre 2026 de 20h00 à 22h00\" with matching title and URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -3349,7 +3076,7 @@
    "verifier": "accept",
    "verifier_reason": "Caption announces a future show: \"DIMANCHE 22 NOVEMBRE\" ... \"Début des concerts 20h30\" ... \"À L'intermédiaire\", matching the extracted date (22 Nov 2026 is indeed a dimanche, after the 2026-11-06 publication), time 20:30, venue and price \"Paf 5/7€ (pas de cb)\"; no cancellation or postponement mentioned.",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2942,
    "lng": 5.3855
   },
@@ -3383,7 +3110,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3417,7 +3144,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Marché paysan' is explicitly listed under 'lundi 23 novembre' with hours '16h-20h' and matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3451,7 +3178,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3485,7 +3212,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -3519,7 +3246,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3553,7 +3280,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3587,7 +3314,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Le mardi 24 novembre à 18 h 30' with matching URL and details for 2026.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2994164,
    "lng": 5.3858632
   },
@@ -3621,7 +3348,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Corps troubles, peaux d'argent #4 | Entrée, plat, dessert' on 'mardi 24 novembre 2026 de 19h30 à 20h30' with matching URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -3655,7 +3382,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2965,
    "lng": 5.378
   },
@@ -3689,7 +3416,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '24 Nov 2026 @ Le Molotov / 20:30' for 'GVLLOW + Ohm Sweet Ohm' with matching URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -3723,7 +3450,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Les Petits Mercredis' is listed for 'mercredi 25 novembre' [2026-11-25] with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3757,7 +3484,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3791,7 +3518,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3826,7 +3553,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"Entrez libres\" on [2026-11-25] with time \"15h30-17h30\" and URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3860,7 +3587,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3894,7 +3621,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is confirmed for 2026-11-25 at 16h / 17h ('Des visites commentées des expositions de 30 minutes.') with URL https://www.lafriche.org/evenements/visite-flash-16/.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -3928,7 +3655,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.383
   },
@@ -3962,7 +3689,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -3996,7 +3723,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -4030,7 +3757,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -4064,7 +3791,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the event 'On sleep or the Fear of It' on [2026-11-25] at '18h30' with matching URL and details.",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4093,12 +3820,12 @@
    "source_url": "https://transit-librairie.org/-Evenements-",
    "source_kind": "html",
    "evidence": [
-    "Mercredi 25 novembre à 19h Présentation de \"Odes Zaux Zoizeaux\" suivi de \"Climats\", épopée de Laurent Grisel (https://transit-librairie.org/Presentation-de-Odes-Zaux-Zoizeaux-suivi-de-Climats-epopee-de-Laurent-Grisel) Soirée présentée par Muriel Modr et Frédérique Līvāni. Librairie Transit - 51 Bd d"
+    "Mercredi 25 novembre à 19h Présentation de \"Odes Zaux Zoizeaux\" suivi de \"Climats\", épopée de Laurent Grisel (https://transit-librairie.org/Presentation-de-Odes-Zaux-Zoizeaux-suivi-de-Climats-epopee-de-Laurent-Grisel) Soirée présentée par Muriel Modr et Frédérique Līvāni. Terrible poème d’un été d’h"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Mercredi 25 novembre à 19h' which matches 2026-11-25 (Wednesday) at 19:00:00 with matching title and URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -4132,7 +3859,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: 'mercredi 25 novembre 2026 de 19h30 à 21h15' for 'Cœurs Sombres | Olivia de Jacqueline Audry'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -4201,7 +3928,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'jeudi 26 novembre' with time '10h', matching the extracted exhibition 'Le mauvais œil 89 : Daisuke Ichiba'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4235,7 +3962,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed under date [2026-11-26] at '18h' with matching title and URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4269,7 +3996,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening of 'The Old Oak' is confirmed for 'jeudi 26 novembre' at '19h' with URL 'https://cinemalegyptis.org/films/the-old-oak/'.",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -4303,7 +4030,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Jeudi 26 novembre à 19h' matching 2026-11-26 at 19:00 with the corresponding URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -4337,7 +4064,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms \"LA ROUTE EST LONGUE – Une avant-première\" on \"jeudi 26 novembre 2026 de 19h30 à 21h00\" at the matching URL.",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -4373,7 +4100,7 @@
    "verifier": "accept",
    "verifier_reason": "The post announces a forthcoming concert: caption and flyer both state \"Festival JEST - Jeudi 26 novembre\" / \"JEUDI 26 NOVEMBRE – CONCERTS\" at \"Petit plateau, Friche la Belle de Mai\" with \"20H30\", matching the extracted 2026-11-26 (a Thursday, and after the 2026-10-27 publication date), venue and time; price \"À partir de 10€ (hors frais)\" also matches. No cancellation, postponement or past-event wording appears.",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4407,7 +4134,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '26 Nov 2026 @ Le Molotov / 20:30' for 'SOIRÉE DE LANCEMENT SUPERNOVA' with matching URL.",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -4441,7 +4168,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms 'Françé' on '27 - 28 novembre 2026' at URL 'https://theatre-lacriee.com/programmation/evenements/france'.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -4475,7 +4202,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Allo, à l’eau ?! -' on '27/11/2026 - 10h' with matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -4509,7 +4236,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'vendredi 27 novembre' [2026-11-27] at '14h-21h' for '#Plus20 – Marseille, ville coopérative ?' with URL 'https://www.lafriche.org/evenements/plus20-marseille-ville-cooperative/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4544,7 +4271,7 @@
    "verifier": "accept",
    "verifier_reason": "The post is a forward-looking agenda (\"Prochains événements\", \"On vous partage nos événements du mois de Novembre!\") and the flyer reads \"VENDREDI 27 — Presentation musicale brésilienne — 18h\" at \"La Colorada Marsella, 76 rue Consolat, 13001 Marseille\"; 27 November 2026 is indeed a vendredi and falls after the 2026-11-06 publication date, with no mention of cancellation.",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3005,
    "lng": 5.387
   },
@@ -4578,7 +4305,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Octobre à Paris' is confirmed for 'vendredi 27 novembre' at 19h with matching URL and description.",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -4612,7 +4339,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by 'Vendredi 27 novembre à 19h' appearing in the upcoming events section (before 'Évènements Passés').",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -4646,7 +4373,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is fully confirmed by the excerpt: \"vendredi 27 novembre 2026 de 19h00 à 21h00\" for \"FIVIA | Tech v/s Tech / Panorama\".",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -4680,7 +4407,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '27 Nov 2026 @ Le Molotov / 20:00' with title 'ERADIKAL INSANE + Reign + Vulher' and URL 'https://lemolotov.com/events/eradikal-insane-reign/'.",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -4714,7 +4441,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches excerpt: \"27 Novembre 2026 21h\" and title \"NoéNoé ou encore NoéNoé\" at url https://www.lembobineuse.biz/events/2026/11/27/noenoe.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3112,
    "lng": 5.3832
   },
@@ -4750,7 +4477,7 @@
    "verifier": "accept",
    "verifier_reason": "The caption announces \"DATE : Vendredi 27 novembre – 21H\" at \"L'Intermédiaire – 63 Place Jean Jaurès, 13006 Marseille\", matching the flyer's \"27/11/26 – START 21H\" and \"L'INTERMEDIAIRE\"; the date is after the publication date (2026-11-04) and 2026-11-27 is indeed a Friday, and nothing indicates cancellation or a past event.",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2942,
    "lng": 5.3855
   },
@@ -4784,7 +4511,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '[2026-11-27]', 'Club Cabaret', and '23h-05h' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4818,7 +4545,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'FamilyTech' is scheduled on [2026-11-28] with the matching URL (https://www.lafriche.org/evenements/familytech-10/).",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -4852,7 +4579,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -4886,7 +4613,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -4920,7 +4647,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms 'Début : 28 novembre 2026' and 'Heure : 14h00' for 'AMOUR ET BARRICADES, la Grande Crémaillère'.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3528,
    "lng": 5.3647
   },
@@ -4954,7 +4681,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening and meeting 'Un lugar más grande' is confirmed for 'samedi 28 novembre' at '14h' with URL 'https://cinemalegyptis.org/films/un-lugar-mas-grande/'.",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -4988,7 +4715,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5022,7 +4749,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is confirmed for 2026-11-28 with time slots starting at 15h ('15h / 16h / 17h') at the matching URL.",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5056,7 +4783,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5090,7 +4817,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5124,7 +4851,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5158,7 +4885,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'samedi 28 novembre 2026 de 17h00 à 18h30' for 'Cercle Catalan de Marseille x Festival Òmnium de Cinéma | Cartographier le désir' at the matching URL.",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -5192,7 +4919,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches 'Samedi 28 novembre à 19 h' and URL in the upcoming events section before 'Évènements Passés'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3025,
    "lng": 5.39
   },
@@ -5226,7 +4953,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms \"samedi 28 novembre 2026 de 19h30 à 21h00\" for the screening \"Le Poulpe Savant | Que ton règne vienne de Mathias Averty\".",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -5260,7 +4987,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'samedi 28 novembre' at '20h' for 'Queer me' with matching URL 'https://cinemalegyptis.org/films/queer-me/'.",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -5296,7 +5023,7 @@
    "verifier": "accept",
    "verifier_reason": "Flyer reads \"28 NOVEMBRE 2026 21H / 10€\" at \"L'EMBOBINEUSE\", matching the extracted date/time/venue; the post is a forward-looking announcement (published 2026-10-28, event 2026-11-28, a samedi) with no cancellation notice.",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3112,
    "lng": 5.3832
   },
@@ -5330,7 +5057,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'MUTOCOMPA' is confirmed for '28 Novembre 2026' at '21h' with matching URL.",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3112,
    "lng": 5.3832
   },
@@ -5364,7 +5091,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2965,
    "lng": 5.378
   },
@@ -5398,7 +5125,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Ecrans d'Aflam | Treat Me Like Your Mother de Mohamad Abdouni' on 'dimanche 29 novembre 2026 de 19h30 à 20h50' at the given URL.",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -5432,7 +5159,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '#Faire Famille - Machines à...' scheduled for '30/11/2026 - 09h' with the matching URL.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -5466,7 +5193,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5500,7 +5227,7 @@
    "verifier": "accept",
    "verifier_reason": "The market is listed on 'lundi 30 novembre' [2026-11-30] from '16h-20h' with URL 'https://www.lafriche.org/evenements/marche-paysan/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5534,7 +5261,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5568,7 +5295,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Le Carnaval des Animaux' scheduled for '1 décembre 2026' with the matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -5602,7 +5329,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Le Miracle Kirghiz – 1964-1975 | cycle cinéma' starting 'mardi 1 décembre 2026'.",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -5636,7 +5363,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -5670,7 +5397,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: \"mardi 1 décembre 2026 de 19h30 à 20h35\" with matching title and URL.",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -5704,7 +5431,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.383
   },
@@ -5738,7 +5465,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Les Petits Mercredis' is scheduled for 2026-12-02 with matching URL and description ('Impression, tissage, pliage... avec l\\'artiste Manon Garcia del Barrio').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5772,7 +5499,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed for mercredi 2 décembre 2026 ('mercredi 2 décembre', '[2026-12-02]') with matching URL and description.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5806,7 +5533,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is scheduled for 2026-12-02 at 15h as confirmed by the excerpt: \"Visite À petits pas\" with URL \"https://www.lafriche.org/evenements/visite-a-petits-pas-5/\".",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5841,7 +5568,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Ateliers & Médiation #Faire...' on '02/12/2026 - 10h' with the matching URL.",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -5875,7 +5602,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5909,7 +5636,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -5944,7 +5671,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is confirmed for 2026-12-02 (running through 2026-12-05) from 15h30 to 17h30 with the URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -5978,7 +5705,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6012,7 +5739,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is scheduled for 2026-12-02 at 16h / 17h with matching URL and details in the excerpt.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6046,7 +5773,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6080,7 +5807,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is clearly listed for [2026-12-02] from '18h-20h30' with matching URL and title.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6114,7 +5841,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is listed under '[2026-12-02]' at '19h' with title 'Kwibuka, se souvenir' and matching URL.",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -6148,7 +5875,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms the event on \"mercredi 2 décembre 2026 de 19h30 à 21h00\" with the matching URL and title.",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6182,7 +5909,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6216,7 +5943,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Visites apprenantes pour les...' on '03/12/2026 - 16h' at the extracted URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -6250,7 +5977,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'De la banalité du bien' is clearly listed for [2026-12-03] at 18h ('18h', 'Gratuit !').",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6284,7 +6011,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists 'Le Miracle Kirghiz – 1964-1975 | Djamilia (Джамиля - Dzamilja)' on 'jeudi 3 décembre 2026 de 19h30 à 21h00'.",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6318,7 +6045,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6353,7 +6080,7 @@
    "verifier": "accept",
    "verifier_reason": "Flyer and caption agree: \"JEUDI 03 DECEMBRE 2026\" at \"L'INTERMEDIAIRE 63 PL. JEAN JAURES - 13006 MARSEILLE\" with \"START: 21H00 / PAF: 10€\"; 2026-12-03 is indeed a Thursday, the date is after the 2026-11-09 publication, and nothing indicates cancellation.",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2942,
    "lng": 5.3855
   },
@@ -6387,7 +6114,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6421,7 +6148,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Trop chaud ! Le combat des Aînées pour le climat' is confirmed for 'vendredi 4 décembre' at '19h' with matching URL.",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -6455,7 +6182,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches excerpt: '4 Déc 2026 @ Le Dodu / 19:00' with title 'KRAV BOCA + Wake the Dead' and URL 'https://lemolotov.com/events/krav-boca-wake-the-dead/'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -6489,7 +6216,7 @@
    "verifier": "accept",
    "verifier_reason": "The screening is scheduled for 'vendredi 4 décembre 2026 de 19h30 à 21h15' with matching title and URL.",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -6523,7 +6250,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Dakeez à Marseille' on [2026-12-04] from '20h30-23h' at Cabaret Aléatoire with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6557,7 +6284,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"Arch Club\" on [2026-12-04] at \"23h30-04h30\" with the matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6591,7 +6318,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is listed for [2026-12-05] with URL https://www.lafriche.org/evenements/familytech-10/ and title 'FamilyTech'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6625,7 +6352,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'À quoi rêvent les méduses' is confirmed for 'samedi 5 décembre' (2026-12-05) at the matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6659,7 +6386,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'La BOUM BOOM BUM' on '5 décembre 2026' with URL https://theatre-lacriee.com/programmation/evenements/la-boum-boom-bum.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -6693,7 +6420,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6727,7 +6454,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2965,
    "lng": 5.378
   },
@@ -6761,7 +6488,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6795,7 +6522,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -6829,7 +6556,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6863,7 +6590,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6897,7 +6624,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is scheduled on [2026-12-05] at '15h / 16h / 17h' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -6931,7 +6658,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -6965,7 +6692,7 @@
    "verifier": "accept",
    "verifier_reason": "The film screening 'Naissance des pieuvres' is scheduled for 2026-12-05 at 18h with matching URL and details.",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.311,
    "lng": 5.386
   },
@@ -6999,7 +6726,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '5 Déc 2026 @ Le Molotov / 20:00' with event 'SETH GUEKO + Boucher + L’Amir’Al' and matching URL.",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -7033,7 +6760,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches excerpt '[2026-12-05T21:00:00+01:00] 5 Décembre 2026 21h' with title 'From Houston with love'.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3112,
    "lng": 5.3832
   },
@@ -7067,7 +6794,7 @@
    "verifier": "accept",
    "verifier_reason": "Listed under [2026-12-06] with matching URL and title 'Terre ludique'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -7101,7 +6828,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Un Dimanche aux Aygalades – décembre 2026' on 'Date : 6 décembre 2026' from '10h00 / 15h00'.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3528,
    "lng": 5.3647
   },
@@ -7135,7 +6862,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7169,7 +6896,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7203,7 +6930,7 @@
    "verifier": "accept",
    "verifier_reason": "Under 'lundi 7 décembre' [2026-12-07], the agenda lists 'Marché paysan' with hours '16h-20h' and URL 'https://www.lafriche.org/evenements/marche-paysan/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -7237,7 +6964,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7271,7 +6998,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Un moment suspendu' is scheduled for '8 - 11 décembre 2026' at Théâtre de La Criée.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -7305,7 +7032,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -7339,7 +7066,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is explicitly listed for '8 Déc 2026 @ Le Molotov / 20:00' with matching title and URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -7373,7 +7100,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: \"mardi 8 décembre 2026 de 20h00 à 21h00\" with matching title and URL.",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -7407,7 +7134,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Les Petits Mercredis' is listed for '[2026-12-09]' with matching URL and description.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -7441,7 +7168,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"Rhapsody in blue\" on \"9 décembre 2026\" with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -7475,7 +7202,7 @@
    "verifier": "accept",
    "verifier_reason": "The festival is clearly listed with date 'du mercredi 9 décembre 2026 au dimanche 13 décembre 2026' and matching URL.",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -7509,7 +7236,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7544,7 +7271,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is scheduled for 2026-12-09 from '15h30-17h30' with matching URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -7578,7 +7305,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7612,7 +7339,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches listing '[2026-12-09] Visite flash' with times '16h / 17h' and URL 'https://www.lafriche.org/evenements/visite-flash-16/'.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -7646,7 +7373,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7680,7 +7407,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7705,7 +7432,7 @@
    "free": null,
    "recurring": false,
    "image": "img/bb73adf00305.webp",
-   "image_source": "https://www.videodrome2.fr/wp-content/uploads/TRANSGAZE-EJ-2026-3-300x218.jpeg",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/TRANSGAZE-2026-MEA-12-300x218.jpg",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
    "source_kind": "html",
    "evidence": [
@@ -7714,7 +7441,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt: 'mercredi 9 décembre 2026 de 20h00 à 23h55' matching all extracted parameters.",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2937,
    "lng": 5.3826
   },
@@ -7748,7 +7475,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -7782,9 +7509,43 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
+  },
+  {
+   "uid": "6b4d79adadbc",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Ecotransféminismes [lsf]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-10",
+   "start_time": "18:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-ecotransfeminismes/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/6b4d79adadbc.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/rezbo5-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Ecotransféminismes [lsf] (https://www.videodrome2.fr/festival-trans-gaze-ecotransfeminismes/) [2026-12-10T18:00:00+01:00] jeudi 10 décembre 2026 de 18h00 à 19h00 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Marseille Dans le cadre de la 3ème édition du Festival"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "Excerpt confirms 'Festival Trans Gaze | Ecotransféminismes [lsf]' on 'jeudi 10 décembre 2026 de 18h00 à 19h00' at the given URL.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "b046ef738fd9",
@@ -7816,9 +7577,145 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '10 Déc 2026 @ Le Molotov / 20:00' with title 'METAL NIGHT: BREEDING CHAOS + KVÅRK + Clone Shop + Angel Guts' and matching URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
+  },
+  {
+   "uid": "563640ca2f63",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Duas Vezes João Liberada [Two Times João Liberada]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-10",
+   "start_time": "21:30:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-duas-vezes-joao-liberada-two-times-joao-liberada/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/563640ca2f63.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/joao2-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Duas Vezes João Liberada [Two Times João Liberada] (https://www.videodrome2.fr/festival-trans-gaze-duas-vezes-joao-liberada-two-times-joao-liberada/) [2026-12-10T21:30:00+01:00] jeudi 10 décembre 2026 de 21h30 à 22h40 Les séances de cinéma Videodrome 2 | 49, cours Julien | 1300"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'jeudi 10 décembre 2026 de 21h30 à 22h40' with the matching URL and title.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
+  },
+  {
+   "uid": "271b0f298b2d",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Atelier de Labo-fiction au Centre LGBTQIA+",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-11",
+   "start_time": "12:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-atelier-de-labo-fiction-au-centre-lgbtqia/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/271b0f298b2d.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/TRANSGAZE-2026-MEA-13-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Atelier de Labo-fiction au Centre LGBTQIA+ (https://www.videodrome2.fr/festival-trans-gaze-atelier-de-labo-fiction-au-centre-lgbtqia/) [2026-12-11T12:00:00+01:00] vendredi 11 décembre 2026 de 12h00 à 17h00 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Marseille "
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Festival Trans Gaze | Atelier de Labo-fiction au Centre LGBTQIA+' on 'vendredi 11 décembre 2026 de 12h00 à 17h00'.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
+  },
+  {
+   "uid": "acb08c9cdf37",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Carte blanche au South Asian Gang [lsf]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-11",
+   "start_time": "17:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-au-south-asian-gang-lsf/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/acb08c9cdf37.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/circus-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Carte blanche au South Asian Gang [lsf] (https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-au-south-asian-gang-lsf/) [2026-12-11T17:00:00+01:00] vendredi 11 décembre 2026 de 17h00 à 18h00 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Marseille Dans le"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Festival Trans Gaze | Carte blanche au South Asian Gang [lsf]' on 'vendredi 11 décembre 2026 de 17h00 à 18h00' at Videodrome 2.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
+  },
+  {
+   "uid": "3732cdfa951f",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Carte blanche au festival 9issassna [lsf]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-11",
+   "start_time": "19:30:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-au-festival-9issassna-lsf/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/3732cdfa951f.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/1-28-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Carte blanche au festival 9issassna [lsf] (https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-au-festival-9issassna-lsf/) [2026-12-11T19:30:00+01:00] vendredi 11 décembre 2026 de 19h30 à 20h30 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Marseille Dan"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'vendredi 11 décembre 2026 de 19h30 à 20h30' for 'Festival Trans Gaze | Carte blanche au festival 9issassna [lsf]' with the exact URL.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "129db2cba14f",
@@ -7850,9 +7747,43 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms '11 Déc 2026 @ Le Molotov / 20:00' for 'TÄRA' with URL 'https://lemolotov.com/events/tara/'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
+  },
+  {
+   "uid": "0f77be37b675",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Porn et performance sonore de Rrrrrose Azerty",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-11",
+   "start_time": "22:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-porn-et-performance-sonore-de-rrrrrose-azerty/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/0f77be37b675.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/stills_AORTA-films_Confess_02-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Porn et performance sonore de Rrrrrose Azerty (https://www.videodrome2.fr/festival-trans-gaze-porn-et-performance-sonore-de-rrrrrose-azerty/) [2026-12-11T22:00:00+01:00] vendredi 11 décembre 2026 de 22h00 à 23h30 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Mar"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Festival Trans Gaze | Porn et performance sonore de Rrrrrose Azerty' on 'vendredi 11 décembre 2026 de 22h00 à 23h30' with matching URL.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "9e676fd4d8a5",
@@ -7884,7 +7815,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Club Infiné Invite Nathan Fake Live + Guests' on [2026-12-11] from '23h-05h' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -7918,7 +7849,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'En apparence' is listed under [2026-12-12] with matching title and URL ('https://www.lafriche.org/evenements/en-apparence/').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -7952,7 +7883,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Les Résistantes' scheduled for '12 - 13 décembre 2026' with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -7986,7 +7917,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8020,7 +7951,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8055,9 +7986,43 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed in excerpt: \"Ateliers & Médiation #Faire... 12/12/2026 - 11h\" with matching URL.",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
+  },
+  {
+   "uid": "2bf9267a0f05",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Atelier d’écriture au Centre LBGTQIA+",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-12",
+   "start_time": "13:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-atelier-decriture-au-centre-lbgtqia/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/2bf9267a0f05.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/TRANSGAZE-2026-MEA-15-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Atelier d’écriture au Centre LBGTQIA+ (https://www.videodrome2.fr/festival-trans-gaze-atelier-decriture-au-centre-lbgtqia/) [2026-12-12T13:00:00+01:00] samedi 12 décembre 2026 de 13h00 à 17h00 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Marseille Dans le cadre"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "Confirmed by excerpt: \"Festival Trans Gaze | Atelier d’écriture au Centre LBGTQIA+\" scheduled for \"samedi 12 décembre 2026 de 13h00 à 17h00\".",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "c47c314df700",
@@ -8089,7 +8054,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8123,16 +8088,16 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
   {
-   "uid": "e568000ad4af",
+   "uid": "e926305bf320",
    "venue_id": "mucem",
    "venue_name": "Mucem",
    "category": "culture",
-   "title": "Atelier danses traditionnelles géorgiennes",
+   "title": "Atelier danse contemporaine et danses traditionnelles géorgiennes",
    "title_truncated": false,
    "title_completed_from": null,
    "start_date": "2026-12-12",
@@ -8147,17 +8112,17 @@
    "event_type": null,
    "free": false,
    "recurring": false,
-   "image": "img/e568000ad4af.webp",
+   "image": "img/e926305bf320.webp",
    "image_source": "https://mucem.org/uploads/2026/08/Atelier-de-danse-contemporaine-et-traditions-georgiennes-Natia-Chikvaidze-Credit-Kyriakos-Tarassidis-768x494.png",
    "source_url": "https://mucem.org/api/mainApi/posts/evenement?upcoming=1&perPage=100",
    "source_kind": "json",
    "evidence": [
-    "Atelier danses traditionnelles géorgiennes | 20261212 | 14:30"
+    "Atelier danse contemporaine et danses traditionnelles géorgiennes | 20261212 | 14:30"
    ],
    "verifier": null,
    "verifier_reason": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8191,7 +8156,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is confirmed for 2026-12-12 at 15h ('15h / 16h / 17h') at the matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -8225,7 +8190,7 @@
    "verifier": "accept",
    "verifier_reason": "Event 'NumériTech' is confirmed for 2026-12-12 with times '15h30-17h30' at URL https://www.lafriche.org/evenements/numeritech-9/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -8259,9 +8224,43 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
+  },
+  {
+   "uid": "ee9c191affeb",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | No Ordinary Man + Cherchez le garçon [lsf]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-12",
+   "start_time": "16:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-no-ordinary-man-cherchez-le-garcon-lsf/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/ee9c191affeb.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/no-ordinary2-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | No Ordinary Man + Cherchez le garçon [lsf] (https://www.videodrome2.fr/festival-trans-gaze-no-ordinary-man-cherchez-le-garcon-lsf/) [2026-12-12T16:00:00+01:00] samedi 12 décembre 2026 de 16h00 à 17h45 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Marseille Dans "
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The event is confirmed by the excerpt: 'Festival Trans Gaze | No Ordinary Man + Cherchez le garçon [lsf]' on 'samedi 12 décembre 2026 de 16h00 à 17h45'.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "59d2900b7b5c",
@@ -8293,7 +8292,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8310,7 +8309,7 @@
    "end_date": null,
    "end_time": null,
    "location_name": null,
-   "url": null,
+   "url": "https://www.cira-marseille.info/wp-content/uploads/2026/11/8-Causerie-decembre-2026-Ed.-sans-som-Hiver-95-96-Toulouse.pdf",
    "price": null,
    "summary": null,
    "status": "scheduled",
@@ -8322,12 +8321,12 @@
    "source_url": "https://www.cira-marseille.info/2025/08/a-venir/",
    "source_kind": "html",
    "evidence": [
-    "Le samedi 12 décembre 2026 à 17 heures Hiver 95-96 un mouvement social et étudiant à Toulouse par les éditions Sans nom (https://www.leseditionssansnom.com/)"
+    "Le samedi 12 décembre 2026 à 17 heures Hiver 95-96 un mouvement social et étudiant à Toulouse (https://www.cira-marseille.info/wp-content/uploads/2026/11/8-Causerie-decembre-2026-Ed.-sans-som-Hiver-95-96-Toulouse.pdf) par les éditions Sans nom"
    ],
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms under 'Prochaines causeries' that 'Le samedi 12 décembre 2026 à 17 heures' will feature 'Hiver 95-96 un mouvement social et étudiant à Toulouse'.",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3003,
    "lng": 5.3852
   },
@@ -8361,9 +8360,111 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.383
+  },
+  {
+   "uid": "6927eb100b7b",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Carte blanche à Aymé Riandey d’ArcHIVivantEs [lsf]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-12",
+   "start_time": "19:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-a-ayme-riandey-darchivivantes-lsf/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/6927eb100b7b.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/Erica_s-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Carte blanche à Aymé Riandey d’ArcHIVivantEs [lsf] (https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-a-ayme-riandey-darchivivantes-lsf/) [2026-12-12T19:00:00+01:00] samedi 12 décembre 2026 de 19h00 à 20h00 Les séances de cinéma Videodrome 2 | 49, cours Julien | 1300"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The event is confirmed by the excerpt: 'samedi 12 décembre 2026 de 19h00 à 20h00' with matching title and URL.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
+  },
+  {
+   "uid": "dcc707fb5f34",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Hija de Perra : tan inmunda y tan feliz + Homecoming Queenz [lsf]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-12",
+   "start_time": "21:30:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-hija-de-perra-tan-inmunda-y-tan-feliz-homecoming-queenz-lsf/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/dcc707fb5f34.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/maxresdefault-2048482973-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Hija de Perra : tan inmunda y tan feliz + Homecoming Queenz [lsf] (https://www.videodrome2.fr/festival-trans-gaze-hija-de-perra-tan-inmunda-y-tan-feliz-homecoming-queenz-lsf/) [2026-12-12T21:30:00+01:00] samedi 12 décembre 2026 de 21h30 à 23h15 Les séances de cinéma Videodrome "
+   ],
+   "verifier": "accept",
+   "verifier_reason": "Matches excerpt 'samedi 12 décembre 2026 de 21h30 à 23h15' for the film screening at Videodrome 2.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
+  },
+  {
+   "uid": "55c87000ae30",
+   "venue_id": "friche-la-belle-de-mai",
+   "venue_name": "Friche la Belle de Mai",
+   "category": "culture",
+   "title": "Le Rigoloto de Marsatac",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-13",
+   "start_time": "14:30:00",
+   "end_date": null,
+   "end_time": "19:00:00",
+   "location_name": null,
+   "url": "https://www.lafriche.org/evenements/le-rigoloto-de-marsatac/",
+   "price": "Gratuit !",
+   "summary": "Un grand loto de Noël avec de nombreux lots à gagner ! Une proposition de Marsatac",
+   "status": "scheduled",
+   "event_type": "Rencontre",
+   "free": null,
+   "recurring": false,
+   "image": "img/55c87000ae30.webp",
+   "image_source": "https://www.lafriche.org/app/uploads/2026/11/RIGOLOTO2-500x300.png",
+   "source_url": "https://www.lafriche.org/agenda/",
+   "source_kind": "html",
+   "evidence": [
+    "[2026-12-13] (https://www.lafriche.org/evenements/le-rigoloto-de-marsatac/) Rencontre (https://www.lafriche.org/agenda/?categorie=rencontre) Le Rigoloto de Marsatac (https://www.lafriche.org/evenements/le-rigoloto-de-marsatac/) Un grand loto de Noël avec de nombreux lots à gagner ! Une proposition d"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'Le Rigoloto de Marsatac' on [2026-12-13] from '14h30-19h' with matching URL and details.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.3105,
+   "lng": 5.3906
   },
   {
    "uid": "4aa9560d1b08",
@@ -8395,9 +8496,77 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.383
+  },
+  {
+   "uid": "78850fd0f2c4",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Plateau Radio 1 : Libre antenne ! [lsf]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-13",
+   "start_time": "16:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-1-libre-antenne-lsf/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/78850fd0f2c4.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/TRANSGAZE-2026-MEA-14-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Plateau Radio 1 : Libre antenne ! [lsf] (https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-1-libre-antenne-lsf/) [2026-12-13T16:00:00+01:00] dimanche 13 décembre 2026 de 16h00 à 17h30 Les séances de cinéma Videodrome 2 | 49, cours Julien | 13006 Marseille Dans le cad"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms 'dimanche 13 décembre 2026 de 16h00 à 17h30' with the matching URL and title.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
+  },
+  {
+   "uid": "8b086f1d6ce5",
+   "venue_id": "videodrome-2",
+   "venue_name": "Vidéodrome 2",
+   "category": "cinema",
+   "title": "Festival Trans Gaze | Plateau radio 2 : Corps contraints avec Harriet de G + Projection de Rasureitor: Peluquería disidente [lsf]",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2026-12-13",
+   "start_time": "18:30:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-2-corps-contraints-avec-harriet-de-g-projection-de-rasureitor-peluqueria-disidente-lsf/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/8b086f1d6ce5.webp",
+   "image_source": "https://www.videodrome2.fr/wp-content/uploads/TRANSGAZE-2026-MEA-16-300x218.jpg",
+   "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
+   "source_kind": "html",
+   "evidence": [
+    "Festival Trans Gaze | Plateau radio 2 : Corps contraints avec Harriet de G + Projection de Rasureitor: Peluquería disidente [lsf] (https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-2-corps-contraints-avec-harriet-de-g-projection-de-rasureitor-peluqueria-disidente-lsf/) [2026-12-13T18:30:0"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt confirms the event on 'dimanche 13 décembre 2026 de 18h30 à 20h30' with the matching URL.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.2937,
+   "lng": 5.3826
   },
   {
    "uid": "3904bbea2453",
@@ -8429,7 +8598,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms '13 Décembre 2026', '20h', and 'Théâtre de lumière et jeu d'ombre' at https://www.lembobineuse.biz/events/2026/12/13/lascelerate.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3112,
    "lng": 5.3832
   },
@@ -8463,7 +8632,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8497,7 +8666,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Marché paysan' on 'lundi 14 décembre' [2026-12-14] from '16h-20h' with URL 'https://www.lafriche.org/evenements/marche-paysan/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -8531,7 +8700,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8565,7 +8734,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8599,7 +8768,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Le mardi 15 décembre à 18 h 30' with the matching URL and details in the 2026 context.",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2994164,
    "lng": 5.3858632
   },
@@ -8633,7 +8802,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mardi 15 décembre' [2026-12-15] from '19h-20h' for 'Tomber sans bruit' at URL https://www.lafriche.org/evenements/tomber-sans-bruit/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -8667,7 +8836,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Les Petits Mercredis' on 'mercredi 16 décembre' ([2026-12-16]) at the matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -8701,7 +8870,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms 'Le Château des Carpathes' on '16 - 19 décembre 2026' with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -8735,7 +8904,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8769,7 +8938,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8803,7 +8972,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -8838,7 +9007,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 2026-12-16 from 15h30-17h30 with URL https://www.lafriche.org/evenements/entrez-libres-7/ and status 'Gratuit !'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -8872,7 +9041,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is scheduled on [2026-12-16] at '16h / 17h' with the corresponding URL.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -8906,7 +9075,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -8940,7 +9109,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'LOS FASTIDIOS' is confirmed for '16 Déc 2026 @ Le Molotov / 20:00' with matching URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -8974,7 +9143,7 @@
    "verifier": "accept",
    "verifier_reason": "The caption explicitly announces a future dated event: \"Jeudi 17 décembre / Les grandes Tables / Dernier épisode consacré à celles et ceux qui font vivre les grandes Tables de l'intérieur\", with \"25 € hors boissons\" and a reservation number. 2026-12-17 is indeed a Thursday, it falls after the publication date (2026-10-30), and the venue \"Les grandes Tables de la Friche\" matches Friche la Belle de Mai. No time is given for this date, so the null start_time is not contradicted, and nothing indicates cancellation.",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9008,7 +9177,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9042,7 +9211,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists '17 Déc 2026 @ Le Molotov / 20:00' with the matching title and URL.",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9076,7 +9245,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"Un moment suspendu\" on \"18 - 19 décembre 2026\" with the matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -9110,7 +9279,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9144,7 +9313,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the date [2026-12-18], time '23h30-04h30', title, and URL for the event at Friche la Belle de Mai.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9178,7 +9347,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the workshop 'FamilyTech' scheduled on 2026-12-19 ('15h30-17h30', 'Gratuit !') at URL https://www.lafriche.org/evenements/familytech-10/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9212,7 +9381,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists 'Dame Neige' on '19 décembre 2026' with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -9246,7 +9415,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9280,7 +9449,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9314,7 +9483,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9348,7 +9517,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -9382,7 +9551,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is confirmed for [2026-12-19] starting at 15h ('15h / 16h / 17h') at the extracted URL.",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9416,7 +9585,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"Ateliers & Médiation #Faire...\" on \"19/12/2026 - 16h\" with the matching URL.",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -9450,7 +9619,7 @@
    "verifier": "accept",
    "verifier_reason": "The event '2L' is confirmed for 19 Déc 2026 at 19:00 at Le Dodu with matching URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -9484,7 +9653,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Dj Schnake : All Night Long' on [2026-12-19] from '23h30-04h30' at the given URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9518,7 +9687,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Terre ludique' is listed for 'dimanche 20 décembre' [2026-12-20] at URL 'https://www.lafriche.org/evenements/terre-ludique/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9552,7 +9721,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9586,7 +9755,7 @@
    "verifier": "accept",
    "verifier_reason": "Listed under 'lundi 21 décembre' [2026-12-21] at '16h-20h' with URL https://www.lafriche.org/evenements/marche-paysan/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9621,7 +9790,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is confirmed for 'mercredi 23 décembre' from '15h30-17h30' with matching URL and details.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9655,7 +9824,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is confirmed for 2026-12-23 at '16h / 17h' with URL 'https://www.lafriche.org/evenements/visite-flash-16/'.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9689,7 +9858,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is scheduled on [2026-12-26] with sessions at '15h / 16h / 17h' and matches the URL https://www.lafriche.org/evenements/visite-flash-16/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9723,7 +9892,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9757,7 +9926,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9791,7 +9960,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9825,7 +9994,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9859,7 +10028,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Marché paysan' is scheduled on 'lundi 28 décembre' from '16h-20h' with URL 'https://www.lafriche.org/evenements/marche-paysan/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9893,7 +10062,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -9928,7 +10097,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is scheduled on 'mercredi 30 décembre' [2026-12-30] from '15h30-17h30' at the given URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -9962,7 +10131,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Visite flash' on [2026-12-30] at '16h / 17h' with matching URL and description.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10064,7 +10233,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10098,7 +10267,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -10132,7 +10301,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10166,7 +10335,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10200,7 +10369,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'dimanche 3 janvier' [2027-01-03] for 'Terre ludique' at https://www.lafriche.org/evenements/terre-ludique/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10234,7 +10403,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10268,7 +10437,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10302,7 +10471,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10336,7 +10505,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'L'Ecole des femmes' running '5 - 24 janvier 2027' with the corresponding URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -10371,7 +10540,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"Entrez libres\" on \"mercredi 6 janvier\" [2027-01-06] from \"15h30-17h30\" with the matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10405,7 +10574,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Visite flash' on [2027-01-06] (followed by 'jeudi 7 janvier') from '16h / 17h' at the extracted URL.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10439,7 +10608,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'FamilyTech' is scheduled under [2027-01-09] with matching URL and details ('Création d'hologrammes...').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10473,7 +10642,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Le Cryptozoologue' is scheduled on 2027-01-09 with matching URL and description ('Dans ce spectacle déambulatoire...').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10507,7 +10676,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10541,7 +10710,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10575,7 +10744,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10609,7 +10778,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is scheduled for 2027-01-09 with 'Visite flash' tours at '15h / 16h / 17h' at https://www.lafriche.org/evenements/visite-flash-16/.",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10643,7 +10812,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt clearly lists 'UP TOWN MUSIC BAND #25' on '10 Jan 2027' at '18:30' at '@ Le Molotov'.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -10677,7 +10846,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms 'Le Chant des Oiseaux' on '11 janvier 2027' with the corresponding URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -10711,7 +10880,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10745,7 +10914,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10780,7 +10949,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 13 janvier' [2027-01-13] with time '15h30-17h30' for 'Entrez libres'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10814,7 +10983,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Visite flash' is confirmed for 2027-01-13 with matching URL and times '16h / 17h' and 'Gratuit !'.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10848,7 +11017,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10882,7 +11051,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -10916,7 +11085,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed for 2027-01-16 starting at 15h with slots at '15h / 16h / 17h' ('Visite flash', 'Gratuit !').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10950,7 +11119,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'NumériTech' is listed under machine date [2027-01-16] with time '15h30-17h30', URL 'https://www.lafriche.org/evenements/numeritech-9/', and price 'Gratuit !'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -10984,7 +11153,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11018,7 +11187,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Terre ludique' is confirmed for dimanche 17 janvier 2027 ('[2027-01-17] dimanche 17 janvier') with URL 'https://www.lafriche.org/evenements/terre-ludique/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11052,7 +11221,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11086,7 +11255,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11120,7 +11289,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11154,7 +11323,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Gorfou-Tornade' is confirmed for '20 - 27 janvier 2027' with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -11189,7 +11358,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches 'mercredi 20 janvier' [2027-01-20], '15h30-17h30', and URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11223,7 +11392,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the concert '55ASKY + 1ère partie' on 2027-01-22 (followed by 'samedi 23 janvier' for the next day) from '19h30-22h30'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11257,7 +11426,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'FamilyTech' is scheduled for 2027-01-23 at the matching URL, confirmed by '[2027-01-23]' and 'dimanche 24 janvier'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11291,7 +11460,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Jouer le jeu' is scheduled for 'samedi 23 janvier' ([2027-01-23]) with matching URL and details.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11325,7 +11494,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11359,7 +11528,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11393,7 +11562,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11427,9 +11596,43 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
+  },
+  {
+   "uid": "feec8f483b73",
+   "venue_id": "cira-marseille",
+   "venue_name": "CIRA Marseille",
+   "category": "milite",
+   "title": "écoféminisme",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2027-01-23",
+   "start_time": "17:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": null,
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/feec8f483b73.webp",
+   "image_source": "https://www.cira-marseille.info/wp-content/uploads/2026/11/Passages-Le-feminisme--728x1024.jpg",
+   "source_url": "https://www.cira-marseille.info/2025/08/a-venir/",
+   "source_kind": "html",
+   "evidence": [
+    "Le samedi 23 janvier 2027 à 17 heures L’écoféminisme par la revue passages : vers une écologie radicale & féministe (https://www.editionslibre.org/produit/passages-le-feminisme-vers-une-ecologie-radicale-feministe/)"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt explicitly lists 'Le samedi 23 janvier 2027 à 17 heures L’écoféminisme' under 'Prochaines causeries'.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.3003,
+   "lng": 5.3852
   },
   {
    "uid": "6d2c4282f69b",
@@ -11461,7 +11664,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11495,7 +11698,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11529,7 +11732,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11563,7 +11766,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'L'hors-présence ou Chimères du pays de Morsan' running '27 - 30 janvier 2027' with URL 'https://theatre-lacriee.com/programmation/evenements/lhors-presence'.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -11598,7 +11801,7 @@
    "verifier": "accept",
    "verifier_reason": "Event 'Entrez libres' is confirmed for 'mercredi 27 janvier' (2027-01-27) at '15h30-17h30' at https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11633,7 +11836,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'En liesse' is listed under machine date [2027-01-28] matching the subsequent 'vendredi 29 janvier' header with url https://www.lafriche.org/evenements/en-liesse/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11667,7 +11870,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Gorfou-Tornade' on '29 - 30 janvier 2027' with URL 'https://theatre-lacriee.com/programmation/evenements/gorfou-tornade-astronef'.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -11701,7 +11904,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2953,
    "lng": 5.3815
   },
@@ -11735,7 +11938,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Sam Quealy' is scheduled for [2027-01-29] from '19h-22h30' at the given URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11769,7 +11972,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'FamilyTech' is confirmed for 2027-01-30 by the excerpt marker '[2027-01-30]' and matching URL 'https://www.lafriche.org/evenements/familytech-10/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -11803,7 +12006,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11837,7 +12040,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11871,7 +12074,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11905,7 +12108,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '31 Jan 2027 @ Le Molotov / 20:30' for 'PÆRISH + mirabelle' with URL https://lemolotov.com/events/paerish/.",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -11939,7 +12142,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -11973,7 +12176,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12007,7 +12210,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12041,7 +12244,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Fusées' runs '3 - 6 février 2027' at https://theatre-lacriee.com/programmation/evenements/fusees.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -12076,7 +12279,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 3 février' [2027-02-03], '15h30-17h30', title 'Entrez libres', and URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -12110,7 +12313,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'La Peau des autres' is scheduled for '5 - 6 février 2027' with matching URL.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -12144,7 +12347,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12178,7 +12381,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12212,7 +12415,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12246,7 +12449,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms '6 Fév 2027 @ Le Molotov / 20:30' for 'JOZEF VAN WISSEM' with URL 'https://lemolotov.com/events/jozef-van-wissem-2/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -12280,7 +12483,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12314,7 +12517,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists '7 Fév 2027 @ Le Dodu / 19:30' for 'THE OCEAN + A.A. Williams' at 'https://lemolotov.com/events/the-ocean-a-a-williams/'.",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -12348,7 +12551,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12382,7 +12585,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12416,7 +12619,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12450,7 +12653,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Comme un vertige...' is confirmed for 10 - 13 février 2027 with matching URL and scheduled status.",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -12485,7 +12688,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches excerpt for 'mercredi 10 février' at '15h30-17h30' with URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -12519,7 +12722,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Traversée' is confirmed for 2027-02-12 (supported by the following heading 'samedi 13 février' for 2027-02-13) at https://www.lafriche.org/evenements/traversee/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -12553,7 +12756,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Hyperboles' scheduled for '12 - 14 février 2027' at the corresponding URL.",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -12587,7 +12790,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Traversée' is listed for '[2027-02-13]' (confirmed by following heading 'mercredi 17 février' for 2027-02-17) at URL 'https://www.lafriche.org/evenements/traversee/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -12621,7 +12824,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -12655,7 +12858,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12689,7 +12892,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12723,9 +12926,43 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
+  },
+  {
+   "uid": "22816701c433",
+   "venue_id": "cira-marseille",
+   "venue_name": "CIRA Marseille",
+   "category": "milite",
+   "title": "Le paria et le colon : une autre histoire de l’antisémitisme",
+   "title_truncated": false,
+   "title_completed_from": null,
+   "start_date": "2027-02-13",
+   "start_time": "17:00:00",
+   "end_date": null,
+   "end_time": null,
+   "location_name": null,
+   "url": "https://editionsacratie.com/le-paria-et-le-colon-une-autre-histoire-de-lantisemitisme/",
+   "price": null,
+   "summary": null,
+   "status": "scheduled",
+   "event_type": null,
+   "free": null,
+   "recurring": false,
+   "image": "img/22816701c433.webp",
+   "image_source": "https://www.cira-marseille.info/wp-content/uploads/2026/11/cov_le-paria-et-le-colon-couv-612x1024.jpg",
+   "source_url": "https://www.cira-marseille.info/2025/08/a-venir/",
+   "source_kind": "html",
+   "evidence": [
+    "Le samedi 13 février 2027 à 17 heures Le paria et le colon : une autre histoire de l’antisémitisme (https://editionsacratie.com/le-paria-et-le-colon-une-autre-histoire-de-lantisemitisme/) par Pierre Stambul"
+   ],
+   "verifier": "accept",
+   "verifier_reason": "The excerpt explicitly lists 'Le samedi 13 février 2027 à 17 heures' for 'Le paria et le colon : une autre histoire de l’antisémitisme' under 'Prochaines causeries'.",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "lat": 43.3003,
+   "lng": 5.3852
   },
   {
    "uid": "29c96da9b48b",
@@ -12757,7 +12994,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12791,7 +13028,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12825,7 +13062,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -12860,7 +13097,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 17 février' [2027-02-17] from '15h30-17h30' at URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -12894,7 +13131,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Les temps incertains' from '18 - 20 février 2027' at 'https://theatre-lacriee.com/programmation/evenements/les-temps-incertains'.",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -12928,7 +13165,7 @@
    "verifier": "accept",
    "verifier_reason": "The play 'Marie Stuart' is confirmed for '18 - 20 février 2027' with matching URL and upcoming status.",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -12962,7 +13199,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Lewis OfMan au Grand Cab' is scheduled for 2027-02-18 from '19h30-22h30', matching the URL and details in the excerpt.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -12997,7 +13234,7 @@
    "verifier": "accept",
    "verifier_reason": "The event is confirmed by the excerpt showing 'samedi 20 février' [2027-02-20] with '3 pM – 3 petits Moments' and matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -13032,7 +13269,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13066,7 +13303,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13100,7 +13337,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13134,7 +13371,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13168,7 +13405,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13203,7 +13440,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 24 février' [2027-02-24] at '15h30-17h30' with matching URL and details.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -13238,7 +13475,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13272,7 +13509,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13306,7 +13543,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13341,7 +13578,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13376,7 +13613,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13410,7 +13647,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13444,7 +13681,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13478,7 +13715,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13513,7 +13750,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is scheduled on 'mercredi 3 mars' [2027-03-03] at '15h30-17h30' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -13547,7 +13784,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13581,7 +13818,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13615,7 +13852,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13649,7 +13886,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13683,7 +13920,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13717,7 +13954,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'MØL * WARM UP HEADBANG FESTIVAL*' is explicitly scheduled for '9 Mar 2027' at '20:00' at '@ Le Molotov' with matching URL.",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -13751,7 +13988,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'La Rive' is scheduled for '10 - 19 mars 2027' with the corresponding URL confirmed in the excerpt.",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2924,
    "lng": 5.368
   },
@@ -13786,7 +14023,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms \"mercredi 10 mars\" [2027-03-10] with time \"15h30-17h30\" for \"Entrez libres\" at https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -13820,7 +14057,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13854,7 +14091,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13888,7 +14125,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13922,7 +14159,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -13956,7 +14193,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt clearly lists '14 Mar 2027 @ Le Molotov / 18:30' for 'UP TOWN MUSIC BAND #26' at 5€.",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -13990,7 +14227,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14025,7 +14262,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 17 mars' at '15h30-17h30' with URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14059,7 +14296,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'What we talk about when we talk about skateboarding' is scheduled for 2027-03-19 at 19h as confirmed by the excerpt.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14093,7 +14330,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'What we talk about when we talk about skateboarding' is scheduled for '[2027-03-20]' at '17h' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14127,7 +14364,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14161,7 +14398,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14195,7 +14432,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14229,7 +14466,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14263,7 +14500,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14297,7 +14534,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Albatros' is confirmed for 'mercredi 24 mars' (2027-03-24) at the URL https://www.lafriche.org/evenements/albatros/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14331,7 +14568,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14366,7 +14603,7 @@
    "verifier": "accept",
    "verifier_reason": "Excerpt confirms 'Entrez libres' on 'mercredi 24 mars' ([2027-03-24]) from '15h30-17h30' at the given URL with free admission ('Gratuit !').",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14400,7 +14637,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14434,7 +14671,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14468,7 +14705,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14502,7 +14739,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14537,7 +14774,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches 'mercredi 31 mars' [2027-03-31] with time '15h30-17h30' and URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14571,7 +14808,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms the event 'Sens la foudre sous ma peau' scheduled under '[2027-04-02]' (preceding 'samedi 3 avril' [2027-04-03]) at Théâtre Massalia.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14605,7 +14842,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14639,7 +14876,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Sens la foudre sous ma peau' is confirmed for date [2027-04-03] at Théâtre Massalia with the matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14673,7 +14910,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14707,7 +14944,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14741,7 +14978,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14776,7 +15013,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 7 avril' ([2027-04-07]) at '15h30-17h30' with matching URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14810,7 +15047,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14844,7 +15081,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14879,7 +15116,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is listed on 'mercredi 14 avril' [2027-04-14] with time slot '15h30-17h30' and URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14913,7 +15150,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Les séparables' is scheduled for 2027-04-17 (confirmed by the subsequent 'mercredi 21 avril' anchor for 2027-04-21) at Friche la Belle de Mai.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -14947,7 +15184,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -14981,7 +15218,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15016,7 +15253,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15051,7 +15288,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 21 avril' at '15h30-17h30' with the matching URL and folded multiday run.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15085,7 +15322,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15119,7 +15356,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15153,7 +15390,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15187,7 +15424,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15221,7 +15458,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly lists '25 Avr 2027 @ Le Molotov / 20:00' for 'LONE ASSEMBLY + Alice Kean' at URL 'https://lemolotov.com/events/lone-assembly-alice-kean/'.",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -15255,7 +15492,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15290,7 +15527,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is listed under 'mercredi 28 avril' [2027-04-28] with timeslot '15h30-17h30' and URL matching https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15324,7 +15561,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15358,7 +15595,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15392,7 +15629,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15426,7 +15663,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15460,7 +15697,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15495,7 +15732,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 5 mai' (mai 2027) from '15h30-17h30' at the given URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15529,7 +15766,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15563,7 +15800,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15597,7 +15834,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15631,7 +15868,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15665,7 +15902,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt explicitly confirms '9 Mai 2027 @ Le Molotov / 18:30' for 'UP TOWN MUSIC BAND #27' at 'https://lemolotov.com/events/up-town-music-band-27/'.",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2938,
    "lng": 5.3835
   },
@@ -15699,7 +15936,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15734,7 +15971,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 12 mai' [2027-05-12] at '15h30-17h30' with URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15768,7 +16005,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15802,7 +16039,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15836,7 +16073,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15871,7 +16108,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is scheduled on 'mercredi 19 mai' (2027) from '15h30-17h30' with matching URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15905,7 +16142,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'samedi 22 mai' with machine date '[2027-05-22]' and URL 'https://www.lafriche.org/evenements/la-fabuleuse-histoire-de-basarkus/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -15939,7 +16176,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -15974,7 +16211,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 26 mai' [2027-05-26] at '15h30-17h30' with URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16008,7 +16245,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16043,7 +16280,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 2 juin' [2027-06-02] from '15h30-17h30' for 'Entrez libres' at the extracted URL.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16077,7 +16314,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16111,7 +16348,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16146,7 +16383,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 9 juin' [2027-06-09] with times '15h30-17h30' for 'Entrez libres'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16180,7 +16417,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16215,7 +16452,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is confirmed for mercredi 16 juin [2027-06-16] at '15h30-17h30' with matching URL and details.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16249,7 +16486,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16284,7 +16521,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches 'mercredi 23 juin' with machine tag [2027-06-23], time '15h30-17h30', and URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16318,7 +16555,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16353,7 +16590,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 30 juin' [2027-06-30] with hours '15h30-17h30' for 'Entrez libres'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16387,7 +16624,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -16421,7 +16658,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16456,7 +16693,7 @@
    "verifier": "accept",
    "verifier_reason": "Confirmed in excerpt for '[2027-07-07] mercredi 7 juillet' with time '15h30-17h30' and URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16491,7 +16728,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 14 juillet' at '15h30-17h30' with URL 'https://www.lafriche.org/evenements/entrez-libres-7/'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16526,7 +16763,7 @@
    "verifier": "accept",
    "verifier_reason": "Matches 'mercredi 21 juillet' with time '15h30-17h30' and URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16561,7 +16798,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is confirmed for mercredi 28 juillet [2027-07-28] with hours '15h30-17h30' and URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16595,7 +16832,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16630,7 +16867,7 @@
    "verifier": "accept",
    "verifier_reason": "The event 'Entrez libres' is confirmed for 'mercredi 4 août' [2027-08-04] at '15h30-17h30' with URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16665,7 +16902,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'Entrez libres' on 'mercredi 11 août' [2027-08-11] with time '15h30-17h30'.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16700,7 +16937,7 @@
    "verifier": "accept",
    "verifier_reason": "The excerpt confirms 'mercredi 18 août' [2027-08-18] with times '15h30-17h30' for 'Entrez libres' at URL https://www.lafriche.org/evenements/entrez-libres-7/.",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.3105,
    "lng": 5.3906
   },
@@ -16734,7 +16971,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16768,7 +17005,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.299,
    "lng": 5.3767
   },
@@ -16802,7 +17039,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16836,7 +17073,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   },
@@ -16870,7 +17107,7 @@
    "verifier": null,
    "verifier_reason": null,
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "lat": 43.2966941,
    "lng": 5.3610825
   }

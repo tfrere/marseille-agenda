@@ -220,33 +220,6 @@ LOCATION:La Camaraderie - La Camaraderie
 URL:https://www.instagram.com/p/DfKhlybNILA/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Visite Toute petite expo
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-UID:431d8509bebb@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:L'équipe de médiation donne rendez-vous aux petit·es visite
- ur·euses de 18 mois à 3 ans et à leurs accompagnant·es pour découvrir
-  les deux expositions de CHRONIQUES\, la Biennale des Imaginaires Numériq
- ues.\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/visite-toute-p
- etite-expo-9/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-toute-petite-expo-9/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visite À petits pas
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-UID:1dcbd09451b3@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Avec vos petit·es de 3 à 5 ans\, passez un moment avec l’
- équipe de médiation culturelle pour découvrir les deux expositions de C
- HRONIQUES\, la Biennale des Imaginaires Numériques.\nPrix : Gratuit !\nht
- tps://www.lafriche.org/evenements/visite-a-petits-pas-5/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-a-petits-pas-5/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le 6ème jour
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261126
@@ -256,57 +229,6 @@ DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-6eme-j
  our
 LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/le-6eme-jour
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
-  de la Martinerie
-DTSTART;TZID=Europe/Paris:20261118T140000
-DTEND;TZID=Europe/Paris:20261118T160000
-UID:4a0efdc18d52@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedi
- n-emma-pujar-les-residences-de-la-martinerie/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedin-emma-p
- ujar-les-residences-de-la-martinerie/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:★ Jeune public | Atelier d'initiation au cinéma
-DTSTART;TZID=Europe/Paris:20261118T140000
-DTEND;TZID=Europe/Paris:20261118T160000
-UID:4f4ed19260bb@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/%e2%98%85-jeune-public-atelier-dini
- tiation-au-cinema/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/%e2%98%85-jeune-public-atelier-dinitiation-
- au-cinema/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Hola Frida
-DTSTART;TZID=Europe/Paris:20261118T141500
-DTEND;TZID=Europe/Paris:20261118T161500
-UID:0fff0e8d4afa@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection gratuite dans le cadre du Festival des Solidarités
- \, porté par la Mairie des 2ème et 3ème arrondissements de Marseille Ap
- rès la séance\, des ateliers seront proposés par l’association APF Fr
- ance handicap\nhttps://cinemalegyptis.org/films/hola-frida-2/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/hola-frida-2/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Aide aux devoirs
-DTSTART;TZID=Europe/Paris:20261118T143000
-DTEND;TZID=Europe/Paris:20261118T173000
-UID:4cf8f1491a6b@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/51333308_aide-aux-devoirs-143
- 2396
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51333308
- _aide-aux-devoirs-1432396
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
@@ -321,97 +243,6 @@ DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
  afriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Club de lecture
-DTSTART;TZID=Europe/Paris:20261118T160000
-DTEND;TZID=Europe/Paris:20261118T173000
-UID:45c9caf299be@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/43862616_club-de-lecture-8489
- 214
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/43862616
- _club-de-lecture-8489214
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visite flash
-DTSTART;TZID=Europe/Paris:20261118T160000
-DTEND;TZID=Europe/Paris:20261118T170000
-UID:7f66ee4d1ddd@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
-  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-flash-16/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lectures en salle
-DTSTART;TZID=Europe/Paris:20261118T163000
-DTEND;TZID=Europe/Paris:20261118T170000
-UID:0fad5442d055@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/67093975_lectures-en-salle-55
- 13746
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/67093975
- _lectures-en-salle-5513746
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Santé mentale: analyse d'un concept à la mode
-DTSTART;TZID=Europe/Paris:20261118T170000
-DTEND;TZID=Europe/Paris:20261118T190000
-UID:21b12969a8d9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/29756227_rencontre-avec-les-a
- mis-du-monde-diplomatique
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/29756227
- _rencontre-avec-les-amis-du-monde-diplomatique
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Santé mentale : analyse d’un concept à la mode
-DTSTART;TZID=Europe/Paris:20261118T170000
-DTEND;TZID=Europe/Paris:20261118T190000
-UID:49187c538482@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:Le mercredi 18 novembre\, à 17 heures\, à la Bibliothèque l
- ’Alcazar\, 58\, cours Belsunce à Marseille 1er\, rencontre avec Angéli
- que Mounier-Kuhn\, membre de la rédaction du Monde diplomatique\, coordin
- atrice du Manière de voir « Santé mentale....\nhttps://www.amis.monde-d
- iplomatique.fr/Sante-mentale-analyse-d-un-concept-a-la-mode.html
-LOCATION:Amis du Monde diplomatique - Marseille
-URL:https://www.amis.monde-diplomatique.fr/Sante-mentale-analyse-d-un-conc
- ept-a-la-mode.html
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Séance de soutien à Noailles Debout ! | Dormir à Noailles dep
- uis de Tuia Cherici
-DTSTART;TZID=Europe/Paris:20261118T180000
-DTEND;TZID=Europe/Paris:20261118T200000
-UID:0f2c201ec410@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/seance-de-soutien-dormir-a-noailles
- -depuis-de-tuia-cherici/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/seance-de-soutien-dormir-a-noailles-depuis-
- de-tuia-cherici/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-club : Mal vu mal dit #21 | Les Mendiants de la vie de Willi
- am Wellman
-DTSTART;TZID=Europe/Paris:20261118T203000
-DTEND;TZID=Europe/Paris:20261118T223000
-UID:d3ce4a90b448@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/cine-club-mal-vu-mal-dit-21-les-men
- diants-de-la-vie-de-william-wellman/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/cine-club-mal-vu-mal-dit-21-les-mendiants-d
- e-la-vie-de-william-wellman/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:28e Rencontres du cinéma Sud-Américain
@@ -595,6 +426,16 @@ SUMMARY:MARCUS GAD & Tribe
 DTSTART;TZID=Europe/Paris:20261120T190000
 DTEND;TZID=Europe/Paris:20261120T210000
 UID:54c445acbc14@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/marcus-gad-tribe-2/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/marcus-gad-tribe-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARCUS GAD & Tribe + Old Sound Makers
+DTSTART;TZID=Europe/Paris:20261120T190000
+DTEND;TZID=Europe/Paris:20261120T210000
+UID:6e49f7b80c6f@marseille-agenda
 CATEGORIES:bars
 DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/marcus-gad-tribe-2/
 LOCATION:Le Molotov - @ Le Dodu
@@ -844,6 +685,16 @@ SUMMARY:SPIDER ZED
 DTSTART;TZID=Europe/Paris:20261121T190000
 DTEND;TZID=Europe/Paris:20261121T210000
 UID:36b51964ef9b@marseille-agenda
+CATEGORIES:bars
+DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/spider-zed/
+LOCATION:Le Molotov - @ Le Dodu
+URL:https://lemolotov.com/events/spider-zed/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SPIDER ZED + Mathilde
+DTSTART;TZID=Europe/Paris:20261121T190000
+DTEND;TZID=Europe/Paris:20261121T210000
+UID:b6c6db8307fd@marseille-agenda
 CATEGORIES:bars
 DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/spider-zed/
 LOCATION:Le Molotov - @ Le Dodu
@@ -1439,6 +1290,20 @@ URL:https://www.lafriche.org/evenements/plus20-marseille-ville-cooperative
  /
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Guerrilha Ecológica
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20270117
+UID:e2a1ac2162aa@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Une exposition photographique qui présente le travail de l'ar
+ tiste brésilien Alex Oliveira suite à sa résidence de deux mois à la F
+ riche la Belle de Mai. Une proposition de Institut Sacatar\, Villa Fatumbi
+  et Institut français du Brésil\nPrix : Gratuit !\nhttps://www.lafriche.
+ org/evenements/guerrilha-ecologica/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/guerrilha-ecologica/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Présentation musicale brésilienne
 DTSTART;TZID=Europe/Paris:20261127T180000
 DTEND;TZID=Europe/Paris:20261127T200000
@@ -1472,6 +1337,16 @@ DESCRIPTION:https://transit-librairie.org/Presentation-de-Desastree-poetiq
 LOCATION:Transit librairie
 URL:https://transit-librairie.org/Presentation-de-Desastree-poetique-du-no
  m-juif
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FIVIA | Tech v/s Tech
+DTSTART;TZID=Europe/Paris:20261127T190000
+DTEND;TZID=Europe/Paris:20261127T210000
+UID:df9f1b7b8e43@marseille-agenda
+CATEGORIES:cinema
+DESCRIPTION:https://www.videodrome2.fr/fivia-tech-v-s-tech-panorama/
+LOCATION:Vidéodrome 2
+URL:https://www.videodrome2.fr/fivia-tech-v-s-tech-panorama/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FIVIA | Tech v/s Tech / Panorama
@@ -1563,6 +1438,18 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/baby-populaire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/baby-populaire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Marché du Samedi Vert
+DTSTART;TZID=Europe/Paris:20261128T110000
+DTEND;TZID=Europe/Paris:20261128T160000
+UID:7676077faef4@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Le Black Friday éco-responsable Une proposition de Transforam
+ a - La Ruche\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mar
+ che-du-samedi-vert-2/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-marche-du-samedi-vert-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AMOUR ET BARRICADES\, la Grande Crémaillère
@@ -2370,6 +2257,19 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/dimanche-entree-libre/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Labo des désirs
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261212
+UID:578fbcc4e831@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Projet participatif et convivial de création et programmation
+  collective ouvert à tous·tes une semaine par mois. Une proposition de r
+ ésident·es et associations du quartier\nPrix : Entrée libre\nhttps://ww
+ w.lafriche.org/evenements/labo-des-desirs-3/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/labo-des-desirs-3/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
  Âge européen et byzantin\, du Ve au XVe siècle.
 DTSTART;TZID=Europe/Paris:20261207T140000
@@ -2564,6 +2464,21 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/2212213_
  projection-escales-ina-kamal-jumblatt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ce soir je mange avec… Jérôme Raffaeli et Kevin Yau
+DTSTART;TZID=Europe/Paris:20261209T193000
+DTEND;TZID=Europe/Paris:20261209T213000
+UID:fa5b9538acb0@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Avant-dernier repas de cette série culinaire qui part à la r
+ encontre des cuisiniers et cuisinières dont les recettes font vivre un h
+ éritage chargé d'histoires\, de gestes et de souvenirs ! Une proposition
+  de Les Grandes Tables\nhttps://www.lafriche.org/evenements/ce-soir-je-man
+ ge-avec-jerome-raffaeli-et-kevin-yau/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/ce-soir-je-mange-avec-jerome-raffa
+ eli-et-kevin-yau/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Trans Gaze | Soirée d’ouverture : L’EJ c’est le S
@@ -2958,8 +2873,8 @@ URL:https://www.facebook.com/events/1445571474368966/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Trans Gaze | Plateau Radio 1 : Libre antenne ! [lsf]
-DTSTART;TZID=Europe/Paris:20261213T160000
-DTEND;TZID=Europe/Paris:20261213T180000
+DTSTART;TZID=Europe/Paris:20261213T154500
+DTEND;TZID=Europe/Paris:20261213T174500
 UID:78850fd0f2c4@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-1
@@ -3017,6 +2932,19 @@ DESCRIPTION:Le traditionnel marché des producteurs\, tous les lundis\, po
   libre\nhttps://www.lafriche.org/evenements/marche-paysan/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/marche-paysan/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marché paysan de Noël
+DTSTART;TZID=Europe/Paris:20261214T160000
+DTEND;TZID=Europe/Paris:20261214T200000
+UID:532ffa46a8c9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:L'habituel Marché Paysan des lundis soir se pare pour les fê
+ tes de ses plus beaux produits ! Une proposition de Les Grandes Tables\nPr
+ ix : Entrée libre\nhttps://www.lafriche.org/evenements/marche-paysan-de-n
+ oel-2/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/marche-paysan-de-noel-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IA\, on n’arrête (pas) le progrès
@@ -3176,17 +3104,6 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/los-fastidios-3/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Les grandes Tables
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-UID:b026868cf95d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : 25 € hors boissons\nhttps://www.instagram.com/p/DfHnv
- OGjVmk/
-LOCATION:Friche la Belle de Mai
-URL:https://www.instagram.com/p/DfHnvOGjVmk/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rencontre nationale des ethnopôles 2026
 DTSTART;TZID=Europe/Paris:20261217T090000
 DTEND;TZID=Europe/Paris:20261217T170000
@@ -3196,6 +3113,21 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
  e-des-ethnopoles-2026/
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/rencontre-nationale-des-ethnopoles-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ce soir je mange avec… Les grandes Tables !
+DTSTART;TZID=Europe/Paris:20261217T193000
+DTEND;TZID=Europe/Paris:20261217T213000
+UID:5b90be15e20e@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Dernier épisode de cette série culinaire\, qui pendant tout 
+ l'automne est parti à la rencontre des cuisiniers et cuisinières dont le
+ s recettes font vivre un héritage chargé d'histoires\, de gestes et de s
+ ouvenirs ! Une proposition de Les G...\nhttps://www.lafriche.org/evenement
+ s/ce-soir-je-mange-avec-les-grandes-tables/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/ce-soir-je-mange-avec-les-grandes-
+ tables/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:WHEN VENUS WEEPS + Lifeboats + Guests

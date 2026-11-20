@@ -267,68 +267,6 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/boat-people
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maghreb des anthropologues : acteurs\, pratiques et espaces
-DTSTART;TZID=Europe/Paris:20261119T090000
-DTEND;TZID=Europe/Paris:20261119T180000
-UID:05b8c17334ee@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/maghreb-des-anthro
- pologues-acteurs-pratiques-et-espaces/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/maghreb-des-anthropologues-acteurs-pratiqu
- es-et-espaces/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Open studios
-DTSTART;TZID=Europe/Paris:20261119T160000
-DTEND;TZID=Europe/Paris:20261119T200000
-UID:91774d04cd4d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Découvrez les travaux en cours des artistes en résidence. Un
- e proposition de Triangle-Astérides\nPrix : Gratuit !\nhttps://www.lafric
- he.org/evenements/open-studios-5/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/open-studios-5/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Informer en démocratie : enjeux et responsabilités des médias e
- uropéens aujourd’hui
-DTSTART;TZID=Europe/Paris:20261119T173000
-DTEND;TZID=Europe/Paris:20261119T220000
-UID:bd6153518342@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/93306956_rencontres-sur-le-jo
- urnalisme
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/93306956
- _rencontres-sur-le-journalisme
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "La Palestine en procès"
-DTSTART;TZID=Europe/Paris:20261119T190000
-DTEND;TZID=Europe/Paris:20261119T210000
-UID:cd38fe3c241f@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-La-Palestine-en-
- proces
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-La-Palestine-en-proces
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DOUBLE VISION : ON LOOKING | Man Number 4 + The Rib of the Greater
-  Bay Area
-DTSTART;TZID=Europe/Paris:20261119T193000
-DTEND;TZID=Europe/Paris:20261119T213000
-UID:d89f9af4c2af@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/double-vision-on-looking-man-number
- -4-the-rib-of-the-greater-bay-area/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/double-vision-on-looking-man-number-4-the-r
- ib-of-the-greater-bay-area/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Boat People
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
@@ -340,26 +278,6 @@ DESCRIPTION:Quand deux langues\, deux mondes différents se rencontrent :
  ments/boat-people/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/boat-people/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Musique saillante
-DTSTART;TZID=Europe/Paris:20261119T200000
-DTEND;TZID=Europe/Paris:20261119T220000
-UID:01e6de9c7f3a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/19/toru-convulsif
-LOCATION:L'Embobineuse
-URL:https://www.lembobineuse.biz/events/2026/11/19/toru-convulsif
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MASSIMO SILVERIO + Misé Babilha
-DTSTART;TZID=Europe/Paris:20261119T200000
-DTEND;TZID=Europe/Paris:20261119T220000
-UID:4fc80f2944c8@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://lemolotov.com/events/massimo-silverio-mise-babilha/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/massimo-silverio-mise-babilha/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CEL RAY (punk chicago) SCHLAGG (garage toulon) GANAGOBIE (electro 
@@ -503,6 +421,19 @@ SUMMARY:Conférence "La condition de l'exilé"
 DTSTART;TZID=Europe/Paris:20261121T103000
 DTEND;TZID=Europe/Paris:20261121T123000
 UID:9bd2ab6c8290@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/51839315_conference-la-condit
+ ion-de-lexile
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51839315
+ _conference-la-condition-de-lexile
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La condition de l'exilé
+DTSTART;TZID=Europe/Paris:20261121T110000
+DTEND;TZID=Europe/Paris:20261121T123000
+UID:fc89e4950fd6@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
  a.com/bibliotheque-lalcazar-marseille/events/51839315_conference-la-condit
@@ -1304,6 +1235,19 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/guerrilha-ecologica/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Nous nous sommes tant aimés (C'eravamo tanto amati)
+DTSTART;TZID=Europe/Paris:20261127T173000
+DTEND;TZID=Europe/Paris:20261127T190000
+UID:72c294a221c7@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/66493168_nous-nous-sommes-tan
+ t-aimes-ceravamo-tanto-amati
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/66493168
+ _nous-nous-sommes-tant-aimes-ceravamo-tanto-amati
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Présentation musicale brésilienne
 DTSTART;TZID=Europe/Paris:20261127T180000
 DTEND;TZID=Europe/Paris:20261127T200000
@@ -1999,6 +1943,20 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/71916418
  _club-de-lecture-ado-4484519
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:L'accès au droit en contexte migratoire - Rencontre avec Claire H
+ édon
+DTSTART;TZID=Europe/Paris:20261204T170000
+DTEND;TZID=Europe/Paris:20261204T220000
+UID:771bf51f707f@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/38188455_lacces-au-droit-en-c
+ ontexte-migratoire-rencontre-avec-claire-hedon
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/38188455
+ _lacces-au-droit-en-contexte-migratoire-rencontre-avec-claire-hedon
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Trop chaud ! Le combat des Aînées pour le climat
 DTSTART;TZID=Europe/Paris:20261204T190000
 DTEND;TZID=Europe/Paris:20261204T210000
@@ -2107,6 +2065,19 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/60187133
  _eveil-musical-9524766
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Table ronde "Voir Venir. Ecrire l'hospitalité"
+DTSTART;TZID=Europe/Paris:20261205T103000
+DTEND;TZID=Europe/Paris:20261205T123000
+UID:9fc511b14cef@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/18043497_table-ronde-voir-ven
+ ir-ecrire-lhospitalite
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/18043497
+ _table-ronde-voir-venir-ecrire-lhospitalite
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Braderie d'affiches !
@@ -3459,31 +3430,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/visite-flash-16/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lectures en salle
-DTSTART;TZID=Europe/Paris:20261230T163000
-DTEND;TZID=Europe/Paris:20261230T170000
-UID:1f2e250422c7@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/56292444_lectures-en-salle-72
- 00832
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/56292444
- _lectures-en-salle-7200832
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A déterminer
-DTSTART;TZID=Europe/Paris:20261230T180000
-DTEND;TZID=Europe/Paris:20261230T200000
-UID:7d6410f3513d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/69013579_a-determiner-775623
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/69013579
- _a-determiner-775623
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le banquet des images
 DTSTART;TZID=Europe/Paris:20261231T110000
 DTEND;TZID=Europe/Paris:20261231T130000
@@ -3580,6 +3526,19 @@ DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/lecole-de
 LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/lecole-des-femmes
  -2627
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aide aux devoirs
+DTSTART;TZID=Europe/Paris:20270106T143000
+DTEND;TZID=Europe/Paris:20270106T173000
+UID:010e4a962fae@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/50339861_aide-aux-devoirs-427
+ 8690
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/50339861
+ _aide-aux-devoirs-4278690
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
@@ -3722,6 +3681,19 @@ LOCATION:Mucem - J4 / Auditorium
 URL:https://mucem.org/evenement/queer-attitude-amour-gloire-et-combat/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Aide aux devoirs
+DTSTART;TZID=Europe/Paris:20270113T143000
+DTEND;TZID=Europe/Paris:20270113T173000
+UID:4aae56c34f65@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/16789033_aide-aux-devoirs-387
+ 629
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/16789033
+ _aide-aux-devoirs-387629
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Entrez libres
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270117
@@ -3862,6 +3834,19 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/gorfou-tornade
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Aide aux devoirs
+DTSTART;TZID=Europe/Paris:20270120T143000
+DTEND;TZID=Europe/Paris:20270120T173000
+UID:8d42c0e15dff@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/5585528_aide-aux-devoirs-2998
+ 587
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/5585528_
+ aide-aux-devoirs-2998587
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Entrez libres
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270124
@@ -3874,6 +3859,19 @@ DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
  afriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ateliers numériques Parentalité
+DTSTART;TZID=Europe/Paris:20270122T180000
+DTEND;TZID=Europe/Paris:20270122T203000
+UID:e52c30c8206b@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/89092047_ateliers-numeriques-
+ parentalite
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/89092047
+ _ateliers-numeriques-parentalite
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:55ASKY + 1ère partie
@@ -4011,6 +4009,32 @@ DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/lhors-pre
  sence
 LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/lhors-presence
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Microphoto
+DTSTART;TZID=Europe/Paris:20270127T100000
+DTEND;TZID=Europe/Paris:20270127T123000
+UID:2f6168856303@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/26064076_lieux-pas-communs-st
+ imuler-explorer-and-photographier
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/26064076
+ _lieux-pas-communs-stimuler-explorer-and-photographier
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aide aux devoirs
+DTSTART;TZID=Europe/Paris:20270127T143000
+DTEND;TZID=Europe/Paris:20270127T173000
+UID:36ea6eeaddf3@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/22876766_aide-aux-devoirs-390
+ 5229
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/22876766
+ _aide-aux-devoirs-3905229
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres

@@ -106,18 +106,6 @@ LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/souffles-terrestres
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261126
-UID:47435b944c38@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261214
@@ -172,6 +160,18 @@ DESCRIPTION:Après 20 ans à la Friche\, le grand atelier de LFKs est lui-
  ents/la-vie-farpaite/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/la-vie-farpaite/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261126
+UID:47435b944c38@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Visites Flash
@@ -280,131 +280,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/boat-people/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CEL RAY (punk chicago) SCHLAGG (garage toulon) GANAGOBIE (electro 
- punk dub tradi marseille)
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-UID:b31ad6c3f767@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Concert featuring CEL RAY\, SCHLAGG\, and GANAGOBIE.\nPrix : 7
- €\nhttps://www.instagram.com/p/De4tAQxohzn/
-LOCATION:L'Intermédiaire - L'Intermédiaire
-URL:https://www.instagram.com/p/De4tAQxohzn/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Showing up
-DTSTART;TZID=Europe/Paris:20261120T150000
-DTEND;TZID=Europe/Paris:20261120T180000
-UID:7f584e515736@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/51959732_showing-up
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51959732
- _showing-up
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Club de lecture ado
-DTSTART;TZID=Europe/Paris:20261120T170000
-DTEND;TZID=Europe/Paris:20261120T183000
-UID:77bc555f0f54@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/15479094_club-de-lecture-ado-
- 8266790
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/15479094
- _club-de-lecture-ado-8266790
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:4e Soirée poétique : Tox – Détox
-DTSTART;TZID=Europe/Paris:20261120T183000
-DTEND;TZID=Europe/Paris:20261120T203000
-UID:a57c16a93eac@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Une soirée poétique antipoétique pour détoxifier sa toxici
- té par l'écriture\, le slam\, la musique et plus.\nPrix : Cash uniquemen
- t\nhttps://www.instagram.com/p/Dfl5we5uunM/
-LOCATION:La Colorada - La Colorada
-URL:https://www.instagram.com/p/Dfl5we5uunM/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Des films en commun #34 | Possible + La Genèse + Les Goudes
-DTSTART;TZID=Europe/Paris:20261120T183000
-DTEND;TZID=Europe/Paris:20261120T203000
-UID:657ac25ddc91@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/des-films-en-commun-34-possible-la-
- genese/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/des-films-en-commun-34-possible-la-genese/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MARCUS GAD & Tribe
-DTSTART;TZID=Europe/Paris:20261120T190000
-DTEND;TZID=Europe/Paris:20261120T210000
-UID:54c445acbc14@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/marcus-gad-tribe-2/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/marcus-gad-tribe-2/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MARCUS GAD & Tribe + Old Sound Makers
-DTSTART;TZID=Europe/Paris:20261120T190000
-DTEND;TZID=Europe/Paris:20261120T210000
-UID:6e49f7b80c6f@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 26€\nhttps://lemolotov.com/events/marcus-gad-tribe-2/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/marcus-gad-tribe-2/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Tura Kan" de Soraya Amrane
-DTSTART;TZID=Europe/Paris:20261120T190000
-DTEND;TZID=Europe/Paris:20261120T210000
-UID:6378823d5c75@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Tura-Kan-de-Sora
- ya-Amrane
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Tura-Kan-de-Soraya-Amran
- e
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:14 Images | La Quatorzaine du Doc
-DTSTART;TZID=Europe/Paris:20261120T203000
-DTEND;TZID=Europe/Paris:20261120T223000
-UID:f7b3320ca8ca@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/14-images-la-quatorzaine-du-doc/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/14-images-la-quatorzaine-du-doc/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MENACE DRUM’N’BASS NIGHT XIII
-DTSTART;TZID=Europe/Paris:20261120T220000
-DTEND;TZID=Europe/Paris:20261121T000000
-UID:85839cd86ab8@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 12€\nhttps://lemolotov.com/events/menace-drumnbass-ni
- ght-xiii/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/menace-drumnbass-night-xiii/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Club Cabaret
-DTSTART;TZID=Europe/Paris:20261120T230000
-DTEND;TZID=Europe/Paris:20261120T050000
-UID:ca02bf6e83a9@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Le rendez-vous émergence & découverte des musiques électron
- iques Une proposition de Cabaret Aléatoire\nhttps://www.lafriche.org/even
- ements/club-cabaret-9/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/club-cabaret-9/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Le clown comme un poème
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
@@ -415,19 +290,6 @@ DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-clown-
 LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/le-clown-comme-un
  -poeme
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Conférence "La condition de l'exilé"
-DTSTART;TZID=Europe/Paris:20261121T103000
-DTEND;TZID=Europe/Paris:20261121T123000
-UID:9bd2ab6c8290@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/51839315_conference-la-condit
- ion-de-lexile
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51839315
- _conference-la-condition-de-lexile
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La condition de l'exilé
@@ -610,16 +472,6 @@ DESCRIPTION:Dans le cadre de la 28ème édition des rencontres du cinéma
  is.org/films/cumbia-que-te-vas-de-ronda/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/cumbia-que-te-vas-de-ronda/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SPIDER ZED
-DTSTART;TZID=Europe/Paris:20261121T190000
-DTEND;TZID=Europe/Paris:20261121T210000
-UID:36b51964ef9b@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/spider-zed/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/spider-zed/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SPIDER ZED + Mathilde
@@ -1287,16 +1139,6 @@ SUMMARY:FIVIA | Tech v/s Tech
 DTSTART;TZID=Europe/Paris:20261127T190000
 DTEND;TZID=Europe/Paris:20261127T210000
 UID:df9f1b7b8e43@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/fivia-tech-v-s-tech-panorama/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/fivia-tech-v-s-tech-panorama/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FIVIA | Tech v/s Tech / Panorama
-DTSTART;TZID=Europe/Paris:20261127T190000
-DTEND;TZID=Europe/Paris:20261127T210000
-UID:0cd84edde698@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:https://www.videodrome2.fr/fivia-tech-v-s-tech-panorama/
 LOCATION:Vidéodrome 2
@@ -2648,6 +2490,19 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/17086084
  _kamishibai-2171879
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Veilleurs de nuits
+DTSTART;TZID=Europe/Paris:20261212T103000
+DTEND;TZID=Europe/Paris:20261212T120000
+UID:84beefe2be17@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/81198579_veilleurs-de-nuits-p
+ rojection-suivie-dun-echange-avec
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/81198579
+ _veilleurs-de-nuits-projection-suivie-dun-echange-avec
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ateliers & Médiation #Faire Famille – Machines à Histoires et 
  Zelie – Les résidences de la Martinerie
 DTSTART;VALUE=DATE:20261212
@@ -2993,6 +2848,17 @@ URL:https://theatre-lacriee.com/programmation/evenements/le-chateau-des-ca
  rpathes
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Faire autrement l’ethnologie - 30 du label Ethnopôle
+DTSTART;TZID=Europe/Paris:20261216T090000
+DTEND;TZID=Europe/Paris:20261216T173000
+UID:59dee3831ad5@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
+ e-des-ethnopoles-2026/
+LOCATION:Mucem - Fort Saint-Jean / MucemLab
+URL:https://mucem.org/evenement/rencontre-nationale-des-ethnopoles-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rencontre nationale des ethnopôles 2026
 DTSTART;TZID=Europe/Paris:20261216T090000
 DTEND;TZID=Europe/Paris:20261216T173000
@@ -3073,6 +2939,17 @@ CATEGORIES:bars
 DESCRIPTION:Prix : 15€\nhttps://lemolotov.com/events/los-fastidios-3/
 LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/los-fastidios-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Faire autrement l’ethnologie - 30 du label Ethnopôle
+DTSTART;TZID=Europe/Paris:20261217T090000
+DTEND;TZID=Europe/Paris:20261217T170000
+UID:df0df2efcdb7@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
+ e-des-ethnopoles-2026/
+LOCATION:Mucem - Fort Saint-Jean / MucemLab
+URL:https://mucem.org/evenement/rencontre-nationale-des-ethnopoles-2026/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rencontre nationale des ethnopôles 2026

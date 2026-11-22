@@ -231,20 +231,6 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/le-6eme-jour
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Entrez libres
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261122
-UID:f0f189db4219@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
-  propose de découvrir un ensemble d'activités créatives en lien avec la
-  résistance : Venez jouer en autonomie avec les codes de la vidéo survei
- llance\, de l’IA ou des techniques L...\nPrix : Gratuit !\nhttps://www.l
- afriche.org/evenements/entrez-libres-7/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:28e Rencontres du cinéma Sud-Américain
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
@@ -254,30 +240,6 @@ DESCRIPTION:https://drive.google.com/file/d/17RnusSeB0YFy93rk9CTFVFgVsSk3G
  kww/view
 LOCATION:Les Variétés
 URL:https://drive.google.com/file/d/17RnusSeB0YFy93rk9CTFVFgVsSk3Gkww/view
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Boat People
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261122
-UID:29b6afbeee5a@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/boat-peop
- le
-LOCATION:Théâtre La Criée
-URL:https://theatre-lacriee.com/programmation/evenements/boat-people
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Boat People
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261122
-UID:c2ed91a542d0@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Quand deux langues\, deux mondes différents se rencontrent : 
- que veut dire « accueillir\, cohabiter et aider » ? Une proposition de L
- a Criée\, Théâtre national de Marseille\nhttps://www.lafriche.org/evene
- ments/boat-people/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/boat-people/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le clown comme un poème
@@ -292,19 +254,6 @@ URL:https://theatre-lacriee.com/programmation/evenements/le-clown-comme-un
  -poeme
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:La condition de l'exilé
-DTSTART;TZID=Europe/Paris:20261121T110000
-DTEND;TZID=Europe/Paris:20261121T123000
-UID:fc89e4950fd6@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/51839315_conference-la-condit
- ion-de-lexile
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/51839315
- _conference-la-condition-de-lexile
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Les 28ème rencontres du cinéma Sud-Américain ASPAS au Gyptis
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
@@ -316,247 +265,6 @@ DESCRIPTION:Le cinéma Le Gyptis accueille pour trois séances uniques le
  ent\nhttps://www.facebook.com/events/2698736830564087/
 LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
 URL:https://www.facebook.com/events/2698736830564087/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier créatif - Broderie japonaise Sashiko
-DTSTART;TZID=Europe/Paris:20261121T140000
-DTEND;TZID=Europe/Paris:20261121T160000
-UID:f493f36c9f17@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/97299850_atelier-creatif-brod
- erie-japonaise-sashiko
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/97299850
- _atelier-creatif-broderie-japonaise-sashiko
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:J’crains dégun
-DTSTART;TZID=Europe/Paris:20261121T140000
-DTEND;TZID=Europe/Paris:20261121T000000
-UID:3eba8a444e7c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une journée pour s'armer\, s'émerveiller et se révolter ens
- emble. Une proposition de CIDFF Phocéen\, Planning Familial 13 et Solidar
- ité femmes 13\nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/jcra
- ins-degun-4/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/jcrains-degun-4/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lecture d’Oracle SINCRONIAS par Liana Pérez
-DTSTART;TZID=Europe/Paris:20261121T140000
-DTEND;TZID=Europe/Paris:20261121T160000
-UID:6d82bc2ef49c@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/DfZnMGJjsYo/
-LOCATION:La Colorada - La Colorada Marsella
-URL:https://www.instagram.com/p/DfZnMGJjsYo/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:La Commission d’enquête
-DTSTART;TZID=Europe/Paris:20261121T140000
-DTEND;TZID=Europe/Paris:20261121T180000
-UID:8d70b62a71fc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/la-commission-denq
- uete/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/la-commission-denquete/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier coupé-décalé
-DTSTART;TZID=Europe/Paris:20261121T143000
-DTEND;TZID=Europe/Paris:20261121T170000
-UID:9efc225aea61@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/atelier-coupe-decale/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/atelier-coupe-decale/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visite flash
-DTSTART;TZID=Europe/Paris:20261121T150000
-DTEND;TZID=Europe/Paris:20261121T160000
-UID:de3a06e79681@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
-  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-flash-16/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NumériTech
-DTSTART;TZID=Europe/Paris:20261121T153000
-DTEND;TZID=Europe/Paris:20261121T173000
-UID:fb9c150fb122@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:À partir de la pratique des jeux vidéo\, des ateliers pour e
- xplorer de manière créative les nouvelles technologies pour mieux les co
- mprendre et les réinventer. Une proposition de CHRONIQUES\nPrix : Gratuit
-  !\nhttps://www.lafriche.org/evenements/numeritech-9/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/numeritech-9/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Courts-métrages Sud-Américains primés
-DTSTART;TZID=Europe/Paris:20261121T160000
-DTEND;TZID=Europe/Paris:20261121T180000
-UID:c582896284a7@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Dans le cadre de la 28ème édition des rencontres du cinéma 
- Sud-Américain ASPAS\nhttps://cinemalegyptis.org/films/courts-metrages-sud
- -americains-primes/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/courts-metrages-sud-americains-primes
- /
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rêver la Méditerranée
-DTSTART;TZID=Europe/Paris:20261121T160000
-DTEND;TZID=Europe/Paris:20261121T173000
-UID:382933104923@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://mucem.org/evenement/rever-la-mediterranee/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/rever-la-mediterranee/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Et si la Méditerranée avait des droits ? Pollution\, réchauffem
- ent\, surexploitation : la Méditerranée est en danger.
-DTSTART;TZID=Europe/Paris:20261121T170000
-DTEND;TZID=Europe/Paris:20261121T193000
-UID:4a19bb3235fa@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/48089034_autour-de-la-mediter
- rannee
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/48089034
- _autour-de-la-mediterrannee
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Projection du film Résonances
-DTSTART;TZID=Europe/Paris:20261121T180000
-DTEND;TZID=Europe/Paris:20261121T200000
-UID:75e9873cf723@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:
-LOCATION:Frac Sud - Frac Sud - plateau explorations
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pour la joie. Une ode à la résistance poétique et politique
-DTSTART;TZID=Europe/Paris:20261121T180000
-DTEND;TZID=Europe/Paris:20261121T200000
-UID:a5500dde33bc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Et si la joie était notre prochaine révolution ? Un ouvrage 
- collectif pour réenchanter les luttes et replacer le plaisir\, la fête e
- t la création au cœur de l’émancipation. Une proposition de Librairie
-  de la Friche\, Les Liens qui Libèrent...\nPrix : Gratuit !\nhttps://www.
- lafriche.org/evenements/pour-la-joie-une-ode-a-la-resistance-poetique-et-p
- olitique/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/pour-la-joie-une-ode-a-la-resistan
- ce-poetique-et-politique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cumbia que te vas de ronda
-DTSTART;TZID=Europe/Paris:20261121T180000
-DTEND;TZID=Europe/Paris:20261121T200000
-UID:2b2d9ce52b34@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Dans le cadre de la 28ème édition des rencontres du cinéma 
- Sud-Américain ASPAS Précédé à 17h30 d’un concert de cumbia dans le 
- hall du cinéma par Daniela Aguilar & Manuel Cedrón\nhttps://cinemalegypt
- is.org/films/cumbia-que-te-vas-de-ronda/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/cumbia-que-te-vas-de-ronda/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SPIDER ZED + Mathilde
-DTSTART;TZID=Europe/Paris:20261121T190000
-DTEND;TZID=Europe/Paris:20261121T210000
-UID:b6c6db8307fd@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 24€\nhttps://lemolotov.com/events/spider-zed/
-LOCATION:Le Molotov - @ Le Dodu
-URL:https://lemolotov.com/events/spider-zed/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Imaginaires Documentaires | Cabanyal année zéro
-DTSTART;TZID=Europe/Paris:20261121T190000
-DTEND;TZID=Europe/Paris:20261121T210000
-UID:b3b369ec4d6b@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/imaginaires-documentaires-cabanyal-
- annee-zero/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/imaginaires-documentaires-cabanyal-annee-ze
- ro/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CHIMÈRES IV : LE BAL DES OMBRES
-DTSTART;TZID=Europe/Paris:20261121T203000
-DTEND;TZID=Europe/Paris:20261121T223000
-UID:3eb21d19493c@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/chimeres-iv-le-bal-
- des-ombres/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/chimeres-iv-le-bal-des-ombres/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Beat binaire désarticulé
-DTSTART;TZID=Europe/Paris:20261121T210000
-DTEND;TZID=Europe/Paris:20261121T230000
-UID:552239aae48c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://www.lembobineuse.biz/events/2026/11/21/frontpageleslie
- -neinaction-manoirmolle
-LOCATION:L'Embobineuse
-URL:https://www.lembobineuse.biz/events/2026/11/21/frontpageleslie-neinact
- ion-manoirmolle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SAM 21 NOV - 21H
-DTSTART;TZID=Europe/Paris:20261121T210000
-DTEND;TZID=Europe/Paris:20261121T230000
-UID:aa71bd5e258e@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Soirée musicale avec Front Page Leslie\, Nein Action et Manoi
- r Molle.\nPrix : 9€ + 2€ adh.\nhttps://www.instagram.com/p/DfPrp2Nhr0C
- /
-LOCATION:L'Embobineuse
-URL:https://www.instagram.com/p/DfPrp2Nhr0C/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Origins invite BSLS Marseille
-DTSTART;TZID=Europe/Paris:20261121T230000
-DTEND;TZID=Europe/Paris:20261121T050000
-UID:2864bd5813b2@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:ORIGINS présente ETERNAL DOOM : une nuit immersive entre tech
- no\, industrial\, hard techno\, acid et trance. Une expérience radicale e
- n NO PHOTO / NO VIDEO\, portée par 4 artistes. Une proposition de Cabaret
-  Aléatoire\nhttps://www.lafriche.org/evenements/origins-invite-bsls-marse
- ille/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/origins-invite-bsls-marseille/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Dreamachine Festival
-DTSTART;TZID=Europe/Paris:20261121T233000
-DTEND;TZID=Europe/Paris:20261121T043000
-UID:50026ed56cec@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Dreamachine clôture son festival au Petit Cab avec DeserTGirl
- Z\, KENNYMPHE\, Nacre et Nyctalope pour une nuit queer\, électronique et 
- sans concession\, entre hardcore\, bass music\, expérimentations club et 
- énergie émancipatrice. Une propositi...\nhttps://www.lafriche.org/evenem
- ents/dreamachine-festival-petit-cab/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/dreamachine-festival-petit-cab/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nostalgie de la lumière
@@ -1568,6 +1276,18 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/visite-a-petits-pas-5/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tic-Tac ÉVÉNEMENT REPORTÉ AU 2 DÉCEMBRE
+DTSTART;TZID=Europe/Paris:20261202T100000
+DTEND;TZID=Europe/Paris:20261202T110000
+UID:b60efec7b04d@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/90213228_tic-tac-3484615
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/90213228
+ _tic-tac-3484615
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ateliers & Médiation #Faire Famille – Machines à Histoires et 
  Zelie – Les résidences de la Martinerie
 DTSTART;VALUE=DATE:20261202
@@ -1592,18 +1312,6 @@ DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
 LOCATION:Alcazar - Bibliothèque de l'Alcazar
 URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/26320356
  _aide-aux-devoirs-9461522
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-jeune
-DTSTART;TZID=Europe/Paris:20261202T150000
-DTEND;TZID=Europe/Paris:20261202T164500
-UID:b09e17e371cc@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/94564445_cine-jeune-5746194
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/94564445
- _cine-jeune-5746194
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
@@ -3315,18 +3023,6 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/le-banquet-des-images/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/le-banquet-des-images/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ciné-jeune
-DTSTART;TZID=Europe/Paris:20261231T150000
-DTEND;TZID=Europe/Paris:20261231T154500
-UID:a86ae9078be5@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/82063545_cine-jeune-1708712
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/82063545
- _cine-jeune-1708712
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gâteaux d’art

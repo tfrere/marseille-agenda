@@ -11,10 +11,10 @@ DTEND;VALUE=DATE:20270426
 UID:a09713f21970@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/par-une-langue-echappee-nouveau-pa
- rcours-des-collections-modernes-et-contemporaines
+ rcours-des-collections-modernes-et-contemporaines?museum=musee-cantini
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/par-une-langue-echappee-nouveau-parcours-d
- es-collections-modernes-et-contemporaines
+ es-collections-modernes-et-contemporaines?museum=musee-cantini
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AFRICA - Louisa Babari
@@ -91,9 +91,11 @@ DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270621
 UID:5ea844f05bff@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence
+DESCRIPTION:https://musees.marseille.fr/dinosaures-de-provence?museum=muse
+ um-dhistoire-naturelle-de-marseille-mhnm
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/dinosaures-de-provence
+URL:https://musees.marseille.fr/dinosaures-de-provence?museum=museum-dhist
+ oire-naturelle-de-marseille-mhnm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Souffles terrestres
@@ -104,6 +106,18 @@ CATEGORIES:culture
 DESCRIPTION:https://musees.marseille.fr/souffles-terrestres
 LOCATION:[mac] Musée d'art contemporain
 URL:https://musees.marseille.fr/souffles-terrestres
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le mauvais œil 88 : Kikifruit
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261126
+UID:47435b944c38@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
+ \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
+ -kikifruit/
+LOCATION:Friche la Belle de Mai
+URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
@@ -162,28 +176,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/la-vie-farpaite/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261126
-UID:47435b944c38@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visites Flash
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20270101
-UID:87a6d2ebc970@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/visites-flash/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/visites-flash/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ateliers de danse Dabké palestinienne
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20270201
@@ -231,93 +223,6 @@ LOCATION:Théâtre La Criée
 URL:https://theatre-lacriee.com/programmation/evenements/le-6eme-jour
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:28e Rencontres du cinéma Sud-Américain
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261123
-UID:4096fdc9596b@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://drive.google.com/file/d/17RnusSeB0YFy93rk9CTFVFgVsSk3G
- kww/view
-LOCATION:Les Variétés
-URL:https://drive.google.com/file/d/17RnusSeB0YFy93rk9CTFVFgVsSk3Gkww/view
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le clown comme un poème
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
-UID:6d45e6034123@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-clown-
- comme-un-poeme
-LOCATION:Théâtre La Criée
-URL:https://theatre-lacriee.com/programmation/evenements/le-clown-comme-un
- -poeme
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Les 28ème rencontres du cinéma Sud-Américain ASPAS au Gyptis
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
-UID:e3a15c7c3646@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Le cinéma Le Gyptis accueille pour trois séances uniques le 
- festival ASPAS pour sa 28ème édition des rencontres du cinéma Sud-Amér
- icain 🌞 "Cette année\, les Rencontres du cinéma sud-américain propos
- ent\nhttps://www.facebook.com/events/2698736830564087/
-LOCATION:Le Gyptis - 136 rue Loubon\, 13003 Marseille\, France
-URL:https://www.facebook.com/events/2698736830564087/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Nostalgie de la lumière
-DTSTART;TZID=Europe/Paris:20261122T160000
-DTEND;TZID=Europe/Paris:20261122T180000
-UID:d33317eec82f@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Dans le cadre de la 28ème édition des rencontres du cinéma 
- Sud-Américain ASPAS Hommage au cinéaste chilien Patricio Guzmán · Proj
- ection suivie d’un temps d’échange avec le public\nhttps://cinemalegy
- ptis.org/films/nostalgie-de-la-lumiere/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/nostalgie-de-la-lumiere/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ATELIERS - #ARBORESCENCE-Dav Guedin & Emma Pujar - Les résidences
-  de la Martinerie
-DTSTART;TZID=Europe/Paris:20261122T163000
-DTEND;TZID=Europe/Paris:20261122T183000
-UID:7e4a52c27520@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedi
- n-emma-pujar-les-residences-de-la-martinerie/
-LOCATION:La Fabulerie
-URL:https://lafabulerie.com/agenda/ateliers-arborescence-dav-guedin-emma-p
- ujar-les-residences-de-la-martinerie/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Palestine errante" de Rima Hassan
-DTSTART;TZID=Europe/Paris:20261122T163000
-DTEND;TZID=Europe/Paris:20261122T183000
-UID:737b66fcb2ee@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Palestine-errant
- e-de-Rima-Hassan
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Palestine-errante-de-Rim
- a-Hassan
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marcel Ophuls\, cinéaste et historien | Hôtel Terminus – Parti
- e 1
-DTSTART;TZID=Europe/Paris:20261122T170000
-DTEND;TZID=Europe/Paris:20261122T190000
-UID:f1c345e354a2@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien
- -hotel-terminus-partie-1/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien-hotel-t
- erminus-partie-1/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:JEST #6 : Jamais d’Eux Sans Toi
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261129
@@ -330,31 +235,6 @@ DESCRIPTION:Le festival JEST est un temps de rencontres artistiques d’un
  ements/jest-6-jamais-deux-sans-toi/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/jest-6-jamais-deux-sans-toi/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marcel Ophuls\, cinéaste et historien | Hôtel Terminus – Parti
- e 2
-DTSTART;TZID=Europe/Paris:20261122T200000
-DTEND;TZID=Europe/Paris:20261122T220000
-UID:9ed470b7bbd1@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien
- -hotel-terminus-partie-2/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/marcel-ophuls-cineaste-et-historien-hotel-t
- erminus-partie-2/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Concerts historiques
-DTSTART;TZID=Europe/Paris:20261122T203000
-DTEND;TZID=Europe/Paris:20261122T223000
-UID:3d9b92efd8b7@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Soirée rock avec des groupes légendaires de punk\, powerpop 
- et garage.\nPrix : 5/7€ (pas de cb)\nhttps://www.instagram.com/p/DfZazzN
- uPWZ/
-LOCATION:L'Intermédiaire - L'intermédiaire
-URL:https://www.instagram.com/p/DfZazzNuPWZ/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cycle 2 - Initiation à l'histoire générale de l'art : le Moyen 
@@ -572,19 +452,6 @@ LOCATION:La Baleine - La Baleine Marseille
 URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lectures en salle
-DTSTART;TZID=Europe/Paris:20261125T163000
-DTEND;TZID=Europe/Paris:20261125T170000
-UID:4373fb2eaf02@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/65578504_lectures-en-salle-93
- 75917
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/65578504
- _lectures-en-salle-9375917
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Projection Escales INA - Un grand marché au bord de l'eau
 DTSTART;TZID=Europe/Paris:20261125T170000
 DTEND;TZID=Europe/Paris:20261125T180000
@@ -779,20 +646,6 @@ DESCRIPTION:Les coopérations à Marseille seront au cœur de la 9e éditi
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/plus20-marseille-ville-cooperative
  /
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Guerrilha Ecológica
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20270117
-UID:e2a1ac2162aa@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Une exposition photographique qui présente le travail de l'ar
- tiste brésilien Alex Oliveira suite à sa résidence de deux mois à la F
- riche la Belle de Mai. Une proposition de Institut Sacatar\, Villa Fatumbi
-  et Institut français du Brésil\nPrix : Gratuit !\nhttps://www.lafriche.
- org/evenements/guerrilha-ecologica/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/guerrilha-ecologica/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nous nous sommes tant aimés (C'eravamo tanto amati)
@@ -1387,9 +1240,8 @@ DTSTART;TZID=Europe/Paris:20261202T190000
 DTEND;TZID=Europe/Paris:20261202T210000
 UID:abe7eb05274b@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:En présence de la comédienne Sonia Rolland et de la co-produ
- ctrice Amanda Herzberg\nhttps://cinemalegyptis.org/films/kwibuka-se-souven
- ir/
+DESCRIPTION:En présence de la comédienne Sonia Rolland et de la productr
+ ice Amanda Herzberg\nhttps://cinemalegyptis.org/films/kwibuka-se-souvenir/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/kwibuka-se-souvenir/
 END:VEVENT
@@ -1495,8 +1347,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:L'accès au droit en contexte migratoire - Rencontre avec Claire H
  édon
-DTSTART;TZID=Europe/Paris:20261204T170000
-DTEND;TZID=Europe/Paris:20261204T220000
+DTSTART;TZID=Europe/Paris:20261204T180000
+DTEND;TZID=Europe/Paris:20261204T200000
 UID:771bf51f707f@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
@@ -1513,8 +1365,9 @@ DTEND;TZID=Europe/Paris:20261204T210000
 UID:1e0b128dcdc2@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:En présence d’Anne Mahrer intervenante dans le film. En par
- tenariat avec ATTAC\, la LDH\, Alternatiba\nhttps://cinemalegyptis.org/fil
- ms/trop-chaud-le-combat-des-ainees-pour-le-climat/
+ tenariat avec ATTAC\, la LDH\, Alternatiba et dans le cadre du cycle « Du
+  cinéma pour la planète »\nhttps://cinemalegyptis.org/films/trop-chaud-
+ le-combat-des-ainees-pour-le-climat/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/trop-chaud-le-combat-des-ainees-pour-
  le-climat/
@@ -1618,8 +1471,8 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/60187133
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Table ronde "Voir Venir. Ecrire l'hospitalité"
-DTSTART;TZID=Europe/Paris:20261205T103000
-DTEND;TZID=Europe/Paris:20261205T123000
+DTSTART;TZID=Europe/Paris:20261205T110000
+DTEND;TZID=Europe/Paris:20261205T130000
 UID:9fc511b14cef@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
@@ -1755,16 +1608,6 @@ DESCRIPTION:Jeux d’adresse\, jeux coopératifs\, jeux de construction\,
  venements/terre-ludique/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/terre-ludique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Un Dimanche aux Aygalades – décembre 2026
-DTSTART;TZID=Europe/Paris:20261206T100000
-DTEND;TZID=Europe/Paris:20261206T150000
-UID:f1e18323c009@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:
-LOCATION:La Cité des arts de la rue - Lieu: à la Cité des arts de la ru
- e
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dimanche entrée libre
@@ -2199,8 +2042,8 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/17086084
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Veilleurs de nuits
-DTSTART;TZID=Europe/Paris:20261212T103000
-DTEND;TZID=Europe/Paris:20261212T120000
+DTSTART;TZID=Europe/Paris:20261212T110000
+DTEND;TZID=Europe/Paris:20261212T123000
 UID:84beefe2be17@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
@@ -2567,17 +2410,6 @@ LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/rencontre-nationale-des-ethnopoles-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rencontre nationale des ethnopôles 2026
-DTSTART;TZID=Europe/Paris:20261216T090000
-DTEND;TZID=Europe/Paris:20261216T173000
-UID:e66f3ce4da12@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
- e-des-ethnopoles-2026/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/rencontre-nationale-des-ethnopoles-2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Aide aux devoirs
 DTSTART;TZID=Europe/Paris:20261216T143000
 DTEND;TZID=Europe/Paris:20261216T173000
@@ -2653,17 +2485,6 @@ SUMMARY:Faire autrement l’ethnologie - 30 du label Ethnopôle
 DTSTART;TZID=Europe/Paris:20261217T090000
 DTEND;TZID=Europe/Paris:20261217T170000
 UID:df0df2efcdb7@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
- e-des-ethnopoles-2026/
-LOCATION:Mucem - Fort Saint-Jean / MucemLab
-URL:https://mucem.org/evenement/rencontre-nationale-des-ethnopoles-2026/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rencontre nationale des ethnopôles 2026
-DTSTART;TZID=Europe/Paris:20261217T090000
-DTEND;TZID=Europe/Paris:20261217T170000
-UID:828804169079@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
  e-des-ethnopoles-2026/

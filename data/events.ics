@@ -191,19 +191,6 @@ LOCATION:Friche la Belle de Mai - Studio Accrorap\, 2ᵉ étage de la Manu
 URL:https://www.instagram.com/p/DfZ2VvPCJDd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cyle Dietrich / Sternberg
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261125
-UID:a36df70d7f7e@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Cycle Marlene Dietrich x Joseph Von Sternberg SHANGHAI EXPRESS
-  de Josef von Sternberg USA\, 1932.1h22 BLONDE VENUS de Josef von Sternber
- g USA\, 1932.1h32 L'IMPERATRICE ROUGE de Josef von Sternberg USA\, \nhttps
- ://www.facebook.com/events/1141383282150231/
-LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
-URL:https://www.facebook.com/events/1141383282150231/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Exposition Sadek Lamri
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261126
@@ -237,92 +224,6 @@ DESCRIPTION:Le festival JEST est un temps de rencontres artistiques d’un
  ements/jest-6-jamais-deux-sans-toi/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/jest-6-jamais-deux-sans-toi/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Atelier d'écriture
-DTSTART;TZID=Europe/Paris:20261124T100000
-DTEND;TZID=Europe/Paris:20261124T120000
-UID:7e5f9fbfb1b1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/atelier-decriture/
-LOCATION:Mucem - Le Centre de Conservation et de Ressources
-URL:https://mucem.org/evenement/atelier-decriture/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Manipula'son du papier
-DTSTART;TZID=Europe/Paris:20261124T160000
-DTEND;TZID=Europe/Paris:20261124T171500
-UID:c1ad2d62949c@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/93720966_manipulason-du-papie
- r
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/93720966
- _manipulason-du-papier
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CINE PHILO - Je verrai toujours vos visages
-DTSTART;TZID=Europe/Paris:20261124T180000
-DTEND;TZID=Europe/Paris:20261124T210000
-UID:f51c678083f0@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/90923745_cine-philo-je-verrai
- -toujours-vos-visages
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/90923745
- _cine-philo-je-verrai-toujours-vos-visages
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Café-Diplo à Marseille
-DTSTART;TZID=Europe/Paris:20261124T183000
-DTEND;TZID=Europe/Paris:20261124T203000
-UID:a4b007bd4076@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:Le mardi 24 novembre à 18 h 30\, au Grand Bar du Chapitre\, 4
- \, rue Consolat\, Marseille 1er\, café-Diplo autour de l’article « Pou
- rquoi il faut réenchanter l’État » de Alexis Spire publié dans Le Mo
- nde diplomatique d’octobre 2026 : Tandis qu...\nhttps://www.amis.monde-d
- iplomatique.fr/Cafe-Diplo-a-Marseille-9855.html
-LOCATION:Amis du Monde diplomatique - Marseille
-URL:https://www.amis.monde-diplomatique.fr/Cafe-Diplo-a-Marseille-9855.htm
- l
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Corps troubles\, peaux d'argent #4 | Entrée\, plat\, dessert
-DTSTART;TZID=Europe/Paris:20261124T193000
-DTEND;TZID=Europe/Paris:20261124T213000
-UID:1b8fc7c42a4d@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/corps-troubles-peaux-dargent-4-entr
- ee-plat-dessert/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/corps-troubles-peaux-dargent-4-entree-plat-
- dessert/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cinéthique : CE QUI NOUS MENE À TOI
-DTSTART;TZID=Europe/Paris:20261124T194500
-DTEND;TZID=Europe/Paris:20261124T214500
-UID:987a5b52424c@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Cinéthique suivi d'un échange avec François Crémieux\, dir
- ecteur des Hôpitaux de Marseille et la Professeure Blandine Courbière\, 
- cheffe du service d'aide à la procréation. Animé par Nathania Cahen\, j
- ou\nhttps://www.facebook.com/events/2123166005231014/
-LOCATION:Les Variétés - 37 rue Vincent Scotto\, 13001 Marseille\, France
-URL:https://www.facebook.com/events/2123166005231014/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GVLLOW + Ohm Sweet Ohm
-DTSTART;TZID=Europe/Paris:20261124T203000
-DTEND;TZID=Europe/Paris:20261124T223000
-UID:b67e416c9a71@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 15€\nhttps://lemolotov.com/events/gvllow-guest/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/gvllow-guest/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Petits Mercredis
@@ -873,8 +774,9 @@ DTSTART;TZID=Europe/Paris:20261128T200000
 DTEND;TZID=Europe/Paris:20261128T220000
 UID:67a909f9f621@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Avant-première en présence de la réalisatrice\nhttps://cine
- malegyptis.org/films/queer-me/
+DESCRIPTION:Avant-première en présence de la réalisatrice · En partena
+ riat avec l’association Transat\nhttps://cinemalegyptis.org/films/queer-
+ me/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/queer-me/
 END:VEVENT
@@ -1173,8 +1075,8 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/50725798
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boum avec DJ Bubulle EVENEMENT REPORTE AU 2 DECEMBRE
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20270103
+DTSTART;TZID=Europe/Paris:20261202T170000
+DTEND;TZID=Europe/Paris:20261202T180000
 UID:b1513e0c2b68@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
@@ -2377,10 +2279,10 @@ URL:https://theatre-lacriee.com/programmation/evenements/le-chateau-des-ca
  rpathes
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Faire autrement l’ethnologie - 30 du label Ethnopôle
+SUMMARY:Faire autrement l’ethnologie
 DTSTART;TZID=Europe/Paris:20261216T090000
 DTEND;TZID=Europe/Paris:20261216T173000
-UID:59dee3831ad5@marseille-agenda
+UID:0f6565a13877@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
  e-des-ethnopoles-2026/
@@ -2459,10 +2361,10 @@ LOCATION:Le Molotov - @ Le Molotov
 URL:https://lemolotov.com/events/los-fastidios-3/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Faire autrement l’ethnologie - 30 du label Ethnopôle
+SUMMARY:Faire autrement l’ethnologie
 DTSTART;TZID=Europe/Paris:20261217T090000
 DTEND;TZID=Europe/Paris:20261217T170000
-UID:df0df2efcdb7@marseille-agenda
+UID:14778232f593@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
  e-des-ethnopoles-2026/

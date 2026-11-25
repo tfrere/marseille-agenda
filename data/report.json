@@ -1,11 +1,11 @@
 {
- "run_date": "2026-11-24",
+ "run_date": "2026-11-25",
  "sources_total": 50,
- "sources_ok": 26,
+ "sources_ok": 25,
  "sources_skipped_unchanged": 0,
- "events_published": 456,
+ "events_published": 449,
  "events_new": 2,
- "events_rejected_grounding": 209,
+ "events_rejected_grounding": 210,
  "events_rejected_verifier": 0,
  "events_uncertain": 0,
  "alerts": [
@@ -13,19 +13,19 @@
    "level": "error",
    "venue_id": "manifesten",
    "source_url": "https://tarpin-bien.com/lieu/manifesten/",
-   "message": "source failed, last verified state kept: schema generation failed"
-  },
-  {
-   "level": "warning",
-   "venue_id": "manifesten",
-   "source_url": "https://tarpin-bien.com/lieu/manifesten/",
-   "message": "generation error: ModelHTTPError: status_code: 402, model_name: anthropic/claude-sonnet-5, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}"
+   "message": "source failed, last verified state kept: discovery: ModelHTTPError: status_code: 402, model_name: anthropic/claude-sonnet-5, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford 1212. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}"
   },
   {
    "level": "warning",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.lafriche.org/agenda/",
    "message": "3 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+  },
+  {
+   "level": "error",
+   "venue_id": "mac-musee-d-art-contemporain",
+   "source_url": "https://musees.marseille.fr/",
+   "message": "source failed, last verified state kept: fetch: timed out"
   },
   {
    "level": "warning",
@@ -43,19 +43,19 @@
    "level": "warning",
    "venue_id": "transit-librairie",
    "source_url": "https://transit-librairie.org/-Evenements-",
-   "message": "5 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "message": "6 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
   },
   {
    "level": "warning",
    "venue_id": "le-gyptis",
    "source_url": "https://cinemalegyptis.org/seances-et-evenements/",
-   "message": "1 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "message": "2 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
   },
   {
    "level": "warning",
    "venue_id": "videodrome-2",
    "source_url": "https://www.videodrome2.fr/accueil/cinema-marseille/",
-   "message": "3 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
+   "message": "4 new event(s) wait for the verifier: ModelHTTPError: status_code: 402, model_name: google/gemini-3.8-flash, body: {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8000 tokens, but can only afford "
   },
   {
    "level": "error",
@@ -113,129 +113,129 @@
   },
   {
    "level": "error",
-   "venue_id": "friche-la-belle-de-mai",
-   "source_url": "https://www.instagram.com/frichelabelledemai/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "venue_id": "manifesten",
+   "source_url": "https://www.facebook.com/manifesten/",
+   "message": "facebook fetch failed 28x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
-   "venue_id": "manifesten",
-   "source_url": "https://www.facebook.com/manifesten/",
-   "message": "facebook fetch failed 27x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "venue_id": "friche-la-belle-de-mai",
+   "source_url": "https://www.instagram.com/frichelabelledemai/",
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "friche-la-belle-de-mai",
    "source_url": "https://www.facebook.com/friche.labelledemai/",
-   "message": "facebook fetch failed 12x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-  },
-  {
-   "level": "error",
-   "venue_id": "l-intermediaire",
-   "source_url": "https://www.facebook.com/Intermediaire.live/",
-   "message": "facebook fetch failed 21x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-  },
-  {
-   "level": "error",
-   "venue_id": "transit-librairie",
-   "source_url": "https://www.facebook.com/transit.librairie/",
-   "message": "facebook fetch failed 12x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "facebook fetch failed 13x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "l-intermediaire",
    "source_url": "https://www.instagram.com/l_intermediaire/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
-   "venue_id": "la-baleine",
-   "source_url": "https://www.instagram.com/labaleinemarseille/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "venue_id": "l-intermediaire",
+   "source_url": "https://www.facebook.com/Intermediaire.live/",
+   "message": "facebook fetch failed 22x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
-   "venue_id": "les-varietes",
-   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "venue_id": "transit-librairie",
+   "source_url": "https://www.facebook.com/transit.librairie/",
+   "message": "facebook fetch failed 13x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-baleine",
    "source_url": "https://www.facebook.com/labaleinemarseille/",
-   "message": "facebook fetch failed 12x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "facebook fetch failed 13x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
-   "venue_id": "le-gyptis",
-   "source_url": "https://www.instagram.com/cinemalegyptis/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "venue_id": "les-varietes",
+   "source_url": "https://www.instagram.com/cinemalesvarietes.marseille/",
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+  },
+  {
+   "level": "error",
+   "venue_id": "la-baleine",
+   "source_url": "https://www.instagram.com/labaleinemarseille/",
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "les-varietes",
    "source_url": "https://www.facebook.com/lesvarietesmarseille/",
-   "message": "facebook fetch failed 12x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "facebook fetch failed 13x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+  },
+  {
+   "level": "error",
+   "venue_id": "le-gyptis",
+   "source_url": "https://www.instagram.com/cinemalegyptis/",
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "le-gyptis",
    "source_url": "https://www.facebook.com/cinemalegyptis/",
-   "message": "facebook fetch failed 12x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "facebook fetch failed 13x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-fabulerie",
    "source_url": "https://www.instagram.com/lafabulerie/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-  },
-  {
-   "level": "error",
-   "venue_id": "la-colorada",
-   "source_url": "https://www.instagram.com/lacoloradamarsella/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-fabulerie",
    "source_url": "https://www.facebook.com/Fabulerie/",
-   "message": "facebook fetch failed 12x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "facebook fetch failed 13x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+  },
+  {
+   "level": "error",
+   "venue_id": "la-colorada",
+   "source_url": "https://www.instagram.com/lacoloradamarsella/",
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-colorada",
    "source_url": "https://www.facebook.com/lacoloradamarsella/",
-   "message": "facebook fetch failed 55x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "facebook fetch failed 56x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "la-camaraderie",
    "source_url": "https://www.instagram.com/la.camaraderie13/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "twali",
    "source_url": "https://www.instagram.com/twali.marseille/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-  },
-  {
-   "level": "error",
-   "venue_id": "twali",
-   "source_url": "https://www.facebook.com/twalibelsunce/",
-   "message": "facebook fetch failed 12x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   },
   {
    "level": "error",
    "venue_id": "l-embobineuse",
    "source_url": "https://www.instagram.com/lembobineusemarseille/",
-   "message": "instagram fetch failed 12x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+   "message": "instagram fetch failed 13x: apify~instagram-api-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+  },
+  {
+   "level": "error",
+   "venue_id": "twali",
+   "source_url": "https://www.facebook.com/twalibelsunce/",
+   "message": "facebook fetch failed 13x: apify~facebook-posts-scraper: HTTP 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
   }
  ],
  "llm_calls": 0,
  "posts_analyzed": 0,
  "apify_runs": 0,
- "images_published": 411,
+ "images_published": 405,
  "images_failed": 0,
  "credits_remaining_usd": -0.1394,
  "run_cost_usd": 0.0

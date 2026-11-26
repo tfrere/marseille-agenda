@@ -110,18 +110,6 @@ URL:https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vi
  eille-charite
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Le mauvais œil 88 : Kikifruit
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261126
-UID:47435b944c38@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
- \nPrix : Gratuit !\nhttps://www.lafriche.org/evenements/le-mauvais-oeil-88
- -kikifruit/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/le-mauvais-oeil-88-kikifruit/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261214
@@ -191,27 +179,6 @@ LOCATION:Friche la Belle de Mai - Studio Accrorap\, 2ᵉ étage de la Manu
 URL:https://www.instagram.com/p/DfZ2VvPCJDd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Exposition Sadek Lamri
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261126
-UID:5958845d1d72@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:https://www.instagram.com/p/DfKhlybNILA/
-LOCATION:La Camaraderie - La Camaraderie
-URL:https://www.instagram.com/p/DfKhlybNILA/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Le 6ème jour
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261126
-UID:fa44788545b0@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:https://theatre-lacriee.com/programmation/evenements/le-6eme-j
- our
-LOCATION:Théâtre La Criée
-URL:https://theatre-lacriee.com/programmation/evenements/le-6eme-jour
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:JEST #6 : Jamais d’Eux Sans Toi
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261129
@@ -226,46 +193,6 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/jest-6-jamais-deux-sans-toi/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Les Petits Mercredis
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-UID:3df0a06068bb@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Impression\, tissage\, pliage... avec l'artiste Manon Garcia d
- el Barrio\, les enfants explorent chez les dinosaures\, plongent dans les 
- fonds marins\, voyagent dans l'espace\, le futur et même l'imaginaire ! U
- ne proposition de la Friche\nhttps://www.lafriche.org/evenements/les-petit
- s-mercredis-13/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/les-petits-mercredis-13/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A scanner darkly
-DTSTART;TZID=Europe/Paris:20261125T140000
-DTEND;TZID=Europe/Paris:20261125T160000
-UID:b8f831f7d4c1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheques-de-territoire-marseille/events/20143267_a-scanner-dark
- ly
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheques-de-territoire-marseille/events/20
- 143267_a-scanner-darkly
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Aide aux devoirs
-DTSTART;TZID=Europe/Paris:20261125T143000
-DTEND;TZID=Europe/Paris:20261125T173000
-UID:8c653a058916@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/42222264_aide-aux-devoirs-784
- 7405
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/42222264
- _aide-aux-devoirs-7847405
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Entrez libres
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261129
@@ -278,108 +205,6 @@ DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
  afriche.org/evenements/entrez-libres-7/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/entrez-libres-7/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Club de lecture
-DTSTART;TZID=Europe/Paris:20261125T160000
-DTEND;TZID=Europe/Paris:20261125T173000
-UID:d6ec63885429@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/13345264_club-de-lecture-2916
- 546
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/13345264
- _club-de-lecture-2916546
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Visite flash
-DTSTART;TZID=Europe/Paris:20261125T160000
-DTEND;TZID=Europe/Paris:20261125T170000
-UID:e8cc0d717129@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Des visites commentées des expositions de 30 minutes.\nPrix :
-  Gratuit !\nhttps://www.lafriche.org/evenements/visite-flash-16/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/visite-flash-16/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Petite Baleine] À LA POURSUITE DE L'AFFREUNARD de B. Botella\, Z
- . Horvath | suivi d'un atelier !
-DTSTART;TZID=Europe/Paris:20261125T160000
-DTEND;TZID=Europe/Paris:20261125T180000
-UID:6c0fdf6ba34e@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:▉ Séance suivie d'un atelier parent-enfant "Fabrique ton ma
- sque d'affreunard !" Atelier gratuit\, sur réservation à : ylang@labalei
- nemarseille.com Mercredi 25 novembre à 16h 𝗔̀ 𝗟𝗔 𝗣𝗢𝗨
- 𝗥𝗦𝗨𝗜𝗧𝗘 𝗗𝗘 𝗟'𝗔𝗙𝗙𝗥𝗘𝗨\nhttps://m
- arseillecinemalabaleine.cine.boutique/
-LOCATION:La Baleine - La Baleine Marseille
-URL:https://marseillecinemalabaleine.cine.boutique/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Projection Escales INA - Un grand marché au bord de l'eau
-DTSTART;TZID=Europe/Paris:20261125T170000
-DTEND;TZID=Europe/Paris:20261125T180000
-UID:6586b71a30e1@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/24981445_projection-escales-i
- na-un-grand-marche-au-bord-de-leau
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/24981445
- _projection-escales-ina-un-grand-marche-au-bord-de-leau
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:L’héritage de Castel : le nouvel opéra municipal (1919-1924)
-DTSTART;TZID=Europe/Paris:20261125T180000
-DTEND;TZID=Europe/Paris:20261125T190000
-UID:c91cadf6b09b@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/89766287_lheritage-de-castel-
- le-nouvel-opera-municipal-1919-1924
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/89766287
- _lheritage-de-castel-le-nouvel-opera-municipal-1919-1924
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:On sleep or the Fear of It
-DTSTART;TZID=Europe/Paris:20261125T183000
-DTEND;TZID=Europe/Paris:20261125T203000
-UID:3c7bf01cd27d@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:À propos de sommeil\, de repos\, de rêves\, mais aussi de co
- rps\, de traumatisme et de crise politique... Une proposition de Les Renco
- ntres à l'échelle - B/P et Librairie de la Friche\nPrix : Gratuit !\nhtt
- ps://www.lafriche.org/evenements/on-sleep-or-the-fear-of-it/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/on-sleep-or-the-fear-of-it/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Odes Zaux Zoizeaux" suivi de "Climats"\, épopé
- e de Laurent Grisel
-DTSTART;TZID=Europe/Paris:20261125T190000
-DTEND;TZID=Europe/Paris:20261125T210000
-UID:6770d7080978@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Odes-Zaux-Zoizea
- ux-suivi-de-Climats-epopee-de-Laurent-Grisel
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Odes-Zaux-Zoizeaux-suivi
- -de-Climats-epopee-de-Laurent-Grisel
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cœurs Sombres | Olivia de Jacqueline Audry
-DTSTART;TZID=Europe/Paris:20261125T193000
-DTEND;TZID=Europe/Paris:20261125T213000
-UID:af0b11907a9f@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/coeurs-sombres-olivia-de-jacqueline
- -audry/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/coeurs-sombres-olivia-de-jacqueline-audry/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:6 + (1+1+1) / Morellet mis à neuf
@@ -631,6 +456,19 @@ LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/familytech-10/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Report du spectacle Tic-Tac et de la Boum le 2 décembre
+DTSTART;TZID=Europe/Paris:20261128T100000
+DTEND;TZID=Europe/Paris:20261128T180000
+UID:ecaf546f10b9@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/10100352_report-du-spectacle-
+ tic-tac-et-de-la-boum-le-2-decembre
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/10100352
+ _report-du-spectacle-tic-tac-et-de-la-boum-le-2-decembre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Primed : le festival de la Méditerranée en Images
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261206
@@ -718,18 +556,6 @@ CATEGORIES:culture
 DESCRIPTION:https://mucem.org/evenement/un-objet-une-histoire/
 LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/un-objet-une-histoire/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Boum avec DJ Bubulle
-DTSTART;TZID=Europe/Paris:20261128T170000
-DTEND;TZID=Europe/Paris:20261128T190000
-UID:108770dc9b38@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
- a.com/bibliotheque-lalcazar-marseille/events/30125856_boum-avec-dj-bubulle
-LOCATION:Alcazar - Bibliothèque de l'Alcazar
-URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/30125856
- _boum-avec-dj-bubulle
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cercle Catalan de Marseille x Festival Òmnium de Cinéma | Carto
@@ -1450,8 +1276,8 @@ DTSTART;TZID=Europe/Paris:20261205T180000
 DTEND;TZID=Europe/Paris:20261205T200000
 UID:3ced4afbe64a@marseille-agenda
 CATEGORIES:cinema
-DESCRIPTION:Ciné-debat organisé par le ciné-club du Planning Familiale 
- 13\nhttps://cinemalegyptis.org/films/naissance-des-pieuvres/
+DESCRIPTION:Ciné-debat organisé par le ciné-club du Planning Familial 1
+ 3\nhttps://cinemalegyptis.org/films/naissance-des-pieuvres/
 LOCATION:Le Gyptis
 URL:https://cinemalegyptis.org/films/naissance-des-pieuvres/
 END:VEVENT
@@ -1631,6 +1457,18 @@ DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-regards-et-pers
 LOCATION:Vidéodrome 2
 URL:https://www.videodrome2.fr/festival-trans-gaze-regards-et-perspectives
  -trans-3e-edition/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Projection : CCN Ballet national de Marseille direction (LA)HORDE
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261220
+UID:a7e386e3d0ca@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/projection-ccn-bal
+ let-national-de-marseille-direction-lahorde/
+LOCATION:Mucem - J4
+URL:https://mucem.org/evenement/projection-ccn-ballet-national-de-marseill
+ e-direction-lahorde/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Aide aux devoirs
@@ -2288,6 +2126,19 @@ DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/rencontre-national
  e-des-ethnopoles-2026/
 LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/rencontre-nationale-des-ethnopoles-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Éveil musical
+DTSTART;TZID=Europe/Paris:20261216T100000
+DTEND;TZID=Europe/Paris:20261216T110000
+UID:693633ecffc7@marseille-agenda
+CATEGORIES:culture
+DESCRIPTION:Événement des bibliothèques de Marseille\nhttps://openagend
+ a.com/bibliotheque-lalcazar-marseille/events/45582784_eveil-musical-375425
+ 1
+LOCATION:Alcazar - Bibliothèque de l'Alcazar
+URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/45582784
+ _eveil-musical-3754251
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Aide aux devoirs

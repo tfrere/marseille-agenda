@@ -33,11 +33,9 @@ DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20270111
 UID:e0d08c10845b@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la
- -vieille-charite
+DESCRIPTION:https://musees.marseille.fr/adrien-vescovi
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/adrien-vescovi?museum=centre-de-la-vieille
- -charite
+URL:https://musees.marseille.fr/adrien-vescovi
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHANTS Afro cubanos
@@ -103,11 +101,9 @@ DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261214
 UID:aa4d4ed7bbb1@marseille-agenda
 CATEGORIES:culture
-DESCRIPTION:https://musees.marseille.fr/souffles-terrestres?museum=centre-
- de-la-vieille-charite
+DESCRIPTION:https://musees.marseille.fr/souffles-terrestres
 LOCATION:[mac] Musée d'art contemporain
-URL:https://musees.marseille.fr/souffles-terrestres?museum=centre-de-la-vi
- eille-charite
+URL:https://musees.marseille.fr/souffles-terrestres
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cartographie sensible et mémoires recomposées
@@ -227,80 +223,6 @@ DESCRIPTION:Exposition de microédition Une proposition de Le Dernier Cri
  -daisuke-ichiba/
 LOCATION:Friche la Belle de Mai
 URL:https://www.lafriche.org/evenements/le-mauvais-oeil-89-daisuke-ichiba/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GuérillIA. Mener la bataille culturelle de l’intelligence artif
- icielle
-DTSTART;TZID=Europe/Paris:20261126T180000
-DTEND;TZID=Europe/Paris:20261126T200000
-UID:723128a467a7@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Dans cet essai paru aux Éditions du Seuil\, Christophe Payet 
- invite à s'emparer de l'IA face aux géants de la tech. Une proposition d
- e FIVIA\, CHRONIQUES et Librairie de la Friche\nPrix : Gratuit !\nhttps://
- www.lafriche.org/evenements/guerillia-mener-la-bataille-culturelle-de-lint
- elligence-artificielle/
-LOCATION:Friche la Belle de Mai
-URL:https://www.lafriche.org/evenements/guerillia-mener-la-bataille-cultur
- elle-de-lintelligence-artificielle/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Old Oak
-DTSTART;TZID=Europe/Paris:20261126T190000
-DTEND;TZID=Europe/Paris:20261126T210000
-UID:6208e9b1e806@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:Projection gratuite dans le cadre du Festival des Solidarités
- \, porté par la Mairie des 2ème et 3ème arrondissements de Marseille Pr
- écédée de la projection du court-métrage PAPA OMRI de Monia Kashmire\n
- https://cinemalegyptis.org/films/the-old-oak/
-LOCATION:Le Gyptis
-URL:https://cinemalegyptis.org/films/the-old-oak/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Présentation de "Nouvelle cartographie électorale de la France"
-DTSTART;TZID=Europe/Paris:20261126T190000
-DTEND;TZID=Europe/Paris:20261126T210000
-UID:8e06cb2efefc@marseille-agenda
-CATEGORIES:milite
-DESCRIPTION:https://transit-librairie.org/Presentation-de-Nouvelle-cartogr
- aphie-electorale-de-la-France
-LOCATION:Transit librairie
-URL:https://transit-librairie.org/Presentation-de-Nouvelle-cartographie-el
- ectorale-de-la-France
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LA ROUTE EST LONGUE – Une avant-première
-DTSTART;TZID=Europe/Paris:20261126T193000
-DTEND;TZID=Europe/Paris:20261126T213000
-UID:d4d4a9d3c0f2@marseille-agenda
-CATEGORIES:cinema
-DESCRIPTION:https://www.videodrome2.fr/la-route-est-longue-une-avant-premi
- ere/
-LOCATION:Vidéodrome 2
-URL:https://www.videodrome2.fr/la-route-est-longue-une-avant-premiere/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Festival JEST - Jeudi 26 novembre
-DTSTART;TZID=Europe/Paris:20261126T203000
-DTEND;TZID=Europe/Paris:20261126T223000
-UID:3ecdf9425d20@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : À partir de 10€ (hors frais)\nhttps://www.instagram.
- com/p/DfAAVaGDc07/
-LOCATION:Friche la Belle de Mai - Petit plateau\, Friche la Belle de Mai
-URL:https://www.instagram.com/p/DfAAVaGDc07/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SOIRÉE DE LANCEMENT SUPERNOVA
-DTSTART;TZID=Europe/Paris:20261126T203000
-DTEND;TZID=Europe/Paris:20261126T223000
-UID:d1e2a52e5057@marseille-agenda
-CATEGORIES:bars
-DESCRIPTION:Prix : 10€\nhttps://lemolotov.com/events/soiree-de-lancement
- -supernova/
-LOCATION:Le Molotov - @ Le Molotov
-URL:https://lemolotov.com/events/soiree-de-lancement-supernova/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Françé
@@ -1603,7 +1525,7 @@ URL:https://openagenda.com/bibliotheque-lalcazar-marseille/events/57713605
  _cine-philo-blade-runner
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Festival Trans Gaze | Ecotransféminismes [lsf]
+SUMMARY:Festival Trans Gaze | Ecotransféminismes [LSF]
 DTSTART;TZID=Europe/Paris:20261210T180000
 DTEND;TZID=Europe/Paris:20261210T200000
 UID:6b4d79adadbc@marseille-agenda
@@ -1640,8 +1562,8 @@ URL:https://www.videodrome2.fr/festival-trans-gaze-duas-vezes-joao-liberad
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Trans Gaze | Atelier de Labo-fiction au Centre LGBTQIA+
-DTSTART;TZID=Europe/Paris:20261211T120000
-DTEND;TZID=Europe/Paris:20261211T140000
+DTSTART;TZID=Europe/Paris:20261211T130000
+DTEND;TZID=Europe/Paris:20261211T150000
 UID:271b0f298b2d@marseille-agenda
 CATEGORIES:cinema
 DESCRIPTION:https://www.videodrome2.fr/festival-trans-gaze-atelier-de-labo
@@ -1651,7 +1573,7 @@ URL:https://www.videodrome2.fr/festival-trans-gaze-atelier-de-labo-fiction
  -au-centre-lgbtqia/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Festival Trans Gaze | Carte blanche au South Asian Gang [lsf]
+SUMMARY:Festival Trans Gaze | Carte blanche au South Asian Gang [LSF]
 DTSTART;TZID=Europe/Paris:20261211T170000
 DTEND;TZID=Europe/Paris:20261211T190000
 UID:acb08c9cdf37@marseille-agenda
@@ -1663,7 +1585,7 @@ URL:https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-au-south-
  asian-gang-lsf/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Festival Trans Gaze | Carte blanche au festival 9issassna [lsf]
+SUMMARY:Festival Trans Gaze | Carte blanche au festival 9issassna [LSF]
 DTSTART;TZID=Europe/Paris:20261211T193000
 DTEND;TZID=Europe/Paris:20261211T213000
 UID:3732cdfa951f@marseille-agenda
@@ -1808,17 +1730,6 @@ LOCATION:Mucem - Fort Saint-Jean / MucemLab
 URL:https://mucem.org/evenement/la-commission-denquete/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Performance (LA)HORDE x BNM
-DTSTART;TZID=Europe/Paris:20261212T140000
-DTEND;TZID=Europe/Paris:20261212T163000
-UID:67a3680cb959@marseille-agenda
-CATEGORIES:culture
-DESCRIPTION:Prix : Gratuit\nhttps://mucem.org/evenement/performance-lahord
- e-x-bnm/
-LOCATION:Mucem - J4
-URL:https://mucem.org/evenement/performance-lahorde-x-bnm/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Atelier danse contemporaine et danses traditionnelles géorgiennes
 DTSTART;TZID=Europe/Paris:20261212T143000
 DTEND;TZID=Europe/Paris:20261212T170000
@@ -1865,7 +1776,7 @@ LOCATION:Mucem - J4
 URL:https://mucem.org/evenement/rever-la-mediterranee/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Festival Trans Gaze | No Ordinary Man + Cherchez le garçon [lsf]
+SUMMARY:Festival Trans Gaze | No Ordinary Man + Cherchez le garçon [LSF]
 DTSTART;TZID=Europe/Paris:20261212T160000
 DTEND;TZID=Europe/Paris:20261212T180000
 UID:ee9c191affeb@marseille-agenda
@@ -1917,7 +1828,7 @@ URL:https://marseillecinemalabaleine.cine.boutique/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Trans Gaze | Carte blanche à Aymé Riandey d’ArcHIViv
- antEs [lsf]
+ antEs [LSF]
 DTSTART;TZID=Europe/Paris:20261212T190000
 DTEND;TZID=Europe/Paris:20261212T210000
 UID:6927eb100b7b@marseille-agenda
@@ -1930,7 +1841,7 @@ URL:https://www.videodrome2.fr/festival-trans-gaze-carte-blanche-a-ayme-ri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Trans Gaze | Hija de Perra : tan inmunda y tan feliz + H
- omecoming Queenz [lsf]
+ omecoming Queenz [LSF]
 DTSTART;TZID=Europe/Paris:20261212T213000
 DTEND;TZID=Europe/Paris:20261212T233000
 UID:dcc707fb5f34@marseille-agenda
@@ -1980,7 +1891,7 @@ URL:https://www.videodrome2.fr/festival-trans-gaze-plateau-radio-1-libre-a
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Festival Trans Gaze | Plateau radio 2 : Corps contraints avec Har
- riet de G + Projection de Rasureitor: Peluquería disidente [lsf]
+ riet de G + Projection de Rasureitor: Peluquería disidente [LSF]
 DTSTART;TZID=Europe/Paris:20261213T183000
 DTEND;TZID=Europe/Paris:20261213T203000
 UID:8b086f1d6ce5@marseille-agenda
@@ -4903,8 +4814,8 @@ URL:https://www.lafriche.org/evenements/entrez-libres-7/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrez libres
-DTSTART;VALUE=DATE:20270818
-DTEND;VALUE=DATE:20270822
+DTSTART;TZID=Europe/Paris:20270818T153000
+DTEND;TZID=Europe/Paris:20270818T173000
 UID:74994058c556@marseille-agenda
 CATEGORIES:culture
 DESCRIPTION:Pendant la Biennale des Imaginaires Numériques\, le MédiaLab
